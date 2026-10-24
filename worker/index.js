@@ -27,6 +27,23 @@ export function extractLinks(html, text) {
   return links;
 }
 
+/** Plain text from HTML, for messages that have no text/plain part. */
+export function htmlToText(html) {
+  return html
+    .replace(/<(script|style|head)\b[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<br\s*\/?>|<\/(p|div|h[1-6]|li|tr|table)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&rsquo;|&lsquo;/g, "'")
+    .replace(/[ \t\u00a0]+/g, ' ')
+    .replace(/ *\n[\s]*/g, '\n')
+    .trim();
+}
+
 export default {
   async fetch() {
     return new Response('Not found', { status: 404 });
@@ -46,7 +63,7 @@ export default {
       from: email.from ?? null,
       subject: email.subject ?? '',
       date: email.date ?? null,
-      text: (email.text ?? '').slice(0, MAX_TEXT),
+      text: (email.text?.trim() ? email.text : htmlToText(email.html ?? '')).slice(0, MAX_TEXT),
       links: extractLinks(email.html ?? '', email.text ?? ''),
     };
     // Keys sort chronologically; the dashboard shows subject and sender as metadata.

@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import PostalMime from 'postal-mime';
-import worker, { extractLinks } from './index.js';
+import worker, { extractLinks, htmlToText } from './index.js';
 
 const raw = [
   'From: Newsletter <news@example.com>',
@@ -50,4 +50,9 @@ test('email handler stores parsed message in KV', async () => {
   assert.equal(stored[0].value.from.address, 'news@example.com');
   assert.equal(stored[0].value.links.length, 2);
   assert.equal(stored[0].opts.metadata.subject, 'Tjedni pregled — AI');
+});
+
+test('htmlToText strips markup and keeps line breaks', () => {
+  const html = '<html><head><style>p{}</style></head><body><p>Welcome to <b>Nenad&#39;s NL</b></p><p>Read&nbsp;more &amp; share</p></body></html>';
+  assert.equal(htmlToText(html), "Welcome to Nenad's NL\nRead more & share");
 });
