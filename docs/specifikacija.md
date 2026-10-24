@@ -188,6 +188,16 @@ Okvirne skupine izvora:
 | 5 | Interni pilot 2 tjedna: točnost, duplikati, troškovi, ispadi izvora | pouzdan proces |
 | 6 | Naziv, domena, HTTPS, SEO, analitika, početni sadržaj | javno lansiranje |
 
+## 10a. Plan faze 4 (dogovoreno, čeka 3–5 dana podataka iz prikupljanja)
+
+1. **Dobavljač AI modela** — procjena troška na stvarnom obujmu iz `data/state/runs.jsonl`; urednik otvara račun i API ključ.
+2. **AI obrada** — ocjena relevantnosti (jeftini model), nacrt članka u dogovorenom formatu (jači model): sažetak, Why it matters, Who should care, kategorije, važnost, prijedlog kartice; povezivanje iste vijesti iz više izvora.
+3. **Nacrti kao Pull Requestovi** — jedan PR po vijesti, urednik je zatražen kao recenzent i dodijeljen (obavijest u GitHub aplikaciji).
+4. **Newsletteri kao izvori** — adresa `sources@datagovernancesignal.com`; Cloudflare Email Worker sprema izdanja, automatizacija vadi poveznice. Članci se pišu iz izvornog članka, uz navod „via …” za newsletter. Prvi: newsletter Nenada Bakića (urednik pretplaćuje `sources@`).
+5. **Substack izvori** (EU AI Act Newsletter, Modern Data 101) blokiraju GitHub — dohvat preko Cloudflare posrednika.
+6. **AI ilustracije** za vijesti važnosti 4–5 (opcija C), uz odobrenje urednika.
+7. **Stranica Privacy** (Cloudflare Web Analytics bez kolačića, newsletter) — prije lansiranja.
+
 ## 11. Kriteriji uspjeha
 
 **Operativni (od lansiranja):**
@@ -210,6 +220,7 @@ Okvirne skupine izvora:
 - [x] E-mail editor@datagovernancesignal.com (Cloudflare Email Routing, prosljeđivanje na Gmail)
 - [ ] Provjera žiga (EUIPO/USPTO)
 - [ ] Dobavljač AI modela (faza 4)
-- [ ] Newsletter servis (faza 2)
+- [ ] Newsletter servis (prije lansiranja)
+- [x] Statistika posjeta: Cloudflare Web Analytics (bez kolačića)
 - [x] Hosting: Cloudflare Pages (statična stranica, Astro)
 - [ ] Dopuna kataloga izvorima koje već pratiš (vidi „Što nedostaje” u katalogu)
