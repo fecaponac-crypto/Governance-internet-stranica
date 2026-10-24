@@ -17,6 +17,9 @@ sources:
     title: "Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million"
     url: https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eu-85-million
 related: [italy-fines-iqvia-health-data-not-anonymous]
+card:
+  figure: "NOK 92M"
+  caption: "Fine for Microsoft’s Xandr over Grindr users’ data"
 sample: true
 ---
 

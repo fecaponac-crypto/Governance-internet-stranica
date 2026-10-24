@@ -14,6 +14,9 @@ sources:
     url: https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents/
     primary: true
 related: []
+card:
+  figure: "Steward review"
+  caption: "Google’s catalog proposes context fixes; stewards approve"
 sample: true
 ---
 

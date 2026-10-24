@@ -16,6 +16,9 @@ sources:
     title: "UK regulator launches call for evidence on agentic AI"
     url: https://www.privacyworld.blog/2026/10/uk-regulator-launches-call-for-evidence-on-agentic-ai/
 related: [council-backs-gdpr-carve-out-for-ai]
+card:
+  figure: "20 Nov 2026"
+  caption: "Deadline for the UK call for evidence on agentic AI"
 sample: true
 ---
 

@@ -6,6 +6,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
 import { categoryById, SITE } from '../../data/site';
 import { getArticles, formatDate, isoDate, type Article } from '../../utils/articles';
+import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
 
 export async function getStaticPaths() {
   const articles = await getArticles();
@@ -36,10 +37,11 @@ const jsonLd = {
   datePublished: isoDate(data.date),
   publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
   isBasedOn: data.sources.map((s) => s.url),
+  image: cardAbsoluteUrl(article),
 };
 ---
 
-<Base title={data.title} description={data.dek} type="article">
+<Base title={data.title} description={data.dek} type="article" image={cardAbsoluteUrl(article)}>
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
   <article class="wrap" data-pagefind-body>
     <header class="head">
@@ -58,6 +60,9 @@ const jsonLd = {
 
     <div class="layout">
       <div class="main">
+        <figure class="hero" data-pagefind-ignore>
+          <img src={cardUrl(article)} width={CARD_WIDTH} height={CARD_HEIGHT} alt={`${data.card?.figure ?? data.type}: ${data.card?.caption ?? data.dek}`} />
+        </figure>
         {
           data.sample && (
             <p class="sample" data-pagefind-ignore>
@@ -176,6 +181,14 @@ const jsonLd = {
     grid-template-columns: minmax(0, var(--measure)) minmax(0, 260px);
     gap: 3.5rem;
     padding-top: 0.75rem;
+  }
+  .hero {
+    margin: 0 0 1.5rem;
+  }
+  .hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
   .sample {
     font-size: 0.82rem;

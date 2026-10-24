@@ -2,10 +2,11 @@
 import Importance from './Importance.astro';
 import { categoryById } from '../data/site';
 import { articleUrl, formatDate, isoDate, type Article } from '../utils/articles';
+import { cardUrl, CARD_WIDTH, CARD_HEIGHT } from '../utils/card';
 
 interface Props {
   article: Article;
-  variant?: 'lead' | 'default' | 'compact';
+  variant?: 'lead' | 'stack' | 'default' | 'compact';
 }
 const { article, variant = 'default' } = Astro.props;
 const { data } = article;
@@ -14,6 +15,20 @@ const Heading = variant === 'lead' ? 'h2' : 'h3';
 ---
 
 <article class:list={['card', variant]}>
+  {
+    variant !== 'compact' && (
+      <a class="thumb" href={articleUrl(article)} tabindex="-1" aria-hidden="true">
+        <img
+          src={cardUrl(article)}
+          width={CARD_WIDTH}
+          height={CARD_HEIGHT}
+          alt=""
+          loading={variant === 'lead' ? 'eager' : 'lazy'}
+          decoding="async"
+        />
+      </a>
+    )
+  }
   <div class="top">
     <a class="eyebrow" href={`/category/${primary.id}/`}>{primary.short}</a>
     <Importance level={data.importance} showLabel={variant !== 'compact'} />
@@ -40,6 +55,34 @@ const Heading = variant === 'lead' ? 'h2' : 'h3';
     padding: 0 0 1.4rem;
     border-bottom: 1px solid var(--rule);
     margin-bottom: 1.4rem;
+  }
+  .thumb {
+    display: block;
+    margin-bottom: 0.9rem;
+  }
+  .thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .default {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 180px;
+    column-gap: 1.25rem;
+  }
+  .default > :not(.thumb) {
+    grid-column: 1;
+  }
+  .default .thumb {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+    margin: 0.2rem 0 0;
+  }
+  @media (max-width: 520px) {
+    .default {
+      grid-template-columns: minmax(0, 1fr) 104px;
+      column-gap: 0.9rem;
+    }
   }
   .top {
     display: flex;

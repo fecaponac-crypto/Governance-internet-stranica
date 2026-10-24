@@ -28,6 +28,13 @@ const articles = defineCollection({
       )
       .min(1),
     related: z.array(z.string()).default([]),
+    // News card: the key fact in large type plus a short caption.
+    card: z
+      .object({
+        figure: z.string().max(22),
+        caption: z.string().max(90),
+      })
+      .optional(),
     // Sample content created for the preview; hidden once preview mode ends.
     sample: z.boolean().default(false),
     draft: z.boolean().default(false),

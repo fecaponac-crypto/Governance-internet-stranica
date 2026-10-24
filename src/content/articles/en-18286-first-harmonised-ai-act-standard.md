@@ -13,6 +13,9 @@ sources:
     title: "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control"
     url: https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special
 related: [council-backs-gdpr-carve-out-for-ai]
+card:
+  figure: "EN 18286"
+  caption: "First harmonised standard under the EU AI Act"
 sample: true
 ---
 

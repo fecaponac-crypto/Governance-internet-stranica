@@ -14,6 +14,9 @@ sources:
     url: https://www.edpb.europa.eu/news/italian-dpa-fines-iqvia-eur-7-000-000-for-unlawful-processing-of-patients-health-data_en
     primary: true
 related: [norway-fines-xandr-joint-controller-consent]
+card:
+  figure: "EUR 7M"
+  caption: "Fine over an “anonymous” database of one million patients"
 sample: true
 ---
 

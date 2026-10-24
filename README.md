@@ -27,7 +27,11 @@ Requires Node.js >= 22.23.4 (see `.node-version`).
 
 Articles live in `src/content/articles/*.md`. Front matter is validated by `src/content.config.ts`:
 `title`, `date` (original news date), `dek`, `whyItMatters`, `categories`, `whoShouldCare`,
-`importance` (1–5), `type`, `region`, `sources` (mark primary sources), `related`, `sample`, `draft`.
+`importance` (1–5), `type`, `region`, `sources` (mark primary sources), `related`, `card`, `sample`, `draft`.
+
+Each article gets a 1200×630 news card at `/cards/<slug>.png` (`src/utils/card.ts`), used on the site
+and as the social preview image. `card.figure` is the key fact in large type (e.g. `NOK 92M`),
+`card.caption` one short line; without them the card falls back to the content type and standfirst.
 
 Categories are defined in `src/data/site.ts` and must match `data/sources.yaml`.
 

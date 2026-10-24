@@ -23,7 +23,7 @@ const counts = Object.fromEntries(
     <section class="hero" aria-label="Top stories">
       <div class="lead">{lead && <ArticleCard article={lead} variant="lead" />}</div>
       <div class="side">
-        {top.map((a) => <ArticleCard article={a} />)}
+        {top.map((a) => <ArticleCard article={a} variant="stack" />)}
       </div>
     </section>
 

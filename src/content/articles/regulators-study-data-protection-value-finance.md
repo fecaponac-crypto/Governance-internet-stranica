@@ -14,6 +14,9 @@ sources:
     url: https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes
     primary: true
 related: []
+card:
+  figure: "3 regulators"
+  caption: "Joint study links data governance to company value"
 sample: true
 ---
 

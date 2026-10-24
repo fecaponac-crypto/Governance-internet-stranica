@@ -13,6 +13,9 @@ sources:
     title: "EDPB Adopts Guidelines on the Interplay Between the DSA and the GDPR"
     url: https://www.hunton.com/privacy-and-cybersecurity-law-blog/edpb-adopts-guidelines-on-the-interplay-between-the-dsa-and-the-gdpr
 related: [council-backs-gdpr-carve-out-for-ai]
+card:
+  figure: "DSA + GDPR"
+  caption: "EDPB Guidelines 3/2025 on how the two laws interact"
 sample: true
 ---
 

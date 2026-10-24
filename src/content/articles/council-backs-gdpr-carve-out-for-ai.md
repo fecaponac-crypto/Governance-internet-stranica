@@ -13,6 +13,9 @@ sources:
     title: "AI: EU Member States approve “digital expropriation” for AI companies"
     url: https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies
 related: [ico-report-foundation-models-agentic-ai, en-18286-first-harmonised-ai-act-standard]
+card:
+  figure: "Article 88c"
+  caption: "Council backs “AI” as a default legitimate interest under the GDPR"
 sample: true
 ---
 
