@@ -9,7 +9,7 @@
 | `state/runs.jsonl` | One summary line per run |
 | `reports/latest.md` | **Inflow report** — new items of the last 48 hours and source problems |
 
-Written by `pipeline/ingest.py`, run three times a day by `.github/workflows/ingest.yml`.
+Written by `pipeline/ingest.py`, run every 3 hours by `.github/workflows/ingest.yml`.
 
 Item `status`: `baseline` = present when a source was first added (not news), `new` = appeared later.
 `duplicate_of` points to an earlier item from another source with a near-identical title.

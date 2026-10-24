@@ -2,8 +2,9 @@ name: Ingest sources and draft articles
 
 on:
   schedule:
-    # 05:17, 11:17 and 17:17 UTC (07:17, 13:17, 19:17 in Zagreb during summer time)
-    - cron: '17 5,11,17 * * *'
+    # Every 3 hours at :17 (UTC). GitHub can delay or skip scheduled runs under load,
+    # so a frequent schedule keeps a missed run from leaving long gaps.
+    - cron: '17 */3 * * *'
   workflow_dispatch:
     inputs:
       max_drafts:
