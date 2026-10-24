@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+const updated = '24 October 2026';
+---
+
+<Base title="Privacy" description="What data Data Governance Signal processes about visitors and readers, and why.">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Privacy</p>
+      <h1>Privacy notice</h1>
+      <p>A portal about data governance should practise what it covers. Here is exactly what we process and why.</p>
+    </header>
+    <div class="prose">
+      <h2>In short</h2>
+      <ul>
+        <li>No cookies, no advertising trackers, no profiling.</li>
+        <li>Visitor statistics are aggregated and do not identify you.</li>
+        <li>We only hold your email address if you write to us or, once it opens, subscribe to the newsletter.</li>
+      </ul>
+
+      <h2>Who is responsible</h2>
+      <p>
+        Data Governance Signal is the controller for the processing described here. Contact:
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+      </p>
+
+      <h2>Visiting the site</h2>
+      <p>
+        The site is delivered by Cloudflare, which processes technical data such as your IP address and browser details to
+        serve pages and protect the site against attacks. This is necessary to run the site (legitimate interest, Article
+        6(1)(f) GDPR).
+      </p>
+      <p>
+        We measure visits with <strong>Cloudflare Web Analytics</strong>. It does not set cookies, does not use local
+        storage and does not build profiles of individuals. We see only aggregated figures such as page views, referring
+        sites, countries and device types. We use them to understand which content is useful (legitimate interest).
+      </p>
+
+      <h2>Writing to us</h2>
+      <p>
+        If you email us, we use your address and message only to reply and to handle your request, for example a
+        correction. We keep the correspondence as long as needed for that purpose.
+      </p>
+
+      <h2>Newsletter</h2>
+      <p>
+        The Weekly Briefing has not launched yet and the sign-up form does not store addresses. When it launches, this
+        notice will name the email service we use, and you will be able to unsubscribe at any time from every email. We will
+        not sell or share subscriber addresses, and we will not use tracking pixels.
+      </p>
+
+      <h2>Links to sources</h2>
+      <p>
+        Articles link to original sources on other websites. Those sites have their own privacy practices, which we do not
+        control.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>
+        You can ask for access to, correction or deletion of personal data we hold about you, object to processing based
+        on legitimate interest, or lodge a complaint with a data protection authority. Write to
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+      </p>
+
+      <p class="updated">Last updated: {updated}</p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .prose h2 {
+    font-size: 1.3rem;
+    margin: 2rem 0 0.6rem;
+  }
+  .prose ul {
+    padding-left: 1.2rem;
+  }
+  .updated {
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    color: var(--ink-3);
+    margin-top: 2rem;
+  }
+</style>

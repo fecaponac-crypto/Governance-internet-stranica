@@ -56,3 +56,25 @@ test('htmlToText strips markup and keeps line breaks', () => {
   const html = '<html><head><style>p{}</style></head><body><p>Welcome to <b>Nenad&#39;s NL</b></p><p>Read&nbsp;more &amp; share</p></body></html>';
   assert.equal(htmlToText(html), "Welcome to Nenad's NL\nRead more & share");
 });
+
+test('fetch relays only allowlisted feeds', async () => {
+  const calls = [];
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async (url) => {
+    calls.push(url);
+    return new Response('<rss></rss>', { headers: { 'Content-Type': 'application/rss+xml' } });
+  };
+  try {
+    const ok = await worker.fetch(new Request('https://datagovernancesignal.com/feeds/modern-data-101'));
+    assert.equal(ok.status, 200);
+    assert.equal(await ok.text(), '<rss></rss>');
+    assert.deepEqual(calls, ['https://moderndata101.substack.com/feed']);
+    const other = await worker.fetch(new Request('https://datagovernancesignal.com/feeds/https%3A%2F%2Fevil.example'));
+    assert.equal(other.status, 404);
+    const unknown = await worker.fetch(new Request('https://datagovernancesignal.com/feeds/unknown'));
+    assert.equal(unknown.status, 404);
+    assert.equal(calls.length, 1);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});

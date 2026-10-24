@@ -1,6 +1,8 @@
 // Cloudflare Worker for datagovernancesignal.com.
 // - Web requests are served from the static assets in dist/ (see wrangler.jsonc);
 //   this script only runs when no asset matches.
+// - /feeds/<id> relays a small allowlist of RSS feeds whose hosts block the GitHub
+//   runners that run the ingestion pipeline (Substack).
 // - Email sent to sources@datagovernancesignal.com (Email Routing → "Send to a Worker")
 //   is parsed and stored in the private SOURCES KV namespace for the pipeline.
 import PostalMime from 'postal-mime';
@@ -44,8 +46,35 @@ export function htmlToText(html) {
     .trim();
 }
 
+// Only these feeds can be relayed; anything else is a 404.
+export const RELAYED_FEEDS = {
+  'eu-ai-act-newsletter': 'https://artificialintelligenceact.substack.com/feed',
+  'modern-data-101': 'https://moderndata101.substack.com/feed',
+};
+const FEED_CACHE_SECONDS = 1800;
+
+async function relayFeed(id) {
+  const upstream = RELAYED_FEEDS[id];
+  if (!upstream) return new Response('Not found', { status: 404 });
+  const res = await fetch(upstream, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; DataGovernanceSignal/0.1; +https://datagovernancesignal.com/about/)' },
+    cf: { cacheTtl: FEED_CACHE_SECONDS, cacheEverything: true },
+  });
+  if (!res.ok) return new Response(`Upstream returned ${res.status}`, { status: 502 });
+  return new Response(res.body, {
+    headers: {
+      'Content-Type': res.headers.get('Content-Type') ?? 'application/rss+xml; charset=utf-8',
+      'Cache-Control': `public, max-age=${FEED_CACHE_SECONDS}`,
+      'X-Robots-Tag': 'noindex',
+    },
+  });
+}
+
 export default {
-  async fetch() {
+  async fetch(request) {
+    const { pathname } = new URL(request.url);
+    const match = pathname.match(/^\/feeds\/([a-z0-9-]+)\/?$/);
+    if (match && request.method === 'GET') return relayFeed(match[1]);
     return new Response('Not found', { status: 404 });
   },
 
