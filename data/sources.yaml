@@ -311,14 +311,14 @@ sources:
   - id: eu-ai-act-newsletter
     name: The EU AI Act Newsletter (Future of Life Institute)
     url: https://artificialintelligenceact.substack.com
-    feeds: [https://artificialintelligenceact.substack.com/feed]
+    feeds: [https://datagovernancesignal.com/feeds/eu-ai-act-newsletter]
     method: rss
     type: expert-media
     section: core
     categories: [regulation, ai-governance]
     reliability: 3
     priority: high
-    notes: Bi-weekly curated AI Act developments with links to primary sources.
+    notes: Bi-weekly curated AI Act developments with links to primary sources. Fetched via our Worker relay (/feeds/…) because Substack blocks GitHub runners; upstream https://artificialintelligenceact.substack.com/feed.
 
   - id: hunton-privacy
     name: Hunton Privacy & Information Security Law Blog
@@ -418,14 +418,14 @@ sources:
   - id: modern-data-101
     name: Modern Data 101
     url: https://moderndata101.substack.com
-    feeds: [https://moderndata101.substack.com/feed]
+    feeds: [https://datagovernancesignal.com/feeds/modern-data-101]
     method: rss
     type: expert-media
     section: core
     categories: [strategy, metadata]
     reliability: 2
     priority: low
-    notes: Data products and operating models.
+    notes: Data products and operating models. Fetched via our Worker relay (/feeds/…) because Substack blocks GitHub runners; upstream https://moderndata101.substack.com/feed.
 
   # ---------------------------------------------------------------- Analysts
 

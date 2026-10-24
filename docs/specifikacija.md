@@ -194,9 +194,9 @@ Okvirne skupine izvora:
 2. ✅ **AI obrada** (`pipeline/draft.py`) — ocjena relevantnosti (jeftini model), nacrt članka u dogovorenom formatu (jači model): sažetak, Why it matters, Who should care, kategorije, važnost, prijedlog kartice; povezivanje iste vijesti iz više izvora.
 3. ✅ **Nacrti kao Pull Requestovi** (push obavijest uredniku potvrđena 24. 10.) — jedan PR po vijesti, urednik je zatražen kao recenzent i dodijeljen (obavijest u GitHub aplikaciji).
 4. ⏸️ **Newsletteri kao izvori** (odgođeno 24. 10. na odluku urednika; `sources@` i pohrana ostaju aktivni, automatska obrada nije uključena) — adresa `sources@datagovernancesignal.com`; Cloudflare Email Worker sprema izdanja, automatizacija vadi poveznice. Članci se pišu iz izvornog članka, uz navod „via …” za newsletter. Prvi: newsletter Nenada Bakića (Substack) — `sources@` pretplaćen 24. 10. 2026., izdanja nedjeljom ujutro. Poveznice u e-mailu idu preko Substack/Mailgun preusmjeravanja (`email.mg-d0.substack.com/c/…`) — pipeline ih mora razriješiti do izvornog članka i preskočiti odjavu i interne Substack poveznice.
-5. **Substack izvori** (EU AI Act Newsletter, Modern Data 101) blokiraju GitHub — dohvat preko Cloudflare posrednika.
+5. ✅ **Substack izvori** (EU AI Act Newsletter, Modern Data 101) — dohvat preko Cloudflare posrednika `/feeds/<id>` (samo ta dva feeda).
 6. **AI ilustracije** za vijesti važnosti 4–5 (opcija C), uz odobrenje urednika.
-7. **Stranica Privacy** (Cloudflare Web Analytics bez kolačića, newsletter) — prije lansiranja.
+7. ✅ **Stranica Privacy** — `/privacy/`; prije lansiranja dopuniti pravni naziv voditelja obrade i servis za newsletter.
 
 ## 11. Kriteriji uspjeha
 
