@@ -38,7 +38,7 @@ Categories are defined in `src/data/site.ts` and must match `data/sources.yaml`.
 ### Preview mode
 
 `SITE.preview` in `src/data/site.ts` shows the preview banner and adds `noindex`.
-`public/robots.txt` blocks crawlers. At launch: set `preview: false`, remove `sample` articles,
+`public/robots.txt` blocks crawlers except link-preview bots (LinkedIn, X, Facebook/WhatsApp, Slack, Teams, Telegram, Discord). At launch: set `preview: false`, remove `sample` articles,
 and allow crawling in `robots.txt` (add `Sitemap: https://datagovernancesignal.com/sitemap-index.xml`).
 
 ### Deployment (Cloudflare Workers Builds)
