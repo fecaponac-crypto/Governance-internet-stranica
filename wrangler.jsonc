@@ -1,12 +1,16 @@
-// Cloudflare Workers deployment: serve the static site built by `npm run build`.
+// Cloudflare Workers deployment (Workers Builds runs `npm run build`, then `npx wrangler deploy`).
 // Without this file `wrangler deploy` auto-configures the project (adds the Astro
 // Cloudflare adapter and rebuilds), which breaks the build-time card renderer.
 {
   "name": "governance-internet-stranica",
+  // Handles email to sources@ (newsletters as sources) and requests with no matching asset.
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./dist",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  // Private store for incoming newsletters; created automatically on first deploy.
+  "kv_namespaces": [{ "binding": "SOURCES" }]
 }

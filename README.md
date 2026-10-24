@@ -48,3 +48,9 @@ and allow crawling in `robots.txt` (add `Sitemap: https://datagovernancesignal.c
 - Node version: taken from `.node-version`
 - Hosted as a Cloudflare Worker with static assets: `wrangler.jsonc` makes `npx wrangler deploy` upload `dist/`
   as-is (without it, wrangler auto-adds the Astro Cloudflare adapter and the card renderer fails)
+
+### Newsletters as sources (`sources@datagovernancesignal.com`)
+
+Cloudflare Email Routing sends mail for `sources@` to the Worker (`worker/index.js`), which parses it
+and stores sender, subject, text and links in the private `SOURCES` KV namespace (kept 120 days).
+Nothing is committed to this public repository. Tests: `node --test worker/index.test.mjs`.
