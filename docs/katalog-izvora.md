@@ -1,6 +1,6 @@
 # Katalog izvora — Data Governance Signal
 
-> Verzija 0.1 · provjereno 24. 10. 2026.
+> Verzija 0.2 · provjereno 24. 10. 2026. (prvo automatsko prikupljanje)
 > Strojno čitljiv katalog (koristi ga automatizacija): [`data/sources.yaml`](../data/sources.yaml)
 
 ## Sažetak
@@ -8,9 +8,10 @@
 | | Broj |
 |---|---|
 | Izvora ukupno | **53** (45 uži fokus, 8 šira rubrika) |
-| Automatski putem RSS-a (provjereno da radi) | **38** izvora / 39 feedova |
-| Scraping (nema RSS-a, stranica dostupna) | **12** |
-| Ručno praćenje (blokiraju automatski pristup) | **3** |
+| Automatski putem RSS-a (provjereno da radi) | **39** izvora / 40 feedova |
+| Scraping (nema RSS-a, čita se popis članaka) | **7** |
+| Ručno praćenje (blokiraju pristup ili JavaScript) | **6** |
+| Neaktivno (TDAN se spojio s DATAVERSITY-jem) | **1** |
 | Prioritet visok / srednji / nizak | 10 / 26 / 17 |
 
 Svaki RSS feed provjeren je stvarnim dohvatom: radi li, ima li objava i jesu li objave svježe.
@@ -82,6 +83,16 @@ Svaki RSS feed provjeren je stvarnim dohvatom: radi li, ima li objava i jesu li 
 - **Financijski sektor**: BCBS 239, EBA i DORA, ako bude interesa za tu publiku.
 - **Pojedinačni stručnjaci i newsletteri** iz data governance zajednice, osobito s LinkedIna. Njih treba odabrati ručno.
 - **Tvoji izvori**: dodaj sve što već pratiš i čemu vjeruješ.
+
+## Promjene u v0.2 (faza 3)
+
+- **DATAVERSITY** ima ispravan RSS za članke (`/articles/feed/`) → prebačen na RSS.
+- **TDAN** sada preusmjerava na DATAVERSITY → neaktivan.
+- **ICO**, **EDM Association**: popis vijesti učitava se JavaScriptom → ručno praćenje.
+- **Atlan**: blog više nema vijesti, nego vodiče → ručno, nizak prioritet.
+- **Tech Policy Press**: previše općih tema → uključen filter ključnih pojmova.
+- **FTC**: feed radi s korisničkim agentom našeg programa.
+- Za 7 izvora koji se čitaju sa stranice definirana su pravila prepoznavanja poveznica (`scrape.link_pattern`); CDO Magazine isključuje sponzorirani sadržaj.
 
 ## Sljedeći korak
 

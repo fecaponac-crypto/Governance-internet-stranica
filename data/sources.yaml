@@ -14,6 +14,9 @@
 #   reliability  3 = primary/official, 2 = expert secondary or vendor, 1 = general media
 #   priority     high | medium | low
 #   filter       true = noisy feed, keep only items matching `keywords` before AI scoring
+#   scrape       (method: scrape) link_pattern = regex for article URLs on the listing page,
+#                exclude = optional regex for URLs to skip (e.g. sponsored content)
+#   active       false = kept for reference, not fetched
 #   verified     date the feed/page was last checked
 
 verified_on: 2026-10-24
@@ -123,18 +126,20 @@ sources:
   - id: ico
     name: UK Information Commissioner's Office (ICO)
     url: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/
-    method: scrape
+    method: manual
     type: regulator
     section: core
     categories: [privacy, regulation, ai-governance]
     reliability: 3
     priority: high
-    notes: No working news RSS. gov.uk Atom feed exists but only carries formal reports.
+    notes: No working news RSS and the news list is rendered with JavaScript. Covered indirectly by Hunton, Privacy World and IAPP; check manually weekly.
 
   - id: irish-dpc
     name: Data Protection Commission (Ireland)
     url: https://www.dataprotection.ie/en/news-media/latest-news
     method: scrape
+    scrape:
+      link_pattern: '^https://www\.dataprotection\.ie/en/news-media/latest-news/[a-z0-9-]+$'
     type: regulator
     section: core
     categories: [privacy, regulation]
@@ -158,6 +163,8 @@ sources:
     name: ENISA — EU Agency for Cybersecurity
     url: https://www.enisa.europa.eu/news
     method: scrape
+    scrape:
+      link_pattern: '^https://www\.enisa\.europa\.eu/news/[a-z0-9-]+$'
     type: regulator
     section: core
     categories: [security, regulation]
@@ -175,7 +182,7 @@ sources:
     reliability: 3
     priority: medium
     filter: true
-    notes: Feed responded inconsistently during checks (200/404 depending on client) — re-verify in phase 3.
+    notes: Feed returns 404 to browser-like user agents but works for the pipeline's user agent (verified 2026-10-24).
 
   - id: nist
     name: NIST (US National Institute of Standards and Technology)
@@ -219,19 +226,21 @@ sources:
 
   - id: edm-association
     name: EDM Association (formerly EDM Council)
-    url: https://edmcouncil.org/news/
-    method: scrape
+    url: https://edmcouncil.org/news-press/
+    method: manual
     type: association
     section: core
     categories: [strategy, metadata]
     reliability: 3
     priority: medium
-    notes: DCAM, CDMC frameworks. RSS feed abandoned since 2025.
+    notes: DCAM, CDMC frameworks. RSS feed abandoned since 2025; news list is rendered with JavaScript.
 
   - id: iapp
     name: IAPP — International Association of Privacy Professionals
     url: https://iapp.org/news/
     method: scrape
+    scrape:
+      link_pattern: '^https://iapp\.org/news/a/[a-z0-9-]+$'
     type: association
     section: core
     categories: [privacy, ai-governance, regulation]
@@ -365,39 +374,46 @@ sources:
     categories: [ai-governance, regulation]
     reliability: 2
     priority: medium
+    filter: true
+    notes: Broad tech-policy coverage (elections, platforms, geopolitics); keyword filter required.
 
   - id: tdan
     name: TDAN.com — The Data Administration Newsletter
     url: https://tdan.com
-    method: scrape
+    active: false
+    method: manual
     type: expert-media
     section: core
     categories: [strategy, data-quality, metadata]
     reliability: 2
     priority: medium
-    notes: RSS endpoint exists but is empty. Practitioner columns on governance.
+    notes: tdan.com now redirects to DATAVERSITY (same publisher); covered by the dataversity source.
 
   - id: dataversity
     name: DATAVERSITY
     url: https://www.dataversity.net/articles/
-    method: scrape
+    feeds: [https://www.dataversity.net/articles/feed/]
+    method: rss
     type: expert-media
     section: core
     categories: [strategy, metadata, data-quality]
     reliability: 2
     priority: medium
-    notes: RSS endpoint exists but is empty (same publisher as TDAN).
+    notes: The main /feed/ is empty; articles are a custom post type with their own feed.
 
   - id: cdo-magazine
     name: CDO Magazine
     url: https://www.cdomagazine.tech/
     method: scrape
+    scrape:
+      link_pattern: '^https://www\.cdomagazine\.tech/[a-z0-9-]+/[a-z0-9-]+/?$'
+      exclude: '/branded-content/'
     type: expert-media
     section: core
     categories: [strategy]
     reliability: 2
     priority: medium
-    notes: Interviews with CDOs; cdomagazine.com is a parked domain — use .tech.
+    notes: Interviews with CDOs; cdomagazine.com is a parked domain — use .tech. Branded (sponsored) content is excluded.
 
   - id: modern-data-101
     name: Modern Data 101
@@ -507,6 +523,8 @@ sources:
     name: Alation Blog
     url: https://www.alation.com/blog/
     method: scrape
+    scrape:
+      link_pattern: '^https://www\.alation\.com/blog/[a-z0-9-]+/?$'
     type: vendor
     section: core
     categories: [metadata, market]
@@ -516,17 +534,20 @@ sources:
   - id: atlan
     name: Atlan Blog
     url: https://atlan.com/blog/
-    method: scrape
+    method: manual
     type: vendor
     section: core
     categories: [metadata, market]
     reliability: 2
-    priority: medium
+    priority: low
+    notes: The blog now holds evergreen guides rather than news; check announcements manually.
 
   - id: informatica
     name: Informatica Blog
     url: https://www.informatica.com/blogs.html
     method: scrape
+    scrape:
+      link_pattern: '^https://www\.informatica\.com/blogs/[a-z0-9-]+\.html$'
     type: vendor
     section: core
     categories: [mdm, data-quality, market]
@@ -572,6 +593,8 @@ sources:
     name: OneTrust Blog
     url: https://www.onetrust.com/blog/
     method: scrape
+    scrape:
+      link_pattern: '^https://www\.onetrust\.com/blog/[a-z0-9-]+/?$'
     type: vendor
     section: core
     categories: [privacy, ai-governance, market]

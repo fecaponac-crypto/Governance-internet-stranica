@@ -148,7 +148,7 @@ flowchart LR
 
 ## 9. Katalog izvora
 
-**v0.1 izrađen:** 53 izvora, od toga 38 s provjerenim RSS-om. Pregled je u [katalog-izvora.md](katalog-izvora.md), a podaci u [`data/sources.yaml`](../data/sources.yaml).
+**v0.2:** 53 izvora — 39 RSS, 7 čitanje stranice, 6 ručno, 1 neaktivan. Prikupljanje radi automatski 3× dnevno (`pipeline/ingest.py`, izvještaj u `data/reports/latest.md`). Pregled je u [katalog-izvora.md](katalog-izvora.md), a podaci u [`data/sources.yaml`](../data/sources.yaml).
 
 Cilj: **30–50 izvora** u prvoj verziji. Za svaki izvor bilježimo:
 
@@ -176,7 +176,7 @@ Okvirne skupine izvora:
 |------|---------|----------|
 | 1 ✅ | Specifikacija + katalog izvora | ovaj dokument + `data/sources.yaml` |
 | 2 ✅ | Kostur portala: početna, kategorije, članak, pretraživanje, Editorial Policy, prijava na newsletter | portal s probnim vijestima (lokalno / testna adresa) |
-| 3 | Dohvat izvora, duplikati, log grešaka | automatski dotok vijesti u arhivu |
+| 3 ✅ | Dohvat izvora, duplikati, log grešaka | automatski dotok vijesti u arhivu |
 | 4 | AI ocjena, sažetak, „why it matters", nacrti kao PR | AI priprema nacrte za odobrenje |
 | 5 | Interni pilot 2 tjedna: točnost, duplikati, troškovi, ispadi izvora | pouzdan proces |
 | 6 | Naziv, domena, HTTPS, SEO, analitika, početni sadržaj | javno lansiranje |

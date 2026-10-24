@@ -1,0 +1,55 @@
+name: Ingest sources
+
+on:
+  schedule:
+    # 05:17, 11:17 and 17:17 UTC (07:17, 13:17, 19:17 in Zagreb during summer time)
+    - cron: '17 5,11,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Test
+        working-directory: pipeline
+        run: python -m unittest -v
+
+      - name: Collect new items
+        run: python pipeline/ingest.py
+
+      - name: Commit results
+        run: |
+          git config user.name "dgs-ingest-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/archive data/state data/reports
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          new=$(tail -n 1 data/state/runs.jsonl | python -c "import json,sys; print(json.load(sys.stdin)['new'])")
+          # [skip ci] keeps Cloudflare Pages from rebuilding the site for data-only commits.
+          git commit -m "Ingest: ${new} new items [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
