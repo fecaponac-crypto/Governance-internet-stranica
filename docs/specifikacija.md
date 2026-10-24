@@ -144,6 +144,13 @@ flowchart LR
 
 **Zašto PR kao urednički alat:** nema dodatnog admin sučelja ni troška, svaka izmjena je zabilježena, a odobrenje je jedan klik. Ako se pokaže nepraktičnim, kasnije se može dodati jednostavno urednično sučelje.
 
+**Dogovoreni urednički tijek (odluka 24. 10. 2026.):**
+- jedan Pull Request po vijesti, naslov `Draft: <naslov> — Importance N`
+- obavijest u GitHub aplikaciji na mobitelu (urednik ju je instalirao)
+- **Merge** = objava · **Close** = odbacivanje · uređivanje datoteke u PR-u = ispravak prije objave
+- u opisu PR-a: sažetak, Why it matters, Who should care, kategorije, prijedlog kartice, izvori i AI obrazloženje ocjene
+- ako se nakon 1–2 tjedna pokaže nespretnim → vlastita urednička stranica (`/editor`, zaštićena prijavom)
+
 **Kontrola troškova:** dnevni i mjesečni limit potrošnje AI-ja u kodu; obrada staje i javlja grešku kad se limit dosegne.
 
 ## 9. Katalog izvora
