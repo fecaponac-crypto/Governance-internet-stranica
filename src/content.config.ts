@@ -27,6 +27,8 @@ const articles = defineCollection({
         }),
       )
       .min(1),
+    // Where the editor found the story (e.g. a newsletter); credited, not used as the source.
+    via: z.object({ name: z.string(), url: z.url() }).optional(),
     related: z.array(z.string()).default([]),
     // News card: the key fact in large type plus a short caption.
     card: z

@@ -123,6 +123,7 @@ export const NAV_CATEGORIES = ['regulation', 'privacy', 'ai-governance', 'strate
 export const CONTENT_TYPES = [
   'Regulation',
   'Enforcement',
+  'Supervision',
   'Guidance',
   'Standard',
   'Research',
@@ -130,6 +131,7 @@ export const CONTENT_TYPES = [
   'Acquisition',
   'Funding',
   'Case study',
+  'Announcement',
   'Event',
 ] as const;
 

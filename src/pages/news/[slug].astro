@@ -97,6 +97,13 @@ const jsonLd = {
               ))
             }
           </ol>
+          {
+            data.via && (
+              <p class="via">
+                Found via <a href={data.via.url} rel="noopener" target="_blank">{data.via.name}</a>
+              </p>
+            )
+          }
         </section>
 
         <p class="disclosure" data-pagefind-ignore>
@@ -229,6 +236,11 @@ const jsonLd = {
   }
   .sources li {
     margin-bottom: 0.55rem;
+  }
+  .via {
+    margin: 0.75rem 0 0;
+    font-size: 0.85rem;
+    color: var(--ink-3);
   }
   .primary {
     display: inline-block;
