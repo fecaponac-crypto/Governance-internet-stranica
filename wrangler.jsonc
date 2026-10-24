@@ -11,6 +11,8 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  // Starts the ingestion workflow on GitHub every 3 hours (UTC).
+  "triggers": { "crons": ["17 */3 * * *"] },
   // Private store for incoming newsletters; created automatically on first deploy.
   "kv_namespaces": [{ "binding": "SOURCES" }]
 }

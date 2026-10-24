@@ -3,6 +3,8 @@
 //   this script only runs when no asset matches.
 // - /feeds/<id> relays a small allowlist of RSS feeds whose hosts block the GitHub
 //   runners that run the ingestion pipeline (Substack).
+// - A Cron Trigger starts the ingestion workflow on GitHub (GitHub's own schedule
+//   proved unreliable); needs the GITHUB_TOKEN secret on the Worker.
 // - Email sent to sources@datagovernancesignal.com (Email Routing → "Send to a Worker")
 //   is parsed and stored in the private SOURCES KV namespace for the pipeline.
 import PostalMime from 'postal-mime';
@@ -70,7 +72,33 @@ async function relayFeed(id) {
   });
 }
 
+const WORKFLOW_DISPATCH_URL =
+  'https://api.github.com/repos/fecaponac-crypto/Governance-internet-stranica/actions/workflows/ingest.yml/dispatches';
+const WORKFLOW_REF = 'claude/data-intelligence-portal-plan-v46ux0';
+
+export async function dispatchWorkflow(env) {
+  if (!env.GITHUB_TOKEN) {
+    console.log('GITHUB_TOKEN secret not set; skipping workflow dispatch');
+    return;
+  }
+  const res = await fetch(WORKFLOW_DISPATCH_URL, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'User-Agent': 'datagovernancesignal-worker',
+    },
+    body: JSON.stringify({ ref: WORKFLOW_REF }),
+  });
+  if (res.status !== 204) throw new Error(`workflow dispatch failed: ${res.status} ${await res.text()}`);
+}
+
 export default {
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(dispatchWorkflow(env));
+  },
+
   async fetch(request) {
     const { pathname } = new URL(request.url);
     const match = pathname.match(/^\/feeds\/([a-z0-9-]+)\/?$/);

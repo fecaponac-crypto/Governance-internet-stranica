@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import PostalMime from 'postal-mime';
-import worker, { extractLinks, htmlToText } from './index.js';
+import worker, { extractLinks, htmlToText, dispatchWorkflow } from './index.js';
 
 const raw = [
   'From: Newsletter <news@example.com>',
@@ -74,6 +74,26 @@ test('fetch relays only allowlisted feeds', async () => {
     const unknown = await worker.fetch(new Request('https://datagovernancesignal.com/feeds/unknown'));
     assert.equal(unknown.status, 404);
     assert.equal(calls.length, 1);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});
+
+test('dispatchWorkflow posts to the GitHub API with the token, and skips without one', async () => {
+  const calls = [];
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async (url, init) => {
+    calls.push({ url, init });
+    return new Response(null, { status: 204 });
+  };
+  try {
+    await dispatchWorkflow({});
+    assert.equal(calls.length, 0);
+    await dispatchWorkflow({ GITHUB_TOKEN: 't0k' });
+    assert.equal(calls.length, 1);
+    assert.match(calls[0].url, /actions\/workflows\/ingest\.yml\/dispatches$/);
+    assert.equal(calls[0].init.headers.Authorization, 'Bearer t0k');
+    assert.deepEqual(JSON.parse(calls[0].init.body), { ref: 'claude/data-intelligence-portal-plan-v46ux0' });
   } finally {
     globalThis.fetch = realFetch;
   }
