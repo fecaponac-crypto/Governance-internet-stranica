@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-24T14:07:23Z** · sources checked: 46 · failed: 0 · new items this run: 0
+Last run: **2026-10-24T14:08:41Z** · sources checked: 46 · failed: 2 · new items this run: 0
 
 ## New items, last 48 hours (0)
 
@@ -8,7 +8,8 @@ _No new items._
 
 ## Source problems
 
-_None._
+- **The EU AI Act Newsletter (Future of Life Institute)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://artificialintelligenceact.substack.com/feed`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://moderndata101.substack.com/feed`
 
 ## Check manually (weekly)
 
