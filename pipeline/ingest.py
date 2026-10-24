@@ -40,6 +40,8 @@ STATE = DATA / "state"
 REPORTS = DATA / "reports"
 
 USER_AGENT = "Mozilla/5.0 (compatible; DataGovernanceSignal/0.1; +https://datagovernancesignal.com/about/)"
+# Some hosts (e.g. Substack) refuse requests from cloud runners with a bot user agent.
+FALLBACK_USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 TIMEOUT = 25
 MAX_AGE_DAYS = 30  # ignore feed items published earlier than this
 SEEN_RETENTION_DAYS = 180
@@ -153,6 +155,8 @@ def get(url: str) -> requests.Response:
     for attempt in range(2):
         try:
             r = session.get(url, timeout=TIMEOUT)
+            if r.status_code == 403:
+                r = session.get(url, timeout=TIMEOUT, headers={"User-Agent": FALLBACK_USER_AGENT})
             r.raise_for_status()
             return r
         except requests.RequestException as e:
