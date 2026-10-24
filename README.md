@@ -41,8 +41,10 @@ Categories are defined in `src/data/site.ts` and must match `data/sources.yaml`.
 `public/robots.txt` blocks crawlers. At launch: set `preview: false`, remove `sample` articles,
 and allow crawling in `robots.txt` (add `Sitemap: https://datagovernancesignal.com/sitemap-index.xml`).
 
-### Deployment (Cloudflare Pages)
+### Deployment (Cloudflare Workers Builds)
 
 - Build command: `npm run build` (or `npx astro build` — the search index is built by an Astro integration)
 - Output directory: `dist`
 - Node version: taken from `.node-version`
+- Hosted as a Cloudflare Worker with static assets: `wrangler.jsonc` makes `npx wrangler deploy` upload `dist/`
+  as-is (without it, wrangler auto-adds the Astro Cloudflare adapter and the card renderer fails)
