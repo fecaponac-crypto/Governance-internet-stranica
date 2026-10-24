@@ -1,8 +1,14 @@
 # Inflow report
 
-Last run: **2026-10-24T17:02:07Z** · sources checked: 46 · failed: 0 · new items this run: 0
+Last run: **2026-10-24T23:18:01Z** · sources checked: 46 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (5)
+## New items, last 48 hours (6)
+
+### Medium priority sources
+
+| Date | Source | Title |
+|---|---|---|
+| 2026-10-24 | CDO Magazine | [Community High Stakes, Higher Speed: Trust and AI Governance Lead CDO Magazine’s New York Leadership Summit](https://www.cdomagazine.tech/community/high-stakes-higher-speed-trust-and-ai-governance-lead-cdo-magazines-new-york-leadership-summit) |
 
 ### Low priority sources
 

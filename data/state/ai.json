@@ -57,12 +57,21 @@
    "reason": "Large state enforcement penalty against Meta for privacy violations; significant enforcement with broad practitioner impact, though the source is an advocacy group and details should be verified.",
    "relevant": true,
    "same_story_as": null
+  },
+  "fce9ca878e5ec760": {
+   "at": "2026-10-24T23:18:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for a leadership summit; not a news development.",
+   "relevant": false,
+   "same_story_as": null
   }
  },
  "usage": {
   "2026-10": {
-   "calls": 2,
-   "usd": 0.0431
+   "calls": 3,
+   "usd": 0.0434
   }
  }
 }
