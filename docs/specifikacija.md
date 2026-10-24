@@ -198,7 +198,9 @@ Okvirne skupine izvora:
 ## 12. Otvorena pitanja
 
 - [x] Naziv portala: Data Governance Signal
-- [ ] Kupnja domene datagovernancesignal.com i provjera žiga (EUIPO/USPTO)
+- [x] Kupljena domena datagovernancesignal.com (Namecheap, 2026-10-24)
+- [ ] Prebacivanje DNS-a na Cloudflare
+- [ ] Provjera žiga (EUIPO/USPTO)
 - [ ] Dobavljač AI modela (faza 4)
 - [ ] Newsletter servis (faza 2)
 - [ ] Hosting: Cloudflare Pages ili Netlify (faza 2)
