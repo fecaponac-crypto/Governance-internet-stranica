@@ -199,7 +199,7 @@ Okvirne skupine izvora:
 
 - [x] Naziv portala: Data Governance Signal
 - [x] Kupljena domena datagovernancesignal.com (Namecheap, 2026-10-24)
-- [ ] Prebacivanje DNS-a na Cloudflare
+- [x] DNS prebačen na Cloudflare (aktivno 2026-10-24)
 - [ ] Provjera žiga (EUIPO/USPTO)
 - [ ] Dobavljač AI modela (faza 4)
 - [ ] Newsletter servis (faza 2)
