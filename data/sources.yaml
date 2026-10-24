@@ -1,0 +1,701 @@
+# Data Governance Signal — source catalog
+#
+# Used by the ingestion pipeline (phase 3). See docs/katalog-izvora.md for the overview.
+#
+# Fields:
+#   id           unique slug
+#   name         display name
+#   url          homepage / listing page
+#   feeds        verified RSS/Atom feeds (method: rss)
+#   method       rss | scrape | manual
+#   type         regulator | standards | association | ngo | expert-media | law-firm-blog | media | analyst | vendor
+#   section      core (Data Governance) | broad (Data & AI)
+#   categories   see docs/specifikacija.md, section 4
+#   reliability  3 = primary/official, 2 = expert secondary or vendor, 1 = general media
+#   priority     high | medium | low
+#   filter       true = noisy feed, keep only items matching `keywords` before AI scoring
+#   verified     date the feed/page was last checked
+
+verified_on: 2026-10-24
+
+# Pre-filter for sources marked `filter: true` (case-insensitive, matched on title + summary).
+keywords:
+  - data governance
+  - data quality
+  - data catalog
+  - metadata
+  - lineage
+  - master data
+  - data steward
+  - data management
+  - data protection
+  - privacy
+  - personal data
+  - GDPR
+  - AI Act
+  - Data Act
+  - Data Governance Act
+  - DORA
+  - NIS2
+  - artificial intelligence
+  - AI governance
+  - responsible AI
+  - data sharing
+  - data space
+  - cloud
+  - fine
+  - Unity Catalog
+  - Horizon
+  - Purview
+  - Dataplex
+  - DataZone
+  - Lake Formation
+
+categories:
+  core:
+    - strategy          # Governance Strategy & Operating Models
+    - data-quality      # Data Quality
+    - metadata          # Metadata, Catalogs & Lineage
+    - privacy           # Privacy & Data Protection
+    - regulation        # Regulation & Compliance
+    - ai-governance     # AI Governance
+    - mdm               # Master & Reference Data
+    - security          # Security & Access
+    - market            # Vendors & Market
+  broad:
+    - platforms         # Data Platforms & Architecture
+    - analytics         # Analytics & BI
+    - ai-industry       # AI Industry
+
+sources:
+
+  # ---------------------------------------------------------------- Regulators & institutions
+
+  - id: edpb
+    name: European Data Protection Board (EDPB)
+    url: https://www.edpb.europa.eu
+    feeds:
+      - https://www.edpb.europa.eu/feed/news_en
+      - https://www.edpb.europa.eu/feed/publications_en
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: high
+    notes: Guidelines, opinions and national DPA fines. Publications feed carries the formal documents.
+
+  - id: edps
+    name: European Data Protection Supervisor (EDPS)
+    url: https://www.edps.europa.eu
+    feeds: [https://www.edps.europa.eu/feed/news_en]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 3
+    priority: medium
+
+  - id: ec-presscorner
+    name: European Commission — Press Corner
+    url: https://ec.europa.eu/commission/presscorner
+    feeds: ["https://ec.europa.eu/commission/presscorner/api/rss?language=en"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 3
+    priority: high
+    filter: true
+    notes: All Commission topics; keyword filter required. Main source for AI Act, Data Act, Data Union Strategy.
+
+  - id: ec-digital-strategy
+    name: European Commission — Shaping Europe's Digital Future (incl. AI Office)
+    url: https://digital-strategy.ec.europa.eu/en/news
+    method: manual
+    type: regulator
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 3
+    priority: high
+    notes: Blocks automated access (403). Covered indirectly via EU AI Act Newsletter and Press Corner; check manually weekly.
+
+  - id: ico
+    name: UK Information Commissioner's Office (ICO)
+    url: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/
+    method: scrape
+    type: regulator
+    section: core
+    categories: [privacy, regulation, ai-governance]
+    reliability: 3
+    priority: high
+    notes: No working news RSS. gov.uk Atom feed exists but only carries formal reports.
+
+  - id: irish-dpc
+    name: Data Protection Commission (Ireland)
+    url: https://www.dataprotection.ie/en/news-media/latest-news
+    method: scrape
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: high
+    notes: Lead supervisor for most Big Tech companies in the EU; major GDPR decisions.
+
+  - id: cnil
+    name: CNIL (France)
+    url: https://www.cnil.fr/en
+    feeds: [https://www.cnil.fr/en/rss.xml]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 3
+    priority: medium
+    notes: English feed occasionally contains French-language items (e.g. plenary agendas) — skip those.
+
+  - id: enisa
+    name: ENISA — EU Agency for Cybersecurity
+    url: https://www.enisa.europa.eu/news
+    method: scrape
+    type: regulator
+    section: core
+    categories: [security, regulation]
+    reliability: 3
+    priority: low
+
+  - id: ftc
+    name: US Federal Trade Commission
+    url: https://www.ftc.gov/news-events/news/press-releases
+    feeds: [https://www.ftc.gov/feeds/press-release.xml]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 3
+    priority: medium
+    filter: true
+    notes: Feed responded inconsistently during checks (200/404 depending on client) — re-verify in phase 3.
+
+  - id: nist
+    name: NIST (US National Institute of Standards and Technology)
+    url: https://www.nist.gov/news-events/news
+    feeds: [https://www.nist.gov/news-events/news/rss.xml]
+    method: rss
+    type: standards
+    section: core
+    categories: [ai-governance, security]
+    reliability: 3
+    priority: medium
+    filter: true
+    notes: AI RMF, Privacy Framework, CSF. Mostly unrelated science news; filter required.
+
+  - id: iso
+    name: ISO — News
+    url: https://www.iso.org/news.html
+    feeds: [https://www.iso.org/contents/news.rss]
+    method: rss
+    type: standards
+    section: core
+    categories: [ai-governance, strategy]
+    reliability: 3
+    priority: low
+    filter: true
+    notes: ISO/IEC 42001, 27001, 8000 (data quality). Mostly unrelated; filter required.
+
+  # ---------------------------------------------------------------- Associations & NGOs
+
+  - id: dama
+    name: DAMA International
+    url: https://www.dama.org
+    feeds: [https://www.dama.org/feed]
+    method: rss
+    type: association
+    section: core
+    categories: [strategy]
+    reliability: 3
+    priority: medium
+    notes: DMBOK, certifications, events. Many items are internal association news — AI scoring should down-rank them.
+
+  - id: edm-association
+    name: EDM Association (formerly EDM Council)
+    url: https://edmcouncil.org/news/
+    method: scrape
+    type: association
+    section: core
+    categories: [strategy, metadata]
+    reliability: 3
+    priority: medium
+    notes: DCAM, CDMC frameworks. RSS feed abandoned since 2025.
+
+  - id: iapp
+    name: IAPP — International Association of Privacy Professionals
+    url: https://iapp.org/news/
+    method: scrape
+    type: association
+    section: core
+    categories: [privacy, ai-governance, regulation]
+    reliability: 3
+    priority: high
+    notes: Most important privacy/AI governance news source. No public RSS; part of content is members-only — link and summarize only public parts.
+
+  - id: fpf
+    name: Future of Privacy Forum
+    url: https://fpf.org
+    feeds: [https://fpf.org/feed/]
+    method: rss
+    type: ngo
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 3
+    priority: medium
+
+  - id: noyb
+    name: noyb — European Center for Digital Rights
+    url: https://noyb.eu/en
+    feeds: [https://noyb.eu/en/rss]
+    method: rss
+    type: ngo
+    section: core
+    categories: [privacy, regulation]
+    reliability: 2
+    priority: medium
+    notes: Advocacy organisation; its complaints frequently lead to major GDPR cases. Present as one party's position.
+
+  - id: partnership-on-ai
+    name: Partnership on AI
+    url: https://partnershiponai.org
+    feeds: [https://partnershiponai.org/feed/]
+    method: rss
+    type: ngo
+    section: core
+    categories: [ai-governance]
+    reliability: 2
+    priority: low
+
+  - id: epic
+    name: EPIC — Electronic Privacy Information Center
+    url: https://epic.org
+    feeds: [https://epic.org/feed/]
+    method: rss
+    type: ngo
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 2
+    priority: low
+    notes: US-focused advocacy.
+
+  - id: center-data-innovation
+    name: Center for Data Innovation
+    url: https://datainnovation.org
+    feeds: [https://www.datainnovation.org/feed/]
+    method: rss
+    type: ngo
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 2
+    priority: low
+    notes: Think tank with a pro-innovation stance; useful policy analysis, present as viewpoint.
+
+  # ---------------------------------------------------------------- Expert media, newsletters & law-firm blogs
+
+  - id: eu-ai-act-newsletter
+    name: The EU AI Act Newsletter (Future of Life Institute)
+    url: https://artificialintelligenceact.substack.com
+    feeds: [https://artificialintelligenceact.substack.com/feed]
+    method: rss
+    type: expert-media
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 3
+    priority: high
+    notes: Bi-weekly curated AI Act developments with links to primary sources.
+
+  - id: hunton-privacy
+    name: Hunton Privacy & Information Security Law Blog
+    url: https://www.huntonprivacyblog.com
+    feeds: [https://www.huntonprivacyblog.com/feed/]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: high
+
+  - id: inside-privacy
+    name: Inside Privacy (Covington & Burling)
+    url: https://www.insideprivacy.com
+    feeds: [https://www.insideprivacy.com/feed/]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, regulation, ai-governance]
+    reliability: 3
+    priority: high
+
+  - id: privacy-world
+    name: Privacy World (Squire Patton Boggs)
+    url: https://www.privacyworld.blog
+    feeds: [https://www.privacyworld.blog/feed/]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 2
+    priority: medium
+
+  - id: data-privacy-security-insider
+    name: Data Privacy + Cybersecurity Insider (Robinson+Cole)
+    url: https://www.dataprivacyandsecurityinsider.com
+    feeds: [https://www.dataprivacyandsecurityinsider.com/feed/]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, security]
+    reliability: 2
+    priority: low
+
+  - id: tech-policy-press
+    name: Tech Policy Press
+    url: https://www.techpolicy.press
+    feeds: [https://www.techpolicy.press/rss/feed.xml]
+    method: rss
+    type: expert-media
+    section: core
+    categories: [ai-governance, regulation]
+    reliability: 2
+    priority: medium
+
+  - id: tdan
+    name: TDAN.com — The Data Administration Newsletter
+    url: https://tdan.com
+    method: scrape
+    type: expert-media
+    section: core
+    categories: [strategy, data-quality, metadata]
+    reliability: 2
+    priority: medium
+    notes: RSS endpoint exists but is empty. Practitioner columns on governance.
+
+  - id: dataversity
+    name: DATAVERSITY
+    url: https://www.dataversity.net/articles/
+    method: scrape
+    type: expert-media
+    section: core
+    categories: [strategy, metadata, data-quality]
+    reliability: 2
+    priority: medium
+    notes: RSS endpoint exists but is empty (same publisher as TDAN).
+
+  - id: cdo-magazine
+    name: CDO Magazine
+    url: https://www.cdomagazine.tech/
+    method: scrape
+    type: expert-media
+    section: core
+    categories: [strategy]
+    reliability: 2
+    priority: medium
+    notes: Interviews with CDOs; cdomagazine.com is a parked domain — use .tech.
+
+  - id: modern-data-101
+    name: Modern Data 101
+    url: https://moderndata101.substack.com
+    feeds: [https://moderndata101.substack.com/feed]
+    method: rss
+    type: expert-media
+    section: core
+    categories: [strategy, metadata]
+    reliability: 2
+    priority: low
+    notes: Data products and operating models.
+
+  # ---------------------------------------------------------------- Analysts
+
+  - id: gartner-newsroom
+    name: Gartner Newsroom
+    url: https://www.gartner.com/en/newsroom
+    method: manual
+    type: analyst
+    section: core
+    categories: [market, strategy]
+    reliability: 3
+    priority: high
+    notes: Blocks automated access (403). Predictions and surveys; Magic Quadrant results usually surface via vendor announcements.
+
+  - id: forrester
+    name: Forrester Blogs
+    url: https://www.forrester.com/blogs/
+    feeds: [https://www.forrester.com/blogs/feed/]
+    method: rss
+    type: analyst
+    section: core
+    categories: [market, strategy]
+    reliability: 2
+    priority: medium
+    filter: true
+
+  # ---------------------------------------------------------------- General media (filtered)
+
+  - id: euractiv
+    name: Euractiv
+    url: https://www.euractiv.com
+    feeds: [https://www.euractiv.com/feed/]
+    method: rss
+    type: media
+    section: core
+    categories: [regulation]
+    reliability: 2
+    priority: medium
+    filter: true
+    notes: Section feeds blocked (403); main feed covers all topics — filter required.
+
+  - id: politico-eu-tech
+    name: POLITICO Europe — Technology
+    url: https://www.politico.eu/section/technology/
+    feeds: [https://www.politico.eu/section/technology/feed/]
+    method: rss
+    type: media
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 2
+    priority: medium
+    filter: true
+
+  - id: the-record
+    name: The Record (Recorded Future News)
+    url: https://therecord.media
+    feeds: [https://therecord.media/feed]
+    method: rss
+    type: media
+    section: core
+    categories: [security, privacy]
+    reliability: 2
+    priority: low
+    filter: true
+    notes: Breaches and enforcement actions.
+
+  - id: siliconangle-data
+    name: SiliconANGLE — Big Data
+    url: https://siliconangle.com/category/big-data/
+    feeds: [https://siliconangle.com/category/big-data/feed/]
+    method: rss
+    type: media
+    section: core
+    categories: [market]
+    reliability: 1
+    priority: medium
+    notes: Funding rounds, acquisitions, product launches.
+
+  # ---------------------------------------------------------------- Governance vendors (core)
+  # Vendor sources are self-interested: reliability 2, news value only for launches,
+  # acquisitions, research reports — not for marketing content.
+
+  - id: collibra
+    name: Collibra Blog
+    url: https://www.collibra.com/blog
+    feeds: [https://www.collibra.com/feeds/blog.xml]
+    method: rss
+    type: vendor
+    section: core
+    categories: [metadata, ai-governance, market]
+    reliability: 2
+    priority: medium
+
+  - id: alation
+    name: Alation Blog
+    url: https://www.alation.com/blog/
+    method: scrape
+    type: vendor
+    section: core
+    categories: [metadata, market]
+    reliability: 2
+    priority: medium
+
+  - id: atlan
+    name: Atlan Blog
+    url: https://atlan.com/blog/
+    method: scrape
+    type: vendor
+    section: core
+    categories: [metadata, market]
+    reliability: 2
+    priority: medium
+
+  - id: informatica
+    name: Informatica Blog
+    url: https://www.informatica.com/blogs.html
+    method: scrape
+    type: vendor
+    section: core
+    categories: [mdm, data-quality, market]
+    reliability: 2
+    priority: medium
+    notes: Owned by Salesforce since 2025.
+
+  - id: ataccama
+    name: Ataccama Blog
+    url: https://www.ataccama.com/blog
+    feeds: [https://www.ataccama.com/feed]
+    method: rss
+    type: vendor
+    section: core
+    categories: [data-quality, mdm, market]
+    reliability: 2
+    priority: medium
+
+  - id: datahub
+    name: DataHub Blog (open source metadata platform)
+    url: https://blog.datahubproject.io
+    feeds: [https://blog.datahubproject.io/feed]
+    method: rss
+    type: vendor
+    section: core
+    categories: [metadata]
+    reliability: 2
+    priority: low
+
+  - id: monte-carlo
+    name: Monte Carlo Blog
+    url: https://www.montecarlodata.com/blog/
+    feeds: [https://www.montecarlodata.com/feed/]
+    method: rss
+    type: vendor
+    section: core
+    categories: [data-quality, market]
+    reliability: 2
+    priority: low
+    notes: Data observability.
+
+  - id: onetrust
+    name: OneTrust Blog
+    url: https://www.onetrust.com/blog/
+    method: scrape
+    type: vendor
+    section: core
+    categories: [privacy, ai-governance, market]
+    reliability: 2
+    priority: medium
+
+  - id: bigid
+    name: BigID Blog
+    url: https://bigid.com/blog/
+    method: manual
+    type: vendor
+    section: core
+    categories: [privacy, security, market]
+    reliability: 2
+    priority: low
+    notes: Blocks automated access (403).
+
+  - id: microsoft-security
+    name: Microsoft Security Blog (incl. Purview)
+    url: https://www.microsoft.com/en-us/security/blog/
+    feeds: [https://www.microsoft.com/en-us/security/blog/feed/]
+    method: rss
+    type: vendor
+    section: core
+    categories: [security, privacy, market]
+    reliability: 2
+    priority: medium
+    filter: true
+    notes: Purview-specific Tech Community feed not reachable; general security blog with filter.
+
+  # ---------------------------------------------------------------- Platforms & broad Data & AI
+
+  - id: databricks
+    name: Databricks Blog
+    url: https://www.databricks.com/blog
+    feeds: [https://www.databricks.com/feed]
+    method: rss
+    type: vendor
+    section: broad
+    categories: [platforms, metadata]
+    reliability: 2
+    priority: medium
+    filter: true
+    notes: Governance-relevant items mostly around Unity Catalog.
+
+  - id: snowflake
+    name: Snowflake Blog
+    url: https://www.snowflake.com/en/blog/
+    feeds: [https://www.snowflake.com/feed/]
+    method: rss
+    type: vendor
+    section: broad
+    categories: [platforms, metadata]
+    reliability: 2
+    priority: medium
+    filter: true
+    notes: Governance-relevant items mostly around Horizon Catalog.
+
+  - id: aws-big-data
+    name: AWS Big Data Blog
+    url: https://aws.amazon.com/blogs/big-data/
+    feeds: [https://aws.amazon.com/blogs/big-data/feed/]
+    method: rss
+    type: vendor
+    section: broad
+    categories: [platforms]
+    reliability: 2
+    priority: low
+    filter: true
+
+  - id: google-cloud-data
+    name: Google Cloud Blog — Data Analytics
+    url: https://cloud.google.com/blog/products/data-analytics
+    feeds: [https://cloudblog.withgoogle.com/products/data-analytics/rss/]
+    method: rss
+    type: vendor
+    section: broad
+    categories: [platforms, analytics]
+    reliability: 2
+    priority: low
+    filter: true
+
+  - id: data-engineering-weekly
+    name: Data Engineering Weekly
+    url: https://www.dataengineeringweekly.com
+    feeds: [https://www.dataengineeringweekly.com/feed]
+    method: rss
+    type: expert-media
+    section: broad
+    categories: [platforms]
+    reliability: 2
+    priority: low
+
+  - id: dbt-labs
+    name: dbt Labs Blog
+    url: https://www.getdbt.com/blog
+    feeds: [https://www.getdbt.com/blog/rss.xml]
+    method: rss
+    type: vendor
+    section: broad
+    categories: [platforms, data-quality]
+    reliability: 2
+    priority: low
+
+  - id: mit-tech-review
+    name: MIT Technology Review
+    url: https://www.technologyreview.com
+    feeds: [https://www.technologyreview.com/feed/]
+    method: rss
+    type: media
+    section: broad
+    categories: [ai-industry]
+    reliability: 2
+    priority: low
+    filter: true
+
+  - id: mckinsey-insights
+    name: McKinsey Insights
+    url: https://www.mckinsey.com/insights
+    feeds: [https://www.mckinsey.com/insights/rss]
+    method: rss
+    type: analyst
+    section: broad
+    categories: [strategy, ai-industry]
+    reliability: 2
+    priority: low
+    filter: true

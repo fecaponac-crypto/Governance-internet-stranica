@@ -1,7 +1,8 @@
-# Specifikacija projekta — Data Governance Intelligence Portal
+# Specifikacija projekta — Data Governance Signal
 
-> Radni naziv: **[naziv nije odabran]**
-> Status: v0.1 — dogovoreni smjer, prije izrade
+> Naziv: **Data Governance Signal** (datagovernancesignal.com)
+> Podnaslov: *What matters in data governance, and why.*
+> Status: v0.2 — naziv odabran, katalog izvora v0.1 izrađen
 > Jezik portala: engleski · Jezik projektne dokumentacije: hrvatski
 
 ---
@@ -17,7 +18,7 @@
 | 5 | Uredničko vrijeme | Nije ograničenje: svaka vijest prolazi ručno odobrenje |
 | 6 | Proračun | Do ~30 € mjesečno u prvoj fazi |
 | 7 | AI | Ništa se ne objavljuje bez odobrenja urednika; uloga AI-ja je javno navedena |
-| 8 | Naziv i domena | **Otvoreno**, odlučujemo prije lansiranja |
+| 8 | Naziv i domena | **Data Governance Signal**, `datagovernancesignal.com` (kratko: DG Signal) |
 
 ---
 
@@ -145,7 +146,9 @@ flowchart LR
 
 **Kontrola troškova:** dnevni i mjesečni limit potrošnje AI-ja u kodu; obrada staje i javlja grešku kad se limit dosegne.
 
-## 9. Katalog izvora (sljedeći korak)
+## 9. Katalog izvora
+
+**v0.1 izrađen:** 53 izvora, od toga 38 s provjerenim RSS-om. Pregled je u [katalog-izvora.md](katalog-izvora.md), a podaci u [`data/sources.yaml`](../data/sources.yaml).
 
 Cilj: **30–50 izvora** u prvoj verziji. Za svaki izvor bilježimo:
 
@@ -171,7 +174,7 @@ Okvirne skupine izvora:
 
 | Faza | Sadržaj | Rezultat |
 |------|---------|----------|
-| 1 | Specifikacija + katalog izvora | ovaj dokument + `sources` katalog |
+| 1 ✅ | Specifikacija + katalog izvora | ovaj dokument + `data/sources.yaml` |
 | 2 | Kostur portala: početna, kategorije, članak, pretraživanje, Editorial Policy, prijava na newsletter | portal s probnim vijestima (lokalno / testna adresa) |
 | 3 | Dohvat izvora, duplikati, log grešaka | automatski dotok vijesti u arhivu |
 | 4 | AI ocjena, sažetak, „why it matters", nacrti kao PR | AI priprema nacrte za odobrenje |
@@ -194,8 +197,9 @@ Okvirne skupine izvora:
 
 ## 12. Otvorena pitanja
 
-- [ ] Naziv portala i domena
+- [x] Naziv portala: Data Governance Signal
+- [ ] Kupnja domene datagovernancesignal.com i provjera žiga (EUIPO/USPTO)
 - [ ] Dobavljač AI modela (faza 4)
 - [ ] Newsletter servis (faza 2)
 - [ ] Hosting: Cloudflare Pages ili Netlify (faza 2)
-- [ ] Popis prioritetnih dobavljača i izvora koje već pratiš ili poznaješ
+- [ ] Dopuna kataloga izvorima koje već pratiš (vidi „Što nedostaje” u katalogu)
