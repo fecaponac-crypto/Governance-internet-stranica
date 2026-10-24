@@ -1,0 +1,160 @@
+import json
+import shutil
+import tempfile
+import unittest
+from pathlib import Path
+from types import SimpleNamespace
+from unittest import mock
+
+import yaml
+
+import draft
+
+
+def response(payload: dict, model: str, stop_reason: str = "end_turn"):
+    return SimpleNamespace(
+        model=model,
+        stop_reason=stop_reason,
+        stop_details=None,
+        usage=SimpleNamespace(input_tokens=2000, output_tokens=500, cache_creation_input_tokens=0, cache_read_input_tokens=0),
+        content=[SimpleNamespace(type="thinking", thinking=""), SimpleNamespace(type="text", text=json.dumps(payload))],
+    )
+
+
+DRAFT = {
+    "title": "Regulator fines Example Corp EUR 2 million over unlawful profiling",
+    "dek": "The decision finds the company relied on invalid consent for profiling customers.",
+    "body": " ".join(["The regulator fined **Example Corp EUR 2 million** for profiling customers without valid consent."] * 4),
+    "why_it_matters": "Consent records must show what each controller relied on.",
+    "categories": ["privacy", "regulation", "privacy"],
+    "who_should_care": ["DPO", "Legal & compliance"],
+    "importance": 4,
+    "type": "Enforcement",
+    "region": "EU",
+    "card_figure": "EUR 2M",
+    "card_caption": "Fine for profiling without valid consent",
+    "editor_note": "",
+    "source_name": "Example DPA",
+    "source_title": "Example Corp fined",
+    "source_is_primary": True,
+    "related": [],
+    "review_notes": "",
+}
+
+
+class FakeClient:
+    def __init__(self, scores):
+        self.scores = scores
+        self.writer_calls = 0
+        self.messages = SimpleNamespace(create=self._score)
+        self.beta = SimpleNamespace(messages=SimpleNamespace(create=self._write))
+
+    def _score(self, **params):
+        assert params["model"] == draft.SCORER_MODEL
+        return response({"items": self.scores}, draft.SCORER_MODEL)
+
+    def _write(self, **params):
+        assert params["model"] == draft.WRITER_MODEL and params["fallbacks"] == "default"
+        self.writer_calls += 1
+        return response(DRAFT, draft.WRITER_MODEL)
+
+
+def item(i, **kw):
+    base = {
+        "id": f"id{i}", "source_id": "edpb", "source_name": "EDPB", "section": "core", "categories": ["privacy"],
+        "priority": "high", "reliability": 3, "title": f"Item {i}", "url": f"https://example.org/{i}",
+        "published": "2026-10-20T10:00:00Z", "first_seen": "2026-10-24T17:17:00Z", "excerpt": "", "method": "rss",
+        "duplicate_of": None, "status": "new",
+    }
+    return {**base, **kw}
+
+
+class RunTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        (self.tmp / "archive").mkdir()
+        (self.tmp / "state").mkdir()
+        (self.tmp / "reports").mkdir()
+        self.articles = self.tmp / "articles"
+        self.articles.mkdir()
+        shutil.copy(draft.ARTICLES / "edpb-guidelines-dsa-gdpr-interplay.md", self.articles)
+        items = [item(0), item(1, title="Webinar"), item(2, duplicate_of="id0"), item(3, status="baseline")]
+        (self.tmp / "archive" / "2026-10.jsonl").write_text("\n".join(json.dumps(i) for i in items) + "\n")
+        self.patches = [
+            mock.patch.object(draft, "DATA", self.tmp),
+            mock.patch.object(draft, "ARTICLES", self.articles),
+            mock.patch.object(draft, "STATE_PATH", self.tmp / "state" / "ai.json"),
+            mock.patch.object(draft, "REPORT_PATH", self.tmp / "reports" / "drafts.md"),
+            mock.patch.object(draft, "fetch_source", lambda url: (url, "source text " * 200)),
+        ]
+        for p in self.patches:
+            p.start()
+
+    def tearDown(self):
+        for p in self.patches:
+            p.stop()
+        shutil.rmtree(self.tmp)
+
+    def run_with(self, scores):
+        client = FakeClient(scores)
+        with mock.patch.object(draft.anthropic, "Anthropic", lambda: client):
+            summary = draft.run(SimpleNamespace(no_pr=True, score_only=False))
+        return client, summary
+
+    def test_full_run_writes_valid_draft_and_state(self):
+        scores = [
+            {"index": 0, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "reason": "fine"},
+            {"index": 1, "relevant": False, "importance": 1, "categories": [], "same_story_as": "", "reason": "webinar"},
+        ]
+        client, summary = self.run_with(scores)
+        self.assertEqual((summary["scored"], summary["duplicates"], summary["drafted"]), (2, 1, 1))
+        self.assertEqual(client.writer_calls, 1)
+
+        path = self.articles / "regulator-fines-example-corp-eur-2-million-over-unlawful-profiling.md"
+        front = yaml.safe_load(path.read_text().split("---")[1])
+        self.assertEqual(front["categories"], ["privacy", "regulation"])  # de-duplicated
+        self.assertEqual(front["sources"][0]["primary"], True)
+        self.assertEqual(front["card"]["figure"], "EUR 2M")
+        self.assertEqual(str(front["date"]), "2026-10-20")
+
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertEqual(state["processed"]["id0"]["decision"], "drafted")
+        self.assertEqual(state["processed"]["id1"]["decision"], "skipped")
+        self.assertEqual(state["processed"]["id2"]["decision"], "duplicate")
+        self.assertNotIn("id3", state["processed"])
+        self.assertGreater(state["usage"][draft.month_key()]["usd"], 0)
+
+        # A second run has nothing left to do and makes no API calls.
+        client, summary = self.run_with([])
+        self.assertEqual((summary["candidates"], client.writer_calls), (0, 0))
+
+    def test_budget_stops_drafting_and_keeps_queue(self):
+        draft.save_state({"processed": {}, "usage": {draft.month_key(): {"usd": 0.0, "calls": 0}}})
+        scores = [{"index": 0, "relevant": True, "importance": 5, "categories": ["regulation"], "same_story_as": "", "reason": "x"}]
+        with mock.patch.object(draft, "MONTHLY_BUDGET_USD", 0.0001):
+            client, summary = self.run_with(scores)
+        self.assertTrue(summary["budget_stop"])
+        self.assertEqual(client.writer_calls, 0)
+
+
+class RulesTest(unittest.TestCase):
+    cats = [{"id": "privacy", "section": "core"}, {"id": "platforms", "section": "broad"}]
+
+    def test_thresholds(self):
+        s = lambda imp, cats, rel=True, same="": {"relevant": rel, "importance": imp, "categories": cats, "same_story_as": same}
+        self.assertTrue(draft.should_draft(s(3, ["privacy"]), self.cats))
+        self.assertFalse(draft.should_draft(s(3, ["platforms"]), self.cats))
+        self.assertTrue(draft.should_draft(s(4, ["platforms"]), self.cats))
+        self.assertFalse(draft.should_draft(s(5, ["privacy"], rel=False), self.cats))
+        self.assertFalse(draft.should_draft(s(5, ["privacy"], same="x"), self.cats))
+
+    def test_validate_flags_long_card(self):
+        self.assertIn("card_figure longer than 22 characters", draft.validate({**DRAFT, "card_figure": "x" * 30}))
+        self.assertEqual(draft.validate(DRAFT), [])
+
+    def test_unique_slug(self):
+        self.assertEqual(draft.unique_slug("A b", {"a-b"}), "a-b-2")
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,13 +1,18 @@
-name: Ingest sources
+name: Ingest sources and draft articles
 
 on:
   schedule:
     # 05:17, 11:17 and 17:17 UTC (07:17, 13:17, 19:17 in Zagreb during summer time)
     - cron: '17 5,11,17 * * *'
   workflow_dispatch:
+    inputs:
+      max_drafts:
+        description: 'Maximum number of drafts to open in this run'
+        default: '6'
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: ingest
@@ -16,9 +21,15 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      MAX_DRAFTS_PER_RUN: ${{ inputs.max_drafts || '6' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -33,20 +44,27 @@ jobs:
         working-directory: pipeline
         run: python -m unittest -v
 
-      - name: Collect new items
-        run: python pipeline/ingest.py
-
-      - name: Commit results
+      - name: Configure git
         run: |
           git config user.name "dgs-ingest-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Collect new items
+        run: python pipeline/ingest.py
+
+      - name: Draft articles for review
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: python pipeline/draft.py
+
+      - name: Commit results
+        run: |
           git add data/archive data/state data/reports
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
           new=$(tail -n 1 data/state/runs.jsonl | python -c "import json,sys; print(json.load(sys.stdin)['new'])")
-          # [skip ci] keeps Cloudflare Pages from rebuilding the site for data-only commits.
+          # [skip ci] keeps Cloudflare from rebuilding the site for data-only commits.
           git commit -m "Ingest: ${new} new items [skip ci]"
           for i in 1 2 3; do
             git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
