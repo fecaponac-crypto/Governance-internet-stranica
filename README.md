@@ -16,7 +16,7 @@ Static site built with [Astro](https://astro.build) and searchable with [Pagefin
 ```sh
 npm install
 npm run dev       # http://localhost:4321 (search works only after a build)
-npm run build     # astro build + pagefind index -> dist/
+npm run build     # astro build (includes Pagefind index) -> dist/
 npm run preview   # serve dist/
 npm run check     # type check
 ```
@@ -39,6 +39,6 @@ and allow crawling in `robots.txt` (add `Sitemap: https://datagovernancesignal.c
 
 ### Deployment (Cloudflare Pages)
 
-- Build command: `npm run build`
+- Build command: `npm run build` (or `npx astro build` — the search index is built by an Astro integration)
 - Output directory: `dist`
 - Node version: taken from `.node-version`
