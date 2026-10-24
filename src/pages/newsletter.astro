@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Base title="Newsletter" description="The Weekly Briefing: the most important data governance developments every Friday.">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Newsletter</p>
+      <h1>The Weekly Briefing</h1>
+      <p>One email every Friday with the developments that matter for data governance — and what to do about them.</p>
+    </header>
+    <NewsletterForm />
+    <div class="prose points">
+      <ul>
+        <li>The five to ten most important items of the week, ranked.</li>
+        <li>For each: what happened, why it matters, who should act.</li>
+        <li>Links to every source.</li>
+        <li>No tracking pixels, no selling of addresses.</li>
+      </ul>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .points {
+    margin-top: 2rem;
+    font-size: 1.05rem;
+  }
+  .points ul {
+    padding-left: 1.2rem;
+  }
+</style>

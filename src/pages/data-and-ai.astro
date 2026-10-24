@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { CATEGORIES } from '../data/site';
+import { getArticles } from '../utils/articles';
+
+const broad = CATEGORIES.filter((c) => c.section === 'broad');
+const articles = (await getArticles()).filter((a) => a.data.categories.some((id) => broad.some((b) => b.id === id)));
+---
+
+<Base title="Data & AI" description="Broader data and AI developments selected for their impact on data governance.">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Broader coverage</p>
+      <h1>Data &amp; AI</h1>
+      <p>
+        Platforms, analytics and AI industry news — selected only when it affects how data is governed. A higher bar
+        applies here than in our core topics.
+      </p>
+    </header>
+    <ul class="subs">
+      {broad.map((c) => <li><a href={`/category/${c.id}/`}>{c.label}</a></li>)}
+    </ul>
+    <section class="list">
+      {articles.map((a) => <ArticleCard article={a} />)}
+    </section>
+  </div>
+</Base>
+
+<style>
+  .subs {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+  .subs a {
+    display: inline-block;
+    font-size: 0.88rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    text-decoration: none;
+  }
+  .list {
+    max-width: 760px;
+  }
+</style>

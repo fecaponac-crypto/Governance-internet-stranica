@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import { CATEGORIES } from '../data/site';
+import { getArticles } from '../utils/articles';
+
+const articles = await getArticles();
+const count = (id: string) => articles.filter((a) => a.data.categories.includes(id)).length;
+const groups = [
+  { title: 'Data governance', items: CATEGORIES.filter((c) => c.section === 'core') },
+  { title: 'Data & AI (broader coverage)', items: CATEGORIES.filter((c) => c.section === 'broad') },
+];
+---
+
+<Base title="All topics" description="Every topic covered by Data Governance Signal.">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Browse</p>
+      <h1>All topics</h1>
+    </header>
+    {
+      groups.map((g) => (
+        <section class="group">
+          <div class="section-title">
+            <h2>{g.title}</h2>
+          </div>
+          <div class="grid">
+            {g.items.map((c) => (
+              <a class="topic" href={`/category/${c.id}/`}>
+                <h3>{c.label}</h3>
+                <p>{c.description}</p>
+                <span class="meta">
+                  {count(c.id)} {count(c.id) === 1 ? 'article' : 'articles'}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .group {
+    margin-bottom: 2.5rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .topic {
+    display: block;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .topic:hover {
+    border-color: var(--signal);
+    color: var(--ink);
+  }
+  .topic h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+  .topic p {
+    font-size: 0.9rem;
+    color: var(--ink-2);
+    margin-bottom: 0.6rem;
+  }
+</style>

@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+---
+
+<Base title="Editorial policy" description="How Data Governance Signal selects, writes, reviews and corrects its content.">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Trust</p>
+      <h1>Editorial policy</h1>
+      <p>Our value depends on being trusted. These are the rules we work by.</p>
+    </header>
+    <div class="prose">
+      <h2>1. Every item has a source</h2>
+      <p>
+        We always link to the original. Where possible we cite the primary source — the regulator's decision, the
+        official journal, the standard, the company's own announcement — and mark it as such. When we rely on a
+        secondary source or an interested party, we say so.
+      </p>
+      <h2>2. A human editor approves everything</h2>
+      <p>
+        AI helps us monitor sources, assess relevance and draft summaries. A human editor reviews every draft against
+        its sources and then edits, approves or rejects it. Nothing is published automatically.
+      </p>
+      <h2>3. We are transparent about AI</h2>
+      <p>
+        Every article states that it was prepared with AI assistance and reviewed by the editor. The editor is
+        responsible for what we publish.
+      </p>
+      <h2>4. We write our own summaries</h2>
+      <p>
+        We summarise in our own words and keep summaries short. We do not republish full articles or third-party images.
+        If you want the full story, follow the source link.
+      </p>
+      <h2>5. Importance is an editorial judgement</h2>
+      <p>
+        Importance ratings (1–5) reflect our assessment of the impact on data governance practice. They are never for
+        sale and are not influenced by advertisers, sponsors or vendors.
+      </p>
+      <h2>6. Commercial content is always labelled</h2>
+      <p>
+        If we carry sponsorships or other commercial content, it will be clearly labelled as such and kept separate from
+        editorial content. Sponsors have no influence on what we cover or how.
+      </p>
+      <h2>7. Vendors are judged by impact, not marketing</h2>
+      <p>
+        Vendor news is covered when it changes something for practitioners — a significant launch, acquisition or
+        research finding. Vendor performance claims are attributed to the vendor.
+      </p>
+      <h2>8. We correct mistakes openly</h2>
+      <p>
+        If we get something wrong, we fix it and add a visible correction note to the article stating what changed and
+        when. Report errors to <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .prose h2 {
+    font-size: 1.3rem;
+    margin: 2rem 0 0.6rem;
+  }
+</style>

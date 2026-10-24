@@ -1,0 +1,4 @@
+# Preview phase: keep sample content out of search engines.
+# Replace with "Allow: /" and a Sitemap line at public launch.
+User-agent: *
+Disallow: /

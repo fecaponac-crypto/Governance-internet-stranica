@@ -1,0 +1,150 @@
+---
+import Logo from './Logo.astro';
+import { SITE, NAV_CATEGORIES, categoryById } from '../data/site';
+
+const path = Astro.url.pathname;
+const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, href: `/category/${id}/` }));
+---
+
+{
+  SITE.preview && (
+    <div class="preview">
+      <div class="wrap">
+        <strong>Preview.</strong> Data Governance Signal is in preparation — articles shown are samples based on real
+        sources. <a href="/newsletter/">Get notified at launch</a>
+      </div>
+    </div>
+  )
+}
+<header class="site-header">
+  <div class="wrap top">
+    <a class="brand" href="/" aria-label={`${SITE.name} — home`}>
+      <Logo size={30} />
+      <span class="name">Data Governance <b>Signal</b></span>
+    </a>
+    <div class="actions">
+      <a class="icon-link" href="/search/" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          ><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg
+        >
+      </a>
+      <a class="btn subscribe" href="/newsletter/">Subscribe</a>
+    </div>
+  </div>
+  <nav class="wrap nav" aria-label="Topics">
+    <ul>
+      {
+        nav.map((n) => (
+          <li>
+            <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>
+              {n.label}
+            </a>
+          </li>
+        ))
+      }
+      <li>
+        <a href="/data-and-ai/" class="broad" aria-current={path === '/data-and-ai/' ? 'page' : undefined}>Data &amp; AI</a>
+      </li>
+      <li><a href="/topics/" aria-current={path === '/topics/' ? 'page' : undefined}>All topics</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .preview {
+    background: var(--signal-soft);
+    color: var(--ink);
+    font-size: 0.82rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .site-header {
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper);
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.9rem;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .brand:hover {
+    color: var(--ink);
+  }
+  .name {
+    font-family: var(--serif);
+    font-size: clamp(1.15rem, 3.6vw, 1.5rem);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+  .name b {
+    color: var(--signal);
+    font-weight: 700;
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .icon-link {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    color: var(--ink);
+  }
+  .icon-link:hover {
+    background: var(--paper-2);
+  }
+  .subscribe {
+    padding: 0.6rem 0.9rem;
+  }
+  .nav ul {
+    display: flex;
+    gap: 1.4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0.1rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav ul::-webkit-scrollbar {
+    display: none;
+  }
+  .nav a {
+    display: block;
+    padding: 0.6rem 0 0.7rem;
+    font-size: 0.88rem;
+    font-weight: 550;
+    color: var(--ink-2);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+  }
+  .nav a:hover {
+    color: var(--ink);
+  }
+  .nav a[aria-current='page'] {
+    color: var(--ink);
+    border-bottom-color: var(--signal);
+  }
+  .nav .broad {
+    color: var(--ink-3);
+  }
+  @media (max-width: 520px) {
+    .subscribe {
+      display: none;
+    }
+  }
+</style>

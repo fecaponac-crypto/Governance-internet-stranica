@@ -1,0 +1,40 @@
+---
+import { IMPORTANCE_LABELS } from '../data/site';
+interface Props {
+  level: number;
+  showLabel?: boolean;
+}
+const { level, showLabel = true } = Astro.props;
+---
+
+<span class="imp" title={`Importance: ${IMPORTANCE_LABELS[level]} (${level}/5)`}>
+  <span class="bars" aria-hidden="true">
+    {[1, 2, 3, 4, 5].map((i) => <span class:list={['bar', { on: i <= level }]} />)}
+  </span>
+  {showLabel ? <span class="label">{IMPORTANCE_LABELS[level]}</span> : <span class="visually-hidden">Importance {level} of 5</span>}
+</span>
+
+<style>
+  .imp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  .bars {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 2px;
+  }
+  .bar {
+    width: 4px;
+    height: 10px;
+    border-radius: 1px;
+    background: var(--rule);
+  }
+  .bar.on {
+    background: var(--signal);
+  }
+</style>

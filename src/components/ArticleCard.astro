@@ -1,0 +1,103 @@
+---
+import Importance from './Importance.astro';
+import { categoryById } from '../data/site';
+import { articleUrl, formatDate, isoDate, type Article } from '../utils/articles';
+
+interface Props {
+  article: Article;
+  variant?: 'lead' | 'default' | 'compact';
+}
+const { article, variant = 'default' } = Astro.props;
+const { data } = article;
+const primary = categoryById(data.categories[0]);
+const Heading = variant === 'lead' ? 'h2' : 'h3';
+---
+
+<article class:list={['card', variant]}>
+  <div class="top">
+    <a class="eyebrow" href={`/category/${primary.id}/`}>{primary.short}</a>
+    <Importance level={data.importance} showLabel={variant !== 'compact'} />
+  </div>
+  <Heading class="title"><a href={articleUrl(article)}>{data.title}</a></Heading>
+  {variant !== 'compact' && <p class="dek">{data.dek}</p>}
+  {
+    variant === 'lead' && (
+      <div class="why">
+        <p class="eyebrow">Why it matters</p>
+        <p>{data.whyItMatters}</p>
+      </div>
+    )
+  }
+  <p class="meta">
+    <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time>
+    <span aria-hidden="true"> · </span>{data.type}
+    {data.region && <><span aria-hidden="true"> · </span>{data.region}</>}
+  </p>
+</article>
+
+<style>
+  .card {
+    padding: 0 0 1.4rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.4rem;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.45rem;
+  }
+  .eyebrow {
+    text-decoration: none;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin-bottom: 0.45rem;
+  }
+  .title a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .title a:hover {
+    color: var(--signal);
+  }
+  .dek {
+    color: var(--ink-2);
+    margin-bottom: 0.55rem;
+  }
+  .meta {
+    margin: 0;
+  }
+  .lead .title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    line-height: 1.12;
+    margin-bottom: 0.75rem;
+  }
+  .lead .dek {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .why {
+    border-left: 3px solid var(--signal);
+    background: var(--paper-2);
+    padding: 0.9rem 1.1rem;
+    margin: 0 0 0.9rem;
+    border-radius: 0 8px 8px 0;
+  }
+  .why p {
+    margin: 0;
+    color: var(--ink);
+  }
+  .why .eyebrow {
+    margin-bottom: 0.35rem;
+  }
+  .compact .title {
+    font-size: 1.05rem;
+  }
+  .compact {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+</style>

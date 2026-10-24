@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { CATEGORIES, type Category } from '../../data/site';
+import { getArticles, type Article } from '../../utils/articles';
+
+export async function getStaticPaths() {
+  const articles = await getArticles();
+  return CATEGORIES.map((category) => ({
+    params: { slug: category.id },
+    props: { category, articles: articles.filter((a) => a.data.categories.includes(category.id)) },
+  }));
+}
+
+interface Props {
+  category: Category;
+  articles: Article[];
+}
+const { category, articles } = Astro.props;
+---
+
+<Base title={category.label} description={category.description}>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">{category.section === 'core' ? 'Topic' : 'Data & AI'}</p>
+      <h1>{category.label}</h1>
+      <p>{category.description}</p>
+    </header>
+    <div class="cols">
+      <section aria-label={`${category.label} articles`}>
+        {articles.map((a) => <ArticleCard article={a} />)}
+        {articles.length === 0 && <p class="empty">No articles in this topic yet. New items appear as soon as they pass editorial review.</p>}
+      </section>
+      <aside><NewsletterForm compact /></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  .empty {
+    color: var(--ink-2);
+  }
+  @media (max-width: 860px) {
+    .cols {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

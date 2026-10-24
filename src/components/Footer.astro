@@ -1,0 +1,77 @@
+---
+import { SITE } from '../data/site';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap grid">
+    <div>
+      <p class="name">Data Governance <b>Signal</b></p>
+      <p class="tag">{SITE.tagline}</p>
+    </div>
+    <nav aria-label="About">
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/editorial-policy/">Editorial policy</a></li>
+        <li><a href="/newsletter/">Newsletter</a></li>
+        <li><a href="/rss.xml">RSS</a></li>
+        <li><a href={`mailto:${SITE.email}`}>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap fine">
+    <p>
+      Every item links to its original source. Summaries are prepared with AI assistance and reviewed by a human editor
+      before publication. © {year} Data Governance Signal.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 4rem;
+    border-top: 2px solid var(--ink);
+    padding: 2rem 0 2.5rem;
+    background: var(--paper);
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .name {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+  }
+  .name b {
+    color: var(--signal);
+  }
+  .tag {
+    color: var(--ink-2);
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.4rem;
+  }
+  ul a {
+    color: var(--ink-2);
+    font-size: 0.9rem;
+  }
+  .fine {
+    margin-top: 1.75rem;
+    font-size: 0.8rem;
+    color: var(--ink-3);
+  }
+  .fine p {
+    margin: 0;
+    max-width: 720px;
+  }
+</style>

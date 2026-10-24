@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Search" description="Search the Data Governance Signal archive.">
+  <link slot="head" href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Archive</p>
+      <h1>Search</h1>
+      <p>Search every published item by keyword, regulation, company or topic.</p>
+    </header>
+    <div id="search" class="search"></div>
+    <noscript><p>Search requires JavaScript. You can browse by <a href="/topics/">topic</a> instead.</p></noscript>
+  </div>
+</Base>
+
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (!window.PagefindUI) {
+      document.getElementById('search').innerHTML =
+        '<p>Search index is built during deployment and is not available in development mode.</p>';
+      return;
+    }
+    new window.PagefindUI({ element: '#search', showSubResults: false, showImages: false, resetStyles: false });
+    const input = document.querySelector('#search input');
+    const q = new URLSearchParams(location.search).get('q');
+    if (input) {
+      input.focus();
+      if (q) {
+        input.value = q;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }
+  });
+</script>
+
+<style>
+  .search {
+    max-width: 760px;
+    --pagefind-ui-primary: var(--signal);
+    --pagefind-ui-text: var(--ink);
+    --pagefind-ui-background: var(--paper);
+    --pagefind-ui-border: var(--rule);
+    --pagefind-ui-tag: var(--paper-2);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 6px;
+    --pagefind-ui-font: var(--sans);
+  }
+</style>

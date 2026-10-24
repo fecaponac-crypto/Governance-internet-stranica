@@ -175,7 +175,7 @@ Okvirne skupine izvora:
 | Faza | Sadržaj | Rezultat |
 |------|---------|----------|
 | 1 ✅ | Specifikacija + katalog izvora | ovaj dokument + `data/sources.yaml` |
-| 2 | Kostur portala: početna, kategorije, članak, pretraživanje, Editorial Policy, prijava na newsletter | portal s probnim vijestima (lokalno / testna adresa) |
+| 2 ✅ | Kostur portala: početna, kategorije, članak, pretraživanje, Editorial Policy, prijava na newsletter | portal s probnim vijestima (lokalno / testna adresa) |
 | 3 | Dohvat izvora, duplikati, log grešaka | automatski dotok vijesti u arhivu |
 | 4 | AI ocjena, sažetak, „why it matters", nacrti kao PR | AI priprema nacrte za odobrenje |
 | 5 | Interni pilot 2 tjedna: točnost, duplikati, troškovi, ispadi izvora | pouzdan proces |
@@ -203,5 +203,5 @@ Okvirne skupine izvora:
 - [ ] Provjera žiga (EUIPO/USPTO)
 - [ ] Dobavljač AI modela (faza 4)
 - [ ] Newsletter servis (faza 2)
-- [ ] Hosting: Cloudflare Pages ili Netlify (faza 2)
+- [x] Hosting: Cloudflare Pages (statična stranica, Astro)
 - [ ] Dopuna kataloga izvorima koje već pratiš (vidi „Što nedostaje” u katalogu)

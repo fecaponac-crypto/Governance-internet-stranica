@@ -1,0 +1,139 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { getArticles } from '../utils/articles';
+import { CATEGORIES } from '../data/site';
+
+const articles = await getArticles();
+// Lead story: most important item of the last 7 days relative to the newest article.
+const newest = articles[0]?.data.date.getTime() ?? 0;
+const recent = articles.filter((a) => newest - a.data.date.getTime() <= 7 * 864e5);
+const lead = [...recent].sort((a, b) => b.data.importance - a.data.importance)[0] ?? articles[0];
+const rest = articles.filter((a) => a !== lead);
+const top = rest.slice(0, 2);
+const latest = rest.slice(2);
+const counts = Object.fromEntries(
+  CATEGORIES.map((c) => [c.id, articles.filter((a) => a.data.categories.includes(c.id)).length]),
+);
+---
+
+<Base>
+  <div class="wrap">
+    <section class="hero" aria-label="Top stories">
+      <div class="lead">{lead && <ArticleCard article={lead} variant="lead" />}</div>
+      <div class="side">
+        {top.map((a) => <ArticleCard article={a} />)}
+      </div>
+    </section>
+
+    <div class="cols">
+      <section aria-labelledby="latest-title">
+        <div class="section-title">
+          <h2 id="latest-title">Latest</h2>
+          <a href="/search/">Search the archive</a>
+        </div>
+        {latest.map((a) => <ArticleCard article={a} />)}
+      </section>
+
+      <aside class="rail">
+        <NewsletterForm compact />
+        <section class="topics" aria-labelledby="topics-title">
+          <div class="section-title"><h2 id="topics-title">Topics</h2></div>
+          <ul>
+            {
+              CATEGORIES.filter((c) => c.section === 'core').map((c) => (
+                <li>
+                  <a href={`/category/${c.id}/`}>{c.label}</a>
+                  <span class="count">{counts[c.id]}</span>
+                </li>
+              ))
+            }
+            <li class="broad">
+              <a href="/data-and-ai/">Data &amp; AI (broader coverage)</a>
+            </li>
+          </ul>
+        </section>
+        <section class="about">
+          <div class="section-title"><h2>About</h2></div>
+          <p>
+            Data Governance Signal tracks regulators, standards bodies, researchers and vendors, and selects what matters
+            for data governance professionals. Every item explains <em>why it matters</em> and links to its sources.
+          </p>
+          <p><a href="/editorial-policy/">How we work</a></p>
+        </section>
+      </aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    gap: 2.5rem;
+    padding: 2.25rem 0 1rem;
+  }
+  .lead :global(.card) {
+    border-bottom: none;
+  }
+  .side {
+    border-left: 1px solid var(--rule);
+    padding-left: 2rem;
+  }
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    gap: 2.5rem;
+    margin-top: 1rem;
+  }
+  .rail {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+  .topics ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .topics li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 0.93rem;
+  }
+  .topics a {
+    text-decoration: none;
+  }
+  .count {
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .topics .broad a {
+    color: var(--ink-2);
+  }
+  .about p {
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
+  @media (max-width: 860px) {
+    .hero,
+    .cols {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .side {
+      border-left: none;
+      padding-left: 0;
+    }
+    .hero {
+      padding-top: 1.5rem;
+    }
+    .rail {
+      margin-top: 1rem;
+    }
+  }
+</style>

@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { SITE } from '../data/site';
+---
+
+<Base title="About" description="What Data Governance Signal is, who it is for and how it works.">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">About</p>
+      <h1>Signal, not noise.</h1>
+      <p>{SITE.tagline}</p>
+    </header>
+    <div class="prose">
+      <p>
+        Data governance professionals are expected to follow regulators in several jurisdictions, new standards, court
+        decisions, research and a fast-moving vendor market — while doing their actual job. Most of what is published
+        does not matter to them. Some of it matters a great deal.
+      </p>
+      <p>
+        <strong>Data Governance Signal</strong> follows more than fifty carefully selected sources — data protection
+        authorities, the European Commission, standards bodies, professional associations, specialist law firms,
+        researchers and vendors — and selects what is worth your time.
+      </p>
+      <h2>What you get with every item</h2>
+      <ul>
+        <li><strong>A short, original summary</strong> of what happened.</li>
+        <li><strong>Why it matters</strong> — the business and governance impact.</li>
+        <li><strong>Governance areas affected</strong> and <strong>who should care</strong>.</li>
+        <li><strong>An importance rating</strong>, from background to critical.</li>
+        <li><strong>Links to every source</strong>, with primary sources marked.</li>
+      </ul>
+      <h2>Who it is for</h2>
+      <p>
+        Chief data officers, data governance leads, data stewards and owners, data protection officers, compliance and
+        risk professionals, AI governance teams and the consultants who work with them.
+      </p>
+      <h2>How it works</h2>
+      <p>
+        An automated process checks our sources several times a day, removes duplicates and uses AI to assess relevance
+        and draft summaries. <strong>Nothing is published without review by a human editor</strong>, who edits,
+        approves or rejects every item. Read our <a href="/editorial-policy/">editorial policy</a> for the details.
+      </p>
+      <h2>Contact</h2>
+      <p>Tips, corrections and feedback: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+    </div>
+    <div class="nl"><NewsletterForm /></div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .prose h2 {
+    font-size: 1.45rem;
+    margin: 2rem 0 0.75rem;
+  }
+  .prose ul {
+    padding-left: 1.2rem;
+  }
+  .prose li {
+    margin-bottom: 0.4rem;
+  }
+  .nl {
+    margin-top: 2.5rem;
+  }
+</style>

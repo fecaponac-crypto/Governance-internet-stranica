@@ -1,0 +1,71 @@
+---
+import { SITE } from '../data/site';
+interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+
+<section class:list={['nl', { compact }]} aria-labelledby="nl-title">
+  <p class="eyebrow">Weekly Briefing</p>
+  <h2 id="nl-title">The week in data governance, in five minutes.</h2>
+  <p class="lede">The most important developments, why they matter and who should act — every Friday. No noise.</p>
+  <form class="nl-form" data-nl-form>
+    <label class="visually-hidden" for={compact ? 'nl-email-c' : 'nl-email'}>Email address</label>
+    <input id={compact ? 'nl-email-c' : 'nl-email'} type="email" name="email" placeholder="you@company.com" required autocomplete="email" />
+    <button class="btn" type="submit">Subscribe</button>
+  </form>
+  <p class="note" data-nl-note role="status">
+    {SITE.preview ? 'Sign-up opens at launch.' : 'Free. Unsubscribe anytime.'}
+  </p>
+</section>
+
+<script>
+  // Placeholder until a newsletter service is connected (phase 2 decision).
+  document.querySelectorAll<HTMLFormElement>('[data-nl-form]').forEach((form) => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const note = form.parentElement?.querySelector('[data-nl-note]');
+      if (note) note.textContent = 'Thanks! Sign-up opens at launch — we will not store your address yet.';
+    });
+  });
+</script>
+
+<style>
+  .nl {
+    background: var(--paper-2);
+    border-top: 3px solid var(--signal);
+    padding: 1.5rem;
+    border-radius: 0 0 8px 8px;
+  }
+  h2 {
+    font-size: 1.45rem;
+    margin: 0.4rem 0 0.5rem;
+  }
+  .lede {
+    color: var(--ink-2);
+  }
+  .nl-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  input {
+    flex: 1 1 200px;
+    min-width: 0;
+    font: inherit;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .note {
+    font-size: 0.8rem;
+    color: var(--ink-3);
+    margin: 0.6rem 0 0;
+  }
+  .compact h2 {
+    font-size: 1.2rem;
+  }
+</style>
