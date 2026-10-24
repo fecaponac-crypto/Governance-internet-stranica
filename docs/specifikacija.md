@@ -198,6 +198,20 @@ Okvirne skupine izvora:
 6. **AI ilustracije** za vijesti važnosti 4–5 (opcija C), uz odobrenje urednika.
 7. ✅ **Stranica Privacy** — `/privacy/`; prije lansiranja dopuniti pravni naziv voditelja obrade i servis za newsletter.
 
+## 10b. Pilot (od 24. 10. 2026., 1–2 tjedna) i priprema lansiranja
+
+**Što pratimo:** broj i kvalitetu nacrta, udio objavljenih/odbačenih, točnost u odnosu na izvore, propuštene važne vijesti, potrošnju AI-ja (`data/reports/drafts.md`), ispade izvora (`data/reports/latest.md`).
+
+**Kontrolna lista za lansiranje (faza 6):**
+- [ ] dotjerati pragove i upute trijaže prema iskustvu iz pilota
+- [ ] `SITE.preview = false`, ukloniti probne članke (`sample: true`)
+- [ ] `robots.txt`: dopustiti indeksiranje + Sitemap
+- [ ] Privacy: pravni naziv voditelja obrade, servis za newsletter
+- [ ] odabrati i spojiti newsletter servis (obrazac za prijavu)
+- [ ] About: kratki opis urednika (po želji)
+- [ ] provjera žiga (EUIPO/USPTO)
+- [ ] prva objava na LinkedInu
+
 ## 11. Kriteriji uspjeha
 
 **Operativni (od lansiranja):**
