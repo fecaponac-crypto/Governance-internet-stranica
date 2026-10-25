@@ -5,7 +5,7 @@ For items that data/archive marks as "new" and that have not been processed yet:
   2. fetch the source article for items above the threshold and, when it is secondary
      coverage, find and fetch the original document it links to (decision, release, report),
   3. write a draft in the portal's format with a stronger model,
-  4. fact-check every claim of the draft against the sources,
+  4. fact-check every claim against the sources (importance >= FACT_CHECK_MIN_IMPORTANCE),
   5. open one pull request per draft, assigned to the editor, with the fact-check result on top.
 
 Nothing is published here: merging the pull request publishes the article.
@@ -55,6 +55,8 @@ MIN_IMPORTANCE_BROAD = 4
 MIN_SOURCE_CHARS = 600
 MAX_SOURCE_CHARS = 40_000  # per source; a draft may use the collected article and one original document
 MAX_LINKS = 80
+# The fact check roughly doubles the cost of a draft, so it runs only for the most important stories.
+FACT_CHECK_MIN_IMPORTANCE = int(os.environ.get("FACT_CHECK_MIN_IMPORTANCE", "4"))
 MAX_PDF_PAGES = 40
 
 EDITOR = os.environ.get("EDITOR_GITHUB", "fecaponac-crypto")
@@ -470,6 +472,9 @@ def fact_check(client, state, d: dict, sources: list[dict]) -> dict:
 
 
 def check_summary(check: dict) -> str:
+    if check.get("skipped"):
+        return (f"ℹ️ **Fact check not run** (importance below {FACT_CHECK_MIN_IMPORTANCE}) — "
+                "please verify names, numbers and dates against the sources.")
     if not check["flagged"]:
         return f"✅ **Fact check:** all {check['claims']} claims are supported by the sources."
     lines = [f"⚠️ **Fact check:** {len(check['flagged'])} of {check['claims']} claims need your attention:"]
@@ -681,7 +686,10 @@ def run(args) -> dict:
                 problems = validate(d)
                 if problems:
                     raise ModelError("; ".join(problems))
-                check = fact_check(client, state, d, sources)
+                if d["importance"] >= FACT_CHECK_MIN_IMPORTANCE:
+                    check = fact_check(client, state, d, sources)
+                else:
+                    check = {"claims": 0, "flagged": [], "skipped": True}
                 slug = unique_slug(d["title"], taken)
                 taken.add(slug)
                 markdown = to_markdown(d, item)
@@ -693,7 +701,8 @@ def run(args) -> dict:
                     pr = open_pull_request(slug, markdown, d, item, check, record, base)
                     record.update(decision="drafted", draft=slug, pr=pr)
                 summary["drafted"] += 1
-                mark = "✅" if not check["flagged"] else f"⚠️ {len(check['flagged'])} claims to check"
+                mark = ("ℹ️ not fact-checked" if check.get("skipped") else
+                        "✅" if not check["flagged"] else f"⚠️ {len(check['flagged'])} claims to check")
                 log.append(f"- {mark} **{d['title']}** — importance {d['importance']}"
                            f"{' · primary source found' if primary else ''} · {record.get('pr', slug)}")
             except (ModelError, anthropic.APIError, subprocess.CalledProcessError, json.JSONDecodeError) as e:

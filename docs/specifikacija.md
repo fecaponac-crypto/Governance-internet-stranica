@@ -198,6 +198,12 @@ Okvirne skupine izvora:
 6. **AI ilustracije** za vijesti važnosti 4–5 (opcija C), uz odobrenje urednika.
 7. ✅ **Stranica Privacy** — `/privacy/`; prije lansiranja dopuniti pravni naziv voditelja obrade i servis za newsletter.
 
+## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
+
+- Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
+- **Provjera činjenica** (svaka tvrdnja prema izvorima) za vijesti **važnosti 4–5**; za važnost 3 urednik dobiva napomenu da sam provjeri ključne činjenice.
+- Mjesečni limit AI troška ostaje **12 $**; kad se dosegne, odabrane vijesti čekaju sljedeći mjesec.
+
 ## 10b. Pilot (od 24. 10. 2026., 1–2 tjedna) i priprema lansiranja
 
 **Što pratimo:** broj i kvalitetu nacrta, udio objavljenih/odbačenih, točnost u odnosu na izvore, propuštene važne vijesti, potrošnju AI-ja (`data/reports/drafts.md`), ispade izvora (`data/reports/latest.md`).

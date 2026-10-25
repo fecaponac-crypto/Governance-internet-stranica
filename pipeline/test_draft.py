@@ -204,3 +204,12 @@ class ExtractLinksTest(unittest.TestCase):
         )
         links = draft.extract_links(html, "https://dpa.example.org/news/fine")
         self.assertEqual(links, [{"url": "https://dpa.example.org/decisions/12.pdf", "text": "Read the decision"}])
+
+
+class FactCheckThresholdTest(RunTest):
+    def test_low_importance_draft_is_not_fact_checked(self):
+        scores = [{"index": 0, "relevant": True, "importance": 3, "categories": ["privacy"], "same_story_as": "", "reason": "x"}]
+        with mock.patch.dict(DRAFT, importance=3):
+            client, summary = self.run_with(scores)
+        self.assertEqual((summary["drafted"], client.writer_calls, client.check_calls), (1, 1, 0))
+        self.assertIn("not run", draft.check_summary({"claims": 0, "flagged": [], "skipped": True}))
