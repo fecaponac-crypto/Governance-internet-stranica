@@ -1,0 +1,118 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import PredictionList from '../../components/PredictionList.astro';
+import { COLUMN, SITE } from '../../data/site';
+import { columnUrl, formatDate, getColumns, getPredictions, isoDate, type Column } from '../../utils/articles';
+
+export async function getStaticPaths() {
+  const columns = await getColumns();
+  return columns.map((column, i) => ({ params: { slug: column.id }, props: { column, previous: columns[i + 1] } }));
+}
+
+interface Props {
+  column: Column;
+  previous?: Column;
+}
+const { column, previous } = Astro.props;
+const { data } = column;
+const { Content } = await render(column);
+const url = columnUrl(column);
+const predictions = await getPredictions();
+// Predictions recorded in this column, and earlier ones judged in it.
+const made = predictions.filter((p) => p.data.ours && p.data.source.url.endsWith(url));
+const judged = predictions.filter((p) => p.data.resolved && isoDate(p.data.resolved) <= column.id && isoDate(p.data.resolved) > (previous?.id ?? ''));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'OpinionNewsArticle',
+  headline: data.title,
+  description: data.dek,
+  datePublished: isoDate(data.date),
+  author: { '@type': 'Person', name: data.author, description: 'Pen name' },
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+};
+---
+
+<Base title={`${data.title} — ${COLUMN.name}`} description={data.dek} type="article">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+  <article class="wrap narrow" data-pagefind-body>
+    <header class="head">
+      <p class="eyebrow"><a href="/monday-signal/">{COLUMN.name}</a> · Opinion</p>
+      <h1>{data.title}</h1>
+      <p class="dek">{data.dek}</p>
+      <p class="byline" data-pagefind-ignore>
+        By <a href="/about/#editor">{data.author}</a> · <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time>
+      </p>
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+
+    {
+      made.length > 0 && (
+        <section aria-labelledby="calls">
+          <h2 id="calls">Predictions in this column</h2>
+          <PredictionList predictions={made} />
+        </section>
+      )
+    }
+    {
+      judged.length > 0 && (
+        <section aria-labelledby="checked">
+          <h2 id="checked">Predictions checked this week</h2>
+          <PredictionList predictions={judged} />
+        </section>
+      )
+    }
+    <p class="disclosure" data-pagefind-ignore>
+      Opinion of the editor, writing as {data.author} — a pen name, see <a href="/about/#editor">About</a>. All
+      predictions are tracked on the <a href="/predictions/">prediction tracker</a>. Disagree or spotted an error? <a
+        href={`mailto:${SITE.email}?subject=${encodeURIComponent('Monday Signal: ' + data.title)}`}>Write to us</a
+      >.
+    </p>
+  </article>
+  <div class="wrap narrow"><NewsletterForm /></div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .head {
+    padding: 2.5rem 0 1.25rem;
+  }
+  .eyebrow a {
+    color: inherit;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.7rem);
+    line-height: 1.12;
+    margin: 0.5rem 0 0.9rem;
+  }
+  .dek {
+    font-family: var(--serif);
+    font-size: clamp(1.1rem, 2.4vw, 1.3rem);
+    line-height: 1.5;
+    color: var(--ink-2);
+  }
+  .byline {
+    font-size: 0.85rem;
+    color: var(--ink-3);
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--rule);
+  }
+  section {
+    margin-top: 2.5rem;
+  }
+  section h2 {
+    font-size: 1.3rem;
+  }
+  .disclosure {
+    margin: 2.5rem 0;
+    font-size: 0.85rem;
+    color: var(--ink-3);
+  }
+</style>

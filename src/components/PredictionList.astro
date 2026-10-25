@@ -1,0 +1,106 @@
+---
+import { formatDate, type Prediction } from '../utils/articles';
+interface Props {
+  predictions: Prediction[];
+}
+const { predictions } = Astro.props;
+const STATUS: Record<string, string> = {
+  open: 'Open',
+  correct: 'Came true',
+  partly: 'Partly',
+  wrong: 'Did not happen',
+  void: 'Void',
+};
+---
+
+<ol class="predictions">
+  {
+    predictions.map(({ data: p }) => (
+      <li class:list={['p', p.status]}>
+        <div class="top">
+          <span class="status">{STATUS[p.status]}</span>
+          <span class="by">
+            {p.ours ? 'Our call' : p.by}
+            {!p.ours && p.role && <span class="role"> · {p.role}</span>}
+          </span>
+          {p.confidence !== undefined && <span class="conf">{p.confidence}% likely</span>}
+        </div>
+        <p class="claim">{p.claim}</p>
+        {p.quote && <blockquote>“{p.quote}”</blockquote>}
+        <p class="meta">
+          Made {formatDate(p.made)} · <a href={p.source.url}>{p.source.title}</a> · due {formatDate(p.due)}
+        </p>
+        {p.status !== 'open' && p.evidence && (
+          <p class="outcome">
+            <b>Outcome ({formatDate(p.resolved!)}):</b> {p.note && <>{p.note} </>}
+            <a href={p.evidence.url} rel="noopener">{p.evidence.title}</a>
+          </p>
+        )}
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .predictions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .p {
+    border-top: 1px solid var(--rule);
+    padding: 1.1rem 0;
+  }
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.9rem;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--ink-3);
+  }
+  .status {
+    font-weight: 650;
+    border: 1px solid currentColor;
+    border-radius: 99px;
+    padding: 0 0.5rem;
+  }
+  .correct .status {
+    color: #1d7a46;
+  }
+  .partly .status {
+    color: #9a6a00;
+  }
+  .wrong .status {
+    color: var(--signal);
+  }
+  .by {
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  .role {
+    font-weight: 400;
+  }
+  .claim {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    line-height: 1.45;
+    margin: 0.45rem 0 0.35rem;
+  }
+  blockquote {
+    margin: 0 0 0.4rem;
+    padding-left: 0.8rem;
+    border-left: 3px solid var(--rule);
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
+  .meta,
+  .outcome {
+    font-size: 0.85rem;
+    color: var(--ink-3);
+    margin: 0.2rem 0 0;
+  }
+  .outcome {
+    color: var(--ink-2);
+  }
+</style>

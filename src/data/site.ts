@@ -15,6 +15,17 @@ export const SITE = {
   preview: true,
 };
 
+// Weekly editor's column; the newsletter goes out with it on Mondays.
+export const COLUMN = {
+  name: 'The Monday Signal',
+  // Pen name of the editor (a practitioner who works in the field).
+  author: 'The Steward',
+  authorBio:
+    'The Steward is the pen name of the editor of Data Governance Signal — a practitioner in master data management since 2011 and in data governance since 2019, with governance leadership and AI governance roles.',
+};
+
+export const PREDICTION_STATUSES = ['open', 'correct', 'partly', 'wrong', 'void'] as const;
+
 export type Section = 'core' | 'broad';
 
 export interface Category {

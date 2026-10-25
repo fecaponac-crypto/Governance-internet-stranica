@@ -7,9 +7,9 @@ const { compact = false } = Astro.props;
 ---
 
 <section class:list={['nl', { compact }]} aria-labelledby="nl-title">
-  <p class="eyebrow">Weekly Briefing</p>
+  <p class="eyebrow">The Monday Signal</p>
   <h2 id="nl-title">The week in data governance, in five minutes.</h2>
-  <p class="lede">The most important developments, why they matter and who should act — every Friday. No noise.</p>
+  <p class="lede">The most important developments, why they matter and who should act, plus the editor’s column — every Monday. No noise.</p>
   <form class="nl-form" action={SITE.newsletterSubscribeUrl} method="post" target="_blank" data-nl-form>
     <label class="visually-hidden" for={compact ? 'nl-email-c' : 'nl-email'}>Email address</label>
     <input id={compact ? 'nl-email-c' : 'nl-email'} type="email" name="email" placeholder="you@company.com" required autocomplete="email" />

@@ -72,19 +72,23 @@ async function relayFeed(id) {
   });
 }
 
-const WORKFLOW_DISPATCH_URL =
-  'https://api.github.com/repos/fecaponac-crypto/Governance-internet-stranica/actions/workflows/ingest.yml/dispatches';
+const WORKFLOWS_URL = 'https://api.github.com/repos/fecaponac-crypto/Governance-internet-stranica/actions/workflows';
+// Cron expression (as in wrangler.jsonc) -> workflow it starts and the KV key for its outcome.
+export const CRON_JOBS = {
+  '17 */3 * * *': { workflow: 'ingest.yml', key: 'cron:last' },
+  '47 5 * * 1': { workflow: 'monday.yml', key: 'cron:last-monday' },
+};
 const WORKFLOW_REF = 'claude/data-intelligence-portal-plan-v46ux0';
 
 /** Keep the outcome of the latest cron run in KV (key "cron:last") so it can be checked in the dashboard. */
-async function recordCron(env, event, outcome) {
+async function recordCron(env, event, key, outcome) {
   console.log(`cron ${event.cron}: ${outcome}`);
-  await env.SOURCES?.put('cron:last', JSON.stringify({ at: new Date().toISOString(), cron: event.cron, outcome }));
+  await env.SOURCES?.put(key, JSON.stringify({ at: new Date().toISOString(), cron: event.cron, outcome }));
 }
 
-export async function dispatchWorkflow(env) {
+export async function dispatchWorkflow(env, workflow = 'ingest.yml') {
   if (!env.GITHUB_TOKEN) throw new Error('GITHUB_TOKEN secret not set on the Worker');
-  const res = await fetch(WORKFLOW_DISPATCH_URL, {
+  const res = await fetch(`${WORKFLOWS_URL}/${workflow}/dispatches`, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${env.GITHUB_TOKEN}`,
@@ -99,10 +103,11 @@ export async function dispatchWorkflow(env) {
 
 export default {
   async scheduled(event, env, ctx) {
+    const job = CRON_JOBS[event.cron] ?? CRON_JOBS['17 */3 * * *'];
     ctx.waitUntil(
-      dispatchWorkflow(env).then(
-        () => recordCron(env, event, 'dispatched'),
-        (err) => recordCron(env, event, `error: ${err.message}`.slice(0, 500)),
+      dispatchWorkflow(env, job.workflow).then(
+        () => recordCron(env, event, job.key, 'dispatched'),
+        (err) => recordCron(env, event, job.key, `error: ${err.message}`.slice(0, 500)),
       ),
     );
   },

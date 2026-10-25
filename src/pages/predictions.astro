@@ -1,0 +1,111 @@
+---
+import Base from '../layouts/Base.astro';
+import PredictionList from '../components/PredictionList.astro';
+import { COLUMN } from '../data/site';
+import { getPredictions, scorecard } from '../utils/articles';
+
+const all = await getPredictions();
+const ours = all.filter((p) => p.data.ours);
+const theirs = all.filter((p) => !p.data.ours);
+const open = all.filter((p) => p.data.status === 'open');
+const judged = all.filter((p) => p.data.status !== 'open').reverse();
+const card = scorecard(ours);
+const pct = (x?: number) => (x === undefined ? '—' : `${Math.round(x * 100)}%`);
+---
+
+<Base
+  title="Prediction tracker"
+  description="Every prediction we make in The Monday Signal, and forward-looking claims by regulators, vendors and analysts — checked when they fall due."
+>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">{COLUMN.name}</p>
+      <h1>Prediction tracker</h1>
+      <p>
+        We write down what we expect to happen — and what regulators, vendors and analysts say will happen — with a date by
+        which it can be judged. When the date comes, we check and publish the outcome, including when we were wrong.
+      </p>
+    </header>
+
+    <section class="score" aria-label="Our track record">
+      <div><b>{ours.length}</b><span>our predictions</span></div>
+      <div><b>{card.judged}</b><span>judged so far</span></div>
+      <div><b>{pct(card.hitRate)}</b><span>came true¹</span></div>
+      <div><b>{card.brier === undefined ? '—' : card.brier.toFixed(2)}</b><span>Brier score²</span></div>
+      <div><b>{theirs.length}</b><span>others’ predictions tracked</span></div>
+    </section>
+
+    <section aria-labelledby="open">
+      <div class="section-title"><h2 id="open">Open</h2></div>
+      {open.length ? <PredictionList predictions={open} /> : <p class="empty">The first predictions arrive with the first Monday Signal.</p>}
+    </section>
+
+    {
+      judged.length > 0 && (
+        <section aria-labelledby="judged">
+          <div class="section-title"><h2 id="judged">Judged</h2></div>
+          <PredictionList predictions={judged} />
+        </section>
+      )
+    }
+
+    <div class="prose notes">
+      <h2>How we judge</h2>
+      <ul>
+        <li>
+          <b>Came true</b>, <b>partly</b> or <b>did not happen</b> is decided on the due date against a public source, which
+          we link. <b>Void</b> means the outcome cannot be judged fairly (for example, the question changed).
+        </li>
+        <li>Predictions are never edited after publication. Corrections to an outcome are noted on the entry.</li>
+        <li>
+          Others’ predictions are quoted word for word from the linked source; we judge the claim, not the person.
+        </li>
+        <li>¹ Partly counts as half. Void and open predictions are not counted.</li>
+        <li>
+          ² For our predictions we state how likely we think they are. The Brier score measures how well those
+          confidence levels match outcomes: 0 is perfect, 0.25 is what always saying “50%” would get.
+        </li>
+      </ul>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .score {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 0 0 2.5rem;
+  }
+  .score div {
+    background: var(--paper);
+    padding: 0.9rem 1rem;
+  }
+  .score b {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.7rem;
+  }
+  .score span {
+    font-size: 0.8rem;
+    color: var(--ink-3);
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  .empty {
+    color: var(--ink-3);
+  }
+  .notes h2 {
+    font-size: 1.3rem;
+  }
+  .notes ul {
+    padding-left: 1.2rem;
+    font-size: 0.92rem;
+  }
+</style>

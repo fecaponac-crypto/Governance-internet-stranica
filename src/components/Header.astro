@@ -33,6 +33,9 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
   </div>
   <nav class="wrap nav" aria-label="Topics">
     <ul>
+      <li>
+        <a href="/monday-signal/" class="column" aria-current={path.startsWith('/monday-signal/') ? 'page' : undefined}>Monday Signal</a>
+      </li>
       {
         nav.map((n) => (
           <li>
@@ -138,6 +141,9 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
   .nav a[aria-current='page'] {
     color: var(--ink);
     border-bottom-color: var(--signal);
+  }
+  .nav .column {
+    font-weight: 650;
   }
   .nav .broad {
     color: var(--ink-3);

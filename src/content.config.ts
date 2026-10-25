@@ -1,7 +1,7 @@
 import { defineCollection } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
-import { CATEGORY_IDS, CONTENT_TYPES } from './data/site';
+import { CATEGORY_IDS, COLUMN, CONTENT_TYPES, PREDICTION_STATUSES } from './data/site';
 
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
@@ -43,4 +43,44 @@ const articles = defineCollection({
   }),
 });
 
-export const collections = { articles };
+// The Monday Signal: the editor's weekly column (one file per Monday, named YYYY-MM-DD.md).
+const columns = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/columns' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    dek: z.string(),
+    author: z.string().default(COLUMN.author),
+    draft: z.boolean().default(false),
+  }),
+});
+
+const link = z.object({ title: z.string(), url: z.url() });
+
+const predictions = defineCollection({
+  loader: file('data/predictions.yaml'),
+  schema: z
+    .object({
+      claim: z.string(),
+      by: z.string(),
+      role: z.string().optional(),
+      ours: z.boolean().default(false),
+      quote: z.string().optional(),
+      source: link,
+      made: z.coerce.date(),
+      due: z.coerce.date(),
+      confidence: z.number().int().min(1).max(99).optional(),
+      status: z.enum(PREDICTION_STATUSES).default('open'),
+      resolved: z.coerce.date().optional(),
+      evidence: link.optional(),
+      note: z.string().optional(),
+      categories: z.array(z.enum(CATEGORY_IDS)).default([]),
+    })
+    .refine((p) => !p.ours || p.confidence !== undefined, { message: 'our predictions need a confidence' })
+    .refine((p) => p.ours || !!p.quote, { message: "others' predictions need the quoted words" })
+    .refine((p) => p.status === 'open' || (p.resolved && p.evidence), {
+      message: 'a judged prediction needs resolved and evidence',
+    }),
+});
+
+export const collections = { articles, columns, predictions };

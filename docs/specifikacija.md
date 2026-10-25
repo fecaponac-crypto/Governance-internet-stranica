@@ -112,7 +112,7 @@ Cilj prve godine je publika i povjerenje, ne prihod.
 ## 7. Newsletter
 
 - **Obrazac za prijavu na portalu od prvog dana** (početna stranica, dno svakog članka).
-- Tjedni pregled (*Weekly Briefing*) počinje se slati kad lista dosegne smislenu veličinu (okvirno 50–100 pretplatnika). Do tada se isti pregled objavljuje na portalu kao članak.
+- Newsletter se zove **The Monday Signal** i izlazi **ponedjeljkom** (odluka 25. 10. 2026.): urednikova kolumna + najvažnije vijesti prošlog tjedna. Kolumna se uvijek objavljuje i na portalu (`/monday-signal/`); slanje e-mailom ručno iz Buttondowna (tekst je gotov u PR-u) dok ne uvedemo automatsko slanje.
 - Alat: neki od servisa s besplatnim početnim paketom (npr. Buttondown, Beehiiv); odluka u fazi 2.
 
 ## 8. Tehnička arhitektura (MVP)
@@ -197,6 +197,14 @@ Okvirne skupine izvora:
 5. ✅ **Substack izvori** (EU AI Act Newsletter, Modern Data 101) — dohvat preko Cloudflare posrednika `/feeds/<id>` (samo ta dva feeda).
 6. **AI ilustracije** za vijesti važnosti 4–5 (opcija C), uz odobrenje urednika.
 7. ✅ **Stranica Privacy** — `/privacy/`; prije lansiranja dopuniti pravni naziv voditelja obrade i servis za newsletter.
+
+## 10a-2. The Monday Signal (odluka 25. 10. 2026.)
+
+- **Tjedna kolumna urednika** svakog ponedjeljka: komentar prošlog tjedna, predviđanja i provjera ranijih predviđanja. Označena kao *Opinion*.
+- **Potpis: pseudonim „The Steward”** (urednik je zaposlen u struci). Na About i uz kolumnu jasno piše da je pseudonim praktičara (MDM od 2011., data governance od 2019., governance i AI governance uloge), bez podataka koji identificiraju osobu; sukob interesa se navodi. Pseudonim je postavka `COLUMN.author` u `src/data/site.ts`.
+- **Tracker predviđanja** (`/predictions/`, podaci u `data/predictions.yaml`): naša predviđanja (s postotkom vjerojatnosti i rokom) i predviđanja drugih (regulatori, tvrtke, analitičari — uvijek doslovni citat i poveznica). Na rok urednik označi ishod (*came true / partly / did not happen / void*) s dokazom. Objavljeno se ne mijenja. Prikazuje se postotak pogodaka i Brierova ocjena.
+- **Automatizacija:** ponedjeljkom u 05:47 UTC (06:47 po zimskom, 07:47 po ljetnom vremenu) Cloudflare Cron pokreće `.github/workflows/monday.yml` → `pipeline/monday.py` otvara PR „Monday Signal YYYY-MM-DD: …” s nacrtom kolumne (iz vijesti objavljenih u proteklih 7 dana), predloženim predviđanjima (tuđa samo ako se citat doslovno nalazi u izvoru), predviđanjima kojima ističe rok i tekstom newslettera. Urednik prepiše kolumnu svojim glasom, uredi predviđanja, spoji (= objava) i pošalje newsletter. Trošak ≈ 0,3–0,6 $ tjedno, unutar limita 12 $.
+- Ishod Cloudflare pokretanja: KV ključ `cron:last-monday` (za prikupljanje `cron:last`).
 
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 

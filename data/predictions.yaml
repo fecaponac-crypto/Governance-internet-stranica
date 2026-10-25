@@ -1,0 +1,20 @@
+# Prediction tracker shown at /predictions/.
+# Our own predictions come from The Monday Signal; others' are forward-looking statements by
+# named actors (regulators, companies, analysts), always quoted from a linked source.
+#
+#   id:          unique, e.g. 2026-11-02-1
+#   claim:       what is predicted, stated so it can be checked
+#   by:          who made it ("Data Governance Signal" for ours)
+#   role:        optional, e.g. "European Commission", "Gartner"
+#   ours:        true for our own predictions
+#   quote:       others' predictions: the exact words in the source
+#   source:      {title, url} where the prediction was made (ours: the column)
+#   made:        date the prediction was made
+#   due:         date by which it can be judged
+#   confidence:  ours only, 1-99 (% likely)
+#   status:      open | correct | partly | wrong | void (cannot be judged / withdrawn)
+#   resolved:    date the outcome was judged
+#   evidence:    {title, url} for the outcome
+#   note:        optional, shown with the outcome
+#   categories:  optional category ids
+[]

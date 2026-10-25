@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import PostalMime from 'postal-mime';
-import worker, { extractLinks, htmlToText, dispatchWorkflow } from './index.js';
+import worker, { extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS } from './index.js';
 
 const raw = [
   'From: Newsletter <news@example.com>',
@@ -112,4 +112,32 @@ test('scheduled handler records the outcome in KV', async () => {
   } finally {
     globalThis.fetch = realFetch;
   }
+});
+
+test('the Monday cron starts the Monday workflow and records it under its own key', async () => {
+  const calls = [];
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async (url) => {
+    calls.push(url);
+    return new Response(null, { status: 204 });
+  };
+  const stored = {};
+  const env = { GITHUB_TOKEN: 't', SOURCES: { put: async (k, v) => { stored[k] = JSON.parse(v); } } };
+  const waits = [];
+  try {
+    await worker.scheduled({ cron: '47 5 * * 1' }, env, { waitUntil: (p) => waits.push(p) });
+    await Promise.all(waits);
+    assert.match(calls[0], /workflows\/monday\.yml\/dispatches$/);
+    assert.equal(stored['cron:last-monday'].outcome, 'dispatched');
+    assert.equal(stored['cron:last'], undefined);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});
+
+test('every cron in wrangler.jsonc has a job', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const config = await readFile(new URL('../wrangler.jsonc', import.meta.url), 'utf8');
+  const crons = JSON.parse(config.match(/"crons":\s*(\[[^\]]*\])/)[1]);
+  assert.deepEqual(crons.sort(), Object.keys(CRON_JOBS).sort());
 });
