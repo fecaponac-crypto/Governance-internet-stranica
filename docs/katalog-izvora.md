@@ -1,6 +1,6 @@
 # Katalog izvora — Data Governance Signal
 
-> Verzija 0.2 · provjereno 24. 10. 2026. (prvo automatsko prikupljanje)
+> Verzija 0.3 · proširenje 25. 10. 2026. (+26 izvora) · v0.2 provjerena 24. 10. 2026.
 > Strojno čitljiv katalog (koristi ga automatizacija): [`data/sources.yaml`](../data/sources.yaml)
 
 ## Sažetak
@@ -15,6 +15,25 @@
 | Prioritet visok / srednji / nizak | 10 / 26 / 17 |
 
 Svaki RSS feed provjeren je stvarnim dohvatom: radi li, ima li objava i jesu li objave svježe.
+
+## Proširenje v0.3 (25. 10. 2026.)
+
+Testirano oko 140 kandidata, dodano **26 izvora** koji rade (svi RSS, provjereni stvarnim dohvatom). Sada se automatski provjerava **72 izvora**, bez grešaka. CNIL je dobio i francuski feed, jer odluke i kazne izlaze prvo na francuskom.
+
+| Skupina | Novi izvori |
+|---|---|
+| Nacionalni regulatori za zaštitu podataka | nizozemski AP (prioritet visok; i nadzor algoritama), švedski IMY, njemački DSK (zajednička tijela) i LfDI Baden-Württemberg, hrvatski **AZOP** |
+| EU i UK institucije (uz filtar ključnih riječi) | Europski parlament, Vijeće EU, UK DSIT, EBA, ECB Banking Supervision (BCBS 239 / kvaliteta podataka u bankama) |
+| Odvjetnički blogovi | DLA Piper *Privacy Matters*, Norton Rose *Data Protection Report*, Sidley *Data Matters* |
+| Istraživanje i civilno društvo | AlgorithmWatch, CSET (Georgetown), EDRi, International Data Spaces Association, Gaia-X |
+| Stručni mediji / analitičari | Eckerson Group, Computer Weekly (sigurnost, filtar), InformationWeek (filtar) |
+| MDM i kvaliteta podataka | Profisee, Semarchy, Stibo Systems, Precisely, DataGalaxy |
+
+Izvori na nizozemskom, švedskom, njemačkom, francuskom i hrvatskom: trijaža i pisanje rade na izvornom jeziku, a članak je uvijek na engleskom.
+
+Kod prvog dohvata novog izvora objave iz zadnja 3 dana idu u obradu, a starije služe samo kao polazno stanje.
+
+**Nije dostupno automatski (blokiraju pristup ili nemaju RSS):** Sud EU (curia), talijanski Garante, španjolski AEPD, norveški, danski i belgijski regulator, kalifornijski CPPA, OECD.AI, Vijeće Europe, ESMA, EIOPA, BigDATAwire, IAPP vijesti. Kandidati za scraping ili ručno praćenje u sljedećem koraku.
 
 ## Kako čitati ocjene
 

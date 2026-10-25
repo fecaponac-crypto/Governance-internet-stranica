@@ -19,7 +19,7 @@
 #   active       false = kept for reference, not fetched
 #   verified     date the feed/page was last checked
 
-verified_on: 2026-10-24
+verified_on: 2026-10-25
 
 # Pre-filter for sources marked `filter: true` (case-insensitive, matched on title + summary).
 keywords:
@@ -53,6 +53,13 @@ keywords:
   - Dataplex
   - DataZone
   - Lake Formation
+  - BCBS 239
+  - risk data aggregation
+  - Digital Omnibus
+  - algorithm
+  - ePrivacy
+  - cybersecurity
+  - Cyber Resilience Act
 
 categories:
   core:
@@ -150,7 +157,7 @@ sources:
   - id: cnil
     name: CNIL (France)
     url: https://www.cnil.fr/en
-    feeds: [https://www.cnil.fr/en/rss.xml]
+    feeds: [https://www.cnil.fr/en/rss.xml, https://www.cnil.fr/fr/rss.xml]
     method: rss
     type: regulator
     section: core
@@ -209,6 +216,141 @@ sources:
     priority: low
     filter: true
     notes: ISO/IEC 42001, 27001, 8000 (data quality). Mostly unrelated; filter required.
+
+  - id: dutch-ap
+    name: Autoriteit Persoonsgegevens (Netherlands)
+    url: https://www.autoriteitpersoonsgegevens.nl/actueel
+    feeds: ["https://www.autoriteitpersoonsgegevens.nl/rss.xml"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, regulation, ai-governance]
+    reliability: 3
+    priority: high
+    notes: In Dutch. Also the Dutch coordinating supervisor for algorithms and AI.
+    verified: 2026-10-25
+
+  - id: imy
+    name: Integritetsskyddsmyndigheten — IMY (Sweden)
+    url: https://www.imy.se/nyheter/
+    feeds: ["https://www.imy.se/nyheter/rss/"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: medium
+    notes: In Swedish.
+    verified: 2026-10-25
+
+  - id: dsk
+    name: Datenschutzkonferenz — German data protection authorities
+    url: https://www.datenschutzkonferenz-online.de
+    feeds: ["https://www.datenschutzkonferenz-online.de/rss.xml"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: medium
+    notes: In German. Joint resolutions and guidance of the German federal and state DPAs.
+    verified: 2026-10-25
+
+  - id: lfdi-bw
+    name: LfDI Baden-Württemberg (Germany)
+    url: https://www.baden-wuerttemberg.datenschutz.de
+    feeds: ["https://www.baden-wuerttemberg.datenschutz.de/feed/"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 3
+    priority: low
+    notes: In German. One of the most active German state DPAs, incl. AI guidance.
+    verified: 2026-10-25
+
+  - id: azop
+    name: AZOP — Croatian Personal Data Protection Agency
+    url: https://azop.hr
+    feeds: ["https://azop.hr/feed/"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: medium
+    notes: In Croatian.
+    verified: 2026-10-25
+
+  - id: europarl-press
+    name: European Parliament — Press releases
+    url: https://www.europarl.europa.eu/news/en/press-room
+    feeds: ["https://www.europarl.europa.eu/rss/doc/press-releases/en.xml"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation]
+    reliability: 3
+    priority: medium
+    filter: true
+    notes: All topics; keyword filter. Votes on digital legislation (AI Act changes, Digital Omnibus, Data Union).
+    verified: 2026-10-25
+
+  - id: council-eu-press
+    name: Council of the EU — Press releases
+    url: https://www.consilium.europa.eu/en/press/press-releases/
+    feeds: ["https://www.consilium.europa.eu/en/rss/pressreleases.ashx"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation]
+    reliability: 3
+    priority: medium
+    filter: true
+    notes: All topics; keyword filter. Council positions and final adoption of EU digital laws.
+    verified: 2026-10-25
+
+  - id: uk-dsit
+    name: UK Department for Science, Innovation and Technology
+    url: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
+    feeds: ["https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 3
+    priority: medium
+    filter: true
+    notes: All DSIT news; keyword filter. UK data reform (DUAA), AI policy.
+    verified: 2026-10-25
+
+  - id: eba
+    name: European Banking Authority (EBA)
+    url: https://www.eba.europa.eu/publications-and-media/press-releases
+    feeds: ["https://www.eba.europa.eu/rss.xml"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation, security]
+    reliability: 3
+    priority: low
+    filter: true
+    notes: Keyword filter. DORA, supervisory reporting and data standards for banks.
+    verified: 2026-10-25
+
+  - id: ecb-supervision
+    name: ECB Banking Supervision
+    url: https://www.bankingsupervision.europa.eu/press/html/index.en.html
+    feeds: ["https://www.bankingsupervision.europa.eu/rss/press.html"]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation, data-quality]
+    reliability: 3
+    priority: low
+    filter: true
+    notes: Keyword filter. Risk data aggregation and reporting (BCBS 239) supervision of banks.
+    verified: 2026-10-25
 
   # ---------------------------------------------------------------- Associations & NGOs
 
@@ -305,6 +447,71 @@ sources:
     reliability: 2
     priority: low
     notes: Think tank with a pro-innovation stance; useful policy analysis, present as viewpoint.
+
+  - id: algorithmwatch
+    name: AlgorithmWatch
+    url: https://algorithmwatch.org/en/
+    feeds: ["https://algorithmwatch.org/en/feed/"]
+    method: rss
+    type: ngo
+    section: core
+    categories: [ai-governance]
+    reliability: 2
+    priority: low
+    notes: Some items in German.
+    verified: 2026-10-25
+
+  - id: cset
+    name: Center for Security and Emerging Technology (CSET)
+    url: https://cset.georgetown.edu
+    feeds: ["https://cset.georgetown.edu/feed/"]
+    method: rss
+    type: ngo
+    section: broad
+    categories: [ai-governance, ai-industry]
+    reliability: 2
+    priority: low
+    notes: Georgetown University research on AI policy.
+    verified: 2026-10-25
+
+  - id: edri
+    name: European Digital Rights (EDRi)
+    url: https://edri.org
+    feeds: ["https://edri.org/feed/"]
+    method: rss
+    type: ngo
+    section: core
+    categories: [privacy, regulation]
+    reliability: 2
+    priority: low
+    notes: Advocacy network; follows EU digital legislation closely. Advocacy, not neutral — cite as such.
+    verified: 2026-10-25
+
+  - id: idsa
+    name: International Data Spaces Association
+    url: https://internationaldataspaces.org
+    feeds: ["https://internationaldataspaces.org/feed/"]
+    method: rss
+    type: association
+    section: core
+    categories: [strategy, regulation]
+    reliability: 2
+    priority: low
+    notes: Data spaces and data sharing (Data Act, European data spaces).
+    verified: 2026-10-25
+
+  - id: gaia-x
+    name: Gaia-X
+    url: https://gaia-x.eu
+    feeds: ["https://gaia-x.eu/feed/"]
+    method: rss
+    type: association
+    section: core
+    categories: [strategy, platforms]
+    reliability: 2
+    priority: low
+    notes: European data infrastructure and data space trust framework.
+    verified: 2026-10-25
 
   # ---------------------------------------------------------------- Expert media, newsletters & law-firm blogs
 
@@ -427,6 +634,55 @@ sources:
     priority: low
     notes: Data products and operating models. Fetched via our Worker relay (/feeds/…) because Substack blocks GitHub runners; upstream https://moderndata101.substack.com/feed.
 
+  - id: dla-piper-privacy
+    name: Privacy Matters (DLA Piper)
+    url: https://privacymatters.dlapiper.com
+    feeds: ["https://privacymatters.dlapiper.com/feed/"]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, regulation, ai-governance]
+    reliability: 2
+    priority: medium
+    verified: 2026-10-25
+
+  - id: data-protection-report
+    name: Data Protection Report (Norton Rose Fulbright)
+    url: https://www.dataprotectionreport.com
+    feeds: ["https://www.dataprotectionreport.com/feed/"]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, regulation, ai-governance]
+    reliability: 2
+    priority: medium
+    verified: 2026-10-25
+
+  - id: sidley-data-matters
+    name: Data Matters (Sidley Austin)
+    url: https://datamatters.sidley.com
+    feeds: ["https://datamatters.sidley.com/feed/"]
+    method: rss
+    type: law-firm-blog
+    section: core
+    categories: [privacy, security, regulation]
+    reliability: 2
+    priority: medium
+    verified: 2026-10-25
+
+  - id: eckerson
+    name: Eckerson Group
+    url: https://www.eckerson.com
+    feeds: ["https://www.eckerson.com/feed"]
+    method: rss
+    type: expert-media
+    section: core
+    categories: [strategy, data-quality, metadata]
+    reliability: 2
+    priority: low
+    notes: Independent data management analysts and practitioners.
+    verified: 2026-10-25
+
   # ---------------------------------------------------------------- Analysts
 
   - id: gartner-newsroom
@@ -503,6 +759,32 @@ sources:
     reliability: 1
     priority: medium
     notes: Funding rounds, acquisitions, product launches.
+
+  - id: computerweekly-security
+    name: Computer Weekly — IT security
+    url: https://www.computerweekly.com
+    feeds: ["https://www.computerweekly.com/rss/IT-security.xml"]
+    method: rss
+    type: media
+    section: core
+    categories: [security, privacy]
+    reliability: 1
+    priority: low
+    filter: true
+    verified: 2026-10-25
+
+  - id: informationweek
+    name: InformationWeek
+    url: https://www.informationweek.com
+    feeds: ["https://www.informationweek.com/rss.xml"]
+    method: rss
+    type: media
+    section: broad
+    categories: [strategy, ai-industry]
+    reliability: 1
+    priority: low
+    filter: true
+    verified: 2026-10-25
 
   # ---------------------------------------------------------------- Governance vendors (core)
   # Vendor sources are self-interested: reliability 2, news value only for launches,
@@ -624,6 +906,66 @@ sources:
     priority: medium
     filter: true
     notes: Purview-specific Tech Community feed not reachable; general security blog with filter.
+
+  - id: profisee
+    name: Profisee Blog
+    url: https://profisee.com/blog/
+    feeds: ["https://profisee.com/feed/"]
+    method: rss
+    type: vendor
+    section: core
+    categories: [mdm, data-quality, market]
+    reliability: 2
+    priority: low
+    verified: 2026-10-25
+
+  - id: semarchy
+    name: Semarchy Blog
+    url: https://www.semarchy.com/blog/
+    feeds: ["https://www.semarchy.com/feed/"]
+    method: rss
+    type: vendor
+    section: core
+    categories: [mdm, data-quality, market]
+    reliability: 2
+    priority: low
+    verified: 2026-10-25
+
+  - id: stibo-systems
+    name: Stibo Systems Blog
+    url: https://www.stibosystems.com/blog
+    feeds: ["https://www.stibosystems.com/blog/rss.xml"]
+    method: rss
+    type: vendor
+    section: core
+    categories: [mdm, market]
+    reliability: 2
+    priority: low
+    verified: 2026-10-25
+
+  - id: precisely
+    name: Precisely Blog
+    url: https://www.precisely.com/blog
+    feeds: ["https://www.precisely.com/feed"]
+    method: rss
+    type: vendor
+    section: core
+    categories: [data-quality, mdm, market]
+    reliability: 2
+    priority: low
+    verified: 2026-10-25
+
+  - id: datagalaxy
+    name: DataGalaxy
+    url: https://www.datagalaxy.com/en/
+    feeds: ["https://www.datagalaxy.com/en/feed/"]
+    method: rss
+    type: vendor
+    section: core
+    categories: [metadata, market]
+    reliability: 2
+    priority: low
+    verified: 2026-10-25
 
   # ---------------------------------------------------------------- Platforms & broad Data & AI
 

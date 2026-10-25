@@ -44,6 +44,7 @@ USER_AGENT = "Mozilla/5.0 (compatible; DataGovernanceSignal/0.1; +https://datago
 FALLBACK_USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 TIMEOUT = 25
 MAX_AGE_DAYS = 30  # ignore feed items published earlier than this
+BASELINE_FRESH_DAYS = 3  # on a source's first run, items this recent still count as new
 SEEN_RETENTION_DAYS = 180
 SCRAPE_MAX_LINKS = 40
 EXCERPT_CHARS = 300  # the repository is public: keep only a short excerpt
@@ -291,8 +292,10 @@ def run() -> dict:
                 (oid for oid, sid, t in recent_tokens if sid != source["id"] and jaccard(tokens, t) >= DUPLICATE_THRESHOLD),
                 None,
             )
-            # A source's first successful run only establishes what already exists.
-            status = "baseline" if first_run else "new"
+            # A source's first successful run only establishes what already exists,
+            # except for the last few days' items, so a newly added source contributes at once.
+            fresh = c.published is not None and c.published >= started - timedelta(days=BASELINE_FRESH_DAYS)
+            status = "baseline" if first_run and not fresh else "new"
             item = {
                 "id": iid,
                 "source_id": source["id"],
