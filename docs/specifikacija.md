@@ -231,7 +231,7 @@ Okvirne skupine izvora:
 - [x] odabrati i spojiti newsletter servis (obrazac za prijavu) — Buttondown, 25. 10.
 - [ ] About: kratki opis urednika (po želji)
 - [ ] provjera žiga (EUIPO/USPTO)
-- [ ] prva objava na LinkedInu
+- [ ] ⏸️ LinkedIn stranica portala (odvojena od osobnog profila) i prva objava — odgođeno 25. 10. na odluku urednika
 
 ## 10c. Ključevi i rokovi obnove
 
