@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-25T08:05:43Z** · sources checked: 46 · failed: 0 · new items this run: 0
+Last run: **2026-10-25T08:14:21Z** · sources checked: 46 · failed: 0 · new items this run: 0
 
 ## New items, last 48 hours (6)
 
