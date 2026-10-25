@@ -9,6 +9,8 @@ whoShouldCare: [DPO, Trust & safety, Legal & compliance, Product owners]
 importance: 3
 type: Guidance
 region: EU
+status:
+  stage: Published
 sources:
   - name: Hunton Privacy Blog
     title: "EDPB Adopts Guidelines on the Interplay Between the DSA and the GDPR"

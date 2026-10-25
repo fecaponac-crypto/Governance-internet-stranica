@@ -9,6 +9,9 @@ whoShouldCare: [AI governance lead, DPO, CISO, Legal & compliance]
 importance: 4
 type: Enforcement
 region: EU
+status:
+  stage: Investigation
+  detail: "Information requests; no decision yet"
 sources:
   - name: European Commission
     title: "Speech by Executive Vice-President Virkkunen at the International AI Summit in Dublin"

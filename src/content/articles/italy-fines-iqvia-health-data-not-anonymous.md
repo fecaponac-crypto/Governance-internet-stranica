@@ -9,6 +9,8 @@ whoShouldCare: [DPO, Data stewards, Data product owners, Healthcare & life scien
 importance: 4
 type: Enforcement
 region: Italy
+status:
+  stage: Decision
 sources:
   - name: EDPB
     title: "Italian DPA fines IQVIA EUR 7 000 000 for unlawful processing of patients’ health data"

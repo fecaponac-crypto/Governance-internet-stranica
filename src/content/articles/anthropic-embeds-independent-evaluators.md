@@ -8,6 +8,8 @@ whoShouldCare: [AI governance lead, Risk & audit, Procurement]
 importance: 3
 type: Announcement
 region: Global
+status:
+  stage: Published
 sources:
   - name: Anthropic
     title: "An update on independent evaluators"

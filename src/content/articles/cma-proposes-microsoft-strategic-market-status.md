@@ -9,6 +9,9 @@ whoShouldCare: [CDO, Data architects, CIO, Procurement]
 importance: 3
 type: Regulation
 region: UK
+status:
+  stage: Proposal
+  detail: "CMA consults on a proposed strategic market status designation"
 sources:
   - name: Competition and Markets Authority
     title: "CMA takes first steps to ensure choice in business software"

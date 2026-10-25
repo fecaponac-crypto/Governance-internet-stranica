@@ -1,0 +1,175 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { IMPORTANCE_LABELS, SITE, STATUS_STAGES } from '../data/site';
+import { formatDate } from '../utils/articles';
+
+const sources = (await getCollection('sources', ({ data }) => data.active)).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name),
+);
+const automatic = sources.filter((s) => s.data.method !== 'manual').length;
+const TYPES: [string, string][] = [
+  ['regulator', 'Regulators, courts and public institutions'],
+  ['standards', 'Standards bodies'],
+  ['association', 'Professional associations'],
+  ['ngo', 'Research institutes and civil society'],
+  ['law-firm-blog', 'Law firms'],
+  ['expert-media', 'Specialist media and newsletters'],
+  ['analyst', 'Analysts'],
+  ['media', 'General media'],
+  ['vendor', 'Vendors'],
+];
+const groups = TYPES.map(([type, label]) => ({ label, items: sources.filter((s) => s.data.type === type) })).filter(
+  (g) => g.items.length,
+);
+const IMPORTANCE_MEANING: Record<number, string> = {
+  1: 'Context worth having; no action needed.',
+  2: 'Useful to know for people working in the area.',
+  3: 'A notable development practitioners in the area should follow.',
+  4: 'Practitioners should act or brief leadership.',
+  5: 'A major regulation, landmark decision or enforcement with broad impact.',
+};
+const corrections = (await getCollection('corrections')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<Base
+  title="Methodology and sources"
+  description="How Data Governance Signal selects, checks and rates news: our sources, the importance scale, status labels, how we use AI and how we correct mistakes."
+>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">How we work</p>
+      <h1>Methodology and sources</h1>
+      <p>How we find, check, rate and correct what we publish. The principles are in our <a href="/editorial-policy/">editorial policy</a>; this page shows how they work in practice.</p>
+    </header>
+
+    <div class="prose">
+      <h2 id="process">From source to publication</h2>
+      <ol>
+        <li><b>Collection.</b> Every three hours we check {automatic} sources automatically; a few that block automated access are checked by hand every week.</li>
+        <li><b>Triage.</b> An AI model reads each new item's title and summary and rates relevance and importance. Event promotion, hiring news and vendor marketing are dropped. Only items rated 3 or higher (4 or higher for our broader Data &amp; AI coverage) go further.</li>
+        <li><b>Primary source.</b> When a story comes from secondary coverage, we look for the original document — the decision, judgment, regulation, press release or report — and read it. The original is cited first and marked as the primary source.</li>
+        <li><b>Draft.</b> An AI model drafts the summary, why it matters, the status, key dates and, for important items, what to check — using only facts in the sources.</li>
+        <li><b>Fact check.</b> For items rated 4 or 5, a second pass checks every factual claim against the sources and flags anything unsupported or simplified.</li>
+        <li><b>Editorial review.</b> The editor reads every draft against its sources, corrects it and decides whether to publish. Nothing is published automatically. Many drafts are rejected.</li>
+      </ol>
+
+      <h2 id="importance">Importance</h2>
+      <ul class="defs">
+        {[5, 4, 3, 2, 1].map((n) => <li><b>{n} · {IMPORTANCE_LABELS[n]}</b> — {IMPORTANCE_MEANING[n]}</li>)}
+      </ul>
+
+      <h2 id="status">Status</h2>
+      <p>Every item says where the development stands, so a proposal is never mistaken for law, or an announcement for a product you can use.</p>
+      <ul class="defs">
+        {Object.entries(STATUS_STAGES).map(([stage, meaning]) => <li><b>{stage}</b> — {meaning}</li>)}
+      </ul>
+
+      <h2 id="basis">Official source or secondary reporting</h2>
+      <p>
+        Items marked <b>Official source</b> cite the original document from the regulator, court, standards body or company.
+        Items marked <b>Secondary reporting</b> rely on news coverage, a law-firm or advocacy summary, or a company's own
+        claims; the article says so in an editor's note.
+      </p>
+
+      <h2 id="ai">How we use AI</h2>
+      <p>
+        AI helps us read more sources than one person could and drafts the first version of each item. It does not decide
+        what is published and it does not add facts: drafts may use only what the sources say, and the editor checks them
+        against the sources before publication. Opinion — <a href="/monday-signal/">The Monday Signal</a> and our <a
+          href="/predictions/">predictions</a> — is written and signed by the editor and labelled as opinion.
+      </p>
+
+      <h2 id="sources">Our sources ({sources.length})</h2>
+      <p>Official and primary sources count most. Vendor blogs are a source only for genuine launches, acquisitions and research, never for marketing.</p>
+    </div>
+
+    {
+      groups.map((g) => (
+        <section class="group">
+          <h3>
+            {g.label} <span>({g.items.length})</span>
+          </h3>
+          <ul class="sources">
+            {g.items.map((s) => (
+              <li>
+                <a href={s.data.url} rel="noopener">{s.data.name}</a>
+                {s.data.method === 'manual' && <span class="tag">checked by hand</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+
+    <div class="prose">
+      <h2 id="corrections">Corrections</h2>
+      <p>
+        If we get something wrong, we correct the article, say so on it, and list the correction here. Report an error to <a
+          href={`mailto:${SITE.email}?subject=Correction`}>{SITE.email}</a>.
+      </p>
+      {
+        corrections.length ? (
+          <ul class="defs">
+            {corrections.map((c) => (
+              <li>
+                <b>{formatDate(c.data.date)}</b> — <a href={`/news/${c.data.article}/`}>{c.data.article}</a>: {c.data.what}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="empty">No corrections so far.</p>
+        )
+      }
+    </div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .prose h2 {
+    font-size: 1.45rem;
+    margin: 2.2rem 0 0.75rem;
+  }
+  .prose ol,
+  .prose ul {
+    padding-left: 1.2rem;
+  }
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+  .defs {
+    list-style: none;
+    padding-left: 0 !important;
+  }
+  .group h3 {
+    font-size: 1rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  .group h3 span {
+    font-weight: 400;
+    color: var(--ink-3);
+  }
+  .sources {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 2 16rem;
+    column-gap: 2rem;
+    font-size: 0.92rem;
+  }
+  .sources li {
+    break-inside: avoid;
+    margin-bottom: 0.35rem;
+  }
+  .tag {
+    font-size: 0.75rem;
+    color: var(--ink-3);
+    margin-left: 0.3rem;
+  }
+  .empty {
+    color: var(--ink-3);
+  }
+</style>

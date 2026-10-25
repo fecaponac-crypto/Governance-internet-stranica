@@ -9,6 +9,9 @@ whoShouldCare: [Chief risk officer, CISO, AI governance lead, Financial services
 importance: 4
 type: Supervision
 region: UK / US / EU
+status:
+  stage: Unconfirmed
+  detail: "Based on a Reuters report summarised by Resultsense"
 sources:
   - name: Resultsense
     title: "Banking watchdogs step up AI scrutiny and recovery plans"

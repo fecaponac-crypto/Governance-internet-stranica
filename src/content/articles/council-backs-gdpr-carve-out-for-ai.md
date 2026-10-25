@@ -9,6 +9,9 @@ whoShouldCare: [DPO, CDO, Legal & compliance, AI governance lead]
 importance: 5
 type: Regulation
 region: EU
+status:
+  stage: In negotiation
+  detail: "Council position; the Parliament has yet to adopt its own"
 sources:
   - name: noyb
     title: "AI: EU Member States approve “digital expropriation” for AI companies"

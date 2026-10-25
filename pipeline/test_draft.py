@@ -32,6 +32,10 @@ DRAFT = {
     "importance": 4,
     "type": "Enforcement",
     "region": "EU",
+    "status_stage": "Decision",
+    "status_detail": "may be appealed",
+    "what_to_check": ["Check that consent records name each controller relying on them."],
+    "deadlines": [{"date": "2026-12-01", "what": "Deadline to comply"}, {"date": "December 2026", "what": "vague"}],
     "card_figure": "EUR 2M",
     "card_caption": "Fine for profiling without valid consent",
     "editor_note": "",
@@ -143,6 +147,9 @@ class RunTest(unittest.TestCase):
         self.assertEqual(front["sources"][0]["url"], "https://dpa.example.org/decision.pdf")
         self.assertEqual(front["sources"][1]["url"], "https://example.org/0")
         self.assertEqual(front["card"]["figure"], "EUR 2M")
+        self.assertEqual(front["status"], {"stage": "Decision", "detail": "may be appealed"})
+        self.assertEqual(len(front["whatToCheck"]), 1)
+        self.assertEqual([str(x["date"]) for x in front["deadlines"]], ["2026-12-01"])  # vague date dropped
         self.assertEqual(str(front["date"]), "2026-10-20")
 
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
@@ -180,6 +187,16 @@ class RulesTest(unittest.TestCase):
     def test_validate_flags_long_card(self):
         self.assertIn("card_figure longer than 22 characters", draft.validate({**DRAFT, "card_figure": "x" * 30}))
         self.assertEqual(draft.validate(DRAFT), [])
+
+    def test_status_stages_read_from_site(self):
+        stages = draft.status_vocabulary()
+        self.assertIn("In negotiation", stages)
+        self.assertIn("Unconfirmed", stages)
+        self.assertEqual(len(stages), 15)
+
+    def test_what_to_check_only_for_important_items(self):
+        d = draft.tidy({**DRAFT, "importance": 3, "deadlines": [], "what_to_check": ["x"]})
+        self.assertEqual(d["what_to_check"], [])
 
     def test_institutions_read_from_site(self):
         ids = [i["id"] for i in draft.institution_vocabulary()]

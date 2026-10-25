@@ -9,6 +9,12 @@ whoShouldCare: [AI governance lead, DPO, Data scientists, Legal & compliance]
 importance: 4
 type: Guidance
 region: UK
+status:
+  stage: Published
+  detail: "Report published; call for evidence on agentic AI open"
+deadlines:
+  - date: 2026-11-20
+    what: "ICO call for evidence on agentic AI closes"
 sources:
   - name: Hunton Privacy Blog
     title: "ICO Publishes Report on Data Protection Challenges in AI and Launches Agentic AI Project"

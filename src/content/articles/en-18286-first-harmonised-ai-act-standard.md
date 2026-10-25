@@ -9,6 +9,9 @@ whoShouldCare: [AI governance lead, Quality & risk managers, Legal & compliance]
 importance: 4
 type: Standard
 region: EU
+status:
+  stage: Published
+  detail: "Harmonised standard: gives a presumption of conformity"
 sources:
   - name: The EU AI Act Newsletter
     title: "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control"

@@ -8,6 +8,9 @@ whoShouldCare: ["DPO", "Legal & compliance", "CDO", "Data stewards"]
 importance: 4
 type: "Enforcement"
 region: "US"
+status:
+  stage: Court ruling
+  detail: "Jury verdict announced by New Mexico; reported by EPIC"
 sources:
   - name: "EPIC — Electronic Privacy Information Center"
     title: "Meta Fined $25 Billion by New Mexican Court for Violating Privacy During Cambridge Analytica Scandal"

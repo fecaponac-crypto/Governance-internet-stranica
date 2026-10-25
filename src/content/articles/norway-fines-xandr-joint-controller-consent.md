@@ -9,6 +9,8 @@ whoShouldCare: [DPO, Data sharing & partnerships, Marketing data owners, Legal &
 importance: 4
 type: Enforcement
 region: Norway
+status:
+  stage: Decision
 sources:
   - name: EDPB
     title: "Norwegian DPA fines Xandr EUR 8 600 000 for unlawful processing of personal data"

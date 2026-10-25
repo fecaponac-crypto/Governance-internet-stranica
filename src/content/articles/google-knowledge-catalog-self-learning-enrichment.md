@@ -8,6 +8,8 @@ whoShouldCare: [Data stewards, Data catalog owners, Data architects, AI platform
 importance: 3
 type: Product launch
 region: Global
+status:
+  stage: Preview
 sources:
   - name: Google Cloud Blog
     title: "Introducing new self-learning context enrichment in Knowledge Catalog"

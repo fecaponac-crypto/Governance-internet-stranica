@@ -9,6 +9,8 @@ whoShouldCare: [CDO, CFO & finance, Data governance lead, M&A and investment tea
 importance: 4
 type: Research
 region: EU / UK
+status:
+  stage: Published
 sources:
   - name: CNIL
     title: "De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques"

@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatDate, getArticles, isoDate } from '../utils/articles';
+
+const articles = await getArticles();
+const rows = articles
+  .flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a })))
+  .sort((x, y) => x.date.getTime() - y.date.getTime());
+const today = isoDate(new Date());
+---
+
+<Base
+  title="Key dates"
+  description="Upcoming application dates, consultation deadlines and votes in data governance, privacy and AI regulation — each linked to our coverage and its sources."
+>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Calendar</p>
+      <h1>Key dates</h1>
+      <p>
+        Application dates, consultation deadlines, votes and compliance deadlines from the developments we cover — each
+        linked to the article and its sources. Dates are taken from official sources where we have them.
+      </p>
+    </header>
+
+    <ol class="dates" data-dates>
+      {
+        rows.map((r) => (
+          <li data-date={isoDate(r.date)} class:list={{ past: isoDate(r.date) < today }}>
+            <time datetime={isoDate(r.date)}>{formatDate(r.date)}</time>
+            <div>
+              <p class="what">{r.what}</p>
+              <a href={`/news/${r.article.id}/`}>{r.article.data.title}</a>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+    {rows.length === 0 && <p class="empty">No dates yet.</p>}
+    <p class="toggle" hidden data-toggle><button type="button">Show past dates</button></p>
+  </div>
+</Base>
+
+<script>
+  // The page is built ahead of time; recheck which dates have passed in the reader's browser.
+  const today = new Date().toISOString().slice(0, 10);
+  const items = [...document.querySelectorAll<HTMLElement>('[data-dates] li')];
+  items.forEach((li) => li.classList.toggle('past', (li.dataset.date ?? '') < today));
+  const toggle = document.querySelector<HTMLElement>('[data-toggle]');
+  if (toggle && items.some((li) => li.classList.contains('past'))) {
+    toggle.hidden = false;
+    toggle.querySelector('button')?.addEventListener('click', () => {
+      document.querySelector('[data-dates]')?.classList.add('show-past');
+      toggle.hidden = true;
+    });
+  }
+</script>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .dates {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .dates li {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    gap: 1rem;
+    border-top: 1px solid var(--rule);
+    padding: 1rem 0;
+  }
+  .dates li.past {
+    display: none;
+  }
+  .dates.show-past li.past {
+    display: grid;
+    opacity: 0.6;
+  }
+  time {
+    font-weight: 650;
+    font-size: 0.95rem;
+  }
+  .what {
+    margin: 0 0 0.25rem;
+    font-family: var(--serif);
+    font-size: 1.1rem;
+  }
+  .dates a {
+    font-size: 0.9rem;
+    color: var(--ink-2);
+  }
+  .empty {
+    color: var(--ink-3);
+  }
+  .toggle button {
+    font: inherit;
+    font-size: 0.9rem;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    color: var(--ink-2);
+  }
+  @media (max-width: 520px) {
+    .dates li {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+  }
+</style>

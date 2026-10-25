@@ -24,6 +24,26 @@ export const COLUMN = {
     'The Steward is the pen name of the editor of Data Governance Signal — a practitioner in master data management since 2011 and in data governance since 2019, with governance leadership and AI governance roles.',
 };
 
+// Where a development stands. Shown on every article that has one; explained on /methodology/.
+export const STATUS_STAGES: Record<string, string> = {
+  Proposal: 'Proposed law, rule or designation — not adopted; the text can change.',
+  'In negotiation': 'Legislators or parties are negotiating; positions are not final.',
+  Consultation: 'Open for comments; nothing has been decided yet.',
+  Investigation: 'An authority has opened an inquiry or sent requests; no decision yet.',
+  Adopted: 'Formally adopted, but obligations do not apply yet (or not all of them).',
+  'In force': 'Obligations apply now.',
+  Decision: 'A final decision by an authority (e.g. a fine or order); it may still be appealed in court.',
+  'Court ruling': 'A judgment by a court; check whether it can be appealed.',
+  'Non-binding opinion': 'An opinion that informs a decision but does not bind (e.g. an Advocate General opinion).',
+  Published: 'Guidance, a standard, a report or research has been published.',
+  Announced: 'Announced by the company or body, but not yet available or effective.',
+  Preview: 'Available as a preview or beta; may change before general availability.',
+  Available: 'Generally available.',
+  Alleged: 'Claims made by a party (a complaint, lawsuit or advocacy) that no authority or court has ruled on.',
+  Unconfirmed: 'Reported by the media but not confirmed by the parties or an official source.',
+};
+export const STATUS_IDS = Object.keys(STATUS_STAGES) as [string, ...string[]];
+
 export const PREDICTION_STATUSES = ['open', 'correct', 'partly', 'wrong', 'void'] as const;
 
 export type Section = 'core' | 'broad';

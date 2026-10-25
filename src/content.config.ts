@@ -1,7 +1,8 @@
 import { defineCollection } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
-import { CATEGORY_IDS, COLUMN, CONTENT_TYPES, PREDICTION_STATUSES } from './data/site';
+import { parse as parseYaml } from 'yaml';
+import { CATEGORY_IDS, COLUMN, CONTENT_TYPES, PREDICTION_STATUSES, STATUS_IDS } from './data/site';
 import { INSTITUTION_IDS } from './data/institutions';
 
 const articles = defineCollection({
@@ -20,6 +21,12 @@ const articles = defineCollection({
     importance: z.number().int().min(1).max(5),
     type: z.enum(CONTENT_TYPES),
     region: z.string().optional(),
+    // Where the development stands, e.g. {stage: 'In negotiation', detail: 'Parliament has yet to vote'}.
+    status: z.object({ stage: z.enum(STATUS_IDS), detail: z.string().max(100).optional() }).optional(),
+    // Concrete checks for practitioners, drawn from the sources (importance 4–5 only).
+    whatToCheck: z.array(z.string()).max(3).default([]),
+    // Dates that matter (application dates, consultation deadlines); feeds /deadlines/.
+    deadlines: z.array(z.object({ date: z.coerce.date(), what: z.string().max(120) })).default([]),
     sources: z
       .array(
         z.object({
@@ -86,4 +93,24 @@ const predictions = defineCollection({
     }),
 });
 
-export const collections = { articles, columns, predictions };
+// The source catalogue (data/sources.yaml), listed on /methodology/.
+const sources = defineCollection({
+  loader: file('data/sources.yaml', { parser: (text) => parseYaml(text).sources }),
+  schema: z.object({
+    name: z.string(),
+    url: z.string(),
+    method: z.enum(['rss', 'scrape', 'manual']),
+    type: z.string(),
+    section: z.enum(['core', 'broad']),
+    reliability: z.number().int(),
+    priority: z.string(),
+    active: z.boolean().default(true),
+  }),
+});
+
+const corrections = defineCollection({
+  loader: file('data/corrections.yaml'),
+  schema: z.object({ date: z.coerce.date(), article: z.string(), what: z.string() }),
+});
+
+export const collections = { articles, columns, predictions, sources, corrections };

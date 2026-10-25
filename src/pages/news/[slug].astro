@@ -1,10 +1,10 @@
 ---
-import { render } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Importance from '../../components/Importance.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
-import { categoryById, SITE } from '../../data/site';
+import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
 import { getArticles, formatDate, isoDate, type Article } from '../../utils/articles';
 import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
@@ -23,6 +23,8 @@ const { data } = article;
 const { Content } = await render(article);
 const cats = data.categories.map(categoryById);
 const institutions = data.institutions.map(institutionById);
+const official = data.sources.some((s) => s.primary);
+const corrections = await getCollection('corrections', (c) => c.data.article === article.id);
 
 // Explicit related items first, then others sharing a category.
 const explicit = data.related.map((id) => all.find((a) => a.id === id)).filter((a): a is Article => !!a);
@@ -58,6 +60,16 @@ const jsonLd = {
         <span>{data.type}</span>
         {data.region && <span>{data.region}</span>}
         <Importance level={data.importance} />
+        {
+          data.status && (
+            <a class="status" href="/methodology/#status" title={STATUS_STAGES[data.status.stage]}>
+              {data.status.stage}
+            </a>
+          )
+        }
+        <span class:list={['basis', { secondary: !official }]}>
+          {official ? 'Official source' : 'Secondary reporting'}
+        </span>
       </div>
     </header>
 
@@ -81,6 +93,41 @@ const jsonLd = {
           <h2 id="why">Why it matters</h2>
           <p>{data.whyItMatters}</p>
         </section>
+
+        {
+          data.status?.detail && (
+            <p class="status-line">
+              <b>Status: {data.status.stage}.</b> {data.status.detail}
+            </p>
+          )
+        }
+
+        {
+          data.whatToCheck.length > 0 && (
+            <section class="check" aria-labelledby="check">
+              <h2 id="check">What to check</h2>
+              <ul>
+                {data.whatToCheck.map((c) => <li>{c}</li>)}
+              </ul>
+            </section>
+          )
+        }
+
+        {
+          data.deadlines.length > 0 && (
+            <section class="dates" aria-labelledby="dates">
+              <h2 id="dates">Key dates</h2>
+              <ul>
+                {data.deadlines.map((d) => (
+                  <li>
+                    <time datetime={isoDate(d.date)}>{formatDate(d.date)}</time> {d.what}
+                  </li>
+                ))}
+              </ul>
+              <p class="more"><a href="/deadlines/">All upcoming dates</a></p>
+            </section>
+          )
+        }
 
         <section class="sources" aria-labelledby="src">
           <h2 id="src">Sources</h2>
@@ -109,10 +156,17 @@ const jsonLd = {
           }
         </section>
 
+        {
+          corrections.map((c) => (
+            <p class="correction">
+              <b>Correction, {formatDate(c.data.date)}:</b> {c.data.what}
+            </p>
+          ))
+        }
         <p class="disclosure" data-pagefind-ignore>
           Prepared with AI assistance and reviewed by the editor before publication. Spotted an error? <a
             href={`mailto:${SITE.email}?subject=${encodeURIComponent('Correction: ' + data.title)}`}>Tell us</a
-          > — see our <a href="/editorial-policy/">editorial policy</a>.
+          > — see our <a href="/editorial-policy/">editorial policy</a> and <a href="/methodology/">methodology</a>.
         </p>
       </div>
 
@@ -324,5 +378,59 @@ const jsonLd = {
     .head {
       padding-top: 1.75rem;
     }
+  }
+  .status,
+  .basis {
+    font-size: 0.75rem;
+    font-weight: 650;
+    border: 1px solid currentColor;
+    border-radius: 99px;
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: var(--ink-2);
+  }
+  .basis {
+    font-weight: 500;
+    border-color: var(--rule);
+  }
+  .basis.secondary {
+    color: var(--signal);
+    border-color: currentColor;
+  }
+  .status-line {
+    font-size: 0.95rem;
+    color: var(--ink-2);
+  }
+  .check,
+  .dates {
+    margin: 1.75rem 0;
+  }
+  .check h2,
+  .dates h2 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+  }
+  .check ul,
+  .dates ul {
+    padding-left: 1.2rem;
+    margin: 0;
+  }
+  .check li,
+  .dates li {
+    margin-bottom: 0.35rem;
+  }
+  .dates time {
+    font-weight: 650;
+    margin-right: 0.35rem;
+  }
+  .dates .more {
+    font-size: 0.85rem;
+    margin: 0.4rem 0 0;
+  }
+  .correction {
+    font-size: 0.92rem;
+    background: var(--signal-soft);
+    padding: 0.7rem 0.9rem;
+    border-radius: 6px;
   }
 </style>

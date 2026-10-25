@@ -1,0 +1,6 @@
+# Corrections log, shown at /methodology/#corrections and on the corrected article.
+#   id:       unique, e.g. 2026-11-03-1
+#   date:     date of the correction
+#   article:  slug of the corrected article (file name without .md)
+#   what:     what was wrong and what we changed, in one or two sentences
+[]
