@@ -218,6 +218,14 @@ Okvirne skupine izvora:
 - [ ] provjera žiga (EUIPO/USPTO)
 - [ ] prva objava na LinkedInu
 
+## 10c. Ključevi i rokovi obnove
+
+| Ključ | Gdje se koristi | Dozvole | Ističe |
+|---|---|---|---|
+| `ANTHROPIC_API_KEY` | GitHub secret (AI obrada) | API, mjesečni limit na računu | — |
+| `BUTTONDOWN_API_KEY` | GitHub secret (mjesečne brojke) | Subscribers: Read | — |
+| `GITHUB_TOKEN` (`dgs-cloudflare-cron`) | Cloudflare Worker secret (okidač svaka 3 sata) | ovaj repozitorij, Actions: Read and write | **25. 10. 2027.** — obnoviti prije isteka |
+
 ## 11. Kriteriji uspjeha
 
 **Operativni (od lansiranja):**
