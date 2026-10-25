@@ -36,6 +36,7 @@ COLUMN_NAME = "The Monday Signal"
 MAX_ARTICLES = 10
 MAX_SOURCE_CHARS = 12_000
 DUE_WITHIN_DAYS = 7
+WATCH_DAYS = 60  # "What to Watch" covers key dates and predictions due in this window
 
 
 # --------------------------------------------------------------------------- inputs
@@ -64,6 +65,21 @@ def week_articles(monday: date) -> list[dict]:
             found.append({"slug": path.stem, "meta": meta, "body": body, "published": published})
     found.sort(key=lambda a: (-a["meta"]["importance"], a["slug"]))
     return found[:MAX_ARTICLES]
+
+
+def upcoming_dates(monday: date) -> list[dict]:
+    """Key dates from all published articles that fall in the next WATCH_DAYS days."""
+    limit = monday + timedelta(days=WATCH_DAYS)
+    out = []
+    for path in ARTICLES.glob("*.md"):
+        meta, _ = front_matter(path.read_text(encoding="utf-8"))
+        if meta.get("sample") or meta.get("draft"):
+            continue
+        for d in meta.get("deadlines") or []:
+            when = d["date"] if isinstance(d["date"], date) else date.fromisoformat(str(d["date"]))
+            if monday <= when <= limit:
+                out.append({"date": when, "what": d["what"], "slug": path.stem})
+    return sorted(out, key=lambda d: d["date"])
 
 
 def load_predictions() -> tuple[str, list[dict]]:
@@ -105,10 +121,15 @@ The column:
 - Links to our articles as [text](/news/<slug>/). Never invent facts, figures, quotes, names or events beyond the material given. If a point would benefit from the editor's own experience, leave a marker like [EDITOR: add an example from practice].
 - British English, no hype, no clichés.
 
+For the newsletter that goes out with the column, also give:
+- big_signal: the slug of the single most consequential article of the week (usually the one the column opens with).
+- in_practice: "Governance in Practice" — 2-4 sentences on what the week means for how governance teams work (processes, roles, controls), grounded in the week's articles.
+- insight_suggestion: one sentence the editor could adapt as "One Practical Insight" from their own experience. The editor will replace it; make it a useful prompt, not a platitude.
+
 Also extract predictions made by others: forward-looking claims by named actors (regulators, companies, analysts, officials) found in the numbered source texts. Each must quote the exact words from that source text (copied verbatim, at most 40 words), name who made it, and have a date by which it can be judged (use the date stated in the claim, or a reasonable one, e.g. the end of the stated period). Skip vague or unattributed statements. Return none if there are none."""
 
 
-def schema(source_refs: list[int], due_ids: list[str]) -> dict:
+def schema(source_refs: list[int], due_ids: list[str], slugs: list[str]) -> dict:
     date_str = {"type": "string", "description": "YYYY-MM-DD"}
     return {
         "type": "object",
@@ -116,6 +137,9 @@ def schema(source_refs: list[int], due_ids: list[str]) -> dict:
             "title": {"type": "string"},
             "dek": {"type": "string", "description": "One sentence."},
             "body": {"type": "string"},
+            "big_signal": {"type": "string", "enum": slugs},
+            "in_practice": {"type": "string"},
+            "insight_suggestion": {"type": "string"},
             "our_predictions": {
                 "type": "array",
                 "items": {
@@ -160,7 +184,7 @@ def schema(source_refs: list[int], due_ids: list[str]) -> dict:
             },
             "review_notes": {"type": "string"},
         },
-        "required": ["title", "dek", "body", "our_predictions", "others_predictions", "scorecard_hints", "review_notes"],
+        "required": ["title", "dek", "body", "big_signal", "in_practice", "insight_suggestion", "our_predictions", "others_predictions", "scorecard_hints", "review_notes"],
         "additionalProperties": False,
     }
 
@@ -243,18 +267,34 @@ def predictions_yaml(header: str, predictions: list[dict]) -> str:
     return header + yaml.safe_dump(predictions, sort_keys=False, allow_unicode=True, width=1000)
 
 
-def newsletter_text(monday: date, col: dict, articles: list[dict]) -> str:
+def newsletter_text(monday: date, col: dict, articles: list[dict], watch: list[dict], predictions: list[dict]) -> str:
+    """The Monday email: The Big Signal, Five Things That Matter, Governance in Practice,
+    What to Watch, One Practical Insight, then the column."""
     url = f"{SITE_URL}/monday-signal/{monday.isoformat()}/"
-    lines = [f"# {col['title']}", "", col["dek"], "", f"**[Read this week's column →]({url})**", "", "## The week's top stories", ""]
-    for a in articles:
-        m = a["meta"]
-        lines += [f"**[{m['title']}]({SITE_URL}/news/{a['slug']}/)**  ", f"{m['dek']} *Why it matters:* {m['whyItMatters']}", ""]
-    lines += ["All predictions, ours and others', are tracked at "
-              f"[datagovernancesignal.com/predictions]({SITE_URL}/predictions/)."]
+    link = lambda a: f"**[{a['meta']['title']}]({SITE_URL}/news/{a['slug']}/)**"
+    big = next((a for a in articles if a["slug"] == col["big_signal"]), articles[0])
+    rest = [a for a in articles if a is not big][:5]
+    lines = [f"# {col['title']}", "", col["dek"], "", "## The Big Signal", "",
+             link(big), "", big["meta"]["whyItMatters"], ""]
+    if rest:
+        lines += ["## Five Things That Matter" if len(rest) == 5 else "## Also this week", ""]
+        for a in rest:
+            lines += [f"{link(a)}  ", a["meta"]["dek"], ""]
+    lines += ["## Governance in Practice", "", col["in_practice"], "", "## What to Watch", ""]
+    limit = monday + timedelta(days=WATCH_DAYS)
+    soon = [p for p in predictions if p.get("status", "open") == "open" and monday <= p["due"] <= limit]
+    items = [(d["date"], f"{d['what']} ([more]({SITE_URL}/news/{d['slug']}/))") for d in watch]
+    items += [(p["due"], f"Prediction due: {p['claim']} — {'our call' if p.get('ours') else p['by']}") for p in soon]
+    lines += [f"- **{when:%-d %b}** — {text}" for when, text in sorted(items, key=lambda i: i[0])] or [
+        "- Nothing scheduled in the next weeks."]
+    lines += ["", f"[All key dates]({SITE_URL}/deadlines/) · [Prediction tracker]({SITE_URL}/predictions/)", "",
+              "## One Practical Insight", "", f"[EDITOR: write your own. Suggestion: {col['insight_suggestion']}]", "",
+              "---", "", f"**[Read this week's column: {col['title']} →]({url})**"]
     return "\n".join(lines)
 
 
-def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hints) -> str:
+def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hints,
+            watch: list[dict] | None = None, predictions: list[dict] | None = None) -> str:
     hint_by_id = {h["id"]: h["hint"] for h in hints}
     ours = [p for p in new if p.get("ours")]
     others = [p for p in new if not p.get("ours")]
@@ -283,8 +323,8 @@ def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hi
         lines.append("- none this week")
     lines += [
         "", "### Newsletter (after merging)",
-        "Once the site has rebuilt, paste this into a new Buttondown email and send it:",
-        "", "<details><summary>Newsletter text</summary>", "", "```markdown", newsletter_text(monday, col, articles), "```", "", "</details>",
+        "Once the site has rebuilt, paste this into a new Buttondown email, write the One Practical Insight, and send it:",
+        "", "<details><summary>Newsletter text</summary>", "", "```markdown", newsletter_text(monday, col, articles, watch or [], (predictions or []) + new), "```", "", "</details>",
         "", "### For the editor", f"- **Writer's notes:** {col['review_notes'] or 'nothing flagged'}",
         "", f"@{EDITOR} — this week's Monday Signal package.",
         "", "---", f"_Drafted automatically by the Data Governance Signal pipeline ({WRITER_MODEL}); not published until merged._",
@@ -340,7 +380,8 @@ def run(args) -> dict:
     try:
         col = draft.call_json(
             client, state, model=WRITER_MODEL, system=SYSTEM, user=material(monday, articles, sources, due),
-            schema=schema([s["ref"] for s in sources], [p["id"] for p in due]), effort="medium", max_tokens=16000,
+            schema=schema([s["ref"] for s in sources], [p["id"] for p in due], [a["slug"] for a in articles]),
+            effort="medium", max_tokens=16000,
         )
     finally:
         draft.save_state(state)
@@ -348,7 +389,7 @@ def run(args) -> dict:
     others, dropped = verified_others(col["others_predictions"], sources)
     new = new_predictions(monday, col, others)
     files = {column_path: column_markdown(monday, col), PREDICTIONS: predictions_yaml(header, predictions + new)}
-    body = pr_body(monday, col, articles, new, dropped, due, col["scorecard_hints"])
+    body = pr_body(monday, col, articles, new, dropped, due, col["scorecard_hints"], upcoming_dates(monday), predictions)
     summary = {"column": column_path.name, "articles": len(articles), "predictions": len(new),
                "dropped": len(dropped), "due": len(due)}
     if args.no_pr:

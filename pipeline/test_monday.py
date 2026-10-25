@@ -20,6 +20,9 @@ COLUMN = {
     "title": "Guidelines are coming, and so is the deadline",
     "dek": "The week's news points one way: high-risk AI obligations are getting concrete.",
     "body": "## The week\n\nIt was a busy week, see [the story](/news/one/).",
+    "big_signal": "two",
+    "in_practice": "Teams should map where AI touches personal data.",
+    "insight_suggestion": "Start the AI inventory from the data catalogue.",
     "our_predictions": [
         {"claim": "At least one DPA will fine an AI deployer by June 2027.", "due": "2027-06-30", "confidence": 65, "reasoning": "x"},
         {"claim": "Bad date", "due": "2020-01-01", "confidence": 50, "reasoning": "x"},
@@ -48,6 +51,7 @@ def article(slug, importance, primary=True):
     front = {
         "title": f"Story {slug}", "date": "2026-10-28", "dek": "Dek.", "whyItMatters": "Because.",
         "categories": ["ai-governance"], "whoShouldCare": ["CDO"], "importance": importance, "type": "Guidance",
+        "deadlines": [{"date": date(2026, 11, 20), "what": f"Deadline for {slug}"}, {"date": date(2027, 6, 1), "what": "Far away"}],
         "sources": [{"name": "Blog", "title": "Coverage", "url": f"https://blog.example.org/{slug}"},
                     {"name": "European Commission", "title": "Press release", "url": f"https://ec.example.eu/{slug}", "primary": primary}],
     }
@@ -141,6 +145,23 @@ class MondayTest(unittest.TestCase):
         self.assertNotIn("2026-10-26-2", body)
         self.assertIn("https://datagovernancesignal.com/news/one/", body)
         self.assertIn("Monday 2 November 2026", body)
+
+    def test_newsletter_sections(self):
+        articles = monday.week_articles(MONDAY)
+        preds = monday.load_predictions()[1]
+        text = monday.newsletter_text(MONDAY, COLUMN, articles, monday.upcoming_dates(MONDAY), preds)
+        for heading in ("## The Big Signal", "## Also this week", "## Governance in Practice", "## What to Watch",
+                        "## One Practical Insight"):
+            self.assertIn(heading, text)
+        # The model's pick leads, even though "one" is more important.
+        self.assertLess(text.index("/news/two/"), text.index("/news/one/"))
+        watch = text[text.index("## What to Watch"):text.index("## One Practical Insight")]
+        self.assertIn("**20 Nov** — Deadline for one", watch)
+        self.assertNotIn("Far away", watch)
+        self.assertIn("Deadline for old", watch)  # any published article's upcoming dates count
+        self.assertNotIn("Deadline for sample", watch)
+        self.assertIn("Prediction due: Old call", watch)
+        self.assertNotIn("Later", watch)
 
 
 class QuoteTest(unittest.TestCase):
