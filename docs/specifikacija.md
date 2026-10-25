@@ -206,6 +206,13 @@ Okvirne skupine izvora:
 - **Automatizacija:** ponedjeljkom u 05:47 UTC (06:47 po zimskom, 07:47 po ljetnom vremenu) Cloudflare Cron pokreće `.github/workflows/monday.yml` → `pipeline/monday.py` otvara PR „Monday Signal YYYY-MM-DD: …” s nacrtom kolumne (iz vijesti objavljenih u proteklih 7 dana), predloženim predviđanjima (tuđa samo ako se citat doslovno nalazi u izvoru), predviđanjima kojima ističe rok i tekstom newslettera. Urednik prepiše kolumnu svojim glasom, uredi predviđanja, spoji (= objava) i pošalje newsletter. Trošak ≈ 0,3–0,6 $ tjedno, unutar limita 12 $.
 - Ishod Cloudflare pokretanja: KV ključ `cron:last-monday` (za prikupljanje `cron:last`).
 
+## 10a-3. Institucije (odluka 25. 10. 2026.)
+
+- Uz teme (kategorije) svaka vijest ima i **institucije koje su djelovale** (odlučile, kaznile, presudile, donijele, objavile), a ne izvor preko kojeg smo vijest našli. Popis: `src/data/institutions.ts` (31 institucija u 5 skupina), proširuje se po potrebi.
+- Stranice `/institutions/` i `/institutions/<id>/` prikazuju samo institucije s barem jednom objavljenom vijesti.
+- AI kod pisanja nacrta bira institucije s popisa; urednik ih vidi u PR-u („Institutions”) i ispravlja u polju `institutions:`.
+- Kasnije: praćenje pojedine institucije u newsletteru (kandidat za premium).
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

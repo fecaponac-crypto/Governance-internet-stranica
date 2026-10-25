@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import { INSTITUTIONS, INSTITUTION_GROUPS, type InstitutionGroup } from '../../data/institutions';
+import { getArticles } from '../../utils/articles';
+
+const articles = await getArticles();
+const count = (id: string) => articles.filter((a) => a.data.institutions.includes(id)).length;
+// Only institutions we have reported on; empty pages help nobody.
+const covered = INSTITUTIONS.filter((i) => count(i.id) > 0);
+const groups = (Object.keys(INSTITUTION_GROUPS) as InstitutionGroup[])
+  .map((g) => ({ title: INSTITUTION_GROUPS[g], items: covered.filter((i) => i.group === g) }))
+  .filter((g) => g.items.length > 0);
+---
+
+<Base
+  title="Institutions"
+  description="Regulators, courts, EU institutions and standards bodies — every decision, rule and publication we have covered, by institution."
+>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Browse</p>
+      <h1>Institutions</h1>
+      <p>
+        What each regulator, court and standards body has decided, published or enforced — in one place. An article is
+        listed under the institutions that acted in the story.
+      </p>
+    </header>
+    {
+      groups.map((g) => (
+        <section class="group">
+          <div class="section-title">
+            <h2>{g.title}</h2>
+          </div>
+          <div class="grid">
+            {g.items.map((i) => (
+              <a class="topic" href={`/institutions/${i.id}/`}>
+                <h3>{i.short}</h3>
+                <p>{i.description}</p>
+                <span class="meta">
+                  {i.jurisdiction} · {count(i.id)} {count(i.id) === 1 ? 'article' : 'articles'}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .group {
+    margin-bottom: 2.5rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .topic {
+    display: block;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .topic:hover {
+    border-color: var(--signal);
+    color: var(--ink);
+  }
+  .topic h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+  .topic p {
+    font-size: 0.9rem;
+    color: var(--ink-2);
+    margin-bottom: 0.6rem;
+  }
+</style>

@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { INSTITUTIONS, INSTITUTION_GROUPS, type Institution } from '../../data/institutions';
+import { getArticles, type Article } from '../../utils/articles';
+
+export async function getStaticPaths() {
+  const articles = await getArticles();
+  return INSTITUTIONS.map((institution) => ({
+    params: { id: institution.id },
+    props: { institution, articles: articles.filter((a) => a.data.institutions.includes(institution.id)) },
+  })).filter((p) => p.props.articles.length > 0);
+}
+
+interface Props {
+  institution: Institution;
+  articles: Article[];
+}
+const { institution, articles } = Astro.props;
+---
+
+<Base title={institution.name} description={`${institution.description} Every decision and publication we have covered.`}>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow"><a href="/institutions/">Institutions</a> · {INSTITUTION_GROUPS[institution.group]}</p>
+      <h1>{institution.name}</h1>
+      <p>{institution.description}</p>
+      <p class="facts">
+        {institution.jurisdiction} · <a href={institution.url} rel="noopener">Official website</a> · {articles.length}
+        {articles.length === 1 ? ' article' : ' articles'}
+      </p>
+    </header>
+    <div class="cols">
+      <section aria-label={`${institution.short} articles`}>
+        {articles.map((a) => <ArticleCard article={a} />)}
+      </section>
+      <aside><NewsletterForm compact /></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .eyebrow a {
+    color: inherit;
+  }
+  .facts {
+    font-size: 0.9rem;
+    color: var(--ink-3);
+  }
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  @media (max-width: 860px) {
+    .cols {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

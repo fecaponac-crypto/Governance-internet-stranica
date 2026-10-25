@@ -48,6 +48,7 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
       <li>
         <a href="/data-and-ai/" class="broad" aria-current={path === '/data-and-ai/' ? 'page' : undefined}>Data &amp; AI</a>
       </li>
+      <li><a href="/institutions/" aria-current={path.startsWith('/institutions/') ? 'page' : undefined}>Institutions</a></li>
       <li><a href="/topics/" aria-current={path === '/topics/' ? 'page' : undefined}>All topics</a></li>
     </ul>
   </nav>

@@ -4,6 +4,7 @@ date: 2026-10-13
 dek: "Supervisors in the UK, the US and the euro area are questioning banks about controls over autonomous AI agents and recovery from AI-enabled cyber attacks, according to a Reuters report."
 whyItMatters: "Supervisors are setting expectations for AI agents before any formal rule exists. The questions map directly onto governance artefacts: a complete inventory of AI use including third-party suppliers, defined limits and approval steps for agent actions, audit trails, human oversight and a tested way to stop and restart systems. Financial services usually set the bar other regulated sectors follow, so organisations deploying agents elsewhere should treat this list as a preview."
 categories: [ai-governance, security, regulation]
+institutions: [ecb, boe]
 whoShouldCare: [Chief risk officer, CISO, AI governance lead, Financial services compliance]
 importance: 4
 type: Supervision

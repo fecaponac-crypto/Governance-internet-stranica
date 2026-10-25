@@ -4,6 +4,7 @@ date: 2026-10-14
 dek: "The Commission says enforcement of the rules for general-purpose AI models has begun, with requests on security, external evaluation and monitoring of model use. Media reports name OpenAI and Anthropic."
 whyItMatters: "This is the first visible use of the AI Act's enforcement powers against model providers, and it treats AI agent incidents as a compliance matter rather than a research problem. The requests target providers, not their customers, but organisations deploying agents should expect the same questions from their suppliers and auditors: an inventory of agents and what they can access, least-privilege permissions, human approval for sensitive actions, and logs good enough to reconstruct an incident — including for GDPR breach assessment."
 categories: [regulation, ai-governance]
+institutions: [european-commission]
 whoShouldCare: [AI governance lead, DPO, CISO, Legal & compliance]
 importance: 4
 type: Enforcement

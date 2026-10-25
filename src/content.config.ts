@@ -2,6 +2,7 @@ import { defineCollection } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { CATEGORY_IDS, COLUMN, CONTENT_TYPES, PREDICTION_STATUSES } from './data/site';
+import { INSTITUTION_IDS } from './data/institutions';
 
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
@@ -13,6 +14,8 @@ const articles = defineCollection({
     dek: z.string(),
     whyItMatters: z.string(),
     categories: z.array(z.enum(CATEGORY_IDS)).min(1),
+    // Institutions that acted in the story (decided, fined, published, adopted).
+    institutions: z.array(z.enum(INSTITUTION_IDS)).default([]),
     whoShouldCare: z.array(z.string()).min(1),
     importance: z.number().int().min(1).max(5),
     type: z.enum(CONTENT_TYPES),

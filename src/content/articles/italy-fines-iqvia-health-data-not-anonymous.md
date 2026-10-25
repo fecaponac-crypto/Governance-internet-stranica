@@ -4,6 +4,7 @@ date: 2026-10-09
 dek: "A persistent patient identifier combined with detailed clinical data made re-identification possible across a database of about one million patients."
 whyItMatters: "Anonymisation is a data quality and governance claim, not a label. The decision shows how a persistent identifier plus rich attributes defeats anonymisation, pulling a dataset back under the GDPR with all its duties — legal basis, transparency, retention, DPIA and security. Teams that publish or sell “anonymised” datasets should test re-identification risk and document the result."
 categories: [privacy, data-quality]
+institutions: [garante]
 whoShouldCare: [DPO, Data stewards, Data product owners, Healthcare & life sciences]
 importance: 4
 type: Enforcement

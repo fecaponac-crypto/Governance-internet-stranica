@@ -27,6 +27,7 @@ DRAFT = {
     "body": " ".join(["The regulator fined **Example Corp EUR 2 million** for profiling customers without valid consent."] * 4),
     "why_it_matters": "Consent records must show what each controller relied on.",
     "categories": ["privacy", "regulation", "privacy"],
+    "institutions": ["garante", "edpb", "garante"],
     "who_should_care": ["DPO", "Legal & compliance"],
     "importance": 4,
     "type": "Enforcement",
@@ -136,6 +137,7 @@ class RunTest(unittest.TestCase):
         path = self.articles / "regulator-fines-example-corp-eur-2-million-over-unlawful-profiling.md"
         front = yaml.safe_load(path.read_text().split("---")[1])
         self.assertEqual(front["categories"], ["privacy", "regulation"])  # de-duplicated
+        self.assertEqual(front["institutions"], ["garante", "edpb"])
         # Primary source first, with the URL of the fetched original document.
         self.assertEqual(front["sources"][0]["primary"], True)
         self.assertEqual(front["sources"][0]["url"], "https://dpa.example.org/decision.pdf")
@@ -178,6 +180,11 @@ class RulesTest(unittest.TestCase):
     def test_validate_flags_long_card(self):
         self.assertIn("card_figure longer than 22 characters", draft.validate({**DRAFT, "card_figure": "x" * 30}))
         self.assertEqual(draft.validate(DRAFT), [])
+
+    def test_institutions_read_from_site(self):
+        ids = [i["id"] for i in draft.institution_vocabulary()]
+        self.assertIn("edpb", ids)
+        self.assertIn("cjeu", ids)
 
     def test_unique_slug(self):
         self.assertEqual(draft.unique_slug("A b", {"a-b"}), "a-b-2")

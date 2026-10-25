@@ -4,6 +4,7 @@ date: 2026-10-16
 dek: "The adtech company relied on Grindr's consent to process data revealing users' sexual orientation. The regulator ruled that each joint controller must verify consent independently."
 whyItMatters: "The principle reaches far beyond adtech. Any organisation that receives personal data from partners and relies on their consent — data sharing agreements, marketplaces, enrichment providers — carries its own duty to verify that the consent is valid and covers its processing. Data governance teams should check how inbound data sharing records and tests consent provenance."
 categories: [privacy, regulation]
+institutions: [datatilsynet-no]
 whoShouldCare: [DPO, Data sharing & partnerships, Marketing data owners, Legal & compliance]
 importance: 4
 type: Enforcement

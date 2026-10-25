@@ -4,6 +4,7 @@ date: 2026-10-23
 dek: "Member States agreed a negotiating position that would treat processing personal data “in the context of AI” as a legitimate interest by default. Parliament has yet to take its position."
 whyItMatters: "If the text survives trilogues, the legal basis for using personal data in AI training and deployment shifts from case-by-case justification to a default allowance. Data governance teams would need to revisit legitimate-interest assessments, data inventories and opt-out handling — and prepare for years of legal uncertainty if the provision is challenged before the Court of Justice."
 categories: [regulation, privacy, ai-governance]
+institutions: [council-eu]
 whoShouldCare: [DPO, CDO, Legal & compliance, AI governance lead]
 importance: 5
 type: Regulation

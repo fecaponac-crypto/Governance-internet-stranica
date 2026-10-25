@@ -4,6 +4,7 @@ date: 2026-10-21
 dek: "Guidelines 3/2025 address content moderation, advertising, recommender systems, protection of minors and systemic risk assessments."
 whyItMatters: "Platforms subject to both regimes now have a reference for running one consistent process instead of two. The guidance on age assurance and on integrating DSA risk assessments with DPIAs matters most for governance teams: it shapes what data may be collected and how risk documentation should be structured."
 categories: [regulation, privacy]
+institutions: [edpb]
 whoShouldCare: [DPO, Trust & safety, Legal & compliance, Product owners]
 importance: 3
 type: Guidance

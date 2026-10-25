@@ -4,6 +4,7 @@ date: 2026-10-16
 dek: "The CMA will examine bundling, customers' freedom to choose AI tools other than Copilot, and cloud licensing. Microsoft and AWS have already removed data transfer fees for customers switching cloud provider."
 whyItMatters: "Switching costs, licensing and egress fees shape data architecture as much as technology choices do. If the designation goes ahead, conduct requirements could make it easier to combine non-Microsoft AI, governance and security tools with a Microsoft estate, and the cloud commitments already reduce the cost of multi-cloud and exit strategies. Data and architecture teams planning platform decisions for 2027 should follow the consultation."
 categories: [market, regulation, platforms]
+institutions: [cma]
 whoShouldCare: [CDO, Data architects, CIO, Procurement]
 importance: 3
 type: Regulation

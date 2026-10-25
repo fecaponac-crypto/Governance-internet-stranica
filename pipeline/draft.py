@@ -78,6 +78,14 @@ def site_vocabulary() -> tuple[list[dict], list[str]]:
     return cats, re.findall(r"'([^']+)'", types_block.group(1))
 
 
+def institution_vocabulary() -> list[dict]:
+    """Institution ids and names from src/data/institutions.ts."""
+    ts = (ROOT / "src" / "data" / "institutions.ts").read_text(encoding="utf-8")
+    found = [{"id": i, "name": n} for i, n in re.findall(r"id: '([^']+)',\s*name: '([^']+)'", ts)]
+    assert found, "could not read institutions from institutions.ts"
+    return found
+
+
 def existing_articles() -> list[dict]:
     out = []
     for path in sorted(ARTICLES.glob("*.md")):
@@ -348,6 +356,7 @@ Fields:
 - body: 80–150 words in 2–3 short paragraphs of Markdown, **bold** for at most two key facts. What happened, who, key numbers or obligations, what happens next.
 - why_it_matters: 2–4 sentences on the practical consequence for data governance, privacy, compliance or AI governance teams — what they should check or do. This is the portal's main value; be concrete, not generic.
 - categories: 1–3 category ids, most relevant first.
+- institutions: ids from the allowed list for the institutions that acted in the story — decided, fined, ruled, adopted, published guidance or a standard. Not the outlet that reported it, not institutions merely mentioned. Empty if none on the list acted.
 - who_should_care: 2–4 roles, e.g. "CDO", "DPO", "Data stewards", "AI governance lead", "Legal & compliance", "CISO".
 - importance: 1–5 as defined (1 Background … 5 Critical).
 - type: one of the allowed content types.
@@ -359,7 +368,8 @@ Fields:
 - review_notes: for the editor only — anything uncertain, simplified or worth verifying (empty if none)."""
 
 
-def write_schema(category_ids: list[str], types: list[str], slugs: list[str], refs: list[int]) -> dict:
+def write_schema(category_ids: list[str], types: list[str], slugs: list[str], refs: list[int],
+                 institution_ids: list[str]) -> dict:
     s = lambda **kw: {"type": "string", **kw}
     return {
         "type": "object",
@@ -369,6 +379,7 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "body": s(),
             "why_it_matters": s(),
             "categories": {"type": "array", "items": s(enum=category_ids)},
+            "institutions": {"type": "array", "items": s(enum=institution_ids)},
             "who_should_care": {"type": "array", "items": s()},
             "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
             "type": s(enum=types),
@@ -389,7 +400,7 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "review_notes": s(),
         },
         "required": [
-            "title", "dek", "body", "why_it_matters", "categories", "who_should_care", "importance", "type", "region",
+            "title", "dek", "body", "why_it_matters", "categories", "institutions", "who_should_care", "importance", "type", "region",
             "card_figure", "card_caption", "editor_note", "sources", "related", "review_notes",
         ],
         "additionalProperties": False,
@@ -406,8 +417,10 @@ def sources_block(sources: list[dict]) -> str:
 def write_draft(client, state, item: dict, sources: list[dict], categories, types, existing) -> dict:
     existing_list = "\n".join(f"- {a['slug']}: {a['title']}" for a in existing[-60:])
     cat_list = "\n".join(f"- {c['id']}: {c['label']} ({c['section']})" for c in categories)
+    institutions = institution_vocabulary()
+    inst_list = "\n".join(f"- {i['id']}: {i['name']}" for i in institutions)
     user = (
-        f"Allowed categories:\n{cat_list}\n\nAllowed types: {', '.join(types)}\n\n"
+        f"Allowed categories:\n{cat_list}\n\nAllowed institutions:\n{inst_list}\n\nAllowed types: {', '.join(types)}\n\n"
         f"Existing articles (for related):\n{existing_list or '(none)'}\n\n"
         f"The story was collected from {item['source_name']} (reliability {item['reliability']}/3), "
         f"published {(item['published'] or item['first_seen'])[:10]}.\n\n{sources_block(sources)}"
@@ -415,7 +428,8 @@ def write_draft(client, state, item: dict, sources: list[dict], categories, type
     refs = list(range(1, len(sources) + 1))
     d = call_json(
         client, state, model=WRITER_MODEL, system=WRITE_SYSTEM, user=user,
-        schema=write_schema([c["id"] for c in categories], types, [a["slug"] for a in existing], refs),
+        schema=write_schema([c["id"] for c in categories], types, [a["slug"] for a in existing], refs,
+                            [i["id"] for i in institutions]),
         effort="medium", max_tokens=16000,
     )
     cited = {}
@@ -521,6 +535,7 @@ def to_markdown(d: dict, item: dict) -> str:
         f"dek: {q(d['dek'])}",
         f"whyItMatters: {q(d['why_it_matters'])}",
         f"categories: [{', '.join(dict.fromkeys(d['categories']))}]",
+        f"institutions: [{', '.join(dict.fromkeys(d.get('institutions', [])))}]",
         f"whoShouldCare: [{', '.join(q(r) for r in d['who_should_care'])}]",
         f"importance: {d['importance']}",
         f"type: {q(d['type'])}",
@@ -578,6 +593,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 
 **Type:** {d['type']} · {d['region']} · **Importance:** {d['importance']} ({labels[d['importance']]})
 **Categories:** {', '.join(d['categories'])}
+**Institutions:** {', '.join(d.get('institutions', [])) or 'none'}
 **Card:** `{d['card_figure']}` — {d['card_caption']}
 
 ### {d['title']}

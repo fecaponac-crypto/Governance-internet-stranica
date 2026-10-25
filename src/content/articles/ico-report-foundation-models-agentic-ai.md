@@ -4,6 +4,7 @@ date: 2026-10-14
 dek: "After reviewing ten of the largest foundation model developers operating in the UK, the regulator says technical complexity is no excuse for weak transparency, lawful basis or data subject rights."
 whyItMatters: "The report is the clearest regulatory statement yet on when a trained model itself contains personal data — a question that decides whether models fall under data protection law at all. Organisations fine-tuning or deploying models should map training data sources, document lawful bases and legitimate-interest assessments, and consider responding to the agentic AI call for evidence before 20 November 2026."
 categories: [ai-governance, privacy]
+institutions: [ico]
 whoShouldCare: [AI governance lead, DPO, Data scientists, Legal & compliance]
 importance: 4
 type: Guidance

@@ -5,6 +5,7 @@ import Importance from '../../components/Importance.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
 import { categoryById, SITE } from '../../data/site';
+import { institutionById } from '../../data/institutions';
 import { getArticles, formatDate, isoDate, type Article } from '../../utils/articles';
 import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
 
@@ -21,6 +22,7 @@ const { article, all } = Astro.props;
 const { data } = article;
 const { Content } = await render(article);
 const cats = data.categories.map(categoryById);
+const institutions = data.institutions.map(institutionById);
 
 // Explicit related items first, then others sharing a category.
 const explicit = data.related.map((id) => all.find((a) => a.id === id)).filter((a): a is Article => !!a);
@@ -38,6 +40,7 @@ const jsonLd = {
   publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
   isBasedOn: data.sources.map((s) => s.url),
   image: cardAbsoluteUrl(article),
+  ...(institutions.length && { about: institutions.map((i) => ({ '@type': 'Organization', name: i.name, url: i.url })) }),
 };
 ---
 
@@ -120,6 +123,16 @@ const jsonLd = {
             {cats.map((c) => <li><a href={`/category/${c.id}/`}>{c.label}</a></li>)}
           </ul>
         </section>
+        {
+          institutions.length > 0 && (
+            <section>
+              <h2 class="label">Institutions</h2>
+              <ul class="chips">
+                {institutions.map((i) => <li><a href={`/institutions/${i.id}/`}>{i.short}</a></li>)}
+              </ul>
+            </section>
+          )
+        }
         <section>
           <h2 class="label">Who should care</h2>
           <ul class="roles">

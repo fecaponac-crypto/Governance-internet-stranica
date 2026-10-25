@@ -4,6 +4,7 @@ date: 2026-10-16
 dek: "France's CNIL, the UK's ICO and Luxembourg's CNPD published a joint study on how data protection and governance create — or destroy — the financial value of data assets."
 whyItMatters: "This gives data leaders regulator-backed arguments that governance is a value driver, not only a compliance cost. Expect governance maturity and GDPR compliance to feature more in due diligence, valuations and investor questions — and use the study's practices when making the business case for governance investment."
 categories: [strategy, privacy]
+institutions: [cnil, ico, cnpd-lu]
 whoShouldCare: [CDO, CFO & finance, Data governance lead, M&A and investment teams]
 importance: 4
 type: Research
