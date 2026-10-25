@@ -5,7 +5,7 @@ export const SITE = {
   shortName: 'DG Signal',
   tagline: 'What matters in data governance, and why.',
   description:
-    'An independent, editor-reviewed briefing on data governance, privacy, AI governance and data regulation — with the context professionals need to act.',
+    'Regulation, AI governance and practical data management — connected, for the people who make it work. An independent, editor-reviewed briefing with every source linked.',
   url: 'https://datagovernancesignal.com',
   email: 'editor@datagovernancesignal.com',
   // Buttondown newsletter (double opt-in, open/click tracking off).

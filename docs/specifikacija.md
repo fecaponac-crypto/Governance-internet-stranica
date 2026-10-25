@@ -24,6 +24,12 @@
 
 ## 2. Vizija
 
+> **Misija (25. 10. 2026.):** jedini izvor koji spaja **regulaciju, AI governance i praktični data management** (MDM, kvaliteta podataka, metapodaci i katalozi) za ljude koji to provode u organizacijama. Svaka vijest odgovara na tri pitanja: što se promijenilo, je li to već obveza, što treba provjeriti.
+>
+> *Mission (EN):* Regulation, AI governance and practical data management — connected, for the people who make it work.
+>
+> **Cilj:** biti br. 1 u toj niši po povjerenju i korisnosti. Mjerila su u odjeljku 11.
+
 Međunarodni stručni portal na engleskom koji prati područje Data Governancea, izdvaja ono što je stvarno važno i objašnjava **zašto je važno i na koga utječe**.
 
 Ne natječemo se brojem objava. Natječemo se:

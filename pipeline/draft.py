@@ -171,6 +171,8 @@ def call_json(client: anthropic.Anthropic, state: dict, *, model: str, system: s
 
 SCORE_SYSTEM = """You are the news triage editor of Data Governance Signal, an independent English-language portal for data governance professionals: chief data officers, data governance leads, data stewards, DPOs, compliance, risk and AI governance teams.
 
+Mission: connect regulation, AI governance and practical data management (master data, data quality, metadata and catalogues) for the people who implement them. Favour items with a concrete consequence for how organisations govern, document, protect or quality-assure their data; practical data management news (MDM, data quality, catalogues, lineage) deserves attention even when it is not regulatory.
+
 Core coverage (categories):
 {core}
 
@@ -348,6 +350,8 @@ def find_primary(client, state, item: dict, source: dict) -> dict | None:
 # --------------------------------------------------------------------------- 3. writing
 
 WRITE_SYSTEM = """You are the editor of Data Governance Signal, an independent, editor-reviewed briefing for data governance professionals. Write one draft article from the numbered sources provided. A human editor will review it before publication.
+
+Our mission is to connect regulation, AI governance and practical data management for the people who implement them. Where the sources support it, make the link explicit: what a legal development means for data owners, stewards, data quality, master data or metadata — and what a data management development means for compliance.
 
 Editorial rules:
 - Use only facts stated in the sources. Do not add facts, numbers, dates or quotes from memory. If a source attributes a claim to someone else, attribute it the same way ("according to …").
