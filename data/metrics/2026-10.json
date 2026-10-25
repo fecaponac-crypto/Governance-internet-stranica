@@ -1,6 +1,6 @@
 {
  "month": "2026-10",
- "updated": "2026-10-25T21:18:07Z",
+ "updated": "2026-10-25T23:18:07Z",
  "portal": {
   "published_total": 6,
   "published_this_month": 6,
@@ -13,7 +13,7 @@
  },
  "pipeline": {
   "items_collected": 14,
-  "runs": 16,
+  "runs": 17,
   "runs_with_failed_sources": 5,
   "triage_decisions": {
    "skipped": 12,
@@ -21,7 +21,7 @@
   },
   "ai_spend_usd": 0.0812,
   "sources_active": 80,
-  "sources_failing_now": 1
+  "sources_failing_now": 0
  },
  "editor": {
   "drafts_published": 6,
