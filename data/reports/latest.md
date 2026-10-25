@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-25T11:35:13Z** · sources checked: 46 · failed: 0 · new items this run: 0
+Last run: **2026-10-25T15:18:01Z** · sources checked: 46 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (6)
+## New items, last 48 hours (8)
 
 ### Medium priority sources
 
@@ -19,6 +19,8 @@ Last run: **2026-10-25T11:35:13Z** · sources checked: 46 · failed: 0 · new it
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [On the Road to Risk: Connected Cars Put Drivers’ Privacy and Safety in Harm’s Way](https://epic.org/on-the-road-to-risk-connected-cars-put-drivers-privacy-and-safety-in-harms-way/) |
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [EPIC Joins Coalition Urging New York Governor to Sign and Strengthen Surveillance Pricing Law](https://epic.org/epic-joins-coalition-urging-new-york-governor-to-sign-and-strengthen-surveillance-pricing-law/) |
 | 2026-10-21 | EPIC — Electronic Privacy Information Center | [EPIC, Tech Justice Law, and Scholars Urge Ninth Circuit to Reject Big Tech’s Claim That Addictive, Surveillance-Based Feeds Are Protected Speech](https://epic.org/epic-tech-justice-law-and-scholars-urge-ninth-circuit-to-reject-big-techs-claim-that-addictive-surveillance-based-feeds-are-not-protected-speech/) |
+| 2026-10-05 | EPIC — Electronic Privacy Information Center | [Looking Ahead: Pixel Tracking Litigation under ECPA and CIPA can Provide Useful Guidelines for the Supreme Court in Salazar v. Paramount Global](https://epic.org/looking-ahead-pixel-tracking-litigation-under-ecpa-and-cipa-can-provide-useful-guidelines-for-the-supreme-court-in-salazar-v-paramount-global/) |
+| 2026-10-02 | EPIC — Electronic Privacy Information Center | [EPIC Files Amicus Brief Challenging Spirit Airlines’ Bankruptcy Sale of Employee Data to Google](https://epic.org/epic-files-amicus-brief-challenging-spirit-airlines-bankruptcy-sale-of-employee-data-to-google/) |
 
 ## Source problems
 

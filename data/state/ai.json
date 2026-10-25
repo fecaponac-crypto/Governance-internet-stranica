@@ -12,6 +12,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "39daa83701dc9e8f": {
+   "at": "2026-10-25T15:18:12Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "epic-challenges-spirit-airlines-proposed-bankruptcy-sale-of-employee-d",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/7",
+   "primary_found": false,
+   "reason": "Amicus brief challenging sale of sensitive employee data to Google for AI training in a bankruptcy; a concrete data governance and privacy dispute with an AI training angle.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "604faec434131ac6": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [],
@@ -19,6 +36,17 @@
    "importance": 1,
    "reason": "Advocacy testimony on edtech procurement; policy lobbying rather than a regulation, enforcement or decision, and the angle is mainly student privacy advocacy.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "7b541a87643652cd": {
+   "at": "2026-10-25T15:18:12Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analysis of pixel tracking litigation and a pending US Supreme Court privacy case; relevant to privacy practice but largely commentary on US litigation rather than a decision.",
+   "relevant": true,
    "same_story_as": null
   },
   "9c852718df49c78b": {
@@ -70,8 +98,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 3,
-   "usd": 0.0434
+   "calls": 6,
+   "usd": 0.0806
   }
  }
 }
