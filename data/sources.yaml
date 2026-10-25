@@ -352,6 +352,119 @@ sources:
     notes: Keyword filter. Risk data aggregation and reporting (BCBS 239) supervision of banks.
     verified: 2026-10-25
 
+  - id: cjeu
+    name: Court of Justice of the EU — Press releases
+    url: https://curia.europa.eu/jcms/jcms/Jo2_7052/en/
+    method: scrape
+    scrape:
+      # Relative PDF links resolve under the listing page's path, which the server refuses; rewrite to the real path.
+      link_pattern: '^https://curia\.europa\.eu/site/upload/docs/application/pdf/\d{4}-\d{2}/cp\d+en[^/]*\.pdf$'
+      rewrite: {from: '^https://curia\.europa\.eu/site/jcms/[^/]+/en/upload/', to: 'https://curia.europa.eu/site/upload/'}
+      item: .curia-itemlist-item
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: high
+    notes: All judgments and AG opinions (all areas of law); the listing summary tells the triage which ones concern data protection, AI or digital law. Links are the official PDF press releases.
+    verified: 2026-10-25
+
+  - id: garante
+    name: Garante per la protezione dei dati personali (Italy)
+    url: https://www.garanteprivacy.it/home/stampa-comunicazione/comunicati-stampa
+    method: scrape
+    scrape:
+      link_pattern: '^https://www\.garanteprivacy\.it/web/guest/home/docweb/-/docweb-display/docweb/\d+$'
+    type: regulator
+    section: core
+    categories: [privacy, regulation, ai-governance]
+    reliability: 3
+    priority: high
+    notes: In Italian. One of the most active DPAs, especially on AI (ChatGPT, DeepSeek, Replika decisions).
+    verified: 2026-10-25
+
+  - id: aepd
+    name: AEPD — Spanish Data Protection Agency
+    url: https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa
+    feeds: [https://www.aepd.es/noticias/feed.xml]
+    method: rss
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: medium
+    notes: In Spanish. Issues the most GDPR fines by number in the EU.
+    verified: 2026-10-25
+
+  - id: datatilsynet-no
+    name: Datatilsynet (Norway)
+    url: https://www.datatilsynet.no/aktuelt/
+    method: scrape
+    scrape:
+      link_pattern: '^https://www\.datatilsynet\.no/aktuelt/aktuelle-nyheter-\d{4}/[a-z0-9-]+/$'
+    type: regulator
+    section: core
+    categories: [privacy, ai-governance]
+    reliability: 3
+    priority: medium
+    notes: In Norwegian. Major ad-tech decisions (Meta, Xandr) and the AI regulatory sandbox.
+    verified: 2026-10-25
+
+  - id: apd-be
+    name: Autorité de protection des données (Belgium)
+    url: https://www.autoriteprotectiondonnees.be/citoyen/actualites
+    method: scrape
+    scrape:
+      link_pattern: '^https://www\.autoriteprotectiondonnees\.be/citoyen/actualites/\d{4}/\d{2}/\d{2}/[^/]+$'
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: low
+    notes: In French. Lead authority for IAB Europe's TCF case.
+    verified: 2026-10-25
+
+  - id: cppa
+    name: California Privacy Protection Agency (CalPrivacy)
+    url: https://cppa.ca.gov/announcements/
+    method: scrape
+    scrape:
+      link_pattern: '^https://cppa\.ca\.gov/announcements/\d{4}/\d+\.html$'
+    type: regulator
+    section: core
+    categories: [privacy, regulation]
+    reliability: 3
+    priority: medium
+    notes: CCPA rule-making and enforcement (data brokers, automated decision-making rules).
+    verified: 2026-10-25
+
+  - id: eiopa
+    name: European Insurance and Occupational Pensions Authority (EIOPA)
+    url: https://www.eiopa.europa.eu/media/news_en
+    feeds: [https://www.eiopa.europa.eu/node/4816/rss_en]
+    method: rss
+    type: regulator
+    section: core
+    categories: [regulation, ai-governance]
+    reliability: 3
+    priority: low
+    filter: true
+    notes: Keyword filter. DORA and AI governance in insurance.
+    verified: 2026-10-25
+
+  - id: oecd-ai
+    name: OECD.AI — Policy Observatory blog
+    url: https://oecd.ai/en/wonk
+    feeds: [https://wp.oecd.ai/feed/]
+    method: rss
+    type: regulator
+    section: core
+    categories: [ai-governance]
+    reliability: 3
+    priority: low
+    notes: OECD AI principles, incident monitoring, international AI policy.
+    verified: 2026-10-25
+
   # ---------------------------------------------------------------- Associations & NGOs
 
   - id: dama

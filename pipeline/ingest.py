@@ -191,26 +191,43 @@ def fetch_rss(source: dict) -> list[Candidate]:
     return out
 
 
-def fetch_scrape(source: dict) -> list[Candidate]:
-    rules = source["scrape"]
+def scrape_page(html: bytes, page_url: str, rules: dict) -> list[Candidate]:
+    """Article links on a listing page.
+
+    rules: link_pattern, optional exclude; optional rewrite {from, to} (regex applied to each
+    resolved URL, for sites whose relative links resolve to a wrong path); optional item, a CSS
+    selector for one listing entry, whose text becomes the candidate's summary.
+    """
     pattern = re.compile(rules["link_pattern"])
     exclude = re.compile(rules["exclude"]) if rules.get("exclude") else None
-    page = get(source["url"])
-    soup = BeautifulSoup(page.text, "html.parser")
+    rewrite = rules.get("rewrite")
+    # Bytes, so BeautifulSoup honours the page's declared charset.
+    soup = BeautifulSoup(html, "html.parser")
+    containers = soup.select(rules["item"]) if rules.get("item") else [soup]
     found: dict[str, Candidate] = {}
-    for a in soup.find_all("a", href=True):
-        url = urljoin(page.url, a["href"]).split("#")[0]
-        if not pattern.search(url) or (exclude and exclude.search(url)):
-            continue
-        title = clean_text(a.get_text(" "))
-        # Keep the longest anchor text seen for a URL (cards often repeat the link).
-        if url not in found or len(title) > len(found[url].title):
-            found[url] = Candidate(url, title, None)
-        if len(found) >= SCRAPE_MAX_LINKS:
-            break
+    for container in containers:
+        summary = clean_text(container.get_text(" "))[:600] if rules.get("item") else ""
+        for a in container.find_all("a", href=True):
+            url = urljoin(page_url, a["href"]).split("#")[0]
+            if rewrite:
+                url = re.sub(rewrite["from"], rewrite["to"], url)
+            if not pattern.search(url) or (exclude and exclude.search(url)):
+                continue
+            title = clean_text(a.get_text(" "))
+            # Keep the longest anchor text seen for a URL (cards often repeat the link).
+            if url not in found or len(title) > len(found[url].title):
+                found[url] = Candidate(url, title, None, summary)
+            if len(found) >= SCRAPE_MAX_LINKS:
+                return list(found.values())
+    return list(found.values())
+
+
+def fetch_scrape(source: dict) -> list[Candidate]:
+    page = get(source["url"])
+    found = scrape_page(page.content, page.url, source["scrape"])
     if not found:
         raise ValueError("no article links matched link_pattern — page layout may have changed")
-    return [c for c in found.values() if len(c.title) >= 15]
+    return [c for c in found if len(c.title) >= 15]
 
 
 def fetch(source: dict) -> FetchResult:

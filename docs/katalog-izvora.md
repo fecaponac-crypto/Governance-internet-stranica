@@ -1,6 +1,6 @@
 # Katalog izvora — Data Governance Signal
 
-> Verzija 0.3 · proširenje 25. 10. 2026. (+26 izvora) · v0.2 provjerena 24. 10. 2026.
+> Verzija 0.3 · proširenje 25. 10. 2026. (+34 izvora, ukupno 80 automatski) · v0.2 provjerena 24. 10. 2026.
 > Strojno čitljiv katalog (koristi ga automatizacija): [`data/sources.yaml`](../data/sources.yaml)
 
 ## Sažetak
@@ -33,7 +33,9 @@ Izvori na nizozemskom, švedskom, njemačkom, francuskom i hrvatskom: trijaža i
 
 Kod prvog dohvata novog izvora objave iz zadnja 3 dana idu u obradu, a starije služe samo kao polazno stanje.
 
-**Nije dostupno automatski (blokiraju pristup ili nemaju RSS):** Sud EU (curia), talijanski Garante, španjolski AEPD, norveški, danski i belgijski regulator, kalifornijski CPPA, OECD.AI, Vijeće Europe, ESMA, EIOPA, BigDATAwire, IAPP vijesti. Kandidati za scraping ili ručno praćenje u sljedećem koraku.
+**Drugi korak istog dana (+8):** Sud EU (priopćenja o presudama i mišljenjima nezavisnih odvjetnika, PDF; sažetak s popisa pomaže trijaži), talijanski **Garante**, španjolski **AEPD** (pronađen skriveni RSS), norveški **Datatilsynet**, belgijski APD, kalifornijski **CPPA**, EIOPA (filtar) i OECD.AI blog. Ukupno se sada automatski provjerava **80 izvora**, bez grešaka. Čitač stranica (scraping) dobio je dvije nove mogućnosti: ispravak pogrešno složenih poveznica (`rewrite`) i sažetak iz popisa (`item`).
+
+**I dalje nedostupno:** danski regulator (popis se učitava JavaScriptom), Vijeće Europe, ESMA i EK Digital Strategy (blokiraju automatski pristup).
 
 ## Kako čitati ocjene
 
