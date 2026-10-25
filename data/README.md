@@ -29,3 +29,11 @@ request assigned to the editor. Merge = publish.
 
 Limits: at most 6 drafts per run (`MAX_DRAFTS_PER_RUN`), monthly budget $12 (`AI_MONTHLY_BUDGET_USD`);
 when the budget is reached, selected items wait for the next month.
+
+## Monthly figures
+
+`metrics/YYYY-MM.json` — written by `pipeline/metrics.py` after every run, so each file ends up with that
+month's final figures: published articles, collected items, triage decisions, editor decisions on drafts,
+AI spend, source health and, when the optional secrets are set, newsletter subscribers
+(`BUTTONDOWN_API_KEY`) and Cloudflare Web Analytics visits and page views (`CF_API_TOKEN`, `CF_ACCOUNT_ID`,
+`CF_SITE_TAG`). This is the history advertisers and potential buyers ask for.
