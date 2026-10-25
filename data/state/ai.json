@@ -29,6 +29,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3e1659f779ef610b": {
+   "at": "2026-10-25T16:25:44Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment (hiring news) at a governance vendor; not relevant under the rules.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "604faec434131ac6": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [],
@@ -60,6 +71,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c12c7ae3b066a87d": {
+   "at": "2026-10-25T16:25:44Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Security threat analysis about AI helping attackers reach OT systems; it has a security angle but the excerpt is general commentary rather than a specific governance development, so it is borderline and not included.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d8268953054e9098": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -69,6 +91,37 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Coalition letter urging a governor to sign a bill; pending legislation not yet enacted, so it is advocacy rather than a settled rule.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d9da7553b89f69a8": {
+   "at": "2026-10-25T16:25:44Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor event keynote coverage with generic commentary; no specific regulation, launch or research finding is reported in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e3381fe87d6b6de3": {
+   "at": "2026-10-25T16:25:44Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/podcast-style promotion about freedom of information with a school angle; no clear data governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e90ca542343c425e": {
+   "at": "2026-10-25T16:25:44Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Security blog post on a threat actor's cloud access path; it is a technical incident write-up with limited data governance framing and no clear practitioner-relevant governance development in the excerpt.",
    "relevant": false,
    "same_story_as": null
   },
@@ -86,6 +139,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "efef2e06fe96f780": {
+   "at": "2026-10-25T16:25:44Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Podcast episode announcement with no substantive governance news in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fce9ca878e5ec760": {
    "at": "2026-10-24T23:18:09Z",
    "categories": [],
@@ -98,8 +160,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 6,
-   "usd": 0.0806
+   "calls": 7,
+   "usd": 0.0812
   }
  }
 }

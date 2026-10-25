@@ -1,19 +1,25 @@
 # Inflow report
 
-Last run: **2026-10-25T15:18:01Z** · sources checked: 46 · failed: 0 · new items this run: 2
+Last run: **2026-10-25T16:25:32Z** · sources checked: 72 · failed: 0 · new items this run: 6 · baseline items: 111
 
-## New items, last 48 hours (8)
+## New items, last 48 hours (14)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
 | 2026-10-24 | CDO Magazine | [Community High Stakes, Higher Speed: Trust and AI Governance Lead CDO Magazine’s New York Leadership Summit](https://www.cdomagazine.tech/community/high-stakes-higher-speed-trust-and-ai-governance-lead-cdo-magazines-new-york-leadership-summit) |
+| 2026-09-29 | Microsoft Security Blog (incl. Purview) | [​​Beyond source code: A path to the keys to the kingdom](https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-23 | DataGalaxy | [DataGalaxy Appoints Steve Neat as Chief Revenue Officer to Accelerate AI Context Sales](https://www.datagalaxy.com/en/blog/datagalaxy-cro-steve-neat/) |
+| 2026-10-23 | LfDI Baden-Württemberg (Germany) | [Kaffee und Informationsfreiheit (2) – Infofreiheit in der digitalen Welt: IF geht mit Erklärvideos zur Schule](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-2-infofreiheit-in-der-digitalen-welt/) |
+| 2026-10-23 | Computer Weekly — IT security | [Microsoft Frontier Tour London: Agentic AI governance in the spotlight](https://www.computerweekly.com/news/366652713/Microsoft-Frontier-Tour-London-Agentic-AI-governance-in-the-spotlight) |
+| 2026-10-23 | LfDI Baden-Württemberg (Germany) | [Datenfreiheit-extra #22: Datenzirkus wieder zu Gast beim LfDI](https://www.baden-wuerttemberg.datenschutz.de/datenfreiheit-extra-22-datenzirkus-wieder-zu-gast-beim-lfdi/) |
+| 2026-10-23 | Computer Weekly — IT security | [AI accelerates path from IT compromise to OT targeting](https://www.computerweekly.com/opinion/AI-accelerates-path-from-IT-compromise-to-OT-targeting) |
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [EPIC Urges D.C. Council to Protect Student Privacy and Pass Strong Procurement Guidelines for Edtech](https://epic.org/epic-urges-d-c-council-to-protect-student-privacy-and-pass-strong-procurement-guidelines-for-edtech/) |
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [Meta Fined $25 Billion by New Mexican Court for Violating Privacy During Cambridge Analytica Scandal](https://epic.org/meta-fined-25-billion-by-new-mexican-court-for-violating-privacy-during-cambridge-analytica-scandal/) |
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [On the Road to Risk: Connected Cars Put Drivers’ Privacy and Safety in Harm’s Way](https://epic.org/on-the-road-to-risk-connected-cars-put-drivers-privacy-and-safety-in-harms-way/) |
