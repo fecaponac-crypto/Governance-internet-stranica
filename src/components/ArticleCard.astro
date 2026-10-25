@@ -2,7 +2,7 @@
 import Importance from './Importance.astro';
 import { categoryById } from '../data/site';
 import { articleUrl, formatDate, isoDate, type Article } from '../utils/articles';
-import { cardUrl, CARD_WIDTH, CARD_HEIGHT } from '../utils/card';
+import { cardUrl, thumbUrl, CARD_WIDTH, CARD_HEIGHT } from '../utils/card';
 
 interface Props {
   article: Article;
@@ -19,7 +19,7 @@ const Heading = variant === 'lead' ? 'h2' : 'h3';
     variant !== 'compact' && (
       <a class="thumb" href={articleUrl(article)} tabindex="-1" aria-hidden="true">
         <img
-          src={cardUrl(article)}
+          src={variant === 'lead' ? cardUrl(article) : thumbUrl(article)}
           width={CARD_WIDTH}
           height={CARD_HEIGHT}
           alt=""

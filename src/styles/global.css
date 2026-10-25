@@ -202,3 +202,11 @@ p {
   border-color: var(--signal);
   color: #fff;
 }
+
+/* Long URLs and email addresses must not push the page wider than the screen. */
+p,
+li,
+dd,
+td {
+  overflow-wrap: break-word;
+}

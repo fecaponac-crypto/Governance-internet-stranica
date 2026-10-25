@@ -65,13 +65,37 @@ function bars(level: number): Node {
   );
 }
 
-export async function renderCard(article: Article): Promise<Buffer> {
+export async function renderCard(article: Article, width = CARD_WIDTH): Promise<Buffer> {
   const { data } = article;
-  const figure = data.card?.figure ?? data.type;
-  const caption = data.card?.caption ?? data.dek;
-  const eyebrow = [data.type, data.region].filter(Boolean).join('  ·  ').toUpperCase();
-  const topic = categoryById(data.categories[0]).label;
+  return renderFrame({
+    eyebrow: [data.type, data.region].filter(Boolean).join('  ·  ').toUpperCase(),
+    figure: data.card?.figure ?? data.type,
+    caption: data.card?.caption ?? data.dek,
+    topic: categoryById(data.categories[0]).label,
+    importance: data.importance,
+    width,
+  });
+}
 
+// Default share image for pages without their own card.
+export const renderSiteCard = () =>
+  renderFrame({
+    eyebrow: 'DATA GOVERNANCE · PRIVACY · AI GOVERNANCE',
+    figure: 'Signal, not noise.',
+    caption: 'What matters in data governance, and why — editor-reviewed, every source linked.',
+    topic: 'datagovernancesignal.com',
+  });
+
+interface Frame {
+  eyebrow: string;
+  figure: string;
+  caption: string;
+  topic: string;
+  importance?: number;
+  width?: number;
+}
+
+async function renderFrame({ eyebrow, figure, caption, topic, importance, width = CARD_WIDTH }: Frame): Promise<Buffer> {
   const tree = h(
     'div',
     {
@@ -91,7 +115,7 @@ export async function renderCard(article: Article): Promise<Buffer> {
       arcs(),
       h('div', { display: 'flex', alignItems: 'center', justifyContent: 'space-between' }, [
         h('div', { display: 'flex', fontSize: 26, fontWeight: 700, letterSpacing: 3, color: C.signal }, eyebrow),
-        bars(data.importance),
+        importance ? bars(importance) : h('div', { display: 'flex' }, ''),
       ]),
       h('div', { display: 'flex', flexDirection: 'column', maxWidth: 900 }, [
         h(
@@ -110,8 +134,12 @@ export async function renderCard(article: Article): Promise<Buffer> {
   );
 
   const svg = await satori(tree as Parameters<typeof satori>[0], { width: CARD_WIDTH, height: CARD_HEIGHT, fonts });
-  return new Resvg(svg, { fitTo: { mode: 'width', value: CARD_WIDTH } }).render().asPng();
+  return new Resvg(svg, { fitTo: { mode: 'width', value: width } }).render().asPng();
 }
 
 export const cardUrl = (article: Article) => `/cards/${article.id}.png`;
+// Smaller copy for list thumbnails.
+export const THUMB_WIDTH = 480;
+export const thumbUrl = (article: Article) => `/cards/thumbs/${article.id}.png`;
 export const cardAbsoluteUrl = (article: Article) => new URL(cardUrl(article), SITE.url).href;
+export const SITE_CARD_URL = new URL('/cards/site.png', SITE.url).href;

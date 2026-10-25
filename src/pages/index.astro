@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
 import { columnUrl, getArticles, getColumns } from '../utils/articles';
-import { CATEGORIES, COLUMN } from '../data/site';
+import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
 const articles = await getArticles();
 const column = (await getColumns())[0];
@@ -21,6 +21,7 @@ const counts = Object.fromEntries(
 
 <Base>
   <div class="wrap">
+    <h1 class="visually-hidden">{SITE.name}: what matters in data governance, and why</h1>
     <section class="hero" aria-label="Top stories">
       <div class="lead">{lead && <ArticleCard article={lead} variant="lead" />}</div>
       <div class="side">
