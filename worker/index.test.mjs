@@ -79,7 +79,7 @@ test('fetch relays only allowlisted feeds', async () => {
   }
 });
 
-test('dispatchWorkflow posts to the GitHub API with the token, and skips without one', async () => {
+test('dispatchWorkflow posts to the GitHub API with the token, and fails without one', async () => {
   const calls = [];
   const realFetch = globalThis.fetch;
   globalThis.fetch = async (url, init) => {
@@ -87,13 +87,28 @@ test('dispatchWorkflow posts to the GitHub API with the token, and skips without
     return new Response(null, { status: 204 });
   };
   try {
-    await dispatchWorkflow({});
+    await assert.rejects(dispatchWorkflow({}), /GITHUB_TOKEN/);
     assert.equal(calls.length, 0);
     await dispatchWorkflow({ GITHUB_TOKEN: 't0k' });
     assert.equal(calls.length, 1);
     assert.match(calls[0].url, /actions\/workflows\/ingest\.yml\/dispatches$/);
     assert.equal(calls[0].init.headers.Authorization, 'Bearer t0k');
     assert.deepEqual(JSON.parse(calls[0].init.body), { ref: 'claude/data-intelligence-portal-plan-v46ux0' });
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+});
+
+test('scheduled handler records the outcome in KV', async () => {
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async () => new Response('Bad credentials', { status: 401 });
+  const stored = {};
+  const env = { GITHUB_TOKEN: 'bad', SOURCES: { put: async (k, v) => { stored[k] = JSON.parse(v); } } };
+  const waits = [];
+  try {
+    await worker.scheduled({ cron: '17 */3 * * *' }, env, { waitUntil: (p) => waits.push(p) });
+    await Promise.all(waits);
+    assert.match(stored['cron:last'].outcome, /^error: workflow dispatch failed: 401/);
   } finally {
     globalThis.fetch = realFetch;
   }
