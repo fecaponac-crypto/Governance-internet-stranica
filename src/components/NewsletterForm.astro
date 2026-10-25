@@ -10,23 +10,23 @@ const { compact = false } = Astro.props;
   <p class="eyebrow">Weekly Briefing</p>
   <h2 id="nl-title">The week in data governance, in five minutes.</h2>
   <p class="lede">The most important developments, why they matter and who should act — every Friday. No noise.</p>
-  <form class="nl-form" data-nl-form>
+  <form class="nl-form" action={SITE.newsletterSubscribeUrl} method="post" target="_blank" data-nl-form>
     <label class="visually-hidden" for={compact ? 'nl-email-c' : 'nl-email'}>Email address</label>
     <input id={compact ? 'nl-email-c' : 'nl-email'} type="email" name="email" placeholder="you@company.com" required autocomplete="email" />
+    <input type="hidden" name="embed" value="1" />
     <button class="btn" type="submit">Subscribe</button>
   </form>
   <p class="note" data-nl-note role="status">
-    {SITE.preview ? 'Sign-up opens at launch.' : 'Free. Unsubscribe anytime.'} <a href="/privacy/">Privacy</a>
+    Free. Confirm by email, unsubscribe anytime, no tracking. <a href="/privacy/">Privacy</a>
   </p>
 </section>
 
 <script>
-  // Placeholder until a newsletter service is connected (phase 2 decision).
+  // The form opens Buttondown's confirmation page in a new tab; tell the reader what happens next.
   document.querySelectorAll<HTMLFormElement>('[data-nl-form]').forEach((form) => {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
+    form.addEventListener('submit', () => {
       const note = form.parentElement?.querySelector('[data-nl-note]');
-      if (note) note.textContent = 'Thanks! Sign-up opens at launch — we will not store your address yet.';
+      if (note) note.textContent = 'Almost done — check your inbox and click the confirmation link.';
     });
   });
 </script>

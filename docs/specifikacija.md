@@ -206,8 +206,8 @@ Okvirne skupine izvora:
 - [ ] dotjerati pragove i upute trijaže prema iskustvu iz pilota
 - [ ] `SITE.preview = false`, ukloniti probne članke (`sample: true`)
 - [ ] `robots.txt`: dopustiti indeksiranje + Sitemap
-- [ ] Privacy: pravni naziv voditelja obrade, servis za newsletter
-- [ ] odabrati i spojiti newsletter servis (obrazac za prijavu)
+- [ ] Privacy: pravni naziv voditelja obrade (servis za newsletter dodan)
+- [x] odabrati i spojiti newsletter servis (obrazac za prijavu) — Buttondown, 25. 10.
 - [ ] About: kratki opis urednika (po želji)
 - [ ] provjera žiga (EUIPO/USPTO)
 - [ ] prva objava na LinkedInu
@@ -234,7 +234,7 @@ Okvirne skupine izvora:
 - [x] E-mail editor@datagovernancesignal.com (Cloudflare Email Routing, prosljeđivanje na Gmail)
 - [ ] Provjera žiga (EUIPO/USPTO)
 - [ ] Dobavljač AI modela (faza 4)
-- [ ] Newsletter servis (prije lansiranja)
+- [x] Newsletter servis: Buttondown (`buttondown.com/datagovernancesignal`, double opt-in, bez praćenja)
 - [x] Statistika posjeta: Cloudflare Web Analytics (bez kolačića)
 - [x] Hosting: Cloudflare Pages (statična stranica, Astro)
 - [ ] Dopuna kataloga izvorima koje već pratiš (vidi „Što nedostaje” u katalogu)
