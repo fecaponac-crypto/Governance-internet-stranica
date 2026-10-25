@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-25T16:25:32Z** · sources checked: 72 · failed: 0 · new items this run: 6 · baseline items: 111
+Last run: **2026-10-25T18:18:02Z** · sources checked: 80 · failed: 1 · new items this run: 0 · baseline items: 137
 
 ## New items, last 48 hours (14)
 
@@ -30,7 +30,7 @@ Last run: **2026-10-25T16:25:32Z** · sources checked: 72 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **Google Cloud Blog — Data Analytics** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://cloudblog.withgoogle.com/products/data-analytics/rss/`
 
 ## Check manually (weekly)
 
