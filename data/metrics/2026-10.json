@@ -1,19 +1,19 @@
 {
  "month": "2026-10",
- "updated": "2026-10-25T08:04:48Z",
+ "updated": "2026-10-25T08:05:55Z",
  "portal": {
   "published_total": 6,
   "published_this_month": 6,
   "published_this_month_by_importance": {
    "4": 3,
-   "3": 2,
-   "2": 1
+   "2": 1,
+   "3": 2
   },
   "sample_articles": 8
  },
  "pipeline": {
   "items_collected": 6,
-  "runs": 8,
+  "runs": 9,
   "runs_with_failed_sources": 3,
   "triage_decisions": {
    "skipped": 5,
@@ -23,7 +23,10 @@
   "sources_active": 46,
   "sources_failing_now": 0
  },
- "editor": null,
+ "editor": {
+  "drafts_published": 6,
+  "drafts_rejected": 0
+ },
  "newsletter": null,
  "web": null
 }
