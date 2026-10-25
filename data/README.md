@@ -18,9 +18,12 @@ Only titles, links and a short excerpt (≤300 characters) are stored; the full 
 ## AI drafting (phase 4)
 
 `pipeline/draft.py` runs after collection when the `ANTHROPIC_API_KEY` repository secret is set:
-new items are scored in batches (Claude Haiku 5.5); items above the threshold (importance ≥ 3 for core
-topics, ≥ 4 for Data & AI) are fetched and drafted (Claude Opus 5.5), and each draft is opened as a pull
-request assigned to the editor. Merge = publish.
+new items are scored in batches (Claude Haiku 5.5); for items above the threshold (importance ≥ 3 for core
+topics, ≥ 4 for Data & AI) the article is fetched and, when it is secondary coverage, the original document
+it links to (web page or PDF) is found and fetched too. The draft is written from both (Claude Opus 5.5),
+every factual claim is checked against the sources (Claude Opus 5.5), and the draft is opened as a pull
+request assigned to the editor with the fact-check result on top (⚠️ in the title when claims are flagged).
+Merge = publish.
 
 | Path | What it is |
 |---|---|

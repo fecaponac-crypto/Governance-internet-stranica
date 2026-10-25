@@ -34,29 +34,52 @@ DRAFT = {
     "card_figure": "EUR 2M",
     "card_caption": "Fine for profiling without valid consent",
     "editor_note": "",
-    "source_name": "Example DPA",
-    "source_title": "Example Corp fined",
-    "source_is_primary": True,
+    "sources": [
+        {"ref": 1, "name": "Privacy Blog", "title": "Example Corp fined", "is_primary": False},
+        {"ref": 2, "name": "Example DPA", "title": "Decision 12/2026", "is_primary": True},
+    ],
     "related": [],
     "review_notes": "",
 }
 
 
+CHECK = {"claims": [
+    {"claim": "Fine of EUR 2 million", "verdict": "supported", "source": 2, "evidence": "fine of EUR 2 000 000"},
+    {"claim": "Company relied on invalid consent", "verdict": "partly", "source": 1, "evidence": "consent was not valid"},
+]}
+
+
 class FakeClient:
-    def __init__(self, scores):
+    def __init__(self, scores, primary_indices=(0,)):
         self.scores = scores
+        self.primary_indices = list(primary_indices)
         self.writer_calls = 0
-        self.messages = SimpleNamespace(create=self._score)
-        self.beta = SimpleNamespace(messages=SimpleNamespace(create=self._write))
+        self.check_calls = 0
+        self.messages = SimpleNamespace(create=self._small)
+        self.beta = SimpleNamespace(messages=SimpleNamespace(create=self._large))
 
-    def _score(self, **params):
+    def _small(self, **params):
         assert params["model"] == draft.SCORER_MODEL
-        return response({"items": self.scores}, draft.SCORER_MODEL)
+        props = params["output_config"]["format"]["schema"]["properties"]
+        if "items" in props:
+            return response({"items": self.scores}, draft.SCORER_MODEL)
+        payload = {"article_is_original": False, "primary_link_indices": self.primary_indices, "reason": "decision"}
+        return response(payload, draft.SCORER_MODEL)
 
-    def _write(self, **params):
+    def _large(self, **params):
         assert params["model"] == draft.WRITER_MODEL and params["fallbacks"] == "default"
+        if "claims" in params["output_config"]["format"]["schema"]["properties"]:
+            self.check_calls += 1
+            return response(CHECK, draft.WRITER_MODEL)
         self.writer_calls += 1
         return response(DRAFT, draft.WRITER_MODEL)
+
+
+def fake_fetch(url):
+    if url == "https://dpa.example.org/decision.pdf":
+        return {"url": url, "text": "decision text " * 200, "links": []}
+    return {"url": url, "text": "news text " * 200,
+            "links": [{"url": "https://dpa.example.org/decision.pdf", "text": "the decision"}]}
 
 
 def item(i, **kw):
@@ -85,7 +108,7 @@ class RunTest(unittest.TestCase):
             mock.patch.object(draft, "ARTICLES", self.articles),
             mock.patch.object(draft, "STATE_PATH", self.tmp / "state" / "ai.json"),
             mock.patch.object(draft, "REPORT_PATH", self.tmp / "reports" / "drafts.md"),
-            mock.patch.object(draft, "fetch_source", lambda url: (url, "source text " * 200)),
+            mock.patch.object(draft, "fetch_source", fake_fetch),
         ]
         for p in self.patches:
             p.start()
@@ -108,17 +131,21 @@ class RunTest(unittest.TestCase):
         ]
         client, summary = self.run_with(scores)
         self.assertEqual((summary["scored"], summary["duplicates"], summary["drafted"]), (2, 1, 1))
-        self.assertEqual(client.writer_calls, 1)
+        self.assertEqual((client.writer_calls, client.check_calls), (1, 1))
 
         path = self.articles / "regulator-fines-example-corp-eur-2-million-over-unlawful-profiling.md"
         front = yaml.safe_load(path.read_text().split("---")[1])
         self.assertEqual(front["categories"], ["privacy", "regulation"])  # de-duplicated
+        # Primary source first, with the URL of the fetched original document.
         self.assertEqual(front["sources"][0]["primary"], True)
+        self.assertEqual(front["sources"][0]["url"], "https://dpa.example.org/decision.pdf")
+        self.assertEqual(front["sources"][1]["url"], "https://example.org/0")
         self.assertEqual(front["card"]["figure"], "EUR 2M")
         self.assertEqual(str(front["date"]), "2026-10-20")
 
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
         self.assertEqual(state["processed"]["id0"]["decision"], "drafted")
+        self.assertEqual((state["processed"]["id0"]["primary_found"], state["processed"]["id0"]["flagged"]), (True, 1))
         self.assertEqual(state["processed"]["id1"]["decision"], "skipped")
         self.assertEqual(state["processed"]["id2"]["decision"], "duplicate")
         self.assertNotIn("id3", state["processed"])
@@ -158,3 +185,22 @@ class RulesTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CheckSummaryTest(unittest.TestCase):
+    def test_summary_lists_flagged_claims(self):
+        self.assertIn("all 3 claims", draft.check_summary({"claims": 3, "flagged": []}))
+        text = draft.check_summary({"claims": 2, "flagged": [CHECK["claims"][1]]})
+        self.assertIn("1 of 2 claims", text)
+        self.assertIn("Company relied on invalid consent", text)
+
+
+class ExtractLinksTest(unittest.TestCase):
+    def test_skips_social_and_short_links(self):
+        html = (
+            '<a href="/decisions/12.pdf">Read the decision</a><a href="https://x.com/dpa">X</a>'
+            '<a href="https://twitter.com/dpa">Follow us on Twitter</a><a href="#top">Back to top</a>'
+            '<a href="mailto:a@b.c">Email us</a>'
+        )
+        links = draft.extract_links(html, "https://dpa.example.org/news/fine")
+        self.assertEqual(links, [{"url": "https://dpa.example.org/decisions/12.pdf", "text": "Read the decision"}])
