@@ -125,7 +125,7 @@ test('the Monday cron starts the Monday workflow and records it under its own ke
   const env = { GITHUB_TOKEN: 't', SOURCES: { put: async (k, v) => { stored[k] = JSON.parse(v); } } };
   const waits = [];
   try {
-    await worker.scheduled({ cron: '47 5 * * 1' }, env, { waitUntil: (p) => waits.push(p) });
+    await worker.scheduled({ cron: '47 5 * * mon' }, env, { waitUntil: (p) => waits.push(p) });
     await Promise.all(waits);
     assert.match(calls[0], /workflows\/monday\.yml\/dispatches$/);
     assert.equal(stored['cron:last-monday'].outcome, 'dispatched');
@@ -140,4 +140,8 @@ test('every cron in wrangler.jsonc has a job', async () => {
   const config = await readFile(new URL('../wrangler.jsonc', import.meta.url), 'utf8');
   const crons = JSON.parse(config.match(/"crons":\s*(\[[^\]]*\])/)[1]);
   assert.deepEqual(crons.sort(), Object.keys(CRON_JOBS).sort());
+});
+
+test('weekday crons use names: Cloudflare counts 1 = Sunday', () => {
+  for (const cron of Object.keys(CRON_JOBS)) assert.doesNotMatch(cron.split(' ')[4], /\d/);
 });

@@ -76,7 +76,7 @@ const WORKFLOWS_URL = 'https://api.github.com/repos/fecaponac-crypto/Governance-
 // Cron expression (as in wrangler.jsonc) -> workflow it starts and the KV key for its outcome.
 export const CRON_JOBS = {
   '17 */3 * * *': { workflow: 'ingest.yml', key: 'cron:last' },
-  '47 5 * * 1': { workflow: 'monday.yml', key: 'cron:last-monday' },
+  '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday' },
 };
 const WORKFLOW_REF = 'claude/data-intelligence-portal-plan-v46ux0';
 
@@ -103,7 +103,8 @@ export async function dispatchWorkflow(env, workflow = 'ingest.yml') {
 
 export default {
   async scheduled(event, env, ctx) {
-    const job = CRON_JOBS[event.cron] ?? CRON_JOBS['17 */3 * * *'];
+    const key = Object.keys(CRON_JOBS).find((c) => c.toLowerCase() === String(event.cron).toLowerCase());
+    const job = CRON_JOBS[key] ?? CRON_JOBS['17 */3 * * *'];
     ctx.waitUntil(
       dispatchWorkflow(env, job.workflow).then(
         () => recordCron(env, event, job.key, 'dispatched'),
