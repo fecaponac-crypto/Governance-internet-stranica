@@ -8,6 +8,9 @@ whoShouldCare: ["DPO", "Legal & compliance", "CDO", "AI governance lead"]
 importance: 3
 type: "Announcement"
 region: "US"
+status:
+  stage: Alleged
+  detail: "Amicus brief supporting an objection in the bankruptcy case; no ruling yet"
 sources:
   - name: "EPIC — Electronic Privacy Information Center"
     title: "EPIC Files Amicus Brief Challenging Spirit Airlines' Bankruptcy Sale of Employee Data to Google"
