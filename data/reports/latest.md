@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-26T06:18:01Z** · sources checked: 80 · failed: 0 · new items this run: 0
+Last run: **2026-10-26T09:17:56Z** · sources checked: 80 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (15)
+## New items, last 48 hours (16)
 
 ### Medium priority sources
 
@@ -15,6 +15,7 @@ Last run: **2026-10-26T06:18:01Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | Computer Weekly — IT security | [Gartner: Winning in the edge](https://www.computerweekly.com/feature/Gartner-Winning-in-the-edge) |
 | 2026-10-26 | Data Engineering Weekly | [Data Engineering Weekly #293](https://www.dataengineeringweekly.com/p/data-engineering-weekly-293) |
 | 2026-10-23 | DataGalaxy | [DataGalaxy Appoints Steve Neat as Chief Revenue Officer to Accelerate AI Context Sales](https://www.datagalaxy.com/en/blog/datagalaxy-cro-steve-neat/) |
 | 2026-10-23 | LfDI Baden-Württemberg (Germany) | [Kaffee und Informationsfreiheit (2) – Infofreiheit in der digitalen Welt: IF geht mit Erklärvideos zur Schule](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-2-infofreiheit-in-der-digitalen-welt/) |
@@ -31,7 +32,7 @@ Last run: **2026-10-26T06:18:01Z** · sources checked: 80 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 

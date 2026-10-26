@@ -71,6 +71,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ab4091a7e20510a1": {
+   "at": "2026-10-26T09:18:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vague edge-computing and agentic AI infrastructure piece from a low-reliability source with no concrete data governance angle in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "bfb10782e1b4f28d": {
    "at": "2026-10-26T03:18:21Z",
    "categories": [],
@@ -169,8 +178,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 9,
-   "usd": 0.215
+   "calls": 10,
+   "usd": 0.2153
   }
  }
 }
