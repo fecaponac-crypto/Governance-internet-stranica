@@ -12,9 +12,10 @@ const essay = (await getOpinions())[0];
 const newest = articles[0]?.data.date.getTime() ?? 0;
 const recent = articles.filter((a) => newest - a.data.date.getTime() <= 7 * 864e5);
 const lead = [...recent].sort((a, b) => b.data.importance - a.data.importance)[0] ?? articles[0];
-const rest = articles.filter((a) => a !== lead);
-const top = rest.slice(0, 2);
-const latest = rest.slice(2);
+// Latest: every other article, newest first. The top right holds our own writing, so no
+// news item appears twice and the newest story is always first under Latest (or the lead).
+const latest = articles.filter((a) => a !== lead);
+const top = column || essay ? [] : latest.slice(0, 2);
 const counts = Object.fromEntries(
   CATEGORIES.map((c) => [c.id, articles.filter((a) => a.data.categories.includes(c.id)).length]),
 );
@@ -26,6 +27,26 @@ const counts = Object.fromEntries(
     <section class="hero" aria-label="Top stories">
       <div class="lead">{lead && <ArticleCard article={lead} variant="lead" />}</div>
       <div class="side">
+        {
+          column && (
+            <section class="column" aria-labelledby="column-title">
+              <p class="kicker" id="column-title">{COLUMN.name}</p>
+              <a href={columnUrl(column)}>{column.data.title}</a>
+              <p>{column.data.dek}</p>
+              <p class="by">By {column.data.author} · <a href="/predictions/">Prediction tracker</a></p>
+            </section>
+          )
+        }
+        {
+          essay && (
+            <section class="column" aria-labelledby="opinion-title">
+              <p class="kicker" id="opinion-title">Editor's Opinion</p>
+              <a href={opinionUrl(essay)}>{essay.data.title}</a>
+              <p>{essay.data.dek}</p>
+              <p class="by">By {essay.data.author}</p>
+            </section>
+          )
+        }
         {top.map((a) => <ArticleCard article={a} variant="stack" />)}
       </div>
     </section>
@@ -40,26 +61,6 @@ const counts = Object.fromEntries(
       </section>
 
       <aside class="rail">
-        {
-          column && (
-            <section class="column" aria-labelledby="column-title">
-              <div class="section-title"><h2 id="column-title">{COLUMN.name}</h2></div>
-              <a href={columnUrl(column)}>{column.data.title}</a>
-              <p>{column.data.dek}</p>
-              <p class="by">By {column.data.author} · <a href="/predictions/">Prediction tracker</a></p>
-            </section>
-          )
-        }
-        {
-          essay && (
-            <section class="column" aria-labelledby="opinion-title">
-              <div class="section-title"><h2 id="opinion-title">Editor's Opinion</h2></div>
-              <a href={opinionUrl(essay)}>{essay.data.title}</a>
-              <p>{essay.data.dek}</p>
-              <p class="by">By {essay.data.author}</p>
-            </section>
-          )
-        }
         <NewsletterForm compact />
         <section class="topics" aria-labelledby="topics-title">
           <div class="section-title"><h2 id="topics-title">Topics</h2></div>
@@ -160,7 +161,20 @@ const counts = Object.fromEntries(
     }
   }
   .column {
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .column:last-child {
+    border-bottom: none;
+  }
+  .kicker {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--signal);
+    margin: 0 0 0.5rem !important;
   }
   .column > a {
     font-family: var(--serif);
