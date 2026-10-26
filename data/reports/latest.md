@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-26T18:17:57Z** · sources checked: 80 · failed: 1 · new items this run: 7
+Last run: **2026-10-26T20:31:00Z** · sources checked: 80 · failed: 0 · new items this run: 0
 
 ## New items, last 48 hours (50)
 
@@ -71,7 +71,7 @@ Last run: **2026-10-26T18:17:57Z** · sources checked: 80 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 

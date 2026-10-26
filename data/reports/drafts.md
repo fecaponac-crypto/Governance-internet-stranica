@@ -1,21 +1,21 @@
 # Drafts report
 
-Last run: **2026-10-26T18:18:09Z** · candidates 7 · scored 7 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-10-26T20:31:18Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$0.58** of $12 budget (23 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Google makes LookML metric definitions and lineage generally available in Knowledge Catalog** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/12
+_No drafts this run._
 
 ## Recently skipped by triage
 
-- (1) Generic AI newsletter piece about Anthropic's IPO prospectus; no concrete data governance angle.
 - (2) Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.
 - (2) Global mapping of legal issues from AI hallucinations in courts, a research overview with governance relevance.
-- (1) Vendor engineering experiment on context cost and runtime; no governance or data management consequence.
-- (1) Vendor product marketing for AI Studio; not a genuine launch with governance consequence.
+- (1) Generic AI newsletter piece about Anthropic's IPO prospectus; no concrete data governance angle.
 - (2) EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.
+- (1) Vendor product marketing for AI Studio; not a genuine launch with governance consequence.
+- (1) Vendor engineering experiment on context cost and runtime; no governance or data management consequence.
 - (1) Vendor customer case study on compute costs; marketing content.
 - (1) Vendor customer story about an AI agent writing dbt models; practice case without regulatory or governance substance, closer to marketing.
 - (1) Vendor case study on using dbt tests; marketing content.
