@@ -13,7 +13,7 @@ status:
   stage: "Published"
   detail: "LiteLLM says it will share process changes the following week"
 whatToCheck:
-  - "Check whether litellm 1.107.0 was installed on any internet-connected machine and, if so, rotate every password and access key that machine could reach."
+  - "Check whether litellm 1.107.0 was installed on any internet-connected machine and, if so, change every password and access key, as LiteLLM advises."
   - "Confirm that secrets known to have been exposed, even briefly, were actually revoked rather than just deleted from the repository."
   - "Review whether AI agent tools are authenticated with scoped service accounts instead of personal owner-level tokens."
 sources:
@@ -32,8 +32,8 @@ card:
 
 LiteLLM, an open-source tool used by AI developers, has published a root-cause analysis of the compromised **litellm 1.107.0** release of 21 October. A configuration file containing the master key to its internal Agent Platform was committed to a public repository on 27 May. The commit was overwritten, but **the key was never revoked**.
 
-On 10 October an attacker used the key to retrieve the GitHub CLI token of an organisation owner, which was neither scoped down nor tied to a service account. Using CI workflows, the attacker exfiltrated two maintainers' tokens. Release approval had been relaxed that week to allow any two engineers to approve, which the stolen tokens satisfied. The malicious artefacts were live for about two hours.
+On 10 October an attacker used the key to retrieve the GitHub CLI token of an organisation owner, which was neither scoped down nor tied to a service account. Using CI workflows, the attacker exfiltrated two maintainers' tokens. Earlier that week, the release process had been relaxed to let any two engineers trigger and approve a release: the attacker used one stolen token to trigger the malicious release and the other to approve it. The malicious artefacts were live for about two hours.
 
-According to Wiz, cited by The Record, the package was downloaded about 49,000 times. LiteLLM says anyone who installed it should rotate every credential the machine could reach.
+According to Wiz, cited by The Record, the package was downloaded about 49,000 times. LiteLLM advises anyone who installed version 1.107.0 on an internet-connected computer to change every password and access key.
 
 *Editor's note: This article relies on LiteLLM's own incident analysis and a secondary news report; download figures come from Wiz as reported by The Record.*
