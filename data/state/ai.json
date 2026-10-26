@@ -71,6 +71,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "bfb10782e1b4f28d": {
+   "at": "2026-10-26T03:18:21Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic newsletter issue with no specific governance story in the excerpt; cannot be judged relevant from title and excerpt alone.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c12c7ae3b066a87d": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [
@@ -160,8 +169,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 7,
-   "usd": 0.0812
+   "calls": 8,
+   "usd": 0.0815
   }
  }
 }

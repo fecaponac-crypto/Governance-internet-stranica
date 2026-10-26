@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-10-26T00:18:10Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-26T03:18:21Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.08** of $12 budget (7 calls)
+AI spend this month: **$0.08** of $12 budget (8 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic newsletter issue with no specific governance story in the excerpt; cannot be judged relevant from title and excerpt alone.
 - (1) Executive appointment (hiring news) at a governance vendor; not relevant under the rules.
 - (2) Security threat analysis about AI helping attackers reach OT systems; it has a security angle but the excerpt is general commentary rather than a specific governance development, so it is borderline and not included.
 - (1) Vendor event keynote coverage with generic commentary; no specific regulation, launch or research finding is reported in the excerpt.
