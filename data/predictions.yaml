@@ -17,4 +17,80 @@
 #   evidence:    {title, url} for the outcome
 #   note:        optional, shown with the outcome
 #   categories:  optional category ids
-[]
+- id: 2026-10-26-1
+  claim: The CMA will issue a final decision designating Microsoft with strategic market status in its business software ecosystem by 28 February 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agent incidents become a compliance question'
+    url: https://datagovernancesignal.com/monday-signal/2026-10-26/
+  made: &id001 2026-10-26
+  due: 2027-02-28
+  confidence: 85
+  status: open
+- id: 2026-10-26-2
+  claim: Meta will publicly announce an appeal or file a post-trial challenge to New Mexico's $25 billion penalty by 31 January 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agent incidents become a compliance question'
+    url: https://datagovernancesignal.com/monday-signal/2026-10-26/
+  made: *id001
+  due: 2027-01-31
+  confidence: 80
+  status: open
+- id: 2026-10-26-3
+  claim: The European Commission or AI Office will publicly confirm a further formal enforcement step against a general-purpose AI model provider (a new information request, an evaluation or the opening of proceedings) by 31 March 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agent incidents become a compliance question'
+    url: https://datagovernancesignal.com/monday-signal/2026-10-26/
+  made: *id001
+  due: 2027-03-31
+  confidence: 45
+  status: open
+- id: 2026-10-26-4
+  claim: METR will publish its first risk analysis produced under its embedded, employee-like arrangement with Anthropic by 30 April 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agent incidents become a compliance question'
+    url: https://datagovernancesignal.com/monday-signal/2026-10-26/
+  made: *id001
+  due: 2027-04-30
+  confidence: 55
+  status: open
+- id: 2026-10-26-5
+  claim: The CMA will make its final decision on whether to designate Microsoft with strategic market status by the February 2027 statutory deadline.
+  by: Competition and Markets Authority
+  role: UK competition regulator
+  quote: The CMA’s findings are provisional and subject to consultation before a final decision on designation is made by the February 2027 statutory deadline.
+  source:
+    title: CMA takes first steps to ensure choice in business software
+    url: https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software
+  made: *id001
+  due: 2027-02-28
+  status: open
+- id: 2026-10-26-6
+  claim: The CMA will publish a further update on its cloud services engagement with AWS and Microsoft in spring 2027.
+  by: Competition and Markets Authority
+  role: UK competition regulator
+  quote: Today’s update can be found on the decision page and the CMA will publish a further update in Spring 2027.
+  source:
+    title: CMA takes first steps to ensure choice in business software
+    url: https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software
+  made: *id001
+  due: 2027-06-20
+  status: open
+- id: 2026-10-26-7
+  claim: METR will publish its analysis of Anthropic's risk levels, incidents or practices.
+  by: Anthropic
+  role: AI developer
+  quote: METR will publish its analysis of our risk levels, incidents, or practices.
+  source:
+    title: An update on independent evaluators
+    url: https://www.anthropic.com/news/an-update-on-independent-evaluators
+  made: *id001
+  due: 2027-06-30
+  status: open
