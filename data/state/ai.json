@@ -47,6 +47,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1a4f674544dba8a9": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "235df9b1fe377349": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -142,6 +153,18 @@
    "importance": 1,
    "reason": "Advocacy testimony on edtech procurement; policy lobbying rather than a regulation, enforcement or decision, and the angle is mainly student privacy advocacy.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6710c577cbb051eb": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Global mapping of legal issues from AI hallucinations in courts, a research overview with governance relevance.",
+   "relevant": true,
    "same_story_as": null
   },
   "680a1bdeb1056a7b": {
@@ -271,6 +294,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a3e5e3993999079e": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic AI newsletter piece about Anthropic's IPO prospectus; no concrete data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ab4091a7e20510a1": {
    "at": "2026-10-26T09:18:09Z",
    "categories": [],
@@ -278,6 +310,34 @@
    "importance": 1,
    "reason": "Vague edge-computing and agentic AI infrastructure piece from a low-reliability source with no concrete data governance angle in the excerpt.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "b66f2264c3976205": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [
+    "metadata"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "google-makes-lookml-metric-definitions-and-lineage-generally-available",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/12",
+   "primary_found": true,
+   "reason": "GA of LookML semantic indexing in Knowledge Catalog is a concrete product launch relevant to semantic context for AI.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "bcc202e5ff2584f7": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.",
+   "relevant": true,
    "same_story_as": null
   },
   "beb6c472a0ad53d7": {
@@ -387,6 +447,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d8d9895cca1b8d12": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product marketing for AI Studio; not a genuine launch with governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d9da7553b89f69a8": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [
@@ -440,6 +509,15 @@
    "primary_found": false,
    "reason": "Reports an AI model accessing protected government election data without authorisation, a concrete access governance and AI oversight incident.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "e6aa966aa009d0d7": {
+   "at": "2026-10-26T18:18:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor engineering experiment on context cost and runtime; no governance or data management consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "e90ca542343c425e": {
@@ -517,8 +595,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 20,
-   "usd": 0.4962
+   "calls": 23,
+   "usd": 0.5782
   }
  }
 }

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-26T15:17:54Z** · sources checked: 80 · failed: 1 · new items this run: 30
+Last run: **2026-10-26T18:17:57Z** · sources checked: 80 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (43)
+## New items, last 48 hours (50)
 
 ### High priority sources
 
@@ -14,10 +14,12 @@ Last run: **2026-10-26T15:17:54Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | Future of Privacy Forum | [AI Hallucination Goes to Court: A Global Mapping of Emerging Legal Issues](https://fpf.org/blog/ai-hallucination-goes-to-court-a-global-mapping-of-emerging-legal-issues/) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence OpenAI Security Testing Exposes New Challenges in Monitoring AI Agents](https://www.cdomagazine.tech/aiml/openai-security-testing-exposes-new-challenges-in-monitoring-ai-agents) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence Anthropic’s Claude Accessed Georgia Election Data Without Authorization](https://www.cdomagazine.tech/aiml/anthropics-claude-accessed-georgia-election-data-without-authorization) |
 | 2026-10-26 | CDO Magazine | [US Federal News Bureau NOAA Cloud Migration Raises New Challenges for Federal Data Management](https://www.cdomagazine.tech/us-federal-news-bureau/noaa-cloud-migration-raises-new-challenges-for-federal-data-management) |
 | 2026-10-26 | Ataccama Blog | [What Is a Data Product Manager in the Age of AI?](https://www.ataccama.com/blog/data-product-manager) |
+| 2026-10-26 | European Data Protection Supervisor (EDPS) | [Blog post: Making AI visible: Fourth meeting of the AI Act Correspondents Network](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-making-ai-visible-fourth-meeting-ai-act-correspondents-network) |
 | 2026-10-26 | CDO Magazine | [Leadership Moves W. R. Berkley Appoints Kalyani Sekar Senior Vice President of AI & Technology](https://www.cdomagazine.tech/leadership-moves/w-r-berkley-appoints-kalyani-sekar-senior-vice-president-of-ai-technology) |
 | 2026-10-24 | CDO Magazine | [Community High Stakes, Higher Speed: Trust and AI Governance Lead CDO Magazine’s New York Leadership Summit](https://www.cdomagazine.tech/community/high-stakes-higher-speed-trust-and-ai-governance-lead-cdo-magazines-new-york-leadership-summit) |
 | 2026-10-22 | Collibra Blog | [Collibra + Trail ML: Bringing AI governance and automation together](https://www.collibra.com/blog/collibra-trail-ml-bringing-ai-governance-and-automation-together) |
@@ -27,6 +29,11 @@ Last run: **2026-10-26T15:17:54Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | MIT Technology Review | [Will the real Anthropic please stand up](https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/) |
+| 2026-10-26 | DataHub Blog (open source metadata platform) | [Data Lineage for AI: What Changes When Agents Read Your Lineage Graph](https://datahub.com/blog/data-lineage-for-ai/) |
+| 2026-10-26 | dbt Labs Blog | [Showing our work: a controlled experiment in context engineering](https://www.getdbt.com/blog/context-engineering-experiment-dbt-mcp) |
+| 2026-10-26 | Google Cloud Blog — Data Analytics | [Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA](https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/) |
+| 2026-10-26 | Precisely Blog | [Precisely AI Studio: try ready-made apps, agents, and skills on real data](https://www.precisely.com/blog/engineering/precisely-ai-studio-try-ready-made-apps-agents-and-skills-on-real-data/) |
 | 2026-10-26 | Autorité de protection des données (Belgium) | [DPA/DPO Day 2027 : appel à contributions des DPO](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/26/dpadpo-day-2027-appel-a-contributions-des-dpo) |
 | 2026-10-26 | dbt Labs Blog | [From prompt to PR: how Careem’s AI writes and validates dbt models before a human ever sees them](https://www.getdbt.com/blog/careem-ai-dbt-model-testing-validation) |
 | 2026-10-26 | dbt Labs Blog | [How DocuSign cut analytics engineering time in half by pairing Claude Code with dbt v2, dbt MCP, and agent skills](https://www.getdbt.com/blog/docusign-claude-code-dbt-v2-mcp-agent-skills) |
@@ -64,7 +71,7 @@ Last run: **2026-10-26T15:17:54Z** · sources checked: 80 · failed: 1 · new it
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 
