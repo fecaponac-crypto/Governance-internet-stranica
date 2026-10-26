@@ -119,6 +119,7 @@ class MondayTest(unittest.TestCase):
 
         preds = yaml.safe_load((self.tmp / "predictions.yaml").read_text())
         self.assertTrue((self.tmp / "predictions.yaml").read_text().startswith("# header\n"))
+        self.assertNotIn("&id", (self.tmp / "predictions.yaml").read_text())
         new = {p["id"]: p for p in preds[2:]}
         self.assertEqual(sorted(new), ["2026-11-02-1", "2026-11-02-2"])
         ours, theirs = new["2026-11-02-1"], new["2026-11-02-2"]

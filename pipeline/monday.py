@@ -263,8 +263,15 @@ def new_predictions(monday: date, col: dict, others: list[dict]) -> list[dict]:
     return [{"id": p.pop("id"), **p} for p in out]
 
 
+class PlainDumper(yaml.SafeDumper):
+    """Writes repeated values in full (no &anchors), so the file stays easy to edit by hand."""
+
+    def ignore_aliases(self, data):
+        return True
+
+
 def predictions_yaml(header: str, predictions: list[dict]) -> str:
-    return header + yaml.safe_dump(predictions, sort_keys=False, allow_unicode=True, width=1000)
+    return header + yaml.dump(predictions, Dumper=PlainDumper, sort_keys=False, allow_unicode=True, width=1000)
 
 
 def newsletter_text(monday: date, col: dict, articles: list[dict], watch: list[dict], predictions: list[dict]) -> str:
