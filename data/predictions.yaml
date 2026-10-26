@@ -17,17 +17,6 @@
 #   evidence:    {title, url} for the outcome
 #   note:        optional, shown with the outcome
 #   categories:  optional category ids
-- id: 2026-10-26-1
-  claim: The CMA will issue a final decision designating Microsoft with strategic market status in its business software ecosystem by 28 February 2027.
-  by: Data Governance Signal
-  ours: true
-  source:
-    title: 'The Monday Signal: Agent incidents become a compliance question'
-    url: https://datagovernancesignal.com/monday-signal/2026-10-26/
-  made: &id001 2026-10-26
-  due: 2027-02-28
-  confidence: 85
-  status: open
 - id: 2026-10-26-2
   claim: Meta will publicly announce an appeal or file a post-trial challenge to New Mexico's $25 billion penalty by 31 January 2027.
   by: Data Governance Signal
@@ -35,7 +24,7 @@
   source:
     title: 'The Monday Signal: Agent incidents become a compliance question'
     url: https://datagovernancesignal.com/monday-signal/2026-10-26/
-  made: *id001
+  made: 2026-10-26
   due: 2027-01-31
   confidence: 80
   status: open
@@ -46,7 +35,7 @@
   source:
     title: 'The Monday Signal: Agent incidents become a compliance question'
     url: https://datagovernancesignal.com/monday-signal/2026-10-26/
-  made: *id001
+  made: 2026-10-26
   due: 2027-03-31
   confidence: 45
   status: open
@@ -57,7 +46,7 @@
   source:
     title: 'The Monday Signal: Agent incidents become a compliance question'
     url: https://datagovernancesignal.com/monday-signal/2026-10-26/
-  made: *id001
+  made: 2026-10-26
   due: 2027-04-30
   confidence: 55
   status: open
@@ -69,7 +58,7 @@
   source:
     title: CMA takes first steps to ensure choice in business software
     url: https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software
-  made: *id001
+  made: 2026-10-26
   due: 2027-02-28
   status: open
 - id: 2026-10-26-6
@@ -80,7 +69,7 @@
   source:
     title: CMA takes first steps to ensure choice in business software
     url: https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software
-  made: *id001
+  made: 2026-10-26
   due: 2027-06-20
   status: open
 - id: 2026-10-26-7
@@ -91,6 +80,6 @@
   source:
     title: An update on independent evaluators
     url: https://www.anthropic.com/news/an-update-on-independent-evaluators
-  made: *id001
+  made: 2026-10-26
   due: 2027-06-30
   status: open
