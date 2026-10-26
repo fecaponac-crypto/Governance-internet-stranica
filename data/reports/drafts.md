@@ -1,6 +1,6 @@
 # Drafts report
 
-Last run: **2026-10-26T04:51:31Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-26T06:18:32Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$0.08** of $12 budget (8 calls)
 
