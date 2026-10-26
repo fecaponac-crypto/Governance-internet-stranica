@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-10-26T09:18:09Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-26T12:18:19Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.22** of $12 budget (10 calls)
+AI spend this month: **$0.39** of $12 budget (14 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 2 claims to check **LiteLLM traces poisoned release to a leaked master key that was never revoked** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/9
 
 ## Recently skipped by triage
 
+- (1) Executive appointment at an insurer; hiring news without a governance angle.
 - (1) Vague edge-computing and agentic AI infrastructure piece from a low-reliability source with no concrete data governance angle in the excerpt.
 - (1) Generic newsletter issue with no specific governance story in the excerpt; cannot be judged relevant from title and excerpt alone.
 - (1) Executive appointment (hiring news) at a governance vendor; not relevant under the rules.

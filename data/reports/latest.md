@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-10-26T09:17:56Z** · sources checked: 80 · failed: 1 · new items this run: 1
+Last run: **2026-10-26T12:18:00Z** · sources checked: 80 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (16)
+## New items, last 48 hours (18)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | CDO Magazine | [Leadership Moves W. R. Berkley Appoints Kalyani Sekar Senior Vice President of AI & Technology](https://www.cdomagazine.tech/leadership-moves/w-r-berkley-appoints-kalyani-sekar-senior-vice-president-of-ai-technology) |
 | 2026-10-24 | CDO Magazine | [Community High Stakes, Higher Speed: Trust and AI Governance Lead CDO Magazine’s New York Leadership Summit](https://www.cdomagazine.tech/community/high-stakes-higher-speed-trust-and-ai-governance-lead-cdo-magazines-new-york-leadership-summit) |
 | 2026-09-29 | Microsoft Security Blog (incl. Purview) | [​​Beyond source code: A path to the keys to the kingdom](https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/) |
 
@@ -15,6 +16,7 @@ Last run: **2026-10-26T09:17:56Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | The Record (Recorded Future News) | [Popular AI tool LiteLLM says unrevoked key allowed hackers to target users](https://therecord.media/litellm-hackers-ai-malware) |
 | 2026-10-26 | Computer Weekly — IT security | [Gartner: Winning in the edge](https://www.computerweekly.com/feature/Gartner-Winning-in-the-edge) |
 | 2026-10-26 | Data Engineering Weekly | [Data Engineering Weekly #293](https://www.dataengineeringweekly.com/p/data-engineering-weekly-293) |
 | 2026-10-23 | DataGalaxy | [DataGalaxy Appoints Steve Neat as Chief Revenue Officer to Accelerate AI Context Sales](https://www.datagalaxy.com/en/blog/datagalaxy-cro-steve-neat/) |
@@ -32,7 +34,7 @@ Last run: **2026-10-26T09:17:56Z** · sources checked: 80 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 

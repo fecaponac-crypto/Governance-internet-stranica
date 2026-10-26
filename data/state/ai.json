@@ -1,5 +1,14 @@
 {
  "processed": {
+  "06b0502ed13c1da5": {
+   "at": "2026-10-26T12:18:19Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment at an insurer; hiring news without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "07396a2fd0118a83": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -47,6 +56,23 @@
    "importance": 1,
    "reason": "Advocacy testimony on edtech procurement; policy lobbying rather than a regulation, enforcement or decision, and the angle is mainly student privacy advocacy.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "680a1bdeb1056a7b": {
+   "at": "2026-10-26T12:18:19Z",
+   "categories": [
+    "security",
+    "ai-industry"
+   ],
+   "claims": 21,
+   "decision": "drafted",
+   "draft": "litellm-traces-poisoned-release-to-a-leaked-master-key-that-was-never",
+   "flagged": 2,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/9",
+   "primary_found": true,
+   "reason": "Security incident involving an open-source AI developer tool; exposed credentials and supply-chain attack have practical implications for access governance and key management.",
+   "relevant": true,
    "same_story_as": null
   },
   "7b541a87643652cd": {
@@ -178,8 +204,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 10,
-   "usd": 0.2153
+   "calls": 14,
+   "usd": 0.3878
   }
  }
 }
