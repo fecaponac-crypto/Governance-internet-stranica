@@ -30,6 +30,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0c2a22785276cbd6": {
+   "at": "2026-10-26T21:18:08Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "PHP patching rates are a general IT security story without a data governance, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "145d9618b9cb72f8": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -73,6 +82,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor case study on using dbt tests; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "2deaf08f90c7f7f4": {
+   "at": "2026-10-26T21:18:08Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/community piece about executive discussion with no concrete governance consequence; generic thought leadership.",
    "relevant": false,
    "same_story_as": null
   },
@@ -595,8 +613,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 23,
-   "usd": 0.5782
+   "calls": 24,
+   "usd": 0.5786
   }
  }
 }

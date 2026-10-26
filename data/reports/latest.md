@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-26T20:31:00Z** · sources checked: 80 · failed: 0 · new items this run: 0
+Last run: **2026-10-26T21:17:56Z** · sources checked: 80 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (50)
+## New items, last 48 hours (52)
 
 ### High priority sources
 
@@ -14,6 +14,7 @@ Last run: **2026-10-26T20:31:00Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
 | 2026-10-26 | Future of Privacy Forum | [AI Hallucination Goes to Court: A Global Mapping of Emerging Legal Issues](https://fpf.org/blog/ai-hallucination-goes-to-court-a-global-mapping-of-emerging-legal-issues/) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence OpenAI Security Testing Exposes New Challenges in Monitoring AI Agents](https://www.cdomagazine.tech/aiml/openai-security-testing-exposes-new-challenges-in-monitoring-ai-agents) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence Anthropic’s Claude Accessed Georgia Election Data Without Authorization](https://www.cdomagazine.tech/aiml/anthropics-claude-accessed-georgia-election-data-without-authorization) |
@@ -32,6 +33,7 @@ Last run: **2026-10-26T20:31:00Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | MIT Technology Review | [Will the real Anthropic please stand up](https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/) |
 | 2026-10-26 | DataHub Blog (open source metadata platform) | [Data Lineage for AI: What Changes When Agents Read Your Lineage Graph](https://datahub.com/blog/data-lineage-for-ai/) |
 | 2026-10-26 | dbt Labs Blog | [Showing our work: a controlled experiment in context engineering](https://www.getdbt.com/blog/context-engineering-experiment-dbt-mcp) |
+| 2026-10-26 | Computer Weekly — IT security | [EU makes progress towards PHP patching, UK lags behind](https://www.computerweekly.com/news/366652698/EU-makes-progress-towards-PHP-patching-UK-lags-behind) |
 | 2026-10-26 | Google Cloud Blog — Data Analytics | [Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA](https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/) |
 | 2026-10-26 | Precisely Blog | [Precisely AI Studio: try ready-made apps, agents, and skills on real data](https://www.precisely.com/blog/engineering/precisely-ai-studio-try-ready-made-apps-agents-and-skills-on-real-data/) |
 | 2026-10-26 | Autorité de protection des données (Belgium) | [DPA/DPO Day 2027 : appel à contributions des DPO](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/26/dpadpo-day-2027-appel-a-contributions-des-dpo) |
