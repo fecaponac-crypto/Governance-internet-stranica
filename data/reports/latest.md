@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-26T12:18:00Z** · sources checked: 80 · failed: 0 · new items this run: 2
+Last run: **2026-10-26T13:08:08Z** · sources checked: 80 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (18)
 
@@ -34,7 +34,7 @@ Last run: **2026-10-26T12:18:00Z** · sources checked: 80 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 

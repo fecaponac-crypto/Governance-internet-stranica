@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-10-26T12:18:19Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-10-26T13:08:24Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$0.39** of $12 budget (14 calls)
 
 ## This run
 
-- ⚠️ 2 claims to check **LiteLLM traces poisoned release to a leaked master key that was never revoked** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/9
+_No drafts this run._
 
 ## Recently skipped by triage
 
