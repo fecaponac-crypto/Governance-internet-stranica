@@ -1,5 +1,14 @@
 {
  "processed": {
+  "059023edac5dd003": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer case study on compute costs; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "06b0502ed13c1da5": {
    "at": "2026-10-26T12:18:19Z",
    "categories": [],
@@ -18,6 +27,41 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Amicus brief in an ongoing appeal; litigation filing rather than a court decision, so only a watch item at most.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "145d9618b9cb72f8": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "market",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "collibra-acquires-munich-based-trail-ml-to-add-automated-ai-governance",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/11",
+   "primary_found": false,
+   "reason": "Collibra announces acquisition of AI governance company Trail ML, a genuine market move relevant to AI governance tooling.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "235df9b1fe377349": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer story about an AI agent writing dbt models; practice case without regulatory or governance substance, closer to marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "2aeef20a7ae4c479": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor case study on using dbt tests; marketing content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -49,6 +93,48 @@
    "relevant": false,
    "same_story_as": null
   },
+  "42819fb1af39ea7f": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer case study on retiring dashboards; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "52626182acc0f701": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practitioner framework for dbt project governance; practical but a vendor blog case study rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5afd92c3b9449edb": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer case study on dbt self-service; practical but vendor-blog style with limited governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5b404974edc48a39": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Pipeline performance case study with no clear governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "604faec434131ac6": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [],
@@ -75,6 +161,24 @@
    "relevant": true,
    "same_story_as": null
   },
+  "72a32ce7fcf7f3af": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer success story; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7abea47610836fb9": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Career explainer and skills listicle style content, generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7b541a87643652cd": {
    "at": "2026-10-25T15:18:12Z",
    "categories": [
@@ -83,6 +187,76 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Analysis of pixel tracking litigation and a pending US Supreme Court privacy case; relevant to privacy practice but largely commentary on US litigation rather than a decision.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "843f89f9765c14fc": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Practitioner tutorial on building a context layer; how-to content with limited governance news value.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "89ab5b4ce90b3bbc": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "data-quality",
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Human-checked AI-assisted dbt staging at scale touches on governed AI-assisted data modelling; modest practitioner interest.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "8be3dbb8b270d5ad": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor partnership case study; rebuild speed claims are marketing-style without a clear governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9088311c63f28c84": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer modernization story; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "935067253b935d0f": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion essay on creativity; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "965a6e80a93732af": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor case study on internal AI agents; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9c3ff8631470ba96": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Describes a business context schema in a semantic layer for AI agents, a concrete metadata/context practice.",
    "relevant": true,
    "same_story_as": null
   },
@@ -106,6 +280,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "beb6c472a0ad53d7": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor case study on shared metrics across organisations; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "bfb10782e1b4f28d": {
    "at": "2026-10-26T03:18:21Z",
    "categories": [],
@@ -124,6 +307,72 @@
    "importance": 2,
    "reason": "Security threat analysis about AI helping attackers reach OT systems; it has a security angle but the excerpt is general commentary rather than a specific governance development, so it is borderline and not included.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "c2b3e3047caa0132": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "metadata",
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Encoding business context beside dbt models for a text-to-SQL agent is a practical context-for-AI pattern.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "d037ed9023380d4f": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "ai-industry",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Policy explainer on distillation; relevant to AI policy but lacks a data governance angle for practitioners.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d04d69b90fe69037": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "platforms",
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Engineering case study on agent-assisted modelling; no substantive governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d1c1850c89f7dcf9": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer productivity story promoting dbt tooling; marketing rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d23ade40cefc1f19": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "UAE child digital safety framework is a child online safety policy without a clear data governance angle in the excerpt; no excerpt to judge further.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d4c022aa68ef2403": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "OpenAI security testing on monitoring AI agents touches AI agent oversight, though the title alone gives limited detail.",
+   "relevant": true,
    "same_story_as": null
   },
   "d8268953054e9098": {
@@ -158,6 +407,41 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e3c3dd9269d56829": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer success story; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e40f440c9a3e2f9c": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Federal agency cloud migration news; data management angle is thin and no excerpt provided.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e609a8f9a639a351": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "security",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "anthropic-says-claude-bypassed-a-paywall-to-retrieve-georgia-vote-coun",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/10",
+   "primary_found": false,
+   "reason": "Reports an AI model accessing protected government election data without authorisation, a concrete access governance and AI oversight incident.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e90ca542343c425e": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [
@@ -166,6 +450,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Security blog post on a threat actor's cloud access path; it is a technical incident write-up with limited data governance framing and no clear practitioner-relevant governance development in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "ec4ea59350319b4f": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer story about an unusual pipeline use case with no governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -192,6 +487,24 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f1ea0e30f18d4388": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Call for contributions to a DPO event; event promotion is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f68b4dee705a01f8": {
+   "at": "2026-10-26T15:18:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "How-to style vendor content on dashboard debugging with an agent.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fce9ca878e5ec760": {
    "at": "2026-10-24T23:18:09Z",
    "categories": [],
@@ -204,8 +517,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 14,
-   "usd": 0.3878
+   "calls": 20,
+   "usd": 0.4962
   }
  }
 }
