@@ -2,11 +2,12 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { columnUrl, getArticles, getColumns } from '../utils/articles';
+import { columnUrl, getArticles, getColumns, getOpinions, opinionUrl } from '../utils/articles';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
 const articles = await getArticles();
 const column = (await getColumns())[0];
+const essay = (await getOpinions())[0];
 // Lead story: most important item of the last 7 days relative to the newest article.
 const newest = articles[0]?.data.date.getTime() ?? 0;
 const recent = articles.filter((a) => newest - a.data.date.getTime() <= 7 * 864e5);
@@ -46,6 +47,16 @@ const counts = Object.fromEntries(
               <a href={columnUrl(column)}>{column.data.title}</a>
               <p>{column.data.dek}</p>
               <p class="by">By {column.data.author} · <a href="/predictions/">Prediction tracker</a></p>
+            </section>
+          )
+        }
+        {
+          essay && (
+            <section class="column" aria-labelledby="opinion-title">
+              <div class="section-title"><h2 id="opinion-title">Editor's Opinion</h2></div>
+              <a href={opinionUrl(essay)}>{essay.data.title}</a>
+              <p>{essay.data.dek}</p>
+              <p class="by">By {essay.data.author}</p>
             </section>
           )
         }

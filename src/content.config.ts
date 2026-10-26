@@ -65,6 +65,18 @@ const columns = defineCollection({
   }),
 });
 
+// Editor's Opinion: longer signed essays by the editor (not tied to the weekly column).
+const opinion = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/opinion' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    dek: z.string(),
+    author: z.string().default(COLUMN.author),
+    draft: z.boolean().default(false),
+  }),
+});
+
 const link = z.object({ title: z.string(), url: z.url() });
 
 const predictions = defineCollection({
@@ -113,4 +125,4 @@ const corrections = defineCollection({
   schema: z.object({ date: z.coerce.date(), article: z.string(), what: z.string() }),
 });
 
-export const collections = { articles, columns, predictions, sources, corrections };
+export const collections = { articles, columns, opinion, predictions, sources, corrections };

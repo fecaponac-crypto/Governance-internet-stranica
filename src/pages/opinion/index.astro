@@ -1,0 +1,109 @@
+---
+import Base from '../../layouts/Base.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { COLUMN } from '../../data/site';
+import { columnUrl, formatDate, getColumns, getOpinions, opinionUrl } from '../../utils/articles';
+
+const essays = await getOpinions();
+const columns = (await getColumns()).slice(0, 5);
+---
+
+<Base
+  title="Editor's Opinion"
+  description="Signed essays by the editor of Data Governance Signal on data governance, data management and AI — opinion, clearly labelled."
+>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Opinion</p>
+      <h1>Editor's Opinion</h1>
+      <p>
+        Longer essays by the editor on where data governance, data management and AI are heading — written from practice,
+        signed and clearly labelled as opinion. For the weekly take on the news, see <a href="/monday-signal/">{COLUMN.name}</a>.
+      </p>
+    </header>
+
+    <ol class="list">
+      {
+        essays.map((o) => (
+          <li>
+            <time datetime={o.data.date.toISOString().slice(0, 10)}>{formatDate(o.data.date)}</time>
+            <h2>
+              <a href={opinionUrl(o)}>{o.data.title}</a>
+            </h2>
+            <p>{o.data.dek}</p>
+          </li>
+        ))
+      }
+    </ol>
+
+    {
+      columns.length > 0 && (
+        <section class="columns" aria-labelledby="weekly">
+          <div class="section-title">
+            <h2 id="weekly">{COLUMN.name}</h2>
+            <a href="/monday-signal/">All columns</a>
+          </div>
+          <ul>
+            {columns.map((c) => (
+              <li>
+                <a href={columnUrl(c)}>{c.data.title}</a> <span>{formatDate(c.data.date)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <p class="bio">{COLUMN.authorBio} <a href="/about/#editor">More about the editor</a></p>
+    <NewsletterForm />
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2.5rem;
+  }
+  .list li {
+    border-top: 1px solid var(--rule);
+    padding: 1.2rem 0;
+  }
+  time,
+  .columns span {
+    font-size: 0.8rem;
+    color: var(--ink-3);
+  }
+  .list h2 {
+    font-size: 1.5rem;
+    margin: 0.25rem 0 0.4rem;
+  }
+  .list h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .list h2 a:hover {
+    text-decoration: underline;
+  }
+  .list p {
+    color: var(--ink-2);
+    margin: 0;
+  }
+  .columns ul {
+    list-style: none;
+    padding: 0;
+  }
+  .columns li {
+    margin-bottom: 0.5rem;
+  }
+  .bio {
+    font-size: 0.9rem;
+    color: var(--ink-3);
+    border-top: 1px solid var(--rule);
+    padding-top: 1rem;
+    margin: 2rem 0;
+  }
+</style>

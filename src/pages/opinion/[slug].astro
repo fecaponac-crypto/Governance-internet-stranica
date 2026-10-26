@@ -1,0 +1,97 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { SITE } from '../../data/site';
+import { formatDate, getOpinions, isoDate, type Opinion } from '../../utils/articles';
+
+export async function getStaticPaths() {
+  const essays = await getOpinions();
+  return essays.map((essay) => ({ params: { slug: essay.id }, props: { essay } }));
+}
+
+interface Props {
+  essay: Opinion;
+}
+const { essay } = Astro.props;
+const { data } = essay;
+const { Content } = await render(essay);
+const words = (essay.body ?? '').split(/\s+/).length;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'OpinionNewsArticle',
+  headline: data.title,
+  description: data.dek,
+  datePublished: isoDate(data.date),
+  author: { '@type': 'Person', name: data.author, description: 'Pen name' },
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+};
+---
+
+<Base title={data.title} description={data.dek} type="article">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+  <article class="wrap narrow" data-pagefind-body>
+    <header class="head">
+      <p class="eyebrow"><a href="/opinion/">Editor's Opinion</a></p>
+      <h1>{data.title}</h1>
+      <p class="dek">{data.dek}</p>
+      <p class="byline" data-pagefind-ignore>
+        By <a href="/about/#editor">{data.author}</a> · <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time> ·
+        {Math.max(1, Math.round(words / 230))} min read
+      </p>
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+    <p class="disclosure" data-pagefind-ignore>
+      The author's personal opinion, written as {data.author} — a pen name of the editor, a data governance practitioner;
+      see <a href="/about/#editor">About</a>. It does not represent the views of any employer or client. Disagree? <a
+        href={`mailto:${SITE.email}?subject=${encodeURIComponent('Opinion: ' + data.title)}`}>Write to us</a
+      >.
+    </p>
+  </article>
+  <div class="wrap narrow"><NewsletterForm /></div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .head {
+    padding: 2.5rem 0 1.25rem;
+  }
+  .eyebrow a {
+    color: inherit;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.7rem);
+    line-height: 1.12;
+    margin: 0.5rem 0 0.9rem;
+  }
+  .dek {
+    font-family: var(--serif);
+    font-size: clamp(1.1rem, 2.4vw, 1.3rem);
+    line-height: 1.5;
+    color: var(--ink-2);
+  }
+  .byline {
+    font-size: 0.85rem;
+    color: var(--ink-3);
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--rule);
+  }
+  .prose :global(h2) {
+    font-size: 1.35rem;
+    margin: 2.2rem 0 0.7rem;
+  }
+  .prose :global(ul) {
+    padding-left: 1.2rem;
+  }
+  .disclosure {
+    margin: 2.5rem 0;
+    font-size: 0.85rem;
+    color: var(--ink-3);
+  }
+</style>

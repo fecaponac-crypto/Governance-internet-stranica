@@ -49,3 +49,12 @@ export function scorecard(predictions: Prediction[]) {
     brier,
   };
 }
+
+export type Opinion = CollectionEntry<'opinion'>;
+
+export async function getOpinions(): Promise<Opinion[]> {
+  const all = await getCollection('opinion', ({ data }) => !data.draft);
+  return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+}
+
+export const opinionUrl = (o: Opinion) => `/opinion/${o.id}/`;
