@@ -1,5 +1,14 @@
 {
  "processed": {
+  "058af24460d1da3e": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Migration how-to; not governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "059023edac5dd003": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -101,6 +110,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "210070d43efc2513": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Design advice on charts; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "23307b0b20487056": {
    "at": "2026-10-27T15:18:25Z",
    "categories": [
@@ -119,6 +137,33 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer story about an AI agent writing dbt models; practice case without regulatory or governance substance, closer to marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "23f3a038a5cebcc5": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer story on governed dbt foundation; thought-leadership rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "28418ea3b8c087a5": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor tutorial-style case on agent deployment; not a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "29e95692607d8ce4": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion on governed context for agents; thought-leadership.",
    "relevant": false,
    "same_story_as": null
   },
@@ -166,6 +211,32 @@
    "relevant": false,
    "same_story_as": null
   },
+  "336a5fa5fd29e18b": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "forrester-urges-banks-to-replace-blanket-ai-agent-blocks-with-graduate",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/18",
+   "primary_found": true,
+   "reason": "Five banks blocking third-party AI agents from customer accounts is a governance and access-control issue relevant to practitioners, though the excerpt is a commentary piece rather than a regulatory development.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "357fa5943f2603b0": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "How-to on Iceberg setup; no governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "39daa83701dc9e8f": {
    "at": "2026-10-25T15:18:12Z",
    "categories": [
@@ -181,6 +252,35 @@
    "primary_found": false,
    "reason": "Amicus brief challenging sale of sensitive employee data to Google for AI training in a bankruptcy; a concrete data governance and privacy dispute with an AI training angle.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "3bc165cef8a8a623": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer story on pipeline monitoring; practical but not a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3c1e687dabf3cd22": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product feature announcement for automated Snowpipe setup is marketing-style with no clear governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3d41fbc3100a9b37": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer success story; no governance development.",
+   "relevant": false,
    "same_story_as": null
   },
   "3e1659f779ef610b": {
@@ -241,6 +341,27 @@
    "relevant": false,
    "same_story_as": null
   },
+  "54efbe9a48637083": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Developer tooling performance post; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5753c5b3c5296b6a": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [
+    "platforms",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Guide to securely connecting Gemini Enterprise to warehouse data with governance controls; practical but largely a how-to, so modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "5afd92c3b9449edb": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -272,6 +393,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "65ee2a7efc923159": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Product feature for dashboards in dbt repo; limited governance relevance, vendor product content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "6710c577cbb051eb": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [
@@ -282,6 +412,15 @@
    "importance": 2,
    "reason": "Global mapping of legal issues from AI hallucinations in courts, a research overview with governance relevance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "67b79f31be0e1e0e": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor thought-leadership on semantic layers; generic marketing.",
+   "relevant": false,
    "same_story_as": null
   },
   "680a1bdeb1056a7b": {
@@ -310,6 +449,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6f34ae51d61c60e8": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Tooling how-to on DuckDB adapter; not governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "72a32ce7fcf7f3af": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -325,6 +473,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "How-to style guidance on dbt project conventions; not a governance signal.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "770d836c3e9f9c5a": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor opinion on semantic layers and AI; generic thought-leadership.",
    "relevant": false,
    "same_story_as": null
   },
@@ -375,6 +532,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vague feature title with no data governance angle evident from title or source.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "81204e04abb97f01": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer case study on AI analytics context; generic thought-leadership.",
    "relevant": false,
    "same_story_as": null
   },
@@ -474,6 +640,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "98c5cf9844b22705": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Conference remarks by Sam Altman on patch volume are general security commentary with no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "992fe77982d8d47c": {
    "at": "2026-10-27T12:18:17Z",
    "categories": [
@@ -552,6 +729,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "b857c2fd8a986217": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer case study on platform rebuild; vendor-style storytelling without a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b91f9e4c30f3c57c": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [
@@ -585,6 +771,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "bf20ea643eaff455": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [
+    "platforms",
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Partnership bringing Snowflake AI Data Cloud natively to OCI is a platform/market development; modest governance angle.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "bfb10782e1b4f28d": {
    "at": "2026-10-26T03:18:21Z",
    "categories": [],
@@ -615,6 +813,15 @@
    "importance": 2,
    "reason": "Encoding business context beside dbt models for a text-to-SQL agent is a practical context-for-AI pattern.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "cdf94fc0b9ebf180": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer case on cost monitoring of dbt models; limited governance relevance.",
+   "relevant": false,
    "same_story_as": null
   },
   "cfa6ae58746884f3": {
@@ -851,12 +1058,30 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f0a13e878241b010": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Demo of architecture; no governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f1ea0e30f18d4388": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
    "decision": "skipped",
    "importance": 1,
    "reason": "Call for contributions to a DPO event; event promotion is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f5757f520b3eedd6": {
+   "at": "2026-10-27T18:18:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Technical driver engineering post; not governance-relevant.",
    "relevant": false,
    "same_story_as": null
   },
@@ -897,8 +1122,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 43,
-   "usd": 1.195
+   "calls": 47,
+   "usd": 1.2604
   }
  }
 }

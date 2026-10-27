@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T15:23:14Z** · sources checked: 80 · failed: 0 · new items this run: 0
+Last run: **2026-10-27T18:17:53Z** · sources checked: 80 · failed: 0 · new items this run: 23
 
-## New items, last 48 hours (74)
+## New items, last 48 hours (91)
 
 ### High priority sources
 
@@ -16,6 +16,8 @@ Last run: **2026-10-27T15:23:14Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | Snowflake Blog | [Snowflake and Oracle: Bringing the AI Data Cloud to OCI](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-oracle-partnership-ai-data-cloud-oci) |
+| 2026-10-27 | Forrester Blogs | [Banks Can’t Block Their Way Into The Agentic Future](https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/) |
 | 2026-10-27 | CDO Magazine | [Data Management The AI Advantage You Can’t Buy: MetLife’s Tamar Shapiro on the Business Context Layer](https://www.cdomagazine.tech/data-management/the-ai-advantage-you-cant-buy-metlifes-tamar-shapiro-on-the-business-context-layer) |
 | 2026-10-27 | Alation Blog | [October 27, 2026 Context Without Purpose Is a Swamp: Lessons from a Data-Leader Hackathon Context for AI agents works best with an outcome, an owner and a boundary. See what a hackathon of data leaders learned and how to apply it. Read More](https://www.alation.com/blog/context-swamp-hackathon-lessons/) |
 | 2026-10-27 | UK Department for Science, Innovation and Technology | [Notice: Tech Town Business Survey: privacy notice 2026 to 2027](https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027) |
@@ -27,6 +29,7 @@ Last run: **2026-10-27T15:23:14Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
 | 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
 | 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
+| 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 | 2026-10-26 | Future of Privacy Forum | [AI Hallucination Goes to Court: A Global Mapping of Emerging Legal Issues](https://fpf.org/blog/ai-hallucination-goes-to-court-a-global-mapping-of-emerging-legal-issues/) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence OpenAI Security Testing Exposes New Challenges in Monitoring AI Agents](https://www.cdomagazine.tech/aiml/openai-security-testing-exposes-new-challenges-in-monitoring-ai-agents) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence Anthropic’s Claude Accessed Georgia Election Data Without Authorization](https://www.cdomagazine.tech/aiml/anthropics-claude-accessed-georgia-election-data-without-authorization) |
@@ -35,12 +38,31 @@ Last run: **2026-10-27T15:23:14Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | European Data Protection Supervisor (EDPS) | [Blog post: Making AI visible: Fourth meeting of the AI Act Correspondents Network](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-making-ai-visible-fourth-meeting-ai-act-correspondents-network) |
 | 2026-10-26 | CDO Magazine | [Leadership Moves W. R. Berkley Appoints Kalyani Sekar Senior Vice President of AI & Technology](https://www.cdomagazine.tech/leadership-moves/w-r-berkley-appoints-kalyani-sekar-senior-vice-president-of-ai-technology) |
 | 2026-10-22 | Collibra Blog | [Collibra + Trail ML: Bringing AI governance and automation together](https://www.collibra.com/blog/collibra-trail-ml-bringing-ai-governance-and-automation-together) |
-| 2026-09-29 | Microsoft Security Blog (incl. Purview) | [​​Beyond source code: A path to the keys to the kingdom](https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | dbt Labs Blog | [How Guitar Center rebuilt its data platform on trust](https://www.getdbt.com/blog/guitar-center-data-pltform-trust-costs) |
+| 2026-10-27 | dbt Labs Blog | [How Sweetwater catches broken dbt pipelines before anyone notices, with Datadog](https://www.getdbt.com/blog/sweetwater-dbt-pipeline-monitoring-datadog) |
+| 2026-10-27 | dbt Labs Blog | [How LangChain grew self-serve analytics questions 40x by giving its AI agent layered context](https://www.getdbt.com/blog/langchain-self-serve-analytics-ai-agent-context) |
+| 2026-10-27 | dbt Labs Blog | [How a one-person data team at Keep built real-time banking infrastructure on dbt](https://www.getdbt.com/blog/keep-real-time-banking-dbt-data-platform) |
+| 2026-10-27 | dbt Labs Blog | [Ship AI agents like tables: dbt materializations for Snowflake CoWork](https://www.getdbt.com/blog/snowflake-cowork-ai-agents-dbt-materializations) |
+| 2026-10-27 | dbt Labs Blog | [Charts worth stealing: the design calls BI should ship](https://www.getdbt.com/blog/bi-dashboard-chart-design-inspiration) |
+| 2026-10-27 | dbt Labs Blog | [dbt Charts: a new open-source language for dashboards that live inside your dbt repo](https://www.getdbt.com/blog/dbt-charts-open-source-dashboard-yaml) |
+| 2026-10-27 | dbt Labs Blog | [What a year of building ADBC drivers taught Columnar about zero-copy's non-zero problems](https://www.getdbt.com/blog/columnar-adbc-drivers-zero-copy-lessons) |
+| 2026-10-27 | dbt Labs Blog | [Why a semantic layer is the difference between a 96% and an 80% accurate AI analyst](https://www.getdbt.com/blog/semantic-layer-ai-analyst-accuracy) |
+| 2026-10-27 | dbt Labs Blog | [With great context comes great autonomy](https://www.getdbt.com/blog/context-engineering-ai-agents-governed-autonomy) |
+| 2026-10-27 | dbt Labs Blog | [dbt without the warehouse (or the bill): DuckDB end to end](https://www.getdbt.com/blog/dbt-duckdb-warehouse-free-data-transformation) |
+| 2026-10-27 | dbt Labs Blog | [Apache Iceberg on Snowflake got a lot simpler in 2026, and dbt's new catalog config is what makes it click](https://www.getdbt.com/blog/apache-iceberg-snowflake-dbt-catalog-configuration) |
+| 2026-10-27 | dbt Labs Blog | [Why dbt Labs thinks AI agents will finally make the semantic layer stick](https://www.getdbt.com/blog/dbt-semantic-layer-ai-agent-adoption) |
+| 2026-10-27 | dbt Labs Blog | [How dbt Labs and Fivetran are moving dbt workloads onto the data lake, model by model](https://www.getdbt.com/blog/dbt-lake-compute-data-lake-workloads) |
+| 2026-10-27 | dbt Labs Blog | [Inside dbt v2: how a rebuilt SQL engine makes linting up to 250x faster](https://www.getdbt.com/blog/dbt-v2-sql-engine-linting-250x-faster) |
+| 2026-10-27 | dbt Labs Blog | [What Open Data Infrastructure looks like with dbt Mesh](https://www.getdbt.com/blog/dbt-mesh-snowflake-databricks-iceberg-catalog) |
+| 2026-10-27 | dbt Labs Blog | [How EF Education First built a cost and value layer for dbt models with a Snowflake Cortex Agent](https://www.getdbt.com/blog/ef-education-first-dbt-cost-value-models-cortex-agent) |
+| 2026-10-27 | dbt Labs Blog | [How KOHO built a Claude-powered self-serve analytics tool on years of dbt governance](https://www.getdbt.com/blog/koho-claude-self-serve-analytics-dbt-governance) |
+| 2026-10-27 | Google Cloud Blog — Data Analytics | [Securely connecting Gemini Enterprise to Snowflake data](https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/) |
+| 2026-10-27 | Computer Weekly — IT security | [OpenAI’s Altman: Only way out of patch apocalypse is through](https://www.computerweekly.com/news/366652912/OpenAIs-Altman-Only-way-out-of-patch-apocalypse-is-through) |
 | 2026-10-27 | Modern Data 101 | [The Lost Canvas: How the middle of the agent stack is getting crushed \| Part 1](https://moderndata101.substack.com/p/agent-builders-market-shake-out) |
 | 2026-10-27 | Computer Weekly — IT security | [Autumn Budget 2026: Healey sets out AI funding](https://www.computerweekly.com/news/366652587/Autumn-Budget-2026-Healey-sets-out-AI-funding) |
 | 2026-10-27 | Computer Weekly — IT security | [AI World: AI vulnerability surge brings change for Oracle’s cyber practice](https://www.computerweekly.com/news/366652684/AI-World-AI-vulnerability-surge-brings-change-for-Oracles-cyber-practice) |
@@ -87,11 +109,6 @@ Last run: **2026-10-27T15:23:14Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | The Record (Recorded Future News) | [Popular AI tool LiteLLM says unrevoked key allowed hackers to target users](https://therecord.media/litellm-hackers-ai-malware) |
 | 2026-10-26 | Computer Weekly — IT security | [Gartner: Winning in the edge](https://www.computerweekly.com/feature/Gartner-Winning-in-the-edge) |
 | 2026-10-26 | Data Engineering Weekly | [Data Engineering Weekly #293](https://www.dataengineeringweekly.com/p/data-engineering-weekly-293) |
-| 2026-10-23 | DataGalaxy | [DataGalaxy Appoints Steve Neat as Chief Revenue Officer to Accelerate AI Context Sales](https://www.datagalaxy.com/en/blog/datagalaxy-cro-steve-neat/) |
-| 2026-10-23 | LfDI Baden-Württemberg (Germany) | [Kaffee und Informationsfreiheit (2) – Infofreiheit in der digitalen Welt: IF geht mit Erklärvideos zur Schule](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-2-infofreiheit-in-der-digitalen-welt/) |
-| 2026-10-23 | Computer Weekly — IT security | [Microsoft Frontier Tour London: Agentic AI governance in the spotlight](https://www.computerweekly.com/news/366652713/Microsoft-Frontier-Tour-London-Agentic-AI-governance-in-the-spotlight) |
-| 2026-10-23 | LfDI Baden-Württemberg (Germany) | [Datenfreiheit-extra #22: Datenzirkus wieder zu Gast beim LfDI](https://www.baden-wuerttemberg.datenschutz.de/datenfreiheit-extra-22-datenzirkus-wieder-zu-gast-beim-lfdi/) |
-| 2026-10-23 | Computer Weekly — IT security | [AI accelerates path from IT compromise to OT targeting](https://www.computerweekly.com/opinion/AI-accelerates-path-from-IT-compromise-to-OT-targeting) |
 
 ## Source problems
 
