@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-10-27T06:18:52Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-10-27T09:03:20Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$1.02** of $12 budget (35 calls)
+AI spend this month: **$1.02** of $12 budget (36 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **noyb files five GDPR complaints against Scale AI over tracking and biometric checks of Outlier workers** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/15
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic thought-leadership piece with no concrete news event; excerpt only shows a headline and boilerplate, so no verifiable development to report.
 - (2) Describes governing context for AI agents using a single source of truth, a practical metadata and governance topic, though it is a vendor case study.
 - (1) Vendor adoption story with no substantive governance consequence.
 - (1) Vendor product explainer for an AI agent; marketing rather than a launch or research finding.
@@ -24,4 +25,3 @@ AI spend this month: **$1.02** of $12 budget (35 calls)
 - (2) Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.
 - (2) Global mapping of legal issues from AI hallucinations in courts, a research overview with governance relevance.
 - (1) Generic AI newsletter piece about Anthropic's IPO prospectus; no concrete data governance angle.
-- (2) EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.

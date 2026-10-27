@@ -200,6 +200,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "51f4293be5d8df9e": {
+   "at": "2026-10-27T09:03:20Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership piece with no concrete news event; excerpt only shows a headline and boilerplate, so no verifiable development to report.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "52626182acc0f701": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -765,8 +774,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 35,
-   "usd": 1.0221
+   "calls": 36,
+   "usd": 1.0224
   }
  }
 }

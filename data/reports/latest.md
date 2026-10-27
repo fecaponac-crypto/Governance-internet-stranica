@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T06:17:53Z** · sources checked: 80 · failed: 1 · new items this run: 1
+Last run: **2026-10-27T09:03:07Z** · sources checked: 80 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (64)
+## New items, last 48 hours (65)
 
 ### High priority sources
 
@@ -14,6 +14,7 @@ Last run: **2026-10-27T06:17:53Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
 | 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
@@ -85,7 +86,7 @@ Last run: **2026-10-27T06:17:53Z** · sources checked: 80 · failed: 1 · new it
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
+_None._
 
 ## Check manually (weekly)
 
