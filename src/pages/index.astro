@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { columnUrl, getArticles, getColumns, getOpinions, opinionUrl, pickLead } from '../utils/articles';
+import { articleUrl, columnUrl, formatDate, getArticles, getColumns, getOpinions, getPredictions, isoDate, opinionUrl, pickLead } from '../utils/articles';
+import { INSTITUTIONS } from '../data/institutions';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
 const articles = await getArticles();
@@ -12,8 +13,30 @@ const essay = (await getOpinions())[0];
 const lead = pickLead(articles);
 // Latest: every other article, newest first. The top right holds our own writing, so no
 // news item appears twice and the newest story is always first under Latest (or the lead).
-const latest = articles.filter((a) => a !== lead);
+const others = articles.filter((a) => a !== lead);
+const LATEST_COUNT = 12;
+const latest = others.slice(0, LATEST_COUNT);
 const top = column || essay ? [] : latest.slice(0, 2);
+
+// Rail: our tools, filled from the published articles (the site rebuilds at least daily).
+const now = Date.now();
+const today = isoDate(new Date());
+const upcoming = articles
+  .flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a })))
+  .filter((d) => isoDate(d.date) >= today)
+  .sort((x, y) => x.date.getTime() - y.date.getTime())
+  .slice(0, 5);
+const week = articles
+  .filter((a) => a !== lead && now - a.data.date.getTime() <= 7 * 864e5)
+  .sort((a, b) => b.data.importance - a.data.importance || b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 5);
+const monthArticles = articles.filter((a) => now - a.data.date.getTime() <= 30 * 864e5);
+const activeInstitutions = INSTITUTIONS.map((i) => ({ ...i, n: monthArticles.filter((a) => a.data.institutions.includes(i.id)).length }))
+  .filter((i) => i.n > 0)
+  .sort((a, b) => b.n - a.n)
+  .slice(0, 5);
+const openPredictions = (await getPredictions()).filter((p) => p.data.status === 'open');
+const nextPrediction = openPredictions[0];
 const counts = Object.fromEntries(
   CATEGORIES.map((c) => [c.id, articles.filter((a) => a.data.categories.includes(c.id)).length]),
 );
@@ -56,10 +79,67 @@ const counts = Object.fromEntries(
           <a href="/search/">Search the archive</a>
         </div>
         {latest.map((a) => <ArticleCard article={a} />)}
+        {others.length > LATEST_COUNT && <p class="all-news"><a href="/news/">All news ({articles.length}) →</a></p>}
       </section>
 
       <aside class="rail">
         <NewsletterForm compact />
+        {
+          week.length > 0 && (
+            <section class="box" aria-labelledby="week-title">
+              <div class="section-title"><h2 id="week-title">This week's most important</h2></div>
+              <ol class="mini">
+                {week.map((a) => (
+                  <li>
+                    <a href={articleUrl(a)}>{a.data.title}</a>
+                    <span>{a.data.importance >= 4 ? (a.data.importance === 5 ? 'Critical' : 'Important') : 'Notable'}</span>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )
+        }
+        {
+          upcoming.length > 0 && (
+            <section class="box" aria-labelledby="dates-title">
+              <div class="section-title"><h2 id="dates-title">Key dates</h2><a href="/deadlines/">All</a></div>
+              <ul class="mini dates">
+                {upcoming.map((d) => (
+                  <li>
+                    <time datetime={isoDate(d.date)}>{formatDate(d.date)}</time>
+                    <a href={articleUrl(d.article)}>{d.what}</a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        {
+          activeInstitutions.length > 0 && (
+            <section class="box" aria-labelledby="inst-title">
+              <div class="section-title"><h2 id="inst-title">Most active this month</h2><a href="/institutions/">All</a></div>
+              <ul class="mini counts">
+                {activeInstitutions.map((i) => (
+                  <li>
+                    <a href={`/institutions/${i.id}/`}>{i.short}</a>
+                    <span class="count">{i.n}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        {
+          openPredictions.length > 0 && (
+            <section class="box" aria-labelledby="pred-title">
+              <div class="section-title"><h2 id="pred-title">Predictions</h2><a href="/predictions/">Tracker</a></div>
+              <p class="pred">
+                <b>{openPredictions.length}</b> open, ours and others'. Next due {formatDate(nextPrediction!.data.due)}:
+                {' '}{nextPrediction!.data.claim}
+              </p>
+            </section>
+          )
+        }
         <section class="topics" aria-labelledby="topics-title">
           <div class="section-title"><h2 id="topics-title">Topics</h2></div>
           <ul>
@@ -82,8 +162,12 @@ const counts = Object.fromEntries(
             Data Governance Signal tracks regulators, standards bodies, researchers and vendors, and selects what matters
             for data governance professionals. Every item explains <em>why it matters</em> and links to its sources.
           </p>
-          <p><a href="/editorial-policy/">How we work</a></p>
+          <p><a href="/methodology/">How we work</a></p>
         </section>
+        <div class="sticky">
+          <p>Get <b>The Monday Signal</b>: the week in data governance, every Monday.</p>
+          <a class="btn" href="/newsletter/">Subscribe</a>
+        </div>
       </aside>
     </div>
   </div>
@@ -193,5 +277,65 @@ const counts = Object.fromEntries(
   .column .by {
     font-size: 0.8rem;
     color: var(--ink-3);
+  }
+  .mini {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mini li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 0.93rem;
+    line-height: 1.35;
+  }
+  .mini a {
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .mini a:hover {
+    text-decoration: underline;
+  }
+  .mini li span {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--ink-3);
+    margin-top: 0.15rem;
+  }
+  .mini.dates time {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 650;
+    color: var(--signal);
+  }
+  .mini.counts li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .mini.counts .count {
+    display: inline;
+    margin: 0;
+  }
+  .pred {
+    font-size: 0.93rem;
+    color: var(--ink-2);
+    margin: 0;
+  }
+  .all-news {
+    margin: 1.5rem 0 0;
+    font-weight: 600;
+  }
+  .sticky {
+    position: sticky;
+    top: 1.25rem;
+    background: var(--paper-2);
+    border-left: 4px solid var(--signal);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+  }
+  .sticky p {
+    margin: 0 0 0.75rem;
+    font-size: 0.93rem;
   }
 </style>

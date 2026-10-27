@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+import { getArticles } from '../../utils/articles';
+
+const articles = await getArticles();
+// Group by month of the news date, newest first.
+const months = new Map<string, typeof articles>();
+for (const a of articles) {
+  const key = a.data.date.toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+  months.set(key, [...(months.get(key) ?? []), a]);
+}
+---
+
+<Base title="All news" description="Every story published on Data Governance Signal, newest first.">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Archive</p>
+      <h1>All news</h1>
+      <p>{articles.length} stories, newest first. Looking for something specific? <a href="/search/">Search</a> or browse by <a href="/topics/">topic</a> or <a href="/institutions/">institution</a>.</p>
+    </header>
+    <div class="cols">
+      <div>
+        {
+          [...months].map(([month, items]) => (
+            <section aria-label={month}>
+              <div class="section-title"><h2>{month}</h2></div>
+              {items.map((a) => <ArticleCard article={a} variant="compact" />)}
+            </section>
+          ))
+        }
+      </div>
+      <aside><NewsletterForm compact /></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 860px) {
+    .cols {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
