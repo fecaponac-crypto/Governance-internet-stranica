@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T15:17:54Z** · sources checked: 80 · failed: 1 · new items this run: 7
+Last run: **2026-10-27T15:23:14Z** · sources checked: 80 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (76)
+## New items, last 48 hours (74)
 
 ### High priority sources
 
@@ -92,12 +92,10 @@ Last run: **2026-10-27T15:17:54Z** · sources checked: 80 · failed: 1 · new it
 | 2026-10-23 | Computer Weekly — IT security | [Microsoft Frontier Tour London: Agentic AI governance in the spotlight](https://www.computerweekly.com/news/366652713/Microsoft-Frontier-Tour-London-Agentic-AI-governance-in-the-spotlight) |
 | 2026-10-23 | LfDI Baden-Württemberg (Germany) | [Datenfreiheit-extra #22: Datenzirkus wieder zu Gast beim LfDI](https://www.baden-wuerttemberg.datenschutz.de/datenfreiheit-extra-22-datenzirkus-wieder-zu-gast-beim-lfdi/) |
 | 2026-10-23 | Computer Weekly — IT security | [AI accelerates path from IT compromise to OT targeting](https://www.computerweekly.com/opinion/AI-accelerates-path-from-IT-compromise-to-OT-targeting) |
-| 2026-10-05 | EPIC — Electronic Privacy Information Center | [Looking Ahead: Pixel Tracking Litigation under ECPA and CIPA can Provide Useful Guidelines for the Supreme Court in Salazar v. Paramount Global](https://epic.org/looking-ahead-pixel-tracking-litigation-under-ecpa-and-cipa-can-provide-useful-guidelines-for-the-supreme-court-in-salazar-v-paramount-global/) |
-| 2026-10-02 | EPIC — Electronic Privacy Information Center | [EPIC Files Amicus Brief Challenging Spirit Airlines’ Bankruptcy Sale of Employee Data to Google](https://epic.org/epic-files-amicus-brief-challenging-spirit-airlines-bankruptcy-sale-of-employee-data-to-google/) |
 
 ## Source problems
 
-- **California Privacy Protection Agency (CalPrivacy)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://cppa.ca.gov/announcements/`
+_None._
 
 ## Check manually (weekly)
 
