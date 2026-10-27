@@ -158,13 +158,13 @@ const counts = Object.fromEntries(
       margin-top: 1rem;
     }
   }
+  /* Our own writing (The Monday Signal, Editor's Opinion): same treatment as "Why it matters". */
   .column {
-    margin-bottom: 1.75rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--rule);
-  }
-  .column:last-child {
-    border-bottom: none;
+    background: var(--paper-2);
+    border-left: 4px solid var(--signal);
+    border-radius: 0 8px 8px 0;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.25rem;
   }
   .kicker {
     font-size: 0.75rem;
@@ -176,8 +176,9 @@ const counts = Object.fromEntries(
   }
   .column > a {
     font-family: var(--serif);
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.25;
     color: var(--ink);
     text-decoration: none;
   }
