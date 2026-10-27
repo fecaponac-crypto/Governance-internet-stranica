@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T09:17:51Z** · sources checked: 80 · failed: 0 · new items this run: 0
+Last run: **2026-10-27T12:17:57Z** · sources checked: 80 · failed: 0 · new items this run: 4
 
-## New items, last 48 hours (65)
+## New items, last 48 hours (69)
 
 ### High priority sources
 
@@ -14,6 +14,8 @@ Last run: **2026-10-27T09:17:51Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | CDO Magazine | [Leadership Moves ThoughtSpot Elevates James Belsey to Field Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/thoughtspot-elevates-james-belsey-to-field-chief-data-and-ai-officer) |
+| 2026-10-27 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation](https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/) |
 | 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
@@ -33,6 +35,8 @@ Last run: **2026-10-27T09:17:51Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | Modern Data 101 | [The Lost Canvas: How the middle of the agent stack is getting crushed \| Part 1](https://moderndata101.substack.com/p/agent-builders-market-shake-out) |
+| 2026-10-27 | Computer Weekly — IT security | [AI World: AI vulnerability surge brings change for Oracle’s cyber practice](https://www.computerweekly.com/news/366652684/AI-World-AI-vulnerability-surge-brings-change-for-Oracles-cyber-practice) |
 | 2026-10-26 | dbt Labs Blog | [How Data Culture measured its way from zero trust to a shippable AI analytics agent](https://www.getdbt.com/blog/data-culture-ai-analytics-agent-trust-context) |
 | 2026-10-26 | dbt Labs Blog | [How Verily Health monitors wastewater for 30-plus pathogens with a 5-person team and 1 dbt package](https://www.getdbt.com/blog/verily-wastewater-pathogen-monitoring-dbt) |
 | 2026-10-26 | dbt Labs Blog | [How Kramp cut analyst onboarding from days to minutes with a self-serve dbt Mesh factory](https://www.getdbt.com/blog/kramp-dbt-mesh-analyst-onboarding) |

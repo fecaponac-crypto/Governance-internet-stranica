@@ -1,15 +1,18 @@
 # Drafts report
 
-Last run: **2026-10-27T09:18:02Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-27T12:18:17Z** · candidates 4 · scored 4 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$1.02** of $12 budget (36 calls)
+AI spend this month: **$1.07** of $12 budget (39 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **IMY finds Swedish Police breached camera surveillance signage rules at Gothenburg Central Station** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/16
 
 ## Recently skipped by triage
 
+- (1) Executive appointment at a vendor; hiring/leadership news without governance consequence.
+- (1) Vendor landscape commentary on agent builders; generic thought-leadership without a concrete governance consequence.
+- (2) Vulnerability volume trends and a cyber practice interview; general security commentary rather than a governance development.
 - (1) Generic thought-leadership piece with no concrete news event; excerpt only shows a headline and boilerplate, so no verifiable development to report.
 - (2) Describes governing context for AI agents using a single source of truth, a practical metadata and governance topic, though it is a vendor case study.
 - (1) Vendor adoption story with no substantive governance consequence.
@@ -22,6 +25,3 @@ _No drafts this run._
 - (1) Vendor customer story about self-serve dbt project provisioning; generic platform marketing.
 - (1) PHP patching rates are a general IT security story without a data governance, privacy or AI governance angle.
 - (1) Event/community piece about executive discussion with no concrete governance consequence; generic thought leadership.
-- (2) Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.
-- (2) Global mapping of legal issues from AI hallucinations in courts, a research overview with governance relevance.
-- (1) Generic AI newsletter piece about Anthropic's IPO prospectus; no concrete data governance angle.

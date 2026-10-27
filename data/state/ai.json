@@ -398,6 +398,28 @@
    "relevant": false,
    "same_story_as": null
   },
+  "988d247e95095392": {
+   "at": "2026-10-27T12:18:17Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vulnerability volume trends and a cyber practice interview; general security commentary rather than a governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "992fe77982d8d47c": {
+   "at": "2026-10-27T12:18:17Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor landscape commentary on agent builders; generic thought-leadership without a concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9c3ff8631470ba96": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -417,6 +439,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Report-style commentary on connected car privacy; general awareness piece without a specific new regulation, decision or guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a00eb441112ff3a0": {
+   "at": "2026-10-27T12:18:17Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment at a vendor; hiring/leadership news without governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -568,6 +601,22 @@
    "importance": 1,
    "reason": "UAE child digital safety framework is a child online safety policy without a clear data governance angle in the excerpt; no excerpt to judge further.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "d24632e79c6a6d70": {
+   "at": "2026-10-27T12:18:17Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/16",
+   "primary_found": false,
+   "reason": "Swedish DPA (IMY) order requiring police to fix inadequate signage about camera surveillance at Gothenburg central station; concrete transparency obligation for surveillance operators.",
+   "relevant": true,
    "same_story_as": null
   },
   "d4c022aa68ef2403": {
@@ -774,8 +823,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 36,
-   "usd": 1.0224
+   "calls": 39,
+   "usd": 1.0728
   }
  }
 }
