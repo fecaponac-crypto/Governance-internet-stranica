@@ -69,6 +69,7 @@ const counts = Object.fromEntries(
           )
         }
         {top.map((a) => <ArticleCard article={a} variant="stack" />)}
+        <NewsletterForm compact />
       </div>
     </section>
 
@@ -83,7 +84,6 @@ const counts = Object.fromEntries(
       </section>
 
       <aside class="rail">
-        <NewsletterForm compact />
         {
           week.length > 0 && (
             <section class="box" aria-labelledby="week-title">
