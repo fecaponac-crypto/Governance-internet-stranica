@@ -1016,6 +1016,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d063fc6cf8dc56f2": {
+   "at": "2026-10-27T22:17:35Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing announcing an AI teammate product with no concrete launch detail or governance consequence beyond generic trust messaging.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d1c1850c89f7dcf9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -1337,8 +1348,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 57,
-   "usd": 1.696
+   "calls": 58,
+   "usd": 1.6964
   }
  }
 }

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T21:17:58Z** · sources checked: 80 · failed: 0 · new items this run: 19
+Last run: **2026-10-27T22:17:21Z** · sources checked: 80 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (110)
+## New items, last 48 hours (111)
 
 ### High priority sources
 
@@ -51,6 +51,7 @@ Last run: **2026-10-27T21:17:58Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
 | 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
 | 2026-10-27 | dbt Labs Blog | [How Sigma runs a 2,883-model semantic layer on dbt and Dagster](https://www.getdbt.com/blog/sigma-dbt-dagster-semantic-layer) |
 | 2026-10-27 | dbt Labs Blog | [ClickHouse + dbt: Building a GitOps workflow at Twilio](https://www.getdbt.com/blog/twilio-clickhouse-dbt-gitops-workflow) |
