@@ -2,16 +2,14 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { columnUrl, getArticles, getColumns, getOpinions, opinionUrl } from '../utils/articles';
+import { columnUrl, getArticles, getColumns, getOpinions, opinionUrl, pickLead } from '../utils/articles';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
 const articles = await getArticles();
 const column = (await getColumns())[0];
 const essay = (await getOpinions())[0];
-// Lead story: most important item of the last 7 days relative to the newest article.
-const newest = articles[0]?.data.date.getTime() ?? 0;
-const recent = articles.filter((a) => newest - a.data.date.getTime() <= 7 * 864e5);
-const lead = [...recent].sort((a, b) => b.data.importance - a.data.importance)[0] ?? articles[0];
+// Lead story: importance weighed against age at build time (the site rebuilds at least daily).
+const lead = pickLead(articles);
 // Latest: every other article, newest first. The top right holds our own writing, so no
 // news item appears twice and the newest story is always first under Latest (or the lead).
 const latest = articles.filter((a) => a !== lead);

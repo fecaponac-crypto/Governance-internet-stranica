@@ -73,8 +73,12 @@ jobs:
             exit 0
           fi
           new=$(tail -n 1 data/state/runs.jsonl | python -c "import json,sys; print(json.load(sys.stdin)['new'])")
-          # [skip ci] keeps Cloudflare from rebuilding the site for data-only commits.
-          git commit -m "Ingest: ${new} new items [skip ci]"
+          # [skip ci] keeps Cloudflare from rebuilding the site for data-only commits, except for
+          # the first run of the day (06 UTC), which rebuilds it so the homepage lead and the
+          # key dates reflect the new day even when nothing was published.
+          skip=" [skip ci]"
+          if [ "$(date -u +%H)" = "06" ]; then skip=""; fi
+          git commit -m "Ingest: ${new} new items${skip}"
           for i in 1 2 3; do
             git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
             sleep $((i * 5))

@@ -50,6 +50,8 @@ const articles = defineCollection({
     // Sample content created for the preview; hidden once preview mode ends.
     sample: z.boolean().default(false),
     draft: z.boolean().default(false),
+    // Editor's pin: keep this story as the homepage lead until (and including) this date.
+    featuredUntil: z.coerce.date().optional(),
   }),
 });
 

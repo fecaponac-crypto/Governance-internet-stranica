@@ -9,6 +9,23 @@ export async function getArticles(): Promise<Article[]> {
 
 export const articleUrl = (a: Article) => `/news/${a.id}/`;
 
+const DAY = 864e5;
+
+/**
+ * Homepage lead: importance minus half a point per day of age, so a Critical story leads for
+ * about two days and an Important one for about a day, unless something as weighty arrives.
+ * An editor's pin (featuredUntil) wins while it lasts. `articles` must be newest first.
+ */
+export function pickLead(articles: Article[], now = new Date()): Article | undefined {
+  const today = now.getTime();
+  const pinned = articles.find((a) => a.data.featuredUntil && a.data.featuredUntil.getTime() + DAY > today);
+  if (pinned) return pinned;
+  const score = (a: Article) => a.data.importance - 0.5 * Math.max(0, (today - a.data.date.getTime()) / DAY);
+  const recent = articles.filter((a) => today - a.data.date.getTime() <= 14 * DAY);
+  // Sort is stable, so ties go to the newer story.
+  return [...recent].sort((a, b) => score(b) - score(a))[0] ?? articles[0];
+}
+
 export function formatDate(d: Date): string {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 }
