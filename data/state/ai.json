@@ -9,6 +9,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "069e6a8001eda096": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [
+    "ai-governance",
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Describes governing context for AI agents using a single source of truth, a practical metadata and governance topic, though it is a vendor case study.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "06b0502ed13c1da5": {
    "at": "2026-10-26T12:18:19Z",
    "categories": [],
@@ -56,6 +68,19 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1666cfdd2d6bd1f3": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Parliamentary scrutiny of government secrecy over AI use in immigration decisions raises transparency and accountability questions for public-sector AI governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1a4f674544dba8a9": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [
@@ -85,12 +110,38 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2b2cdd12d29a58e8": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "at-t-and-t-mobile-tighten-safeguards-as-ai-agents-gain-access-to-custo",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/13",
+   "primary_found": false,
+   "reason": "Telecom firms tightening AI guardrails as agents access sensitive data is a practical governance development with access-control implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "2deaf08f90c7f7f4": {
    "at": "2026-10-26T21:18:08Z",
    "categories": [],
    "decision": "skipped",
    "importance": 1,
    "reason": "Event/community piece about executive discussion with no concrete governance consequence; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3326f8c8453fd84c": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor adoption story with no substantive governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -122,12 +173,30 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3fa6d42c9228487d": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product explainer for an AI agent; marketing rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "42819fb1af39ea7f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer case study on retiring dashboards; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "48d0396a9d17c295": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer story about a wastewater monitoring pipeline with no clear governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -211,6 +280,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "766b500a31aa07ab": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "How-to style guidance on dbt project conventions; not a governance signal.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7abea47610836fb9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -228,6 +306,27 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Analysis of pixel tracking litigation and a pending US Supreme Court privacy case; relevant to privacy practice but largely commentary on US litigation rather than a decision.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "7d17d1cb2c6be6b8": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Compute and scheduling optimisation how-to; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7e41de454a890cf6": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [
+    "ai-governance",
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Evaluation framework for AI analytics agents touches on governing AI output accuracy, though it reads as a vendor customer case study.",
    "relevant": true,
    "same_story_as": null
   },
@@ -346,6 +445,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "b91f9e4c30f3c57c": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [
+    "platforms",
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "dbt v2 release changes manifest and metadata files that governance and catalogue tooling rely on, a genuine product launch.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "bcc202e5ff2584f7": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [
@@ -397,6 +508,15 @@
    "importance": 2,
    "reason": "Encoding business context beside dbt models for a text-to-SQL agent is a practical context-for-AI pattern.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "cfa6ae58746884f3": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer story about self-serve dbt project provisioning; generic platform marketing.",
+   "relevant": false,
    "same_story_as": null
   },
   "d037ed9023380d4f": {
@@ -463,6 +583,22 @@
    "importance": 2,
    "reason": "Coalition letter urging a governor to sign a bill; pending legislation not yet enacted, so it is advocacy rather than a settled rule.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "d8a507a0496cc853": {
+   "at": "2026-10-27T00:18:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "us-appeals-court-revives-meta-pixel-class-action-finding-eyewear-brows",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/14",
+   "primary_found": false,
+   "reason": "Appellate ruling reviving a Meta Pixel health-data class action has concrete consequences for website data tracking practices.",
+   "relevant": true,
    "same_story_as": null
   },
   "d8d9895cca1b8d12": {
@@ -613,8 +749,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 24,
-   "usd": 0.5786
+   "calls": 32,
+   "usd": 0.8823
   }
  }
 }

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-26T21:17:56Z** · sources checked: 80 · failed: 0 · new items this run: 2
+Last run: **2026-10-27T00:17:55Z** · sources checked: 80 · failed: 0 · new items this run: 12
 
-## New items, last 48 hours (52)
+## New items, last 48 hours (63)
 
 ### High priority sources
 
@@ -14,6 +14,8 @@ Last run: **2026-10-26T21:17:56Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
+| 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
 | 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
 | 2026-10-26 | Future of Privacy Forum | [AI Hallucination Goes to Court: A Global Mapping of Emerging Legal Issues](https://fpf.org/blog/ai-hallucination-goes-to-court-a-global-mapping-of-emerging-legal-issues/) |
 | 2026-10-26 | CDO Magazine | [Artificial Intelligence OpenAI Security Testing Exposes New Challenges in Monitoring AI Agents](https://www.cdomagazine.tech/aiml/openai-security-testing-exposes-new-challenges-in-monitoring-ai-agents) |
@@ -22,7 +24,6 @@ Last run: **2026-10-26T21:17:56Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | Ataccama Blog | [What Is a Data Product Manager in the Age of AI?](https://www.ataccama.com/blog/data-product-manager) |
 | 2026-10-26 | European Data Protection Supervisor (EDPS) | [Blog post: Making AI visible: Fourth meeting of the AI Act Correspondents Network](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-making-ai-visible-fourth-meeting-ai-act-correspondents-network) |
 | 2026-10-26 | CDO Magazine | [Leadership Moves W. R. Berkley Appoints Kalyani Sekar Senior Vice President of AI & Technology](https://www.cdomagazine.tech/leadership-moves/w-r-berkley-appoints-kalyani-sekar-senior-vice-president-of-ai-technology) |
-| 2026-10-24 | CDO Magazine | [Community High Stakes, Higher Speed: Trust and AI Governance Lead CDO Magazine’s New York Leadership Summit](https://www.cdomagazine.tech/community/high-stakes-higher-speed-trust-and-ai-governance-lead-cdo-magazines-new-york-leadership-summit) |
 | 2026-10-22 | Collibra Blog | [Collibra + Trail ML: Bringing AI governance and automation together](https://www.collibra.com/blog/collibra-trail-ml-bringing-ai-governance-and-automation-together) |
 | 2026-09-29 | Microsoft Security Blog (incl. Purview) | [​​Beyond source code: A path to the keys to the kingdom](https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/) |
 
@@ -30,10 +31,20 @@ Last run: **2026-10-26T21:17:56Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-26 | dbt Labs Blog | [How Data Culture measured its way from zero trust to a shippable AI analytics agent](https://www.getdbt.com/blog/data-culture-ai-analytics-agent-trust-context) |
+| 2026-10-26 | dbt Labs Blog | [How Verily Health monitors wastewater for 30-plus pathogens with a 5-person team and 1 dbt package](https://www.getdbt.com/blog/verily-wastewater-pathogen-monitoring-dbt) |
+| 2026-10-26 | dbt Labs Blog | [How Kramp cut analyst onboarding from days to minutes with a self-serve dbt Mesh factory](https://www.getdbt.com/blog/kramp-dbt-mesh-analyst-onboarding) |
+| 2026-10-26 | dbt Labs Blog | [How customer pressure pushed dbt past a cautious platform team at Delivery Hero](https://www.getdbt.com/blog/delivery-hero-dbt-platform-modernization) |
+| 2026-10-26 | dbt Labs Blog | [What Okta learned governing context for AI agents at scale](https://www.getdbt.com/blog/okta-ai-agent-context-governance) |
+| 2026-10-26 | dbt Labs Blog | [Beyond medallion architecture: the written rules that keep a growing dbt project consistent](https://www.getdbt.com/blog/dbt-project-standards-medallion-architecture) |
+| 2026-10-26 | dbt Labs Blog | [Inside dbt Wizard, the AI agent built to show its work](https://www.getdbt.com/blog/dbt-wizard-ai-agent-validation-lineage) |
+| 2026-10-26 | dbt Labs Blog | [dbt v2 lands: faster parsing, one shared adapter layer, and a docs experience that skips the giant manifest.json](https://www.getdbt.com/blog/dbt-v2-fast-parsing-shared-adapters-documentation) |
+| 2026-10-26 | dbt Labs Blog | [Optimizing your runs for lower compute, fresher data, and faster iteration with dbt State](https://www.getdbt.com/blog/dbt-state-orchestration-jobs-19-to-2) |
 | 2026-10-26 | MIT Technology Review | [Will the real Anthropic please stand up](https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/) |
 | 2026-10-26 | DataHub Blog (open source metadata platform) | [Data Lineage for AI: What Changes When Agents Read Your Lineage Graph](https://datahub.com/blog/data-lineage-for-ai/) |
 | 2026-10-26 | dbt Labs Blog | [Showing our work: a controlled experiment in context engineering](https://www.getdbt.com/blog/context-engineering-experiment-dbt-mcp) |
 | 2026-10-26 | Computer Weekly — IT security | [EU makes progress towards PHP patching, UK lags behind](https://www.computerweekly.com/news/366652698/EU-makes-progress-towards-PHP-patching-UK-lags-behind) |
+| 2026-10-26 | Computer Weekly — IT security | [UK secrecy over AI in immigration and asylum decisions under fire](https://www.computerweekly.com/news/366652683/UK-secrecy-over-AI-in-immigration-and-asylum-decisions-under-fire) |
 | 2026-10-26 | Google Cloud Blog — Data Analytics | [Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA](https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/) |
 | 2026-10-26 | Precisely Blog | [Precisely AI Studio: try ready-made apps, agents, and skills on real data](https://www.precisely.com/blog/engineering/precisely-ai-studio-try-ready-made-apps-agents-and-skills-on-real-data/) |
 | 2026-10-26 | Autorité de protection des données (Belgium) | [DPA/DPO Day 2027 : appel à contributions des DPO](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/26/dpadpo-day-2027-appel-a-contributions-des-dpo) |
