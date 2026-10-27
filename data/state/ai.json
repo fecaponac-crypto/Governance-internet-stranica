@@ -51,6 +51,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "13d13505d895e797": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Routine privacy notice for a government business survey; not a development in data governance practice.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "145d9618b9cb72f8": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -89,6 +98,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "23307b0b20487056": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [
+    "metadata",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Interview on business context layer for AI and data management at MetLife; practical governance perspective, though mostly an interview.",
    "relevant": true,
    "same_story_as": null
   },
@@ -280,6 +301,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "6d2a4c80a61e10ec": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup promotion; the AI Act transparency mention is too thin to warrant a standalone item.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "72a32ce7fcf7f3af": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -339,6 +369,24 @@
    "relevant": true,
    "same_story_as": null
   },
+  "80d37029fa8b0620": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vague feature title with no data governance angle evident from title or source.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "813f1578093af719": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Budget funding announcement for AI with no concrete data governance consequence in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "843f89f9765c14fc": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -396,6 +444,23 @@
    "importance": 1,
    "reason": "Vendor case study on internal AI agents; marketing content.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "972c08c416af73de": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "claims": 22,
+   "decision": "drafted",
+   "draft": "italy-s-ai-act-enforcement-decree-in-force-naming-acn-as-market-survei",
+   "flagged": 3,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/17",
+   "primary_found": false,
+   "reason": "Italian AI Act implementing decree (Legislative Decree 179/2026) directly affects how organisations must govern AI compliance; practitioners should review it.",
+   "relevant": true,
    "same_story_as": null
   },
   "988d247e95095392": {
@@ -591,6 +656,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer productivity story promoting dbt tooling; marketing rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d1fd8259bc212b88": {
+   "at": "2026-10-27T15:18:25Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/hackathon blog post with generic thought-leadership framing and promotional content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -823,8 +897,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 39,
-   "usd": 1.0728
+   "calls": 43,
+   "usd": 1.195
   }
  }
 }

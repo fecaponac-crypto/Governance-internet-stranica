@@ -1,22 +1,28 @@
 # Inflow report
 
-Last run: **2026-10-27T12:17:57Z** · sources checked: 80 · failed: 0 · new items this run: 4
+Last run: **2026-10-27T15:17:54Z** · sources checked: 80 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (69)
+## New items, last 48 hours (76)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | IAPP — International Association of Privacy Professionals | [Italy's AI Act framework takes shape: What Legislative Decree No. 179/2026 means for organizations](https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations) |
+| 2026-10-27 | IAPP — International Association of Privacy Professionals | [Between the homework app and the midnight feed](https://iapp.org/news/a/between-the-homework-app-and-the-midnight-feed) |
 | 2026-10-26 | IAPP — International Association of Privacy Professionals | [UAE introduces comprehensive child digital safety framework](https://iapp.org/news/a/uae-introduces-comprehensive-child-digital-safety-framework) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | CDO Magazine | [Data Management The AI Advantage You Can’t Buy: MetLife’s Tamar Shapiro on the Business Context Layer](https://www.cdomagazine.tech/data-management/the-ai-advantage-you-cant-buy-metlifes-tamar-shapiro-on-the-business-context-layer) |
+| 2026-10-27 | Alation Blog | [October 27, 2026 Context Without Purpose Is a Swamp: Lessons from a Data-Leader Hackathon Context for AI agents works best with an outcome, an owner and a boundary. See what a hackathon of data leaders learned and how to apply it. Read More](https://www.alation.com/blog/context-swamp-hackathon-lessons/) |
+| 2026-10-27 | UK Department for Science, Innovation and Technology | [Notice: Tech Town Business Survey: privacy notice 2026 to 2027](https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027) |
 | 2026-10-27 | CDO Magazine | [Leadership Moves ThoughtSpot Elevates James Belsey to Field Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/thoughtspot-elevates-james-belsey-to-field-chief-data-and-ai-officer) |
 | 2026-10-27 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation](https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/) |
 | 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
+| 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
 | 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
@@ -36,6 +42,7 @@ Last run: **2026-10-27T12:17:57Z** · sources checked: 80 · failed: 0 · new it
 | Date | Source | Title |
 |---|---|---|
 | 2026-10-27 | Modern Data 101 | [The Lost Canvas: How the middle of the agent stack is getting crushed \| Part 1](https://moderndata101.substack.com/p/agent-builders-market-shake-out) |
+| 2026-10-27 | Computer Weekly — IT security | [Autumn Budget 2026: Healey sets out AI funding](https://www.computerweekly.com/news/366652587/Autumn-Budget-2026-Healey-sets-out-AI-funding) |
 | 2026-10-27 | Computer Weekly — IT security | [AI World: AI vulnerability surge brings change for Oracle’s cyber practice](https://www.computerweekly.com/news/366652684/AI-World-AI-vulnerability-surge-brings-change-for-Oracles-cyber-practice) |
 | 2026-10-26 | dbt Labs Blog | [How Data Culture measured its way from zero trust to a shippable AI analytics agent](https://www.getdbt.com/blog/data-culture-ai-analytics-agent-trust-context) |
 | 2026-10-26 | dbt Labs Blog | [How Verily Health monitors wastewater for 30-plus pathogens with a 5-person team and 1 dbt package](https://www.getdbt.com/blog/verily-wastewater-pathogen-monitoring-dbt) |
@@ -90,7 +97,7 @@ Last run: **2026-10-27T12:17:57Z** · sources checked: 80 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **California Privacy Protection Agency (CalPrivacy)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://cppa.ca.gov/announcements/`
 
 ## Check manually (weekly)
 
