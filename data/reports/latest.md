@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T03:17:54Z** · sources checked: 80 · failed: 1 · new items this run: 0
+Last run: **2026-10-27T06:17:53Z** · sources checked: 80 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (63)
+## New items, last 48 hours (64)
 
 ### High priority sources
 
@@ -14,6 +14,7 @@ Last run: **2026-10-27T03:17:54Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
 | 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
 | 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
@@ -84,7 +85,7 @@ Last run: **2026-10-27T03:17:54Z** · sources checked: 80 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
 
 ## Check manually (weekly)
 

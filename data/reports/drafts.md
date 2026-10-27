@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-10-27T03:18:06Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-27T06:18:52Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.88** of $12 budget (32 calls)
+AI spend this month: **$1.02** of $12 budget (35 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **noyb files five GDPR complaints against Scale AI over tracking and biometric checks of Outlier workers** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/15
 
 ## Recently skipped by triage
 
