@@ -33,6 +33,13 @@ Merge = publish.
 Limits: at most 6 drafts per run (`MAX_DRAFTS_PER_RUN`), monthly budget $12 (`AI_MONTHLY_BUDGET_USD`);
 when the budget is reached, selected items wait for the next month.
 
+### Editing a draft before merging
+
+Fields the editor may want to change in the draft's front matter: `importance`, `status` (stage and
+detail, see `/methodology/#status`), `institutions`, `whatToCheck`, `deadlines`, and `featuredUntil:
+YYYY-MM-DD` to pin the story as the homepage lead until that date. To reject a draft, close the pull
+request without merging; the item is not drafted again.
+
 ## Monthly figures
 
 `metrics/YYYY-MM.json` — written by `pipeline/metrics.py` after every run, so each file ends up with that
