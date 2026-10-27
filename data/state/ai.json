@@ -1,5 +1,14 @@
 {
  "processed": {
+  "039df5a113eb098a": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor educational explainer on data lineage; generic how-to content rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "058af24460d1da3e": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -57,6 +66,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "PHP patching rates are a general IT security story without a data governance, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "134111dd1ffd53a2": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Organisational announcement about youth policy work, no concrete governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -303,6 +321,24 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4124f313cf6a7f83": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic explainer on modern data stack from vendor blog without a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "412d4b1345c3c498": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "How-to tutorial on generative AI in dbt pipelines; not governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "42819fb1af39ea7f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -319,6 +355,32 @@
    "importance": 1,
    "reason": "Vendor customer story about a wastewater monitoring pipeline with no clear governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "4aab07dabe3b469f": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Podcast episode on social media and hate speech; no clear data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "4dcd7af26dab1378": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "metadata",
+    "ai-industry"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "aws-architects-show-how-a-semantic-layer-stopped-an-ai-agent-overstati",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/22",
+   "primary_found": false,
+   "reason": "Concrete example of AI agent query error and business context via semantic layer illustrates governance need for context for AI.",
+   "relevant": true,
    "same_story_as": null
   },
   "51f4293be5d8df9e": {
@@ -338,6 +400,15 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Practitioner framework for dbt project governance; practical but a vendor blog case study rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "54955e6fc7a6f700": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Engineering pipeline case study without a clear governance angle beyond tooling.",
    "relevant": false,
    "same_story_as": null
   },
@@ -485,6 +556,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7870b3e44d1b546f": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 24,
+   "decision": "drafted",
+   "draft": "us-surveillance-pricing-laws-multiply-as-maryland-ban-takes-effect-and",
+   "flagged": 3,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/21",
+   "primary_found": false,
+   "reason": "New state laws banning personal data use for personalised pricing and FTC signals create concrete compliance obligations.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "7abea47610836fb9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -550,6 +638,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Budget funding announcement for AI with no concrete data governance consequence in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "81f753c0409f37da": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor explainer on CIRCIA; generic content, though the regulatory topic is noted, no new development reported.",
    "relevant": false,
    "same_story_as": null
   },
@@ -662,6 +759,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9bcb10a9534553de": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer success story on analytics scaling; limited governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9c3ff8631470ba96": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -704,12 +810,35 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a68aede0b61b2dde": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "metadata",
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Use of dbt context layer to give AI agents governed metric context is a practical governance example.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ab4091a7e20510a1": {
    "at": "2026-10-26T09:18:09Z",
    "categories": [],
    "decision": "skipped",
    "importance": 1,
    "reason": "Vague edge-computing and agentic AI infrastructure piece from a low-reliability source with no concrete data governance angle in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "b1f10fddc8cf8df2": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vulnerability catalogue update is a security item without a data governance angle beyond general cybersecurity.",
    "relevant": false,
    "same_story_as": null
   },
@@ -727,6 +856,24 @@
    "primary_found": true,
    "reason": "GA of LookML semantic indexing in Knowledge Catalog is a concrete product launch relevant to semantic context for AI.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "b71e7f9e699bc565": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Anthropic disclosure about agents escaping testing environments overlaps with existing evaluator coverage; title is thin and does not clearly add a distinct story.",
+   "relevant": false,
+   "same_story_as": "anthropic-embeds-independent-evaluators"
+  },
+  "b73822c394906d1e": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cost optimisation story for Snowflake credits; no governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "b857c2fd8a986217": {
@@ -824,6 +971,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ceb4b784fbabf8ce": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "analytics",
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Case study on governed dbt foundation for AI self-serve analytics touches data governance practice.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cfa6ae58746884f3": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -900,6 +1059,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d2e9b967064aea9c": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "metadata",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "AI-assisted legacy SQL migration with documented models is a practical data management case study.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d4c022aa68ef2403": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -960,6 +1131,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "dd86e90c0331d35f": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "independent-test-finds-deepseek-model-can-bypass-shutdown-and-leave-fi",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/20",
+   "primary_found": true,
+   "reason": "Testing of DeepSeek shutdown and oversight controls is relevant AI oversight research for governance teams.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e3381fe87d6b6de3": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -1011,6 +1198,23 @@
    "importance": 1,
    "reason": "Vendor engineering experiment on context cost and runtime; no governance or data management consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "e6d203c98c3705a9": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "data-quality",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "us-social-security-administration-says-it-has-corrected-nearly-15-of-a",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/19",
+   "primary_found": true,
+   "reason": "Correction of millions of federal SSA database records is a practical data quality remediation with governance implications, though details are thin.",
+   "relevant": true,
    "same_story_as": null
   },
   "e90ca542343c425e": {
@@ -1118,12 +1322,23 @@
    "reason": "Event promotion for a leadership summit; not a news development.",
    "relevant": false,
    "same_story_as": null
+  },
+  "fea9136ea0714923": {
+   "at": "2026-10-27T21:18:11Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical case of version-controlled semantic layer management at scale is relevant to governed metadata practice.",
+   "relevant": true,
+   "same_story_as": null
   }
  },
  "usage": {
   "2026-10": {
-   "calls": 47,
-   "usd": 1.2604
+   "calls": 57,
+   "usd": 1.696
   }
  }
 }

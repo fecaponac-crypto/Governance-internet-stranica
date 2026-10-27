@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-27T18:17:53Z** · sources checked: 80 · failed: 0 · new items this run: 23
+Last run: **2026-10-27T21:17:58Z** · sources checked: 80 · failed: 0 · new items this run: 19
 
-## New items, last 48 hours (91)
+## New items, last 48 hours (110)
 
 ### High priority sources
 
@@ -16,7 +16,15 @@ Last run: **2026-10-27T18:17:53Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | CDO Magazine | [US Federal News Bureau SSA Corrects Millions of Social Security Database Files](https://www.cdomagazine.tech/us-federal-news-bureau/ssa-corrects-millions-of-social-security-database-files) |
+| 2026-10-27 | CDO Magazine | [Artificial Intelligence Anthropic Discloses AI Agents Escaping Testing Environments](https://www.cdomagazine.tech/aiml/anthropic-discloses-ai-agents-escaping-testing-environments) |
+| 2026-10-27 | CDO Magazine | [Artificial Intelligence DeepSeek Tests Expose Gaps in AI Shutdown and Oversight Controls](https://www.cdomagazine.tech/aiml/deepseek-tests-expose-gaps-in-ai-shutdown-and-oversight-controls) |
+| 2026-10-27 | Alation Blog | [October 26, 2026 The Modern Data Stack Explained: A Guide to AI-Ready Architecture A modern data stack is a cloud-native set of tools for ingesting, storing, transforming, and governing data. See the layers, benefits, and what AI adds. Read More](https://www.alation.com/blog/modern-data-stack-explained/) |
+| 2026-10-27 | Alation Blog | [October 22, 2026 What Is Data Lineage? Data lineage traces where data comes from, how it changes, and where it goes. Learn the types, benefits, and how to implement it, plus what’s new in Alation. Read More](https://www.alation.com/blog/what-is-data-lineage/) |
+| 2026-10-27 | Alation Blog | [October 16, 2026 CIRCIA Compliance 2027: Cyber Incident Reporting Mandates, Coverage, and Strategies CISA has missed its CIRCIA deadline three times. When the rule lands, you’ll have 72 hours to report. Could your team… Read More](https://www.alation.com/blog/circia-compliance-guide-2026/) |
+| 2026-10-27 | Future of Privacy Forum | [Bringing Privacy, Safety, and Well-being Together at FPF](https://fpf.org/blog/bringing-privacy-safety-and-well-being-together-at-fpf/) |
 | 2026-10-27 | Snowflake Blog | [Snowflake and Oracle: Bringing the AI Data Cloud to OCI](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-oracle-partnership-ai-data-cloud-oci) |
+| 2026-10-27 | Data Matters (Sidley Austin) | [From Disclosures to Prohibitions: The New Legal Landscape on the Use of Consumer Data for Personalized Pricing](https://datamatters.sidley.com/2026/10/27/from-disclosures-to-prohibitions-the-new-legal-landscape-on-the-use-of-consumer-data-for-personalized-pricing/) |
 | 2026-10-27 | Forrester Blogs | [Banks Can’t Block Their Way Into The Agentic Future](https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/) |
 | 2026-10-27 | CDO Magazine | [Data Management The AI Advantage You Can’t Buy: MetLife’s Tamar Shapiro on the Business Context Layer](https://www.cdomagazine.tech/data-management/the-ai-advantage-you-cant-buy-metlifes-tamar-shapiro-on-the-business-context-layer) |
 | 2026-10-27 | Alation Blog | [October 27, 2026 Context Without Purpose Is a Swamp: Lessons from a Data-Leader Hackathon Context for AI agents works best with an outcome, an owner and a boundary. See what a hackathon of data leaders learned and how to apply it. Read More](https://www.alation.com/blog/context-swamp-hackathon-lessons/) |
@@ -43,6 +51,16 @@ Last run: **2026-10-27T18:17:53Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
+| 2026-10-27 | dbt Labs Blog | [How Sigma runs a 2,883-model semantic layer on dbt and Dagster](https://www.getdbt.com/blog/sigma-dbt-dagster-semantic-layer) |
+| 2026-10-27 | dbt Labs Blog | [ClickHouse + dbt: Building a GitOps workflow at Twilio](https://www.getdbt.com/blog/twilio-clickhouse-dbt-gitops-workflow) |
+| 2026-10-27 | dbt Labs Blog | [How KOHO built a Claude-powered self-serve analytics tool on years of dbt governance](https://www.getdbt.com/blog/claude-self-serve-analytics-dbt-governance) |
+| 2026-10-27 | dbt Labs Blog | [Why an AI agent's revenue query was $3.5 million wrong, and how AWS fixed it with dbt Semantic Layer](https://www.getdbt.com/blog/aws-dbt-semantic-layer-ai-agent-revenue-accuracy) |
+| 2026-10-27 | dbt Labs Blog | [How DoorDash scaled merchant-facing analytics to thousands of users in weeks, on dbt and ThoughtSpot](https://www.getdbt.com/blog/doordash-merchant-analytics-thoughtspot-self-serve) |
+| 2026-10-27 | dbt Labs Blog | [Why most of your dbt models aren't in a hurry, and what that's worth in Snowflake credits](https://www.getdbt.com/blog/dbt-state-snowflake-warehouse-compute-savings) |
+| 2026-10-27 | LfDI Baden-Württemberg (Germany) | [Datenfreiheit #55 mit Michael Blume: Videopodcast „Social Media und Hate Speech in Zeiten von KI“](https://www.baden-wuerttemberg.datenschutz.de/datenfreiheit-55-michael-blume/) |
+| 2026-10-27 | dbt Labs Blog | [How Ecolab used an AI migration agent to shrink 84,000 lines of legacy SQL by 6x](https://www.getdbt.com/blog/ecolab-ai-agent-legacy-sql-migration) |
+| 2026-10-27 | dbt Labs Blog | [How Checkr cut an hours-long metrics investigation to minutes by engineering AI context on dbt and Omni](https://www.getdbt.com/blog/checkr-ai-context-metrics-investigation) |
 | 2026-10-27 | dbt Labs Blog | [How Guitar Center rebuilt its data platform on trust](https://www.getdbt.com/blog/guitar-center-data-pltform-trust-costs) |
 | 2026-10-27 | dbt Labs Blog | [How Sweetwater catches broken dbt pipelines before anyone notices, with Datadog](https://www.getdbt.com/blog/sweetwater-dbt-pipeline-monitoring-datadog) |
 | 2026-10-27 | dbt Labs Blog | [How LangChain grew self-serve analytics questions 40x by giving its AI agent layered context](https://www.getdbt.com/blog/langchain-self-serve-analytics-ai-agent-context) |
@@ -62,6 +80,7 @@ Last run: **2026-10-27T18:17:53Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-27 | dbt Labs Blog | [How EF Education First built a cost and value layer for dbt models with a Snowflake Cortex Agent](https://www.getdbt.com/blog/ef-education-first-dbt-cost-value-models-cortex-agent) |
 | 2026-10-27 | dbt Labs Blog | [How KOHO built a Claude-powered self-serve analytics tool on years of dbt governance](https://www.getdbt.com/blog/koho-claude-self-serve-analytics-dbt-governance) |
 | 2026-10-27 | Google Cloud Blog — Data Analytics | [Securely connecting Gemini Enterprise to Snowflake data](https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/) |
+| 2026-10-27 | Computer Weekly — IT security | [PHP2Shell: US updates Kev catalogue as exploits spread](https://www.computerweekly.com/news/366652834/PHP2Shell-US-updates-Kev-catalogue-as-exploits-spread) |
 | 2026-10-27 | Computer Weekly — IT security | [OpenAI’s Altman: Only way out of patch apocalypse is through](https://www.computerweekly.com/news/366652912/OpenAIs-Altman-Only-way-out-of-patch-apocalypse-is-through) |
 | 2026-10-27 | Modern Data 101 | [The Lost Canvas: How the middle of the agent stack is getting crushed \| Part 1](https://moderndata101.substack.com/p/agent-builders-market-shake-out) |
 | 2026-10-27 | Computer Weekly — IT security | [Autumn Budget 2026: Healey sets out AI funding](https://www.computerweekly.com/news/366652587/Autumn-Budget-2026-Healey-sets-out-AI-funding) |
