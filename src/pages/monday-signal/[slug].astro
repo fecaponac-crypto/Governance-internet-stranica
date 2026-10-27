@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
+import Feedback from '../../components/Feedback.astro';
 import PredictionList from '../../components/PredictionList.astro';
 import { COLUMN, SITE } from '../../data/site';
 import { columnUrl, formatDate, getColumns, getPredictions, isoDate, type Column } from '../../utils/articles';
@@ -66,6 +67,7 @@ const jsonLd = {
         </section>
       )
     }
+    <Feedback title={data.title} reply />
     <p class="disclosure" data-pagefind-ignore>
       Opinion of the editor, writing as {data.author} — a pen name, see <a href="/about/#editor">About</a>. All
       predictions are tracked on the <a href="/predictions/">prediction tracker</a>. Disagree or spotted an error? <a

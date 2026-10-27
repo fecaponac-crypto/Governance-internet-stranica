@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
+import Feedback from '../../components/Feedback.astro';
 import { SITE } from '../../data/site';
 import { formatDate, getOpinions, isoDate, type Opinion } from '../../utils/articles';
 
@@ -44,6 +45,7 @@ const jsonLd = {
     <div class="prose">
       <Content />
     </div>
+    <Feedback title={data.title} reply />
     <p class="disclosure" data-pagefind-ignore>
       The author's personal opinion, written as {data.author} — a pen name of the editor, a data governance practitioner;
       see <a href="/about/#editor">About</a>. It does not represent the views of any employer or client. Disagree? <a

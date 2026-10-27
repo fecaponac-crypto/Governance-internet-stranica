@@ -4,6 +4,17 @@ import assert from 'node:assert/strict';
 import PostalMime from 'postal-mime';
 import worker, { extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS } from './index.js';
 
+function memoryKV() {
+  const store = new Map();
+  return {
+    store,
+    get: async (k, type) => (store.has(k) ? (type === 'json' ? JSON.parse(store.get(k)) : store.get(k)) : null),
+    put: async (k, v) => void store.set(k, v),
+    list: async ({ prefix }) => ({ keys: [...store.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name })), list_complete: true }),
+  };
+}
+const post = (body) => new Request('https://x.test/api/feedback', { method: 'POST', body: JSON.stringify(body) });
+
 const raw = [
   'From: Newsletter <news@example.com>',
   'To: sources@datagovernancesignal.com',
@@ -144,4 +155,23 @@ test('every cron in wrangler.jsonc has a job', async () => {
 
 test('weekday crons use names: Cloudflare counts 1 = Sunday', () => {
   for (const cron of Object.keys(CRON_JOBS)) assert.doesNotMatch(cron.split(' ')[4], /\d/);
+});
+
+test('feedback: counts votes and reasons per page and month, rejects junk', async () => {
+  const env = { SOURCES: memoryKV(), FEEDBACK_READ_TOKEN: 'secret' };
+  const page = '/news/some-story/';
+  assert.equal((await worker.fetch(post({ page, vote: 'yes' }), env)).status, 200);
+  assert.equal((await worker.fetch(post({ page, vote: 'no' }), env)).status, 200);
+  assert.equal((await worker.fetch(post({ page, reason: 'possible-error' }), env)).status, 200);
+  for (const bad of [{ page: '/admin/', vote: 'yes' }, { page, vote: 'maybe' }, { page, reason: 'spam' }, { page }, { page, vote: 'yes', reason: 'too-basic' }]) {
+    assert.equal((await worker.fetch(post(bad), env)).status, 400, JSON.stringify(bad));
+  }
+  const month = new Date().toISOString().slice(0, 7);
+  assert.deepEqual(JSON.parse(env.SOURCES.store.get(`feedback:${month}:${page}`)), { yes: 1, no: 1, reasons: { 'possible-error': 1 } });
+
+  const read = (auth) => worker.fetch(new Request(`https://x.test/api/feedback?month=${month}`, { headers: auth ? { Authorization: auth } : {} }), env);
+  assert.equal((await read()).status, 404);
+  assert.equal((await read('Bearer wrong')).status, 404);
+  const body = await (await read('Bearer secret')).json();
+  assert.equal(body.pages[page].yes, 1);
 });

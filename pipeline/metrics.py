@@ -9,6 +9,7 @@ decisions, editor decisions on drafts, AI spend, source health.
 Optional (skipped when the secret is not set):
   BUTTONDOWN_API_KEY                        newsletter subscribers
   CF_API_TOKEN + CF_ACCOUNT_ID + CF_SITE_TAG  Cloudflare Web Analytics visits and page views
+  FEEDBACK_READ_TOKEN                       "Was this useful?" answers (same secret on the Worker)
 """
 
 from __future__ import annotations
@@ -116,6 +117,29 @@ def newsletter() -> dict | None:
         return {"error": type(e).__name__}
 
 
+def feedback(month: str) -> dict | None:
+    token = os.environ.get("FEEDBACK_READ_TOKEN")
+    if not token:
+        return None
+    try:
+        r = requests.get("https://datagovernancesignal.com/api/feedback", params={"month": month},
+                         headers={"Authorization": f"Bearer {token}"}, timeout=30)
+        r.raise_for_status()
+        pages = r.json()["pages"]
+    except (requests.RequestException, KeyError, ValueError) as e:
+        return {"error": type(e).__name__}
+    reasons: dict[str, int] = {}
+    for counts in pages.values():
+        for reason, n in counts.get("reasons", {}).items():
+            reasons[reason] = reasons.get(reason, 0) + n
+    return {
+        "useful_yes": sum(c.get("yes", 0) for c in pages.values()),
+        "useful_no": sum(c.get("no", 0) for c in pages.values()),
+        "reasons": reasons,
+        "pages": pages,
+    }
+
+
 CF_QUERY = """
 query ($account: String!, $filter: AccountRumPageloadEventsAdaptiveGroupsFilter_InputObject) {
   viewer {
@@ -162,6 +186,7 @@ def run(today: date | None = None) -> dict:
         "editor": editor_decisions(start),
         "newsletter": newsletter(),
         "web": web_analytics(start, min(end, today)),
+        "feedback": feedback(month),
     }
     METRICS.mkdir(parents=True, exist_ok=True)
     (METRICS / f"{month}.json").write_text(json.dumps(record, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")

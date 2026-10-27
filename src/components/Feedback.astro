@@ -1,0 +1,116 @@
+---
+// "Was this useful?" — anonymous, counted per page and month by the Worker (/api/feedback).
+// Nothing is stored in the browser; the counts are seen only by the editor.
+import { SITE } from '../data/site';
+interface Props {
+  title: string;
+  // Opinion and column pages also invite a reply to the editor.
+  reply?: boolean;
+}
+const { title, reply = false } = Astro.props;
+const reasons = [
+  ['not-relevant', 'Not relevant to me'],
+  ['too-technical', 'Too technical'],
+  ['too-basic', 'Too basic'],
+  ['possible-error', 'Possible error'],
+];
+---
+
+<section class="fb" data-feedback aria-label="Feedback">
+  <div class="ask" data-step="ask">
+    <p>Was this useful?</p>
+    <button type="button" data-vote="yes">👍 Yes</button>
+    <button type="button" data-vote="no">👎 No</button>
+    {
+      reply && (
+        <a class="reply" href={`mailto:${SITE.email}?subject=${encodeURIComponent('Reply: ' + title)}`}>
+          Reply to the editor
+        </a>
+      )
+    }
+  </div>
+  <div class="why" data-step="why" hidden>
+    <p>Thanks. What was the problem?</p>
+    {reasons.map(([id, label]) => <button type="button" data-reason={id}>{label}</button>)}
+  </div>
+  <p class="done" data-step="done" hidden role="status">
+    Thank you — this helps us choose what to cover. <span data-error-note hidden
+      >If you spotted an error, please <a href={`mailto:${SITE.email}?subject=${encodeURIComponent('Correction: ' + title)}`}
+        >tell us what it is</a
+      >.</span
+    >
+  </p>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-feedback]').forEach((box) => {
+    const page = location.pathname;
+    const send = (body: object) =>
+      fetch('/api/feedback', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ page, ...body }),
+        keepalive: true,
+      }).catch(() => {});
+    const show = (step: string) =>
+      box.querySelectorAll<HTMLElement>('[data-step]').forEach((el) => (el.hidden = el.dataset.step !== step));
+    box.querySelectorAll<HTMLButtonElement>('[data-vote]').forEach((b) =>
+      b.addEventListener('click', () => {
+        send({ vote: b.dataset.vote });
+        show(b.dataset.vote === 'no' ? 'why' : 'done');
+      }),
+    );
+    box.querySelectorAll<HTMLButtonElement>('[data-reason]').forEach((b) =>
+      b.addEventListener('click', () => {
+        send({ reason: b.dataset.reason });
+        box.querySelector<HTMLElement>('[data-error-note]')!.hidden = b.dataset.reason !== 'possible-error';
+        show('done');
+      }),
+    );
+  });
+</script>
+
+<style>
+  .fb {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0;
+    margin: 2rem 0;
+    font-size: 0.93rem;
+  }
+  .ask,
+  .why {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.6rem;
+  }
+  .fb p {
+    margin: 0 0.4rem 0 0;
+    font-weight: 600;
+  }
+  .fb [hidden] {
+    display: none;
+  }
+  button {
+    font: inherit;
+    font-size: 0.88rem;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    padding: 0.3rem 0.85rem;
+    cursor: pointer;
+  }
+  button:hover {
+    border-color: var(--ink-3);
+  }
+  .reply {
+    margin-left: auto;
+    font-size: 0.88rem;
+  }
+  .done {
+    font-weight: 400 !important;
+    color: var(--ink-2);
+  }
+</style>

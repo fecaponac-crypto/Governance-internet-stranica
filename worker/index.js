@@ -7,6 +7,9 @@
 //   proved unreliable); needs the GITHUB_TOKEN secret on the Worker.
 // - Email sent to sources@datagovernancesignal.com (Email Routing → "Send to a Worker")
 //   is parsed and stored in the private SOURCES KV namespace for the pipeline.
+// - POST /api/feedback records anonymous "Was this useful?" votes per page and month in KV
+//   (counters only: no IP address, cookie or other identifier is stored).
+//   GET /api/feedback?month=YYYY-MM returns them, with the FEEDBACK_READ_TOKEN secret as a Bearer token.
 import PostalMime from 'postal-mime';
 
 const MAX_SIZE = 5 * 1024 * 1024;
@@ -101,6 +104,53 @@ export async function dispatchWorkflow(env, workflow = 'ingest.yml') {
   if (res.status !== 204) throw new Error(`workflow dispatch failed: ${res.status} ${await res.text()}`);
 }
 
+export const FEEDBACK_REASONS = ['not-relevant', 'too-technical', 'too-basic', 'possible-error'];
+const FEEDBACK_PAGE = /^\/(news|opinion|monday-signal)\/[a-z0-9-]+\/$/;
+
+const json = (body, status = 200) =>
+  new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
+
+/** Count one vote ({page, vote: yes|no}) or one reason ({page, reason}) for the current month. */
+export async function recordFeedback(request, env) {
+  if (Number(request.headers.get('Content-Length') ?? 0) > 1000) return json({ error: 'too large' }, 413);
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return json({ error: 'bad json' }, 400);
+  }
+  const { page, vote, reason } = body ?? {};
+  if (typeof page !== 'string' || !FEEDBACK_PAGE.test(page)) return json({ error: 'bad page' }, 400);
+  if (vote !== undefined && vote !== 'yes' && vote !== 'no') return json({ error: 'bad vote' }, 400);
+  if (reason !== undefined && !FEEDBACK_REASONS.includes(reason)) return json({ error: 'bad reason' }, 400);
+  if ((vote === undefined) === (reason === undefined)) return json({ error: 'send a vote or a reason' }, 400);
+
+  const key = `feedback:${new Date().toISOString().slice(0, 7)}:${page}`;
+  const counts = (await env.SOURCES.get(key, 'json')) ?? { yes: 0, no: 0, reasons: {} };
+  if (vote) counts[vote] += 1;
+  if (reason) counts.reasons[reason] = (counts.reasons[reason] ?? 0) + 1;
+  // Read-modify-write: two simultaneous votes on one page may count once; fine at this scale.
+  await env.SOURCES.put(key, JSON.stringify(counts));
+  return json({ ok: true });
+}
+
+/** All counters for one month, for the monthly figures (needs FEEDBACK_READ_TOKEN). */
+export async function readFeedback(request, env) {
+  const token = env.FEEDBACK_READ_TOKEN;
+  if (!token || request.headers.get('Authorization') !== `Bearer ${token}`) return json({ error: 'not found' }, 404);
+  const month = new URL(request.url).searchParams.get('month') ?? '';
+  if (!/^\d{4}-\d{2}$/.test(month)) return json({ error: 'bad month' }, 400);
+  const prefix = `feedback:${month}:`;
+  const pages = {};
+  let cursor;
+  do {
+    const list = await env.SOURCES.list({ prefix, cursor });
+    for (const { name } of list.keys) pages[name.slice(prefix.length)] = await env.SOURCES.get(name, 'json');
+    cursor = list.list_complete ? undefined : list.cursor;
+  } while (cursor);
+  return json({ month, pages });
+}
+
 export default {
   async scheduled(event, env, ctx) {
     const key = Object.keys(CRON_JOBS).find((c) => c.toLowerCase() === String(event.cron).toLowerCase());
@@ -113,8 +163,13 @@ export default {
     );
   },
 
-  async fetch(request) {
+  async fetch(request, env) {
     const { pathname } = new URL(request.url);
+    if (pathname === '/api/feedback') {
+      if (request.method === 'POST') return recordFeedback(request, env);
+      if (request.method === 'GET') return readFeedback(request, env);
+      return json({ error: 'method not allowed' }, 405);
+    }
     const match = pathname.match(/^\/feeds\/([a-z0-9-]+)\/?$/);
     if (match && request.method === 'GET') return relayFeed(match[1]);
     return new Response('Not found', { status: 404 });
