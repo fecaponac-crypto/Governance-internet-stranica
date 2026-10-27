@@ -19,6 +19,7 @@
 | 6 | Proračun | Do ~30 € mjesečno u prvoj fazi |
 | 7 | AI | Ništa se ne objavljuje bez odobrenja urednika; uloga AI-ja je javno navedena |
 | 8 | Naziv i domena | **Data Governance Signal**, `datagovernancesignal.com` (kratko: DG Signal) |
+| 9 | Jezik | **Samo engleski** (odluka 27. 10. 2026.). Drugi jezik tek ako analitika nakon 2–3 mjeseca pokaže veliku jezičnu skupinu čitatelja (npr. >20 %); tada prvo newsletter na tom jeziku. Hrvatsko tržište eventualno kao zaseban projekt, ne prijevod portala |
 
 ---
 
