@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-28T03:18:00Z** · sources checked: 80 · failed: 1 · new items this run: 0
+Last run: **2026-10-28T05:45:40Z** · sources checked: 80 · failed: 0 · new items this run: 1
 
 ## New items, last 48 hours (111)
 
@@ -51,6 +51,7 @@ Last run: **2026-10-28T03:18:00Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
 | 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
 | 2026-10-27 | dbt Labs Blog | [How Sigma runs a 2,883-model semantic layer on dbt and Dagster](https://www.getdbt.com/blog/sigma-dbt-dagster-semantic-layer) |
@@ -128,11 +129,10 @@ Last run: **2026-10-28T03:18:00Z** · sources checked: 80 · failed: 1 · new it
 | 2026-10-26 | Center for Security and Emerging Technology (CSET) | [How Black-Box Distillation Works](https://cset.georgetown.edu/article/how-black-box-distillation-works/) |
 | 2026-10-26 | The Record (Recorded Future News) | [Popular AI tool LiteLLM says unrevoked key allowed hackers to target users](https://therecord.media/litellm-hackers-ai-malware) |
 | 2026-10-26 | Computer Weekly — IT security | [Gartner: Winning in the edge](https://www.computerweekly.com/feature/Gartner-Winning-in-the-edge) |
-| 2026-10-26 | Data Engineering Weekly | [Data Engineering Weekly #293](https://www.dataengineeringweekly.com/p/data-engineering-weekly-293) |
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 

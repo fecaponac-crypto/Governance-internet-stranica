@@ -1158,6 +1158,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e06abf0dd7f84f25": {
+   "at": "2026-10-28T05:45:52Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion piece on data modelling; generic thought-leadership without a concrete governance development or news event.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e3381fe87d6b6de3": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -1348,8 +1357,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 58,
-   "usd": 1.6964
+   "calls": 59,
+   "usd": 1.6968
   }
  }
 }

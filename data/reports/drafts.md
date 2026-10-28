@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-10-28T03:18:33Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-28T05:45:52Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$1.70** of $12 budget (58 calls)
+AI spend this month: **$1.70** of $12 budget (59 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Opinion piece on data modelling; generic thought-leadership without a concrete governance development or news event.
 - (1) Vendor marketing announcing an AI teammate product with no concrete launch detail or governance consequence beyond generic trust messaging.
 - (1) Vendor educational explainer on data lineage; generic how-to content rather than news.
 - (1) Organisational announcement about youth policy work, no concrete governance consequence.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Anthropic disclosure about agents escaping testing environments overlaps with existing evaluator coverage; title is thin and does not clearly add a distinct story.
 - (1) Cost optimisation story for Snowflake credits; no governance angle.
 - (2) Case study on governed dbt foundation for AI self-serve analytics touches data governance practice.
-- (2) AI-assisted legacy SQL migration with documented models is a practical data management case study.
