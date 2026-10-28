@@ -8,6 +8,9 @@ export const SITE = {
     'Regulation, AI governance and practical data management — connected, for the people who make it work. An independent, editor-reviewed briefing with every source linked.',
   url: 'https://datagovernancesignal.com',
   email: 'editor@datagovernancesignal.com',
+  // Newsletter sign-up. Off for now (decision 28 Oct 2026): the site collects no email addresses;
+  // readers contact the editor instead. Set to true to bring back every sign-up form.
+  newsletter: false,
   // Buttondown newsletter (double opt-in, open/click tracking off).
   newsletterSubscribeUrl: 'https://buttondown.com/api/emails/embed-subscribe/datagovernancesignal',
   newsletterArchiveUrl: 'https://buttondown.com/datagovernancesignal',

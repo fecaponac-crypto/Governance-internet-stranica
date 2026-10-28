@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE } from '../data/site';
-const updated = '27 October 2026';
+const updated = '28 October 2026';
 ---
 
 <Base title="Privacy" description="What data Data Governance Signal processes about visitors and readers, and why.">
@@ -16,7 +16,9 @@ const updated = '27 October 2026';
       <ul>
         <li>No cookies, no advertising trackers, no profiling.</li>
         <li>Visitor statistics are aggregated and do not identify you.</li>
-        <li>We only hold your email address if you write to us or subscribe to the newsletter.</li>
+        <li>
+          We only hold your email address if you write to us{SITE.newsletter && ' or subscribe to the newsletter'}.
+        </li>
       </ul>
 
       <h2>Who is responsible</h2>
@@ -48,6 +50,9 @@ const updated = '27 October 2026';
         correction. We keep the correspondence as long as needed for that purpose.
       </p>
 
+      {
+        SITE.newsletter && (
+          <>
       <h2>Newsletter</h2>
       <p>
         If you subscribe to The Monday Signal, your email address is stored by our newsletter service,
@@ -58,11 +63,14 @@ const updated = '27 October 2026';
         which you can withdraw at any time.
       </p>
 
+          </>
+        )
+      }
       <h2>If the portal changes owner</h2>
       <p>
-        If Data Governance Signal is transferred to a new owner, for example through a sale, subscriber addresses and the
-        data described here pass to the new owner, who must continue to use them only as this notice describes. We will
-        tell subscribers before the transfer, and you can unsubscribe at any time.
+        If Data Governance Signal is transferred to a new owner, for example through a sale, the data described here
+        {SITE.newsletter && '(including subscriber addresses) '}passes to the new owner, who must continue to use it only as
+        this notice describes.{SITE.newsletter && ' We will tell subscribers before the transfer, and you can unsubscribe at any time.'}
       </p>
 
       <h2>Links to sources</h2>

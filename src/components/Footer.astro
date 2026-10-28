@@ -20,7 +20,7 @@ const year = new Date().getFullYear();
         <li><a href="/opinion/">Editor&rsquo;s Opinion</a></li>
         <li><a href="/predictions/">Predictions</a></li>
         <li><a href="/institutions/">Institutions</a></li>
-        <li><a href="/newsletter/">Newsletter</a></li>
+        {SITE.newsletter && <li><a href="/newsletter/">Newsletter</a></li>}
         <li><a href="/rss.xml">RSS</a></li>
         <li><a href={`mailto:${SITE.email}`}>Contact</a></li>
       </ul>

@@ -300,6 +300,12 @@ def newsletter_text(monday: date, col: dict, articles: list[dict], watch: list[d
     return "\n".join(lines)
 
 
+def newsletter_enabled() -> bool:
+    """SITE.newsletter in src/data/site.ts: whether readers can subscribe at all."""
+    ts = (ROOT / "src" / "data" / "site.ts").read_text(encoding="utf-8")
+    return bool(re.search(r"^\s+newsletter: true,", ts, re.M))
+
+
 def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hints,
             watch: list[dict] | None = None, predictions: list[dict] | None = None) -> str:
     hint_by_id = {h["id"]: h["hint"] for h in hints}
@@ -328,10 +334,14 @@ def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hi
         lines += [f"- `{p['id']}` ({p['by']}, due {p['due']}): {p['claim']}\n  - hint: {hint_by_id.get(p['id'], '—')}" for p in due]
     else:
         lines.append("- none this week")
+    if newsletter_enabled():
+        lines += [
+            "", "### Newsletter (after merging)",
+            "Once the site has rebuilt, paste this into a new Buttondown email, write the One Practical Insight, and send it:",
+            "", "<details><summary>Newsletter text</summary>", "", "```markdown",
+            newsletter_text(monday, col, articles, watch or [], (predictions or []) + new), "```", "", "</details>",
+        ]
     lines += [
-        "", "### Newsletter (after merging)",
-        "Once the site has rebuilt, paste this into a new Buttondown email, write the One Practical Insight, and send it:",
-        "", "<details><summary>Newsletter text</summary>", "", "```markdown", newsletter_text(monday, col, articles, watch or [], (predictions or []) + new), "```", "", "</details>",
         "", "### For the editor", f"- **Writer's notes:** {col['review_notes'] or 'nothing flagged'}",
         "", f"@{EDITOR} — this week's Monday Signal package.",
         "", "---", f"_Drafted automatically by the Data Governance Signal pipeline ({WRITER_MODEL}); not published until merged._",

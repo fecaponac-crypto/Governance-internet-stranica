@@ -165,8 +165,19 @@ const counts = Object.fromEntries(
           <p><a href="/methodology/">How we work</a></p>
         </section>
         <div class="sticky">
-          <p>Get <b>The Monday Signal</b>: the week in data governance, every Monday.</p>
-          <a class="btn" href="/newsletter/">Subscribe</a>
+          {
+            SITE.newsletter ? (
+              <>
+                <p>Get <b>The Monday Signal</b>: the week in data governance, every Monday.</p>
+                <a class="btn" href="/newsletter/">Subscribe</a>
+              </>
+            ) : (
+              <>
+                <p>Tips, corrections or questions? <b>Write to the editor.</b></p>
+                <a class="btn" href={`mailto:${SITE.email}`}>Contact</a>
+              </>
+            )
+          }
         </div>
       </aside>
     </div>

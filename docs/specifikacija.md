@@ -19,6 +19,7 @@
 | 6 | Proračun | Do ~30 € mjesečno u prvoj fazi |
 | 7 | AI | Ništa se ne objavljuje bez odobrenja urednika; uloga AI-ja je javno navedena |
 | 8 | Naziv i domena | **Data Governance Signal**, `datagovernancesignal.com` (kratko: DG Signal) |
+| 10 | Newsletter | **Za sada bez newslettera** (odluka 28. 10. 2026.): portal ne prikuplja e-mail adrese; umjesto prijave svugdje je kontakt s urednikom. Vraća se postavkom `SITE.newsletter = true` kad se riješi pitanje voditelja obrade (Privacy) |
 | 9 | Jezik | **Samo engleski** (odluka 27. 10. 2026.). Drugi jezik tek ako analitika nakon 2–3 mjeseca pokaže veliku jezičnu skupinu čitatelja (npr. >20 %); tada prvo newsletter na tom jeziku. Hrvatsko tržište eventualno kao zaseban projekt, ne prijevod portala |
 
 ---
@@ -248,7 +249,7 @@ Okvirne skupine izvora:
 - [x] odabrati i spojiti newsletter servis (obrazac za prijavu) — Buttondown, 25. 10.
 - [x] About: kratki opis urednika (pseudonim The Steward)
 - [ ] provjera žiga (EUIPO/USPTO)
-- [ ] prvi newsletter ponedjeljak 2. 11. (iz Monday Signal paketa)
+- [x] ⏸️ newsletter odgođen (odluka 28. 10.) — prijava skrivena, Monday Signal izlazi samo na portalu
 - [ ] ⏸️ LinkedIn stranica portala (odvojena od osobnog profila) i prva objava — odgođeno 25. 10. na odluku urednika
 
 ## 10c. Ključevi i rokovi obnove

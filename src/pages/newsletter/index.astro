@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
+import { SITE } from '../../data/site';
 ---
 
 <Base title="Newsletter" description="The Monday Signal: the week in data governance and the editor’s column, every Monday.">
@@ -8,9 +9,20 @@ import NewsletterForm from '../../components/NewsletterForm.astro';
     <header class="page-head">
       <p class="eyebrow">Newsletter</p>
       <h1>The Monday Signal</h1>
-      <p>One email every Monday: the developments that mattered last week, what to do about them, and what comes next.</p>
+      {
+        SITE.newsletter ? (
+          <p>One email every Monday: the developments that mattered last week, what to do about them, and what comes next.</p>
+        ) : (
+          <p>
+            The email edition is coming later. Until then, read <a href="/monday-signal/">The Monday Signal</a> on the site
+            every Monday, or follow new stories through <a href="/rss.xml">RSS</a>.
+          </p>
+        )
+      }
     </header>
     <NewsletterForm />
+    {
+      SITE.newsletter && (
     <div class="prose points">
       <ul>
         <li><b>The Big Signal</b> — the one development of the week that matters most, and why.</li>
@@ -21,6 +33,8 @@ import NewsletterForm from '../../components/NewsletterForm.astro';
         <li>No tracking pixels, no selling of addresses.</li>
       </ul>
     </div>
+      )
+    }
   </div>
 </Base>
 

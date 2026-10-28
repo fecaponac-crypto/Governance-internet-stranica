@@ -6,6 +6,15 @@ interface Props {
 const { compact = false } = Astro.props;
 ---
 
+{!SITE.newsletter && (
+<section class:list={['nl', { compact }]} aria-labelledby="nl-title">
+  <p class="eyebrow">Contact the editor</p>
+  <h2 id="nl-title">Tips, corrections, questions?</h2>
+  <p class="lede">Write to The Steward, the editor of Data Governance Signal. Every message is read.</p>
+  <a class="btn" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+</section>
+)}
+{SITE.newsletter && (
 <section class:list={['nl', { compact }]} aria-labelledby="nl-title">
   <p class="eyebrow">The Monday Signal</p>
   <h2 id="nl-title">The week in data governance, in five minutes.</h2>
@@ -20,6 +29,7 @@ const { compact = false } = Astro.props;
     Free. Confirm by email, unsubscribe anytime, no tracking. <a href="/privacy/">Privacy</a>
   </p>
 </section>
+)}
 
 <script>
   // The form opens Buttondown's confirmation page in a new tab; tell the reader what happens next.

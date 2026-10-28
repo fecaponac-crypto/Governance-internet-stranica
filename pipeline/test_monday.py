@@ -141,11 +141,15 @@ class MondayTest(unittest.TestCase):
     def test_pr_body_lists_due_and_newsletter(self):
         articles = monday.week_articles(MONDAY)
         due = monday.due_predictions(monday.load_predictions()[1], MONDAY)
-        body = monday.pr_body(MONDAY, COLUMN, articles, [], [], due, COLUMN["scorecard_hints"])
+        with mock.patch.object(monday, "newsletter_enabled", lambda: True):
+            body = monday.pr_body(MONDAY, COLUMN, articles, [], [], due, COLUMN["scorecard_hints"])
         self.assertIn("`2026-10-26-1`", body)
         self.assertNotIn("2026-10-26-2", body)
         self.assertIn("https://datagovernancesignal.com/news/one/", body)
         self.assertIn("Monday 2 November 2026", body)
+        with mock.patch.object(monday, "newsletter_enabled", lambda: False):
+            quiet = monday.pr_body(MONDAY, COLUMN, articles, [], [], due, COLUMN["scorecard_hints"])
+        self.assertNotIn("Buttondown", quiet)
 
     def test_newsletter_sections(self):
         articles = monday.week_articles(MONDAY)
