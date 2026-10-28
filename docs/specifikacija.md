@@ -224,6 +224,7 @@ Okvirne skupine izvora:
 ## 10a-4. Glavna vijest na početnoj (odluka 27. 10. 2026.)
 
 - Glavna vijest = najveći zbroj **važnost − 0,5 × starost u danima** (vijesti do 14 dana). Kritična vijest ostaje na vrhu oko 2 dana, važna oko 1 dan, osim ako stigne nešto jednako važno.
+- **Izmjena glavnih vijesti:** uz glavnu se izmjenjuju (svakih 10 s) još najviše dvije vijesti važnosti 4–5 iz zadnjih 7 dana; točkice „Top stories” iznad vijesti, pauza na mišu/fokusu i gumbom, bez automatske izmjene uz „smanji pokrete”.
 - **Ručno prikvačivanje:** u PR-u dodati `featuredUntil: GGGG-MM-DD`; vijest je glavna do tog datuma (uključivo).
 - Stranica se ponovno gradi pri svakom spajanju i **svako jutro** (prvo prikupljanje u 06 UTC), pa se vrh i kalendar rokova mijenjaju i u mirnim danima.
 

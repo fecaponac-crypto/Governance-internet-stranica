@@ -28,6 +28,21 @@ export function pickLead(articles: Article[], now = new Date()): Article | undef
   return [...recent].sort((a, b) => score(b) - score(a))[0] ?? articles[0];
 }
 
+/**
+ * Stories that rotate in the homepage lead slot: the lead, then up to two other Important or
+ * Critical stories from the last 7 days, best score first.
+ */
+export function pickLeadStories(articles: Article[], now = new Date(), max = 3): Article[] {
+  const lead = pickLead(articles, now);
+  if (!lead) return [];
+  const today = now.getTime();
+  const score = (a: Article) => a.data.importance - 0.5 * Math.max(0, (today - a.data.date.getTime()) / DAY);
+  const others = articles
+    .filter((a) => a !== lead && a.data.importance >= 4 && today - a.data.date.getTime() <= 7 * DAY)
+    .sort((a, b) => score(b) - score(a));
+  return [lead, ...others].slice(0, max);
+}
+
 export function formatDate(d: Date): string {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 }

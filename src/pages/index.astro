@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { articleUrl, columnUrl, formatDate, getArticles, getColumns, getOpinions, getPredictions, isoDate, opinionUrl, pickLead } from '../utils/articles';
+import { articleUrl, columnUrl, formatDate, getArticles, getColumns, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
 import { INSTITUTIONS } from '../data/institutions';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
@@ -10,7 +10,8 @@ const articles = await getArticles();
 const column = (await getColumns())[0];
 const essay = (await getOpinions())[0];
 // Lead story: importance weighed against age at build time (the site rebuilds at least daily).
-const lead = pickLead(articles);
+const leads = pickLeadStories(articles);
+const lead = leads[0];
 // Latest: every other article, newest first. The top right holds our own writing, so no
 // news item appears twice and the newest story is always first under Latest (or the lead).
 const others = articles.filter((a) => a !== lead);
@@ -46,7 +47,34 @@ const counts = Object.fromEntries(
   <div class="wrap">
     <h1 class="visually-hidden">{SITE.name}: what matters in data governance, and why</h1>
     <section class="hero" aria-label="Top stories">
-      <div class="lead">{lead && <ArticleCard article={lead} variant="lead" />}</div>
+      <div class="lead" data-rotator>
+        {
+          leads.length > 1 && (
+            <div class="rotator-controls">
+              <span class="label">Top stories</span>
+              {leads.map((a, i) => (
+                <button
+                  type="button"
+                  class="dot"
+                  data-dot={i}
+                  aria-label={`Top story ${i + 1} of ${leads.length}: ${a.data.title}`}
+                  aria-current={i === 0 ? 'true' : undefined}
+                />
+              ))}
+              <button type="button" class="pause" data-pause aria-label="Pause rotation">Pause</button>
+            </div>
+          )
+        }
+        <div class="slides">
+          {
+            leads.map((a, i) => (
+              <div class="slide" data-slide aria-hidden={i > 0 ? 'true' : undefined} inert={i > 0}>
+                <ArticleCard article={a} variant="lead" />
+              </div>
+            ))
+          }
+        </div>
+      </div>
       <div class="side">
         {
           column && (
@@ -183,6 +211,49 @@ const counts = Object.fromEntries(
     </div>
   </div>
 </Base>
+
+<script>
+  // Rotate the top stories every 10 s. Pauses on hover, keyboard focus and when the tab is hidden;
+  // no automatic rotation for readers who ask for reduced motion (the dots still work).
+  document.querySelectorAll<HTMLElement>('[data-rotator]').forEach((box) => {
+    const slides = [...box.querySelectorAll<HTMLElement>('[data-slide]')];
+    const dots = [...box.querySelectorAll<HTMLButtonElement>('[data-dot]')];
+    const pauseBtn = box.querySelector<HTMLButtonElement>('[data-pause]');
+    if (slides.length < 2) return;
+    let current = 0;
+    let paused = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let hovered = false;
+    const show = (n: number) => {
+      current = (n + slides.length) % slides.length;
+      slides.forEach((s, i) => {
+        const on = i === current;
+        s.classList.toggle('on', on);
+        s.toggleAttribute('inert', !on);
+        if (on) s.removeAttribute('aria-hidden');
+        else s.setAttribute('aria-hidden', 'true');
+      });
+      dots.forEach((d, i) => (i === current ? d.setAttribute('aria-current', 'true') : d.removeAttribute('aria-current')));
+    };
+    const setPaused = (p: boolean) => {
+      paused = p;
+      if (pauseBtn) {
+        pauseBtn.textContent = p ? 'Play' : 'Pause';
+        pauseBtn.setAttribute('aria-label', p ? 'Resume rotation' : 'Pause rotation');
+      }
+    };
+    setPaused(paused);
+    show(0);
+    dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+    pauseBtn?.addEventListener('click', () => setPaused(!paused));
+    box.addEventListener('mouseenter', () => (hovered = true));
+    box.addEventListener('mouseleave', () => (hovered = false));
+    box.addEventListener('focusin', () => (hovered = true));
+    box.addEventListener('focusout', () => (hovered = false));
+    setInterval(() => {
+      if (!paused && !hovered && !document.hidden) show(current + 1);
+    }, 10_000);
+  });
+</script>
 
 <style>
   .hero {
@@ -348,5 +419,66 @@ const counts = Object.fromEntries(
   .sticky p {
     margin: 0 0 0.75rem;
     font-size: 0.93rem;
+  }
+  /* Stacked slides: the box keeps the height of the tallest, so the page does not jump. */
+  .slides {
+    display: grid;
+  }
+  .slide {
+    grid-area: 1 / 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .slide:first-child,
+  .slide.on {
+    visibility: visible;
+    opacity: 1;
+  }
+  .slides:has(.slide.on) .slide:not(.on) {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .rotator-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: -0.25rem 0 0.75rem;
+  }
+  .rotator-controls .label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-right: 0.35rem;
+  }
+  .dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    padding: 0;
+    border-radius: 50%;
+    border: 1.5px solid var(--ink-3);
+    background: transparent;
+    cursor: pointer;
+  }
+  .dot[aria-current='true'] {
+    background: var(--signal);
+    border-color: var(--signal);
+  }
+  .pause {
+    margin-left: 0.5rem;
+    font: inherit;
+    font-size: 0.75rem;
+    color: var(--ink-3);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .slide {
+      transition: none;
+    }
   }
 </style>
