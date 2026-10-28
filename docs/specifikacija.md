@@ -236,14 +236,19 @@ Okvirne skupine izvora:
 
 **Što pratimo:** broj i kvalitetu nacrta, udio objavljenih/odbačenih, točnost u odnosu na izvore, propuštene važne vijesti, potrošnju AI-ja (`data/reports/drafts.md`), ispade izvora (`data/reports/latest.md`).
 
+**Lansiranje: petak 30. 10. 2026. u 12:00 (Zagreb, CET) = 11:00 UTC** (odluka 28. 10.). Do tada traka na vrhu svake stranice odbrojava (`SITE.launchAt`).
+
+**Automatski u trenutku lansiranja** (Worker cron `55 10 30 10 *` → `.github/workflows/launch.yml` → `pipeline/launch.py`; rezerva: GitHubov raspored; ručno: *Actions → Public launch → Run workflow*, opcija *now*): skripta čeka do 11:59, postavlja `SITE.preview = false` i briše probne članke, commit i push → Cloudflare objavi za ~1 min. Tada nestaju traka i `noindex`, `robots.txt` otvara stranicu tražilicama uz Sitemap. Ishod pokretanja: KV `cron:last-launch`.
+
 **Kontrolna lista za lansiranje (faza 6):**
-- [ ] dotjerati pragove i upute trijaže prema iskustvu iz pilota
-- [ ] `SITE.preview = false`, ukloniti probne članke (`sample: true`)
-- [ ] `robots.txt`: dopustiti indeksiranje + Sitemap
-- [ ] Privacy: pravni naziv voditelja obrade (servis za newsletter dodan)
+- [ ] dotjerati pragove i upute trijaže prema iskustvu iz pilota (nakon lansiranja, s podacima iz pilota)
+- [x] `SITE.preview = false`, ukloniti probne članke (`sample: true`) — automatski 30. 10. u 12:00
+- [x] `robots.txt`: dopustiti indeksiranje + Sitemap — automatski (generira se iz `SITE.preview`)
+- [ ] Privacy: identitet voditelja obrade (GDPR čl. 13 traži ime/naziv i kontakt; s pseudonimom otvoreno pitanje — vidi bilješku urednika)
 - [x] odabrati i spojiti newsletter servis (obrazac za prijavu) — Buttondown, 25. 10.
-- [ ] About: kratki opis urednika (po želji)
+- [x] About: kratki opis urednika (pseudonim The Steward)
 - [ ] provjera žiga (EUIPO/USPTO)
+- [ ] prvi newsletter ponedjeljak 2. 11. (iz Monday Signal paketa)
 - [ ] ⏸️ LinkedIn stranica portala (odvojena od osobnog profila) i prva objava — odgođeno 25. 10. na odluku urednika
 
 ## 10c. Ključevi i rokovi obnove

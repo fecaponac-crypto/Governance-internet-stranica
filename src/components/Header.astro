@@ -9,9 +9,11 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
 {
   SITE.preview && (
     <div class="preview">
-      <div class="wrap">
-        <strong>Preview.</strong> Data Governance Signal is in preparation — articles shown are samples based on real
-        sources. <a href="/newsletter/">Get notified at launch</a>
+      <div class="wrap" data-countdown={SITE.launchAt}>
+        <strong>Launching Friday 30 October, 12:00 CET</strong>
+        <span class="clock" aria-live="off" data-clock></span>
+        <span class="note" data-note>Preview — some articles are samples.</span>
+        <a href="/newsletter/">Get The Monday Signal</a>
       </div>
     </div>
   )
@@ -57,7 +59,45 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
   </nav>
 </header>
 
+<script>
+  // Ticking countdown to the launch; the page itself switches when the launch build goes live.
+  document.querySelectorAll<HTMLElement>('[data-countdown]').forEach((bar) => {
+    const target = Date.parse(bar.dataset.countdown!);
+    const clock = bar.querySelector<HTMLElement>('[data-clock]')!;
+    const note = bar.querySelector<HTMLElement>('[data-note]')!;
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const tick = () => {
+      const left = target - Date.now();
+      if (left <= 0) {
+        clock.textContent = 'We are going live';
+        note.textContent = 'Refresh in a minute or two.';
+        return;
+      }
+      const s = Math.floor(left / 1000);
+      const d = Math.floor(s / 86400);
+      clock.textContent = `${d > 0 ? `${d}d ` : ''}${pad(Math.floor((s % 86400) / 3600))}h ${pad(Math.floor((s % 3600) / 60))}m ${pad(s % 60)}s`;
+      setTimeout(tick, 1000 - (Date.now() % 1000));
+    };
+    tick();
+  });
+</script>
+
 <style>
+  .preview .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.9rem;
+  }
+  .clock {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    color: var(--signal);
+    min-width: 9.5rem;
+  }
+  .note {
+    color: var(--ink-2);
+  }
   .preview {
     background: var(--signal-soft);
     color: var(--ink);

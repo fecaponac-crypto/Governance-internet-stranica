@@ -1,9 +1,11 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { SITE } from '../data/site';
 
 export type Article = CollectionEntry<'articles'>;
 
 export async function getArticles(): Promise<Article[]> {
-  const all = await getCollection('articles', ({ data }) => !data.draft);
+  // Sample articles exist only for the preview.
+  const all = await getCollection('articles', ({ data }) => !data.draft && (SITE.preview || !data.sample));
   return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
 

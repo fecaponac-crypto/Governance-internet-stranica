@@ -80,6 +80,8 @@ const WORKFLOWS_URL = 'https://api.github.com/repos/fecaponac-crypto/Governance-
 export const CRON_JOBS = {
   '17 */3 * * *': { workflow: 'ingest.yml', key: 'cron:last' },
   '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday' },
+  // Public launch, 30 October 12:00 Zagreb; repeats yearly but does nothing after launch.
+  '55 10 30 10 *': { workflow: 'launch.yml', key: 'cron:last-launch' },
 };
 const WORKFLOW_REF = 'claude/data-intelligence-portal-plan-v46ux0';
 

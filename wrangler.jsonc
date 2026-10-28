@@ -13,10 +13,11 @@
   },
   // Worker logs in the dashboard (Observability), e.g. for the cron below.
   "observability": { "enabled": true },
-  // Start GitHub workflows (UTC): ingestion every 3 hours, The Monday Signal on Mondays.
+  // Start GitHub workflows (UTC): ingestion every 3 hours, The Monday Signal on Mondays,
+  // and the public launch (30 October 10:55, live at 12:00 Zagreb).
   // Keep in sync with CRON_JOBS in worker/index.js. Cloudflare counts weekdays 1 = Sunday,
   // so use names (MON), never numbers.
-  "triggers": { "crons": ["17 */3 * * *", "47 5 * * MON"] },
+  "triggers": { "crons": ["17 */3 * * *", "47 5 * * MON", "55 10 30 10 *"] },
   // Private store for incoming newsletters; created automatically on first deploy.
   "kv_namespaces": [{ "binding": "SOURCES" }]
 }

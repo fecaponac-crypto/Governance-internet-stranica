@@ -1,0 +1,55 @@
+name: Public launch
+
+on:
+  # Started by the Worker cron at 10:55 UTC on 30 October (12:00 Zagreb launch, see launchAt
+  # in src/data/site.ts); GitHub's own schedule is a fallback. The script waits until a
+  # minute before launch, and does nothing once preview is already off.
+  schedule:
+    - cron: '55 10 30 10 *'
+  workflow_dispatch:
+    inputs:
+      now:
+        description: 'Launch immediately instead of waiting for launchAt'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: launch
+  cancel-in-progress: false
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install PyYAML==6.0.3
+
+      - name: Switch off preview and remove sample articles
+        id: launch
+        run: |
+          result=$(python pipeline/launch.py ${{ inputs.now && '--now' || '' }})
+          echo "$result"
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push (Cloudflare builds and deploys the site)
+        if: ${{ !startsWith(steps.launch.outputs.result, 'already live') }}
+        run: |
+          git config user.name "dgs-ingest-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A src/data/site.ts src/content/articles
+          git commit -m "Launch: Data Governance Signal is live" -m "${{ steps.launch.outputs.result }}"
+          for i in 1 2 3 4; do
+            git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 3))
+          done
+          exit 1

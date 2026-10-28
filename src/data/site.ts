@@ -11,8 +11,11 @@ export const SITE = {
   // Buttondown newsletter (double opt-in, open/click tracking off).
   newsletterSubscribeUrl: 'https://buttondown.com/api/emails/embed-subscribe/datagovernancesignal',
   newsletterArchiveUrl: 'https://buttondown.com/datagovernancesignal',
-  // While true: preview banner on every page, noindex, robots.txt disallows crawling.
+  // While true: preview banner with a countdown to launchAt, sample articles shown, noindex,
+  // robots.txt disallows crawling. .github/workflows/launch.yml sets it to false at launch.
   preview: true,
+  // Public launch: Friday 30 October 2026, 12:00 in Zagreb (CET, UTC+1).
+  launchAt: '2026-10-30T11:00:00Z',
 };
 
 // Weekly editor's column; the newsletter goes out with it on Mondays.
