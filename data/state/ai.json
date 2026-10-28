@@ -430,6 +430,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "55f8a072612dc225": {
+   "at": "2026-10-28T12:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment news with no governance-specific consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5753c5b3c5296b6a": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [
@@ -840,6 +849,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "a912434846b45192": {
+   "at": "2026-10-28T12:18:28Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Conversation/panel promotion with generic thought-leadership framing; little concrete consequence stated in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ab4091a7e20510a1": {
    "at": "2026-10-26T09:18:09Z",
    "categories": [],
@@ -858,6 +878,23 @@
    "importance": 2,
    "reason": "Vulnerability catalogue update is a security item without a data governance angle beyond general cybersecurity.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "b43cb2cdb7c156ad": {
+   "at": "2026-10-28T12:18:28Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/24",
+   "primary_found": false,
+   "reason": "Norwegian DPA guidance that routine governance practices prevent AI becoming an invisible risk; relevant regulator guidance on AI governance practice.",
+   "relevant": true,
    "same_story_as": null
   },
   "b66f2264c3976205": {
@@ -1100,6 +1137,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d28fc72e303e8de8": {
+   "at": "2026-10-28T12:18:28Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Italian DPA blocks publication of images of a minor in a public-order incident; a practical privacy enforcement action, modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d2e9b967064aea9c": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -1267,6 +1315,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e839167a565141bd": {
+   "at": "2026-10-28T12:18:28Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "italy-s-garante-backs-age-checks-under-proposed-eu-kids-act-but-calls",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/23",
+   "primary_found": false,
+   "reason": "Italian DPA chair comments on EU child protection legislation and the balance with privacy; policy-level news with a privacy angle, though no excerpt detail.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e90ca542343c425e": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [
@@ -1387,8 +1452,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 60,
-   "usd": 1.6973
+   "calls": 65,
+   "usd": 1.8163
   }
  }
 }

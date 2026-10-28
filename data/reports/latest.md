@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-10-28T09:18:16Z** · sources checked: 80 · failed: 0 · new items this run: 3
+Last run: **2026-10-28T12:18:17Z** · sources checked: 80 · failed: 0 · new items this run: 5
 
-## New items, last 48 hours (113)
+## New items, last 48 hours (116)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Eu Kids Act, Stanzione: Tutela dei minori senza sacrificare privacy e autonomia](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312988) |
+| 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Scontri di Milano: Garante Privacy blocca le immagini dell'undicenne](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312725) |
 | 2026-10-27 | IAPP — International Association of Privacy Professionals | [Italy's AI Act framework takes shape: What Legislative Decree No. 179/2026 means for organizations](https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations) |
 | 2026-10-27 | IAPP — International Association of Privacy Professionals | [Between the homework app and the midnight feed](https://iapp.org/news/a/between-the-homework-app-and-the-midnight-feed) |
 | 2026-10-26 | IAPP — International Association of Privacy Professionals | [UAE introduces comprehensive child digital safety framework](https://iapp.org/news/a/uae-introduces-comprehensive-child-digital-safety-framework) |
@@ -16,6 +18,8 @@ Last run: **2026-10-28T09:18:16Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | Datatilsynet (Norway) | [Gode rutiner hindrer at KI blir en usynlig trussel](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/) |
+| 2026-10-28 | CDO Magazine | [Leadership Moves PENN Entertainment Appoints Gary Hunter Chief Information Security Officer](https://www.cdomagazine.tech/leadership-moves/penn-entertainment-appoints-gary-hunter-chief-information-security-officer) |
 | 2026-10-28 | SiliconANGLE — Big Data | [Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot](https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/) |
 | 2026-10-28 | Euractiv | [THE HACK: Digital omnibus lobby frenzy](https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/) |
 | 2026-10-28 | DATAVERSITY | [The CDO Doom Loop Is Quietly Undermining Enterprise AI](https://www.dataversity.net/articles/the-cdo-doom-loop-is-quietly-undermining-enterprise-ai/) |
@@ -47,13 +51,13 @@ Last run: **2026-10-28T09:18:16Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | CDO Magazine | [US Federal News Bureau NOAA Cloud Migration Raises New Challenges for Federal Data Management](https://www.cdomagazine.tech/us-federal-news-bureau/noaa-cloud-migration-raises-new-challenges-for-federal-data-management) |
 | 2026-10-26 | Ataccama Blog | [What Is a Data Product Manager in the Age of AI?](https://www.ataccama.com/blog/data-product-manager) |
 | 2026-10-26 | European Data Protection Supervisor (EDPS) | [Blog post: Making AI visible: Fourth meeting of the AI Act Correspondents Network](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-making-ai-visible-fourth-meeting-ai-act-correspondents-network) |
-| 2026-10-26 | CDO Magazine | [Leadership Moves W. R. Berkley Appoints Kalyani Sekar Senior Vice President of AI & Technology](https://www.cdomagazine.tech/leadership-moves/w-r-berkley-appoints-kalyani-sekar-senior-vice-president-of-ai-technology) |
 | 2026-10-22 | Collibra Blog | [Collibra + Trail ML: Bringing AI governance and automation together](https://www.collibra.com/blog/collibra-trail-ml-bringing-ai-governance-and-automation-together) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | DataGalaxy | [AI governance: why Colas and Arkéa didn’t wait for the AI Act](https://www.datagalaxy.com/en/blog/ai-governance-why-colas-and-arkea-didnt-wait-for-the-ai-act/) |
 | 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
 | 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
@@ -130,7 +134,6 @@ Last run: **2026-10-28T09:18:16Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | dbt Labs Blog | [How AlphaSense turned a 3-to-5-week data rebuild into a few hours with dbt and Euno's AI context](https://www.getdbt.com/blog/alphasense-dbt-ai-context-data-rebuild) |
 | 2026-10-26 | dbt Labs Blog | [When skills meet scale: an agent assembly line for dbt](https://www.getdbt.com/blog/dbt-skills-scale-agent-assembly-line) |
 | 2026-10-26 | Center for Security and Emerging Technology (CSET) | [How Black-Box Distillation Works](https://cset.georgetown.edu/article/how-black-box-distillation-works/) |
-| 2026-10-26 | The Record (Recorded Future News) | [Popular AI tool LiteLLM says unrevoked key allowed hackers to target users](https://therecord.media/litellm-hackers-ai-malware) |
 
 ## Source problems
 
