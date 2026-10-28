@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-28T12:59:10Z** · sources checked: 80 · failed: 0 · new items this run: 2
+Last run: **2026-10-28T15:18:20Z** · sources checked: 80 · failed: 1 · new items this run: 8
 
-## New items, last 48 hours (118)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -12,12 +12,15 @@ Last run: **2026-10-28T12:59:10Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Scontri di Milano: Garante Privacy blocca le immagini dell'undicenne](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312725) |
 | 2026-10-27 | IAPP — International Association of Privacy Professionals | [Italy's AI Act framework takes shape: What Legislative Decree No. 179/2026 means for organizations](https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations) |
 | 2026-10-27 | IAPP — International Association of Privacy Professionals | [Between the homework app and the midnight feed](https://iapp.org/news/a/between-the-homework-app-and-the-midnight-feed) |
-| 2026-10-26 | IAPP — International Association of Privacy Professionals | [UAE introduces comprehensive child digital safety framework](https://iapp.org/news/a/uae-introduces-comprehensive-child-digital-safety-framework) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | CDO Magazine | [AI Governance Who Owns the Context Layer?](https://www.cdomagazine.tech/ai-governance/who-owns-the-context-layer) |
+| 2026-10-28 | CDO Magazine | [Industry Newsroom Monte Carlo Launches Bayes, the Industry’s First AI Teammate for Agent Trust](https://www.cdomagazine.tech/others/monte-carlo-launches-bayes-the-industrys-first-ai-teammate-for-agent-trust) |
+| 2026-10-28 | Alation Blog | [October 28, 2026 Why Is Data Privacy Important? A Guide for Businesses and Individuals In the era of AI, data privacy is a critical architecture challenge. Discover why AI agents and shifting regulations… Read More](https://www.alation.com/blog/why-data-privacy-is-important/) |
+| 2026-10-28 | SiliconANGLE — Big Data | [Monte Carlo Data launches Bayes, an AI agent for autonomously monitoring and fixing autonomous agents](https://siliconangle.com/2026/10/28/monte-carlo-data-launches-bayes-an-ai-agent-for-autonomously-monitoring-and-fixing-autonomous-agents/) |
 | 2026-10-28 | Ataccama Blog | [Ataccama launches headless MDM to bring trusted golden records and data stewardship work into agentic workflows](https://www.ataccama.com/news/ataccama-launches-headless-mdm-to-bring-trusted-golden-records-and-data-stewardship-work-into-agentic-workflows) |
 | 2026-10-28 | Ataccama Blog | [What is headless MDM? How AI agents use and maintain your golden records](https://www.ataccama.com/blog/what-is-headless-mdm-how-ai-agents-use-and-maintain-your-golden-records) |
 | 2026-10-28 | Datatilsynet (Norway) | [Gode rutiner hindrer at KI blir en usynlig trussel](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/) |
@@ -48,17 +51,16 @@ Last run: **2026-10-28T12:59:10Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 | 2026-10-26 | Future of Privacy Forum | [AI Hallucination Goes to Court: A Global Mapping of Emerging Legal Issues](https://fpf.org/blog/ai-hallucination-goes-to-court-a-global-mapping-of-emerging-legal-issues/) |
-| 2026-10-26 | CDO Magazine | [Artificial Intelligence OpenAI Security Testing Exposes New Challenges in Monitoring AI Agents](https://www.cdomagazine.tech/aiml/openai-security-testing-exposes-new-challenges-in-monitoring-ai-agents) |
-| 2026-10-26 | CDO Magazine | [Artificial Intelligence Anthropic’s Claude Accessed Georgia Election Data Without Authorization](https://www.cdomagazine.tech/aiml/anthropics-claude-accessed-georgia-election-data-without-authorization) |
-| 2026-10-26 | CDO Magazine | [US Federal News Bureau NOAA Cloud Migration Raises New Challenges for Federal Data Management](https://www.cdomagazine.tech/us-federal-news-bureau/noaa-cloud-migration-raises-new-challenges-for-federal-data-management) |
-| 2026-10-26 | Ataccama Blog | [What Is a Data Product Manager in the Age of AI?](https://www.ataccama.com/blog/data-product-manager) |
 | 2026-10-26 | European Data Protection Supervisor (EDPS) | [Blog post: Making AI visible: Fourth meeting of the AI Act Correspondents Network](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-making-ai-visible-fourth-meeting-ai-act-correspondents-network) |
-| 2026-10-22 | Collibra Blog | [Collibra + Trail ML: Bringing AI governance and automation together](https://www.collibra.com/blog/collibra-trail-ml-bringing-ai-governance-and-automation-together) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | DataHub Blog (open source metadata platform) | [What Five Months of Beta Taught Us About Making AI Agents Trustworthy](https://datahub.com/blog/making-ai-agents-trustworthy-lessons-from-beta/) |
+| 2026-10-28 | DataHub Blog (open source metadata platform) | [Context Graph vs. Ontology: Why Each Needs the Other](https://datahub.com/blog/context-graph-vs-ontology/) |
+| 2026-10-28 | DataHub Blog (open source metadata platform) | [What Is a Unified Context Layer? (And What Unified Doesn’t Mean)](https://datahub.com/blog/unified-context-layer/) |
+| 2026-10-28 | DataHub Blog (open source metadata platform) | [Data Lifecycle Management: The Six Stages for the AI Era](https://datahub.com/blog/data-lifecycle-management/) |
 | 2026-10-28 | DataGalaxy | [AI governance: why Colas and Arkéa didn’t wait for the AI Act](https://www.datagalaxy.com/en/blog/ai-governance-why-colas-and-arkea-didnt-wait-for-the-ai-act/) |
 | 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
@@ -112,34 +114,10 @@ Last run: **2026-10-28T12:59:10Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | Computer Weekly — IT security | [UK secrecy over AI in immigration and asylum decisions under fire](https://www.computerweekly.com/news/366652683/UK-secrecy-over-AI-in-immigration-and-asylum-decisions-under-fire) |
 | 2026-10-26 | Google Cloud Blog — Data Analytics | [Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA](https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/) |
 | 2026-10-26 | Precisely Blog | [Precisely AI Studio: try ready-made apps, agents, and skills on real data](https://www.precisely.com/blog/engineering/precisely-ai-studio-try-ready-made-apps-agents-and-skills-on-real-data/) |
-| 2026-10-26 | Autorité de protection des données (Belgium) | [DPA/DPO Day 2027 : appel à contributions des DPO](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/26/dpadpo-day-2027-appel-a-contributions-des-dpo) |
-| 2026-10-26 | dbt Labs Blog | [From prompt to PR: how Careem’s AI writes and validates dbt models before a human ever sees them](https://www.getdbt.com/blog/careem-ai-dbt-model-testing-validation) |
-| 2026-10-26 | dbt Labs Blog | [How DocuSign cut analytics engineering time in half by pairing Claude Code with dbt v2, dbt MCP, and agent skills](https://www.getdbt.com/blog/docusign-claude-code-dbt-v2-mcp-agent-skills) |
-| 2026-10-26 | dbt Labs Blog | [How Virgin Media O2 cut compute costs 30% by giving dbt a memory](https://www.getdbt.com/blog/virgin-media-o2-dbt-state-compute-costs) |
-| 2026-10-26 | dbt Labs Blog | [How Ramp's internal AI agents crossed a million sessions](https://www.getdbt.com/blog/ramp-internal-ai-agents-million-sessions) |
-| 2026-10-26 | dbt Labs Blog | [From mainframe to AI-powered maturity: Verisk's data modernization journey](https://www.getdbt.com/blog/verisk-mainframe-dbt-data-modernization-ai) |
-| 2026-10-26 | dbt Labs Blog | [What a swarm of rogue AI agents can teach us about having better ideas](https://www.getdbt.com/blog/ai-agent-creativity-semantic-distance) |
-| 2026-10-26 | dbt Labs Blog | [How to solve dashboard debugging in six minutes with an MCP-connected AI agent](https://www.getdbt.com/blog/mcp-ai-agent-dashboard-debugging) |
-| 2026-10-26 | dbt Labs Blog | [How a data scientist at Kilo built the business context layer his AI agents were missing](https://www.getdbt.com/blog/business-context-layer-ai-agents-dbt-mcp) |
-| 2026-10-26 | dbt Labs Blog | [The dbt governance framework that cut new project setup time 70%](https://www.getdbt.com/blog/dbt-governance-framework-project-setup-time) |
-| 2026-10-26 | dbt Labs Blog | [How Obie Insurance cut its month-end close from 25 hours to 2 with dbt State and a lake house rebuild](https://www.getdbt.com/blog/obie-insurance-month-end-close-dbt-state-lakehouse) |
-| 2026-10-26 | dbt Labs Blog | [A dbt "logic mesh" with packages: standard model and metrics across 25 autonomous organizations](https://www.getdbt.com/blog/dbt-logic-mesh-packages-cross-org-metrics) |
-| 2026-10-26 | dbt Labs Blog | [How Figma turned dbt tests into consistency checkers that catch 100+ bugs a month](https://www.getdbt.com/blog/figma-dbt-tests-data-quality-consistency-checks) |
-| 2026-10-26 | dbt Labs Blog | [How Mitratech cut new customer data onboarding from six weeks to three days with dbt](https://www.getdbt.com/blog/mitratech-customer-data-onboarding-dbt) |
-| 2026-10-26 | dbt Labs Blog | [How Compare the Market cut report delivery from 6 weeks to under 1 by retiring most of its dashboards](https://www.getdbt.com/blog/compare-the-market-report-delivery-dashboard-modernization) |
-| 2026-10-26 | dbt Labs Blog | [Shrink the surface: governed self-service for analyst-owned dbt pipelines](https://www.getdbt.com/blog/governed-self-service-analyst-owned-dbt-pipelines) |
-| 2026-10-26 | dbt Labs Blog | [Meta:Context: a business context schema in dbt's semantic layer](https://www.getdbt.com/blog/meta-context-dbt-semantic-layer-business-context) |
-| 2026-10-26 | dbt Labs Blog | [How WMCHealth cut a 72-minute dbt pipeline down to 5 minutes, with one environment variable](https://www.getdbt.com/blog/wmchealth-dbt-pipeline-five-minute-refresh) |
-| 2026-10-26 | dbt Labs Blog | [How WebstaurantStore used Snowflake Cortex AI to automate dbt staging for 700+ sources in 90 days](https://www.getdbt.com/blog/webstaurantstore-snowflake-cortex-dbt-staging) |
-| 2026-10-26 | dbt Labs Blog | [How Recruit Holdings, the company behind Indeed, taught its text-to-SQL agent to read a website's hidden context](https://www.getdbt.com/blog/recruit-holdings-text-to-sql-agent-website-context) |
-| 2026-10-26 | dbt Labs Blog | [How PetScreening turned a dbt pipeline into a pet tag factory](https://www.getdbt.com/blog/how-petscreening-turned-a-dbt-pipeline-into-a-pet-tag-factory) |
-| 2026-10-26 | dbt Labs Blog | [How AlphaSense turned a 3-to-5-week data rebuild into a few hours with dbt and Euno's AI context](https://www.getdbt.com/blog/alphasense-dbt-ai-context-data-rebuild) |
-| 2026-10-26 | dbt Labs Blog | [When skills meet scale: an agent assembly line for dbt](https://www.getdbt.com/blog/dbt-skills-scale-agent-assembly-line) |
-| 2026-10-26 | Center for Security and Emerging Technology (CSET) | [How Black-Box Distillation Works](https://cset.georgetown.edu/article/how-black-box-distillation-works/) |
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 

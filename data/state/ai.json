@@ -69,6 +69,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "13067dac8ba153f3": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conceptual vendor blog post on ontologies and context graphs; generic thought-leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "134111dd1ffd53a2": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -85,6 +96,23 @@
    "importance": 1,
    "reason": "Routine privacy notice for a government business survey; not a development in data governance practice.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "1439e0349a54fc98": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "market",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "monte-carlo-launches-bayes-an-ai-teammate-that-monitors-and-fixes-agen",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/25",
+   "primary_found": true,
+   "reason": "Vendor product launch of an AI agent for agent trust monitoring; a genuine launch in the governance/observability market, though same launch covered by item 7.",
+   "relevant": true,
    "same_story_as": null
   },
   "145d9618b9cb72f8": {
@@ -482,6 +510,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "612622baf17ef78e": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer on data privacy basics; generic thought-leadership rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "65ee2a7efc923159": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -698,6 +735,23 @@
    "importance": 2,
    "reason": "Vendor partnership case study; rebuild speed claims are marketing-style without a clear governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "8f89234463f48768": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "market",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "monte-carlo-launches-bayes-an-ai-agent-that-monitors-and-fixes-other-a",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/26",
+   "primary_found": false,
+   "reason": "Press coverage of Monte Carlo's Bayes launch for monitoring AI agents; genuine product launch relevant to agent trust and governance.",
+   "relevant": true,
    "same_story_as": null
   },
   "9088311c63f28c84": {
@@ -984,6 +1038,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "bd9366fffa3a6e75": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "ai-governance",
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Discusses ownership of the context layer for AI governance, a governance angle on context for AI; generic commentary, so modest importance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -1366,6 +1432,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ea2d5a0cba6ad367": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Explainer on data lifecycle stages; generic educational content without a news hook.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ec4ea59350319b4f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -1452,6 +1529,28 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f738d432c835672a": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog post about a product going GA with lessons learned; marketing rather than a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "fa2dab71478788df": {
+   "at": "2026-10-28T15:18:34Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conceptual vendor blog post defining a unified context layer; generic thought-leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fce9ca878e5ec760": {
    "at": "2026-10-24T23:18:09Z",
    "categories": [],
@@ -1475,8 +1574,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 66,
-   "usd": 1.8168
+   "calls": 71,
+   "usd": 1.9392
   }
  }
 }
