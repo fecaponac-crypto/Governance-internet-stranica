@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-10-28T18:18:19Z** · sources checked: 80 · failed: 0 · new items this run: 11
+Last run: **2026-10-28T20:17:31Z** · sources checked: 80 · failed: 0 · new items this run: 5
 
-## New items, last 48 hours (100)
+## New items, last 48 hours (105)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | IAPP — International Association of Privacy Professionals | [New York's governor signs youth AI chatbot safety bill](https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Trust by design: Provenance for the agentic AI era](https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Notes from the AI Governance Center: Agentified cyberattacks](https://iapp.org/news/a/notes-from-the-ai-governance-center-agentified-cyberattacks) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [SB 53 and the TDTA: How California is regulating AI transparency](https://iapp.org/news/a/sb-53-and-the-tdta-how-california-is-regulating-ai-transparency) |
@@ -29,10 +30,14 @@ Last run: **2026-10-28T18:18:19Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-28 | Ataccama Blog | [What is headless MDM? How AI agents use and maintain your golden records](https://www.ataccama.com/blog/what-is-headless-mdm-how-ai-agents-use-and-maintain-your-golden-records) |
 | 2026-10-28 | Datatilsynet (Norway) | [Gode rutiner hindrer at KI blir en usynlig trussel](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/) |
 | 2026-10-28 | CDO Magazine | [Leadership Moves PENN Entertainment Appoints Gary Hunter Chief Information Security Officer](https://www.cdomagazine.tech/leadership-moves/penn-entertainment-appoints-gary-hunter-chief-information-security-officer) |
+| 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
 | 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
 | 2026-10-28 | SiliconANGLE — Big Data | [Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot](https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/) |
 | 2026-10-28 | Euractiv | [THE HACK: Digital omnibus lobby frenzy](https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/) |
 | 2026-10-28 | DATAVERSITY | [The CDO Doom Loop Is Quietly Undermining Enterprise AI](https://www.dataversity.net/articles/the-cdo-doom-loop-is-quietly-undermining-enterprise-ai/) |
+| 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
+| 2026-10-28 | Collibra Blog | [Bring your own continuous deployment: Run Collibra Edge upgrades your way](https://www.collibra.com/blog/bring-your-own-continuous-deployment-run-collibra-edge-upgrades-your-way) |
+| 2026-10-28 | Collibra Blog | [Delivering operational trust for AI agents](https://www.collibra.com/blog/delivering-operational-trust-for-ai-agents) |
 | 2026-10-27 | CDO Magazine | [US Federal News Bureau SSA Corrects Millions of Social Security Database Files](https://www.cdomagazine.tech/us-federal-news-bureau/ssa-corrects-millions-of-social-security-database-files) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence Anthropic Discloses AI Agents Escaping Testing Environments](https://www.cdomagazine.tech/aiml/anthropic-discloses-ai-agents-escaping-testing-environments) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence DeepSeek Tests Expose Gaps in AI Shutdown and Oversight Controls](https://www.cdomagazine.tech/aiml/deepseek-tests-expose-gaps-in-ai-shutdown-and-oversight-controls) |

@@ -132,6 +132,24 @@
    "relevant": true,
    "same_story_as": null
   },
+  "162d9664025f5457": {
+   "at": "2026-10-28T20:17:45Z",
+   "categories": [
+    "regulation",
+    "ai-governance",
+    "privacy"
+   ],
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/28",
+   "primary_found": false,
+   "reason": "State law on youth AI chatbot safety signed; concrete compliance obligations for AI providers, though US state-level scope.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1666cfdd2d6bd1f3": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [
@@ -314,6 +332,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "35bbaca504ba6b40": {
+   "at": "2026-10-28T20:17:45Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/29",
+   "primary_found": false,
+   "reason": "FTC orders on personalized pricing use of consumer data; regulator enforcement inquiry with data-use angle.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "39daa83701dc9e8f": {
    "at": "2026-10-25T15:18:12Z",
    "categories": [
@@ -377,6 +412,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor product explainer for an AI agent; marketing rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "40d35a8a77e631ca": {
+   "at": "2026-10-28T20:17:45Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog product marketing about a deployment option; not a genuine launch or research.",
    "relevant": false,
    "same_story_as": null
   },
@@ -930,6 +976,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic thought-leadership opinion piece with no new concrete development or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9e3563532aba4693": {
+   "at": "2026-10-28T20:17:45Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor thought-leadership citing a survey; generic marketing content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1613,6 +1670,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f295a02220ed3222": {
+   "at": "2026-10-28T20:17:45Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on deployment workflow; marketing, no governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f39d4264ef97e86a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -1704,8 +1772,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 74,
-   "usd": 2.0131
+   "calls": 81,
+   "usd": 2.2553
   }
  }
 }
