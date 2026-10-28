@@ -1,19 +1,20 @@
 # Drafts report
 
-Last run: **2026-10-28T12:18:28Z** · candidates 5 · scored 5 · selected 2 · drafted 2 · failed 0 · queued for next run 0
+Last run: **2026-10-28T12:59:23Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$1.82** of $12 budget (65 calls)
+AI spend this month: **$1.82** of $12 budget (66 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Italy's Garante backs age checks under proposed EU Kids Act but calls for minimal data collection** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/23
-- ℹ️ not fact-checked **Norway's Datatilsynet warns AI agents left running after staff move on can become 'digital ghosts'** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/24
+_No drafts this run._
 
 ## Recently skipped by triage
 
-- (2) Italian DPA blocks publication of images of a minor in a public-order incident; a practical privacy enforcement action, modest importance.
+- (2) Vendor product launch of headless MDM with concrete relevance to golden records and stewardship in agentic workflows; genuine launch, so relevant but modest importance.
+- (1) Explainer and promotional content accompanying the Ataccama launch; generic thought-leadership rather than news, and duplicates the same product announcement.
 - (1) Executive appointment news with no governance-specific consequence.
 - (2) Conversation/panel promotion with generic thought-leadership framing; little concrete consequence stated in the excerpt.
+- (2) Italian DPA blocks publication of images of a minor in a public-order incident; a practical privacy enforcement action, modest importance.
 - (1) Newsletter teaser with only topic keywords and no concrete detail; not a standalone story.
 - (1) Generic thought-leadership opinion piece with no new concrete development or research finding.
 - (2) Product launch from a data preparation vendor that runs governed data workflows inside ChatGPT, Claude and Copilot; a genuine launch with some lineage/visual step-map angle, though modest in consequence.
@@ -24,5 +25,3 @@ AI spend this month: **$1.82** of $12 budget (65 calls)
 - (1) Generic explainer on modern data stack from vendor blog without a genuine launch or research finding.
 - (1) How-to tutorial on generative AI in dbt pipelines; not governance news.
 - (1) Podcast episode on social media and hate speech; no clear data governance consequence.
-- (1) Engineering pipeline case study without a clear governance angle beyond tooling.
-- (1) Vendor explainer on CIRCIA; generic content, though the regulatory topic is noted, no new development reported.

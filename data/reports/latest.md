@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-28T12:18:17Z** · sources checked: 80 · failed: 0 · new items this run: 5
+Last run: **2026-10-28T12:59:10Z** · sources checked: 80 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (116)
+## New items, last 48 hours (118)
 
 ### High priority sources
 
@@ -18,6 +18,8 @@ Last run: **2026-10-28T12:18:17Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | Ataccama Blog | [Ataccama launches headless MDM to bring trusted golden records and data stewardship work into agentic workflows](https://www.ataccama.com/news/ataccama-launches-headless-mdm-to-bring-trusted-golden-records-and-data-stewardship-work-into-agentic-workflows) |
+| 2026-10-28 | Ataccama Blog | [What is headless MDM? How AI agents use and maintain your golden records](https://www.ataccama.com/blog/what-is-headless-mdm-how-ai-agents-use-and-maintain-your-golden-records) |
 | 2026-10-28 | Datatilsynet (Norway) | [Gode rutiner hindrer at KI blir en usynlig trussel](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/) |
 | 2026-10-28 | CDO Magazine | [Leadership Moves PENN Entertainment Appoints Gary Hunter Chief Information Security Officer](https://www.cdomagazine.tech/leadership-moves/penn-entertainment-appoints-gary-hunter-chief-information-security-officer) |
 | 2026-10-28 | SiliconANGLE — Big Data | [Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot](https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/) |

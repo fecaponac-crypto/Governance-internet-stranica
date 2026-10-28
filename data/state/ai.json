@@ -828,6 +828,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a10d19f89773c9ee": {
+   "at": "2026-10-28T12:59:23Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Explainer and promotional content accompanying the Ataccama launch; generic thought-leadership rather than news, and duplicates the same product announcement.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a3e5e3993999079e": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [],
@@ -910,6 +921,18 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/12",
    "primary_found": true,
    "reason": "GA of LookML semantic indexing in Knowledge Catalog is a concrete product launch relevant to semantic context for AI.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "b6cda9d0a1531023": {
+   "at": "2026-10-28T12:59:23Z",
+   "categories": [
+    "mdm",
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor product launch of headless MDM with concrete relevance to golden records and stewardship in agentic workflows; genuine launch, so relevant but modest importance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -1452,8 +1475,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 65,
-   "usd": 1.8163
+   "calls": 66,
+   "usd": 1.8168
   }
  }
 }
