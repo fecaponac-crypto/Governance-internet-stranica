@@ -44,15 +44,19 @@ const { parts } = Astro.props;
       });
       return out;
     };
+    // Best available English voice: neural/"Natural" voices (Edge, newer systems), then Google's
+    // (Chrome), then Apple's better voices, then anything English; British before American.
     const voice = () => {
-      const voices = synth.getVoices().filter((v) => v.lang.startsWith('en'));
-      const prefer = [/natural|neural|online/i, /^en-GB/, /^en-US/];
-      for (const p of prefer) {
-        const v = voices.find((v) => p.test(v.name) || p.test(v.lang));
-        if (v) return v;
-      }
-      return voices[0];
+      const rank = (v: SpeechSynthesisVoice) =>
+        (/natural|neural|online|premium|enhanced/i.test(v.name) ? 0 : /google/i.test(v.name) ? 1 : /daniel|serena|kate|samantha|karen|moira/i.test(v.name) ? 2 : 3) * 2 +
+        (v.lang.replace('_', '-').startsWith('en-GB') ? 0 : 1);
+      return synth
+        .getVoices()
+        .filter((v) => v.lang.startsWith('en'))
+        .sort((a, b) => rank(a) - rank(b))[0];
     };
+    // Some browsers load the voice list after the page.
+    synth.getVoices();
     const set = (s: typeof state) => {
       state = s;
       label.textContent = s === 'playing' ? 'Pause' : s === 'paused' ? 'Resume' : 'Listen';
