@@ -1080,6 +1080,20 @@ sources:
     priority: low
     verified: 2026-10-25
 
+  - id: palantir
+    name: Palantir Blog
+    url: https://blog.palantir.com
+    feeds: ["https://blog.palantir.com/feed"]
+    method: rss
+    type: vendor
+    section: core
+    categories: [metadata, ai-governance, market]
+    reliability: 2
+    priority: low
+    filter: true
+    notes: Foundry, AIP and Ontology (data integration, semantics, AI governance). Many posts are hiring or culture pieces, hence the keyword filter. Press releases have no feed; major news reaches us through the media sources.
+    verified: 2026-10-28
+
   # ---------------------------------------------------------------- Platforms & broad Data & AI
 
   - id: databricks
