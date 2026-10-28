@@ -248,7 +248,7 @@ Okvirne skupine izvora:
 - [ ] Privacy: identitet voditelja obrade (GDPR čl. 13 traži ime/naziv i kontakt; s pseudonimom otvoreno pitanje — vidi bilješku urednika)
 - [x] odabrati i spojiti newsletter servis (obrazac za prijavu) — Buttondown, 25. 10.
 - [x] About: kratki opis urednika (pseudonim The Steward)
-- [x] provjera žiga (28. 10.): nema žiga „Data Governance Signal”; najbliže UK prijava „THE SIGNAL” (klasa 41, AI publikacije, Through The Noise Media Ltd) — nizak rizik; logo ne smije podsjećati na aplikaciju Signal. Registracija (kombinirani žig naziv + logo) kasnije, uz prihod ili prodaju
+- [x] provjera žiga (28. 10.): nema žiga „Data Governance Signal”; najbliže UK prijava „THE SIGNAL” (klasa 41, AI publikacije, Through The Noise Media Ltd) — nizak rizik; logo ne smije podsjećati na aplikaciju Signal. TMview (EU, UK, SAD, HR): „signal” u klasi 41 vrlo zasićen (≈95 aktivnih žigova), ništa s „data governance”; u HR samo „OIV Digitalni signali i mreže” (telekom, kl. 9/37/38/42). Registracija (kombinirani žig naziv + logo) kasnije, uz prihod ili prodaju
 - [x] ⏸️ newsletter odgođen (odluka 28. 10.) — prijava skrivena, Monday Signal izlazi samo na portalu
 - [ ] ⏸️ LinkedIn stranica portala (odvojena od osobnog profila) i prva objava — odgođeno 25. 10. na odluku urednika
 
