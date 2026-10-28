@@ -174,6 +174,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "21fb4848b3a9d475": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog generic readiness checklist; thought-leadership rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "23307b0b20487056": {
    "at": "2026-10-27T15:18:25Z",
    "categories": [
@@ -201,6 +212,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Customer story on governed dbt foundation; thought-leadership rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "27b0e129b332e7c9": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "US surveillance law debate; not a governance practice development for practitioners in this framing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -501,6 +523,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5e7a4f7d9a8a4bb1": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Policy commentary on data-centre economic development; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "604faec434131ac6": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [],
@@ -582,6 +615,18 @@
    "importance": 1,
    "reason": "Tooling how-to on DuckDB adapter; not governance news.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6f8048015f2c0ca3": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "source not readable: only 0 characters readable",
+   "importance": 3,
+   "reason": "EDPS FAQs on personal data breach notification give practical guidance on breach handling.",
+   "relevant": true,
    "same_story_as": null
   },
   "72a32ce7fcf7f3af": {
@@ -666,6 +711,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Evaluation framework for AI analytics agents touches on governing AI output accuracy, though it reads as a vendor customer case study.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "800f145116b0ef05": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "california-s-two-ai-transparency-laws-split-duties-between-frontier-mo",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/27",
+   "primary_found": true,
+   "reason": "California SB 53 and TDTA on AI transparency is a concrete AI regulation affecting governance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -934,6 +996,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "adb5f0ac1636b4a6": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP piece on provenance for agentic AI; governance angle, though thin excerpt and possibly thought-leadership.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b1f10fddc8cf8df2": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -960,6 +1034,17 @@
    "primary_found": false,
    "reason": "Norwegian DPA guidance that routine governance practices prevent AI becoming an invisible risk; relevant regulator guidance on AI governance practice.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "b4a4ecd888916d2a": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer subscription cancellation rule; not data governance focused.",
+   "relevant": false,
    "same_story_as": null
   },
   "b66f2264c3976205": {
@@ -1116,6 +1201,17 @@
    "importance": 2,
    "reason": "Encoding business context beside dbt models for a text-to-SQL agent is a practical context-for-AI pattern.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "cb551d6ff5e1441a": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting an integration; marketing rather than a genuine launch or research.",
+   "relevant": false,
    "same_story_as": null
   },
   "cdf94fc0b9ebf180": {
@@ -1309,6 +1405,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "dc6a0ab0abd1fabd": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consulting thought-leadership on securities services; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "dd86e90c0331d35f": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -1323,6 +1430,17 @@
    "primary_found": true,
    "reason": "Testing of DeepSeek shutdown and oversight controls is relevant AI oversight research for governance teams.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "ddb9d5f06fc0baa9": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cyberattack news on a government; no clear data governance practice angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "e06abf0dd7f84f25": {
@@ -1495,6 +1613,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f39d4264ef97e86a": {
+   "at": "2026-10-28T18:18:33Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP AI Governance Center notes on agentified cyberattacks; relevant to AI agent risk governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f5757f520b3eedd6": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -1574,8 +1704,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 71,
-   "usd": 1.9392
+   "calls": 74,
+   "usd": 2.0131
   }
  }
 }

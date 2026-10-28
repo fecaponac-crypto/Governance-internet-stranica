@@ -1,13 +1,16 @@
 # Inflow report
 
-Last run: **2026-10-28T15:18:20Z** · sources checked: 80 · failed: 1 · new items this run: 8
+Last run: **2026-10-28T18:18:19Z** · sources checked: 80 · failed: 0 · new items this run: 11
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (100)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | IAPP — International Association of Privacy Professionals | [Trust by design: Provenance for the agentic AI era](https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era) |
+| 2026-10-28 | IAPP — International Association of Privacy Professionals | [Notes from the AI Governance Center: Agentified cyberattacks](https://iapp.org/news/a/notes-from-the-ai-governance-center-agentified-cyberattacks) |
+| 2026-10-28 | IAPP — International Association of Privacy Professionals | [SB 53 and the TDTA: How California is regulating AI transparency](https://iapp.org/news/a/sb-53-and-the-tdta-how-california-is-regulating-ai-transparency) |
 | 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Eu Kids Act, Stanzione: Tutela dei minori senza sacrificare privacy e autonomia](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312988) |
 | 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Scontri di Milano: Garante Privacy blocca le immagini dell'undicenne](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312725) |
 | 2026-10-27 | IAPP — International Association of Privacy Professionals | [Italy's AI Act framework takes shape: What Legislative Decree No. 179/2026 means for organizations](https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations) |
@@ -17,6 +20,7 @@ Last run: **2026-10-28T15:18:20Z** · sources checked: 80 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | Informatica Blog | [Informatica Headless + Oracle Select AI Integration Data Governance & Data Privacy](https://www.informatica.com/blogs/informatica-headless-oracle-select-ai-enterprise-wide-business-context-for-oracle-database-customers.html) |
 | 2026-10-28 | CDO Magazine | [AI Governance Who Owns the Context Layer?](https://www.cdomagazine.tech/ai-governance/who-owns-the-context-layer) |
 | 2026-10-28 | CDO Magazine | [Industry Newsroom Monte Carlo Launches Bayes, the Industry’s First AI Teammate for Agent Trust](https://www.cdomagazine.tech/others/monte-carlo-launches-bayes-the-industrys-first-ai-teammate-for-agent-trust) |
 | 2026-10-28 | Alation Blog | [October 28, 2026 Why Is Data Privacy Important? A Guide for Businesses and Individuals In the era of AI, data privacy is a critical architecture challenge. Discover why AI agents and shifting regulations… Read More](https://www.alation.com/blog/why-data-privacy-is-important/) |
@@ -25,6 +29,7 @@ Last run: **2026-10-28T15:18:20Z** · sources checked: 80 · failed: 1 · new it
 | 2026-10-28 | Ataccama Blog | [What is headless MDM? How AI agents use and maintain your golden records](https://www.ataccama.com/blog/what-is-headless-mdm-how-ai-agents-use-and-maintain-your-golden-records) |
 | 2026-10-28 | Datatilsynet (Norway) | [Gode rutiner hindrer at KI blir en usynlig trussel](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/) |
 | 2026-10-28 | CDO Magazine | [Leadership Moves PENN Entertainment Appoints Gary Hunter Chief Information Security Officer](https://www.cdomagazine.tech/leadership-moves/penn-entertainment-appoints-gary-hunter-chief-information-security-officer) |
+| 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
 | 2026-10-28 | SiliconANGLE — Big Data | [Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot](https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/) |
 | 2026-10-28 | Euractiv | [THE HACK: Digital omnibus lobby frenzy](https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/) |
 | 2026-10-28 | DATAVERSITY | [The CDO Doom Loop Is Quietly Undermining Enterprise AI](https://www.dataversity.net/articles/the-cdo-doom-loop-is-quietly-undermining-enterprise-ai/) |
@@ -50,19 +55,22 @@ Last run: **2026-10-28T15:18:20Z** · sources checked: 80 · failed: 1 · new it
 | 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
 | 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
-| 2026-10-26 | Future of Privacy Forum | [AI Hallucination Goes to Court: A Global Mapping of Emerging Legal Issues](https://fpf.org/blog/ai-hallucination-goes-to-court-a-global-mapping-of-emerging-legal-issues/) |
-| 2026-10-26 | European Data Protection Supervisor (EDPS) | [Blog post: Making AI visible: Fourth meeting of the AI Act Correspondents Network](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-making-ai-visible-fourth-meeting-ai-act-correspondents-network) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | Center for Data Innovation | [Establish a Common Framework for Evaluating Data-Center Projects](https://datainnovation.org/2026/10/establish-a-common-framework-for-evaluating-data-center-projects/) |
+| 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |
+| 2026-10-28 | Precisely Blog | [Three questions that will tell you if your data is ready for AI](https://www.precisely.com/blog/ai-ready-data/three-questions-that-will-tell-you-if-your-data-is-ready-for-ai/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [What Five Months of Beta Taught Us About Making AI Agents Trustworthy](https://datahub.com/blog/making-ai-agents-trustworthy-lessons-from-beta/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [Context Graph vs. Ontology: Why Each Needs the Other](https://datahub.com/blog/context-graph-vs-ontology/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [What Is a Unified Context Layer? (And What Unified Doesn’t Mean)](https://datahub.com/blog/unified-context-layer/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [Data Lifecycle Management: The Six Stages for the AI Era](https://datahub.com/blog/data-lifecycle-management/) |
+| 2026-10-28 | Computer Weekly — IT security | [Lapsed US snooping law still running as senators object](https://www.computerweekly.com/news/366652857/Lapsed-US-snooping-law-still-running-as-senators-object) |
 | 2026-10-28 | DataGalaxy | [AI governance: why Colas and Arkéa didn’t wait for the AI Act](https://www.datagalaxy.com/en/blog/ai-governance-why-colas-and-arkea-didnt-wait-for-the-ai-act/) |
 | 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
+| 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
 | 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
 | 2026-10-27 | dbt Labs Blog | [How Sigma runs a 2,883-model semantic layer on dbt and Dagster](https://www.getdbt.com/blog/sigma-dbt-dagster-semantic-layer) |
@@ -107,17 +115,13 @@ Last run: **2026-10-28T15:18:20Z** · sources checked: 80 · failed: 1 · new it
 | 2026-10-26 | dbt Labs Blog | [Inside dbt Wizard, the AI agent built to show its work](https://www.getdbt.com/blog/dbt-wizard-ai-agent-validation-lineage) |
 | 2026-10-26 | dbt Labs Blog | [dbt v2 lands: faster parsing, one shared adapter layer, and a docs experience that skips the giant manifest.json](https://www.getdbt.com/blog/dbt-v2-fast-parsing-shared-adapters-documentation) |
 | 2026-10-26 | dbt Labs Blog | [Optimizing your runs for lower compute, fresher data, and faster iteration with dbt State](https://www.getdbt.com/blog/dbt-state-orchestration-jobs-19-to-2) |
-| 2026-10-26 | MIT Technology Review | [Will the real Anthropic please stand up](https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/) |
-| 2026-10-26 | DataHub Blog (open source metadata platform) | [Data Lineage for AI: What Changes When Agents Read Your Lineage Graph](https://datahub.com/blog/data-lineage-for-ai/) |
-| 2026-10-26 | dbt Labs Blog | [Showing our work: a controlled experiment in context engineering](https://www.getdbt.com/blog/context-engineering-experiment-dbt-mcp) |
 | 2026-10-26 | Computer Weekly — IT security | [EU makes progress towards PHP patching, UK lags behind](https://www.computerweekly.com/news/366652698/EU-makes-progress-towards-PHP-patching-UK-lags-behind) |
 | 2026-10-26 | Computer Weekly — IT security | [UK secrecy over AI in immigration and asylum decisions under fire](https://www.computerweekly.com/news/366652683/UK-secrecy-over-AI-in-immigration-and-asylum-decisions-under-fire) |
-| 2026-10-26 | Google Cloud Blog — Data Analytics | [Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA](https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/) |
-| 2026-10-26 | Precisely Blog | [Precisely AI Studio: try ready-made apps, agents, and skills on real data](https://www.precisely.com/blog/engineering/precisely-ai-studio-try-ready-made-apps-agents-and-skills-on-real-data/) |
+| 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 
