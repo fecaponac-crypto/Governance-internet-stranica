@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+const updated = '28 October 2026';
+---
+
+<Base title="Accessibility" description="How Data Governance Signal is made accessible, known limitations and how to report a problem.">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">About</p>
+      <h1>Accessibility</h1>
+      <p>We want everyone who works with data to be able to read Data Governance Signal, whatever device or assistive technology they use.</p>
+    </header>
+    <div class="prose">
+      <h2>What we do</h2>
+      <ul>
+        <li>We aim to meet the <strong>Web Content Accessibility Guidelines (WCAG) 2.2, level AA</strong>.</li>
+        <li>Every page is checked with automated accessibility tests (axe and Lighthouse) before it goes live, in light and dark mode and at phone and desktop sizes.</li>
+        <li>All pages work with a keyboard alone. A “Skip to content” link appears when you press Tab, and the focused element is always outlined.</li>
+        <li>Text keeps sufficient contrast, can be enlarged to 200% without loss of content, and the site follows your system's light or dark setting.</li>
+        <li>Images that carry information have text alternatives; the key figure and caption on each news card are given in its text alternative.</li>
+        <li>The rotating top stories on the homepage can be paused, stop while you hover or focus on them, and do not rotate on their own if your system asks for reduced motion.</li>
+        <li>Headings, landmarks and labels are structured for screen readers.</li>
+      </ul>
+
+      <h2>Known limitations</h2>
+      <ul>
+        <li>Articles link to original sources on other websites, including PDF documents from regulators and courts. We cannot guarantee that those are accessible.</li>
+        <li>Search needs JavaScript. Without it, you can browse by <a href="/topics/">topic</a>, <a href="/institutions/">institution</a> or the <a href="/news/">full list of stories</a>.</li>
+      </ul>
+
+      <h2>Report a problem</h2>
+      <p>
+        If something does not work for you, please tell us at <a href={`mailto:${SITE.email}?subject=Accessibility`}>{SITE.email}</a>.
+        We aim to reply within five working days and, where we can, to provide the content in another form.
+      </p>
+      <p class="updated">Last reviewed: {updated}</p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .prose h2 {
+    font-size: 1.45rem;
+    margin: 2rem 0 0.75rem;
+  }
+  .prose ul {
+    padding-left: 1.2rem;
+  }
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+  .updated {
+    font-size: 0.85rem;
+    color: var(--ink-3);
+  }
+</style>

@@ -358,7 +358,7 @@ const counts = Object.fromEntries(
   }
   .column .by {
     font-size: 0.8rem;
-    color: var(--ink-3);
+    color: var(--ink-2);
   }
   .mini {
     list-style: none;
@@ -453,16 +453,26 @@ const counts = Object.fromEntries(
     color: var(--ink-3);
     margin-right: 0.35rem;
   }
+  /* 24 px touch target around a 12 px dot. */
   .dot {
-    width: 0.75rem;
-    height: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
     padding: 0;
-    border-radius: 50%;
-    border: 1.5px solid var(--ink-3);
+    border: none;
     background: transparent;
     cursor: pointer;
+    display: grid;
+    place-items: center;
   }
-  .dot[aria-current='true'] {
+  .dot::before {
+    content: '';
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    border: 1.5px solid var(--ink-3);
+    box-sizing: border-box;
+  }
+  .dot[aria-current='true']::before {
     background: var(--signal);
     border-color: var(--signal);
   }

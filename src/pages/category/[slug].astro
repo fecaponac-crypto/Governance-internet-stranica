@@ -29,6 +29,7 @@ const { category, articles } = Astro.props;
     </header>
     <div class="cols">
       <section aria-label={`${category.label} articles`}>
+        <h2 class="visually-hidden">Articles</h2>
         {articles.map((a) => <ArticleCard article={a} />)}
         {articles.length === 0 && <p class="empty">No articles in this topic yet. New items appear as soon as they pass editorial review.</p>}
       </section>

@@ -33,6 +33,7 @@ const { institution, articles } = Astro.props;
     </header>
     <div class="cols">
       <section aria-label={`${institution.short} articles`}>
+        <h2 class="visually-hidden">Articles</h2>
         {articles.map((a) => <ArticleCard article={a} />)}
       </section>
       <aside><NewsletterForm compact /></aside>

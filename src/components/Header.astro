@@ -8,7 +8,7 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
 
 {
   SITE.preview && (
-    <div class="preview">
+    <div class="preview" role="region" aria-label="Launch countdown">
       <div class="wrap" data-countdown={SITE.launchAt}>
         <strong>Launching Friday 30 October, 12:00 CET</strong>
         <span class="clock" aria-live="off" data-clock></span>
@@ -98,7 +98,8 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
   .clock {
     font-variant-numeric: tabular-nums;
     font-weight: 700;
-    color: var(--signal);
+    /* Darker than --signal so it keeps 4.5:1 on the tinted banner. */
+    color: #9a3412;
     min-width: 9.5rem;
   }
   .note {
@@ -201,6 +202,11 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
   @media (max-width: 520px) {
     .subscribe {
       display: none;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    .clock {
+      color: #f6a37f;
     }
   }
 </style>

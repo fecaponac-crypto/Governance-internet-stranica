@@ -210,3 +210,22 @@ dd,
 td {
   overflow-wrap: break-word;
 }
+
+/* Skip link: hidden until a keyboard user tabs to it. */
+.skip:focus {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 100;
+  width: auto;
+  height: auto;
+  clip: auto;
+  clip-path: none;
+  overflow: visible;
+  margin: 0;
+  padding: 0.6rem 1rem;
+  background: var(--navy);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+}
