@@ -1,0 +1,124 @@
+---
+// "Listen": reads the article aloud with the browser's built-in speech synthesis (Web Speech API).
+// Nothing is sent anywhere and nothing is stored. Hidden when SITE.listen is false or the browser
+// has no speech synthesis. `parts` lists the elements to read, in page order.
+import { SITE } from '../data/site';
+interface Props {
+  parts: string;
+}
+const { parts } = Astro.props;
+---
+
+{
+  SITE.listen && (
+    <div class="listen" data-listen={parts} hidden>
+      <button type="button" data-play>
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z" /></svg>
+        <span data-label>Listen</span>
+      </button>
+      <button type="button" data-stop hidden>Stop</button>
+    </div>
+  )
+}
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-listen]').forEach((box) => {
+    const synth = window.speechSynthesis;
+    if (!synth || typeof SpeechSynthesisUtterance === 'undefined') return;
+    box.hidden = false;
+    const play = box.querySelector<HTMLButtonElement>('[data-play]')!;
+    const label = box.querySelector<HTMLElement>('[data-label]')!;
+    const stop = box.querySelector<HTMLButtonElement>('[data-stop]')!;
+    let state: 'idle' | 'playing' | 'paused' = 'idle';
+
+    // Paragraph-sized chunks: long single utterances get cut off in some browsers.
+    const chunks = () => {
+      const out: string[] = [];
+      document.querySelectorAll<HTMLElement>(box.dataset.listen!).forEach((el) => {
+        const blocks = el.querySelectorAll<HTMLElement>('h2, h3, p, li');
+        (blocks.length ? [...blocks] : [el]).forEach((b) => {
+          if (!b.getClientRects().length) return; // skip hidden elements
+          const t = b.innerText.replace(/\s+/g, ' ').trim();
+          if (t) out.push(t);
+        });
+      });
+      return out;
+    };
+    const voice = () => {
+      const voices = synth.getVoices().filter((v) => v.lang.startsWith('en'));
+      const prefer = [/natural|neural|online/i, /^en-GB/, /^en-US/];
+      for (const p of prefer) {
+        const v = voices.find((v) => p.test(v.name) || p.test(v.lang));
+        if (v) return v;
+      }
+      return voices[0];
+    };
+    const set = (s: typeof state) => {
+      state = s;
+      label.textContent = s === 'playing' ? 'Pause' : s === 'paused' ? 'Resume' : 'Listen';
+      play.setAttribute('aria-pressed', String(s === 'playing'));
+      stop.hidden = s === 'idle';
+    };
+
+    play.addEventListener('click', () => {
+      if (state === 'playing') {
+        synth.pause();
+        return set('paused');
+      }
+      if (state === 'paused') {
+        synth.resume();
+        return set('playing');
+      }
+      synth.cancel();
+      const v = voice();
+      const list = chunks();
+      list.forEach((text, i) => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = v?.lang ?? 'en-GB';
+        if (v) u.voice = v;
+        u.rate = 1;
+        if (i === list.length - 1) u.onend = () => set('idle');
+        synth.speak(u);
+      });
+      set('playing');
+    });
+    stop.addEventListener('click', () => {
+      synth.cancel();
+      set('idle');
+    });
+    // Stop reading when the reader leaves the page.
+    window.addEventListener('pagehide', () => synth.cancel());
+  });
+</script>
+
+<style>
+  .listen {
+    display: inline-flex;
+    gap: 0.4rem;
+    margin-top: 0.9rem;
+  }
+  .listen[hidden] {
+    display: none;
+  }
+  button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2rem;
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    padding: 0.25rem 0.85rem;
+    cursor: pointer;
+  }
+  button:hover {
+    border-color: var(--ink-3);
+  }
+  button[hidden] {
+    display: none;
+  }
+</style>

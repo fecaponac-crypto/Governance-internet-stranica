@@ -11,6 +11,8 @@ export const SITE = {
   // Newsletter sign-up. Off for now (decision 28 Oct 2026): the site collects no email addresses;
   // readers contact the editor instead. Set to true to bring back every sign-up form.
   newsletter: false,
+  // "Listen" button on articles and columns (the browser reads the text aloud). Trial since 28 Oct 2026.
+  listen: true,
   // Buttondown newsletter (double opt-in, open/click tracking off).
   newsletterSubscribeUrl: 'https://buttondown.com/api/emails/embed-subscribe/datagovernancesignal',
   newsletterArchiveUrl: 'https://buttondown.com/datagovernancesignal',

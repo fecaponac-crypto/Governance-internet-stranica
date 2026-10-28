@@ -5,6 +5,7 @@ import Importance from '../../components/Importance.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
 import Feedback from '../../components/Feedback.astro';
+import Listen from '../../components/Listen.astro';
 import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
 import { getArticles, formatDate, isoDate, type Article } from '../../utils/articles';
@@ -72,6 +73,7 @@ const jsonLd = {
           {official ? 'Official source' : 'Secondary reporting'}
         </span>
       </div>
+      <Listen parts="article h1, article p.dek, article .prose, article section.why, article section.check" />
     </header>
 
     <div class="layout">

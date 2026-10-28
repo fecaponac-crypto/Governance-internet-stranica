@@ -3,6 +3,7 @@ import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
 import Feedback from '../../components/Feedback.astro';
+import Listen from '../../components/Listen.astro';
 import PredictionList from '../../components/PredictionList.astro';
 import { COLUMN, SITE } from '../../data/site';
 import { columnUrl, formatDate, getColumns, getPredictions, isoDate, type Column } from '../../utils/articles';
@@ -46,6 +47,7 @@ const jsonLd = {
       <p class="byline" data-pagefind-ignore>
         By <a href="/about/#editor">{data.author}</a> · <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time>
       </p>
+      <Listen parts="article h1, article p.dek, article .prose" />
     </header>
     <div class="prose">
       <Content />
