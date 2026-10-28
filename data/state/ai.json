@@ -1228,6 +1228,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "bf65784fd277bccf": {
+   "at": "2026-10-28T21:18:33Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "us-appeals-court-strikes-down-west-virginia-s-daniel-s-law-shielding-o",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/30",
+   "primary_found": true,
+   "reason": "Federal appellate ruling striking down a state law on disclosure of officials' personal data is a court decision with privacy implications, though a US state-level matter.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "bfb10782e1b4f28d": {
    "at": "2026-10-26T03:18:21Z",
    "categories": [],
@@ -1459,6 +1476,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor event keynote coverage with generic commentary; no specific regulation, launch or research finding is reported in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "daa5a36998e1881b": {
+   "at": "2026-10-28T21:18:33Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting a product integration rather than a genuine launch or research finding; marketing content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1772,8 +1800,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 81,
-   "usd": 2.2553
+   "calls": 84,
+   "usd": 2.3803
   }
  }
 }

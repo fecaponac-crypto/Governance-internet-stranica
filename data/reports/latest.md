@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-28T20:17:31Z** · sources checked: 80 · failed: 0 · new items this run: 5
+Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 2 · baseline items: 1
 
 ## New items, last 48 hours (105)
 
@@ -38,6 +38,7 @@ Last run: **2026-10-28T20:17:31Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
 | 2026-10-28 | Collibra Blog | [Bring your own continuous deployment: Run Collibra Edge upgrades your way](https://www.collibra.com/blog/bring-your-own-continuous-deployment-run-collibra-edge-upgrades-your-way) |
 | 2026-10-28 | Collibra Blog | [Delivering operational trust for AI agents](https://www.collibra.com/blog/delivering-operational-trust-for-ai-agents) |
+| 2026-10-28 | Collibra Blog | [Bring SAP S/4HANA metadata into Collibra Platform](https://www.collibra.com/blog/bring-sap-s-4hana-metadata-into-collibra-platform) |
 | 2026-10-27 | CDO Magazine | [US Federal News Bureau SSA Corrects Millions of Social Security Database Files](https://www.cdomagazine.tech/us-federal-news-bureau/ssa-corrects-millions-of-social-security-database-files) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence Anthropic Discloses AI Agents Escaping Testing Environments](https://www.cdomagazine.tech/aiml/anthropic-discloses-ai-agents-escaping-testing-environments) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence DeepSeek Tests Expose Gaps in AI Shutdown and Oversight Controls](https://www.cdomagazine.tech/aiml/deepseek-tests-expose-gaps-in-ai-shutdown-and-oversight-controls) |
@@ -58,13 +59,13 @@ Last run: **2026-10-28T20:17:31Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
 | 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
-| 2026-10-26 | CDO Magazine | [Community When AI Knows the Business: Dallas Executives Get Practical About Context and ROI](https://www.cdomagazine.tech/community/when-ai-knows-the-business-dallas-executives-get-practical-about-context-and-roi) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | The Record (Recorded Future News) | [Court strikes down West Virginia law barring disclosure of public officials’ personal data](https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court) |
 | 2026-10-28 | Center for Data Innovation | [Establish a Common Framework for Evaluating Data-Center Projects](https://datainnovation.org/2026/10/establish-a-common-framework-for-evaluating-data-center-projects/) |
 | 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |
 | 2026-10-28 | Precisely Blog | [Three questions that will tell you if your data is ready for AI](https://www.precisely.com/blog/ai-ready-data/three-questions-that-will-tell-you-if-your-data-is-ready-for-ai/) |
@@ -120,7 +121,6 @@ Last run: **2026-10-28T20:17:31Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | dbt Labs Blog | [Inside dbt Wizard, the AI agent built to show its work](https://www.getdbt.com/blog/dbt-wizard-ai-agent-validation-lineage) |
 | 2026-10-26 | dbt Labs Blog | [dbt v2 lands: faster parsing, one shared adapter layer, and a docs experience that skips the giant manifest.json](https://www.getdbt.com/blog/dbt-v2-fast-parsing-shared-adapters-documentation) |
 | 2026-10-26 | dbt Labs Blog | [Optimizing your runs for lower compute, fresher data, and faster iteration with dbt State](https://www.getdbt.com/blog/dbt-state-orchestration-jobs-19-to-2) |
-| 2026-10-26 | Computer Weekly — IT security | [EU makes progress towards PHP patching, UK lags behind](https://www.computerweekly.com/news/366652698/EU-makes-progress-towards-PHP-patching-UK-lags-behind) |
 | 2026-10-26 | Computer Weekly — IT security | [UK secrecy over AI in immigration and asylum decisions under fire](https://www.computerweekly.com/news/366652683/UK-secrecy-over-AI-in-immigration-and-asylum-decisions-under-fire) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 
