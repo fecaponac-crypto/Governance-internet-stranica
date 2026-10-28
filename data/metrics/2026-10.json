@@ -1,19 +1,19 @@
 {
  "month": "2026-10",
- "updated": "2026-10-28T05:45:54Z",
+ "updated": "2026-10-28T06:18:04Z",
  "portal": {
   "published_total": 18,
   "published_this_month": 18,
   "published_this_month_by_importance": {
-   "3": 10,
    "4": 4,
+   "3": 10,
    "2": 4
   },
   "sample_articles": 8
  },
  "pipeline": {
   "items_collected": 126,
-  "runs": 43,
+  "runs": 44,
   "runs_with_failed_sources": 15,
   "triage_decisions": {
    "skipped": 109,
