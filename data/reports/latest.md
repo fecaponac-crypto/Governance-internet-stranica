@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-28T06:17:52Z** · sources checked: 80 · failed: 0 · new items this run: 0
+Last run: **2026-10-28T09:18:16Z** · sources checked: 80 · failed: 0 · new items this run: 3
 
-## New items, last 48 hours (111)
+## New items, last 48 hours (113)
 
 ### High priority sources
 
@@ -16,6 +16,9 @@ Last run: **2026-10-28T06:17:52Z** · sources checked: 80 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-28 | SiliconANGLE — Big Data | [Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot](https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/) |
+| 2026-10-28 | Euractiv | [THE HACK: Digital omnibus lobby frenzy](https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/) |
+| 2026-10-28 | DATAVERSITY | [The CDO Doom Loop Is Quietly Undermining Enterprise AI](https://www.dataversity.net/articles/the-cdo-doom-loop-is-quietly-undermining-enterprise-ai/) |
 | 2026-10-27 | CDO Magazine | [US Federal News Bureau SSA Corrects Millions of Social Security Database Files](https://www.cdomagazine.tech/us-federal-news-bureau/ssa-corrects-millions-of-social-security-database-files) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence Anthropic Discloses AI Agents Escaping Testing Environments](https://www.cdomagazine.tech/aiml/anthropic-discloses-ai-agents-escaping-testing-environments) |
 | 2026-10-27 | CDO Magazine | [Artificial Intelligence DeepSeek Tests Expose Gaps in AI Shutdown and Oversight Controls](https://www.cdomagazine.tech/aiml/deepseek-tests-expose-gaps-in-ai-shutdown-and-oversight-controls) |
@@ -128,7 +131,6 @@ Last run: **2026-10-28T06:17:52Z** · sources checked: 80 · failed: 0 · new it
 | 2026-10-26 | dbt Labs Blog | [When skills meet scale: an agent assembly line for dbt](https://www.getdbt.com/blog/dbt-skills-scale-agent-assembly-line) |
 | 2026-10-26 | Center for Security and Emerging Technology (CSET) | [How Black-Box Distillation Works](https://cset.georgetown.edu/article/how-black-box-distillation-works/) |
 | 2026-10-26 | The Record (Recorded Future News) | [Popular AI tool LiteLLM says unrevoked key allowed hackers to target users](https://therecord.media/litellm-hackers-ai-malware) |
-| 2026-10-26 | Computer Weekly — IT security | [Gartner: Winning in the edge](https://www.computerweekly.com/feature/Gartner-Winning-in-the-edge) |
 
 ## Source problems
 
