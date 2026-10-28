@@ -94,6 +94,22 @@ def institution_vocabulary() -> list[dict]:
     return found
 
 
+def pending_drafts() -> list[dict]:
+    """Drafts waiting in open pull requests, so the same story is not drafted twice."""
+    try:
+        out = subprocess.run(
+            ["gh", "pr", "list", "--state", "open", "--limit", "100", "--json", "title,headRefName"],
+            cwd=ROOT, check=True, capture_output=True, text=True, timeout=60,
+        ).stdout
+        prs = json.loads(out)
+    except (OSError, subprocess.SubprocessError, json.JSONDecodeError):
+        return []
+    return [
+        {"slug": p["headRefName"].removeprefix("drafts/"), "title": re.sub(r"^(⚠️ )?Draft: | — Importance \d$", "", p["title"]), "date": ""}
+        for p in prs if p["headRefName"].startswith("drafts/")
+    ]
+
+
 def existing_articles() -> list[dict]:
     out = []
     for path in sorted(ARTICLES.glob("*.md")):
@@ -186,7 +202,8 @@ Rules:
 - Relevant: regulation, enforcement, court decisions, regulator guidance, standards, significant research, significant product launches, acquisitions or funding in the governance market, real-world governance practice.
 - Not relevant: webinars, event promotion, award announcements, hiring news, generic thought-leadership or vendor marketing, how-to listicles, stories without a data/privacy/AI-governance angle.
 - Vendor blog posts are relevant only for genuine launches, acquisitions or research findings.
-- If an item reports the same story as one of the existing articles listed below, set same_story_as to that article's slug and relevant to false.
+- If an item reports the same story as one of the existing articles or pending drafts listed below, set same_story_as to that slug and relevant to false.
+- If two or more candidates in this list report the same story (the same launch, decision, report or event, even from different outlets), judge the best one normally — prefer the original publisher or official source, then the most detailed coverage — and on every other one set same_as_index to the index of that best item and relevant to false. Otherwise same_as_index is -1.
 - Judge only from the title, source and excerpt; do not invent details."""
 
 
@@ -204,9 +221,10 @@ def score_schema(category_ids: list[str]) -> dict:
                         "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
                         "categories": {"type": "array", "items": {"type": "string", "enum": category_ids}},
                         "same_story_as": {"type": "string"},
+                        "same_as_index": {"type": "integer"},
                         "reason": {"type": "string"},
                     },
-                    "required": ["index", "relevant", "importance", "categories", "same_story_as", "reason"],
+                    "required": ["index", "relevant", "importance", "categories", "same_story_as", "same_as_index", "reason"],
                     "additionalProperties": False,
                 },
             }
@@ -229,10 +247,14 @@ def score_items(client, state, items: list[dict], categories: list[dict], existi
             f"Title: {i['title']}\nPublished: {(i['published'] or i['first_seen'])[:10]}\nExcerpt: {i['excerpt'] or '(none)'}"
             for n, i in enumerate(batch)
         )
-        user = f"Existing articles:\n{recent or '(none)'}\n\nCandidate items:\n\n{listing}"
+        user = f"Existing articles and pending drafts:\n{recent or '(none)'}\n\nCandidate items:\n\n{listing}"
         data = call_json(client, state, model=SCORER_MODEL, system=system, user=user, schema=schema, effort="low", max_tokens=8000)
         for row in data["items"]:
             if 0 <= row["index"] < len(batch):
+                twin = row.get("same_as_index", -1)
+                if 0 <= twin < len(batch) and twin != row["index"] and not row.get("same_story_as"):
+                    # Same story as another candidate in this batch: keep only that one.
+                    row = {**row, "relevant": False, "same_story_as": f"item:{batch[twin]['id']}"}
                 results[batch[row["index"]]["id"]] = row
     return results
 
@@ -707,7 +729,8 @@ def run(args) -> dict:
     state = load_state()
     categories, types = site_vocabulary()
     existing = existing_articles()
-    taken = {a["slug"] for a in existing}
+    pending = [] if args.no_pr else pending_drafts()
+    taken = {a["slug"] for a in existing + pending}
     client = anthropic.Anthropic()
     summary = {"run": now, "candidates": 0, "scored": 0, "duplicates": 0, "selected": 0, "drafted": 0, "failed": 0,
                "queued": 0, "budget_stop": False}
@@ -722,7 +745,7 @@ def run(args) -> dict:
 
     scores: dict[str, dict] = {}
     if to_score and not over_budget(state):
-        scores = score_items(client, state, to_score, categories, existing)
+        scores = score_items(client, state, to_score, categories, existing + pending)
     elif to_score:
         summary["budget_stop"] = True
 

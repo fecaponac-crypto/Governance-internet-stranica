@@ -237,3 +237,22 @@ class FactCheckThresholdTest(RunTest):
             client, summary = self.run_with(scores)
         self.assertEqual((summary["drafted"], client.writer_calls, client.check_calls), (1, 1, 0))
         self.assertIn("not run", draft.check_summary({"claims": 0, "flagged": [], "skipped": True}))
+
+
+class SameStoryTest(RunTest):
+    def test_same_story_in_one_batch_is_drafted_once(self):
+        scores = [
+            {"index": 0, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "same_as_index": -1, "reason": "x"},
+            {"index": 1, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "same_as_index": 0, "reason": "same launch"},
+        ]
+        client, summary = self.run_with(scores)
+        self.assertEqual((summary["selected"], summary["drafted"], client.writer_calls), (1, 1, 1))
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertEqual(state["processed"]["id1"]["decision"], "skipped")
+        self.assertEqual(state["processed"]["id1"]["same_story_as"], "item:id0")
+
+    def test_pending_draft_titles_are_cleaned(self):
+        out = json.dumps([{"title": "⚠️ Draft: Monte Carlo launches Bayes — Importance 3", "headRefName": "drafts/monte-carlo-bayes"},
+                          {"title": "Monday Signal 2026-11-02: x", "headRefName": "columns/2026-11-02"}])
+        with mock.patch.object(draft.subprocess, "run", lambda *a, **k: SimpleNamespace(stdout=out)):
+            self.assertEqual(draft.pending_drafts(), [{"slug": "monte-carlo-bayes", "title": "Monte Carlo launches Bayes", "date": ""}])
