@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-27T22:17:21Z** · sources checked: 80 · failed: 0 · new items this run: 1
+Last run: **2026-10-28T00:17:55Z** · sources checked: 80 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (111)
 
@@ -132,7 +132,7 @@ Last run: **2026-10-27T22:17:21Z** · sources checked: 80 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
 
 ## Check manually (weekly)
 
