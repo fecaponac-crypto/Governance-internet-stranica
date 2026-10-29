@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-29T01:00:20Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (104)
+## New items, last 48 hours (106)
 
 ### High priority sources
 
@@ -58,10 +58,12 @@ Last run: **2026-10-29T01:00:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-27 | UK Department for Science, Innovation and Technology | [Notice: Tech Town Business Survey: privacy notice 2026 to 2027](https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027) |
 | 2026-10-27 | CDO Magazine | [Leadership Moves ThoughtSpot Elevates James Belsey to Field Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/thoughtspot-elevates-james-belsey-to-field-chief-data-and-ai-officer) |
 | 2026-10-27 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation](https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/) |
+| 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
 | 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
 | 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
+| 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
 
 ### Low priority sources
 
@@ -125,7 +127,7 @@ Last run: **2026-10-29T01:00:20Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **Court of Justice of the EU — Press releases** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://curia.europa.eu/jcms/jcms/Jo2_7052/en/`
+_None._
 
 ## Check manually (weekly)
 

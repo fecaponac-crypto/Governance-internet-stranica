@@ -1406,6 +1406,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "cdf860e7fc7e1cbd": {
+   "at": "2026-10-29T03:18:57Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event registration announcement for a conference session; event promotion is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "cdf94fc0b9ebf180": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -1915,6 +1924,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fe909fccac8332c4": {
+   "at": "2026-10-29T03:18:57Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/32",
+   "primary_found": false,
+   "reason": "Official AEPD guidance (decálogo) on delegating tasks to AI assistants and agents while keeping control of personal data; practical regulator guidance with governance implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fea9136ea0714923": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -1929,8 +1955,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 87,
-   "usd": 2.4442
+   "calls": 90,
+   "usd": 2.5071
   }
  }
 }
