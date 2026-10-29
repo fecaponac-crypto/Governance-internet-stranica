@@ -246,6 +246,7 @@ Okvirne skupine izvora:
 - [ ] dotjerati pragove i upute trijaže prema iskustvu iz pilota (nakon lansiranja, s podacima iz pilota)
 - [x] `SITE.preview = false`, ukloniti probne članke (`sample: true`) — automatski 30. 10. u 12:00
 - [x] `robots.txt`: dopustiti indeksiranje + Sitemap — automatski (generira se iz `SITE.preview`)
+- [x] Google Search Console: domena potvrđena, sitemap poslan 29. 10. 2026.
 - [ ] Privacy: identitet voditelja obrade (GDPR čl. 13 traži ime/naziv i kontakt; s pseudonimom otvoreno pitanje — vidi bilješku urednika)
 - [x] odabrati i spojiti newsletter servis (obrazac za prijavu) — Buttondown, 25. 10.
 - [x] About: kratki opis urednika (pseudonim The Steward)
