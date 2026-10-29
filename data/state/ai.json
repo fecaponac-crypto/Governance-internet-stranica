@@ -114,6 +114,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0c49eb4fc30298f0": {
+   "at": "2026-10-29T12:18:34Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Opinion/commentary piece on real-time monitoring of agents; the incidents it cites overlap existing coverage and it is thought-leadership rather than a new development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0f35ed828f58bca3": {
    "at": "2026-10-29T09:18:31Z",
    "categories": [
@@ -798,6 +809,15 @@
    "primary_found": true,
    "reason": "Security incident involving an open-source AI developer tool; exposed credentials and supply-chain attack have practical implications for access governance and key management.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "694525516dd0ef68": {
+   "at": "2026-10-29T12:18:34Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Personnel appointment news (hiring/role announcement), not governance substance.",
+   "relevant": false,
    "same_story_as": null
   },
   "6d2a4c80a61e10ec": {
@@ -1517,6 +1537,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "c699e2cecab92b1b": {
+   "at": "2026-10-29T12:18:34Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same CNIL EUR 7 million Fnac fine already covered by existing article; this is the noyb source report on the same story.",
+   "relevant": false,
+   "same_story_as": "cnil-fines-fnac-entities-eur-7-million-over-app-tracker-that-ignored-u"
+  },
   "cb551d6ff5e1441a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -2103,8 +2134,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 103,
-   "usd": 3.1643
+   "calls": 104,
+   "usd": 3.1649
   }
  }
 }

@@ -1,16 +1,18 @@
 # Drafts report
 
-Last run: **2026-10-29T10:01:47Z** · candidates 2 · scored 2 · selected 2 · drafted 1 · failed 1 · queued for next run 0
+Last run: **2026-10-29T12:18:34Z** · candidates 3 · scored 3 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$3.16** of $12 budget (103 calls)
+AI spend this month: **$3.16** of $12 budget (104 calls)
 
 ## This run
 
-- ⚠️ 2 claims to check **Dutch AP warns debt collectors that AI scoring and file enrichment may breach GDPR automated decision rules** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/36
-- ❌ [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) — source not readable: only 0 characters readable
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Personnel appointment news (hiring/role announcement), not governance substance.
+- (4) Same CNIL EUR 7 million Fnac fine already covered by existing article; this is the noyb source report on the same story.
+- (3) Opinion/commentary piece on real-time monitoring of agents; the incidents it cites overlap existing coverage and it is thought-leadership rather than a new development.
 - (1) Censorship and access blocking in Turkey; not a data governance development for practitioners.
 - (1) Opinion/thought piece on digital fairness without concrete regulatory consequence.
 - (1) Newsletter roundup without a specific governance development.
@@ -23,6 +25,3 @@ AI spend this month: **$3.16** of $12 budget (103 calls)
 - (1) Immigration news briefing; surveillance mention is peripheral and not a governance development.
 - (1) Hack attempt on a campaign filing platform is security incident news with little governance-practice angle.
 - (1) Investor-focused commentary on Meta AI agent revenue; no concrete governance consequence.
-- (2) Supreme Court video privacy case (VPPA consumer definition) is a court decision affecting personal data handling.
-- (2) Supreme Court case on targeted ads and private rights of action under video privacy law is a court decision with privacy relevance.
-- (1) Lobbying story; federal policy debate is background without a concrete practitioner consequence.

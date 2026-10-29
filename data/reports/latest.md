@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-10-29T12:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 3
 
-## New items, last 48 hours (116)
+## New items, last 48 hours (115)
 
 ### High priority sources
 
@@ -22,7 +22,9 @@ Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | CDO Magazine | [Leadership Moves AHRQ Names Gil Alterovitz First Chief Super Intelligence Officer and Chief Data Officer](https://www.cdomagazine.tech/leadership-moves/ahrq-names-gil-alterovitz-first-chief-super-intelligence-officer-and-chief-data-officer) |
 | 2026-10-29 | CNIL (France) | [Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT](https://www.cnil.fr/fr/sanction-cookies-app-fnac) |
+| 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-29 | European Data Protection Supervisor (EDPS) | [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence IBM Adds Identity and Access Controls to Govern Enterprise AI Agents](https://www.cdomagazine.tech/aiml/ibm-adds-identity-and-access-controls-to-govern-enterprise-ai-agents) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence UK Financial Firms Adopt AI Agents, but Few Give Them Broad Autonomy](https://www.cdomagazine.tech/aiml/uk-financial-firms-adopt-ai-agents-but-few-give-them-broad-autonomy) |
@@ -60,8 +62,6 @@ Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-27 | CDO Magazine | [Data Management The AI Advantage You Can’t Buy: MetLife’s Tamar Shapiro on the Business Context Layer](https://www.cdomagazine.tech/data-management/the-ai-advantage-you-cant-buy-metlifes-tamar-shapiro-on-the-business-context-layer) |
 | 2026-10-27 | Alation Blog | [October 27, 2026 Context Without Purpose Is a Swamp: Lessons from a Data-Leader Hackathon Context for AI agents works best with an outcome, an owner and a boundary. See what a hackathon of data leaders learned and how to apply it. Read More](https://www.alation.com/blog/context-swamp-hackathon-lessons/) |
 | 2026-10-27 | UK Department for Science, Innovation and Technology | [Notice: Tech Town Business Survey: privacy notice 2026 to 2027](https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027) |
-| 2026-10-27 | CDO Magazine | [Leadership Moves ThoughtSpot Elevates James Belsey to Field Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/thoughtspot-elevates-james-belsey-to-field-chief-data-and-ai-officer) |
-| 2026-10-27 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation](https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/) |
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
 | 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
@@ -71,6 +71,7 @@ Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | MIT Technology Review | [We urgently need to monitor AI agents’ actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [EDRi-gram, 29 October 2026](https://edri.org/our-work/edri-gram-29-october-2026/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [The internet should not demand constant self-defence: Fairness starts before the click](https://edri.org/our-work/the-internet-should-not-demand-constant-self-defence-fairness-starts-before-the-click/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [What the new Convention on Decent Work in the Platform Economy means for workers – and what’s next for implementation](https://edri.org/our-work/what-the-new-convention-on-decent-work-in-the-platform-economy-means-for-workers-and-whats-next-for-implementation/) |
@@ -124,9 +125,7 @@ Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-27 | Google Cloud Blog — Data Analytics | [Securely connecting Gemini Enterprise to Snowflake data](https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/) |
 | 2026-10-27 | Computer Weekly — IT security | [PHP2Shell: US updates Kev catalogue as exploits spread](https://www.computerweekly.com/news/366652834/PHP2Shell-US-updates-Kev-catalogue-as-exploits-spread) |
 | 2026-10-27 | Computer Weekly — IT security | [OpenAI’s Altman: Only way out of patch apocalypse is through](https://www.computerweekly.com/news/366652912/OpenAIs-Altman-Only-way-out-of-patch-apocalypse-is-through) |
-| 2026-10-27 | Modern Data 101 | [The Lost Canvas: How the middle of the agent stack is getting crushed \| Part 1](https://moderndata101.substack.com/p/agent-builders-market-shake-out) |
 | 2026-10-27 | Computer Weekly — IT security | [Autumn Budget 2026: Healey sets out AI funding](https://www.computerweekly.com/news/366652587/Autumn-Budget-2026-Healey-sets-out-AI-funding) |
-| 2026-10-27 | Computer Weekly — IT security | [AI World: AI vulnerability surge brings change for Oracle’s cyber practice](https://www.computerweekly.com/news/366652684/AI-World-AI-vulnerability-surge-brings-change-for-Oracles-cyber-practice) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [The Wash: From Blockbuster video to TikTok, Supreme Court weighs the future of video privacy](https://epic.org/the-wash-from-blockbuster-video-to-tiktok-supreme-court-weighs-the-future-of-video-privacy/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 | 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |
@@ -137,7 +136,7 @@ Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 
