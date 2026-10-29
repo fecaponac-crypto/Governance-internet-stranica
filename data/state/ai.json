@@ -1,5 +1,17 @@
 {
  "processed": {
+  "013155490862be2d": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "ai-governance",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "UK financial firms adopting AI agents with limited autonomy touches how agents are governed, though the excerpt is absent and it is a survey-style item.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "039df5a113eb098a": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -24,6 +36,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer case study on compute costs; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "05eb2464d17f285e": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Immigration news briefing; surveillance mention is peripheral and not a governance development.",
    "relevant": false,
    "same_story_as": null
   },
@@ -57,6 +80,28 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Amicus brief in an ongoing appeal; litigation filing rather than a court decision, so only a watch item at most.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "07644c9c56cc583b": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hack attempt on a campaign filing platform is security incident news with little governance-practice angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "0c098d5b895afe7b": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Investor-focused commentary on Meta AI agent revenue; no concrete governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -160,6 +205,23 @@
    "error": "card_caption longer than 90 characters",
    "importance": 3,
    "reason": "Parliamentary scrutiny of government secrecy over AI use in immigration decisions raises transparency and accountability questions for public-sector AI governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "19d3f30dbaeb0425": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "ai-governance",
+    "market"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "cisco-open-sources-project-quarry-to-flag-risky-sequences-of-ai-agent",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/31",
+   "primary_found": true,
+   "reason": "Cisco open-sourcing a tool to detect risky AI-agent behaviour is a genuine product/tooling release relevant to AI governance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -569,6 +631,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5b6b071b8091e2d5": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Supreme Court video privacy case (VPPA consumer definition) is a court decision affecting personal data handling.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "5e7a4f7d9a8a4bb1": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -682,6 +755,17 @@
    "importance": 1,
    "reason": "Vendor customer success story; marketing content.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "72c60d52432852b8": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Supreme Court case on targeted ads and private rights of action under video privacy law is a court decision with privacy relevance.",
+   "relevant": true,
    "same_story_as": null
   },
   "766b500a31aa07ab": {
@@ -868,6 +952,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer modernization story; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "91083ea259887c1a": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Lobbying story; federal policy debate is background without a concrete practitioner consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1065,6 +1160,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "afb4f815f132baa4": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EPIC amicus brief on voter-registration data use is advocacy in a court case with data privacy angle, lower practitioner impact.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b1f10fddc8cf8df2": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -1156,6 +1263,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Customer case study on platform rebuild; vendor-style storytelling without a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "b8f4f0b03121475e": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Patch advisory for PHP flaws is general security news without a data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1417,6 +1535,17 @@
    "importance": 2,
    "reason": "AI-assisted legacy SQL migration with documented models is a practical data management case study.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "d38fceab7d173d4f": {
+   "at": "2026-10-29T00:18:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Congressional bill debate on Treasury payment data is policy commentary with limited practitioner action.",
+   "relevant": false,
    "same_story_as": null
   },
   "d4c022aa68ef2403": {
@@ -1800,8 +1929,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 84,
-   "usd": 2.3803
+   "calls": 87,
+   "usd": 2.4442
   }
  }
 }

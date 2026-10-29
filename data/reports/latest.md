@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 2 · baseline items: 1
+Last run: **2026-10-29T00:18:22Z** · sources checked: 81 · failed: 0 · new items this run: 11
 
-## New items, last 48 hours (105)
+## New items, last 48 hours (104)
 
 ### High priority sources
 
@@ -21,6 +21,10 @@ Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | CDO Magazine | [Artificial Intelligence UK Financial Firms Adopt AI Agents, but Few Give Them Broad Autonomy](https://www.cdomagazine.tech/aiml/uk-financial-firms-adopt-ai-agents-but-few-give-them-broad-autonomy) |
+| 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
+| 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
+| 2026-10-29 | CDO Magazine | [US Federal News Bureau FEC Takes Down Electronic Filing Platform After Attempted Hack](https://www.cdomagazine.tech/us-federal-news-bureau/fec-takes-down-electronic-filing-platform-after-attempted-hack) |
 | 2026-10-28 | Informatica Blog | [Informatica Headless + Oracle Select AI Integration Data Governance & Data Privacy](https://www.informatica.com/blogs/informatica-headless-oracle-select-ai-enterprise-wide-business-context-for-oracle-database-customers.html) |
 | 2026-10-28 | CDO Magazine | [AI Governance Who Owns the Context Layer?](https://www.cdomagazine.tech/ai-governance/who-owns-the-context-layer) |
 | 2026-10-28 | CDO Magazine | [Industry Newsroom Monte Carlo Launches Bayes, the Industry’s First AI Teammate for Agent Trust](https://www.cdomagazine.tech/others/monte-carlo-launches-bayes-the-industrys-first-ai-teammate-for-agent-trust) |
@@ -57,8 +61,6 @@ Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
 | 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
-| 2026-10-27 | CDO Magazine | [Artificial Intelligence AT&T, T-Mobile Tighten AI Guardrails as Agents Gain Access to Sensitive Data](https://www.cdomagazine.tech/aiml/att-t-mobile-tighten-ai-guardrails-as-agents-gain-access-to-sensitive-data) |
-| 2026-10-26 | Privacy World (Squire Patton Boggs) | [Fifth Circuit Revives Meta Pixel Privacy Class Action, Expanding Litigation Risk for Website Data](https://www.privacyworld.blog/2026/10/fifth-circuit-revives-meta-pixel-privacy-class-action-expanding-litigation-risk-for-website-data/) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 
 ### Low priority sources
@@ -78,6 +80,7 @@ Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
+| 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
 | 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
 | 2026-10-27 | dbt Labs Blog | [How Sigma runs a 2,883-model semantic layer on dbt and Dagster](https://www.getdbt.com/blog/sigma-dbt-dagster-semantic-layer) |
 | 2026-10-27 | dbt Labs Blog | [ClickHouse + dbt: Building a GitOps workflow at Twilio](https://www.getdbt.com/blog/twilio-clickhouse-dbt-gitops-workflow) |
@@ -101,6 +104,7 @@ Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | dbt Labs Blog | [dbt without the warehouse (or the bill): DuckDB end to end](https://www.getdbt.com/blog/dbt-duckdb-warehouse-free-data-transformation) |
 | 2026-10-27 | dbt Labs Blog | [Apache Iceberg on Snowflake got a lot simpler in 2026, and dbt's new catalog config is what makes it click](https://www.getdbt.com/blog/apache-iceberg-snowflake-dbt-catalog-configuration) |
 | 2026-10-27 | dbt Labs Blog | [Why dbt Labs thinks AI agents will finally make the semantic layer stick](https://www.getdbt.com/blog/dbt-semantic-layer-ai-agent-adoption) |
+| 2026-10-27 | EPIC — Electronic Privacy Information Center | [EPIC Urges Supreme Court to Protect Voters and Strike Down Arizona’s SAVE-based Voter-Registration Cancellation Program](https://epic.org/epic-urges-supreme-court-to-protect-voters-and-strike-down-arizonas-save-based-voter-registration-cancellation-program/) |
 | 2026-10-27 | dbt Labs Blog | [How dbt Labs and Fivetran are moving dbt workloads onto the data lake, model by model](https://www.getdbt.com/blog/dbt-lake-compute-data-lake-workloads) |
 | 2026-10-27 | dbt Labs Blog | [Inside dbt v2: how a rebuilt SQL engine makes linting up to 250x faster](https://www.getdbt.com/blog/dbt-v2-sql-engine-linting-250x-faster) |
 | 2026-10-27 | dbt Labs Blog | [What Open Data Infrastructure looks like with dbt Mesh](https://www.getdbt.com/blog/dbt-mesh-snowflake-databricks-iceberg-catalog) |
@@ -112,17 +116,12 @@ Last run: **2026-10-28T21:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | Modern Data 101 | [The Lost Canvas: How the middle of the agent stack is getting crushed \| Part 1](https://moderndata101.substack.com/p/agent-builders-market-shake-out) |
 | 2026-10-27 | Computer Weekly — IT security | [Autumn Budget 2026: Healey sets out AI funding](https://www.computerweekly.com/news/366652587/Autumn-Budget-2026-Healey-sets-out-AI-funding) |
 | 2026-10-27 | Computer Weekly — IT security | [AI World: AI vulnerability surge brings change for Oracle’s cyber practice](https://www.computerweekly.com/news/366652684/AI-World-AI-vulnerability-surge-brings-change-for-Oracles-cyber-practice) |
-| 2026-10-26 | dbt Labs Blog | [How Data Culture measured its way from zero trust to a shippable AI analytics agent](https://www.getdbt.com/blog/data-culture-ai-analytics-agent-trust-context) |
-| 2026-10-26 | dbt Labs Blog | [How Verily Health monitors wastewater for 30-plus pathogens with a 5-person team and 1 dbt package](https://www.getdbt.com/blog/verily-wastewater-pathogen-monitoring-dbt) |
-| 2026-10-26 | dbt Labs Blog | [How Kramp cut analyst onboarding from days to minutes with a self-serve dbt Mesh factory](https://www.getdbt.com/blog/kramp-dbt-mesh-analyst-onboarding) |
-| 2026-10-26 | dbt Labs Blog | [How customer pressure pushed dbt past a cautious platform team at Delivery Hero](https://www.getdbt.com/blog/delivery-hero-dbt-platform-modernization) |
-| 2026-10-26 | dbt Labs Blog | [What Okta learned governing context for AI agents at scale](https://www.getdbt.com/blog/okta-ai-agent-context-governance) |
-| 2026-10-26 | dbt Labs Blog | [Beyond medallion architecture: the written rules that keep a growing dbt project consistent](https://www.getdbt.com/blog/dbt-project-standards-medallion-architecture) |
-| 2026-10-26 | dbt Labs Blog | [Inside dbt Wizard, the AI agent built to show its work](https://www.getdbt.com/blog/dbt-wizard-ai-agent-validation-lineage) |
-| 2026-10-26 | dbt Labs Blog | [dbt v2 lands: faster parsing, one shared adapter layer, and a docs experience that skips the giant manifest.json](https://www.getdbt.com/blog/dbt-v2-fast-parsing-shared-adapters-documentation) |
-| 2026-10-26 | dbt Labs Blog | [Optimizing your runs for lower compute, fresher data, and faster iteration with dbt State](https://www.getdbt.com/blog/dbt-state-orchestration-jobs-19-to-2) |
-| 2026-10-26 | Computer Weekly — IT security | [UK secrecy over AI in immigration and asylum decisions under fire](https://www.computerweekly.com/news/366652683/UK-secrecy-over-AI-in-immigration-and-asylum-decisions-under-fire) |
+| 2026-10-26 | EPIC — Electronic Privacy Information Center | [The Wash: From Blockbuster video to TikTok, Supreme Court weighs the future of video privacy](https://epic.org/the-wash-from-blockbuster-video-to-tiktok-supreme-court-weighs-the-future-of-video-privacy/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
+| 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |
+| 2026-10-24 | EPIC — Electronic Privacy Information Center | [NPR: Immigration briefing: Ukraine TPS extended; visa slow-walk claim; VT ICE protests](https://epic.org/npr-immigration-briefing-ukraine-tps-extended-visa-slow-walk-claim-vt-ice-protests/) |
+| 2026-10-22 | EPIC — Electronic Privacy Information Center | [Traders Union: Meta Platforms’ Muse drives investor hopes for new AI agent revenue](https://epic.org/traders-union-meta-platforms-muse-drives-investor-hopes-for-new-ai-agent-revenue/) |
+| 2026-10-22 | EPIC — Electronic Privacy Information Center | [Legis1: Oracle Lobbying Rises Amid Federal AI and Privacy Policy Debate](https://epic.org/legis1-oracle-lobbying-rises-amid-federal-ai-and-privacy-policy-debate/) |
 
 ## Source problems
 
