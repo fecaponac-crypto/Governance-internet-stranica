@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-29T06:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 4
+Last run: **2026-10-29T09:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 6
 
-## New items, last 48 hours (109)
+## New items, last 48 hours (114)
 
 ### High priority sources
 
@@ -21,6 +21,7 @@ Last run: **2026-10-29T06:18:18Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | CNIL (France) | [Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT](https://www.cnil.fr/fr/sanction-cookies-app-fnac) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence IBM Adds Identity and Access Controls to Govern Enterprise AI Agents](https://www.cdomagazine.tech/aiml/ibm-adds-identity-and-access-controls-to-govern-enterprise-ai-agents) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence UK Financial Firms Adopt AI Agents, but Few Give Them Broad Autonomy](https://www.cdomagazine.tech/aiml/uk-financial-firms-adopt-ai-agents-but-few-give-them-broad-autonomy) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
@@ -60,7 +61,6 @@ Last run: **2026-10-29T06:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | CDO Magazine | [Leadership Moves ThoughtSpot Elevates James Belsey to Field Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/thoughtspot-elevates-james-belsey-to-field-chief-data-and-ai-officer) |
 | 2026-10-27 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation](https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/) |
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
-| 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
 | 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 | 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
@@ -69,6 +69,11 @@ Last run: **2026-10-29T06:18:18Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | European Digital Rights (EDRi) | [EDRi-gram, 29 October 2026](https://edri.org/our-work/edri-gram-29-october-2026/) |
+| 2026-10-29 | European Digital Rights (EDRi) | [The internet should not demand constant self-defence: Fairness starts before the click](https://edri.org/our-work/the-internet-should-not-demand-constant-self-defence-fairness-starts-before-the-click/) |
+| 2026-10-29 | European Digital Rights (EDRi) | [What the new Convention on Decent Work in the Platform Economy means for workers – and what’s next for implementation](https://edri.org/our-work/what-the-new-convention-on-decent-work-in-the-platform-economy-means-for-workers-and-whats-next-for-implementation/) |
+| 2026-10-29 | European Digital Rights (EDRi) | [Draconian access block orders in Turkey](https://edri.org/our-work/draconian-access-block-orders-in-turkey/) |
+| 2026-10-29 | European Digital Rights (EDRi) | [Surveillance in times of insecurity: a wicked and stupid strategy](https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/) |
 | 2026-10-28 | The Record (Recorded Future News) | [Court strikes down West Virginia law barring disclosure of public officials’ personal data](https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court) |
 | 2026-10-28 | Center for Data Innovation | [Establish a Common Framework for Evaluating Data-Center Projects](https://datainnovation.org/2026/10/establish-a-common-framework-for-evaluating-data-center-projects/) |
 | 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |

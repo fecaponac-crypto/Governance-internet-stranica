@@ -114,6 +114,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0f35ed828f58bca3": {
+   "at": "2026-10-29T09:18:31Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "cnil-fines-fnac-entities-eur-7-million-over-app-tracker-that-ignored-u",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/35",
+   "primary_found": false,
+   "reason": "CNIL EUR 7M cookie sanction against Fnac Darty is a concrete regulator enforcement on tracker consent with practical consent-governance implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "13067dac8ba153f3": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -206,6 +222,15 @@
    "importance": 3,
    "reason": "Parliamentary scrutiny of government secrecy over AI use in immigration decisions raises transparency and accountability questions for public-sector AI governance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "17ef4919ead4cb16": {
+   "at": "2026-10-29T09:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Censorship and access blocking in Turkey; not a data governance development for practitioners.",
+   "relevant": false,
    "same_story_as": null
   },
   "19d3f30dbaeb0425": {
@@ -969,6 +994,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "8c78703ef3377ba5": {
+   "at": "2026-10-29T09:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion/thought piece on digital fairness without concrete regulatory consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "8f89234463f48768": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -1251,6 +1285,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b60d36aa8ae62307": {
+   "at": "2026-10-29T09:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup without a specific governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b66f2264c3976205": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [
@@ -1409,6 +1452,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic newsletter issue with no specific governance story in the excerpt; cannot be judged relevant from title and excerpt alone.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c09b425f28824cec": {
+   "at": "2026-10-29T09:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Advocacy commentary on Swedish surveillance policy; opinion rather than a concrete governance development.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1732,6 +1784,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e1384af5e276298d": {
+   "at": "2026-10-29T09:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "ILO convention on platform work; labour policy with only tangential data protection angle, not core governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e3381fe87d6b6de3": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -2012,8 +2073,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 95,
-   "usd": 2.7227
+   "calls": 99,
+   "usd": 2.8476
   }
  }
 }
