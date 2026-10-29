@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-10-29T12:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 3
+Last run: **2026-10-29T15:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 8
 
-## New items, last 48 hours (115)
+## New items, last 48 hours (116)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | Hunton Privacy & Information Security Law Blog | [California Law Extends CMIA Protections to Health Care Chatbots and Enacts New Guardrails on AI Use in Clinical Care](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-law-extends-cmia-protections-to-health-care-chatbots-and-enacts-new-guardrails-on-ai-use-in-clinical-care) |
 | 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [AP informeert incassobureaus over verantwoorde inzet AI](https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [New York's governor signs youth AI chatbot safety bill](https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Trust by design: Provenance for the agentic AI era](https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era) |
@@ -15,13 +16,13 @@ Last run: **2026-10-29T12:18:20Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [SB 53 and the TDTA: How California is regulating AI transparency](https://iapp.org/news/a/sb-53-and-the-tdta-how-california-is-regulating-ai-transparency) |
 | 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Eu Kids Act, Stanzione: Tutela dei minori senza sacrificare privacy e autonomia](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312988) |
 | 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Scontri di Milano: Garante Privacy blocca le immagini dell'undicenne](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312725) |
-| 2026-10-27 | IAPP — International Association of Privacy Professionals | [Italy's AI Act framework takes shape: What Legislative Decree No. 179/2026 means for organizations](https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations) |
-| 2026-10-27 | IAPP — International Association of Privacy Professionals | [Between the homework app and the midnight feed](https://iapp.org/news/a/between-the-homework-app-and-the-midnight-feed) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | Alation Blog | [October 29, 2026 What Is an AI Operating System? Defining the Category Beyond the Data Platform Four different things get called an “AIOS.” Learn which one a vendor means and what it must do that a data platform… Read More](https://www.alation.com/blog/what-is-aios-ai-operating-system/) |
+| 2026-10-29 | Tech Policy Press | [What Latino Voters Can Teach Washington About AI Governance](https://techpolicy.press/what-latino-voters-can-teach-washington-about-ai-governance) |
 | 2026-10-29 | CDO Magazine | [Leadership Moves AHRQ Names Gil Alterovitz First Chief Super Intelligence Officer and Chief Data Officer](https://www.cdomagazine.tech/leadership-moves/ahrq-names-gil-alterovitz-first-chief-super-intelligence-officer-and-chief-data-officer) |
 | 2026-10-29 | CNIL (France) | [Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT](https://www.cnil.fr/fr/sanction-cookies-app-fnac) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
@@ -59,11 +60,7 @@ Last run: **2026-10-29T12:18:20Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | Snowflake Blog | [Snowflake and Oracle: Bringing the AI Data Cloud to OCI](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-oracle-partnership-ai-data-cloud-oci) |
 | 2026-10-27 | Data Matters (Sidley Austin) | [From Disclosures to Prohibitions: The New Legal Landscape on the Use of Consumer Data for Personalized Pricing](https://datamatters.sidley.com/2026/10/27/from-disclosures-to-prohibitions-the-new-legal-landscape-on-the-use-of-consumer-data-for-personalized-pricing/) |
 | 2026-10-27 | Forrester Blogs | [Banks Can’t Block Their Way Into The Agentic Future](https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/) |
-| 2026-10-27 | CDO Magazine | [Data Management The AI Advantage You Can’t Buy: MetLife’s Tamar Shapiro on the Business Context Layer](https://www.cdomagazine.tech/data-management/the-ai-advantage-you-cant-buy-metlifes-tamar-shapiro-on-the-business-context-layer) |
-| 2026-10-27 | Alation Blog | [October 27, 2026 Context Without Purpose Is a Swamp: Lessons from a Data-Leader Hackathon Context for AI agents works best with an outcome, an owner and a boundary. See what a hackathon of data leaders learned and how to apply it. Read More](https://www.alation.com/blog/context-swamp-hackathon-lessons/) |
-| 2026-10-27 | UK Department for Science, Innovation and Technology | [Notice: Tech Town Business Survey: privacy notice 2026 to 2027](https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027) |
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
-| 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 | 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
 
@@ -71,12 +68,17 @@ Last run: **2026-10-29T12:18:20Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | Autorité de protection des données (Belgium) | [Découvrez les dernières activités de l’APD dans notre newsletter d’octobre](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/29/decouvrez-les-dernieres-activites-de-lapd-dans-notre-newsletter-doctobre) |
+| 2026-10-29 | The Record (Recorded Future News) | [FTC to probe major companies over personalized pricing and pay](https://therecord.media/ftc-rideshare-airlines-data) |
+| 2026-10-29 | International Data Spaces Association | [DATA SPACES_NOW #10 takes stock of a decade and turns to scale](https://internationaldataspaces.org/data-spaces_now-10-takes-stock-of-a-decade-and-turns-to-scale/) |
+| 2026-10-29 | MIT Technology Review | [The Download: AI agent tracking and climate feedback loops](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
 | 2026-10-29 | MIT Technology Review | [We urgently need to monitor AI agents’ actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [EDRi-gram, 29 October 2026](https://edri.org/our-work/edri-gram-29-october-2026/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [The internet should not demand constant self-defence: Fairness starts before the click](https://edri.org/our-work/the-internet-should-not-demand-constant-self-defence-fairness-starts-before-the-click/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [What the new Convention on Decent Work in the Platform Economy means for workers – and what’s next for implementation](https://edri.org/our-work/what-the-new-convention-on-decent-work-in-the-platform-economy-means-for-workers-and-whats-next-for-implementation/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [Draconian access block orders in Turkey](https://edri.org/our-work/draconian-access-block-orders-in-turkey/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [Surveillance in times of insecurity: a wicked and stupid strategy](https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/) |
+| 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
 | 2026-10-28 | The Record (Recorded Future News) | [Court strikes down West Virginia law barring disclosure of public officials’ personal data](https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court) |
 | 2026-10-28 | Center for Data Innovation | [Establish a Common Framework for Evaluating Data-Center Projects](https://datainnovation.org/2026/10/establish-a-common-framework-for-evaluating-data-center-projects/) |
 | 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |
@@ -125,7 +127,6 @@ Last run: **2026-10-29T12:18:20Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | Google Cloud Blog — Data Analytics | [Securely connecting Gemini Enterprise to Snowflake data](https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/) |
 | 2026-10-27 | Computer Weekly — IT security | [PHP2Shell: US updates Kev catalogue as exploits spread](https://www.computerweekly.com/news/366652834/PHP2Shell-US-updates-Kev-catalogue-as-exploits-spread) |
 | 2026-10-27 | Computer Weekly — IT security | [OpenAI’s Altman: Only way out of patch apocalypse is through](https://www.computerweekly.com/news/366652912/OpenAIs-Altman-Only-way-out-of-patch-apocalypse-is-through) |
-| 2026-10-27 | Computer Weekly — IT security | [Autumn Budget 2026: Healey sets out AI funding](https://www.computerweekly.com/news/366652587/Autumn-Budget-2026-Healey-sets-out-AI-funding) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [The Wash: From Blockbuster video to TikTok, Supreme Court weighs the future of video privacy](https://epic.org/the-wash-from-blockbuster-video-to-tiktok-supreme-court-weighs-the-future-of-video-privacy/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 | 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |

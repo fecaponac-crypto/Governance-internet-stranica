@@ -94,6 +94,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "084484653dbf1094": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer on the AI operating system category; generic thought-leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0c098d5b895afe7b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -203,6 +212,18 @@
    "reason": "Collibra announces acquisition of AI governance company Trail ML, a genuine market move relevant to AI governance tooling.",
    "relevant": true,
    "same_story_as": null
+  },
+  "147d2921484983ce": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same FTC 6(b) order covered by existing article; marked as duplicate of that slug.",
+   "relevant": true,
+   "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
   },
   "162d9664025f5457": {
    "at": "2026-10-28T20:17:45Z",
@@ -331,6 +352,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "269bfaa8d114d30f": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive interview on company culture; generic thought-leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "27b0e129b332e7c9": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -348,6 +378,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor tutorial-style case on agent deployment; not a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "28d1a96b6b9d8fe1": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter digest with an opinion piece; not a specific news item with its own governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -629,6 +668,15 @@
    "primary_found": false,
    "reason": "Concrete example of AI agent query error and business context via semantic layer illustrates governance need for context for AI.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "4ddff7760a2794f7": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Political commentary on AI governance in Washington without concrete governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "51f4293be5d8df9e": {
@@ -1189,6 +1237,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9d047214eb4da7f3": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Regulator newsletter roundup with no specific substantive decision or guidance in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9d3740069d6e69a6": {
    "at": "2026-10-28T09:18:26Z",
    "categories": [],
@@ -1249,6 +1306,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Use of dbt context layer to give AI agents governed metric context is a practical governance example.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "a79a1ec0482d8512": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "claims": 20,
+   "decision": "drafted",
+   "draft": "california-extends-medical-confidentiality-law-to-health-chatbots-and",
+   "flagged": 4,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/37",
+   "primary_found": false,
+   "reason": "California AB 1979 extends CMIA to health chatbots and limits AI use in clinical care; concrete governance consequence.",
    "relevant": true,
    "same_story_as": null
   },
@@ -1420,6 +1494,15 @@
    "importance": 2,
    "reason": "dbt v2 release changes manifest and metadata files that governance and catalogue tooling rely on, a genuine product launch.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "b9f7f99c1f168269": {
+   "at": "2026-10-29T15:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Association magazine issue retrospective; no concrete regulatory or practice development.",
+   "relevant": false,
    "same_story_as": null
   },
   "bcc202e5ff2584f7": {
@@ -2134,8 +2217,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 104,
-   "usd": 3.1649
+   "calls": 108,
+   "usd": 3.3079
   }
  }
 }

@@ -1,27 +1,27 @@
 # Drafts report
 
-Last run: **2026-10-29T12:18:34Z** · candidates 3 · scored 3 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-29T15:18:28Z** · candidates 8 · scored 8 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$3.16** of $12 budget (104 calls)
+AI spend this month: **$3.31** of $12 budget (108 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 4 claims to check **California extends medical confidentiality law to health chatbots and limits AI use in clinical care** — importance 4 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/37
 
 ## Recently skipped by triage
 
+- (1) Regulator newsletter roundup with no specific substantive decision or guidance in the excerpt.
+- (1) Vendor blog explainer on the AI operating system category; generic thought-leadership.
+- (4) Same FTC 6(b) order covered by existing article; marked as duplicate of that slug.
+- (1) Political commentary on AI governance in Washington without concrete governance consequence.
+- (1) Association magazine issue retrospective; no concrete regulatory or practice development.
+- (1) Newsletter digest with an opinion piece; not a specific news item with its own governance consequence.
+- (1) Executive interview on company culture; generic thought-leadership.
+- (3) Opinion/commentary piece on real-time monitoring of agents; the incidents it cites overlap existing coverage and it is thought-leadership rather than a new development.
 - (1) Personnel appointment news (hiring/role announcement), not governance substance.
 - (4) Same CNIL EUR 7 million Fnac fine already covered by existing article; this is the noyb source report on the same story.
-- (3) Opinion/commentary piece on real-time monitoring of agents; the incidents it cites overlap existing coverage and it is thought-leadership rather than a new development.
 - (1) Censorship and access blocking in Turkey; not a data governance development for practitioners.
 - (1) Opinion/thought piece on digital fairness without concrete regulatory consequence.
 - (1) Newsletter roundup without a specific governance development.
 - (1) Advocacy commentary on Swedish surveillance policy; opinion rather than a concrete governance development.
 - (1) ILO convention on platform work; labour policy with only tangential data protection angle, not core governance news.
-- (1) Commentary on Supreme Court VPPA questions; court proceedings without a clear governance outcome yet, and framed as lawyer reaction.
-- (2) Coverage of stakeholder concerns over proposed AI rules on human review; background on regulatory debate, lower importance.
-- (1) Event registration announcement for a conference session; event promotion is not relevant.
-- (2) UK financial firms adopting AI agents with limited autonomy touches how agents are governed, though the excerpt is absent and it is a survey-style item.
-- (1) Immigration news briefing; surveillance mention is peripheral and not a governance development.
-- (1) Hack attempt on a campaign filing platform is security incident news with little governance-practice angle.
-- (1) Investor-focused commentary on Meta AI agent revenue; no concrete governance consequence.
