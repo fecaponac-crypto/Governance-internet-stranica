@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new items this run: 2
+Last run: **2026-10-29T06:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 4
 
-## New items, last 48 hours (106)
+## New items, last 48 hours (109)
 
 ### High priority sources
 
@@ -21,6 +21,7 @@ Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | CDO Magazine | [Artificial Intelligence IBM Adds Identity and Access Controls to Govern Enterprise AI Agents](https://www.cdomagazine.tech/aiml/ibm-adds-identity-and-access-controls-to-govern-enterprise-ai-agents) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence UK Financial Firms Adopt AI Agents, but Few Give Them Broad Autonomy](https://www.cdomagazine.tech/aiml/uk-financial-firms-adopt-ai-agents-but-few-give-them-broad-autonomy) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
@@ -61,7 +62,6 @@ Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
 | 2026-10-27 | DATAVERSITY | [Your Data Governance Policy Says Who Can Use the Data – Does Your AI System Know That?](https://www.dataversity.net/articles/your-data-governance-policy-says-who-can-use-the-data-does-your-ai-system-know-that/) |
 | 2026-10-27 | European Data Protection Supervisor (EDPS) | [EDPS Newsletter 123 out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-newsletter-123-out-now) |
-| 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 | 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
 
@@ -74,6 +74,7 @@ Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |
 | 2026-10-28 | Precisely Blog | [Three questions that will tell you if your data is ready for AI](https://www.precisely.com/blog/ai-ready-data/three-questions-that-will-tell-you-if-your-data-is-ready-for-ai/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [What Five Months of Beta Taught Us About Making AI Agents Trustworthy](https://datahub.com/blog/making-ai-agents-trustworthy-lessons-from-beta/) |
+| 2026-10-28 | EPIC — Electronic Privacy Information Center | [EPIC, CFA and Fairplay Urge Stronger Rules Under Colorado Automated Decision-Making Technology and Chatbot Laws](https://epic.org/epic-cfa-and-fairplay-urge-stronger-rules-under-colorado-automated-decision-making-technology-and-chatbot-laws/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [Context Graph vs. Ontology: Why Each Needs the Other](https://datahub.com/blog/context-graph-vs-ontology/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [What Is a Unified Context Layer? (And What Unified Doesn’t Mean)](https://datahub.com/blog/unified-context-layer/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [Data Lifecycle Management: The Six Stages for the AI Era](https://datahub.com/blog/data-lifecycle-management/) |
@@ -82,6 +83,7 @@ Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
+| 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
 | 2026-10-27 | dbt Labs Blog | [How to put generative AI directly into a dbt pipeline with plain SQL](https://www.getdbt.com/blog/bigquery-generative-ai-dbt-sql-functions) |
 | 2026-10-27 | dbt Labs Blog | [How Sigma runs a 2,883-model semantic layer on dbt and Dagster](https://www.getdbt.com/blog/sigma-dbt-dagster-semantic-layer) |
@@ -122,6 +124,7 @@ Last run: **2026-10-29T03:18:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 | 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |
 | 2026-10-24 | EPIC — Electronic Privacy Information Center | [NPR: Immigration briefing: Ukraine TPS extended; visa slow-walk claim; VT ICE protests](https://epic.org/npr-immigration-briefing-ukraine-tps-extended-visa-slow-walk-claim-vt-ice-protests/) |
+| 2026-10-23 | EPIC — Electronic Privacy Information Center | [Privacy Daily: Supreme Court Justices’ Questions About VPPA Definitions Didn’t Surprise Lawyers](https://epic.org/privacy-daily-supreme-court-justices-questions-about-vppa-definitions-didnt-surprise-lawyers/) |
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [Traders Union: Meta Platforms’ Muse drives investor hopes for new AI agent revenue](https://epic.org/traders-union-meta-platforms-muse-drives-investor-hopes-for-new-ai-agent-revenue/) |
 | 2026-10-22 | EPIC — Electronic Privacy Information Center | [Legis1: Oracle Lobbying Rises Amid Federal AI and Privacy Policy Debate](https://epic.org/legis1-oracle-lobbying-rises-amid-federal-ai-and-privacy-policy-debate/) |
 

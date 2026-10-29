@@ -315,6 +315,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "291b33c92e244271": {
+   "at": "2026-10-29T06:18:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Commentary on Supreme Court VPPA questions; court proceedings without a clear governance outcome yet, and framed as lawyer reaction.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "29e95692607d8ce4": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -506,6 +517,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "415b2ad9cda2f097": {
+   "at": "2026-10-29T06:18:32Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "advocates-say-colorado-s-revised-admt-draft-rules-let-deployers-shift",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/34",
+   "primary_found": true,
+   "reason": "Advocacy comments on Colorado ADMT Act and Chatbot Safety Act rulemaking; concrete regulatory process affecting automated decision governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "42819fb1af39ea7f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -606,6 +634,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Guide to securely connecting Gemini Enterprise to warehouse data with governance controls; practical but largely a how-to, so modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "57c958c23ae4bd74": {
+   "at": "2026-10-29T06:18:32Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Coverage of stakeholder concerns over proposed AI rules on human review; background on regulatory debate, lower importance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -1445,6 +1485,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "cfe5e5e738ff67f0": {
+   "at": "2026-10-29T06:18:32Z",
+   "categories": [
+    "security",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "ibm-launches-agent-identity-and-vault-controls-to-give-ai-agents-owner",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/33",
+   "primary_found": true,
+   "reason": "IBM adds identity and access controls for governing enterprise AI agents; a relevant product launch with access governance angle, though excerpt is empty.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d037ed9023380d4f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -1955,8 +2012,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 90,
-   "usd": 2.5071
+   "calls": 95,
+   "usd": 2.7227
   }
  }
 }
