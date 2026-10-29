@@ -375,6 +375,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "24f010460a399cea": {
+   "at": "2026-10-29T21:19:01Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "fpf-urges-colorado-to-narrow-admt-de-minimis-test-and-tie-developer-di",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/39",
+   "primary_found": true,
+   "reason": "FPF comments on Colorado ADMT rulemaking; practical implications for deployers, though advocates' draft-rules story already covers the rulemaking; kept as relevant commentary from a reliable policy source.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "26348865d55eb03c": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -522,6 +539,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "337e6dd0745c2fcc": {
+   "at": "2026-10-29T21:19:01Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter commentary on a political appointment; not a governance development in substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "357fa5943f2603b0": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -592,6 +618,23 @@
    "importance": 1,
    "reason": "Customer success story; no governance development.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "3dfd33e7b86f7b41": {
+   "at": "2026-10-29T21:19:01Z",
+   "categories": [
+    "regulation",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "uk-surveillance-watchdog-flags-records-removable-media-and-data-accura",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/40",
+   "primary_found": true,
+   "reason": "UK Investigatory Powers Commissioner report on government bodies failing surveillance safeguards; regulator oversight with governance consequences.",
+   "relevant": true,
    "same_story_as": null
   },
   "3e1659f779ef610b": {
@@ -912,6 +955,22 @@
    "importance": 1,
    "reason": "Personnel appointment news (hiring/role announcement), not governance substance.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6b32941e8800f533": {
+   "at": "2026-10-29T21:19:01Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "gao-finds-pentagon-responsible-ai-office-filled-3-of-10-posts-as-29-of",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/41",
+   "primary_found": true,
+   "reason": "GAO finding on Pentagon AI oversight office capacity; government AI governance oversight, though reported via a secondary commentary piece.",
+   "relevant": true,
    "same_story_as": null
   },
   "6d2a4c80a61e10ec": {
@@ -1393,6 +1452,23 @@
    "importance": 2,
    "reason": "Conversation/panel promotion with generic thought-leadership framing; little concrete consequence stated in the excerpt.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "aacd7396929c5498": {
+   "at": "2026-10-29T21:19:01Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "gm-agrees-to-pay-220-million-to-36-attorneys-general-over-sale-of-driv",
+   "flagged": 2,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/38",
+   "primary_found": true,
+   "reason": "Multistate AG settlement with GM over unlawful sale of driver data, with $220M fine and reforms; significant enforcement on data sharing.",
+   "relevant": true,
    "same_story_as": null
   },
   "ab4091a7e20510a1": {
@@ -1959,6 +2035,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d4c90c5ae2b0a963": {
+   "at": "2026-10-29T21:19:01Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/networking dinner report; no governance substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d8268953054e9098": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -2377,8 +2462,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 109,
-   "usd": 3.3096
+   "calls": 119,
+   "usd": 3.7661
   }
  }
 }

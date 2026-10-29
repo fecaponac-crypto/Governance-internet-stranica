@@ -1,15 +1,20 @@
 # Drafts report
 
-Last run: **2026-10-29T18:30:18Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-29T21:19:01Z** · candidates 6 · scored 6 · selected 4 · drafted 4 · failed 0 · queued for next run 0
 
-AI spend this month: **$3.31** of $12 budget (109 calls)
+AI spend this month: **$3.77** of $12 budget (119 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 2 claims to check **GM agrees to pay $220 million to 36 attorneys general over sale of driver data to insurers via brokers** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/38
+- ℹ️ not fact-checked **FPF urges Colorado to narrow ADMT 'de minimis' test and tie developer disclosures to deployer duties** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/39
+- ℹ️ not fact-checked **UK surveillance watchdog flags records, removable-media and data-accuracy failings in 2025 annual report** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/40
+- ℹ️ not fact-checked **GAO finds Pentagon responsible AI office filled 3 of 10 posts as 29 of 64 strategy efforts stall** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/41
 
 ## Recently skipped by triage
 
+- (1) Event/networking dinner report; no governance substance.
+- (1) Newsletter commentary on a political appointment; not a governance development in substance.
 - (1) Legal industry commentary on AI use by outside counsel, without a data governance angle.
 - (2) Covers the same FTC personalized-pricing scrutiny as the existing FTC orders article.
 - (1) Sector sizing study without a governance angle.
@@ -23,5 +28,3 @@ _No drafts this run._
 - (1) Event conference notes with no specific decision or consequence stated in the excerpt.
 - (2) Court ruling keeping a medical-privacy claim alive against an ed-tech provider after a data breach.
 - (1) Vendor how-to on querying Iceberg tables across platforms, without a governance angle.
-- (2) Analysis of China's PIPL enforcement and evolution, with practical relevance for cross-border data governance.
-- (1) Vendor blog explainer on the AI operating system category; generic thought-leadership.
