@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-10-29T09:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 6
+Last run: **2026-10-29T10:01:33Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (114)
+## New items, last 48 hours (116)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [AP informeert incassobureaus over verantwoorde inzet AI](https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [New York's governor signs youth AI chatbot safety bill](https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Trust by design: Provenance for the agentic AI era](https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Notes from the AI Governance Center: Agentified cyberattacks](https://iapp.org/news/a/notes-from-the-ai-governance-center-agentified-cyberattacks) |
@@ -22,6 +23,7 @@ Last run: **2026-10-29T09:18:17Z** · sources checked: 81 · failed: 0 · new it
 | Date | Source | Title |
 |---|---|---|
 | 2026-10-29 | CNIL (France) | [Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT](https://www.cnil.fr/fr/sanction-cookies-app-fnac) |
+| 2026-10-29 | European Data Protection Supervisor (EDPS) | [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence IBM Adds Identity and Access Controls to Govern Enterprise AI Agents](https://www.cdomagazine.tech/aiml/ibm-adds-identity-and-access-controls-to-govern-enterprise-ai-agents) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence UK Financial Firms Adopt AI Agents, but Few Give Them Broad Autonomy](https://www.cdomagazine.tech/aiml/uk-financial-firms-adopt-ai-agents-but-few-give-them-broad-autonomy) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
@@ -135,7 +137,7 @@ Last run: **2026-10-29T09:18:17Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 

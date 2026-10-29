@@ -395,6 +395,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3085371d8f724b4a": {
+   "at": "2026-10-29T10:01:47Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 24,
+   "decision": "drafted",
+   "draft": "dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may",
+   "flagged": 2,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/36",
+   "primary_found": true,
+   "reason": "Dutch DPA sector sample of debt collectors on AI/algorithm risks (wrong decisions, discrimination) with guidance; concrete practitioner relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3326f8c8453fd84c": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -1125,6 +1142,19 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Describes a business context schema in a semantic layer for AI agents, a concrete metadata/context practice.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "9c637fef0b9b25d8": {
+   "at": "2026-10-29T10:01:47Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: only 0 characters readable",
+   "importance": 3,
+   "reason": "EDPS opinion on EU-US framework agreement for information exchange on identity verification and vetting; regulator opinion with data protection implications.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2073,8 +2103,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 99,
-   "usd": 2.8476
+   "calls": 103,
+   "usd": 3.1643
   }
  }
 }
