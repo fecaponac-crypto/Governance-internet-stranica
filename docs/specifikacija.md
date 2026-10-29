@@ -238,7 +238,7 @@ Okvirne skupine izvora:
 
 **Što pratimo:** broj i kvalitetu nacrta, udio objavljenih/odbačenih, točnost u odnosu na izvore, propuštene važne vijesti, potrošnju AI-ja (`data/reports/drafts.md`), ispade izvora (`data/reports/latest.md`).
 
-**Lansiranje: petak 30. 10. 2026. u 12:00 (Zagreb, CET) = 11:00 UTC** (odluka 28. 10.). Do tada traka na vrhu svake stranice odbrojava (`SITE.launchAt`).
+**Lansirano 29. 10. 2026. oko 20:15 (Zagreb)** — dan ranije od plana, na odluku urednika. (Prvotno planirano: petak 30. 10. u 12:00.) Do tada traka na vrhu svake stranice odbrojava (`SITE.launchAt`).
 
 **Automatski u trenutku lansiranja** (Worker cron `55 10 30 10 *` → `.github/workflows/launch.yml` → `pipeline/launch.py`; rezerva: GitHubov raspored; ručno: *Actions → Public launch → Run workflow*, opcija *now*): skripta čeka do 11:59, postavlja `SITE.preview = false` i briše probne članke, commit i push → Cloudflare objavi za ~1 min. Tada nestaju traka i `noindex`, `robots.txt` otvara stranicu tražilicama uz Sitemap. Ishod pokretanja: KV `cron:last-launch`.
 

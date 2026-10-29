@@ -18,7 +18,7 @@ export const SITE = {
   newsletterArchiveUrl: 'https://buttondown.com/datagovernancesignal',
   // While true: preview banner with a countdown to launchAt, sample articles shown, noindex,
   // robots.txt disallows crawling. .github/workflows/launch.yml sets it to false at launch.
-  preview: true,
+  preview: false,
   // Public launch: Friday 30 October 2026, 12:00 in Zagreb (CET, UTC+1).
   launchAt: '2026-10-30T11:00:00Z',
 };

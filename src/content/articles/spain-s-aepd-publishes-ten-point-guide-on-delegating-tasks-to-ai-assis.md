@@ -17,7 +17,7 @@ sources:
     title: "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales"
     url: "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes"
     primary: true
-related: [norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on, ico-report-foundation-models-agentic-ai]
+related: [norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on]
 card:
   figure: "5 questions"
   caption: "AEPD's checks before delegating tasks to an AI assistant or agent"

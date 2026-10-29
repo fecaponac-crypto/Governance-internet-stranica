@@ -20,7 +20,7 @@ sources:
   - name: "noyb"
     title: "AI training platform Outlier illegally surveils European platform workers"
     url: "https://noyb.eu/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers"
-related: [norway-fines-xandr-joint-controller-consent, epic-challenges-spirit-airlines-proposed-bankruptcy-sale-of-employee-d]
+related: [epic-challenges-spirit-airlines-proposed-bankruptcy-sale-of-employee-d]
 card:
   figure: "5 complaints"
   caption: "GDPR complaints filed against Scale AI in France, Italy, the Netherlands and Austria"

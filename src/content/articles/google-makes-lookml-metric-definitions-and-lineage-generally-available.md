@@ -21,7 +21,7 @@ sources:
     title: "Manage Looker (Google Cloud core) metadata in Knowledge Catalog"
     url: "https://docs.cloud.google.com/knowledge-catalog/docs/manage-looker-core-metadata"
     primary: true
-related: [google-knowledge-catalog-self-learning-enrichment]
+related: []
 card:
   figure: "GA"
   caption: "LookML semantics and lineage now indexed in Google's Knowledge Catalog by default"

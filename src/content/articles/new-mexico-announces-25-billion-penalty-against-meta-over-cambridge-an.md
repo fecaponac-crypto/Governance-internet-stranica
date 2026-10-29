@@ -15,7 +15,7 @@ sources:
   - name: "EPIC — Electronic Privacy Information Center"
     title: "Meta Fined $25 Billion by New Mexican Court for Violating Privacy During Cambridge Analytica Scandal"
     url: "https://epic.org/meta-fined-25-billion-by-new-mexican-court-for-violating-privacy-during-cambridge-analytica-scandal/"
-related: [norway-fines-xandr-joint-controller-consent]
+related: []
 card:
   figure: "$25bn"
   caption: "Penalty New Mexico says it is imposing on Meta under its Unfair Practices Act"

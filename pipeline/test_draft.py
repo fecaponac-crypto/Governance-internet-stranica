@@ -105,7 +105,9 @@ class RunTest(unittest.TestCase):
         (self.tmp / "reports").mkdir()
         self.articles = self.tmp / "articles"
         self.articles.mkdir()
-        shutil.copy(draft.ARTICLES / "edpb-guidelines-dsa-gdpr-interplay.md", self.articles)
+        (self.articles / "existing-story.md").write_text(
+            '---\ntitle: "EDPB adopts guidelines on DSA and GDPR interplay"\ndate: 2026-10-21\n---\n\nBody.\n'
+        )
         items = [item(0), item(1, title="Webinar"), item(2, duplicate_of="id0"), item(3, status="baseline")]
         (self.tmp / "archive" / "2026-10.jsonl").write_text("\n".join(json.dumps(i) for i in items) + "\n")
         self.patches = [

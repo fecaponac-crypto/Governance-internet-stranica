@@ -23,7 +23,7 @@ sources:
 via:
   name: "Nenad's NL (Nenad Bakić)"
   url: https://nenadbakic.substack.com/p/nenadov-tjedni-ai-newsletter-s-primjerima-316
-related: [en-18286-first-harmonised-ai-act-standard, supervisors-press-banks-on-ai-agent-controls]
+related: [supervisors-press-banks-on-ai-agent-controls]
 card:
   figure: "Article 91"
   caption: "AI Office sends first AI Act information requests to model providers"

@@ -16,7 +16,7 @@ sources:
     title: "EPIC Files Amicus Brief Challenging Spirit Airlines' Bankruptcy Sale of Employee Data to Google"
     url: "https://epic.org/epic-files-amicus-brief-challenging-spirit-airlines-bankruptcy-sale-of-employee-data-to-google/"
     primary: true
-related: [italy-fines-iqvia-health-data-not-anonymous]
+related: []
 card:
   figure: "$10 million"
   caption: "Proposed price for Spirit Airlines data sale to Google, according to EPIC"

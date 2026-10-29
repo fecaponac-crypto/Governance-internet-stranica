@@ -17,7 +17,7 @@ sources:
     title: "Collibra + Trail ML: Bringing AI governance and automation together"
     url: "https://www.collibra.com/blog/collibra-trail-ml-bringing-ai-governance-and-automation-together"
     primary: true
-related: [google-knowledge-catalog-self-learning-enrichment]
+related: []
 card:
   figure: "Trail ML"
   caption: "Munich AI governance start-up acquired by Collibra for its AI Command Center"

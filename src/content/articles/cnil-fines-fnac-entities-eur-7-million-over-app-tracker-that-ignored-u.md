@@ -21,7 +21,7 @@ sources:
     title: "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT"
     url: "https://www.cnil.fr/fr/sanction-cookies-app-fnac"
     primary: true
-related: [norway-fines-xandr-joint-controller-consent]
+related: []
 card:
   figure: "EUR 7m"
   caption: "CNIL fine on two Fnac companies for app tracking without consent"

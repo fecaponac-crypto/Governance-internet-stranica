@@ -17,7 +17,7 @@ sources:
     title: "Gode rutiner hindrer at KI blir en usynlig trussel"
     url: "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/"
     primary: true
-related: [supervisors-press-banks-on-ai-agent-controls, ico-report-foundation-models-agentic-ai]
+related: [supervisors-press-banks-on-ai-agent-controls]
 card:
   figure: "Digital ghosts"
   caption: "Datatilsynet's term for AI agent automations that outlive their owners"
