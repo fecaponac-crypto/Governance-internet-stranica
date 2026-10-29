@@ -1,5 +1,16 @@
 {
  "processed": {
+  "00aae7e7cf83f119": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Legal industry commentary on AI use by outside counsel, without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "013155490862be2d": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -20,6 +31,18 @@
    "reason": "Vendor educational explainer on data lineage; generic how-to content rather than news.",
    "relevant": false,
    "same_story_as": null
+  },
+  "03c572e6133ecc9a": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "regulation",
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Covers the same FTC personalized-pricing scrutiny as the existing FTC orders article.",
+   "relevant": false,
+   "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
   },
   "058af24460d1da3e": {
    "at": "2026-10-27T18:18:03Z",
@@ -352,6 +375,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "26348865d55eb03c": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Sector sizing study without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "269bfaa8d114d30f": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -677,6 +711,18 @@
    "importance": 1,
    "reason": "Political commentary on AI governance in Washington without concrete governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "4ee3b5ca98e0497b": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Reports bank concern that AI agents with account credentials exceed user instructions, relevant to agent access controls.",
+   "relevant": true,
    "same_story_as": null
   },
   "51f4293be5d8df9e": {
@@ -1009,6 +1055,18 @@
    "primary_found": true,
    "reason": "California SB 53 and TDTA on AI transparency is a concrete AI regulation affecting governance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "80b936e6dfd46869": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "metadata",
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog on semantic models for agents, not a genuine launch or research finding.",
+   "relevant": false,
    "same_story_as": null
   },
   "80d37029fa8b0620": {
@@ -1381,6 +1439,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b297eebcf6a1aab7": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Covers the New York chatbot law already in the existing articles, alongside California's law.",
+   "relevant": false,
+   "same_story_as": "new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da"
+  },
   "b43cb2cdb7c156ad": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [
@@ -1473,6 +1543,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b8c543841209921a": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Legal profession commentary on training lawyers, not data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b8f4f0b03121475e": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -1514,6 +1595,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "bd3850508ce90c66": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Arctic Wolf research on spam-then-Teams social engineering attacks, relevant to employee access security.",
    "relevant": true,
    "same_story_as": null
   },
@@ -1631,6 +1723,28 @@
    "relevant": false,
    "same_story_as": "cnil-fines-fnac-entities-eur-7-million-over-app-tracker-that-ignored-u"
   },
+  "c8c7167627ccba85": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic PHP vulnerability patching story without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c96168cf1b6ecbc8": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic risk advice on AI notetakers, not a news development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "cb551d6ff5e1441a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -1672,6 +1786,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ceea0ceffe697a71": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event conference notes with no specific decision or consequence stated in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "cfa6ae58746884f3": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -1695,6 +1820,18 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/33",
    "primary_found": true,
    "reason": "IBM adds identity and access controls for governing enterprise AI agents; a relevant product launch with access governance angle, though excerpt is empty.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "cff294de233eed6a": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Court ruling keeping a medical-privacy claim alive against an ed-tech provider after a data breach.",
    "relevant": true,
    "same_story_as": null
   },
@@ -1919,6 +2056,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "decf42c69ac71ab0": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor how-to on querying Iceberg tables across platforms, without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e06abf0dd7f84f25": {
    "at": "2026-10-28T05:45:52Z",
    "categories": [],
@@ -1962,6 +2110,18 @@
    "importance": 1,
    "reason": "Federal agency cloud migration news; data management angle is thin and no excerpt provided.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "e568d6577220e0a9": {
+   "at": "2026-10-29T18:18:27Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analysis of China's PIPL enforcement and evolution, with practical relevance for cross-border data governance.",
+   "relevant": true,
    "same_story_as": null
   },
   "e609a8f9a639a351": {
@@ -2217,8 +2377,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 108,
-   "usd": 3.3079
+   "calls": 109,
+   "usd": 3.3096
   }
  }
 }

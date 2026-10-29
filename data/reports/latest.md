@@ -1,13 +1,16 @@
 # Inflow report
 
-Last run: **2026-10-29T15:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 8
+Last run: **2026-10-29T18:18:15Z** · sources checked: 81 · failed: 0 · new items this run: 14
 
-## New items, last 48 hours (116)
+## New items, last 48 hours (107)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | IAPP — International Association of Privacy Professionals | [FTC expands personalized pricing scrutiny as states, Congress, regulators turn up pressure](https://iapp.org/news/a/ftc-expands-personalized-pricing-scrutiny-as-states-congress-regulators-turn-up-pressure) |
+| 2026-10-29 | IAPP — International Association of Privacy Professionals | [China's PIPL at 5: Enforcement, evolution and what comes next](https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next) |
+| 2026-10-29 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud](https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud) |
 | 2026-10-29 | Hunton Privacy & Information Security Law Blog | [California Law Extends CMIA Protections to Health Care Chatbots and Enacts New Guardrails on AI Use in Clinical Care](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-law-extends-cmia-protections-to-health-care-chatbots-and-enacts-new-guardrails-on-ai-use-in-clinical-care) |
 | 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [AP informeert incassobureaus over verantwoorde inzet AI](https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [New York's governor signs youth AI chatbot safety bill](https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill) |
@@ -21,6 +24,8 @@ Last run: **2026-10-29T15:18:17Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | Future of Privacy Forum | [Back in the Chat: California and New York Take Diverging Paths in Second Wave of Chatbot Regulations](https://fpf.org/blog/back-in-the-chat-california-and-new-york-take-diverging-paths-in-second-wave-of-chatbot-regulations/) |
+| 2026-10-29 | UK Department for Science, Innovation and Technology | [Research: Artificial Intelligence sector study 2025](https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025) |
 | 2026-10-29 | Alation Blog | [October 29, 2026 What Is an AI Operating System? Defining the Category Beyond the Data Platform Four different things get called an “AIOS.” Learn which one a vendor means and what it must do that a data platform… Read More](https://www.alation.com/blog/what-is-aios-ai-operating-system/) |
 | 2026-10-29 | Tech Policy Press | [What Latino Voters Can Teach Washington About AI Governance](https://techpolicy.press/what-latino-voters-can-teach-washington-about-ai-governance) |
 | 2026-10-29 | CDO Magazine | [Leadership Moves AHRQ Names Gil Alterovitz First Chief Super Intelligence Officer and Chief Data Officer](https://www.cdomagazine.tech/leadership-moves/ahrq-names-gil-alterovitz-first-chief-super-intelligence-officer-and-chief-data-officer) |
@@ -57,21 +62,27 @@ Last run: **2026-10-29T15:18:17Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | Alation Blog | [October 22, 2026 What Is Data Lineage? Data lineage traces where data comes from, how it changes, and where it goes. Learn the types, benefits, and how to implement it, plus what’s new in Alation. Read More](https://www.alation.com/blog/what-is-data-lineage/) |
 | 2026-10-27 | Alation Blog | [October 16, 2026 CIRCIA Compliance 2027: Cyber Incident Reporting Mandates, Coverage, and Strategies CISA has missed its CIRCIA deadline three times. When the rule lands, you’ll have 72 hours to report. Could your team… Read More](https://www.alation.com/blog/circia-compliance-guide-2026/) |
 | 2026-10-27 | Future of Privacy Forum | [Bringing Privacy, Safety, and Well-being Together at FPF](https://fpf.org/blog/bringing-privacy-safety-and-well-being-together-at-fpf/) |
-| 2026-10-27 | Snowflake Blog | [Snowflake and Oracle: Bringing the AI Data Cloud to OCI](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-oracle-partnership-ai-data-cloud-oci) |
 | 2026-10-27 | Data Matters (Sidley Austin) | [From Disclosures to Prohibitions: The New Legal Landscape on the Use of Consumer Data for Personalized Pricing](https://datamatters.sidley.com/2026/10/27/from-disclosures-to-prohibitions-the-new-legal-landscape-on-the-use-of-consumer-data-for-personalized-pricing/) |
-| 2026-10-27 | Forrester Blogs | [Banks Can’t Block Their Way Into The Agentic Future](https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/) |
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
-| 2026-10-26 | Snowflake Blog | [Automated Snowpipe Setup with Snowflake CoCo Is Now GA](https://www.snowflake.com/content/snowflake-site/global/en/blog/automated-snowpipe-setup-snowflake-coco) |
 | 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Threat Actors Bury Email Inboxes with Spam Then Reach Out on Teams to Help Victim](https://www.dataprivacyandsecurityinsider.com/2026/10/threat-actors-bury-email-inboxes-with-spam-then-reach-out-on-teams-to-help-victim/) |
+| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Could School Software Be a Health-Care Provider?](https://www.dataprivacyandsecurityinsider.com/2026/10/could-school-software-be-a-health-care-provider/) |
+| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Assess the Business Risk of Using an AI Notetaker](https://www.dataprivacyandsecurityinsider.com/2026/10/assess-the-business-risk-of-using-an-ai-notetaker/) |
+| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The New Client Expectation: Lawyers Who Know How to Use AI](https://www.dataprivacyandsecurityinsider.com/2026/10/the-new-client-expectation-lawyers-who-know-how-to-use-ai/) |
+| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Training the Next Generation of Lawyers in the Age of AI, What In-House Counsel Should Look for in their Outside Legal Teams](https://www.dataprivacyandsecurityinsider.com/2026/10/training-the-next-generation-of-lawyers-in-the-age-of-ai-what-in-house-counsel-should-look-for-in-their-outside-legal-teams/) |
+| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #514 – AI Agents Accessing Bank Accounts is “Horrifying”](https://www.dataprivacyandsecurityinsider.com/2026/10/privacy-tip-514-ai-agents-accessing-bank-accounts-is-horrifying/) |
+| 2026-10-29 | Google Cloud Blog — Data Analytics | [Querying Databricks Apache Iceberg Tables with the borderless Lakehouse](https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/) |
+| 2026-10-29 | Google Cloud Blog — Data Analytics | [Grounding agents in one context graph connecting semantic models you already trust](https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/) |
 | 2026-10-29 | Autorité de protection des données (Belgium) | [Découvrez les dernières activités de l’APD dans notre newsletter d’octobre](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/29/decouvrez-les-dernieres-activites-de-lapd-dans-notre-newsletter-doctobre) |
 | 2026-10-29 | The Record (Recorded Future News) | [FTC to probe major companies over personalized pricing and pay](https://therecord.media/ftc-rideshare-airlines-data) |
 | 2026-10-29 | International Data Spaces Association | [DATA SPACES_NOW #10 takes stock of a decade and turns to scale](https://internationaldataspaces.org/data-spaces_now-10-takes-stock-of-a-decade-and-turns-to-scale/) |
 | 2026-10-29 | MIT Technology Review | [The Download: AI agent tracking and climate feedback loops](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
+| 2026-10-29 | Computer Weekly — IT security | [Having a PHP patch available does not mean you're protected](https://www.computerweekly.com/opinion/Having-a-PHP-patch-available-does-not-mean-youre-protected) |
 | 2026-10-29 | MIT Technology Review | [We urgently need to monitor AI agents’ actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [EDRi-gram, 29 October 2026](https://edri.org/our-work/edri-gram-29-october-2026/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [The internet should not demand constant self-defence: Fairness starts before the click](https://edri.org/our-work/the-internet-should-not-demand-constant-self-defence-fairness-starts-before-the-click/) |
@@ -105,28 +116,8 @@ Last run: **2026-10-29T15:18:17Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-27 | LfDI Baden-Württemberg (Germany) | [Datenfreiheit #55 mit Michael Blume: Videopodcast „Social Media und Hate Speech in Zeiten von KI“](https://www.baden-wuerttemberg.datenschutz.de/datenfreiheit-55-michael-blume/) |
 | 2026-10-27 | dbt Labs Blog | [How Ecolab used an AI migration agent to shrink 84,000 lines of legacy SQL by 6x](https://www.getdbt.com/blog/ecolab-ai-agent-legacy-sql-migration) |
 | 2026-10-27 | dbt Labs Blog | [How Checkr cut an hours-long metrics investigation to minutes by engineering AI context on dbt and Omni](https://www.getdbt.com/blog/checkr-ai-context-metrics-investigation) |
-| 2026-10-27 | dbt Labs Blog | [How Guitar Center rebuilt its data platform on trust](https://www.getdbt.com/blog/guitar-center-data-pltform-trust-costs) |
-| 2026-10-27 | dbt Labs Blog | [How Sweetwater catches broken dbt pipelines before anyone notices, with Datadog](https://www.getdbt.com/blog/sweetwater-dbt-pipeline-monitoring-datadog) |
-| 2026-10-27 | dbt Labs Blog | [How LangChain grew self-serve analytics questions 40x by giving its AI agent layered context](https://www.getdbt.com/blog/langchain-self-serve-analytics-ai-agent-context) |
-| 2026-10-27 | dbt Labs Blog | [How a one-person data team at Keep built real-time banking infrastructure on dbt](https://www.getdbt.com/blog/keep-real-time-banking-dbt-data-platform) |
-| 2026-10-27 | dbt Labs Blog | [Ship AI agents like tables: dbt materializations for Snowflake CoWork](https://www.getdbt.com/blog/snowflake-cowork-ai-agents-dbt-materializations) |
-| 2026-10-27 | dbt Labs Blog | [Charts worth stealing: the design calls BI should ship](https://www.getdbt.com/blog/bi-dashboard-chart-design-inspiration) |
-| 2026-10-27 | dbt Labs Blog | [dbt Charts: a new open-source language for dashboards that live inside your dbt repo](https://www.getdbt.com/blog/dbt-charts-open-source-dashboard-yaml) |
-| 2026-10-27 | dbt Labs Blog | [What a year of building ADBC drivers taught Columnar about zero-copy's non-zero problems](https://www.getdbt.com/blog/columnar-adbc-drivers-zero-copy-lessons) |
-| 2026-10-27 | dbt Labs Blog | [Why a semantic layer is the difference between a 96% and an 80% accurate AI analyst](https://www.getdbt.com/blog/semantic-layer-ai-analyst-accuracy) |
-| 2026-10-27 | dbt Labs Blog | [With great context comes great autonomy](https://www.getdbt.com/blog/context-engineering-ai-agents-governed-autonomy) |
-| 2026-10-27 | dbt Labs Blog | [dbt without the warehouse (or the bill): DuckDB end to end](https://www.getdbt.com/blog/dbt-duckdb-warehouse-free-data-transformation) |
-| 2026-10-27 | dbt Labs Blog | [Apache Iceberg on Snowflake got a lot simpler in 2026, and dbt's new catalog config is what makes it click](https://www.getdbt.com/blog/apache-iceberg-snowflake-dbt-catalog-configuration) |
-| 2026-10-27 | dbt Labs Blog | [Why dbt Labs thinks AI agents will finally make the semantic layer stick](https://www.getdbt.com/blog/dbt-semantic-layer-ai-agent-adoption) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [EPIC Urges Supreme Court to Protect Voters and Strike Down Arizona’s SAVE-based Voter-Registration Cancellation Program](https://epic.org/epic-urges-supreme-court-to-protect-voters-and-strike-down-arizonas-save-based-voter-registration-cancellation-program/) |
-| 2026-10-27 | dbt Labs Blog | [How dbt Labs and Fivetran are moving dbt workloads onto the data lake, model by model](https://www.getdbt.com/blog/dbt-lake-compute-data-lake-workloads) |
-| 2026-10-27 | dbt Labs Blog | [Inside dbt v2: how a rebuilt SQL engine makes linting up to 250x faster](https://www.getdbt.com/blog/dbt-v2-sql-engine-linting-250x-faster) |
-| 2026-10-27 | dbt Labs Blog | [What Open Data Infrastructure looks like with dbt Mesh](https://www.getdbt.com/blog/dbt-mesh-snowflake-databricks-iceberg-catalog) |
-| 2026-10-27 | dbt Labs Blog | [How EF Education First built a cost and value layer for dbt models with a Snowflake Cortex Agent](https://www.getdbt.com/blog/ef-education-first-dbt-cost-value-models-cortex-agent) |
-| 2026-10-27 | dbt Labs Blog | [How KOHO built a Claude-powered self-serve analytics tool on years of dbt governance](https://www.getdbt.com/blog/koho-claude-self-serve-analytics-dbt-governance) |
-| 2026-10-27 | Google Cloud Blog — Data Analytics | [Securely connecting Gemini Enterprise to Snowflake data](https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/) |
 | 2026-10-27 | Computer Weekly — IT security | [PHP2Shell: US updates Kev catalogue as exploits spread](https://www.computerweekly.com/news/366652834/PHP2Shell-US-updates-Kev-catalogue-as-exploits-spread) |
-| 2026-10-27 | Computer Weekly — IT security | [OpenAI’s Altman: Only way out of patch apocalypse is through](https://www.computerweekly.com/news/366652912/OpenAIs-Altman-Only-way-out-of-patch-apocalypse-is-through) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [The Wash: From Blockbuster video to TikTok, Supreme Court weighs the future of video privacy](https://epic.org/the-wash-from-blockbuster-video-to-tiktok-supreme-court-weighs-the-future-of-video-privacy/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 | 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |
