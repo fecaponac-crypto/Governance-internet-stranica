@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-10-29T00:18:22Z** · sources checked: 81 · failed: 0 · new items this run: 11
+Last run: **2026-10-29T01:00:20Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (104)
 
@@ -125,7 +125,7 @@ Last run: **2026-10-29T00:18:22Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **Court of Justice of the EU — Press releases** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://curia.europa.eu/jcms/jcms/Jo2_7052/en/`
 
 ## Check manually (weekly)
 
