@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T03:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-10-30T06:18:16Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (95)
 
 ### High priority sources
 
@@ -100,7 +100,6 @@ Last run: **2026-10-30T03:18:20Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [Data Lifecycle Management: The Six Stages for the AI Era](https://datahub.com/blog/data-lifecycle-management/) |
 | 2026-10-28 | Computer Weekly — IT security | [Lapsed US snooping law still running as senators object](https://www.computerweekly.com/news/366652857/Lapsed-US-snooping-law-still-running-as-senators-object) |
 | 2026-10-28 | DataGalaxy | [AI governance: why Colas and Arkéa didn’t wait for the AI Act](https://www.datagalaxy.com/en/blog/ai-governance-why-colas-and-arkea-didnt-wait-for-the-ai-act/) |
-| 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
