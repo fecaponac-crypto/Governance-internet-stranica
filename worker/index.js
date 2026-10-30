@@ -84,6 +84,8 @@ export const CRON_JOBS = {
   '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday', weeklyReport: true },
   // Public launch, 30 October 12:00 Zagreb; repeats yearly but does nothing after launch.
   '55 10 30 10 *': { workflow: 'launch.yml', key: 'cron:last-launch' },
+  // One-off test of the weekly email (30 October 07:30 UTC); remove after the test.
+  '30 7 30 10 *': { workflow: null, key: 'cron:last-report-test', weeklyReport: true },
 };
 const WORKFLOW_REF = 'claude/data-intelligence-portal-plan-v46ux0';
 
@@ -195,7 +197,7 @@ export default {
   async scheduled(event, env, ctx) {
     const key = Object.keys(CRON_JOBS).find((c) => c.toLowerCase() === String(event.cron).toLowerCase());
     const job = CRON_JOBS[key] ?? CRON_JOBS['17 */3 * * *'];
-    ctx.waitUntil(
+    if (job.workflow) ctx.waitUntil(
       dispatchWorkflow(env, job.workflow).then(
         () => recordCron(env, event, job.key, 'dispatched'),
         (err) => recordCron(env, event, job.key, `error: ${err.message}`.slice(0, 500)),

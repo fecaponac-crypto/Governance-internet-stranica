@@ -17,7 +17,7 @@
   // and the public launch (30 October 10:55, live at 12:00 Zagreb).
   // Keep in sync with CRON_JOBS in worker/index.js. Cloudflare counts weekdays 1 = Sunday,
   // so use names (MON), never numbers.
-  "triggers": { "crons": ["17 */3 * * *", "47 5 * * MON", "55 10 30 10 *"] },
+  "triggers": { "crons": ["17 */3 * * *", "47 5 * * MON", "55 10 30 10 *", "30 7 30 10 *"] },
   // Private store for incoming newsletters; created automatically on first deploy.
   "kv_namespaces": [{ "binding": "SOURCES" }],
   // Monday traffic report to the editor (REPORT_EMAIL secret; only verified Email Routing destinations).
