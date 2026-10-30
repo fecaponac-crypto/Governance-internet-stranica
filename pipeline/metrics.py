@@ -8,7 +8,9 @@ Always recorded: published articles, collected items, triage and drafting
 decisions, editor decisions on drafts, AI spend, source health.
 Optional (skipped when the secret is not set):
   BUTTONDOWN_API_KEY                        newsletter subscribers
-  CF_API_TOKEN + CF_ACCOUNT_ID + CF_SITE_TAG  Cloudflare Web Analytics visits and page views
+  CF_API_TOKEN + CF_ACCOUNT_ID              Cloudflare Web Analytics: visits, page views, days, top
+                                            pages, countries, referrers (CF_SITE_TAG optional:
+                                            found automatically); also data/reports/traffic.md
   FEEDBACK_READ_TOKEN                       "Was this useful?" answers (same secret on the Worker)
 """
 
@@ -18,7 +20,7 @@ import calendar
 import json
 import os
 import subprocess
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -140,38 +142,102 @@ def feedback(month: str) -> dict | None:
     }
 
 
+CF_GRAPHQL = "https://api.cloudflare.com/client/v4/graphql"
+SITE_HOST = "datagovernancesignal.com"
+
+# Cloudflare Web Analytics (RUM): real page loads in browsers, no cookies.
+CF_SITES = """
+query ($account: String!, $filter: AccountRumPageloadEventsAdaptiveGroupsFilter_InputObject) {
+  viewer { accounts(filter: {accountTag: $account}) {
+    rumPageloadEventsAdaptiveGroups(limit: 50, filter: $filter) { count dimensions { siteTag requestHost } }
+  } }
+}
+"""
+
 CF_QUERY = """
 query ($account: String!, $filter: AccountRumPageloadEventsAdaptiveGroupsFilter_InputObject) {
-  viewer {
-    accounts(filter: {accountTag: $account}) {
-      rumPageloadEventsAdaptiveGroups(limit: 1, filter: $filter) { count sum { visits } }
+  viewer { accounts(filter: {accountTag: $account}) {
+    total: rumPageloadEventsAdaptiveGroups(limit: 1, filter: $filter) { count sum { visits } }
+    days: rumPageloadEventsAdaptiveGroups(limit: 31, filter: $filter, orderBy: [date_ASC]) {
+      count sum { visits } dimensions { date }
     }
-  }
+    pages: rumPageloadEventsAdaptiveGroups(limit: 10, filter: $filter, orderBy: [count_DESC]) {
+      count dimensions { requestPath }
+    }
+    countries: rumPageloadEventsAdaptiveGroups(limit: 10, filter: $filter, orderBy: [count_DESC]) {
+      count dimensions { countryName }
+    }
+    referrers: rumPageloadEventsAdaptiveGroups(limit: 10, filter: $filter, orderBy: [count_DESC]) {
+      count dimensions { refererHost }
+    }
+  } }
 }
 """
 
 
+def graphql(token: str, query: str, variables: dict) -> dict:
+    r = requests.post(CF_GRAPHQL, json={"query": query, "variables": variables},
+                      headers={"Authorization": f"Bearer {token}"}, timeout=30)
+    r.raise_for_status()
+    body = r.json()
+    if body.get("errors"):
+        raise ValueError(body["errors"][0].get("message", "graphql error")[:200])
+    return body["data"]["viewer"]["accounts"][0]
+
+
+def find_site_tag(token: str, account: str, start: date, end: date) -> str | None:
+    """The Web Analytics site tag for our host, so only the API token and account id are needed."""
+    data = graphql(token, CF_SITES, {"account": account, "filter": {"date_geq": start.isoformat(), "date_leq": end.isoformat()}})
+    for row in sorted(data["rumPageloadEventsAdaptiveGroups"], key=lambda r: -r["count"]):
+        if row["dimensions"]["requestHost"].removeprefix("www.") == SITE_HOST:
+            return row["dimensions"]["siteTag"]
+    return None
+
+
 def web_analytics(start: date, end: date) -> dict | None:
-    token, account, site = (os.environ.get(k) for k in ("CF_API_TOKEN", "CF_ACCOUNT_ID", "CF_SITE_TAG"))
-    if not (token and account and site):
+    token, account = os.environ.get("CF_API_TOKEN"), os.environ.get("CF_ACCOUNT_ID")
+    if not (token and account):
         return None
-    variables = {"account": account, "filter": {"siteTag": site, "date_geq": start.isoformat(), "date_leq": end.isoformat()}}
     try:
-        r = requests.post(
-            "https://api.cloudflare.com/client/v4/graphql",
-            json={"query": CF_QUERY, "variables": variables},
-            headers={"Authorization": f"Bearer {token}"},
-            timeout=30,
-        )
-        r.raise_for_status()
-        body = r.json()
-        if body.get("errors"):
-            return {"error": body["errors"][0].get("message", "graphql error")[:200]}
-        groups = body["data"]["viewer"]["accounts"][0]["rumPageloadEventsAdaptiveGroups"]
-        row = groups[0] if groups else {"count": 0, "sum": {"visits": 0}}
-        return {"page_views": row["count"], "visits": row["sum"]["visits"]}
+        site = os.environ.get("CF_SITE_TAG") or find_site_tag(token, account, start - timedelta(days=60), end)
+        if not site:
+            return {"page_views": 0, "visits": 0, "note": "no Web Analytics data for the site yet"}
+        filt = {"siteTag": site, "date_geq": start.isoformat(), "date_leq": end.isoformat()}
+        data = graphql(token, CF_QUERY, {"account": account, "filter": filt})
     except (requests.RequestException, KeyError, IndexError, ValueError) as e:
-        return {"error": type(e).__name__}
+        return {"error": str(e)[:200] if isinstance(e, ValueError) else type(e).__name__}
+    total = (data["total"] or [{"count": 0, "sum": {"visits": 0}}])[0]
+    top = lambda rows, key: [{key: r["dimensions"][key] or "(direct)", "page_views": r["count"]} for r in rows]
+    return {
+        "page_views": total["count"],
+        "visits": total["sum"]["visits"],
+        "by_day": [{"date": r["dimensions"]["date"], "page_views": r["count"], "visits": r["sum"]["visits"]} for r in data["days"]],
+        "top_pages": top(data["pages"], "requestPath"),
+        "countries": top(data["countries"], "countryName"),
+        "referrers": top(data["referrers"], "refererHost"),
+    }
+
+
+def traffic_report(record: dict) -> str:
+    """data/reports/traffic.md: the month's visits at a glance."""
+    web = record.get("web") or {}
+    lines = [f"# Traffic — {record['month']}", "", f"Updated {record['updated']} · source: Cloudflare Web Analytics (browsers only, no cookies)", ""]
+    if not web or "error" in web:
+        lines.append(f"_No data: {web.get('error', 'CF_API_TOKEN / CF_ACCOUNT_ID not set')}_")
+        return "\n".join(lines) + "\n"
+    lines += [f"**{web['visits']} visits · {web['page_views']} page views** this month", ""]
+    if web.get("by_day"):
+        lines += ["| Day | Visits | Page views |", "|---|---:|---:|"]
+        lines += [f"| {d['date']} | {d['visits']} | {d['page_views']} |" for d in web["by_day"]]
+        lines.append("")
+    for title, key, field in (("Top pages", "top_pages", "requestPath"), ("Countries", "countries", "countryName"),
+                              ("Referrers", "referrers", "refererHost")):
+        if web.get(key):
+            lines += [f"## {title}", ""] + [f"- {r[field]} — {r['page_views']}" for r in web[key]] + [""]
+    fb = record.get("feedback") or {}
+    if fb and "error" not in fb:
+        lines += ["## Was this useful?", "", f"- Yes {fb['useful_yes']} · No {fb['useful_no']} · reasons: {fb['reasons'] or 'none'}", ""]
+    return "\n".join(lines)
 
 
 def run(today: date | None = None) -> dict:
@@ -190,6 +256,7 @@ def run(today: date | None = None) -> dict:
     }
     METRICS.mkdir(parents=True, exist_ok=True)
     (METRICS / f"{month}.json").write_text(json.dumps(record, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    (DATA / "reports" / "traffic.md").write_text(traffic_report(record), encoding="utf-8")
     return record
 
 
