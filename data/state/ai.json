@@ -106,6 +106,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "073d0ef55de20831": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Meeting announcement; event promotion rather than a decision or rule, though it touches CalPrivacy rulemaking.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "07644c9c56cc583b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -370,6 +381,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog generic readiness checklist; thought-leadership rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "230935f30e60e172": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor/partner marketing about national security cloud foundation; no concrete governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1112,6 +1134,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "73de4db9c110b6a8": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 20,
+   "decision": "drafted",
+   "draft": "ftc-weighs-personalised-pricing-policy-as-state-algorithmic-pricing-la",
+   "flagged": 2,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/47",
+   "primary_found": true,
+   "reason": "Legal analysis of algorithmic pricing laws and FTC proposed policy statement; practical compliance guidance, though overlaps FTC pricing order topic and is analysis rather than new event.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "766b500a31aa07ab": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -1273,6 +1312,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "871f2eeb80490f2d": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Weekly roundup; not a single story with governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "874a29c320a093a6": {
    "at": "2026-10-30T00:18:24Z",
    "categories": [
@@ -1319,6 +1369,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Opinion/thought piece on digital fairness without concrete regulatory consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "8d0911146468c9f1": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog thought-leadership on homegrown monitoring; no genuine launch or research.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1467,6 +1528,17 @@
    "importance": 3,
    "reason": "EDPS opinion on EU-US framework agreement for information exchange on identity verification and vetting; regulator opinion with data protection implications.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "9c7e1e2664348b56": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor customer case study marketing; not a launch or research finding.",
+   "relevant": false,
    "same_story_as": null
   },
   "9c852718df49c78b": {
@@ -1697,6 +1769,19 @@
    "importance": 1,
    "reason": "Immune gene dataset; scientific research without governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "b5b930bff69de3c1": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Dutch government paper on privacy risks in proposed EU Kids Act; regulatory position with practical implications for age verification and data collection.",
+   "relevant": true,
    "same_story_as": null
   },
   "b60d36aa8ae62307": {
@@ -2305,6 +2390,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "dde1eee8bbb72261": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Explainer/thought-leadership from a vendor blog; not a launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "decf42c69ac71ab0": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -2313,6 +2409,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor how-to on querying Iceberg tables across platforms, without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "df7c8b7fd24d40e4": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview with a sports analytics company CEO; no governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2586,6 +2693,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f9cc03fb7f579fc7": {
+   "at": "2026-10-30T18:02:32Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 31,
+   "decision": "drafted",
+   "draft": "gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and",
+   "flagged": 5,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/46",
+   "primary_found": true,
+   "reason": "Commentary on driver privacy policy in DC; relevant to data governance of driver data, though opinion-style. Possibly overlaps with GM settlement coverage but is a distinct view piece.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fa2dab71478788df": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -2637,8 +2761,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 132,
-   "usd": 4.051
+   "calls": 139,
+   "usd": 4.5118
   }
  }
 }

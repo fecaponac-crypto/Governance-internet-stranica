@@ -1,31 +1,31 @@
 {
  "month": "2026-10",
- "updated": "2026-10-30T15:18:59Z",
+ "updated": "2026-10-30T18:04:31Z",
  "portal": {
-  "published_total": 38,
-  "published_this_month": 38,
+  "published_total": 39,
+  "published_this_month": 39,
   "published_this_month_by_importance": {
-   "3": 23,
+   "3": 24,
    "4": 9,
    "2": 6
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 233,
-  "runs": 73,
+  "items_collected": 243,
+  "runs": 74,
   "runs_with_failed_sources": 20,
   "triage_decisions": {
-   "skipped": 191,
-   "drafted": 39,
-   "failed": 3
+   "skipped": 198,
+   "drafted": 41,
+   "failed": 4
   },
-  "ai_spend_usd": 4.051,
+  "ai_spend_usd": 4.5118,
   "sources_active": 81,
-  "sources_failing_now": 2
+  "sources_failing_now": 0
  },
  "editor": {
-  "drafts_published": 38,
+  "drafts_published": 39,
   "drafts_rejected": 2
  },
  "newsletter": {

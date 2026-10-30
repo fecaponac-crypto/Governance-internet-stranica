@@ -1,14 +1,17 @@
 # Inflow report
 
-Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new items this run: 6
+Last run: **2026-10-30T18:02:16Z** · sources checked: 81 · failed: 0 · new items this run: 10
 
-## New items, last 48 hours (97)
+## New items, last 48 hours (99)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | IAPP — International Association of Privacy Professionals | [A view from DC: The one-two punch is a knockout for driver privacy](https://iapp.org/news/a/a-view-from-dc-the-one-two-punch-is-a-knockout-for-driver-privacy) |
+| 2026-10-30 | Inside Privacy (Covington & Burling) | [Algorithmic Pricing Laws: A Growing State Patchwork and What Businesses Should Know](https://www.insideprivacy.com/consumer-protection/algorithmic-pricing-laws-a-growing-state-patchwork-and-what-businesses-should-know/) |
 | 2026-10-30 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Researcher bridges privacy protection and data innovation](https://iapp.org/news/a/notes-from-the-iapp-canada-khaled-el-emam-bridges-privacy-protection-and-data-innovation) |
+| 2026-10-30 | Hunton Privacy & Information Security Law Blog | [CalPrivacy to Hold November Board Meeting on Privacy Rights and Regulatory Proposals](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-to-hold-november-board-meeting-on-privacy-rights-and-regulatory-proposals) |
 | 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [Handhavingsbeleid AP gepubliceerd](https://autoriteitpersoonsgegevens.nl/actueel/handhavingsbeleid-ap-gepubliceerd) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [FTC expands personalized pricing scrutiny as states, Congress, regulators turn up pressure](https://iapp.org/news/a/ftc-expands-personalized-pricing-scrutiny-as-states-congress-regulators-turn-up-pressure) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [China's PIPL at 5: Enforcement, evolution and what comes next](https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next) |
@@ -24,6 +27,9 @@ Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | CDO Magazine | [Cloud AWS and Deloitte: Building the Data and Cloud Foundation for National Security](https://www.cdomagazine.tech/cloud/aws-and-deloitte-building-the-data-and-cloud-foundation-for-national-security) |
+| 2026-10-30 | Euractiv | [Dutch government warns of privacy risks in EU Kids Act](https://www.rapporteur.com/news/dutch-government-warns-of-privacy-risks-in-eu-kids-act/) |
+| 2026-10-30 | Ataccama Blog | [How Lennar used built-in trust scores to accelerate AI adoption](https://www.ataccama.com/customer-story/how-lennar-used-built-in-trust-scores-to-accelerate-ai-adoption) |
 | 2026-10-30 | CDO Magazine | [AI Governance Five Gate Decisions: Moving AI Agents From Pilot to Production](https://www.cdomagazine.tech/ai-governance/five-gate-decisions-moving-ai-agents-from-pilot-to-production) |
 | 2026-10-30 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: W. R. Berkley, Truist, and PENN Entertainment](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-w-r-berkley-truist-and-penn-entertainment) |
 | 2026-10-30 | CDO Magazine | [Leadership Moves Truist Names Tim Brophy Chief Data and Governance Officer](https://www.cdomagazine.tech/leadership-moves/truist-names-tim-brophy-chief-data-and-governance-officer) |
@@ -48,10 +54,6 @@ Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new it
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau FEC Takes Down Electronic Filing Platform After Attempted Hack](https://www.cdomagazine.tech/us-federal-news-bureau/fec-takes-down-electronic-filing-platform-after-attempted-hack) |
 | 2026-10-28 | Informatica Blog | [Informatica Headless + Oracle Select AI Integration Data Governance & Data Privacy](https://www.informatica.com/blogs/informatica-headless-oracle-select-ai-enterprise-wide-business-context-for-oracle-database-customers.html) |
-| 2026-10-28 | CDO Magazine | [AI Governance Who Owns the Context Layer?](https://www.cdomagazine.tech/ai-governance/who-owns-the-context-layer) |
-| 2026-10-28 | CDO Magazine | [Industry Newsroom Monte Carlo Launches Bayes, the Industry’s First AI Teammate for Agent Trust](https://www.cdomagazine.tech/others/monte-carlo-launches-bayes-the-industrys-first-ai-teammate-for-agent-trust) |
-| 2026-10-28 | Alation Blog | [October 28, 2026 Why Is Data Privacy Important? A Guide for Businesses and Individuals In the era of AI, data privacy is a critical architecture challenge. Discover why AI agents and shifting regulations… Read More](https://www.alation.com/blog/why-data-privacy-is-important/) |
-| 2026-10-28 | SiliconANGLE — Big Data | [Monte Carlo Data launches Bayes, an AI agent for autonomously monitoring and fixing autonomous agents](https://siliconangle.com/2026/10/28/monte-carlo-data-launches-bayes-an-ai-agent-for-autonomously-monitoring-and-fixing-autonomous-agents/) |
 | 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
 | 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
 | 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
@@ -65,6 +67,10 @@ Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | Monte Carlo Blog | [Your Agents Will Ship Before Your Homegrown Monitoring Does](https://montecarlo.ai/blog-homegrown-monitoring) |
+| 2026-10-30 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/10/10-bits-the-data-news-hotlist-579/) |
+| 2026-10-30 | Center for Data Innovation | [5 Q’s with Ismail Baran, CEO of HITAI](https://datainnovation.org/2026/10/5-qs-with-ismail-baran-ceo-of-hitai/) |
+| 2026-10-30 | Monte Carlo Blog | [What is an AI Bill of Materials and Why Your Agents Need One](https://montecarlo.ai/blog-ai-bill-of-materials) |
 | 2026-10-30 | Center for Data Innovation | [Tracking Wildlife Crossings](https://datainnovation.org/2026/10/tracking-wildlife-crossings/) |
 | 2026-10-30 | Center for Data Innovation | [Mapping Immune Genes](https://datainnovation.org/2026/10/mapping-immune-genes/) |
 | 2026-10-30 | Precisely Blog | [How an MCP server connects AI agents to customer communications](https://www.precisely.com/blog/cat-customer-engagement/how-an-mcp-server-connects-ai-agents-to-customer-communications/) |
@@ -96,11 +102,7 @@ Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new it
 | 2026-10-28 | Center for Data Innovation | [Establish a Common Framework for Evaluating Data-Center Projects](https://datainnovation.org/2026/10/establish-a-common-framework-for-evaluating-data-center-projects/) |
 | 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |
 | 2026-10-28 | Precisely Blog | [Three questions that will tell you if your data is ready for AI](https://www.precisely.com/blog/ai-ready-data/three-questions-that-will-tell-you-if-your-data-is-ready-for-ai/) |
-| 2026-10-28 | DataHub Blog (open source metadata platform) | [What Five Months of Beta Taught Us About Making AI Agents Trustworthy](https://datahub.com/blog/making-ai-agents-trustworthy-lessons-from-beta/) |
 | 2026-10-28 | EPIC — Electronic Privacy Information Center | [EPIC, CFA and Fairplay Urge Stronger Rules Under Colorado Automated Decision-Making Technology and Chatbot Laws](https://epic.org/epic-cfa-and-fairplay-urge-stronger-rules-under-colorado-automated-decision-making-technology-and-chatbot-laws/) |
-| 2026-10-28 | DataHub Blog (open source metadata platform) | [Context Graph vs. Ontology: Why Each Needs the Other](https://datahub.com/blog/context-graph-vs-ontology/) |
-| 2026-10-28 | DataHub Blog (open source metadata platform) | [What Is a Unified Context Layer? (And What Unified Doesn’t Mean)](https://datahub.com/blog/unified-context-layer/) |
-| 2026-10-28 | DataHub Blog (open source metadata platform) | [Data Lifecycle Management: The Six Stages for the AI Era](https://datahub.com/blog/data-lifecycle-management/) |
 | 2026-10-28 | Computer Weekly — IT security | [Lapsed US snooping law still running as senators object](https://www.computerweekly.com/news/366652857/Lapsed-US-snooping-law-still-running-as-senators-object) |
 | 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
@@ -118,8 +120,7 @@ Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **Monte Carlo Blog** — failed 1× in a row: `ValueError: unreadable feed https://www.montecarlodata.com/feed/: <unknown>:94:2: mismatched tag`
+_None._
 
 ## Check manually (weekly)
 
