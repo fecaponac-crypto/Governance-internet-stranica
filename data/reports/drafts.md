@@ -1,20 +1,19 @@
 # Drafts report
 
-Last run: **2026-10-29T21:19:01Z** · candidates 6 · scored 6 · selected 4 · drafted 4 · failed 0 · queued for next run 0
+Last run: **2026-10-30T00:18:24Z** · candidates 3 · scored 3 · selected 3 · drafted 3 · failed 0 · queued for next run 0
 
-AI spend this month: **$3.77** of $12 budget (119 calls)
+AI spend this month: **$3.99** of $12 budget (126 calls)
 
 ## This run
 
-- ⚠️ 2 claims to check **GM agrees to pay $220 million to 36 attorneys general over sale of driver data to insurers via brokers** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/38
-- ℹ️ not fact-checked **FPF urges Colorado to narrow ADMT 'de minimis' test and tie developer disclosures to deployer duties** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/39
-- ℹ️ not fact-checked **UK surveillance watchdog flags records, removable-media and data-accuracy failings in 2025 annual report** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/40
-- ℹ️ not fact-checked **GAO finds Pentagon responsible AI office filled 3 of 10 posts as 29 of 64 strategy efforts stall** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/41
+- ℹ️ not fact-checked **Report says Accenture contractor connected personal Claude Code agent to Pentagon system holding CUI** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/42
+- ℹ️ not fact-checked **Oracle announces AI Registry and AI-generated business ontologies to govern enterprise AI agents** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/43
+- ℹ️ not fact-checked **GSA watchdog finds 116 controlled unclassified files open to all staff in agency Google Drive** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/44
 
 ## Recently skipped by triage
 
-- (1) Event/networking dinner report; no governance substance.
 - (1) Newsletter commentary on a political appointment; not a governance development in substance.
+- (1) Event/networking dinner report; no governance substance.
 - (1) Legal industry commentary on AI use by outside counsel, without a data governance angle.
 - (2) Covers the same FTC personalized-pricing scrutiny as the existing FTC orders article.
 - (1) Sector sizing study without a governance angle.

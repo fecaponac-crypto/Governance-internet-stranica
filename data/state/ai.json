@@ -657,6 +657,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4032504080016abc": {
+   "at": "2026-10-30T00:18:24Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "gsa-watchdog-finds-116-controlled-unclassified-files-open-to-all-staff",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/44",
+   "primary_found": true,
+   "reason": "Inspector General finding of improperly exposed controlled unclassified information in cloud storage is a concrete data security and access governance failure.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "40d35a8a77e631ca": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -859,6 +875,24 @@
    "importance": 1,
    "reason": "Pipeline performance case study with no clear governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "5b578d5ce7aa6e78": {
+   "at": "2026-10-30T00:18:24Z",
+   "categories": [
+    "market",
+    "metadata",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "oracle-announces-ai-registry-and-ai-generated-business-ontologies-to-g",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/43",
+   "primary_found": true,
+   "reason": "Vendor launch adding business context and governance controls for AI agents, a genuine product launch with a governance angle.",
+   "relevant": true,
    "same_story_as": null
   },
   "5b6b071b8091e2d5": {
@@ -1171,6 +1205,23 @@
    "importance": 1,
    "reason": "Practitioner tutorial on building a context layer; how-to content with limited governance news value.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "874a29c320a093a6": {
+   "at": "2026-10-30T00:18:24Z",
+   "categories": [
+    "security",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "report-says-accenture-contractor-connected-personal-claude-code-agent",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/42",
+   "primary_found": true,
+   "reason": "Incident where a contractor's personal AI agent gained access to a Pentagon system raises direct AI agent access control concerns practitioners should act on.",
+   "relevant": true,
    "same_story_as": null
   },
   "89ab5b4ce90b3bbc": {
@@ -2462,8 +2513,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 119,
-   "usd": 3.7661
+   "calls": 126,
+   "usd": 3.9901
   }
  }
 }

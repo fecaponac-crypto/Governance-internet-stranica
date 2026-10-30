@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-29T21:18:45Z** · sources checked: 81 · failed: 0 · new items this run: 6
+Last run: **2026-10-30T00:18:13Z** · sources checked: 81 · failed: 0 · new items this run: 3
 
-## New items, last 48 hours (94)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -24,6 +24,9 @@ Last run: **2026-10-29T21:18:45Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | CDO Magazine | [Artificial Intelligence Oracle Adds Business Context and Governance Controls for AI Agents](https://www.cdomagazine.tech/aiml/oracle-adds-business-context-and-governance-controls-for-ai-agents) |
+| 2026-10-30 | CDO Magazine | [US Federal News Bureau GSA Inspector General Finds 116 CUI Files Improperly Exposed in Google Drive](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-inspector-general-finds-116-cui-files-improperly-exposed-in-google-drive) |
+| 2026-10-30 | CDO Magazine | [US Federal News Bureau Defense Contractor Gave Personal AI Agent Access to Pentagon System](https://www.cdomagazine.tech/us-federal-news-bureau/defense-contractor-gave-personal-ai-agent-access-to-pentagon-system) |
 | 2026-10-29 | CDO Magazine | [Community Montreal’s Data and AI Leaders Find Common Ground at Inaugural Executive Dinner](https://www.cdomagazine.tech/community/montreals-data-and-ai-leaders-find-common-ground-at-inaugural-executive-dinner) |
 | 2026-10-29 | Future of Privacy Forum | [FPF Submits Comments to Inform Colorado Automated Decision-Making (ADM) Act Rulemaking](https://fpf.org/blog/fpf-submits-comments-to-inform-colorado-automated-decision-making-adm-act-rulemaking/) |
 | 2026-10-29 | Future of Privacy Forum | [Back in the Chat: California and New York Take Diverging Paths in Second Wave of Chatbot Regulations](https://fpf.org/blog/back-in-the-chat-california-and-new-york-take-diverging-paths-in-second-wave-of-chatbot-regulations/) |
@@ -99,7 +102,6 @@ Last run: **2026-10-29T21:18:45Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | DataGalaxy | [AI governance: why Colas and Arkéa didn’t wait for the AI Act](https://www.datagalaxy.com/en/blog/ai-governance-why-colas-and-arkea-didnt-wait-for-the-ai-act/) |
 | 2026-10-28 | Data Engineering Weekly | [Do We Still Need Data Models?](https://www.dataengineeringweekly.com/p/do-we-still-need-data-models) |
 | 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
-| 2026-10-27 | Monte Carlo Blog | [Scale Trust at the Speed of AI with Bayes, Your New Monte Carlo AI Teammate](https://montecarlo.ai/blog-introducing-bayes) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [EPIC Urges Supreme Court to Protect Voters and Strike Down Arizona’s SAVE-based Voter-Registration Cancellation Program](https://epic.org/epic-urges-supreme-court-to-protect-voters-and-strike-down-arizonas-save-based-voter-registration-cancellation-program/) |
