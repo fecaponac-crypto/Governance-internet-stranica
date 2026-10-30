@@ -203,7 +203,11 @@ def web_analytics(start: date, end: date) -> dict | None:
         if not site:
             return {"page_views": 0, "visits": 0, "note": "no Web Analytics data for the site yet"}
         filt = {"siteTag": site, "date_geq": start.isoformat(), "date_leq": end.isoformat()}
-        data = graphql(token, CF_QUERY, {"account": account, "filter": filt})
+        # Exclude bots, like the dashboard's default view; fall back if the field is not accepted.
+        try:
+            data, bots_excluded = graphql(token, CF_QUERY, {"account": account, "filter": {**filt, "bot": 0}}), True
+        except ValueError:
+            data, bots_excluded = graphql(token, CF_QUERY, {"account": account, "filter": filt}), False
     except (requests.RequestException, KeyError, IndexError, ValueError) as e:
         return {"error": str(e)[:200] if isinstance(e, ValueError) else type(e).__name__}
     total = (data["total"] or [{"count": 0, "sum": {"visits": 0}}])[0]
@@ -211,6 +215,7 @@ def web_analytics(start: date, end: date) -> dict | None:
     return {
         "page_views": total["count"],
         "visits": total["sum"]["visits"],
+        "bots_excluded": bots_excluded,
         "by_day": [{"date": r["dimensions"]["date"], "page_views": r["count"], "visits": r["sum"]["visits"]} for r in data["days"]],
         "top_pages": top(data["pages"], "requestPath"),
         "countries": top(data["countries"], "countryName"),
@@ -225,7 +230,9 @@ def traffic_report(record: dict) -> str:
     if not web or "error" in web:
         lines.append(f"_No data: {web.get('error', 'CF_API_TOKEN / CF_ACCOUNT_ID not set')}_")
         return "\n".join(lines) + "\n"
-    lines += [f"**{web['visits']} visits · {web['page_views']} page views** this month", ""]
+    lines += [f"**{web['visits']} visits · {web['page_views']} page views** this month"
+              f"{' (bots excluded)' if web.get('bots_excluded') else ' (bots not excluded)'}", "",
+              "_Cloudflare samples page loads, so figures are estimates rounded to tens._", ""]
     if web.get("by_day"):
         lines += ["| Day | Visits | Page views |", "|---|---:|---:|"]
         lines += [f"| {d['date']} | {d['visits']} | {d['page_views']} |" for d in web["by_day"]]

@@ -41,7 +41,8 @@ class WebAnalyticsTest(unittest.TestCase):
         self.assertEqual((web["visits"], web["page_views"], len(web["by_day"])), (40, 50, 2))
         self.assertEqual(web["referrers"], [{"refererHost": "(direct)", "page_views": 5}])
         report = metrics.traffic_report({"month": "2026-10", "updated": "now", "web": web, "feedback": None})
-        self.assertIn("**40 visits · 50 page views**", report)
+        self.assertIn("**40 visits · 50 page views** this month (bots excluded)", report)
+        self.assertEqual(calls[1]["variables"]["filter"]["bot"], 0)
         self.assertIn("| 2026-10-30 | 25 | 30 |", report)
 
     def test_graphql_error_is_recorded(self):
