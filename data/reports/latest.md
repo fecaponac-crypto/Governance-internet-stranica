@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T09:18:16Z** · sources checked: 81 · failed: 0 · new items this run: 1
+Last run: **2026-10-30T10:05:15Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (94)
 
 ### High priority sources
 
@@ -54,9 +54,6 @@ Last run: **2026-10-30T09:18:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | CDO Magazine | [Leadership Moves PENN Entertainment Appoints Gary Hunter Chief Information Security Officer](https://www.cdomagazine.tech/leadership-moves/penn-entertainment-appoints-gary-hunter-chief-information-security-officer) |
 | 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
 | 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
-| 2026-10-28 | SiliconANGLE — Big Data | [Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot](https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/) |
-| 2026-10-28 | Euractiv | [THE HACK: Digital omnibus lobby frenzy](https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/) |
-| 2026-10-28 | DATAVERSITY | [The CDO Doom Loop Is Quietly Undermining Enterprise AI](https://www.dataversity.net/articles/the-cdo-doom-loop-is-quietly-undermining-enterprise-ai/) |
 | 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
 | 2026-10-28 | Collibra Blog | [Bring your own continuous deployment: Run Collibra Edge upgrades your way](https://www.collibra.com/blog/bring-your-own-continuous-deployment-run-collibra-edge-upgrades-your-way) |
 | 2026-10-28 | Collibra Blog | [Delivering operational trust for AI agents](https://www.collibra.com/blog/delivering-operational-trust-for-ai-agents) |
@@ -68,6 +65,7 @@ Last run: **2026-10-30T09:18:16Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | Autorité de protection des données (Belgium) | [Sous la loupe - La vie privée en colonie de vacances : la partie immergée de l’iceberg](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/30/sous-la-loupe-la-vie-privee-en-colonie-de-vacances-la-partie-immergee-de-liceberg) |
 | 2026-10-29 | The Record (Recorded Future News) | [GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms](https://therecord.media/general-motors-lawsuit-privacy) |
 | 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Threat Actors Bury Email Inboxes with Spam Then Reach Out on Teams to Help Victim](https://www.dataprivacyandsecurityinsider.com/2026/10/threat-actors-bury-email-inboxes-with-spam-then-reach-out-on-teams-to-help-victim/) |
 | 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Could School Software Be a Health-Care Provider?](https://www.dataprivacyandsecurityinsider.com/2026/10/could-school-software-be-a-health-care-provider/) |

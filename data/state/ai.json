@@ -1503,6 +1503,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "a7f60172dc69834e": {
+   "at": "2026-10-30T10:05:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Belgian DPA article on children's privacy at holiday camps; no excerpt and no clear governance consequence beyond general privacy awareness, so not a strong fit for the portal.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a912434846b45192": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [
@@ -2522,8 +2531,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 127,
-   "usd": 3.9906
+   "calls": 128,
+   "usd": 3.9911
   }
  }
 }

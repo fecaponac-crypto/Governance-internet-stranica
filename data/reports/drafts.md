@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-10-30T09:18:28Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-30T10:05:30Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$3.99** of $12 budget (127 calls)
+AI spend this month: **$3.99** of $12 budget (128 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Belgian DPA article on children's privacy at holiday camps; no excerpt and no clear governance consequence beyond general privacy awareness, so not a strong fit for the portal.
 - (1) Generic architecture thought-leadership with no concrete governance news; excerpt is only a boilerplate headline.
 - (1) Newsletter commentary on a political appointment; not a governance development in substance.
 - (1) Event/networking dinner report; no governance substance.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Generic PHP vulnerability patching story without a data governance angle.
 - (1) Generic risk advice on AI notetakers, not a news development.
 - (1) Event conference notes with no specific decision or consequence stated in the excerpt.
-- (2) Court ruling keeping a medical-privacy claim alive against an ed-tech provider after a data breach.
