@@ -572,6 +572,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "329d8302a25e1272": {
+   "at": "2026-10-30T21:18:30Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Procurement notice for an intelligence data platform; no clear data governance consequence reported from title alone.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3326f8c8453fd84c": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -2090,6 +2101,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ce4d8aef30665e2d": {
+   "at": "2026-10-30T21:18:30Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/48",
+   "primary_found": false,
+   "reason": "DOJ raises privacy concerns over a possible sale of Character.AI chat data in bankruptcy, a concrete consequence for handling personal data from AI chats.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ceb4b784fbabf8ce": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -2587,6 +2615,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ef7eb222c66a1bc1": {
+   "at": "2026-10-30T21:18:30Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Weekly news roundup with no single governance-focused story.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "efef2e06fe96f780": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -2761,8 +2800,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 139,
-   "usd": 4.5118
+   "calls": 142,
+   "usd": 4.5793
   }
  }
 }

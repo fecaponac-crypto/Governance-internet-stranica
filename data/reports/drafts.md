@@ -1,15 +1,17 @@
 # Drafts report
 
-Last run: **2026-10-30T18:18:38Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-10-30T21:18:30Z** · candidates 3 · scored 3 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$4.51** of $12 budget (139 calls)
+AI spend this month: **$4.58** of $12 budget (142 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **US Justice Department seeks privacy ombudsman over possible sale of Character.AI user chats in bankruptcy** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/48
 
 ## Recently skipped by triage
 
+- (1) Procurement notice for an intelligence data platform; no clear data governance consequence reported from title alone.
+- (1) Weekly news roundup with no single governance-focused story.
 - (2) Meeting announcement; event promotion rather than a decision or rule, though it touches CalPrivacy rulemaking.
 - (1) Vendor/partner marketing about national security cloud foundation; no concrete governance consequence.
 - (1) Weekly roundup; not a single story with governance consequence.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (1) Immune gene dataset; scientific research without governance angle.
 - (1) Conference notes/interview profile without a concrete governance development.
 - (1) Weekly roundup of executive appointments across unrelated companies; hiring/people news without a governance-specific angle.
-- (1) Generic thought-leadership guide on agentic AI with no concrete governance development or new evidence.
-- (1) Opinion-style conceptual piece on AI-driven data engineering; no concrete governance news, product launch or research finding.

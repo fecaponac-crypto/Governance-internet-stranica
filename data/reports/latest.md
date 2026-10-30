@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T18:18:23Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-10-30T21:18:16Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (88)
+## New items, last 48 hours (86)
 
 ### High priority sources
 
@@ -18,12 +18,12 @@ Last run: **2026-10-30T18:18:23Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud](https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud) |
 | 2026-10-29 | Hunton Privacy & Information Security Law Blog | [California Law Extends CMIA Protections to Health Care Chatbots and Enacts New Guardrails on AI Use in Clinical Care](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-law-extends-cmia-protections-to-health-care-chatbots-and-enacts-new-guardrails-on-ai-use-in-clinical-care) |
 | 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [AP informeert incassobureaus over verantwoorde inzet AI](https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai) |
-| 2026-10-28 | IAPP — International Association of Privacy Professionals | [New York's governor signs youth AI chatbot safety bill](https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | CDO Magazine | [US Federal News Bureau ODNI Seeks Data Platform to Unify Economic and Financial Intelligence](https://www.cdomagazine.tech/us-federal-news-bureau/odni-seeks-data-platform-to-unify-economic-and-financial-intelligence) |
 | 2026-10-30 | CDO Magazine | [Cloud AWS and Deloitte: Building the Data and Cloud Foundation for National Security](https://www.cdomagazine.tech/cloud/aws-and-deloitte-building-the-data-and-cloud-foundation-for-national-security) |
 | 2026-10-30 | Euractiv | [Dutch government warns of privacy risks in EU Kids Act](https://www.rapporteur.com/news/dutch-government-warns-of-privacy-risks-in-eu-kids-act/) |
 | 2026-10-30 | Ataccama Blog | [How Lennar used built-in trust scores to accelerate AI adoption](https://www.ataccama.com/customer-story/how-lennar-used-built-in-trust-scores-to-accelerate-ai-adoption) |
@@ -50,10 +50,6 @@ Last run: **2026-10-30T18:18:23Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau FEC Takes Down Electronic Filing Platform After Attempted Hack](https://www.cdomagazine.tech/us-federal-news-bureau/fec-takes-down-electronic-filing-platform-after-attempted-hack) |
-| 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
-| 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
-| 2026-10-28 | Collibra Blog | [Bring your own continuous deployment: Run Collibra Edge upgrades your way](https://www.collibra.com/blog/bring-your-own-continuous-deployment-run-collibra-edge-upgrades-your-way) |
-| 2026-10-28 | Collibra Blog | [Delivering operational trust for AI agents](https://www.collibra.com/blog/delivering-operational-trust-for-ai-agents) |
 | 2026-10-28 | Collibra Blog | [Bring SAP S/4HANA metadata into Collibra Platform](https://www.collibra.com/blog/bring-sap-s-4hana-metadata-into-collibra-platform) |
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
 | 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
@@ -62,6 +58,8 @@ Last run: **2026-10-30T18:18:23Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | The Record (Recorded Future News) | [DOJ raises privacy concerns over potential sale of Character.AI chats](https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale) |
+| 2026-10-30 | InformationWeek | [The week of Oct. 26-30: What happened, what matters, what's next](https://www.informationweek.com/it-infrastructure/the-week-of-oct-26-30-what-happened-what-matters-what-s-next) |
 | 2026-10-30 | Monte Carlo Blog | [Your Agents Will Ship Before Your Homegrown Monitoring Does](https://montecarlo.ai/blog-homegrown-monitoring) |
 | 2026-10-30 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/10/10-bits-the-data-news-hotlist-579/) |
 | 2026-10-30 | Center for Data Innovation | [5 Q’s with Ismail Baran, CEO of HITAI](https://datainnovation.org/2026/10/5-qs-with-ismail-baran-ceo-of-hitai/) |
@@ -109,7 +107,7 @@ Last run: **2026-10-30T18:18:23Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 
