@@ -281,18 +281,22 @@ def weekly_report(today: date, feedback_month: dict | None) -> str | None:
     if "error" in week:
         lines.append(f"Traffic figures unavailable: {week['error']}")
     else:
-        lines += [
-            f"Visits:      {week['visits']}  ({change(week['visits'], before.get('visits', 0))} on the week before: {before.get('visits', 0)})",
-            f"Page views:  {week['page_views']}  ({change(week['page_views'], before.get('page_views', 0))} on the week before: {before.get('page_views', 0)})",
-            "",
-        ]
+        def line(label: str, key: str) -> str:
+            now, prev = week[key], before.get(key, 0)
+            versus = f"{change(now, prev)} on the week before: {prev}" if prev else "no data for the week before"
+            return f"{label}{now}  ({versus})"
+
+        lines += [line("Visits:      ", "visits"), line("Page views:  ", "page_views"), ""]
         for title, key, field in (("Most read", "top_pages", "requestPath"), ("Countries", "countries", "countryName"),
                                   ("Where visitors came from", "referrers", "refererHost")):
             rows = week.get(key) or []
             if rows:
                 lines += [f"{title}:"] + [f"  {r['page_views']:>4}  {r[field]}" for r in rows[:5]] + [""]
     published = published_between(start, end)
-    lines += [f"Published this week: {len(published)} stories"] + [f"  - {t}" for t in published] + [""]
+    lines += [f"Published this week: {len(published)} stories"] + [f"  - {t}" for t in published[:15]]
+    if len(published) > 15:
+        lines.append(f"  … and {len(published) - 15} more")
+    lines.append("")
     if feedback_month and "error" not in feedback_month:
         lines += [f"'Was this useful?' this month: yes {feedback_month['useful_yes']}, no {feedback_month['useful_no']}", ""]
     lines += [
