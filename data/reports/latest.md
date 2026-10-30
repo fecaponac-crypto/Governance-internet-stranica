@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T21:18:16Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-10-30T22:23:45Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (86)
+## New items, last 48 hours (85)
 
 ### High priority sources
 
@@ -23,6 +23,7 @@ Last run: **2026-10-30T21:18:16Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | CDO Magazine | [Artificial Intelligence SAP Expands Data Fabric and Master Data Tools for Enterprise AI Agents](https://www.cdomagazine.tech/aiml/sap-expands-data-fabric-and-master-data-tools-for-enterprise-ai-agents) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau ODNI Seeks Data Platform to Unify Economic and Financial Intelligence](https://www.cdomagazine.tech/us-federal-news-bureau/odni-seeks-data-platform-to-unify-economic-and-financial-intelligence) |
 | 2026-10-30 | CDO Magazine | [Cloud AWS and Deloitte: Building the Data and Cloud Foundation for National Security](https://www.cdomagazine.tech/cloud/aws-and-deloitte-building-the-data-and-cloud-foundation-for-national-security) |
 | 2026-10-30 | Euractiv | [Dutch government warns of privacy risks in EU Kids Act](https://www.rapporteur.com/news/dutch-government-warns-of-privacy-risks-in-eu-kids-act/) |
@@ -50,7 +51,6 @@ Last run: **2026-10-30T21:18:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau FEC Takes Down Electronic Filing Platform After Attempted Hack](https://www.cdomagazine.tech/us-federal-news-bureau/fec-takes-down-electronic-filing-platform-after-attempted-hack) |
-| 2026-10-28 | Collibra Blog | [Bring SAP S/4HANA metadata into Collibra Platform](https://www.collibra.com/blog/bring-sap-s-4hana-metadata-into-collibra-platform) |
 | 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
 | 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
 
@@ -91,7 +91,6 @@ Last run: **2026-10-30T21:18:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | European Digital Rights (EDRi) | [Draconian access block orders in Turkey](https://edri.org/our-work/draconian-access-block-orders-in-turkey/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [Surveillance in times of insecurity: a wicked and stupid strategy](https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/) |
 | 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
-| 2026-10-28 | The Record (Recorded Future News) | [Court strikes down West Virginia law barring disclosure of public officials’ personal data](https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court) |
 | 2026-10-28 | EPIC — Electronic Privacy Information Center | [EPIC, CFA and Fairplay Urge Stronger Rules Under Colorado Automated Decision-Making Technology and Chatbot Laws](https://epic.org/epic-cfa-and-fairplay-urge-stronger-rules-under-colorado-automated-decision-making-technology-and-chatbot-laws/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
@@ -107,7 +106,7 @@ Last run: **2026-10-30T21:18:16Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 

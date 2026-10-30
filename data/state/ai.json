@@ -1782,6 +1782,24 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b571f4ddeea989a7": {
+   "at": "2026-10-30T22:23:55Z",
+   "categories": [
+    "mdm",
+    "platforms",
+    "ai-industry"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "sap-makes-reltio-master-data-management-generally-available-in-busines",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/49",
+   "primary_found": true,
+   "reason": "SAP expanding data fabric and master data tools for enterprise AI agents is a product launch relevant to MDM and governance, though the excerpt is empty and details are thin; lower-reliability source.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b5b930bff69de3c1": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -2800,8 +2818,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 142,
-   "usd": 4.5793
+   "calls": 145,
+   "usd": 4.6571
   }
  }
 }

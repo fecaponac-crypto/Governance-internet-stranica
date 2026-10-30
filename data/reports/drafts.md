@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-10-30T21:18:30Z** · candidates 3 · scored 3 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-10-30T22:23:55Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$4.58** of $12 budget (142 calls)
+AI spend this month: **$4.66** of $12 budget (145 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **US Justice Department seeks privacy ombudsman over possible sale of Character.AI user chats in bankruptcy** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/48
+- ℹ️ not fact-checked **SAP makes Reltio master data management generally available in Business Data Cloud for AI agents** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/49
 
 ## Recently skipped by triage
 
