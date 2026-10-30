@@ -1,0 +1,33 @@
+# Traffic — 2026-10
+
+Updated 2026-10-30T06:50:32Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+
+**150 visits · 200 page views** this month
+
+| Day | Visits | Page views |
+|---|---:|---:|
+| 2026-10-24 | 20 | 40 |
+| 2026-10-25 | 20 | 20 |
+| 2026-10-26 | 10 | 20 |
+| 2026-10-27 | 20 | 20 |
+| 2026-10-28 | 10 | 20 |
+| 2026-10-29 | 70 | 80 |
+
+## Top pages
+
+- / — 180
+- /news/en-18286-first-harmonised-ai-act-standard/ — 10
+- /news/council-backs-gdpr-carve-out-for-ai/ — 10
+
+## Countries
+
+- US — 110
+- HR — 50
+- CA — 20
+- JP — 10
+- PT — 10
+
+## Referrers
+
+- (direct) — 150
+- datagovernancesignal.com — 50

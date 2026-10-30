@@ -1,6 +1,6 @@
 {
  "month": "2026-10",
- "updated": "2026-10-30T06:18:30Z",
+ "updated": "2026-10-30T06:50:32Z",
  "portal": {
   "published_total": 38,
   "published_this_month": 38,
@@ -13,7 +13,7 @@
  },
  "pipeline": {
   "items_collected": 221,
-  "runs": 66,
+  "runs": 67,
   "runs_with_failed_sources": 19,
   "triage_decisions": {
    "skipped": 180,
@@ -31,6 +31,87 @@
  "newsletter": {
   "confirmed_subscribers": 1
  },
- "web": null,
+ "web": {
+  "page_views": 200,
+  "visits": 150,
+  "by_day": [
+   {
+    "date": "2026-10-24",
+    "page_views": 40,
+    "visits": 20
+   },
+   {
+    "date": "2026-10-25",
+    "page_views": 20,
+    "visits": 20
+   },
+   {
+    "date": "2026-10-26",
+    "page_views": 20,
+    "visits": 10
+   },
+   {
+    "date": "2026-10-27",
+    "page_views": 20,
+    "visits": 20
+   },
+   {
+    "date": "2026-10-28",
+    "page_views": 20,
+    "visits": 10
+   },
+   {
+    "date": "2026-10-29",
+    "page_views": 80,
+    "visits": 70
+   }
+  ],
+  "top_pages": [
+   {
+    "requestPath": "/",
+    "page_views": 180
+   },
+   {
+    "requestPath": "/news/en-18286-first-harmonised-ai-act-standard/",
+    "page_views": 10
+   },
+   {
+    "requestPath": "/news/council-backs-gdpr-carve-out-for-ai/",
+    "page_views": 10
+   }
+  ],
+  "countries": [
+   {
+    "countryName": "US",
+    "page_views": 110
+   },
+   {
+    "countryName": "HR",
+    "page_views": 50
+   },
+   {
+    "countryName": "CA",
+    "page_views": 20
+   },
+   {
+    "countryName": "JP",
+    "page_views": 10
+   },
+   {
+    "countryName": "PT",
+    "page_views": 10
+   }
+  ],
+  "referrers": [
+   {
+    "refererHost": "(direct)",
+    "page_views": 150
+   },
+   {
+    "refererHost": "datagovernancesignal.com",
+    "page_views": 50
+   }
+  ]
+ },
  "feedback": null
 }
