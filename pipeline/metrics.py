@@ -297,8 +297,6 @@ def weekly_report(today: date, feedback_month: dict | None) -> str | None:
     if len(published) > 15:
         lines.append(f"  … and {len(published) - 15} more")
     lines.append("")
-    if feedback_month and "error" not in feedback_month:
-        lines += [f"'Was this useful?' this month: yes {feedback_month['useful_yes']}, no {feedback_month['useful_no']}", ""]
     lines += [
         "Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).",
         "Month so far: https://github.com/fecaponac-crypto/Governance-internet-stranica/blob/claude/data-intelligence-portal-plan-v46ux0/data/reports/traffic.md",

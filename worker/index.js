@@ -84,8 +84,6 @@ export const CRON_JOBS = {
   '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday', weeklyReport: true },
   // Public launch, 30 October 12:00 Zagreb; repeats yearly but does nothing after launch.
   '55 10 30 10 *': { workflow: 'launch.yml', key: 'cron:last-launch' },
-  // One-off test of the weekly email (30 October 07:58 UTC); remove after the test.
-  '58 7 30 10 *': { workflow: null, key: 'cron:last-report-test', weeklyReport: true },
 };
 const WORKFLOW_REF = 'claude/data-intelligence-portal-plan-v46ux0';
 
@@ -180,12 +178,55 @@ export function reportMime(to, text, now = new Date()) {
   ].join('\r\n');
 }
 
+const REASON_LABELS = {
+  'not-relevant': 'not relevant',
+  'too-technical': 'too technical',
+  'too-basic': 'too basic',
+  'possible-error': 'possible error',
+};
+
+/**
+ * "Was this useful?" answers from KV for the current month (and the previous one during the
+ * first week of a month, so the weekly email never misses days), as plain text.
+ */
+export async function feedbackSummary(env, now = new Date()) {
+  const months = [now.toISOString().slice(0, 7)];
+  if (now.getUTCDate() <= 7) months.push(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - 1, 1)).toISOString().slice(0, 7));
+  const lines = [];
+  for (const month of months) {
+    const prefix = `feedback:${month}:`;
+    const pages = [];
+    let cursor;
+    do {
+      const list = await env.SOURCES.list({ prefix, cursor });
+      for (const { name } of list.keys) pages.push({ page: name.slice(prefix.length), ...(await env.SOURCES.get(name, 'json')) });
+      cursor = list.list_complete ? undefined : list.cursor;
+    } while (cursor);
+    const yes = pages.reduce((n, p) => n + (p.yes ?? 0), 0);
+    const no = pages.reduce((n, p) => n + (p.no ?? 0), 0);
+    lines.push(`'Was this useful?' in ${month}: ${yes} yes, ${no} no`);
+    pages
+      .sort((a, b) => (b.yes ?? 0) + (b.no ?? 0) - ((a.yes ?? 0) + (a.no ?? 0)))
+      .forEach((p) => {
+        const reasons = Object.entries(p.reasons ?? {}).map(([r, n]) => `${REASON_LABELS[r] ?? r} ${n}`).join(', ');
+        lines.push(`  ${String(p.yes ?? 0).padStart(3)} yes ${String(p.no ?? 0).padStart(3)} no  ${p.page}${reasons ? `  (${reasons})` : ''}`);
+      });
+    if (!pages.length) lines.push('  no answers yet');
+    lines.push('');
+  }
+  return lines.join('\n');
+}
+
 /** Email data/reports/weekly.md to REPORT_EMAIL. `makeMessage` is injectable for tests. */
 export async function sendWeeklyReport(env, makeMessage) {
   if (!env.REPORT_EMAIL || !env.REPORT_MAILER) throw new Error('REPORT_EMAIL secret or REPORT_MAILER binding missing');
   const res = await fetch(WEEKLY_REPORT_URL, { headers: { 'User-Agent': 'datagovernancesignal-worker' } });
   if (!res.ok) throw new Error(`weekly report not found: ${res.status}`);
-  const text = await res.text();
+  let text = await res.text();
+  // Insert the answers before the closing notes (the pipeline cannot read them without a token).
+  const feedback = env.SOURCES ? await feedbackSummary(env) : '';
+  const notes = text.indexOf('Figures are Cloudflare');
+  if (feedback) text = notes >= 0 ? `${text.slice(0, notes)}${feedback}\n${text.slice(notes)}` : `${text}\n${feedback}`;
   if (!makeMessage) {
     const { EmailMessage } = await import('cloudflare:email');
     makeMessage = (from, to, raw) => new EmailMessage(from, to, raw);

@@ -184,12 +184,18 @@ test('weekly report: fetched from the repo and emailed as UTF-8 plain text', asy
   };
   const sent = [];
   const env = { REPORT_EMAIL: 'editor@example.org', REPORT_MAILER: { send: async (m) => sent.push(m) } };
+  const kv = memoryKV();
+  const month = new Date().toISOString().slice(0, 7);
+  await kv.put(`feedback:${month}:/news/a/`, JSON.stringify({ yes: 2, no: 1, reasons: { 'possible-error': 1 } }));
+  env.SOURCES = kv;
   try {
     await sendWeeklyReport(env, (from, to, raw) => ({ from, to, raw }));
     assert.equal(sent[0].from, 'reports@datagovernancesignal.com');
     assert.equal(sent[0].to, 'editor@example.org');
     assert.match(sent[0].raw, /^Subject: =\?UTF-8\?B\?/m);
     assert.match(sent[0].raw, /\r\n\r\nData Governance Signal — week/);
+    assert.match(sent[0].raw, /'Was this useful\?' in \d{4}-\d{2}: 2 yes, 1 no/);
+    assert.match(sent[0].raw, /2 yes {3}1 no {2}\/news\/a\/ {2}\(possible error 1\)/);
     await assert.rejects(sendWeeklyReport({}), /REPORT_EMAIL/);
   } finally {
     globalThis.fetch = realFetch;

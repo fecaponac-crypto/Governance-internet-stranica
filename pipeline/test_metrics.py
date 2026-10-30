@@ -67,7 +67,6 @@ class WeeklyTest(unittest.TestCase):
         self.assertTrue(text.startswith("Data Governance Signal — week 26 Oct – 1 Nov 2026"))
         self.assertIn("Visits:      30  (+50% on the week before: 20)", text)
         self.assertIn("  - Story A", text)
-        self.assertIn("yes 3, no 1", text)
 
 
 if __name__ == "__main__":
