@@ -202,6 +202,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "13e76737b2782953": {
+   "at": "2026-10-30T15:18:31Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Generic thought-leadership framework piece on AI agent production gates; no new concrete development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1439e0349a54fc98": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -313,6 +324,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "1c3952feedf91c8f": {
+   "at": "2026-10-30T15:18:31Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "dutch-data-protection-authority-publishes-final-enforcement-policy-aft",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/45",
+   "primary_found": false,
+   "reason": "Dutch DPA publishes its enforcement policy on how it uses enforcement instruments against GDPR non-compliance; practical regulator guidance affecting organisations.",
    "relevant": true,
    "same_story_as": null
   },
@@ -813,6 +841,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "533702750fc1e62c": {
+   "at": "2026-10-30T15:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Wildlife crossing map; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "54955e6fc7a6f700": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -1128,6 +1165,17 @@
    "importance": 2,
    "reason": "Analysis of pixel tracking litigation and a pending US Supreme Court privacy case; relevant to privacy practice but largely commentary on US litigation rather than a decision.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "7ba48eefd8f6f4c5": {
+   "at": "2026-10-30T15:18:31Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product blog post about an MCP server; not a genuine launch with governance news.",
+   "relevant": false,
    "same_story_as": null
   },
   "7d17d1cb2c6be6b8": {
@@ -1642,6 +1690,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b4c609e59ffbb15e": {
+   "at": "2026-10-30T15:18:31Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Immune gene dataset; scientific research without governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b60d36aa8ae62307": {
    "at": "2026-10-29T09:18:31Z",
    "categories": [],
@@ -1873,6 +1930,17 @@
    "importance": 2,
    "reason": "Encoding business context beside dbt models for a text-to-SQL agent is a practical context-for-AI pattern.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "c4b97dff2dcab455": {
+   "at": "2026-10-30T15:18:31Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conference notes/interview profile without a concrete governance development.",
+   "relevant": false,
    "same_story_as": null
   },
   "c699e2cecab92b1b": {
@@ -2569,8 +2637,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 129,
-   "usd": 3.9917
+   "calls": 132,
+   "usd": 4.051
   }
  }
 }

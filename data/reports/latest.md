@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-10-30T12:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 4
+Last run: **2026-10-30T15:18:17Z** · sources checked: 81 · failed: 2 · new items this run: 6
 
-## New items, last 48 hours (93)
+## New items, last 48 hours (97)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Researcher bridges privacy protection and data innovation](https://iapp.org/news/a/notes-from-the-iapp-canada-khaled-el-emam-bridges-privacy-protection-and-data-innovation) |
+| 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [Handhavingsbeleid AP gepubliceerd](https://autoriteitpersoonsgegevens.nl/actueel/handhavingsbeleid-ap-gepubliceerd) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [FTC expands personalized pricing scrutiny as states, Congress, regulators turn up pressure](https://iapp.org/news/a/ftc-expands-personalized-pricing-scrutiny-as-states-congress-regulators-turn-up-pressure) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [China's PIPL at 5: Enforcement, evolution and what comes next](https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud](https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud) |
@@ -22,6 +24,7 @@ Last run: **2026-10-30T12:18:18Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | CDO Magazine | [AI Governance Five Gate Decisions: Moving AI Agents From Pilot to Production](https://www.cdomagazine.tech/ai-governance/five-gate-decisions-moving-ai-agents-from-pilot-to-production) |
 | 2026-10-30 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: W. R. Berkley, Truist, and PENN Entertainment](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-w-r-berkley-truist-and-penn-entertainment) |
 | 2026-10-30 | CDO Magazine | [Leadership Moves Truist Names Tim Brophy Chief Data and Governance Officer](https://www.cdomagazine.tech/leadership-moves/truist-names-tim-brophy-chief-data-and-governance-officer) |
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence Approaching Agentic AI Systems the Right Way: A Modern CDO’s Guide](https://www.cdomagazine.tech/aiml/approaching-agentic-ai-systems-the-right-way-a-modern-cdos-guide) |
@@ -49,8 +52,6 @@ Last run: **2026-10-30T12:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | CDO Magazine | [Industry Newsroom Monte Carlo Launches Bayes, the Industry’s First AI Teammate for Agent Trust](https://www.cdomagazine.tech/others/monte-carlo-launches-bayes-the-industrys-first-ai-teammate-for-agent-trust) |
 | 2026-10-28 | Alation Blog | [October 28, 2026 Why Is Data Privacy Important? A Guide for Businesses and Individuals In the era of AI, data privacy is a critical architecture challenge. Discover why AI agents and shifting regulations… Read More](https://www.alation.com/blog/why-data-privacy-is-important/) |
 | 2026-10-28 | SiliconANGLE — Big Data | [Monte Carlo Data launches Bayes, an AI agent for autonomously monitoring and fixing autonomous agents](https://siliconangle.com/2026/10/28/monte-carlo-data-launches-bayes-an-ai-agent-for-autonomously-monitoring-and-fixing-autonomous-agents/) |
-| 2026-10-28 | Ataccama Blog | [Ataccama launches headless MDM to bring trusted golden records and data stewardship work into agentic workflows](https://www.ataccama.com/news/ataccama-launches-headless-mdm-to-bring-trusted-golden-records-and-data-stewardship-work-into-agentic-workflows) |
-| 2026-10-28 | Ataccama Blog | [What is headless MDM? How AI agents use and maintain your golden records](https://www.ataccama.com/blog/what-is-headless-mdm-how-ai-agents-use-and-maintain-your-golden-records) |
 | 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
 | 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
 | 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
@@ -64,6 +65,9 @@ Last run: **2026-10-30T12:18:18Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | Center for Data Innovation | [Tracking Wildlife Crossings](https://datainnovation.org/2026/10/tracking-wildlife-crossings/) |
+| 2026-10-30 | Center for Data Innovation | [Mapping Immune Genes](https://datainnovation.org/2026/10/mapping-immune-genes/) |
+| 2026-10-30 | Precisely Blog | [How an MCP server connects AI agents to customer communications](https://www.precisely.com/blog/cat-customer-engagement/how-an-mcp-server-connects-ai-agents-to-customer-communications/) |
 | 2026-10-30 | Modern Data 101 | [The Harness Is the Architecture](https://moderndata101.substack.com/p/the-harness-is-the-architecture) |
 | 2026-10-30 | Autorité de protection des données (Belgium) | [Sous la loupe - La vie privée en colonie de vacances : la partie immergée de l’iceberg](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/30/sous-la-loupe-la-vie-privee-en-colonie-de-vacances-la-partie-immergee-de-liceberg) |
 | 2026-10-29 | The Record (Recorded Future News) | [GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms](https://therecord.media/general-motors-lawsuit-privacy) |
@@ -114,7 +118,8 @@ Last run: **2026-10-30T12:18:18Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **Monte Carlo Blog** — failed 1× in a row: `ValueError: unreadable feed https://www.montecarlodata.com/feed/: <unknown>:94:2: mismatched tag`
 
 ## Check manually (weekly)
 
