@@ -10,6 +10,8 @@
 // - POST /api/feedback records anonymous "Was this useful?" votes per page and month in KV
 //   (counters only: no IP address, cookie or other identifier is stored).
 //   GET /api/feedback?month=YYYY-MM returns them, with the FEEDBACK_READ_TOKEN secret as a Bearer token.
+// - On Monday mornings the Worker emails the weekly traffic report (data/reports/weekly.md, written by
+//   the pipeline) to the REPORT_EMAIL secret, which must be a verified Email Routing destination.
 import PostalMime from 'postal-mime';
 
 const MAX_SIZE = 5 * 1024 * 1024;
@@ -79,7 +81,7 @@ const WORKFLOWS_URL = 'https://api.github.com/repos/fecaponac-crypto/Governance-
 // Cron expression (as in wrangler.jsonc) -> workflow it starts and the KV key for its outcome.
 export const CRON_JOBS = {
   '17 */3 * * *': { workflow: 'ingest.yml', key: 'cron:last' },
-  '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday' },
+  '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday', weeklyReport: true },
   // Public launch, 30 October 12:00 Zagreb; repeats yearly but does nothing after launch.
   '55 10 30 10 *': { workflow: 'launch.yml', key: 'cron:last-launch' },
 };
@@ -153,6 +155,42 @@ export async function readFeedback(request, env) {
   return json({ month, pages });
 }
 
+const WEEKLY_REPORT_URL =
+  'https://raw.githubusercontent.com/fecaponac-crypto/Governance-internet-stranica/claude/data-intelligence-portal-plan-v46ux0/data/reports/weekly.md';
+const REPORT_FROM = 'reports@datagovernancesignal.com';
+
+/** A plain-text email as raw MIME (what the send_email binding expects). */
+export function reportMime(to, text, now = new Date()) {
+  const subject = text.split('\n')[0].trim() || 'Weekly report';
+  // RFC 2047 encoded subject, so the dash and other non-ASCII characters survive.
+  const encoded = `=?UTF-8?B?${btoa(String.fromCharCode(...new TextEncoder().encode(subject)))}?=`;
+  return [
+    `From: "Data Governance Signal" <${REPORT_FROM}>`,
+    `To: ${to}`,
+    `Subject: ${encoded}`,
+    `Date: ${now.toUTCString()}`,
+    `Message-ID: <${crypto.randomUUID()}@datagovernancesignal.com>`,
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=utf-8',
+    'Content-Transfer-Encoding: 8bit',
+    '',
+    text.replace(/\n/g, '\r\n'),
+  ].join('\r\n');
+}
+
+/** Email data/reports/weekly.md to REPORT_EMAIL. `makeMessage` is injectable for tests. */
+export async function sendWeeklyReport(env, makeMessage) {
+  if (!env.REPORT_EMAIL || !env.REPORT_MAILER) throw new Error('REPORT_EMAIL secret or REPORT_MAILER binding missing');
+  const res = await fetch(WEEKLY_REPORT_URL, { headers: { 'User-Agent': 'datagovernancesignal-worker' } });
+  if (!res.ok) throw new Error(`weekly report not found: ${res.status}`);
+  const text = await res.text();
+  if (!makeMessage) {
+    const { EmailMessage } = await import('cloudflare:email');
+    makeMessage = (from, to, raw) => new EmailMessage(from, to, raw);
+  }
+  await env.REPORT_MAILER.send(makeMessage(REPORT_FROM, env.REPORT_EMAIL, reportMime(env.REPORT_EMAIL, text)));
+}
+
 export default {
   async scheduled(event, env, ctx) {
     const key = Object.keys(CRON_JOBS).find((c) => c.toLowerCase() === String(event.cron).toLowerCase());
@@ -163,6 +201,14 @@ export default {
         (err) => recordCron(env, event, job.key, `error: ${err.message}`.slice(0, 500)),
       ),
     );
+    if (job.weeklyReport) {
+      ctx.waitUntil(
+        sendWeeklyReport(env).then(
+          () => recordCron(env, event, 'cron:last-report', 'sent'),
+          (err) => recordCron(env, event, 'cron:last-report', `error: ${err.message}`.slice(0, 500)),
+        ),
+      );
+    }
   },
 
   async fetch(request, env) {

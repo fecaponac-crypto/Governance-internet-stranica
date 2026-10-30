@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import PostalMime from 'postal-mime';
-import worker, { extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS } from './index.js';
+import worker, { extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS, reportMime, sendWeeklyReport } from './index.js';
 
 function memoryKV() {
   const store = new Map();
@@ -174,4 +174,26 @@ test('feedback: counts votes and reasons per page and month, rejects junk', asyn
   assert.equal((await read('Bearer wrong')).status, 404);
   const body = await (await read('Bearer secret')).json();
   assert.equal(body.pages[page].yes, 1);
+});
+
+test('weekly report: fetched from the repo and emailed as UTF-8 plain text', async () => {
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async (url) => {
+    assert.match(url, /data\/reports\/weekly\.md$/);
+    return new Response('Data Governance Signal — week 26 Oct – 1 Nov 2026\n\nVisits: 30\n');
+  };
+  const sent = [];
+  const env = { REPORT_EMAIL: 'editor@example.org', REPORT_MAILER: { send: async (m) => sent.push(m) } };
+  try {
+    await sendWeeklyReport(env, (from, to, raw) => ({ from, to, raw }));
+    assert.equal(sent[0].from, 'reports@datagovernancesignal.com');
+    assert.equal(sent[0].to, 'editor@example.org');
+    assert.match(sent[0].raw, /^Subject: =\?UTF-8\?B\?/m);
+    assert.match(sent[0].raw, /\r\n\r\nData Governance Signal — week/);
+    await assert.rejects(sendWeeklyReport({}), /REPORT_EMAIL/);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+  const decoded = new TextDecoder().decode(Uint8Array.from(atob(reportMime('a@b.c', 'Ünïcode — ok\n').match(/=\?UTF-8\?B\?(.*)\?=/)[1]), (c) => c.charCodeAt(0)));
+  assert.equal(decoded, 'Ünïcode — ok');
 });

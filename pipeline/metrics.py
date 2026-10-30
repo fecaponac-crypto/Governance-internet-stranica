@@ -247,6 +247,61 @@ def traffic_report(record: dict) -> str:
     return "\n".join(lines)
 
 
+def published_between(start: date, end: date) -> list[str]:
+    """Titles of real articles first committed between start and end (inclusive)."""
+    titles = []
+    for path in sorted(ARTICLES.glob("*.md")):
+        meta = yaml.safe_load(path.read_text(encoding="utf-8").split("---")[1])
+        if meta.get("sample"):
+            continue
+        added = subprocess.run(["git", "log", "--diff-filter=A", "--format=%cs", "-1", "--", str(path)],
+                               cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        if added and start.isoformat() <= added <= end.isoformat():
+            titles.append(meta["title"])
+    return titles
+
+
+def change(now: int, before: int) -> str:
+    if not before:
+        return "new" if now else "no change"
+    pct = round(100 * (now - before) / before)
+    return f"{'+' if pct >= 0 else ''}{pct}%"
+
+
+def weekly_report(today: date, feedback_month: dict | None) -> str | None:
+    """data/reports/weekly.md: the 7 days up to yesterday against the 7 before (emailed on Mondays)."""
+    end = today - timedelta(days=1)
+    start = end - timedelta(days=6)
+    week = web_analytics(start, end)
+    if week is None:
+        return None
+    before = web_analytics(start - timedelta(days=7), start - timedelta(days=1)) or {}
+    span = f"{start:%-d %b} – {end:%-d %b %Y}"
+    lines = [f"Data Governance Signal — week {span}", ""]
+    if "error" in week:
+        lines.append(f"Traffic figures unavailable: {week['error']}")
+    else:
+        lines += [
+            f"Visits:      {week['visits']}  ({change(week['visits'], before.get('visits', 0))} on the week before: {before.get('visits', 0)})",
+            f"Page views:  {week['page_views']}  ({change(week['page_views'], before.get('page_views', 0))} on the week before: {before.get('page_views', 0)})",
+            "",
+        ]
+        for title, key, field in (("Most read", "top_pages", "requestPath"), ("Countries", "countries", "countryName"),
+                                  ("Where visitors came from", "referrers", "refererHost")):
+            rows = week.get(key) or []
+            if rows:
+                lines += [f"{title}:"] + [f"  {r['page_views']:>4}  {r[field]}" for r in rows[:5]] + [""]
+    published = published_between(start, end)
+    lines += [f"Published this week: {len(published)} stories"] + [f"  - {t}" for t in published] + [""]
+    if feedback_month and "error" not in feedback_month:
+        lines += [f"'Was this useful?' this month: yes {feedback_month['useful_yes']}, no {feedback_month['useful_no']}", ""]
+    lines += [
+        "Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).",
+        "Month so far: https://github.com/fecaponac-crypto/Governance-internet-stranica/blob/claude/data-intelligence-portal-plan-v46ux0/data/reports/traffic.md",
+    ]
+    return "\n".join(lines) + "\n"
+
+
 def run(today: date | None = None) -> dict:
     today = today or datetime.now(timezone.utc).date()
     start, end = month_bounds(today)
@@ -264,6 +319,9 @@ def run(today: date | None = None) -> dict:
     METRICS.mkdir(parents=True, exist_ok=True)
     (METRICS / f"{month}.json").write_text(json.dumps(record, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     (DATA / "reports" / "traffic.md").write_text(traffic_report(record), encoding="utf-8")
+    weekly = weekly_report(today, record["feedback"])
+    if weekly:
+        (DATA / "reports" / "weekly.md").write_text(weekly, encoding="utf-8")
     return record
 
 

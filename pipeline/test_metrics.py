@@ -56,5 +56,19 @@ class WebAnalyticsTest(unittest.TestCase):
             self.assertIsNone(metrics.web_analytics(date(2026, 10, 1), date(2026, 10, 30)))
 
 
+class WeeklyTest(unittest.TestCase):
+    def test_weekly_report_compares_weeks(self):
+        weeks = iter([{"visits": 30, "page_views": 45, "top_pages": [{"requestPath": "/", "page_views": 20}],
+                       "countries": [], "referrers": []},
+                      {"visits": 20, "page_views": 30}])
+        with mock.patch.object(metrics, "web_analytics", lambda s, e: next(weeks)), \
+                mock.patch.object(metrics, "published_between", lambda s, e: ["Story A"]):
+            text = metrics.weekly_report(date(2026, 11, 2), {"useful_yes": 3, "useful_no": 1, "reasons": {}})
+        self.assertTrue(text.startswith("Data Governance Signal — week 26 Oct – 1 Nov 2026"))
+        self.assertIn("Visits:      30  (+50% on the week before: 20)", text)
+        self.assertIn("  - Story A", text)
+        self.assertIn("yes 3, no 1", text)
+
+
 if __name__ == "__main__":
     unittest.main()
