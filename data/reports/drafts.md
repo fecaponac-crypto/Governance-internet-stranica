@@ -1,14 +1,12 @@
 # Drafts report
 
-Last run: **2026-10-30T00:18:24Z** · candidates 3 · scored 3 · selected 3 · drafted 3 · failed 0 · queued for next run 0
+Last run: **2026-10-30T01:03:38Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$3.99** of $12 budget (126 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Report says Accenture contractor connected personal Claude Code agent to Pentagon system holding CUI** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/42
-- ℹ️ not fact-checked **Oracle announces AI Registry and AI-generated business ontologies to govern enterprise AI agents** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/43
-- ℹ️ not fact-checked **GSA watchdog finds 116 controlled unclassified files open to all staff in agency Google Drive** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/44
+_No drafts this run._
 
 ## Recently skipped by triage
 
