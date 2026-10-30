@@ -926,6 +926,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5f3749aed060b60d": {
+   "at": "2026-10-30T12:18:32Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Weekly roundup of executive appointments across unrelated companies; hiring/people news without a governance-specific angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "604faec434131ac6": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [],
@@ -1280,6 +1289,15 @@
    "primary_found": false,
    "reason": "Press coverage of Monte Carlo's Bayes launch for monitoring AI agents; genuine product launch relevant to agent trust and governance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "8ffe55aff741250d": {
+   "at": "2026-10-30T12:18:32Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership guide on agentic AI with no concrete governance development or new evidence.",
+   "relevant": false,
    "same_story_as": null
   },
   "9088311c63f28c84": {
@@ -2113,6 +2131,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d5144a8c0c04644b": {
+   "at": "2026-10-30T12:18:32Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion-style conceptual piece on AI-driven data engineering; no concrete governance news, product launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d8268953054e9098": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -2403,6 +2430,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f198ffae199d5089": {
+   "at": "2026-10-30T12:18:32Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Appointment of a Chief Data and Governance Officer at a major bank is a notable organisational signal for data governance roles, though it is personnel news.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f1ea0e30f18d4388": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -2531,8 +2569,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 128,
-   "usd": 3.9911
+   "calls": 129,
+   "usd": 3.9917
   }
  }
 }

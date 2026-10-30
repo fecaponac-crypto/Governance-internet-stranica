@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T10:05:15Z** · sources checked: 81 · failed: 0 · new items this run: 1
+Last run: **2026-10-30T12:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 4
 
-## New items, last 48 hours (94)
+## New items, last 48 hours (93)
 
 ### High priority sources
 
@@ -17,13 +17,14 @@ Last run: **2026-10-30T10:05:15Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Trust by design: Provenance for the agentic AI era](https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [Notes from the AI Governance Center: Agentified cyberattacks](https://iapp.org/news/a/notes-from-the-ai-governance-center-agentified-cyberattacks) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [SB 53 and the TDTA: How California is regulating AI transparency](https://iapp.org/news/a/sb-53-and-the-tdta-how-california-is-regulating-ai-transparency) |
-| 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Eu Kids Act, Stanzione: Tutela dei minori senza sacrificare privacy e autonomia](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312988) |
-| 2026-10-28 | Garante per la protezione dei dati personali (Italy) | [Scontri di Milano: Garante Privacy blocca le immagini dell'undicenne](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10312725) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: W. R. Berkley, Truist, and PENN Entertainment](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-w-r-berkley-truist-and-penn-entertainment) |
+| 2026-10-30 | CDO Magazine | [Leadership Moves Truist Names Tim Brophy Chief Data and Governance Officer](https://www.cdomagazine.tech/leadership-moves/truist-names-tim-brophy-chief-data-and-governance-officer) |
+| 2026-10-30 | CDO Magazine | [Artificial Intelligence Approaching Agentic AI Systems the Right Way: A Modern CDO’s Guide](https://www.cdomagazine.tech/aiml/approaching-agentic-ai-systems-the-right-way-a-modern-cdos-guide) |
 | 2026-10-30 | DATAVERSITY | [The Enterprise Rebuild Problem: When Reuse Becomes an Architectural Advantage](https://www.dataversity.net/articles/the-enterprise-rebuild-problem-when-reuse-becomes-an-architectural-advantage/) |
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence Oracle Adds Business Context and Governance Controls for AI Agents](https://www.cdomagazine.tech/aiml/oracle-adds-business-context-and-governance-controls-for-ai-agents) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau GSA Inspector General Finds 116 CUI Files Improperly Exposed in Google Drive](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-inspector-general-finds-116-cui-files-improperly-exposed-in-google-drive) |
@@ -50,8 +51,6 @@ Last run: **2026-10-30T10:05:15Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | SiliconANGLE — Big Data | [Monte Carlo Data launches Bayes, an AI agent for autonomously monitoring and fixing autonomous agents](https://siliconangle.com/2026/10/28/monte-carlo-data-launches-bayes-an-ai-agent-for-autonomously-monitoring-and-fixing-autonomous-agents/) |
 | 2026-10-28 | Ataccama Blog | [Ataccama launches headless MDM to bring trusted golden records and data stewardship work into agentic workflows](https://www.ataccama.com/news/ataccama-launches-headless-mdm-to-bring-trusted-golden-records-and-data-stewardship-work-into-agentic-workflows) |
 | 2026-10-28 | Ataccama Blog | [What is headless MDM? How AI agents use and maintain your golden records](https://www.ataccama.com/blog/what-is-headless-mdm-how-ai-agents-use-and-maintain-your-golden-records) |
-| 2026-10-28 | Datatilsynet (Norway) | [Gode rutiner hindrer at KI blir en usynlig trussel](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gode-rutiner-hindrer-at-ki-blir-en-usynlig-trussel/) |
-| 2026-10-28 | CDO Magazine | [Leadership Moves PENN Entertainment Appoints Gary Hunter Chief Information Security Officer](https://www.cdomagazine.tech/leadership-moves/penn-entertainment-appoints-gary-hunter-chief-information-security-officer) |
 | 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
 | 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
 | 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
@@ -65,6 +64,7 @@ Last run: **2026-10-30T10:05:15Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | Modern Data 101 | [The Harness Is the Architecture](https://moderndata101.substack.com/p/the-harness-is-the-architecture) |
 | 2026-10-30 | Autorité de protection des données (Belgium) | [Sous la loupe - La vie privée en colonie de vacances : la partie immergée de l’iceberg](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/30/sous-la-loupe-la-vie-privee-en-colonie-de-vacances-la-partie-immergee-de-liceberg) |
 | 2026-10-29 | The Record (Recorded Future News) | [GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms](https://therecord.media/general-motors-lawsuit-privacy) |
 | 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Threat Actors Bury Email Inboxes with Spam Then Reach Out on Teams to Help Victim](https://www.dataprivacyandsecurityinsider.com/2026/10/threat-actors-bury-email-inboxes-with-spam-then-reach-out-on-teams-to-help-victim/) |
@@ -98,7 +98,6 @@ Last run: **2026-10-30T10:05:15Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [What Is a Unified Context Layer? (And What Unified Doesn’t Mean)](https://datahub.com/blog/unified-context-layer/) |
 | 2026-10-28 | DataHub Blog (open source metadata platform) | [Data Lifecycle Management: The Six Stages for the AI Era](https://datahub.com/blog/data-lifecycle-management/) |
 | 2026-10-28 | Computer Weekly — IT security | [Lapsed US snooping law still running as senators object](https://www.computerweekly.com/news/366652857/Lapsed-US-snooping-law-still-running-as-senators-object) |
-| 2026-10-28 | DataGalaxy | [AI governance: why Colas and Arkéa didn’t wait for the AI Act](https://www.datagalaxy.com/en/blog/ai-governance-why-colas-and-arkea-didnt-wait-for-the-ai-act/) |
 | 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
