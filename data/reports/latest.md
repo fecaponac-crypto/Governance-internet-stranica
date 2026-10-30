@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T18:02:16Z** · sources checked: 81 · failed: 0 · new items this run: 10
+Last run: **2026-10-30T18:18:23Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (99)
+## New items, last 48 hours (88)
 
 ### High priority sources
 
@@ -19,9 +19,6 @@ Last run: **2026-10-30T18:02:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | Hunton Privacy & Information Security Law Blog | [California Law Extends CMIA Protections to Health Care Chatbots and Enacts New Guardrails on AI Use in Clinical Care](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-law-extends-cmia-protections-to-health-care-chatbots-and-enacts-new-guardrails-on-ai-use-in-clinical-care) |
 | 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [AP informeert incassobureaus over verantwoorde inzet AI](https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai) |
 | 2026-10-28 | IAPP — International Association of Privacy Professionals | [New York's governor signs youth AI chatbot safety bill](https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill) |
-| 2026-10-28 | IAPP — International Association of Privacy Professionals | [Trust by design: Provenance for the agentic AI era](https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era) |
-| 2026-10-28 | IAPP — International Association of Privacy Professionals | [Notes from the AI Governance Center: Agentified cyberattacks](https://iapp.org/news/a/notes-from-the-ai-governance-center-agentified-cyberattacks) |
-| 2026-10-28 | IAPP — International Association of Privacy Professionals | [SB 53 and the TDTA: How California is regulating AI transparency](https://iapp.org/news/a/sb-53-and-the-tdta-how-california-is-regulating-ai-transparency) |
 
 ### Medium priority sources
 
@@ -53,9 +50,7 @@ Last run: **2026-10-30T18:02:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
 | 2026-10-29 | CDO Magazine | [US Federal News Bureau FEC Takes Down Electronic Filing Platform After Attempted Hack](https://www.cdomagazine.tech/us-federal-news-bureau/fec-takes-down-electronic-filing-platform-after-attempted-hack) |
-| 2026-10-28 | Informatica Blog | [Informatica Headless + Oracle Select AI Integration Data Governance & Data Privacy](https://www.informatica.com/blogs/informatica-headless-oracle-select-ai-enterprise-wide-business-context-for-oracle-database-customers.html) |
 | 2026-10-28 | US Federal Trade Commission | [FTC Launches Personalized Pricing and Compensation Inquiry](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry) |
-| 2026-10-28 | European Data Protection Supervisor (EDPS) | [Personal data breaches: FAQs now available](https://www.edps.europa.eu/press-publications/press-news/news/2026/personal-data-breaches-faqs-now-available) |
 | 2026-10-28 | Collibra Blog | [Bring your own model (BYOM): Collibra's AI, plus your model](https://www.collibra.com/blog/bring-your-own-model-byom-collibra-s-ai-plus-your-model) |
 | 2026-10-28 | Collibra Blog | [Bring your own continuous deployment: Run Collibra Edge upgrades your way](https://www.collibra.com/blog/bring-your-own-continuous-deployment-run-collibra-edge-upgrades-your-way) |
 | 2026-10-28 | Collibra Blog | [Delivering operational trust for AI agents](https://www.collibra.com/blog/delivering-operational-trust-for-ai-agents) |
@@ -99,17 +94,11 @@ Last run: **2026-10-30T18:02:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | European Digital Rights (EDRi) | [Surveillance in times of insecurity: a wicked and stupid strategy](https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/) |
 | 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
 | 2026-10-28 | The Record (Recorded Future News) | [Court strikes down West Virginia law barring disclosure of public officials’ personal data](https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court) |
-| 2026-10-28 | Center for Data Innovation | [Establish a Common Framework for Evaluating Data-Center Projects](https://datainnovation.org/2026/10/establish-a-common-framework-for-evaluating-data-center-projects/) |
-| 2026-10-28 | The Record (Recorded Future News) | [Moldova investigates possible foreign involvement in major government cyberattack](https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks) |
-| 2026-10-28 | Precisely Blog | [Three questions that will tell you if your data is ready for AI](https://www.precisely.com/blog/ai-ready-data/three-questions-that-will-tell-you-if-your-data-is-ready-for-ai/) |
 | 2026-10-28 | EPIC — Electronic Privacy Information Center | [EPIC, CFA and Fairplay Urge Stronger Rules Under Colorado Automated Decision-Making Technology and Chatbot Laws](https://epic.org/epic-cfa-and-fairplay-urge-stronger-rules-under-colorado-automated-decision-making-technology-and-chatbot-laws/) |
-| 2026-10-28 | Computer Weekly — IT security | [Lapsed US snooping law still running as senators object](https://www.computerweekly.com/news/366652857/Lapsed-US-snooping-law-still-running-as-senators-object) |
-| 2026-10-28 | McKinsey Insights | [Rewiring securities services for a new era of competition and growth](https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [EPIC Urges Supreme Court to Protect Voters and Strike Down Arizona’s SAVE-based Voter-Registration Cancellation Program](https://epic.org/epic-urges-supreme-court-to-protect-voters-and-strike-down-arizonas-save-based-voter-registration-cancellation-program/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [The Wash: From Blockbuster video to TikTok, Supreme Court weighs the future of video privacy](https://epic.org/the-wash-from-blockbuster-video-to-tiktok-supreme-court-weighs-the-future-of-video-privacy/) |
-| 2026-10-26 | EPIC — Electronic Privacy Information Center | [New York City’s “Click to Cancel” Rule Goes Into Effect](https://epic.org/new-york-citys-click-to-cancel-rule-goes-into-effect/) |
 | 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |
 | 2026-10-24 | EPIC — Electronic Privacy Information Center | [NPR: Immigration briefing: Ukraine TPS extended; visa slow-walk claim; VT ICE protests](https://epic.org/npr-immigration-briefing-ukraine-tps-extended-visa-slow-walk-claim-vt-ice-protests/) |
 | 2026-10-23 | EPIC — Electronic Privacy Information Center | [Privacy Daily: Supreme Court Justices’ Questions About VPPA Definitions Didn’t Surprise Lawyers](https://epic.org/privacy-daily-supreme-court-justices-questions-about-vppa-definitions-didnt-surprise-lawyers/) |
