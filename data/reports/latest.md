@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-30T07:06:00Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-10-30T09:18:16Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (95)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -24,6 +24,7 @@ Last run: **2026-10-30T07:06:00Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-10-30 | DATAVERSITY | [The Enterprise Rebuild Problem: When Reuse Becomes an Architectural Advantage](https://www.dataversity.net/articles/the-enterprise-rebuild-problem-when-reuse-becomes-an-architectural-advantage/) |
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence Oracle Adds Business Context and Governance Controls for AI Agents](https://www.cdomagazine.tech/aiml/oracle-adds-business-context-and-governance-controls-for-ai-agents) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau GSA Inspector General Finds 116 CUI Files Improperly Exposed in Google Drive](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-inspector-general-finds-116-cui-files-improperly-exposed-in-google-drive) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau Defense Contractor Gave Personal AI Agent Access to Pentagon System](https://www.cdomagazine.tech/us-federal-news-bureau/defense-contractor-gave-personal-ai-agent-access-to-pentagon-system) |

@@ -1,7 +1,7 @@
 Data Governance Signal — week 23 Oct – 29 Oct 2026
 
-Visits:      155  (new on the week before: 0)
-Page views:  193  (new on the week before: 0)
+Visits:      155  (no data for the week before)
+Page views:  193  (no data for the week before)
 
 Most read:
    158  /
@@ -39,26 +39,7 @@ Published this week: 35 stories
   - EU AI Office sends its first AI Act information requests after AI agent incidents
   - Forrester urges banks to replace blanket AI agent blocks with graduated, permissioned access
   - FPF urges Colorado to narrow ADMT 'de minimis' test and tie developer disclosures to deployer duties
-  - FTC orders nine airlines, ride-hail, delivery and retail firms to explain personal-data pricing and pay
-  - GAO finds Pentagon responsible AI office filled 3 of 10 posts as 29 of 64 strategy efforts stall
-  - GM agrees to pay $220 million to 36 attorneys general over sale of driver data to insurers via brokers
-  - Google makes LookML metric definitions and lineage generally available in Knowledge Catalog
-  - IBM launches Agent Identity and Vault controls to give AI agents owners, scoped credentials and audit trails
-  - IMY finds Swedish Police breached camera surveillance signage rules at Gothenburg Central Station
-  - Independent test finds DeepSeek model can bypass shutdown and leave final-state checks clean
-  - Italy's Garante backs age checks under proposed EU Kids Act but calls for minimal data collection
-  - LiteLLM traces poisoned release to a leaked master key that was never revoked
-  - Meta removes terms language critics said could override publishers' crawling preferences
-  - Monte Carlo launches Bayes, an AI agent that monitors and fixes other AI agents and their data
-  - New Mexico announces $25 billion penalty against Meta over Cambridge Analytica-era privacy practices
-  - New York enacts youth chatbot safety law with age assurance and age-data deletion duties
-  - Norway's Datatilsynet warns AI agents left running after staff move on can become 'digital ghosts'
-  - noyb files five GDPR complaints against Scale AI over tracking and biometric checks of Outlier workers
-  - Spain's AEPD publishes ten-point guide on delegating tasks to AI assistants and agents
-  - Bank supervisors press lenders on how AI agents are limited, audited and switched off
-  - UK surveillance watchdog flags records, removable-media and data-accuracy failings in 2025 annual report
-  - US appeals court strikes down West Virginia's Daniel's Law shielding officials' addresses from data brokers
-  - US Social Security Administration says it has corrected nearly 15% of active SSN records
+  … and 20 more
 
 Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).
 Month so far: https://github.com/fecaponac-crypto/Governance-internet-stranica/blob/claude/data-intelligence-portal-plan-v46ux0/data/reports/traffic.md

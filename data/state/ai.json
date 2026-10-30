@@ -513,6 +513,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "32592c3b6ffb701d": {
+   "at": "2026-10-30T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic architecture thought-leadership with no concrete governance news; excerpt is only a boilerplate headline.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3326f8c8453fd84c": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -2513,8 +2522,8 @@
  },
  "usage": {
   "2026-10": {
-   "calls": 126,
-   "usd": 3.9901
+   "calls": 127,
+   "usd": 3.9906
   }
  }
 }
