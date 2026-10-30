@@ -1,8 +1,10 @@
 # Traffic — 2026-10
 
-Updated 2026-10-30T06:50:32Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-10-30T06:51:53Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**150 visits · 200 page views** this month
+**150 visits · 200 page views** this month (bots excluded)
+
+_Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 | Day | Visits | Page views |
 |---|---:|---:|
