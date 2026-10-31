@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T09:18:19Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-10-31T12:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (62)
+## New items, last 48 hours (60)
 
 ### High priority sources
 
@@ -17,7 +17,6 @@ Last run: **2026-10-31T09:18:19Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [China's PIPL at 5: Enforcement, evolution and what comes next](https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud](https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud) |
 | 2026-10-29 | Hunton Privacy & Information Security Law Blog | [California Law Extends CMIA Protections to Health Care Chatbots and Enacts New Guardrails on AI Use in Clinical Care](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-law-extends-cmia-protections-to-health-care-chatbots-and-enacts-new-guardrails-on-ai-use-in-clinical-care) |
-| 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [AP informeert incassobureaus over verantwoorde inzet AI](https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai) |
 
 ### Medium priority sources
 
@@ -44,7 +43,6 @@ Last run: **2026-10-31T09:18:19Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | Tech Policy Press | [What Latino Voters Can Teach Washington About AI Governance](https://techpolicy.press/what-latino-voters-can-teach-washington-about-ai-governance) |
 | 2026-10-29 | CDO Magazine | [Leadership Moves AHRQ Names Gil Alterovitz First Chief Super Intelligence Officer and Chief Data Officer](https://www.cdomagazine.tech/leadership-moves/ahrq-names-gil-alterovitz-first-chief-super-intelligence-officer-and-chief-data-officer) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
-| 2026-10-29 | European Data Protection Supervisor (EDPS) | [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) |
 
 ### Low priority sources
 
@@ -83,7 +81,7 @@ Last run: **2026-10-31T09:18:19Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **Court of Justice of the EU — Press releases** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://curia.europa.eu/jcms/jcms/Jo2_7052/en/`
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 
