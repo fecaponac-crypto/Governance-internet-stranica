@@ -1,11 +1,11 @@
 {
  "month": "2026-10",
- "updated": "2026-10-30T22:24:23Z",
+ "updated": "2026-10-31T00:19:09Z",
  "portal": {
-  "published_total": 42,
-  "published_this_month": 42,
+  "published_total": 43,
+  "published_this_month": 43,
   "published_this_month_by_importance": {
-   "3": 25,
+   "3": 26,
    "4": 11,
    "2": 6
   },
@@ -13,7 +13,7 @@
  },
  "pipeline": {
   "items_collected": 247,
-  "runs": 77,
+  "runs": 78,
   "runs_with_failed_sources": 21,
   "triage_decisions": {
    "skipped": 200,
@@ -25,14 +25,14 @@
   "sources_failing_now": 0
  },
  "editor": {
-  "drafts_published": 42,
+  "drafts_published": 43,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 210,
+  "page_views": 220,
   "visits": 160,
   "bots_excluded": true,
   "by_day": [
@@ -68,14 +68,14 @@
    },
    {
     "date": "2026-10-30",
-    "page_views": 10,
+    "page_views": 20,
     "visits": 10
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 190
+    "page_views": 200
    },
    {
     "requestPath": "/news/en-18286-first-harmonised-ai-act-standard/",
@@ -93,7 +93,7 @@
    },
    {
     "countryName": "HR",
-    "page_views": 50
+    "page_views": 60
    },
    {
     "countryName": "CA",
@@ -119,7 +119,7 @@
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 50
+    "page_views": 60
    }
   ]
  },
