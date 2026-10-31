@@ -143,3 +143,30 @@ export const THUMB_WIDTH = 480;
 export const thumbUrl = (article: Article) => `/cards/thumbs/${article.id}.png`;
 export const cardAbsoluteUrl = (article: Article) => new URL(cardUrl(article), SITE.url).href;
 export const SITE_CARD_URL = new URL('/cards/site.png', SITE.url).href;
+
+// Brand images for directories such as Google News: a square icon and a wide wordmark.
+const ICON_SVG = (fg: string) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="${C.bg}"/>
+  <circle cx="10" cy="22" r="3" fill="#e4572e"/>
+  <path d="M10 13a9 9 0 0 1 9 9" fill="none" stroke="${fg}" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M10 6.5A15.5 15.5 0 0 1 25.5 22" fill="none" stroke="${fg}" stroke-width="2.6" stroke-linecap="round"/>
+</svg>`;
+
+export function renderLogoSquare(size = 1024): Buffer {
+  return new Resvg(ICON_SVG(C.ink), { fitTo: { mode: 'width', value: size } }).render().asPng();
+}
+
+/** Wordmark on a transparent background: icon + "Data Governance Signal", dark text for light backgrounds. */
+export async function renderLogoWide(width = 1600, height = 280): Promise<Buffer> {
+  const icon = `data:image/svg+xml;base64,${Buffer.from(ICON_SVG(C.ink)).toString('base64')}`;
+  const word = (text: string, color: string) =>
+    h('div', { display: 'flex', fontFamily: 'Serif', fontWeight: 700, fontSize: 104, color, whiteSpace: 'nowrap' }, text);
+  const tree = h('div', { width, height, display: 'flex', alignItems: 'center', padding: '0 48px', boxSizing: 'border-box' }, [
+    h('img', { width: 184, height: 184, marginRight: 52 }, undefined, { src: icon, width: 184, height: 184 }),
+    word('Data Governance', '#1b1f24'),
+    h('div', { display: 'flex', width: 28 }, ''),
+    word('Signal', '#c2410c'),
+  ]);
+  const svg = await satori(tree as Parameters<typeof satori>[0], { width, height, fonts });
+  return new Resvg(svg, { fitTo: { mode: 'width', value: width } }).render().asPng();
+}
