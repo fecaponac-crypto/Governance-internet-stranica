@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T05:46:28Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-10-31T06:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (72)
+## New items, last 48 hours (68)
 
 ### High priority sources
 
@@ -46,7 +46,6 @@ Last run: **2026-10-31T05:46:28Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | CNIL (France) | [Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT](https://www.cnil.fr/fr/sanction-cookies-app-fnac) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-29 | European Data Protection Supervisor (EDPS) | [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) |
-| 2026-10-29 | CDO Magazine | [Artificial Intelligence IBM Adds Identity and Access Controls to Govern Enterprise AI Agents](https://www.cdomagazine.tech/aiml/ibm-adds-identity-and-access-controls-to-govern-enterprise-ai-agents) |
 
 ### Low priority sources
 
@@ -85,15 +84,12 @@ Last run: **2026-10-31T05:46:28Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | European Digital Rights (EDRi) | [Draconian access block orders in Turkey](https://edri.org/our-work/draconian-access-block-orders-in-turkey/) |
 | 2026-10-29 | European Digital Rights (EDRi) | [Surveillance in times of insecurity: a wicked and stupid strategy](https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/) |
 | 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
-| 2026-10-28 | EPIC — Electronic Privacy Information Center | [EPIC, CFA and Fairplay Urge Stronger Rules Under Colorado Automated Decision-Making Technology and Chatbot Laws](https://epic.org/epic-cfa-and-fairplay-urge-stronger-rules-under-colorado-automated-decision-making-technology-and-chatbot-laws/) |
-| 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
-| 2026-10-23 | EPIC — Electronic Privacy Information Center | [Privacy Daily: Supreme Court Justices’ Questions About VPPA Definitions Didn’t Surprise Lawyers](https://epic.org/privacy-daily-supreme-court-justices-questions-about-vppa-definitions-didnt-surprise-lawyers/) |
 | 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
 | 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
 ## Source problems
 
-_None._
+- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
