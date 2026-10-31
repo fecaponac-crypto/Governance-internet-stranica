@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T18:18:14Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-10-31T19:19:59Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (49)
+## New items, last 48 hours (35)
 
 ### High priority sources
 
@@ -13,9 +13,6 @@ Last run: **2026-10-31T18:18:14Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Researcher bridges privacy protection and data innovation](https://iapp.org/news/a/notes-from-the-iapp-canada-khaled-el-emam-bridges-privacy-protection-and-data-innovation) |
 | 2026-10-30 | Hunton Privacy & Information Security Law Blog | [CalPrivacy to Hold November Board Meeting on Privacy Rights and Regulatory Proposals](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-to-hold-november-board-meeting-on-privacy-rights-and-regulatory-proposals) |
 | 2026-10-29 | Autoriteit Persoonsgegevens (Netherlands) | [Handhavingsbeleid AP gepubliceerd](https://autoriteitpersoonsgegevens.nl/actueel/handhavingsbeleid-ap-gepubliceerd) |
-| 2026-10-29 | IAPP — International Association of Privacy Professionals | [FTC expands personalized pricing scrutiny as states, Congress, regulators turn up pressure](https://iapp.org/news/a/ftc-expands-personalized-pricing-scrutiny-as-states-congress-regulators-turn-up-pressure) |
-| 2026-10-29 | IAPP — International Association of Privacy Professionals | [China's PIPL at 5: Enforcement, evolution and what comes next](https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next) |
-| 2026-10-29 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud](https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud) |
 
 ### Medium priority sources
 
@@ -36,8 +33,6 @@ Last run: **2026-10-31T18:18:14Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau Defense Contractor Gave Personal AI Agent Access to Pentagon System](https://www.cdomagazine.tech/us-federal-news-bureau/defense-contractor-gave-personal-ai-agent-access-to-pentagon-system) |
 | 2026-10-29 | CDO Magazine | [Community Montreal’s Data and AI Leaders Find Common Ground at Inaugural Executive Dinner](https://www.cdomagazine.tech/community/montreals-data-and-ai-leaders-find-common-ground-at-inaugural-executive-dinner) |
 | 2026-10-29 | Future of Privacy Forum | [FPF Submits Comments to Inform Colorado Automated Decision-Making (ADM) Act Rulemaking](https://fpf.org/blog/fpf-submits-comments-to-inform-colorado-automated-decision-making-adm-act-rulemaking/) |
-| 2026-10-29 | Future of Privacy Forum | [Back in the Chat: California and New York Take Diverging Paths in Second Wave of Chatbot Regulations](https://fpf.org/blog/back-in-the-chat-california-and-new-york-take-diverging-paths-in-second-wave-of-chatbot-regulations/) |
-| 2026-10-29 | UK Department for Science, Innovation and Technology | [Research: Artificial Intelligence sector study 2025](https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025) |
 
 ### Low priority sources
 
@@ -55,16 +50,7 @@ Last run: **2026-10-31T18:18:14Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | Modern Data 101 | [The Harness Is the Architecture](https://moderndata101.substack.com/p/the-harness-is-the-architecture) |
 | 2026-10-30 | Autorité de protection des données (Belgium) | [Sous la loupe - La vie privée en colonie de vacances : la partie immergée de l’iceberg](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/30/sous-la-loupe-la-vie-privee-en-colonie-de-vacances-la-partie-immergee-de-liceberg) |
 | 2026-10-29 | The Record (Recorded Future News) | [GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms](https://therecord.media/general-motors-lawsuit-privacy) |
-| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Threat Actors Bury Email Inboxes with Spam Then Reach Out on Teams to Help Victim](https://www.dataprivacyandsecurityinsider.com/2026/10/threat-actors-bury-email-inboxes-with-spam-then-reach-out-on-teams-to-help-victim/) |
-| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Could School Software Be a Health-Care Provider?](https://www.dataprivacyandsecurityinsider.com/2026/10/could-school-software-be-a-health-care-provider/) |
-| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Assess the Business Risk of Using an AI Notetaker](https://www.dataprivacyandsecurityinsider.com/2026/10/assess-the-business-risk-of-using-an-ai-notetaker/) |
-| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The New Client Expectation: Lawyers Who Know How to Use AI](https://www.dataprivacyandsecurityinsider.com/2026/10/the-new-client-expectation-lawyers-who-know-how-to-use-ai/) |
-| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Training the Next Generation of Lawyers in the Age of AI, What In-House Counsel Should Look for in their Outside Legal Teams](https://www.dataprivacyandsecurityinsider.com/2026/10/training-the-next-generation-of-lawyers-in-the-age-of-ai-what-in-house-counsel-should-look-for-in-their-outside-legal-teams/) |
-| 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #514 – AI Agents Accessing Bank Accounts is “Horrifying”](https://www.dataprivacyandsecurityinsider.com/2026/10/privacy-tip-514-ai-agents-accessing-bank-accounts-is-horrifying/) |
-| 2026-10-29 | Google Cloud Blog — Data Analytics | [Querying Databricks Apache Iceberg Tables with the borderless Lakehouse](https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/) |
-| 2026-10-29 | Google Cloud Blog — Data Analytics | [Grounding agents in one context graph connecting semantic models you already trust](https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/) |
 | 2026-10-29 | Computer Weekly — IT security | [UK surveillance watchdog ‘disappointed’ over government investigatory powers failings](https://www.computerweekly.com/news/366652841/UK-surveillance-watchdog-disappointed-over-government-investigatory-powers-failings) |
-| 2026-10-29 | Computer Weekly — IT security | [Having a PHP patch available does not mean you're protected](https://www.computerweekly.com/opinion/Having-a-PHP-patch-available-does-not-mean-youre-protected) |
 | 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
 | 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
