@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T12:37:04Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-10-31T15:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (57)
+## New items, last 48 hours (49)
 
 ### High priority sources
 
@@ -16,7 +16,6 @@ Last run: **2026-10-31T12:37:04Z** · sources checked: 81 · failed: 2 · new it
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [FTC expands personalized pricing scrutiny as states, Congress, regulators turn up pressure](https://iapp.org/news/a/ftc-expands-personalized-pricing-scrutiny-as-states-congress-regulators-turn-up-pressure) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [China's PIPL at 5: Enforcement, evolution and what comes next](https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next) |
 | 2026-10-29 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud](https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud) |
-| 2026-10-29 | Hunton Privacy & Information Security Law Blog | [California Law Extends CMIA Protections to Health Care Chatbots and Enacts New Guardrails on AI Use in Clinical Care](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-law-extends-cmia-protections-to-health-care-chatbots-and-enacts-new-guardrails-on-ai-use-in-clinical-care) |
 
 ### Medium priority sources
 
@@ -39,8 +38,6 @@ Last run: **2026-10-31T12:37:04Z** · sources checked: 81 · failed: 2 · new it
 | 2026-10-29 | Future of Privacy Forum | [FPF Submits Comments to Inform Colorado Automated Decision-Making (ADM) Act Rulemaking](https://fpf.org/blog/fpf-submits-comments-to-inform-colorado-automated-decision-making-adm-act-rulemaking/) |
 | 2026-10-29 | Future of Privacy Forum | [Back in the Chat: California and New York Take Diverging Paths in Second Wave of Chatbot Regulations](https://fpf.org/blog/back-in-the-chat-california-and-new-york-take-diverging-paths-in-second-wave-of-chatbot-regulations/) |
 | 2026-10-29 | UK Department for Science, Innovation and Technology | [Research: Artificial Intelligence sector study 2025](https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025) |
-| 2026-10-29 | Alation Blog | [October 29, 2026 What Is an AI Operating System? Defining the Category Beyond the Data Platform Four different things get called an “AIOS.” Learn which one a vendor means and what it must do that a data platform… Read More](https://www.alation.com/blog/what-is-aios-ai-operating-system/) |
-| 2026-10-29 | Tech Policy Press | [What Latino Voters Can Teach Washington About AI Governance](https://techpolicy.press/what-latino-voters-can-teach-washington-about-ai-governance) |
 
 ### Low priority sources
 
@@ -66,20 +63,14 @@ Last run: **2026-10-31T12:37:04Z** · sources checked: 81 · failed: 2 · new it
 | 2026-10-29 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #514 – AI Agents Accessing Bank Accounts is “Horrifying”](https://www.dataprivacyandsecurityinsider.com/2026/10/privacy-tip-514-ai-agents-accessing-bank-accounts-is-horrifying/) |
 | 2026-10-29 | Google Cloud Blog — Data Analytics | [Querying Databricks Apache Iceberg Tables with the borderless Lakehouse](https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/) |
 | 2026-10-29 | Google Cloud Blog — Data Analytics | [Grounding agents in one context graph connecting semantic models you already trust](https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/) |
-| 2026-10-29 | Autorité de protection des données (Belgium) | [Découvrez les dernières activités de l’APD dans notre newsletter d’octobre](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/29/decouvrez-les-dernieres-activites-de-lapd-dans-notre-newsletter-doctobre) |
 | 2026-10-29 | Computer Weekly — IT security | [UK surveillance watchdog ‘disappointed’ over government investigatory powers failings](https://www.computerweekly.com/news/366652841/UK-surveillance-watchdog-disappointed-over-government-investigatory-powers-failings) |
-| 2026-10-29 | The Record (Recorded Future News) | [FTC to probe major companies over personalized pricing and pay](https://therecord.media/ftc-rideshare-airlines-data) |
-| 2026-10-29 | International Data Spaces Association | [DATA SPACES_NOW #10 takes stock of a decade and turns to scale](https://internationaldataspaces.org/data-spaces_now-10-takes-stock-of-a-decade-and-turns-to-scale/) |
-| 2026-10-29 | MIT Technology Review | [The Download: AI agent tracking and climate feedback loops](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
 | 2026-10-29 | Computer Weekly — IT security | [Having a PHP patch available does not mean you're protected](https://www.computerweekly.com/opinion/Having-a-PHP-patch-available-does-not-mean-youre-protected) |
-| 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
 | 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
 | 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
 ## Source problems
 
-- **AlgorithmWatch** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='algorithmwatch.org', port=443): Max retries exceeded with url: /en/feed/ (Caused by NewConnectionError("HTTPSConnection(host='algorithmwatch.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
-- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
+_None._
 
 ## Check manually (weekly)
 
