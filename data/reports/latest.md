@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T00:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-10-31T03:18:26Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (85)
+## New items, last 48 hours (72)
 
 ### High priority sources
 
@@ -47,12 +47,6 @@ Last run: **2026-10-31T00:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-29 | European Data Protection Supervisor (EDPS) | [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) |
 | 2026-10-29 | CDO Magazine | [Artificial Intelligence IBM Adds Identity and Access Controls to Govern Enterprise AI Agents](https://www.cdomagazine.tech/aiml/ibm-adds-identity-and-access-controls-to-govern-enterprise-ai-agents) |
-| 2026-10-29 | CDO Magazine | [Artificial Intelligence UK Financial Firms Adopt AI Agents, but Few Give Them Broad Autonomy](https://www.cdomagazine.tech/aiml/uk-financial-firms-adopt-ai-agents-but-few-give-them-broad-autonomy) |
-| 2026-10-29 | CDO Magazine | [Artificial Intelligence Cisco Open-Sources Project Quarry to Detect Risky AI-Agent Behavior](https://www.cdomagazine.tech/aiml/cisco-open-sources-project-quarry-to-detect-risky-ai-agent-behavior) |
-| 2026-10-29 | CDO Magazine | [US Federal News Bureau CISA Gives Federal Agencies Days to Patch Actively Exploited PHP Flaws](https://www.cdomagazine.tech/us-federal-news-bureau/cisa-gives-federal-agencies-days-to-patch-actively-exploited-php-flaws) |
-| 2026-10-29 | CDO Magazine | [US Federal News Bureau FEC Takes Down Electronic Filing Platform After Attempted Hack](https://www.cdomagazine.tech/us-federal-news-bureau/fec-takes-down-electronic-filing-platform-after-attempted-hack) |
-| 2026-10-27 | AEPD — Spanish Data Protection Agency | [La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes) |
-| 2026-10-22 | AEPD — Spanish Data Protection Agency | [Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic) |
 
 ### Low priority sources
 
@@ -93,14 +87,7 @@ Last run: **2026-10-31T00:18:18Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
 | 2026-10-28 | EPIC — Electronic Privacy Information Center | [EPIC, CFA and Fairplay Urge Stronger Rules Under Colorado Automated Decision-Making Technology and Chatbot Laws](https://epic.org/epic-cfa-and-fairplay-urge-stronger-rules-under-colorado-automated-decision-making-technology-and-chatbot-laws/) |
 | 2026-10-27 | EPIC — Electronic Privacy Information Center | [The Sum & Substance: Business, financial groups fear unintended consequences of proposed AI rules](https://epic.org/the-sum-substance-business-financial-groups-fear-unintended-consequences-of-proposed-ai-rules/) |
-| 2026-10-27 | EPIC — Electronic Privacy Information Center | [USA Today: Can you sue over targeted ads? ‘Blockbuster’ Supreme Court case to decide](https://epic.org/usa-today-can-you-sue-over-targeted-ads-blockbuster-supreme-court-case-to-decide/) |
-| 2026-10-27 | EPIC — Electronic Privacy Information Center | [EPIC Urges Supreme Court to Protect Voters and Strike Down Arizona’s SAVE-based Voter-Registration Cancellation Program](https://epic.org/epic-urges-supreme-court-to-protect-voters-and-strike-down-arizonas-save-based-voter-registration-cancellation-program/) |
-| 2026-10-26 | EPIC — Electronic Privacy Information Center | [The Wash: From Blockbuster video to TikTok, Supreme Court weighs the future of video privacy](https://epic.org/the-wash-from-blockbuster-video-to-tiktok-supreme-court-weighs-the-future-of-video-privacy/) |
-| 2026-10-25 | EPIC — Electronic Privacy Information Center | [The Center Square: Treasury’s Do Not Pay covers 99% of programs. The law covers 11](https://epic.org/the-center-square-treasurys-do-not-pay-covers-99-of-programs-the-law-covers-11/) |
-| 2026-10-24 | EPIC — Electronic Privacy Information Center | [NPR: Immigration briefing: Ukraine TPS extended; visa slow-walk claim; VT ICE protests](https://epic.org/npr-immigration-briefing-ukraine-tps-extended-visa-slow-walk-claim-vt-ice-protests/) |
 | 2026-10-23 | EPIC — Electronic Privacy Information Center | [Privacy Daily: Supreme Court Justices’ Questions About VPPA Definitions Didn’t Surprise Lawyers](https://epic.org/privacy-daily-supreme-court-justices-questions-about-vppa-definitions-didnt-surprise-lawyers/) |
-| 2026-10-22 | EPIC — Electronic Privacy Information Center | [Traders Union: Meta Platforms’ Muse drives investor hopes for new AI agent revenue](https://epic.org/traders-union-meta-platforms-muse-drives-investor-hopes-for-new-ai-agent-revenue/) |
-| 2026-10-22 | EPIC — Electronic Privacy Information Center | [Legis1: Oracle Lobbying Rises Amid Federal AI and Privacy Policy Debate](https://epic.org/legis1-oracle-lobbying-rises-amid-federal-ai-and-privacy-policy-debate/) |
 | 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
 | 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
