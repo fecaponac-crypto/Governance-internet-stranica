@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T12:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-10-31T12:37:04Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (60)
+## New items, last 48 hours (57)
 
 ### High priority sources
 
@@ -41,8 +41,6 @@ Last run: **2026-10-31T12:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | UK Department for Science, Innovation and Technology | [Research: Artificial Intelligence sector study 2025](https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025) |
 | 2026-10-29 | Alation Blog | [October 29, 2026 What Is an AI Operating System? Defining the Category Beyond the Data Platform Four different things get called an “AIOS.” Learn which one a vendor means and what it must do that a data platform… Read More](https://www.alation.com/blog/what-is-aios-ai-operating-system/) |
 | 2026-10-29 | Tech Policy Press | [What Latino Voters Can Teach Washington About AI Governance](https://techpolicy.press/what-latino-voters-can-teach-washington-about-ai-governance) |
-| 2026-10-29 | CDO Magazine | [Leadership Moves AHRQ Names Gil Alterovitz First Chief Super Intelligence Officer and Chief Data Officer](https://www.cdomagazine.tech/leadership-moves/ahrq-names-gil-alterovitz-first-chief-super-intelligence-officer-and-chief-data-officer) |
-| 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 
 ### Low priority sources
 
@@ -74,14 +72,14 @@ Last run: **2026-10-31T12:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | International Data Spaces Association | [DATA SPACES_NOW #10 takes stock of a decade and turns to scale](https://internationaldataspaces.org/data-spaces_now-10-takes-stock-of-a-decade-and-turns-to-scale/) |
 | 2026-10-29 | MIT Technology Review | [The Download: AI agent tracking and climate feedback loops](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
 | 2026-10-29 | Computer Weekly — IT security | [Having a PHP patch available does not mean you're protected](https://www.computerweekly.com/opinion/Having-a-PHP-patch-available-does-not-mean-youre-protected) |
-| 2026-10-29 | MIT Technology Review | [We urgently need to monitor AI agents’ actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) |
 | 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
 | 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
 | 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+- **AlgorithmWatch** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='algorithmwatch.org', port=443): Max retries exceeded with url: /en/feed/ (Caused by NewConnectionError("HTTPSConnection(host='algorithmwatch.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 
