@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T06:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-10-31T09:18:19Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (68)
+## New items, last 48 hours (62)
 
 ### High priority sources
 
@@ -43,7 +43,6 @@ Last run: **2026-10-31T06:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | Alation Blog | [October 29, 2026 What Is an AI Operating System? Defining the Category Beyond the Data Platform Four different things get called an “AIOS.” Learn which one a vendor means and what it must do that a data platform… Read More](https://www.alation.com/blog/what-is-aios-ai-operating-system/) |
 | 2026-10-29 | Tech Policy Press | [What Latino Voters Can Teach Washington About AI Governance](https://techpolicy.press/what-latino-voters-can-teach-washington-about-ai-governance) |
 | 2026-10-29 | CDO Magazine | [Leadership Moves AHRQ Names Gil Alterovitz First Chief Super Intelligence Officer and Chief Data Officer](https://www.cdomagazine.tech/leadership-moves/ahrq-names-gil-alterovitz-first-chief-super-intelligence-officer-and-chief-data-officer) |
-| 2026-10-29 | CNIL (France) | [Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT](https://www.cnil.fr/fr/sanction-cookies-app-fnac) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-29 | European Data Protection Supervisor (EDPS) | [New Opinion on EU-US data-sharing agreement](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-us-data-sharing-agreement) |
 
@@ -78,18 +77,13 @@ Last run: **2026-10-31T06:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-29 | MIT Technology Review | [The Download: AI agent tracking and climate feedback loops](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
 | 2026-10-29 | Computer Weekly — IT security | [Having a PHP patch available does not mean you're protected](https://www.computerweekly.com/opinion/Having-a-PHP-patch-available-does-not-mean-youre-protected) |
 | 2026-10-29 | MIT Technology Review | [We urgently need to monitor AI agents’ actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) |
-| 2026-10-29 | European Digital Rights (EDRi) | [EDRi-gram, 29 October 2026](https://edri.org/our-work/edri-gram-29-october-2026/) |
-| 2026-10-29 | European Digital Rights (EDRi) | [The internet should not demand constant self-defence: Fairness starts before the click](https://edri.org/our-work/the-internet-should-not-demand-constant-self-defence-fairness-starts-before-the-click/) |
-| 2026-10-29 | European Digital Rights (EDRi) | [What the new Convention on Decent Work in the Platform Economy means for workers – and what’s next for implementation](https://edri.org/our-work/what-the-new-convention-on-decent-work-in-the-platform-economy-means-for-workers-and-whats-next-for-implementation/) |
-| 2026-10-29 | European Digital Rights (EDRi) | [Draconian access block orders in Turkey](https://edri.org/our-work/draconian-access-block-orders-in-turkey/) |
-| 2026-10-29 | European Digital Rights (EDRi) | [Surveillance in times of insecurity: a wicked and stupid strategy](https://edri.org/our-work/surveillance-in-times-of-insecurity-a-wicked-and-stupid-strategy/) |
 | 2026-10-29 | McKinsey Insights | [The algorithm isn’t the advantage–the team is](https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is) |
 | 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
 | 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
 ## Source problems
 
-- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
+- **Court of Justice of the EU — Press releases** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://curia.europa.eu/jcms/jcms/Jo2_7052/en/`
 
 ## Check manually (weekly)
 
