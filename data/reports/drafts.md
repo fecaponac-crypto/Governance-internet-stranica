@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-01T13:29:27Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-01T15:18:33Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.00** of $12 budget (0 calls)
+AI spend this month: **$0.00** of $12 budget (1 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Vendor-flavoured piece on database performance for AI agents; funding mention is minor and no governance angle is clear from the excerpt.
 - (1) Procurement notice for an intelligence data platform; no clear data governance consequence reported from title alone.
 - (1) Weekly news roundup with no single governance-focused story.
 - (2) Meeting announcement; event promotion rather than a decision or rule, though it touches CalPrivacy rulemaking.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Vendor product blog post about an MCP server; not a genuine launch with governance news.
 - (1) Immune gene dataset; scientific research without governance angle.
 - (1) Conference notes/interview profile without a concrete governance development.
-- (1) Weekly roundup of executive appointments across unrelated companies; hiring/people news without a governance-specific angle.

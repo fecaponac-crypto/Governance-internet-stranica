@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-01T13:29:15Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-01T15:18:16Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (20)
+## New items, last 48 hours (21)
 
 ### High priority sources
 
@@ -18,6 +18,7 @@ Last run: **2026-11-01T13:29:15Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-01 | SiliconANGLE — Big Data | [Agent demand can’t be forecast, meaning the database has to be ready for anything](https://siliconangle.com/2026/11/01/agentic-ai-architecture-demands-real-time-databases-evolve26/) |
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence SAP Expands Data Fabric and Master Data Tools for Enterprise AI Agents](https://www.cdomagazine.tech/aiml/sap-expands-data-fabric-and-master-data-tools-for-enterprise-ai-agents) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau ODNI Seeks Data Platform to Unify Economic and Financial Intelligence](https://www.cdomagazine.tech/us-federal-news-bureau/odni-seeks-data-platform-to-unify-economic-and-financial-intelligence) |
 | 2026-10-30 | CDO Magazine | [Cloud AWS and Deloitte: Building the Data and Cloud Foundation for National Security](https://www.cdomagazine.tech/cloud/aws-and-deloitte-building-the-data-and-cloud-foundation-for-national-security) |
@@ -41,7 +42,7 @@ Last run: **2026-11-01T13:29:15Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **noyb — European Center for Digital Rights** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='noyb.eu', port=443): Max retries exceeded with url: /en/rss (Caused by NewConnectionError("HTTPSConnection(host='noyb.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
+_None._
 
 ## Check manually (weekly)
 

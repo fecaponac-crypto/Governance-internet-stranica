@@ -1104,6 +1104,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6e48b3ab05543eae": {
+   "at": "2026-11-01T15:18:33Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor-flavoured piece on database performance for AI agents; funding mention is minor and no governance angle is clear from the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "6f34ae51d61c60e8": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -2820,6 +2831,10 @@
   "2026-10": {
    "calls": 145,
    "usd": 4.6571
+  },
+  "2026-11": {
+   "calls": 1,
+   "usd": 0.0005
   }
  }
 }

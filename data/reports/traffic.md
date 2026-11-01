@@ -1,24 +1,24 @@
 # Traffic — 2026-11
 
-Updated 2026-11-01T13:29:28Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-01T15:18:37Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**7 visits · 9 page views** this month (bots excluded)
+**8 visits · 10 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 | Day | Visits | Page views |
 |---|---:|---:|
-| 2026-11-01 | 7 | 9 |
+| 2026-11-01 | 8 | 10 |
 
 ## Top pages
 
-- / — 7
+- / — 8
 - /news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/ — 1
 - /institutions/datatilsynet-no/ — 1
 
 ## Countries
 
-- US — 4
+- US — 5
 - HR — 2
 - AT — 1
 - SE — 1
@@ -26,6 +26,6 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 6
+- (direct) — 7
 - datagovernancesignal.com — 2
 - www.google.com — 1
