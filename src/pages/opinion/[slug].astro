@@ -39,7 +39,7 @@ const jsonLd = {
       <h1>{data.title}</h1>
       <p class="dek">{data.dek}</p>
       <p class="byline" data-pagefind-ignore>
-        By <a href="/about/#editor">{data.author}</a> · <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time> ·
+        By <a href="/about/#editor">{data.author}</a> · <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time> ·{' '}
         {Math.max(1, Math.round(words / 230))} min read
       </p>
       <Listen parts="article h1, article p.dek, article .prose" />

@@ -87,7 +87,10 @@ export function scorecard(predictions: Prediction[]) {
 export type Opinion = CollectionEntry<'opinion'>;
 
 export async function getOpinions(): Promise<Opinion[]> {
-  const all = await getCollection('opinion', ({ data }) => !data.draft);
+  // An essay dated in the future is scheduled: it appears with the first build on or after its
+  // date (the site rebuilds every morning at about 07:20 Zagreb time).
+  const now = Date.now();
+  const all = await getCollection('opinion', ({ data }) => !data.draft && data.date.getTime() <= now);
   return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
 
