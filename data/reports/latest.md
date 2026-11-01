@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-01T06:18:11Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-01T09:18:14Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (26)
 
@@ -47,7 +47,7 @@ Last run: **2026-11-01T06:18:11Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AlgorithmWatch** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='algorithmwatch.org', port=443): Max retries exceeded with url: /en/feed/ (Caused by NewConnectionError("HTTPSConnection(host='algorithmwatch.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
 
 ## Check manually (weekly)
 
