@@ -17,6 +17,7 @@ whatToCheck:
   - "Identify whether personal data such as browsing behaviour, loyalty-programme membership, phone usage or offer-acceptance history feeds pricing or pay decisions."
   - "Review whether customers and workers are told when personal data influences the price they pay or the pay they receive."
 enforcement:
+  case: ftc-personal-data-pricing-study
   action: "Investigation"
   authority: "US Federal Trade Commission"
   parties: "Delta, United, JetBlue, Lyft, Uber, DoorDash, Instacart, Target, Walmart"

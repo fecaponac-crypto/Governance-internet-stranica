@@ -121,6 +121,21 @@ def pending_drafts() -> list[dict]:
     ]
 
 
+def existing_cases() -> list[dict]:
+    """Enforcement cases in published articles: id, authority, parties and the latest step."""
+    cases: dict[str, dict] = {}
+    for path in sorted(ARTICLES.glob("*.md")):
+        e = (yaml.safe_load(path.read_text(encoding="utf-8").split("---")[1]) or {}).get("enforcement")
+        if not e:
+            continue
+        cid = e.get("case") or path.stem
+        step = {"id": cid, "authority": e["authority"], "parties": e["parties"], "action": e["action"],
+                "date": str(e["date"]), "final": bool(e.get("final"))}
+        if cid not in cases or step["date"] >= cases[cid]["date"]:
+            cases[cid] = step
+    return sorted(cases.values(), key=lambda c: c["date"], reverse=True)
+
+
 def existing_articles() -> list[dict]:
     out = []
     for path in sorted(ARTICLES.glob("*.md")):
@@ -409,6 +424,7 @@ Fields:
 - status_detail: one short clause qualifying the stage (max 100 characters), e.g. "Parliament has yet to adopt its position" or "applies from 2 August 2027"; empty if nothing to add.
 - what_to_check: only for importance 4–5, 1–3 concrete checks a governance, privacy or compliance team should make in their own organisation, each one sentence, following directly from what the sources say (not generic advice). Empty list for importance 1–3 or when the sources give no basis.
 - deadlines: dates stated in the sources that practitioners need to act on or watch — application dates, consultation or comment deadlines, compliance deadlines, hearing or vote dates. Each with the date (YYYY-MM-DD; only if the exact day is stated) and what happens (max 120 characters). Empty if none.
+- enforcement.case: when the story continues a matter in the list of existing enforcement cases (same organisation and same underlying conduct, e.g. a complaint that has now led to a fine, or an appeal of an earlier decision), give that case id exactly; otherwise give a new short id of lowercase words and hyphens (e.g. "cnil-acme-cookies"). Set final to true only if the sources say this step ends the matter (appeal waived, final judgment, settlement concluded).
 - enforcement: set applies to true only when the story is about a fine, settlement, court ruling, regulator order, investigation or formal complaint concerning a named organisation (or group of organisations). Then give the action, the authority (or court, or complainant for a complaint) as readers know it, the parties concerned, the amount as a number with its ISO currency code (0 and empty currency when no amount is stated), the law and provisions as named in the sources (empty if not named), the legal framework from the allowed list, the jurisdiction (country, state or EU) and the date of the decision, filing or announcement (YYYY-MM-DD). Use only facts from the sources. When applies is false, fill the other fields with empty values.
 - region: e.g. "EU", "UK", "US", "Global", or a country.
 - card_figure: the single key fact for the news card in large type — a number, amount, deadline, article or standard number, or 1–2 words (max 22 characters).
@@ -452,6 +468,8 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
                 "type": "object",
                 "properties": {
                     "applies": {"type": "boolean"},
+                    "case": s(),
+                    "final": {"type": "boolean"},
                     "action": s(enum=actions + [""]),
                     "authority": s(),
                     "parties": s(),
@@ -462,7 +480,7 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
                     "jurisdiction": s(),
                     "date": s(description="YYYY-MM-DD"),
                 },
-                "required": ["applies", "action", "authority", "parties", "amount", "currency", "law", "framework",
+                "required": ["applies", "case", "final", "action", "authority", "parties", "amount", "currency", "law", "framework",
                              "jurisdiction", "date"],
                 "additionalProperties": False,
             },
@@ -503,10 +521,13 @@ def write_draft(client, state, item: dict, sources: list[dict], categories, type
     institutions = institution_vocabulary()
     inst_list = "\n".join(f"- {i['id']}: {i['name']}" for i in institutions)
     stages = status_vocabulary()
+    cases = existing_cases()[:80]
+    case_list = "\n".join(f"- {c['id']}: {c['authority']} — {c['parties']} — last {c['action']} {c['date']}" for c in cases)
     stage_list = "\n".join(f"- {k}: {v}" for k, v in stages.items())
     user = (
         f"Allowed categories:\n{cat_list}\n\nAllowed institutions:\n{inst_list}\n\n"
-        f"Allowed status stages:\n{stage_list}\n\nAllowed types: {', '.join(types)}\n\n"
+        f"Allowed status stages:\n{stage_list}\n\n"
+        f"Existing enforcement cases (for enforcement.case):\n{case_list or '(none)'}\n\nAllowed types: {', '.join(types)}\n\n"
         f"Existing articles (for related):\n{existing_list or '(none)'}\n\n"
         f"The story was collected from {item['source_name']} (reliability {item['reliability']}/3), "
         f"published {(item['published'] or item['first_seen'])[:10]}.\n\n{sources_block(sources)}"
@@ -562,6 +583,11 @@ def tidy_enforcement(e: dict | None) -> dict | None:
     if (e.get("law") or "").strip():
         out["law"] = e["law"].strip()
     out["date"] = e["date"]
+    case = re.sub(r"[^a-z0-9]+", "-", (e.get("case") or "").lower()).strip("-")[:60]
+    if case:
+        out = {"case": case, **out}
+    if e.get("final"):
+        out["final"] = True
     return out
 
 
@@ -674,7 +700,8 @@ def to_markdown(d: dict, item: dict) -> str:
         *(["whatToCheck:"] + [f"  - {q(c)}" for c in d["what_to_check"]] if d["what_to_check"] else []),
         *(["deadlines:"] + [l for x in d["deadlines"] for l in (f"  - date: {x['date']}", f"    what: {q(x['what'])}")]
           if d["deadlines"] else []),
-        *(["enforcement:"] + [f"  {k}: {v if k in ('amount', 'date') else q(v)}" for k, v in d["enforcement"].items()]
+        *(["enforcement:"] + [f"  {k}: {str(v).lower() if isinstance(v, bool) else v if k in ('amount', 'date', 'case') else q(v)}"
+                              for k, v in d["enforcement"].items()]
           if d.get("enforcement") else []),
         "sources:",
     ]
@@ -709,6 +736,13 @@ def git(*args: str) -> str:
 def enforcement_line(e: dict | None) -> str:
     if not e:
         return "not an enforcement story"
+    prior = next((c for c in existing_cases() if c["id"] == e.get("case")), None)
+    update = (f"**Update to case `{e['case']}`: {prior['action']} ({prior['date']}) → {e['action']}** · "
+              if prior else f"new case `{e.get('case', '—')}` · ")
+    return update + enforcement_core(e)
+
+
+def enforcement_core(e: dict) -> str:
     amount = f" · {e['currency']} {e['amount']:,}" if e.get("amount") else ""
     return f"{e['action']} by {e['authority']} concerning {e['parties']}{amount} · {e.get('law', 'law not stated')} ({e['framework']}, {e['jurisdiction']}, {e['date']})"
 

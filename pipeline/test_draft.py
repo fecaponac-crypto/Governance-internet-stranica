@@ -36,7 +36,7 @@ DRAFT = {
     "status_detail": "may be appealed",
     "what_to_check": ["Check that consent records name each controller relying on them."],
     "deadlines": [{"date": "2026-12-01", "what": "Deadline to comply"}, {"date": "December 2026", "what": "vague"}],
-    "enforcement": {"applies": True, "action": "Fine", "authority": "Example DPA", "parties": "Example Corp", "amount": 2000000,
+    "enforcement": {"applies": True, "case": "Example DPA / Example Corp", "final": False, "action": "Fine", "authority": "Example DPA", "parties": "Example Corp", "amount": 2000000,
                     "currency": "eur", "law": "GDPR Articles 6 and 7", "framework": "GDPR", "jurisdiction": "EU", "date": "2026-10-19"},
     "card_figure": "EUR 2M",
     "card_caption": "Fine for profiling without valid consent",
@@ -157,6 +157,8 @@ class RunTest(unittest.TestCase):
         self.assertEqual(front["enforcement"]["amount"], 2000000)
         self.assertEqual(front["enforcement"]["currency"], "EUR")
         self.assertEqual(str(front["enforcement"]["date"]), "2026-10-19")
+        self.assertEqual(front["enforcement"]["case"], "example-dpa-example-corp")
+        self.assertNotIn("final", front["enforcement"])
         self.assertEqual(str(front["date"]), "2026-10-20")
 
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
@@ -274,3 +276,16 @@ class SameStoryTest(RunTest):
                           {"title": "Monday Signal 2026-11-02: x", "headRefName": "columns/2026-11-02"}])
         with mock.patch.object(draft.subprocess, "run", lambda *a, **k: SimpleNamespace(stdout=out)):
             self.assertEqual(draft.pending_drafts(), [{"slug": "monte-carlo-bayes", "title": "Monte Carlo launches Bayes", "date": ""}])
+
+
+class CaseTest(RunTest):
+    def test_existing_cases_and_update_line(self):
+        (self.articles / "complaint.md").write_text(
+            "---\ntitle: Complaint\ndate: 2026-10-01\nenforcement:\n  case: acme-cookies\n  action: Complaint\n"
+            "  authority: noyb\n  parties: Acme\n  framework: GDPR\n  jurisdiction: EU\n  date: 2026-10-01\n---\n\nBody.\n")
+        cases = draft.existing_cases()
+        self.assertEqual([(c["id"], c["action"]) for c in cases], [("acme-cookies", "Complaint")])
+        e = {"case": "acme-cookies", "action": "Fine", "authority": "CNIL", "parties": "Acme", "amount": 5000000,
+             "currency": "EUR", "framework": "GDPR", "jurisdiction": "France", "date": "2026-11-20"}
+        self.assertIn("Update to case `acme-cookies`: Complaint (2026-10-01) → Fine", draft.enforcement_line(e))
+        self.assertIn("new case `other`", draft.enforcement_line({**e, "case": "other"}))

@@ -13,6 +13,7 @@ status:
   stage: "Decision"
   detail: "Breach found; additional signage ordered, no fine mentioned"
 enforcement:
+  case: imy-police-gothenburg-cctv
   action: "Order"
   authority: "IMY"
   parties: "Swedish Police Authority"

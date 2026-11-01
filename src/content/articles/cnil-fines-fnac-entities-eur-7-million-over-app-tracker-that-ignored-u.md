@@ -17,6 +17,7 @@ whatToCheck:
   - "Verify that data used to train recommendation or personalisation models is filtered by recorded consent status."
   - "Confirm your consent management tool covers app-to-server API calls, not only browser cookies."
 enforcement:
+  case: cnil-fnac-app-trackers
   action: "Fine"
   authority: "CNIL"
   parties: "Fnac Darty Participations et Services; Fnac Direct"

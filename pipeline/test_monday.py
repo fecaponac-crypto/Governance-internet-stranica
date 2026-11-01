@@ -169,6 +169,18 @@ class MondayTest(unittest.TestCase):
         self.assertNotIn("Later", watch)
 
 
+class StaleCaseTest(MondayTest):
+    def test_open_cases_without_news_are_listed(self):
+        arts = monday.ARTICLES
+        (arts / "old-complaint.md").write_text(
+            "---\ntitle: Old\nenforcement:\n  case: acme\n  action: Complaint\n  authority: noyb\n  parties: Acme\n"
+            "  framework: GDPR\n  jurisdiction: EU\n  date: 2026-07-01\n---\n\nBody.\n")
+        (arts / "settled.md").write_text(
+            "---\ntitle: Settled\nenforcement:\n  case: beta\n  action: Settlement\n  authority: AG\n  parties: Beta\n"
+            "  framework: US state\n  jurisdiction: US\n  date: 2026-06-01\n---\n\nBody.\n")
+        self.assertEqual([c["id"] for c in monday.stale_cases(MONDAY)], ["acme"])
+
+
 class QuoteTest(unittest.TestCase):
     def test_quotes_match_despite_typography(self):
         sources = [{"ref": 1, "text": "He said: “We’ll  finish\nby May.”"}]

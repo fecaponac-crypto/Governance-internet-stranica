@@ -104,3 +104,46 @@ export function formatAmount(amount?: number, currency?: string): string {
   if (amount >= 1e6) return `${currency} ${n(amount / 1e6)}m`;
   return `${currency} ${amount.toLocaleString('en-GB')}`;
 }
+
+export type Enforcement = NonNullable<Article['data']['enforcement']>;
+export interface CaseStep {
+  article: Article;
+  e: Enforcement;
+}
+export interface EnforcementCase {
+  id: string;
+  steps: CaseStep[]; // oldest first
+  latest: CaseStep;
+  // The most recent step with an amount (a settlement or fine stays visible after a later ruling).
+  amount?: { amount: number; currency: string };
+  status: 'Open' | 'Closed';
+}
+
+/**
+ * Enforcement records grouped into cases (stories without a case id are a case of their own).
+ * A case is closed when its latest step is a settlement or is marked final (appeal waived,
+ * final judgment); otherwise it is open. Newest activity first.
+ */
+export function enforcementCases(articles: Article[]): EnforcementCase[] {
+  const byCase = new Map<string, CaseStep[]>();
+  for (const article of articles) {
+    const e = article.data.enforcement;
+    if (!e) continue;
+    const id = e.case ?? article.id;
+    byCase.set(id, [...(byCase.get(id) ?? []), { article, e }]);
+  }
+  return [...byCase]
+    .map(([id, steps]) => {
+      steps.sort((a, b) => a.e.date.getTime() - b.e.date.getTime());
+      const latest = steps[steps.length - 1];
+      const withAmount = [...steps].reverse().find((s) => s.e.amount && s.e.currency);
+      return {
+        id,
+        steps,
+        latest,
+        amount: withAmount ? { amount: withAmount.e.amount!, currency: withAmount.e.currency! } : undefined,
+        status: (latest.e.final || latest.e.action === 'Settlement' ? 'Closed' : 'Open') as 'Open' | 'Closed',
+      };
+    })
+    .sort((a, b) => b.latest.e.date.getTime() - a.latest.e.date.getTime());
+}

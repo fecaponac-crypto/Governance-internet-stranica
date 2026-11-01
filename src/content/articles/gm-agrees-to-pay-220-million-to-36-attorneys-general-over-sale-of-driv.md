@@ -17,6 +17,7 @@ whatToCheck:
   - "Review data-sharing contracts with brokers or partners to confirm the stated downstream uses, such as insurance pricing, were disclosed to the individuals concerned."
   - "Check whether third parties such as dealers or sales staff can accept terms or enrol customers on their behalf, and whether incentives encourage this."
 enforcement:
+  case: gm-driver-data
   action: "Settlement"
   authority: "36 US state attorneys general (co-led by Washington and Oregon)"
   parties: "General Motors"

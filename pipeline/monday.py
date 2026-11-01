@@ -82,6 +82,27 @@ def upcoming_dates(monday: date) -> list[dict]:
     return sorted(out, key=lambda d: d["date"])
 
 
+STALE_CASE_DAYS = 90
+
+
+def stale_cases(monday: date) -> list[dict]:
+    """Open enforcement cases (not settled, not final) with no new step for STALE_CASE_DAYS."""
+    latest: dict[str, dict] = {}
+    for path in ARTICLES.glob("*.md"):
+        meta, _ = front_matter(path.read_text(encoding="utf-8"))
+        e = meta.get("enforcement")
+        if not e or meta.get("sample"):
+            continue
+        cid = e.get("case") or path.stem
+        when = e["date"] if isinstance(e["date"], date) else date.fromisoformat(str(e["date"]))
+        if cid not in latest or when >= latest[cid]["date"]:
+            latest[cid] = {"id": cid, "date": when, "action": e["action"], "parties": e["parties"],
+                           "authority": e["authority"], "closed": bool(e.get("final")) or e["action"] == "Settlement",
+                           "slug": path.stem}
+    limit = monday - timedelta(days=STALE_CASE_DAYS)
+    return sorted((c for c in latest.values() if not c["closed"] and c["date"] <= limit), key=lambda c: c["date"])
+
+
 def load_predictions() -> tuple[str, list[dict]]:
     text = PREDICTIONS.read_text(encoding="utf-8")
     header = "".join(line for line in text.splitlines(keepends=True) if line.startswith("#"))
@@ -334,6 +355,12 @@ def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hi
         lines += [f"- `{p['id']}` ({p['by']}, due {p['due']}): {p['claim']}\n  - hint: {hint_by_id.get(p['id'], '—')}" for p in due]
     else:
         lines.append("- none this week")
+    stale = stale_cases(monday)
+    if stale:
+        lines += ["", f"### Open enforcement cases with no news for {STALE_CASE_DAYS}+ days",
+                  "Worth a check: has anything happened (decision, appeal, settlement)? If so, it can be a story."]
+        lines += [f"- `{c['id']}`: {c['authority']} — {c['parties']} — last {c['action']} on {c['date']} "
+                  f"([story]({SITE_URL}/news/{c['slug']}/))" for c in stale]
     if newsletter_enabled():
         lines += [
             "", "### Newsletter (after merging)",

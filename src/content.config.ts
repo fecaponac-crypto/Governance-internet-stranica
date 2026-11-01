@@ -36,6 +36,8 @@ const articles = defineCollection({
     // Fines, settlements, rulings, orders, investigations and complaints; feeds /enforcement/.
     enforcement: z
       .object({
+        // Case id shared by every story about the same matter (complaint → investigation → fine → appeal).
+        case: z.string().regex(/^[a-z0-9-]+$/).optional(),
         action: z.enum(ENFORCEMENT_ACTIONS),
         authority: z.string(),
         parties: z.string(),
@@ -46,6 +48,8 @@ const articles = defineCollection({
         jurisdiction: z.string(),
         // Date of the decision, filing or announcement.
         date: z.coerce.date(),
+        // True when the sources say this step ends the matter (appeal waived, final judgment).
+        final: z.boolean().default(false),
       })
       .optional(),
     // Dates that matter (application dates, consultation deadlines); feeds /deadlines/.

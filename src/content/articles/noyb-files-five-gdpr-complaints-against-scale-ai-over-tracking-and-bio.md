@@ -13,6 +13,7 @@ status:
   stage: "Alleged"
   detail: "Complaints filed with four national authorities; no investigation or decision yet"
 enforcement:
+  case: scale-ai-outlier-workers
   action: "Complaint"
   authority: "noyb and partners (complaints to DPAs in France, Italy, the Netherlands and Austria)"
   parties: "Scale AI (Outlier platform)"

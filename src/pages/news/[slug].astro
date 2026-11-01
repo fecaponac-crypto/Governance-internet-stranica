@@ -8,7 +8,7 @@ import Feedback from '../../components/Feedback.astro';
 import Listen from '../../components/Listen.astro';
 import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
-import { getArticles, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
+import { enforcementCases, getArticles, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
 import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
 
 export async function getStaticPaths() {
@@ -26,6 +26,7 @@ const { Content } = await render(article);
 const cats = data.categories.map(categoryById);
 const institutions = data.institutions.map(institutionById);
 const official = data.sources.some((s) => s.primary);
+const enfCase = data.enforcement ? enforcementCases(all).find((c) => c.steps.some((s) => s.article.id === article.id)) : undefined;
 const corrections = await getCollection('corrections', (c) => c.data.article === article.id);
 
 // Explicit related items first, then others sharing a category.
@@ -205,7 +206,13 @@ const jsonLd = {
                   </>
                 )}
               </dl>
-              <a href="/enforcement/">Enforcement tracker</a>
+              {enfCase && (
+                <p class="case">
+                  Case status: <b>{enfCase.status}</b>
+                  {enfCase.steps.length > 1 && <> · {enfCase.steps.length} steps</>}
+                </p>
+              )}
+              <a href={`/enforcement/#${enfCase?.id ?? ''}`}>Enforcement tracker</a>
             </section>
           )
         }
@@ -485,5 +492,9 @@ const jsonLd = {
   }
   .enf > a {
     font-size: 0.85rem;
+  }
+  .enf .case {
+    font-size: 0.85rem;
+    margin: 0.2rem 0 0.4rem;
   }
 </style>

@@ -22,12 +22,14 @@ deadlines:
   - date: 2046-01-13
     what: "GM privacy programme obligations under the Oregon judgment end"
 enforcement:
+  case: gm-driver-data
   action: "Court ruling"
   authority: "Oregon Department of Justice (stipulated judgment)"
   parties: "General Motors; OnStar"
   framework: "US state"
   jurisdiction: "Oregon, US"
   date: 2026-10-30
+  final: true
 sources:
   - name: "Oregon Department of Justice"
     title: "Stipulated General Judgment and Money Award, State of Oregon v. General Motors LLC et al."

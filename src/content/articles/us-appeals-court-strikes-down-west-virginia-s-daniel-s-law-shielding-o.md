@@ -13,6 +13,7 @@ status:
   stage: "Court ruling"
   detail: "Affirms August 2025 district court ruling; further appeal not addressed"
 enforcement:
+  case: west-virginia-daniels-law
   action: "Court ruling"
   authority: "US Court of Appeals for the 4th Circuit"
   parties: "People-search firms incl. Thomson Reuters, Whitepages, Thryv, PeopleConnect, LexisNexis Risk Solutions (law held unconstitutional)"

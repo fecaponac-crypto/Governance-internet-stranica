@@ -233,6 +233,7 @@ Okvirne skupine izvora:
 - Stranica `/enforcement/`: kazne, nagodbe, sudske odluke, naredbe, istrage i pritužbe (tko, protiv koga, iznos, zakon, okvir, nadležnost, datum), s filtrima po zakonu i vrsti mjere; strukturirani podaci (schema.org Dataset).
 - Podaci su u polju `enforcement` vijesti; AI ga popunjava u nacrtu (samo iz izvora), provjera činjenica ga pokriva, a urednik ga vidi u PR-u („Enforcement tracker”). Pritužbe i istrage jasno su odvojene od odluka.
 - Na vijesti je okvir „Enforcement” u desnom stupcu; na početnoj blok „Latest enforcement”; poveznica u podnožju.
+- **Slučajevi:** vijesti o istoj stvari dijele `enforcement.case`; tracker prikazuje jedan redak po slučaju (zadnja faza, status Open/Closed, vremenska crta). Closed = nagodba ili korak označen `final: true` (žalba isključena, pravomoćno). AI u nacrtu predlaže postojeći slučaj ili novi; u PR-u piše „Update to case …: staro → novo”. Monday paket navodi otvorene slučajeve bez novosti 90+ dana.
 
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 

@@ -13,6 +13,7 @@ status:
   stage: Investigation
   detail: "Information requests; no decision yet"
 enforcement:
+  case: ai-office-gpai-information-requests
   action: "Investigation"
   authority: "European Commission (AI Office)"
   parties: "General-purpose AI model providers (not named officially)"

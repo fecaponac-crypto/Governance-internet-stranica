@@ -1,25 +1,23 @@
 ---
 import Base from '../layouts/Base.astro';
 import { ENFORCEMENT_ACTIONS, ENFORCEMENT_FRAMEWORKS, SITE } from '../data/site';
-import { articleUrl, formatAmount, formatDate, getArticles, isoDate } from '../utils/articles';
+import { articleUrl, enforcementCases, formatAmount, formatDate, getArticles, isoDate } from '../utils/articles';
 
-const rows = (await getArticles())
-  .filter((a) => a.data.enforcement)
-  .map((a) => ({ article: a, e: a.data.enforcement! }))
-  .sort((x, y) => y.e.date.getTime() - x.e.date.getTime());
-const count = (key: 'framework' | 'action', value: string) => rows.filter((r) => r.e[key] === value).length;
+const cases = enforcementCases(await getArticles());
+const count = (key: 'framework' | 'action', value: string) => cases.filter((c) => c.latest.e[key] === value).length;
 const frameworks = ENFORCEMENT_FRAMEWORKS.filter((f) => count('framework', f));
 const actions = ENFORCEMENT_ACTIONS.filter((a) => count('action', a));
-const fines = rows.filter((r) => r.e.amount && ['Fine', 'Settlement', 'Court ruling'].includes(r.e.action)).length;
+const open = cases.filter((c) => c.status === 'Open').length;
+const withAmount = cases.filter((c) => c.amount).length;
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
   name: 'Data protection and AI enforcement tracker',
-  description: 'Fines, settlements, court rulings, orders, investigations and complaints in data protection, privacy and AI regulation, each linked to its sources.',
+  description: 'Fines, settlements, court rulings, orders, investigations and complaints in data protection, privacy and AI regulation, followed as cases and linked to their sources.',
   url: `${SITE.url}/enforcement/`,
   creator: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-  dateModified: rows[0] ? isoDate(rows[0].e.date) : undefined,
+  dateModified: cases[0] ? isoDate(cases[0].latest.e.date) : undefined,
 };
 ---
 
@@ -34,15 +32,16 @@ const jsonLd = {
       <h1>Enforcement tracker</h1>
       <p>
         Fines, settlements, court rulings, orders, investigations and complaints in data protection, privacy and AI
-        regulation — who acted, against whom, how much and under which law. Every entry links to our coverage and its
-        sources. Complaints and investigations are listed separately from decisions: they are not findings.
+        regulation — who acted, against whom, how much and under which law. Each matter is followed as a case, from complaint
+        or investigation to decision and appeal, and every step links to our coverage and its sources. Complaints and
+        investigations are not findings.
       </p>
     </header>
 
     <section class="stats" aria-label="Summary">
-      <div><b>{rows.length}</b><span>actions tracked</span></div>
-      <div><b>{fines}</b><span>with a stated amount</span></div>
-      <div><b>{new Set(rows.map((r) => r.e.jurisdiction)).size}</b><span>jurisdictions</span></div>
+      <div><b>{cases.length}</b><span>cases followed</span></div>
+      <div><b>{open}</b><span>still open</span></div>
+      <div><b>{withAmount}</b><span>with a stated amount</span></div>
     </section>
 
     <form class="filters" data-filters aria-label="Filter the tracker">
@@ -54,50 +53,76 @@ const jsonLd = {
         </select>
       </label>
       <label>
-        Action
+        Latest action
         <select name="action">
           <option value="">All</option>
           {actions.map((a) => <option value={a}>{a} ({count('action', a)})</option>)}
         </select>
       </label>
-      <p class="shown" role="status" data-shown>{rows.length} shown</p>
+      <label>
+        Status
+        <select name="status">
+          <option value="">All</option>
+          <option value="Open">Open ({open})</option>
+          <option value="Closed">Closed ({cases.length - open})</option>
+        </select>
+      </label>
+      <p class="shown" role="status" data-shown>{cases.length} shown</p>
     </form>
 
     <div class="table-wrap">
       <table>
-        <caption class="visually-hidden">Enforcement actions, newest first</caption>
+        <caption class="visually-hidden">Enforcement cases, latest activity first</caption>
         <thead>
           <tr>
-            <th scope="col">Date</th>
+            <th scope="col">Latest</th>
             <th scope="col">Authority</th>
             <th scope="col">Against / concerning</th>
-            <th scope="col">Action</th>
+            <th scope="col">Stage</th>
             <th scope="col" class="num">Amount</th>
             <th scope="col">Law</th>
           </tr>
         </thead>
         <tbody>
           {
-            rows.map(({ article, e }) => (
-              <tr data-framework={e.framework} data-action={e.action}>
-                <td data-label="Date"><time datetime={isoDate(e.date)}>{formatDate(e.date)}</time></td>
-                <td data-label="Authority">
-                  {e.authority}
-                  <span class="sub">{e.jurisdiction}</span>
-                </td>
-                <td data-label="Against / concerning">
-                  <a href={articleUrl(article)}>{e.parties}</a>
-                </td>
-                <td data-label="Action">
-                  <span class:list={['action', e.action.toLowerCase().replace(/\s+/g, '-')]}>{e.action}</span>
-                </td>
-                <td data-label="Amount" class="num">{formatAmount(e.amount, e.currency)}</td>
-                <td data-label="Law">
-                  {e.law ?? '—'}
-                  <span class="sub">{e.framework}</span>
-                </td>
-              </tr>
-            ))
+            cases.map((c) => {
+              const e = c.latest.e;
+              return (
+                <tr data-framework={e.framework} data-action={e.action} data-status={c.status} id={c.id}>
+                  <td data-label="Latest"><time datetime={isoDate(e.date)}>{formatDate(e.date)}</time></td>
+                  <td data-label="Authority">
+                    {e.authority}
+                    <span class="sub">{e.jurisdiction}</span>
+                  </td>
+                  <td data-label="Against / concerning">
+                    <a href={articleUrl(c.latest.article)}>{e.parties}</a>
+                    {c.steps.length > 1 && (
+                      <details class="timeline">
+                        <summary>{c.steps.length} steps</summary>
+                        <ol>
+                          {c.steps.map((s) => (
+                            <li>
+                              <time datetime={isoDate(s.e.date)}>{formatDate(s.e.date)}</time> · {s.e.action}
+                              {s.e.amount ? ` · ${formatAmount(s.e.amount, s.e.currency)}` : ''} ·{' '}
+                              <a href={articleUrl(s.article)}>{s.e.authority}</a>
+                            </li>
+                          ))}
+                        </ol>
+                      </details>
+                    )}
+                  </td>
+                  <td data-label="Stage">
+                    <span class:list={['action', e.action.toLowerCase().replace(/\s+/g, '-')]}>{e.action}</span>
+                    <span class:list={['status', c.status.toLowerCase()]}>{c.status}</span>
+                  </td>
+                  <td data-label="Amount" class="num">{c.amount ? formatAmount(c.amount.amount, c.amount.currency) : '—'}</td>
+                  <td data-label="Law">
+                    {e.law ?? '—'}
+                    <span class="sub">{e.framework}</span>
+                  </td>
+                </tr>
+              );
+            })
           }
         </tbody>
       </table>
@@ -109,6 +134,7 @@ const jsonLd = {
         <li>Built from the stories we publish, so it covers what our sources report and our editor approves; it is not an exhaustive register of every decision.</li>
         <li>Amounts are as stated in the sources, in the original currency. Settlements and court awards may be appealed or paid in instalments; see each story's status.</li>
         <li><b>Complaints</b> and <b>investigations</b> are claims or inquiries, not findings. Nothing in those rows has been decided.</li>
+        <li>A case is <b>open</b> until it ends in a settlement or a decision the sources describe as final (for example, appeal waived); fines and rulings that can still be appealed stay open.</li>
         <li>Spotted a missing or wrong entry? <a href={`mailto:${SITE.email}?subject=Enforcement tracker`}>Tell us</a>. See also <a href="/institutions/">institutions</a> and <a href="/deadlines/">key dates</a>.</li>
       </ul>
     </div>
@@ -122,9 +148,10 @@ const jsonLd = {
     const apply = () => {
       const f = (form.elements.namedItem('framework') as HTMLSelectElement).value;
       const a = (form.elements.namedItem('action') as HTMLSelectElement).value;
+      const st = (form.elements.namedItem('status') as HTMLSelectElement).value;
       let n = 0;
       rows.forEach((r) => {
-        const on = (!f || r.dataset.framework === f) && (!a || r.dataset.action === a);
+        const on = (!f || r.dataset.framework === f) && (!a || r.dataset.action === a) && (!st || r.dataset.status === st);
         r.hidden = !on;
         n += on ? 1 : 0;
       });
@@ -239,6 +266,37 @@ const jsonLd = {
   .action.court-ruling {
     color: var(--signal);
   }
+  .status {
+    display: block;
+    width: fit-content;
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  .status.open::before {
+    content: '● ';
+    color: var(--signal);
+  }
+  .status.closed::before {
+    content: '✓ ';
+  }
+  .timeline {
+    margin-top: 0.4rem;
+    font-size: 0.82rem;
+  }
+  .timeline summary {
+    cursor: pointer;
+    color: var(--ink-2);
+    min-height: 24px;
+  }
+  .timeline ol {
+    margin: 0.3rem 0 0;
+    padding-left: 1.1rem;
+  }
+  .timeline li {
+    margin-bottom: 0.2rem;
+  }
   .notes {
     margin-top: 2rem;
   }
@@ -275,7 +333,9 @@ const jsonLd = {
     td .action {
       justify-self: start;
     }
-    td > .sub {
+    td > .sub,
+    td > .status,
+    td > .timeline {
       grid-column: 2;
       margin-top: -0.4rem;
     }

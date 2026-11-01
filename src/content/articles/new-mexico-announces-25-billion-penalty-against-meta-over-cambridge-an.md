@@ -12,6 +12,7 @@ status:
   stage: Court ruling
   detail: "Jury verdict announced by New Mexico; reported by EPIC"
 enforcement:
+  case: new-mexico-meta-cambridge-analytica
   action: "Court ruling"
   authority: "New Mexico (jury verdict; state Department of Justice)"
   parties: "Meta"
