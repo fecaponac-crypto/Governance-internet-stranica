@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-01T12:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-01T13:29:15Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (24)
+## New items, last 48 hours (20)
 
 ### High priority sources
 
@@ -24,9 +24,6 @@ Last run: **2026-11-01T12:18:17Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | Euractiv | [Dutch government warns of privacy risks in EU Kids Act](https://www.rapporteur.com/news/dutch-government-warns-of-privacy-risks-in-eu-kids-act/) |
 | 2026-10-30 | Ataccama Blog | [How Lennar used built-in trust scores to accelerate AI adoption](https://www.ataccama.com/customer-story/how-lennar-used-built-in-trust-scores-to-accelerate-ai-adoption) |
 | 2026-10-30 | CDO Magazine | [AI Governance Five Gate Decisions: Moving AI Agents From Pilot to Production](https://www.cdomagazine.tech/ai-governance/five-gate-decisions-moving-ai-agents-from-pilot-to-production) |
-| 2026-10-30 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: W. R. Berkley, Truist, and PENN Entertainment](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-w-r-berkley-truist-and-penn-entertainment) |
-| 2026-10-30 | CDO Magazine | [Leadership Moves Truist Names Tim Brophy Chief Data and Governance Officer](https://www.cdomagazine.tech/leadership-moves/truist-names-tim-brophy-chief-data-and-governance-officer) |
-| 2026-10-30 | CDO Magazine | [Artificial Intelligence Approaching Agentic AI Systems the Right Way: A Modern CDO’s Guide](https://www.cdomagazine.tech/aiml/approaching-agentic-ai-systems-the-right-way-a-modern-cdos-guide) |
 
 ### Low priority sources
 
@@ -41,11 +38,10 @@ Last run: **2026-11-01T12:18:17Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | Center for Data Innovation | [Tracking Wildlife Crossings](https://datainnovation.org/2026/10/tracking-wildlife-crossings/) |
 | 2026-10-30 | Center for Data Innovation | [Mapping Immune Genes](https://datainnovation.org/2026/10/mapping-immune-genes/) |
 | 2026-10-30 | Precisely Blog | [How an MCP server connects AI agents to customer communications](https://www.precisely.com/blog/cat-customer-engagement/how-an-mcp-server-connects-ai-agents-to-customer-communications/) |
-| 2026-10-30 | Modern Data 101 | [The Harness Is the Architecture](https://moderndata101.substack.com/p/the-harness-is-the-architecture) |
 
 ## Source problems
 
-_None._
+- **noyb — European Center for Digital Rights** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='noyb.eu', port=443): Max retries exceeded with url: /en/rss (Caused by NewConnectionError("HTTPSConnection(host='noyb.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
 
 ## Check manually (weekly)
 

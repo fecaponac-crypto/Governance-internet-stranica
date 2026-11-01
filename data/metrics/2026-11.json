@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-01T12:18:32Z",
+ "updated": "2026-11-01T13:29:28Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -9,12 +9,12 @@
  },
  "pipeline": {
   "items_collected": 0,
-  "runs": 7,
-  "runs_with_failed_sources": 2,
+  "runs": 8,
+  "runs_with_failed_sources": 3,
   "triage_decisions": {},
   "ai_spend_usd": 0.0,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 1
  },
  "editor": {
   "drafts_published": 0,
@@ -24,20 +24,24 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 5,
-  "visits": 5,
+  "page_views": 9,
+  "visits": 7,
   "bots_excluded": true,
   "by_day": [
    {
     "date": "2026-11-01",
-    "page_views": 5,
-    "visits": 5
+    "page_views": 9,
+    "visits": 7
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 4
+    "page_views": 7
+   },
+   {
+    "requestPath": "/news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/",
+    "page_views": 1
    },
    {
     "requestPath": "/institutions/datatilsynet-no/",
@@ -50,6 +54,18 @@
     "page_views": 4
    },
    {
+    "countryName": "HR",
+    "page_views": 2
+   },
+   {
+    "countryName": "AT",
+    "page_views": 1
+   },
+   {
+    "countryName": "SE",
+    "page_views": 1
+   },
+   {
     "countryName": "KR",
     "page_views": 1
    }
@@ -57,7 +73,15 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 5
+    "page_views": 6
+   },
+   {
+    "refererHost": "datagovernancesignal.com",
+    "page_views": 2
+   },
+   {
+    "refererHost": "www.google.com",
+    "page_views": 1
    }
   ]
  },
