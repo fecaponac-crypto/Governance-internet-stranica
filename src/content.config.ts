@@ -2,7 +2,15 @@ import { defineCollection } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { parse as parseYaml } from 'yaml';
-import { CATEGORY_IDS, COLUMN, CONTENT_TYPES, PREDICTION_STATUSES, STATUS_IDS } from './data/site';
+import {
+  CATEGORY_IDS,
+  COLUMN,
+  CONTENT_TYPES,
+  ENFORCEMENT_ACTIONS,
+  ENFORCEMENT_FRAMEWORKS,
+  PREDICTION_STATUSES,
+  STATUS_IDS,
+} from './data/site';
 import { INSTITUTION_IDS } from './data/institutions';
 
 const articles = defineCollection({
@@ -25,6 +33,21 @@ const articles = defineCollection({
     status: z.object({ stage: z.enum(STATUS_IDS), detail: z.string().max(100).optional() }).optional(),
     // Concrete checks for practitioners, drawn from the sources (importance 4–5 only).
     whatToCheck: z.array(z.string()).max(3).default([]),
+    // Fines, settlements, rulings, orders, investigations and complaints; feeds /enforcement/.
+    enforcement: z
+      .object({
+        action: z.enum(ENFORCEMENT_ACTIONS),
+        authority: z.string(),
+        parties: z.string(),
+        amount: z.number().positive().optional(),
+        currency: z.string().length(3).optional(),
+        law: z.string().optional(),
+        framework: z.enum(ENFORCEMENT_FRAMEWORKS),
+        jurisdiction: z.string(),
+        // Date of the decision, filing or announcement.
+        date: z.coerce.date(),
+      })
+      .optional(),
     // Dates that matter (application dates, consultation deadlines); feeds /deadlines/.
     deadlines: z.array(z.object({ date: z.coerce.date(), what: z.string().max(120) })).default([]),
     sources: z

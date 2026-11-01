@@ -11,6 +11,16 @@ region: "US"
 status:
   stage: Court ruling
   detail: "Jury verdict announced by New Mexico; reported by EPIC"
+enforcement:
+  action: "Court ruling"
+  authority: "New Mexico (jury verdict; state Department of Justice)"
+  parties: "Meta"
+  amount: 25000000000
+  currency: "USD"
+  law: "New Mexico Unfair Practices Act"
+  framework: "US state"
+  jurisdiction: "New Mexico, US"
+  date: 2026-10-22
 sources:
   - name: "EPIC — Electronic Privacy Information Center"
     title: "Meta Fined $25 Billion by New Mexican Court for Violating Privacy During Cambridge Analytica Scandal"

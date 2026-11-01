@@ -95,3 +95,12 @@ export async function getOpinions(): Promise<Opinion[]> {
 }
 
 export const opinionUrl = (o: Opinion) => `/opinion/${o.id}/`;
+
+/** Amounts as readers expect them: "EUR 7m", "USD 25bn", "NOK 92m", "EUR 450,000". */
+export function formatAmount(amount?: number, currency?: string): string {
+  if (!amount || !currency) return '—';
+  const n = (v: number) => (Number.isInteger(v) ? String(v) : v.toFixed(v < 10 ? 2 : 1).replace(/\.0+$|0+$/, ''));
+  if (amount >= 1e9) return `${currency} ${n(amount / 1e9)}bn`;
+  if (amount >= 1e6) return `${currency} ${n(amount / 1e6)}m`;
+  return `${currency} ${amount.toLocaleString('en-GB')}`;
+}

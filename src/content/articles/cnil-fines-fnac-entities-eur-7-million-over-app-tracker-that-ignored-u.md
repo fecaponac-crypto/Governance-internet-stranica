@@ -16,6 +16,16 @@ whatToCheck:
   - "Check whether your mobile apps send user identifiers and product-view events to third-party domains via APIs before or despite a consent refusal."
   - "Verify that data used to train recommendation or personalisation models is filtered by recorded consent status."
   - "Confirm your consent management tool covers app-to-server API calls, not only browser cookies."
+enforcement:
+  action: "Fine"
+  authority: "CNIL"
+  parties: "Fnac Darty Participations et Services; Fnac Direct"
+  amount: 7000000
+  currency: "EUR"
+  law: "French Data Protection Act, Article 82 (cookies and trackers)"
+  framework: "ePrivacy and cookies"
+  jurisdiction: "France"
+  date: 2026-10-22
 sources:
   - name: "CNIL"
     title: "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT"

@@ -8,7 +8,7 @@ import Feedback from '../../components/Feedback.astro';
 import Listen from '../../components/Listen.astro';
 import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
-import { getArticles, formatDate, isoDate, type Article } from '../../utils/articles';
+import { getArticles, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
 import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
 
 export async function getStaticPaths() {
@@ -181,6 +181,34 @@ const jsonLd = {
             {cats.map((c) => <li><a href={`/category/${c.id}/`}>{c.label}</a></li>)}
           </ul>
         </section>
+        {
+          data.enforcement && (
+            <section class="enf">
+              <h2 class="label">Enforcement</h2>
+              <dl>
+                <dt>Action</dt>
+                <dd>{data.enforcement.action}</dd>
+                <dt>Authority</dt>
+                <dd>{data.enforcement.authority}</dd>
+                <dt>Concerning</dt>
+                <dd>{data.enforcement.parties}</dd>
+                {data.enforcement.amount && (
+                  <>
+                    <dt>Amount</dt>
+                    <dd class="amount">{formatAmount(data.enforcement.amount, data.enforcement.currency)}</dd>
+                  </>
+                )}
+                {data.enforcement.law && (
+                  <>
+                    <dt>Law</dt>
+                    <dd>{data.enforcement.law}</dd>
+                  </>
+                )}
+              </dl>
+              <a href="/enforcement/">Enforcement tracker</a>
+            </section>
+          )
+        }
         {
           institutions.length > 0 && (
             <section>
@@ -436,5 +464,26 @@ const jsonLd = {
     background: var(--signal-soft);
     padding: 0.7rem 0.9rem;
     border-radius: 6px;
+  }
+  .enf dl {
+    margin: 0 0 0.5rem;
+    font-size: 0.88rem;
+  }
+  .enf dt {
+    font-size: 0.72rem;
+    font-weight: 650;
+    color: var(--ink-2);
+    margin-top: 0.45rem;
+  }
+  .enf dd {
+    margin: 0;
+  }
+  .enf .amount {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .enf > a {
+    font-size: 0.85rem;
   }
 </style>

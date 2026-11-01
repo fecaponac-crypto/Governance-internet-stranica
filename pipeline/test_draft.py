@@ -36,6 +36,8 @@ DRAFT = {
     "status_detail": "may be appealed",
     "what_to_check": ["Check that consent records name each controller relying on them."],
     "deadlines": [{"date": "2026-12-01", "what": "Deadline to comply"}, {"date": "December 2026", "what": "vague"}],
+    "enforcement": {"applies": True, "action": "Fine", "authority": "Example DPA", "parties": "Example Corp", "amount": 2000000,
+                    "currency": "eur", "law": "GDPR Articles 6 and 7", "framework": "GDPR", "jurisdiction": "EU", "date": "2026-10-19"},
     "card_figure": "EUR 2M",
     "card_caption": "Fine for profiling without valid consent",
     "editor_note": "",
@@ -152,6 +154,9 @@ class RunTest(unittest.TestCase):
         self.assertEqual(front["status"], {"stage": "Decision", "detail": "may be appealed"})
         self.assertEqual(len(front["whatToCheck"]), 1)
         self.assertEqual([str(x["date"]) for x in front["deadlines"]], ["2026-12-01"])  # vague date dropped
+        self.assertEqual(front["enforcement"]["amount"], 2000000)
+        self.assertEqual(front["enforcement"]["currency"], "EUR")
+        self.assertEqual(str(front["enforcement"]["date"]), "2026-10-19")
         self.assertEqual(str(front["date"]), "2026-10-20")
 
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
@@ -199,6 +204,17 @@ class RulesTest(unittest.TestCase):
     def test_what_to_check_only_for_important_items(self):
         d = draft.tidy({**DRAFT, "importance": 3, "deadlines": [], "what_to_check": ["x"]})
         self.assertEqual(d["what_to_check"], [])
+
+    def test_enforcement_record_rules(self):
+        self.assertIsNone(draft.tidy_enforcement({"applies": False}))
+        e = draft.tidy_enforcement({"applies": True, "action": "Investigation", "authority": "FTC", "parties": "Nine firms",
+                                    "amount": 0, "currency": "", "law": "", "framework": "US federal",
+                                    "jurisdiction": "US", "date": "2026-10-28"})
+        self.assertEqual(sorted(e), ["action", "authority", "date", "framework", "jurisdiction", "parties"])
+        self.assertIsNone(draft.tidy_enforcement({**e, "applies": True, "date": "October 2026"}))
+        actions, frameworks = draft.enforcement_vocabulary()
+        self.assertIn("Fine", actions)
+        self.assertIn("GDPR", frameworks)
 
     def test_institutions_read_from_site(self):
         ids = [i["id"] for i in draft.institution_vocabulary()]

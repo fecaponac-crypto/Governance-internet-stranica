@@ -12,6 +12,14 @@ region: "EU"
 status:
   stage: "Alleged"
   detail: "Complaints filed with four national authorities; no investigation or decision yet"
+enforcement:
+  action: "Complaint"
+  authority: "noyb and partners (complaints to DPAs in France, Italy, the Netherlands and Austria)"
+  parties: "Scale AI (Outlier platform)"
+  law: "GDPR Articles 5(1)(c), 12(3), 15, 25(1), 28(1); French ePrivacy rule"
+  framework: "GDPR"
+  jurisdiction: "EU (FR, IT, NL, AT)"
+  date: 2026-10-27
 sources:
   - name: "noyb"
     title: "Plainte contre Scale AI, Inc. adressée à la CNIL (dossier C109-01)"

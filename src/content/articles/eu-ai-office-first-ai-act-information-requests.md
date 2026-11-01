@@ -12,6 +12,14 @@ region: EU
 status:
   stage: Investigation
   detail: "Information requests; no decision yet"
+enforcement:
+  action: "Investigation"
+  authority: "European Commission (AI Office)"
+  parties: "General-purpose AI model providers (not named officially)"
+  law: "AI Act, Article 91 (requests for information)"
+  framework: "AI Act"
+  jurisdiction: "EU"
+  date: 2026-10-14
 sources:
   - name: European Commission
     title: "Speech by Executive Vice-President Virkkunen at the International AI Summit in Dublin"

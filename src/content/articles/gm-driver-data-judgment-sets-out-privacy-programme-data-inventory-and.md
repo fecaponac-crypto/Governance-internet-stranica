@@ -21,6 +21,13 @@ deadlines:
     what: "Effective date of GM judgment; 180-day privacy programme and 60-day enrolment procedure clocks start"
   - date: 2046-01-13
     what: "GM privacy programme obligations under the Oregon judgment end"
+enforcement:
+  action: "Court ruling"
+  authority: "Oregon Department of Justice (stipulated judgment)"
+  parties: "General Motors; OnStar"
+  framework: "US state"
+  jurisdiction: "Oregon, US"
+  date: 2026-10-30
 sources:
   - name: "Oregon Department of Justice"
     title: "Stipulated General Judgment and Money Award, State of Oregon v. General Motors LLC et al."

@@ -16,6 +16,14 @@ whatToCheck:
   - "Check whether you can document the inputs, tools and procedures used by any model that sets or adjusts individual prices or worker compensation."
   - "Identify whether personal data such as browsing behaviour, loyalty-programme membership, phone usage or offer-acceptance history feeds pricing or pay decisions."
   - "Review whether customers and workers are told when personal data influences the price they pay or the pay they receive."
+enforcement:
+  action: "Investigation"
+  authority: "US Federal Trade Commission"
+  parties: "Delta, United, JetBlue, Lyft, Uber, DoorDash, Instacart, Target, Walmart"
+  law: "FTC Act, Section 6(b) (study orders)"
+  framework: "US federal"
+  jurisdiction: "US"
+  date: 2026-10-28
 sources:
   - name: "US Federal Trade Commission"
     title: "FTC launches personalized pricing and compensation inquiry"

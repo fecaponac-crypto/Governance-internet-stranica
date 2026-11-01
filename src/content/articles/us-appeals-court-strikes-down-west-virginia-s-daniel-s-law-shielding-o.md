@@ -12,6 +12,14 @@ region: "US"
 status:
   stage: "Court ruling"
   detail: "Affirms August 2025 district court ruling; further appeal not addressed"
+enforcement:
+  action: "Court ruling"
+  authority: "US Court of Appeals for the 4th Circuit"
+  parties: "People-search firms incl. Thomson Reuters, Whitepages, Thryv, PeopleConnect, LexisNexis Risk Solutions (law held unconstitutional)"
+  law: "W. Va. Code § 5A-8-24(e) (Daniel's Law)"
+  framework: "US state"
+  jurisdiction: "West Virginia, US"
+  date: 2026-10-27
 sources:
   - name: "US Court of Appeals for the Fourth Circuit"
     title: "Jackson v. Thomson Reuters America Corporation, No. 25-2121 (published opinion)"

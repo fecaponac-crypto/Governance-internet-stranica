@@ -16,6 +16,15 @@ whatToCheck:
   - "Verify that consent or enrolment status shown to customers in apps matches the status held in the systems that actually collect and share their data."
   - "Review data-sharing contracts with brokers or partners to confirm the stated downstream uses, such as insurance pricing, were disclosed to the individuals concerned."
   - "Check whether third parties such as dealers or sales staff can accept terms or enrol customers on their behalf, and whether incentives encourage this."
+enforcement:
+  action: "Settlement"
+  authority: "36 US state attorneys general (co-led by Washington and Oregon)"
+  parties: "General Motors"
+  amount: 220000000
+  currency: "USD"
+  framework: "US state"
+  jurisdiction: "US (36 states)"
+  date: 2026-10-29
 sources:
   - name: "Washington State Office of the Attorney General"
     title: "GM to pay $220M for sharing drivers' private data in case co-led by Washington"

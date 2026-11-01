@@ -52,6 +52,19 @@ export const STATUS_STAGES: Record<string, string> = {
 };
 export const STATUS_IDS = Object.keys(STATUS_STAGES) as [string, ...string[]];
 
+// Enforcement tracker (/enforcement/): what kind of action, and under which body of law.
+export const ENFORCEMENT_ACTIONS = ['Fine', 'Settlement', 'Court ruling', 'Order', 'Investigation', 'Complaint'] as const;
+export const ENFORCEMENT_FRAMEWORKS = [
+  'GDPR',
+  'ePrivacy and cookies',
+  'AI Act',
+  'EU digital rules',
+  'UK data protection',
+  'US federal',
+  'US state',
+  'Other national law',
+] as const;
+
 export const PREDICTION_STATUSES = ['open', 'correct', 'partly', 'wrong', 'void'] as const;
 
 export type Section = 'core' | 'broad';

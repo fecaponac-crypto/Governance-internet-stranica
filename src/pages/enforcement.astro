@@ -1,0 +1,286 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENFORCEMENT_ACTIONS, ENFORCEMENT_FRAMEWORKS, SITE } from '../data/site';
+import { articleUrl, formatAmount, formatDate, getArticles, isoDate } from '../utils/articles';
+
+const rows = (await getArticles())
+  .filter((a) => a.data.enforcement)
+  .map((a) => ({ article: a, e: a.data.enforcement! }))
+  .sort((x, y) => y.e.date.getTime() - x.e.date.getTime());
+const count = (key: 'framework' | 'action', value: string) => rows.filter((r) => r.e[key] === value).length;
+const frameworks = ENFORCEMENT_FRAMEWORKS.filter((f) => count('framework', f));
+const actions = ENFORCEMENT_ACTIONS.filter((a) => count('action', a));
+const fines = rows.filter((r) => r.e.amount && ['Fine', 'Settlement', 'Court ruling'].includes(r.e.action)).length;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Data protection and AI enforcement tracker',
+  description: 'Fines, settlements, court rulings, orders, investigations and complaints in data protection, privacy and AI regulation, each linked to its sources.',
+  url: `${SITE.url}/enforcement/`,
+  creator: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+  dateModified: rows[0] ? isoDate(rows[0].e.date) : undefined,
+};
+---
+
+<Base
+  title="Enforcement tracker: data protection and AI fines and decisions"
+  description="Every GDPR, AI Act and privacy fine, settlement, ruling and investigation we cover — authority, company, amount and law, with links to the sources."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Tracker</p>
+      <h1>Enforcement tracker</h1>
+      <p>
+        Fines, settlements, court rulings, orders, investigations and complaints in data protection, privacy and AI
+        regulation — who acted, against whom, how much and under which law. Every entry links to our coverage and its
+        sources. Complaints and investigations are listed separately from decisions: they are not findings.
+      </p>
+    </header>
+
+    <section class="stats" aria-label="Summary">
+      <div><b>{rows.length}</b><span>actions tracked</span></div>
+      <div><b>{fines}</b><span>with a stated amount</span></div>
+      <div><b>{new Set(rows.map((r) => r.e.jurisdiction)).size}</b><span>jurisdictions</span></div>
+    </section>
+
+    <form class="filters" data-filters aria-label="Filter the tracker">
+      <label>
+        Law
+        <select name="framework">
+          <option value="">All</option>
+          {frameworks.map((f) => <option value={f}>{f} ({count('framework', f)})</option>)}
+        </select>
+      </label>
+      <label>
+        Action
+        <select name="action">
+          <option value="">All</option>
+          {actions.map((a) => <option value={a}>{a} ({count('action', a)})</option>)}
+        </select>
+      </label>
+      <p class="shown" role="status" data-shown>{rows.length} shown</p>
+    </form>
+
+    <div class="table-wrap">
+      <table>
+        <caption class="visually-hidden">Enforcement actions, newest first</caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Authority</th>
+            <th scope="col">Against / concerning</th>
+            <th scope="col">Action</th>
+            <th scope="col" class="num">Amount</th>
+            <th scope="col">Law</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map(({ article, e }) => (
+              <tr data-framework={e.framework} data-action={e.action}>
+                <td data-label="Date"><time datetime={isoDate(e.date)}>{formatDate(e.date)}</time></td>
+                <td data-label="Authority">
+                  {e.authority}
+                  <span class="sub">{e.jurisdiction}</span>
+                </td>
+                <td data-label="Against / concerning">
+                  <a href={articleUrl(article)}>{e.parties}</a>
+                </td>
+                <td data-label="Action">
+                  <span class:list={['action', e.action.toLowerCase().replace(/\s+/g, '-')]}>{e.action}</span>
+                </td>
+                <td data-label="Amount" class="num">{formatAmount(e.amount, e.currency)}</td>
+                <td data-label="Law">
+                  {e.law ?? '—'}
+                  <span class="sub">{e.framework}</span>
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <div class="prose notes">
+      <h2>About this tracker</h2>
+      <ul>
+        <li>Built from the stories we publish, so it covers what our sources report and our editor approves; it is not an exhaustive register of every decision.</li>
+        <li>Amounts are as stated in the sources, in the original currency. Settlements and court awards may be appealed or paid in instalments; see each story's status.</li>
+        <li><b>Complaints</b> and <b>investigations</b> are claims or inquiries, not findings. Nothing in those rows has been decided.</li>
+        <li>Spotted a missing or wrong entry? <a href={`mailto:${SITE.email}?subject=Enforcement tracker`}>Tell us</a>. See also <a href="/institutions/">institutions</a> and <a href="/deadlines/">key dates</a>.</li>
+      </ul>
+    </div>
+  </div>
+</Base>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-filters]').forEach((form) => {
+    const rows = [...document.querySelectorAll<HTMLTableRowElement>('tbody tr')];
+    const shown = form.querySelector<HTMLElement>('[data-shown]')!;
+    const apply = () => {
+      const f = (form.elements.namedItem('framework') as HTMLSelectElement).value;
+      const a = (form.elements.namedItem('action') as HTMLSelectElement).value;
+      let n = 0;
+      rows.forEach((r) => {
+        const on = (!f || r.dataset.framework === f) && (!a || r.dataset.action === a);
+        r.hidden = !on;
+        n += on ? 1 : 0;
+      });
+      shown.textContent = `${n} shown`;
+    };
+    form.addEventListener('change', apply);
+  });
+</script>
+
+<style>
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-bottom: 1.5rem;
+  }
+  .stats div {
+    background: var(--paper);
+    padding: 0.9rem 1rem;
+  }
+  .stats b {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.7rem;
+  }
+  .stats span {
+    font-size: 0.8rem;
+    color: var(--ink-2);
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .filters label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  select {
+    font: inherit;
+    font-size: 0.9rem;
+    min-height: 2.25rem;
+    padding: 0.3rem 0.5rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+  }
+  .shown {
+    margin: 0 0 0.4rem;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  .table-wrap {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  th {
+    text-align: left;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    border-bottom: 2px solid var(--ink);
+    padding: 0.5rem 0.6rem;
+  }
+  td {
+    vertical-align: top;
+    border-bottom: 1px solid var(--rule);
+    padding: 0.75rem 0.6rem;
+  }
+  tr[hidden] {
+    display: none;
+  }
+  .num {
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+  }
+  time {
+    white-space: nowrap;
+  }
+  .sub {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--ink-2);
+  }
+  .action {
+    font-size: 0.78rem;
+    font-weight: 650;
+    border: 1px solid currentColor;
+    border-radius: 99px;
+    padding: 0.05rem 0.5rem;
+    white-space: nowrap;
+    color: var(--ink-2);
+  }
+  .action.fine,
+  .action.settlement,
+  .action.court-ruling {
+    color: var(--signal);
+  }
+  .notes {
+    margin-top: 2rem;
+  }
+  .notes h2 {
+    font-size: 1.3rem;
+  }
+  .notes ul {
+    padding-left: 1.2rem;
+    font-size: 0.92rem;
+  }
+  /* Phones: each row becomes a card. */
+  @media (max-width: 720px) {
+    thead {
+      display: none;
+    }
+    tr {
+      display: block;
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+    }
+    td {
+      display: grid;
+      grid-template-columns: 7.5rem 1fr;
+      gap: 0.5rem;
+      border: none;
+      padding: 0.25rem 0;
+    }
+    td::before {
+      content: attr(data-label);
+      font-size: 0.75rem;
+      font-weight: 650;
+      color: var(--ink-2);
+    }
+    td .action {
+      justify-self: start;
+    }
+    td > .sub {
+      grid-column: 2;
+      margin-top: -0.4rem;
+    }
+    .num {
+      text-align: left;
+    }
+  }
+</style>

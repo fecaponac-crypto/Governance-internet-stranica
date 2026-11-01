@@ -86,6 +86,17 @@ def status_vocabulary() -> dict[str, str]:
     return dict(re.findall(r"^\s+'?([A-Z][A-Za-z -]+?)'?: '([^']+)',", block.group(1), re.M))
 
 
+def enforcement_vocabulary() -> tuple[list[str], list[str]]:
+    """ENFORCEMENT_ACTIONS and ENFORCEMENT_FRAMEWORKS from src/data/site.ts."""
+    ts = (ROOT / "src" / "data" / "site.ts").read_text(encoding="utf-8")
+    lists = []
+    for name in ("ENFORCEMENT_ACTIONS", "ENFORCEMENT_FRAMEWORKS"):
+        block = re.search(rf"{name} = \[(.*?)\] as const", ts, re.S)
+        assert block, f"could not read {name} from site.ts"
+        lists.append(re.findall(r"'([^']+)'", block.group(1)))
+    return lists[0], lists[1]
+
+
 def institution_vocabulary() -> list[dict]:
     """Institution ids and names from src/data/institutions.ts."""
     ts = (ROOT / "src" / "data" / "institutions.ts").read_text(encoding="utf-8")
@@ -398,6 +409,7 @@ Fields:
 - status_detail: one short clause qualifying the stage (max 100 characters), e.g. "Parliament has yet to adopt its position" or "applies from 2 August 2027"; empty if nothing to add.
 - what_to_check: only for importance 4–5, 1–3 concrete checks a governance, privacy or compliance team should make in their own organisation, each one sentence, following directly from what the sources say (not generic advice). Empty list for importance 1–3 or when the sources give no basis.
 - deadlines: dates stated in the sources that practitioners need to act on or watch — application dates, consultation or comment deadlines, compliance deadlines, hearing or vote dates. Each with the date (YYYY-MM-DD; only if the exact day is stated) and what happens (max 120 characters). Empty if none.
+- enforcement: set applies to true only when the story is about a fine, settlement, court ruling, regulator order, investigation or formal complaint concerning a named organisation (or group of organisations). Then give the action, the authority (or court, or complainant for a complaint) as readers know it, the parties concerned, the amount as a number with its ISO currency code (0 and empty currency when no amount is stated), the law and provisions as named in the sources (empty if not named), the legal framework from the allowed list, the jurisdiction (country, state or EU) and the date of the decision, filing or announcement (YYYY-MM-DD). Use only facts from the sources. When applies is false, fill the other fields with empty values.
 - region: e.g. "EU", "UK", "US", "Global", or a country.
 - card_figure: the single key fact for the news card in large type — a number, amount, deadline, article or standard number, or 1–2 words (max 22 characters).
 - card_caption: one line explaining card_figure (max 90 characters).
@@ -407,7 +419,10 @@ Fields:
 
 
 def write_schema(category_ids: list[str], types: list[str], slugs: list[str], refs: list[int],
-                 institution_ids: list[str], stages: list[str]) -> dict:
+                 institution_ids: list[str], stages: list[str], actions: list[str] | None = None,
+                 frameworks: list[str] | None = None) -> dict:
+    if actions is None or frameworks is None:
+        actions, frameworks = enforcement_vocabulary()
     s = lambda **kw: {"type": "string", **kw}
     return {
         "type": "object",
@@ -433,6 +448,24 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
                     "additionalProperties": False,
                 },
             },
+            "enforcement": {
+                "type": "object",
+                "properties": {
+                    "applies": {"type": "boolean"},
+                    "action": s(enum=actions + [""]),
+                    "authority": s(),
+                    "parties": s(),
+                    "amount": {"type": "number"},
+                    "currency": s(),
+                    "law": s(),
+                    "framework": s(enum=frameworks + [""]),
+                    "jurisdiction": s(),
+                    "date": s(description="YYYY-MM-DD"),
+                },
+                "required": ["applies", "action", "authority", "parties", "amount", "currency", "law", "framework",
+                             "jurisdiction", "date"],
+                "additionalProperties": False,
+            },
             "region": s(),
             "card_figure": s(),
             "card_caption": s(),
@@ -450,7 +483,7 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "review_notes": s(),
         },
         "required": [
-            "title", "dek", "body", "why_it_matters", "categories", "institutions", "who_should_care", "importance", "type", "status_stage", "status_detail", "what_to_check", "deadlines", "region",
+            "title", "dek", "body", "why_it_matters", "categories", "institutions", "who_should_care", "importance", "type", "status_stage", "status_detail", "what_to_check", "deadlines", "enforcement", "region",
             "card_figure", "card_caption", "editor_note", "sources", "related", "review_notes",
         ],
         "additionalProperties": False,
@@ -507,7 +540,29 @@ def tidy(d: dict) -> dict:
         dates.append({"date": x["date"], "what": x["what"].strip()[:120]})
     d["deadlines"] = sorted(dates, key=lambda x: x["date"])
     d["status_detail"] = d["status_detail"].strip()[:100]
+    d["enforcement"] = tidy_enforcement(d.get("enforcement"))
     return d
+
+
+def tidy_enforcement(e: dict | None) -> dict | None:
+    """Keep a complete enforcement record or none at all."""
+    if not e or not e.get("applies") or not e.get("action") or not e.get("framework"):
+        return None
+    try:
+        date.fromisoformat(e["date"])
+    except (KeyError, ValueError):
+        return None
+    out = {k: e[k].strip() for k in ("action", "authority", "parties", "framework", "jurisdiction")}
+    if not all(out.values()):
+        return None
+    currency = (e.get("currency") or "").strip().upper()
+    if e.get("amount") and e["amount"] > 0 and re.fullmatch(r"[A-Z]{3}", currency):
+        out["amount"] = int(e["amount"]) if float(e["amount"]).is_integer() else e["amount"]
+        out["currency"] = currency
+    if (e.get("law") or "").strip():
+        out["law"] = e["law"].strip()
+    out["date"] = e["date"]
+    return out
 
 
 # --------------------------------------------------------------------------- 4. fact check
@@ -547,7 +602,8 @@ def fact_check(client, state, d: dict, sources: list[dict]) -> dict:
         f"Body:\n{d['body']}\n\nWhy it matters:\n{d['why_it_matters']}\n\n"
         f"Status: {d['status_stage']} — {d['status_detail']}\n"
         f"Key dates: {dates}\n"
-        f"What to check: {' | '.join(d['what_to_check']) or 'none'}"
+        f"What to check: {' | '.join(d['what_to_check']) or 'none'}\n"
+        f"Enforcement record: {json.dumps(d.get('enforcement'), ensure_ascii=False) if d.get('enforcement') else 'none'}"
     )
     result = call_json(client, state, model=WRITER_MODEL, system=CHECK_SYSTEM,
                        user=f"--- DRAFT ---\n{draft_text}\n--- END DRAFT ---\n\n{sources_block(sources)}",
@@ -618,6 +674,8 @@ def to_markdown(d: dict, item: dict) -> str:
         *(["whatToCheck:"] + [f"  - {q(c)}" for c in d["what_to_check"]] if d["what_to_check"] else []),
         *(["deadlines:"] + [l for x in d["deadlines"] for l in (f"  - date: {x['date']}", f"    what: {q(x['what'])}")]
           if d["deadlines"] else []),
+        *(["enforcement:"] + [f"  {k}: {v if k in ('amount', 'date') else q(v)}" for k, v in d["enforcement"].items()]
+          if d.get("enforcement") else []),
         "sources:",
     ]
     for s in d["sources"]:
@@ -648,6 +706,13 @@ def git(*args: str) -> str:
     return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip()
 
 
+def enforcement_line(e: dict | None) -> str:
+    if not e:
+        return "not an enforcement story"
+    amount = f" · {e['currency']} {e['amount']:,}" if e.get("amount") else ""
+    return f"{e['action']} by {e['authority']} concerning {e['parties']}{amount} · {e.get('law', 'law not stated')} ({e['framework']}, {e['jurisdiction']}, {e['date']})"
+
+
 def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict, score: dict, base: str) -> str:
     branch = f"drafts/{slug}"
     git("checkout", "-q", "-b", branch, f"origin/{base}")
@@ -674,6 +739,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 **Institutions:** {', '.join(d.get('institutions', [])) or 'none'}
 **Status:** {d['status_stage']}{f" — {d['status_detail']}" if d['status_detail'] else ''}
 **Key dates:** {'; '.join(f"{x['date']} {x['what']}" for x in d['deadlines']) or 'none'}
+**Enforcement tracker:** {enforcement_line(d.get('enforcement'))}
 **Card:** `{d['card_figure']}` — {d['card_caption']}
 
 ### {d['title']}

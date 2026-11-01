@@ -228,6 +228,12 @@ Okvirne skupine izvora:
 - **Ručno prikvačivanje:** u PR-u dodati `featuredUntil: GGGG-MM-DD`; vijest je glavna do tog datuma (uključivo).
 - Stranica se ponovno gradi pri svakom spajanju i **svako jutro** (prvo prikupljanje u 06 UTC), pa se vrh i kalendar rokova mijenjaju i u mirnim danima.
 
+## 10a-5. Tracker kazni i odluka (1. 11. 2026.)
+
+- Stranica `/enforcement/`: kazne, nagodbe, sudske odluke, naredbe, istrage i pritužbe (tko, protiv koga, iznos, zakon, okvir, nadležnost, datum), s filtrima po zakonu i vrsti mjere; strukturirani podaci (schema.org Dataset).
+- Podaci su u polju `enforcement` vijesti; AI ga popunjava u nacrtu (samo iz izvora), provjera činjenica ga pokriva, a urednik ga vidi u PR-u („Enforcement tracker”). Pritužbe i istrage jasno su odvojene od odluka.
+- Na vijesti je okvir „Enforcement” u desnom stupcu; na početnoj blok „Latest enforcement”; poveznica u podnožju.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

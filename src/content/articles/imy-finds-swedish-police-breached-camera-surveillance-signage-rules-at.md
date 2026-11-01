@@ -12,6 +12,14 @@ region: "Sweden"
 status:
   stage: "Decision"
   detail: "Breach found; additional signage ordered, no fine mentioned"
+enforcement:
+  action: "Order"
+  authority: "IMY"
+  parties: "Swedish Police Authority"
+  law: "Camera Surveillance Act (information requirement)"
+  framework: "Other national law"
+  jurisdiction: "Sweden"
+  date: 2026-10-27
 sources:
   - name: "IMY (Integritetsskyddsmyndigheten)"
     title: "Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation"
