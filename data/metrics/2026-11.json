@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-01T18:18:29Z",
+ "updated": "2026-11-01T19:43:24Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -9,14 +9,14 @@
  },
  "pipeline": {
   "items_collected": 1,
-  "runs": 10,
+  "runs": 11,
   "runs_with_failed_sources": 4,
   "triage_decisions": {
    "skipped": 1
   },
   "ai_spend_usd": 0.0005,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 0
  },
  "editor": {
   "drafts_published": 0,
@@ -26,14 +26,14 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 11,
-  "visits": 9,
+  "page_views": 12,
+  "visits": 10,
   "bots_excluded": true,
   "by_day": [
    {
     "date": "2026-11-01",
-    "page_views": 11,
-    "visits": 9
+    "page_views": 12,
+    "visits": 10
    }
   ],
   "top_pages": [
@@ -43,6 +43,10 @@
    },
    {
     "requestPath": "/news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/",
+    "page_views": 1
+   },
+   {
+    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
     "page_views": 1
    },
    {
@@ -64,6 +68,10 @@
     "page_views": 1
    },
    {
+    "countryName": "CN",
+    "page_views": 1
+   },
+   {
     "countryName": "SE",
     "page_views": 1
    },
@@ -75,7 +83,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 7
+    "page_views": 8
    },
    {
     "refererHost": "www.google.com",
