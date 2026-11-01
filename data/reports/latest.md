@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-01T09:18:14Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-01T12:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (26)
+## New items, last 48 hours (24)
 
 ### High priority sources
 
@@ -27,7 +27,6 @@ Last run: **2026-11-01T09:18:14Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-30 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: W. R. Berkley, Truist, and PENN Entertainment](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-w-r-berkley-truist-and-penn-entertainment) |
 | 2026-10-30 | CDO Magazine | [Leadership Moves Truist Names Tim Brophy Chief Data and Governance Officer](https://www.cdomagazine.tech/leadership-moves/truist-names-tim-brophy-chief-data-and-governance-officer) |
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence Approaching Agentic AI Systems the Right Way: A Modern CDO’s Guide](https://www.cdomagazine.tech/aiml/approaching-agentic-ai-systems-the-right-way-a-modern-cdos-guide) |
-| 2026-10-30 | DATAVERSITY | [The Enterprise Rebuild Problem: When Reuse Becomes an Architectural Advantage](https://www.dataversity.net/articles/the-enterprise-rebuild-problem-when-reuse-becomes-an-architectural-advantage/) |
 
 ### Low priority sources
 
@@ -43,11 +42,10 @@ Last run: **2026-11-01T09:18:14Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-30 | Center for Data Innovation | [Mapping Immune Genes](https://datainnovation.org/2026/10/mapping-immune-genes/) |
 | 2026-10-30 | Precisely Blog | [How an MCP server connects AI agents to customer communications](https://www.precisely.com/blog/cat-customer-engagement/how-an-mcp-server-connects-ai-agents-to-customer-communications/) |
 | 2026-10-30 | Modern Data 101 | [The Harness Is the Architecture](https://moderndata101.substack.com/p/the-harness-is-the-architecture) |
-| 2026-10-30 | Autorité de protection des données (Belgium) | [Sous la loupe - La vie privée en colonie de vacances : la partie immergée de l’iceberg](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/30/sous-la-loupe-la-vie-privee-en-colonie-de-vacances-la-partie-immergee-de-liceberg) |
 
 ## Source problems
 
-- **AlgorithmWatch** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='algorithmwatch.org', port=443): Max retries exceeded with url: /en/feed/ (Caused by NewConnectionError("HTTPSConnection(host='algorithmwatch.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
+_None._
 
 ## Check manually (weekly)
 
