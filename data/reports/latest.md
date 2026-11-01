@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-10-31T21:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-01T00:09:27Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (35)
+## New items, last 48 hours (29)
 
 ### High priority sources
 
@@ -31,8 +31,6 @@ Last run: **2026-10-31T21:18:20Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence Oracle Adds Business Context and Governance Controls for AI Agents](https://www.cdomagazine.tech/aiml/oracle-adds-business-context-and-governance-controls-for-ai-agents) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau GSA Inspector General Finds 116 CUI Files Improperly Exposed in Google Drive](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-inspector-general-finds-116-cui-files-improperly-exposed-in-google-drive) |
 | 2026-10-30 | CDO Magazine | [US Federal News Bureau Defense Contractor Gave Personal AI Agent Access to Pentagon System](https://www.cdomagazine.tech/us-federal-news-bureau/defense-contractor-gave-personal-ai-agent-access-to-pentagon-system) |
-| 2026-10-29 | CDO Magazine | [Community Montreal’s Data and AI Leaders Find Common Ground at Inaugural Executive Dinner](https://www.cdomagazine.tech/community/montreals-data-and-ai-leaders-find-common-ground-at-inaugural-executive-dinner) |
-| 2026-10-29 | Future of Privacy Forum | [FPF Submits Comments to Inform Colorado Automated Decision-Making (ADM) Act Rulemaking](https://fpf.org/blog/fpf-submits-comments-to-inform-colorado-automated-decision-making-adm-act-rulemaking/) |
 
 ### Low priority sources
 
@@ -49,14 +47,11 @@ Last run: **2026-10-31T21:18:20Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | Precisely Blog | [How an MCP server connects AI agents to customer communications](https://www.precisely.com/blog/cat-customer-engagement/how-an-mcp-server-connects-ai-agents-to-customer-communications/) |
 | 2026-10-30 | Modern Data 101 | [The Harness Is the Architecture](https://moderndata101.substack.com/p/the-harness-is-the-architecture) |
 | 2026-10-30 | Autorité de protection des données (Belgium) | [Sous la loupe - La vie privée en colonie de vacances : la partie immergée de l’iceberg](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/10/30/sous-la-loupe-la-vie-privee-en-colonie-de-vacances-la-partie-immergee-de-liceberg) |
-| 2026-10-29 | The Record (Recorded Future News) | [GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms](https://therecord.media/general-motors-lawsuit-privacy) |
-| 2026-10-29 | Computer Weekly — IT security | [UK surveillance watchdog ‘disappointed’ over government investigatory powers failings](https://www.computerweekly.com/news/366652841/UK-surveillance-watchdog-disappointed-over-government-investigatory-powers-failings) |
-| 2026-10-21 | Center for Security and Emerging Technology (CSET) | [Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds](https://cset.georgetown.edu/article/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/) |
-| 2026-10-06 | Center for Security and Emerging Technology (CSET) | [AI & Tech Brief: Jay Clayton takes control](https://cset.georgetown.edu/article/ai-tech-brief-jay-clayton-takes-control/) |
 
 ## Source problems
 
-_None._
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **Monte Carlo Blog** — failed 1× in a row: `ValueError: unreadable feed https://www.montecarlodata.com/feed/: <unknown>:94:2: mismatched tag`
 
 ## Check manually (weekly)
 
