@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-01T00:18:12Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-01T03:18:18Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (29)
+## New items, last 48 hours (26)
 
 ### High priority sources
 
@@ -28,9 +28,6 @@ Last run: **2026-11-01T00:18:12Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | CDO Magazine | [Leadership Moves Truist Names Tim Brophy Chief Data and Governance Officer](https://www.cdomagazine.tech/leadership-moves/truist-names-tim-brophy-chief-data-and-governance-officer) |
 | 2026-10-30 | CDO Magazine | [Artificial Intelligence Approaching Agentic AI Systems the Right Way: A Modern CDO’s Guide](https://www.cdomagazine.tech/aiml/approaching-agentic-ai-systems-the-right-way-a-modern-cdos-guide) |
 | 2026-10-30 | DATAVERSITY | [The Enterprise Rebuild Problem: When Reuse Becomes an Architectural Advantage](https://www.dataversity.net/articles/the-enterprise-rebuild-problem-when-reuse-becomes-an-architectural-advantage/) |
-| 2026-10-30 | CDO Magazine | [Artificial Intelligence Oracle Adds Business Context and Governance Controls for AI Agents](https://www.cdomagazine.tech/aiml/oracle-adds-business-context-and-governance-controls-for-ai-agents) |
-| 2026-10-30 | CDO Magazine | [US Federal News Bureau GSA Inspector General Finds 116 CUI Files Improperly Exposed in Google Drive](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-inspector-general-finds-116-cui-files-improperly-exposed-in-google-drive) |
-| 2026-10-30 | CDO Magazine | [US Federal News Bureau Defense Contractor Gave Personal AI Agent Access to Pentagon System](https://www.cdomagazine.tech/us-federal-news-bureau/defense-contractor-gave-personal-ai-agent-access-to-pentagon-system) |
 
 ### Low priority sources
 
