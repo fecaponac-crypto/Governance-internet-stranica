@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-01T03:18:34Z",
+ "updated": "2026-11-01T06:11:15Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -9,7 +9,7 @@
  },
  "pipeline": {
   "items_collected": 0,
-  "runs": 3,
+  "runs": 4,
   "runs_with_failed_sources": 1,
   "triage_decisions": {},
   "ai_spend_usd": 0.0,
@@ -24,17 +24,21 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 1,
-  "visits": 1,
+  "page_views": 3,
+  "visits": 3,
   "bots_excluded": true,
   "by_day": [
    {
     "date": "2026-11-01",
-    "page_views": 1,
-    "visits": 1
+    "page_views": 3,
+    "visits": 3
    }
   ],
   "top_pages": [
+   {
+    "requestPath": "/",
+    "page_views": 2
+   },
    {
     "requestPath": "/institutions/datatilsynet-no/",
     "page_views": 1
@@ -43,13 +47,13 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 1
+    "page_views": 3
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 1
+    "page_views": 3
    }
   ]
  },

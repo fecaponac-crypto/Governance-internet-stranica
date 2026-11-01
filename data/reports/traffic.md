@@ -1,23 +1,24 @@
 # Traffic — 2026-11
 
-Updated 2026-11-01T03:18:34Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-01T06:11:15Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**1 visits · 1 page views** this month (bots excluded)
+**3 visits · 3 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 | Day | Visits | Page views |
 |---|---:|---:|
-| 2026-11-01 | 1 | 1 |
+| 2026-11-01 | 3 | 3 |
 
 ## Top pages
 
+- / — 2
 - /institutions/datatilsynet-no/ — 1
 
 ## Countries
 
-- US — 1
+- US — 3
 
 ## Referrers
 
-- (direct) — 1
+- (direct) — 3
