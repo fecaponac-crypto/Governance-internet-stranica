@@ -4,18 +4,24 @@ Visits:      152  (+660% on the week before: 20)
 Page views:  195  (+388% on the week before: 40)
 
 Most read:
-   180  /
+   170  /
+     4  /opinion/are-we-building-systems-for-the-future/
+     3  /category/regulation/
+     2  /news/google-knowledge-catalog-self-learning-enrichment/
+     2  /newsletter/welcome/
 
 Countries:
-   100  US
-    30  HR
-    20  CA
-    10  JP
-    10  PT
+    72  US
+    58  HR
+    12  NL
+    12  CA
+     6  DE
 
 Where visitors came from:
-   140  (direct)
-    40  datagovernancesignal.com
+   150  (direct)
+    43  datagovernancesignal.com
+     1  buttondown.com
+     1  bing.com
 
 Published this week: 37 stories
   - Advocates say Colorado's revised ADMT draft rules let deployers shift blame to developers and data brokers
