@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-01T00:09:27Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-01T00:18:12Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
 ## New items, last 48 hours (29)
 
@@ -50,8 +50,7 @@ Last run: **2026-11-01T00:09:27Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **Monte Carlo Blog** — failed 1× in a row: `ValueError: unreadable feed https://www.montecarlodata.com/feed/: <unknown>:94:2: mismatched tag`
+_None._
 
 ## Check manually (weekly)
 
