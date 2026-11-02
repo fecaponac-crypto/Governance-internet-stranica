@@ -5,4 +5,8 @@
 # - url: https://example.org/story
 #   published: 2026-10-30
 #   via: {name: "Nenad's NL (Nenad Bakić)", url: https://nenadbakic.substack.com/}
-[]
+- url: https://www.digitaleurope.org/news/digital-sovereignty-europe-needs-high-fences-for-small-fields-and-low-or-no-fences-for-everything-else-on-the-cloud-and-ai-development-act/
+  published: 2026-11-02
+  title: "Cloud industry pushes back on the sovereignty levels in the EU Cloud and AI Development Act"
+  note: "European and US cloud providers object to parts of the proposed Cloud and AI Development Act (CADA/CAIDA) sovereignty requirements for public-sector cloud, as reported by Euractiv on 2 November 2026. DIGITALEUROPE's statement of 22 October 2026 asks lawmakers to limit the strictest levels to highly sensitive workloads. The Commission proposal is COM(2026) 502 (EUR-Lex)."
+  via: {name: "Euractiv", url: "https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/"}

@@ -374,6 +374,17 @@ def article_links(html: str, base_url: str) -> list[dict]:
     return links[:MAX_LINKS] or extract_links(html, base_url)
 
 
+def paragraph_text(html: str) -> str:
+    """Fallback for pages trafilatura cannot read: the text of the page's paragraphs and list items."""
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form"]):
+        tag.decompose()
+    parts = [" ".join(el.get_text(" ", strip=True).split()) for el in soup.select("p, li")]
+    return "\n".join(t for t in parts if len(t) > 40)
+
+
 def fetch_source(url: str) -> dict:
     """Fetch a web page or PDF: {"url", "text", "links"}. Raises ModelError when too little is readable."""
     last = None
@@ -390,6 +401,8 @@ def fetch_source(url: str) -> dict:
                 text, links = "\n".join(p.extract_text() or "" for p in pages), []
             else:
                 text = trafilatura.extract(r.text, include_comments=False, include_tables=True) or ""
+                if len(text) < MIN_SOURCE_CHARS:
+                    text = paragraph_text(r.text)
                 links = article_links(r.text, r.url)
             if len(text) >= MIN_SOURCE_CHARS:
                 return {"url": r.url, "text": text[:MAX_SOURCE_CHARS], "links": links}

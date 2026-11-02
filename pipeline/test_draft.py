@@ -115,6 +115,7 @@ class RunTest(unittest.TestCase):
         self.patches = [
             mock.patch.object(draft, "DATA", self.tmp),
             mock.patch.object(draft, "ARTICLES", self.articles),
+            mock.patch.object(draft, "INBOX_PATH", self.tmp / "no-inbox.yaml"),
             mock.patch.object(draft, "STATE_PATH", self.tmp / "state" / "ai.json"),
             mock.patch.object(draft, "REPORT_PATH", self.tmp / "reports" / "drafts.md"),
             mock.patch.object(draft, "fetch_source", fake_fetch),
@@ -245,6 +246,18 @@ class RulesTest(unittest.TestCase):
         self.assertEqual(after["eu-ai-act"], {f["id"]: f for f in files}["eu-ai-act"])
         self.assertIn("legislation: [eu-kids-act]", draft.to_markdown(
             {**draft.tidy(dict(DRAFT)), "legislation": ["eu-kids-act"], "sources": []}, {"published": "2026-11-20", "first_seen": ""}))
+
+    def test_paragraph_fallback_skips_navigation(self):
+        html = ("<nav><p>Home About Members Contact and many other menu links here</p></nav><main>"
+                "<p>Brussels, 22 October 2026 — lawmakers should reserve the strictest rules for sensitive workloads.</p>"
+                "<p>Short</p><ul><li>A single European framework must apply uniformly across all Member States.</li></ul>"
+                "</main><footer><p>Copyright notice and cookie settings for this website</p></footer>")
+        text = draft.paragraph_text(html)
+        self.assertIn("22 October 2026", text)
+        self.assertIn("single European framework", text)
+        self.assertNotIn("Home About", text)
+        self.assertNotIn("Copyright", text)
+        self.assertNotIn("Short", text)
 
     def test_institutions_read_from_site(self):
         ids = [i["id"] for i in draft.institution_vocabulary()]
