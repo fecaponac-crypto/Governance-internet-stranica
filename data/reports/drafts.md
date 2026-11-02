@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-02T11:13:53Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-02T12:18:24Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.23** of $12 budget (6 calls)
+AI spend this month: **$0.23** of $12 budget (7 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Executive appointment news; hiring/leadership moves are not relevant.
+- (1) Event promotion and prediction panel from a vendor blog; not a genuine launch, acquisition or research finding.
 - (1) Newsletter roundup with vague excerpt; no specific data governance story identifiable from title and excerpt.
 - (1) Book promotion with no concrete governance angle; generic promotional content.
 - (1) Generic newsletter with no specific governance story; excerpt provides no substance.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (1) Vendor blog thought-leadership on homegrown monitoring; no genuine launch or research.
 - (1) Vendor customer case study marketing; not a launch or research finding.
 - (1) Explainer/thought-leadership from a vendor blog; not a launch or research.
-- (1) Interview with a sports analytics company CEO; no governance angle.
-- (2) Generic thought-leadership framework piece on AI agent production gates; no new concrete development.

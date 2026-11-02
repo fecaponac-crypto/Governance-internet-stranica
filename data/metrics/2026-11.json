@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-02T11:13:56Z",
+ "updated": "2026-11-02T12:18:27Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -8,13 +8,13 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 5,
-  "runs": 18,
+  "items_collected": 7,
+  "runs": 19,
   "runs_with_failed_sources": 7,
   "triage_decisions": {
-   "skipped": 5
+   "skipped": 7
   },
-  "ai_spend_usd": 0.2303,
+  "ai_spend_usd": 0.2309,
   "sources_active": 81,
   "sources_failing_now": 0
  },
@@ -26,8 +26,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 14,
-  "visits": 12,
+  "page_views": 22,
+  "visits": 20,
   "bots_excluded": true,
   "by_day": [
    {
@@ -37,25 +37,37 @@
    },
    {
     "date": "2026-11-02",
-    "page_views": 2,
-    "visits": 2
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 9
+    "page_views": 11
+   },
+   {
+    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
+    "page_views": 2
    },
    {
     "requestPath": "/news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/",
     "page_views": 1
    },
    {
-    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 1
    },
    {
-    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
+    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 1
    },
    {
@@ -70,15 +82,15 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 5
+    "page_views": 8
+   },
+   {
+    "countryName": "CN",
+    "page_views": 7
    },
    {
     "countryName": "HR",
     "page_views": 3
-   },
-   {
-    "countryName": "CN",
-    "page_views": 2
    },
    {
     "countryName": "AT",
@@ -100,11 +112,11 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 10
+    "page_views": 16
    },
    {
     "refererHost": "www.google.com",
-    "page_views": 2
+    "page_views": 4
    },
    {
     "refererHost": "datagovernancesignal.com",

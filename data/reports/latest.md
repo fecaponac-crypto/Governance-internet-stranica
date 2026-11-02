@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-02T11:13:40Z** · sources checked: 81 · failed: 0 · new items this run: 1
+Last run: **2026-11-02T12:18:14Z** · sources checked: 81 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (5)
+## New items, last 48 hours (7)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | CDO Magazine | [Leadership Moves Newfold Digital Appoints Jesu Joseph Vice President, Data and Business Analytics](https://www.cdomagazine.tech/leadership-moves/newfold-digital-appoints-jesu-joseph-vice-president-data-and-business-analytics) |
+| 2026-11-02 | Ataccama Blog | [Predictions for data and AI in 2027: Meet the FWRD panel](https://www.ataccama.com/blog/predictions-for-data-and-ai-in-2027-meet-the-fwrd-panel) |
 | 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
 | 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
 | 2026-11-02 | Euractiv | [EU cloud providers baulk at Brussels’ sovereignty demands](https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/) |
