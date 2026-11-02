@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-02T06:18:24Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-02T09:18:51Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.23** of $12 budget (4 calls)
+AI spend this month: **$0.23** of $12 budget (5 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Book promotion with no concrete governance angle; generic promotional content.
 - (1) Generic newsletter with no specific governance story; excerpt provides no substance.
 - (2) Covers industry pushback on proposed EU cloud sovereignty requirements (CAIDA), which affect where and how organisations can govern and host data. The excerpt is thin, so the impact is judged as modest and not yet final.
 - (1) Vendor-flavoured piece on database performance for AI agents; funding mention is minor and no governance angle is clear from the excerpt.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Interview with a sports analytics company CEO; no governance angle.
 - (2) Generic thought-leadership framework piece on AI agent production gates; no new concrete development.
 - (1) Wildlife crossing map; no data governance angle.
-- (1) Vendor product blog post about an MCP server; not a genuine launch with governance news.

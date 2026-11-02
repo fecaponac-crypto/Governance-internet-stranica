@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-02T06:18:13Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-02T09:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (3)
+## New items, last 48 hours (4)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
 | 2026-11-02 | Euractiv | [EU cloud providers baulk at Brussels’ sovereignty demands](https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/) |
 | 2026-11-01 | SiliconANGLE — Big Data | [Agent demand can’t be forecast, meaning the database has to be ready for anything](https://siliconangle.com/2026/11/01/agentic-ai-architecture-demands-real-time-databases-evolve26/) |
 
@@ -19,7 +20,7 @@ Last run: **2026-11-02T06:18:13Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+- **LfDI Baden-Württemberg (Germany)** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='www.baden-wuerttemberg.datenschutz.de', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError("HTTPSConnection(host='www.baden-wuerttemberg.datenschutz.de', port=443): Failed to establish a new connection: [Errno 101] Network is unr`
 
 ## Check manually (weekly)
 
