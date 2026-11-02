@@ -1,0 +1,8 @@
+# Editor's picks: stories to draft without triage (each URL is drafted once; the PR still
+# needs the editor's approval). Optional: published (YYYY-MM-DD), title, note, via {name, url}
+# to credit where the story was found.
+#
+# - url: https://example.org/story
+#   published: 2026-10-30
+#   via: {name: "Nenad's NL (Nenad Bakić)", url: https://nenadbakic.substack.com/}
+[]

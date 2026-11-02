@@ -289,3 +289,19 @@ class CaseTest(RunTest):
              "currency": "EUR", "framework": "GDPR", "jurisdiction": "France", "date": "2026-11-20"}
         self.assertIn("Update to case `acme-cookies`: Complaint (2026-10-01) → Fine", draft.enforcement_line(e))
         self.assertIn("new case `other`", draft.enforcement_line({**e, "case": "other"}))
+
+
+class InboxTest(RunTest):
+    def test_inbox_story_is_drafted_with_via_and_only_once(self):
+        inbox = self.tmp / "inbox.yaml"
+        inbox.write_text("- url: https://example.org/inbox-story\n  published: 2026-10-30\n"
+                         "  via: {name: Example newsletter, url: https://news.example.org/issue}\n")
+        with mock.patch.object(draft, "INBOX_PATH", inbox):
+            client, summary = self.run_with([])
+            self.assertEqual(summary["drafted"], 1)
+            path = self.articles / "regulator-fines-example-corp-eur-2-million-over-unlawful-profiling.md"
+            front = yaml.safe_load(path.read_text().split("---")[1])
+            self.assertEqual(front["via"]["name"], "Example newsletter")
+            self.assertEqual(str(front["date"]), "2026-10-30")
+            client, summary = self.run_with([])
+            self.assertEqual(client.writer_calls, 0)

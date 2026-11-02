@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import hashlib
 import json
 import os
 import re
@@ -818,6 +819,33 @@ def load_archive() -> list[dict]:
     return items
 
 
+INBOX_PATH = DATA / "inbox.yaml"
+
+
+def load_inbox(state: dict, now: str) -> dict[str, dict]:
+    """Stories the editor picked by hand (data/inbox.yaml): drafted without triage, once each."""
+    if not INBOX_PATH.exists():
+        return {}
+    entries = yaml.safe_load(INBOX_PATH.read_text(encoding="utf-8")) or []
+    items: dict[str, dict] = {}
+    for e in entries:
+        iid = "inbox-" + hashlib.sha1(e["url"].strip().encode()).hexdigest()[:16]
+        item = {
+            "id": iid, "source_id": "editor", "source_name": e.get("source", "Editor's pick"), "section": "core",
+            "categories": [], "priority": "high", "reliability": 2, "title": e.get("title", e["url"]),
+            "url": e["url"].strip(), "published": str(e["published"]) if e.get("published") else None, "first_seen": now, "excerpt": e.get("note", ""),
+            "method": "inbox", "duplicate_of": None, "status": "new",
+        }
+        if e.get("via"):
+            item["via"] = e["via"]
+        items[iid] = item
+        if iid not in state["processed"]:
+            state["processed"][iid] = {"at": now, "decision": "selected", "importance": 5, "relevant": True,
+                                       "categories": [], "reason": "Picked by the editor (data/inbox.yaml)",
+                                       "same_story_as": None}
+    return items
+
+
 def load_candidates(state: dict) -> list[dict]:
     items = [i for i in load_archive() if i["status"] == "new" and i["id"] not in state["processed"]]
     items.sort(key=lambda i: i["published"] or i["first_seen"], reverse=True)
@@ -861,8 +889,9 @@ def run(args) -> dict:
         }
         summary["selected"] += decision == "selected"
 
-    # Draft queue: everything selected and not yet drafted, including items left over from earlier runs.
-    by_id = {i["id"]: i for i in load_archive()}
+    # Draft queue: everything selected and not yet drafted, including items left over from earlier runs,
+    # and the editor's picks from data/inbox.yaml (first in the queue).
+    by_id = {i["id"]: i for i in load_archive()} | load_inbox(state, now)
     queue = [(by_id[k], v) for k, v in state["processed"].items() if v["decision"] == "selected" and k in by_id]
     queue.sort(key=lambda pair: (pair[1]["importance"], pair[0]["published"] or pair[0]["first_seen"]), reverse=True)
 

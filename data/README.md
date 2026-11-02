@@ -33,6 +33,12 @@ Merge = publish.
 Limits: at most 6 drafts per run (`MAX_DRAFTS_PER_RUN`), monthly budget $12 (`AI_MONTHLY_BUDGET_USD`);
 when the budget is reached, selected items wait for the next month.
 
+### Editor's picks (`inbox.yaml`)
+
+Stories the editor wants drafted without waiting for triage, e.g. from a newsletter: add the URL
+(and optionally `published`, `via`) to `data/inbox.yaml`. The next run drafts each one once, with the
+usual primary-source search and fact check, and opens a pull request as for any other draft.
+
 ### Editing a draft before merging
 
 Fields the editor may want to change in the draft's front matter: `importance`, `status` (stage and
