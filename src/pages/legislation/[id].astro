@@ -65,7 +65,8 @@ const jsonLd = {
 
     <section aria-labelledby="timeline">
       <h2 id="timeline">Timeline of our coverage</h2>
-      <ol class="timeline">
+      {stories.length === 0 && <p class="note">No stories yet — new developments will appear here.</p>}
+      <ol class="timeline" hidden={stories.length === 0}>
         {
           stories.map((a) => (
             <li>

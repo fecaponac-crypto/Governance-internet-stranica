@@ -71,3 +71,15 @@
   official:
     title: "FTC seeks comment on enforcement policy statement regarding personalized pricing"
     url: https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-seeks-comment-enforcement-policy-statement-regarding-personalized-pricing
+- id: eu-cloud-ai-development-act
+  name: EU Cloud and AI Development Act (proposed regulation)
+  short: Cloud and AI Development Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Proposal
+  stageDate: 2026-06-03
+  stageNote: "Commission proposal COM(2026) 502 under discussion; cloud providers and industry groups are contesting the scope of the sovereignty levels."
+  summary: "Aims to speed up data centre and cloud capacity in the EU and sets an EU-wide cloud and AI sovereignty framework with four assurance levels, which public sector bodies would use based on their risk assessments."
+  official:
+    title: "European Commission: Cloud and AI Development Act"
+    url: https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act
