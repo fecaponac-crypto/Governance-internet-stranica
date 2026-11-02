@@ -57,6 +57,7 @@ export function htmlToText(html) {
 export const RELAYED_FEEDS = {
   'eu-ai-act-newsletter': 'https://artificialintelligenceact.substack.com/feed',
   'modern-data-101': 'https://moderndata101.substack.com/feed',
+  'europarl-press': 'https://www.europarl.europa.eu/rss/doc/press-releases/en.xml',
 };
 const FEED_CACHE_SECONDS = 1800;
 

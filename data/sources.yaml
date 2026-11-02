@@ -285,7 +285,7 @@ sources:
   - id: europarl-press
     name: European Parliament — Press releases
     url: https://www.europarl.europa.eu/news/en/press-room
-    feeds: ["https://www.europarl.europa.eu/rss/doc/press-releases/en.xml"]
+    feeds: [https://datagovernancesignal.com/feeds/europarl-press]
     method: rss
     type: regulator
     section: core
@@ -293,8 +293,8 @@ sources:
     reliability: 3
     priority: medium
     filter: true
-    notes: All topics; keyword filter. Votes on digital legislation (AI Act changes, Digital Omnibus, Data Union).
-    verified: 2026-10-25
+    notes: All topics; keyword filter. Votes on digital legislation (AI Act changes, Digital Omnibus, Data Union). Fetched via our Worker relay (/feeds/…) because the feed is empty for GitHub runners; upstream https://www.europarl.europa.eu/rss/doc/press-releases/en.xml.
+    verified: 2026-11-02
 
   - id: council-eu-press
     name: Council of the EU — Press releases
