@@ -235,6 +235,11 @@ Okvirne skupine izvora:
 - Na vijesti je okvir „Enforcement” u desnom stupcu; na početnoj blok „Latest enforcement”; poveznica u podnožju.
 - **Slučajevi:** vijesti o istoj stvari dijele `enforcement.case`; tracker prikazuje jedan redak po slučaju (zadnja faza, status Open/Closed, vremenska crta). Closed = nagodba ili korak označen `final: true` (žalba isključena, pravomoćno). AI u nacrtu predlaže postojeći slučaj ili novi; u PR-u piše „Update to case …: staro → novo”. Monday paket navodi otvorene slučajeve bez novosti 90+ dana.
 
+## 10a-6. Podešavanje trijaže (2. 11. 2026.)
+
+- Zakonodavni postupci (prijedlog Komisije, stav Vijeća ili Parlamenta, trijalog, savjetovanje, organizirano protivljenje industrije ili regulatora) za zakone o podacima, privatnosti, cloudu i AI-ju ocjenjuju se najmanje 3, a veliki dosjei 4.
+- Praktični stručni tekstovi o kvaliteti podataka, MDM-u, metapodacima, katalozima, lineageu i operativnim modelima iz stručnih medija, udruga ili analitičara: 3 kad daju konkretne, primjenjive smjernice; općeniti komentari ostaju 1–2.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
