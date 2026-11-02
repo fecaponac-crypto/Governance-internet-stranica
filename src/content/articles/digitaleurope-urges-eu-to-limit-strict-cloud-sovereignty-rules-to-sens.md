@@ -5,6 +5,7 @@ dek: "The industry group wants the Cloud and AI Development Act's mandatory requ
 whyItMatters: "How CADA scopes 'sensitive' workloads will determine which public-sector data and systems face mandatory sovereignty controls, and therefore which suppliers and hosting arrangements public bodies and their vendors must review. Organisations serving the public sector should map which workloads they host fall into categories like defence or justice and track whether the final text uses tiered requirements or a blanket scope. Divergent national implementation, which the group warns against, would complicate classification and audit work across Member States."
 categories: [regulation, platforms, strategy]
 institutions: []
+legislation: [eu-cloud-ai-development-act]
 whoShouldCare: ["CDO", "CISO", "Legal & compliance", "Cloud and platform architects"]
 importance: 2
 type: "Announcement"
