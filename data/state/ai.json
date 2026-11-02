@@ -1966,6 +1966,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "be265f2bb04213fa": {
+   "at": "2026-11-02T03:18:32Z",
+   "categories": [
+    "regulation",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Covers industry pushback on proposed EU cloud sovereignty requirements (CAIDA), which affect where and how organisations can govern and host data. The excerpt is thin, so the impact is judged as modest and not yet final.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "beb6c472a0ad53d7": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -2833,8 +2845,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 1,
-   "usd": 0.0005
+   "calls": 2,
+   "usd": 0.0011
   }
  }
 }
