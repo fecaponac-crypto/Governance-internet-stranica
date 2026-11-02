@@ -1,6 +1,6 @@
 # Drafts report
 
-Last run: **2026-11-02T21:18:27Z** · candidates 4 · scored 4 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-02T21:44:15Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$0.32** of $12 budget (13 calls)
 
@@ -11,9 +11,9 @@ _No drafts this run._
 ## Recently skipped by triage
 
 - (2) Commentary on bad data creating strategic risk in federal AI reliance; general opinion with some governance angle, low importance.
-- (2) Covers data readiness for AI decisions among public-sector executives; practical angle but largely general coverage.
-- (2) Product availability announcement for a governed data platform on Google Cloud; minor platform news from vendor blog, though a genuine GA launch.
 - (1) Operational technology cyber attacks on retail refrigeration; security news without a data governance angle.
+- (2) Product availability announcement for a governed data platform on Google Cloud; minor platform news from vendor blog, though a genuine GA launch.
+- (2) Covers data readiness for AI decisions among public-sector executives; practical angle but largely general coverage.
 - (1) Mass arbitration statistics are a consumer dispute topic without a data governance, privacy or AI governance angle.
 - (2) Commentary on how AI companies want to be governed could be relevant to AI governance practitioners, though the excerpt is empty so the content is thin and the item is only worth knowing.
 - (1) Analyst prediction piece about cloud market competition; no concrete data governance consequence.

@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-02T21:18:13Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-02T21:44:04Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
 ## New items, last 48 hours (21)
 
@@ -37,7 +37,7 @@ Last run: **2026-11-02T21:18:13Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
+_None._
 
 ## Check manually (weekly)
 
