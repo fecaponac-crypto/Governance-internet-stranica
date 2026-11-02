@@ -838,6 +838,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "461b8bc82c16192f": {
+   "at": "2026-11-02T21:18:27Z",
+   "categories": [
+    "data-quality",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Commentary on bad data creating strategic risk in federal AI reliance; general opinion with some governance angle, low importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "48d0396a9d17c295": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -972,6 +984,17 @@
    "importance": 2,
    "reason": "Coverage of stakeholder concerns over proposed AI rules on human review; background on regulatory debate, lower importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "5aed3e8e219a7f7d": {
+   "at": "2026-11-02T21:18:27Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Operational technology cyber attacks on retail refrigeration; security news without a data governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "5afd92c3b9449edb": {
@@ -2506,6 +2529,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d83c981844396cc6": {
+   "at": "2026-11-02T21:18:27Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Product availability announcement for a governed data platform on Google Cloud; minor platform news from vendor blog, though a genuine GA launch.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d8a507a0496cc853": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [
@@ -2869,6 +2903,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f3cd60898c9b7aa1": {
+   "at": "2026-11-02T21:18:27Z",
+   "categories": [
+    "data-quality",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Covers data readiness for AI decisions among public-sector executives; practical angle but largely general coverage.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f5757f520b3eedd6": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -3009,8 +3055,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 12,
-   "usd": 0.3161
+   "calls": 13,
+   "usd": 0.3168
   }
  }
 }

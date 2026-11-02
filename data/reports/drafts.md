@@ -1,15 +1,19 @@
 # Drafts report
 
-Last run: **2026-11-02T19:18:35Z** · candidates 2 · scored 2 · selected 0 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-02T21:18:27Z** · candidates 4 · scored 4 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.32** of $12 budget (12 calls)
+AI spend this month: **$0.32** of $12 budget (13 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **DIGITALEUROPE urges EU to limit strict cloud sovereignty rules to sensitive public workloads** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/51
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (2) Commentary on bad data creating strategic risk in federal AI reliance; general opinion with some governance angle, low importance.
+- (2) Covers data readiness for AI decisions among public-sector executives; practical angle but largely general coverage.
+- (2) Product availability announcement for a governed data platform on Google Cloud; minor platform news from vendor blog, though a genuine GA launch.
+- (1) Operational technology cyber attacks on retail refrigeration; security news without a data governance angle.
 - (1) Mass arbitration statistics are a consumer dispute topic without a data governance, privacy or AI governance angle.
 - (2) Commentary on how AI companies want to be governed could be relevant to AI governance practitioners, though the excerpt is empty so the content is thin and the item is only worth knowing.
 - (1) Analyst prediction piece about cloud market competition; no concrete data governance consequence.
@@ -21,7 +25,3 @@ AI spend this month: **$0.32** of $12 budget (12 calls)
 - (2) Discusses why data quality governance efforts fail without an operating model, a practical strategy angle, though the excerpt is empty and the piece is somewhat generic.
 - (1) General cybersecurity guide for solopreneurs; no data governance or privacy angle specific to the portal's coverage.
 - (1) Event promotion and prediction panel from a vendor blog; not a genuine launch, acquisition or research finding.
-- (1) Executive appointment news; hiring/leadership moves are not relevant.
-- (1) Newsletter roundup with vague excerpt; no specific data governance story identifiable from title and excerpt.
-- (1) Book promotion with no concrete governance angle; generic promotional content.
-- (1) Generic newsletter with no specific governance story; excerpt provides no substance.

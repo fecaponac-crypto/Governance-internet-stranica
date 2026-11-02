@@ -1,18 +1,21 @@
 # Inflow report
 
-Last run: **2026-11-02T19:18:24Z** · sources checked: 81 · failed: 0 · new items this run: 2
+Last run: **2026-11-02T21:18:13Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (17)
+## New items, last 48 hours (21)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | CDO Magazine | [US Federal News Bureau Pentagon’s AI Reliance Turns Bad Data Into Strategic Danger](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-ai-reliance-turns-bad-data-into-strategic-danger) |
+| 2026-11-02 | CDO Magazine | [Community Philadelphia Executives Put Data Readiness to the Test as AI Takes on Bigger Decisions](https://www.cdomagazine.tech/community/philadelphia-executives-put-data-readiness-to-the-test-as-ai-takes-on-bigger-decisions) |
 | 2026-11-02 | Privacy World (Squire Patton Boggs) | [Mass Arbitration Is Not Slowing Down: What the AAA’s Data Means for 2026 and 2027](https://www.privacyworld.blog/2026/11/mass-arbitration-is-not-slowing-down-what-the-aaas-data-means-for-2026-and-2027/) |
 | 2026-11-02 | Tech Policy Press | [How AI Companies Want to Be Governed, and What That Means for AI Governance](https://techpolicy.press/how-ai-companies-want-to-be-governed-and-what-that-means-for-ai-governance) |
 | 2026-11-02 | Alation Blog | [November 2, 2026 Build vs. Buy in the AI Era: How Veolia Got AI-Ready Veolia’s data governance officer got approval to build her own AI solution. Then she took a second look at a product… Read More](https://www.alation.com/blog/veolia-ai-ready-data-playbook/) |
 | 2026-11-02 | Forrester Blogs | [Predictions 2027: Cloud’s AI Race Gets Messier](https://www.forrester.com/blogs/predictions-2027-clouds-ai-race-gets-messier/) |
 | 2026-11-02 | CDO Magazine | [Data Management Why Efforts Into Data Quality Governance Fail Without an Operating Model](https://www.cdomagazine.tech/data-management/why-efforts-into-data-quality-governance-fail-without-an-operating-model) |
+| 2026-11-02 | Databricks Blog | [Lakebase Postgres is now generally available on Google Cloud](https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud) |
 | 2026-11-02 | DAMA International | [DAMA Day Warsaw 2026: Join DAMA Poland on November 4](https://dama.org/2026/11/02/dama-day-warsaw-2026/) |
 | 2026-11-02 | CDO Magazine | [Leadership Moves Newfold Digital Appoints Jesu Joseph Vice President, Data and Business Analytics](https://www.cdomagazine.tech/leadership-moves/newfold-digital-appoints-jesu-joseph-vice-president-data-and-business-analytics) |
 | 2026-11-02 | NIST (US National Institute of Standards and Technology) | [Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You](https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you) |
@@ -28,12 +31,13 @@ Last run: **2026-11-02T19:18:24Z** · sources checked: 81 · failed: 0 · new it
 |---|---|---|
 | 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-what-do-your-snowflake-cortex-agents-actually-cost-now-you-know) |
 | 2026-11-02 | Monte Carlo Blog | [See How Your Genie Agent Got to the Answer](https://montecarlo.ai/blog-see-how-your-genie-agent-got-to-the-answer) |
+| 2026-11-02 | Computer Weekly — IT security | [Cold chain cyber attacks highlight lack of OT security in retail](https://www.computerweekly.com/news/366653380/Cold-chain-cyber-attacks-highlight-lack-of-OT-security-in-retail) |
 | 2026-11-02 | Computer Weekly — IT security | [Who controls the technology we depend on?](https://www.computerweekly.com/opinion/Who-controls-the-technology-we-depend-on) |
 | 2026-11-02 | Data Engineering Weekly | [Data Engineering Weekly #294](https://www.dataengineeringweekly.com/p/data-engineering-weekly-294) |
 
 ## Source problems
 
-_None._
+- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
