@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-02T12:18:27Z",
+ "updated": "2026-11-02T15:18:42Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -8,15 +8,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 7,
-  "runs": 19,
-  "runs_with_failed_sources": 7,
+  "items_collected": 10,
+  "runs": 20,
+  "runs_with_failed_sources": 8,
   "triage_decisions": {
-   "skipped": 7
+   "skipped": 10
   },
-  "ai_spend_usd": 0.2309,
+  "ai_spend_usd": 0.2315,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 1
  },
  "editor": {
   "drafts_published": 0,
@@ -26,8 +26,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 22,
-  "visits": 20,
+  "page_views": 24,
+  "visits": 22,
   "bots_excluded": true,
   "by_day": [
    {
@@ -37,14 +37,14 @@
    },
    {
     "date": "2026-11-02",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 12,
+    "visits": 12
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 11
+    "page_views": 13
    },
    {
     "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
@@ -82,7 +82,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 8
+    "page_views": 10
    },
    {
     "countryName": "CN",
@@ -112,7 +112,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 16
+    "page_views": 18
    },
    {
     "refererHost": "www.google.com",

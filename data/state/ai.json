@@ -204,6 +204,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "13a101261912a42e": {
+   "at": "2026-11-02T15:18:39Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for a DAMA Day, which is explicitly not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "13d13505d895e797": {
    "at": "2026-10-27T15:18:25Z",
    "categories": [],
@@ -2178,6 +2187,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ce22792562212717": {
+   "at": "2026-11-02T15:18:39Z",
+   "categories": [
+    "strategy",
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Discusses why data quality governance efforts fail without an operating model, a practical strategy angle, though the excerpt is empty and the piece is somewhat generic.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ce4d8aef30665e2d": {
    "at": "2026-10-30T21:18:30Z",
    "categories": [
@@ -2882,6 +2903,15 @@
    "reason": "Practical case of version-controlled semantic layer management at scale is relevant to governed metadata practice.",
    "relevant": true,
    "same_story_as": null
+  },
+  "feef222b15ac54bc": {
+   "at": "2026-11-02T15:18:39Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General cybersecurity guide for solopreneurs; no data governance or privacy angle specific to the portal's coverage.",
+   "relevant": false,
+   "same_story_as": null
   }
  },
  "usage": {
@@ -2890,8 +2920,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 7,
-   "usd": 0.2309
+   "calls": 8,
+   "usd": 0.2315
   }
  }
 }

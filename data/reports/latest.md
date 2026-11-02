@@ -1,14 +1,17 @@
 # Inflow report
 
-Last run: **2026-11-02T12:18:14Z** · sources checked: 81 · failed: 0 · new items this run: 2
+Last run: **2026-11-02T15:18:25Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (7)
+## New items, last 48 hours (10)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | CDO Magazine | [Data Management Why Efforts Into Data Quality Governance Fail Without an Operating Model](https://www.cdomagazine.tech/data-management/why-efforts-into-data-quality-governance-fail-without-an-operating-model) |
+| 2026-11-02 | DAMA International | [DAMA Day Warsaw 2026: Join DAMA Poland on November 4](https://dama.org/2026/11/02/dama-day-warsaw-2026/) |
 | 2026-11-02 | CDO Magazine | [Leadership Moves Newfold Digital Appoints Jesu Joseph Vice President, Data and Business Analytics](https://www.cdomagazine.tech/leadership-moves/newfold-digital-appoints-jesu-joseph-vice-president-data-and-business-analytics) |
+| 2026-11-02 | NIST (US National Institute of Standards and Technology) | [Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You](https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you) |
 | 2026-11-02 | Ataccama Blog | [Predictions for data and AI in 2027: Meet the FWRD panel](https://www.ataccama.com/blog/predictions-for-data-and-ai-in-2027-meet-the-fwrd-panel) |
 | 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
 | 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
@@ -23,7 +26,7 @@ Last run: **2026-11-02T12:18:14Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 
