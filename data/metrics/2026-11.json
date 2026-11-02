@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-01T21:18:29Z",
+ "updated": "2026-11-02T00:18:34Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -9,14 +9,14 @@
  },
  "pipeline": {
   "items_collected": 1,
-  "runs": 12,
+  "runs": 13,
   "runs_with_failed_sources": 5,
   "triage_decisions": {
    "skipped": 1
   },
   "ai_spend_usd": 0.0005,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 0
  },
  "editor": {
   "drafts_published": 0,
@@ -26,14 +26,19 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 12,
-  "visits": 10,
+  "page_views": 13,
+  "visits": 11,
   "bots_excluded": true,
   "by_day": [
    {
     "date": "2026-11-01",
     "page_views": 12,
     "visits": 10
+   },
+   {
+    "date": "2026-11-02",
+    "page_views": 1,
+    "visits": 1
    }
   ],
   "top_pages": [
@@ -47,6 +52,10 @@
    },
    {
     "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
+    "page_views": 1
+   },
+   {
+    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
     "page_views": 1
    },
    {
@@ -72,6 +81,10 @@
     "page_views": 1
    },
    {
+    "countryName": "VE",
+    "page_views": 1
+   },
+   {
     "countryName": "SE",
     "page_views": 1
    },
@@ -83,7 +96,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 8
+    "page_views": 9
    },
    {
     "refererHost": "www.google.com",

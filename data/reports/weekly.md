@@ -1,26 +1,26 @@
-Data Governance Signal — week 25 Oct – 31 Oct 2026
+Data Governance Signal — week 26 Oct – 1 Nov 2026
 
-Visits:      152  (+660% on the week before: 20)
-Page views:  195  (+388% on the week before: 40)
+Visits:      139  (+248% on the week before: 40)
+Page views:  184  (+207% on the week before: 60)
 
 Most read:
-   170  /
+   160  /
      4  /opinion/are-we-building-systems-for-the-future/
      3  /category/regulation/
-     2  /news/google-knowledge-catalog-self-learning-enrichment/
-     2  /newsletter/welcome/
+     2  /opinion/
+     2  /monday-signal/2026-10-26/
 
 Countries:
-    72  US
-    58  HR
+    69  US
+    60  HR
     12  NL
-    12  CA
-     6  DE
+    10  CA
+     4  FI
 
 Where visitors came from:
-   150  (direct)
-    43  datagovernancesignal.com
-     1  buttondown.com
+   136  (direct)
+    45  datagovernancesignal.com
+     2  www.google.com
      1  bing.com
 
 Published this week: 37 stories
