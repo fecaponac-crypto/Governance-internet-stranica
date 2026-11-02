@@ -1575,6 +1575,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "97474fc0153f351a": {
+   "at": "2026-11-02T19:18:35Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Mass arbitration statistics are a consumer dispute topic without a data governance, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "988d247e95095392": {
    "at": "2026-10-27T12:18:17Z",
    "categories": [
@@ -2096,6 +2105,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Product launch from a data preparation vendor that runs governed data workflows inside ChatGPT, Claude and Copilot; a genuine launch with some lineage/visual step-map angle, though modest in consequence.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "bed4d75fd4f33a29": {
+   "at": "2026-11-02T19:18:35Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Commentary on how AI companies want to be governed could be relevant to AI governance practitioners, though the excerpt is empty so the content is thin and the item is only worth knowing.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2967,6 +2987,20 @@
    "reason": "General cybersecurity guide for solopreneurs; no data governance or privacy angle specific to the portal's coverage.",
    "relevant": false,
    "same_story_as": null
+  },
+  "inbox-c3ab45be3c67f524": {
+   "at": "2026-11-02T19:18:35Z",
+   "categories": [],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens",
+   "flagged": 0,
+   "importance": 5,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/51",
+   "primary_found": false,
+   "reason": "Picked by the editor (data/inbox.yaml)",
+   "relevant": true,
+   "same_story_as": null
   }
  },
  "usage": {
@@ -2975,8 +3009,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 9,
-   "usd": 0.2323
+   "calls": 12,
+   "usd": 0.3161
   }
  }
 }

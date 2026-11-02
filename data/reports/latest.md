@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-02T18:18:35Z** · sources checked: 81 · failed: 0 · new items this run: 5
+Last run: **2026-11-02T19:18:24Z** · sources checked: 81 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (15)
+## New items, last 48 hours (17)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | Privacy World (Squire Patton Boggs) | [Mass Arbitration Is Not Slowing Down: What the AAA’s Data Means for 2026 and 2027](https://www.privacyworld.blog/2026/11/mass-arbitration-is-not-slowing-down-what-the-aaas-data-means-for-2026-and-2027/) |
+| 2026-11-02 | Tech Policy Press | [How AI Companies Want to Be Governed, and What That Means for AI Governance](https://techpolicy.press/how-ai-companies-want-to-be-governed-and-what-that-means-for-ai-governance) |
 | 2026-11-02 | Alation Blog | [November 2, 2026 Build vs. Buy in the AI Era: How Veolia Got AI-Ready Veolia’s data governance officer got approval to build her own AI solution. Then she took a second look at a product… Read More](https://www.alation.com/blog/veolia-ai-ready-data-playbook/) |
 | 2026-11-02 | Forrester Blogs | [Predictions 2027: Cloud’s AI Race Gets Messier](https://www.forrester.com/blogs/predictions-2027-clouds-ai-race-gets-messier/) |
 | 2026-11-02 | CDO Magazine | [Data Management Why Efforts Into Data Quality Governance Fail Without an Operating Model](https://www.cdomagazine.tech/data-management/why-efforts-into-data-quality-governance-fail-without-an-operating-model) |
