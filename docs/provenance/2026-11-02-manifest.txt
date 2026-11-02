@@ -1,0 +1,28 @@
+Data Governance Signal — https://datagovernancesignal.com
+Provenance manifest, created 2026-11-02 (UTC), for an RFC 3161 trusted timestamp.
+
+The timestamp proves that this exact file, and therefore the git states listed below, existed
+no later than the time in the timestamp token. Each git commit id is a SHA-1 hash of the full
+content and history up to that commit; the archive SHA-256 is the hash of
+`git archive --format=tar <commit>` and can be recomputed from the repository.
+
+Repository: github.com/fecaponac-crypto/Governance-internet-stranica
+
+First commit (project start)
+  commit:          7e5dfbf49babc8b33a6b85f804a1c523cc40edeb
+  committed:       2026-10-24T12:06:13+00:00
+  tree:            9e093350508328f2d982e0d8dda910a6562d65e4
+  archive sha256:  268fb30b61ac396e7575381a94d89c5c38d8e421c2f16ff1b9c1a6c63c7fbd56
+
+Public launch ("Launch: Data Governance Signal is live")
+  commit:          e2a690353d4b80621d726031cbc0df154c4adcf2
+  committed:       2026-10-29T19:17:13+00:00
+  tree:            f36e660fa34b8ec1a166c059e616c7f72e6005f0
+  archive sha256:  6d10eef52a41f3bbb4a6bb96ebe4fabd1518f52a1fb800931142ee022c7ba235
+
+State at the time of this manifest
+  commit:          be8a7d2511392c22836adde2cb7d4679c96e594b
+  committed:       2026-11-02T19:24:21+00:00
+  tree:            37309577953505ae9f36f523b7c6850631d2f5ce
+  archive sha256:  2eb455e98d9a2853a0bae544320b277c60de6c694f3a0f6371a31cc4f28b68a5
+  commits so far:  281
