@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-02T22:44:40Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-02T22:48:25Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (23)
+## New items, last 48 hours (24)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | CDO Magazine | [Community Chicago Executives Ask a Bigger Question: Who’s Shaping the Future of AI?](https://www.cdomagazine.tech/community/chicago-executives-ask-a-bigger-question-whos-shaping-the-future-of-ai) |
 | 2026-11-02 | SiliconANGLE — Big Data | [Palantir beats Q3 forecasts as US commercial revenue overtakes government for first time](https://siliconangle.com/2026/11/02/palantir-beats-q3-forecasts-as-us-commercial-revenue-overtakes-government-for-first-time/) |
 | 2026-11-02 | CDO Magazine | [US Federal News Bureau Pentagon’s AI Reliance Turns Bad Data Into Strategic Danger](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-ai-reliance-turns-bad-data-into-strategic-danger) |
 | 2026-11-02 | CDO Magazine | [Community Philadelphia Executives Put Data Readiness to the Test as AI Takes on Bigger Decisions](https://www.cdomagazine.tech/community/philadelphia-executives-put-data-readiness-to-the-test-as-ai-takes-on-bigger-decisions) |
@@ -39,8 +40,7 @@ Last run: **2026-11-02T22:44:40Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Parliament — Press releases** — the feed or page returned no items (blocked, empty or changed layout)
-- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
+_None._
 
 ## Check manually (weekly)
 

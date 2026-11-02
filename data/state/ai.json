@@ -2717,6 +2717,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e3f8378e23b95a03": {
+   "at": "2026-11-02T22:48:40Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Community/event-style piece about executive gathering and a vague question about who shapes AI; no concrete governance consequence and no excerpt to judge substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e40f440c9a3e2f9c": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -3078,8 +3087,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 14,
-   "usd": 0.3174
+   "calls": 15,
+   "usd": 0.318
   }
  }
 }
