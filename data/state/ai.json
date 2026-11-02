@@ -2649,6 +2649,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ec297997afdc496b": {
+   "at": "2026-11-02T11:13:53Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup with vague excerpt; no specific data governance story identifiable from title and excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ec4ea59350319b4f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -2863,8 +2872,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 5,
-   "usd": 0.2298
+   "calls": 6,
+   "usd": 0.2303
   }
  }
 }
