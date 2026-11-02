@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-02T15:18:25Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-02T18:18:35Z** · sources checked: 81 · failed: 0 · new items this run: 5
 
-## New items, last 48 hours (10)
+## New items, last 48 hours (15)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | Alation Blog | [November 2, 2026 Build vs. Buy in the AI Era: How Veolia Got AI-Ready Veolia’s data governance officer got approval to build her own AI solution. Then she took a second look at a product… Read More](https://www.alation.com/blog/veolia-ai-ready-data-playbook/) |
+| 2026-11-02 | Forrester Blogs | [Predictions 2027: Cloud’s AI Race Gets Messier](https://www.forrester.com/blogs/predictions-2027-clouds-ai-race-gets-messier/) |
 | 2026-11-02 | CDO Magazine | [Data Management Why Efforts Into Data Quality Governance Fail Without an Operating Model](https://www.cdomagazine.tech/data-management/why-efforts-into-data-quality-governance-fail-without-an-operating-model) |
 | 2026-11-02 | DAMA International | [DAMA Day Warsaw 2026: Join DAMA Poland on November 4](https://dama.org/2026/11/02/dama-day-warsaw-2026/) |
 | 2026-11-02 | CDO Magazine | [Leadership Moves Newfold Digital Appoints Jesu Joseph Vice President, Data and Business Analytics](https://www.cdomagazine.tech/leadership-moves/newfold-digital-appoints-jesu-joseph-vice-president-data-and-business-analytics) |
@@ -22,11 +24,14 @@ Last run: **2026-11-02T15:18:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-what-do-your-snowflake-cortex-agents-actually-cost-now-you-know) |
+| 2026-11-02 | Monte Carlo Blog | [See How Your Genie Agent Got to the Answer](https://montecarlo.ai/blog-see-how-your-genie-agent-got-to-the-answer) |
+| 2026-11-02 | Computer Weekly — IT security | [Who controls the technology we depend on?](https://www.computerweekly.com/opinion/Who-controls-the-technology-we-depend-on) |
 | 2026-11-02 | Data Engineering Weekly | [Data Engineering Weekly #294](https://www.dataengineeringweekly.com/p/data-engineering-weekly-294) |
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+_None._
 
 ## Check manually (weekly)
 

@@ -137,6 +137,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "092107622f30f634": {
+   "at": "2026-11-02T18:18:48Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Analyst prediction piece about cloud market competition; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0c098d5b895afe7b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -668,6 +679,17 @@
    "primary_found": false,
    "reason": "Amicus brief challenging sale of sensitive employee data to Google for AI training in a bankruptcy; a concrete data governance and privacy dispute with an AI training angle.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "3b846c20f45a03f4": {
+   "at": "2026-11-02T18:18:48Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing for Monte Carlo and Databricks Genie traces; not a genuine launch with governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "3bc165cef8a8a623": {
@@ -1227,6 +1249,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "76af5703bb50381d": {
+   "at": "2026-11-02T18:18:48Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog about Snowflake Cortex agent costs; product marketing without governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "770d836c3e9f9c5a": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -1290,6 +1323,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Compute and scheduling optimisation how-to; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7e117e5687b46b40": {
+   "at": "2026-11-02T18:18:48Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion piece on technology dependency and nation-state risk; generic thought leadership without practitioner guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1645,6 +1689,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor thought-leadership citing a survey; generic marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9f5d52cb571c1532": {
+   "at": "2026-11-02T18:18:48Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog (Alation) promoting its product through a customer story; marketing rather than genuine launch or research.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2920,8 +2975,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 8,
-   "usd": 0.2315
+   "calls": 9,
+   "usd": 0.2323
   }
  }
 }
