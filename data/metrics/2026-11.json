@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-02T03:18:37Z",
+ "updated": "2026-11-02T06:18:30Z",
  "portal": {
   "published_total": 43,
   "published_this_month": 0,
@@ -8,15 +8,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 2,
-  "runs": 15,
-  "runs_with_failed_sources": 5,
+  "items_collected": 3,
+  "runs": 16,
+  "runs_with_failed_sources": 6,
   "triage_decisions": {
-   "skipped": 2
+   "skipped": 3
   },
-  "ai_spend_usd": 0.0011,
+  "ai_spend_usd": 0.2293,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 1
  },
  "editor": {
   "drafts_published": 0,
@@ -26,8 +26,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 13,
-  "visits": 11,
+  "page_views": 14,
+  "visits": 12,
   "bots_excluded": true,
   "by_day": [
    {
@@ -37,8 +37,8 @@
    },
    {
     "date": "2026-11-02",
-    "page_views": 1,
-    "visits": 1
+    "page_views": 2,
+    "visits": 2
    }
   ],
   "top_pages": [
@@ -61,6 +61,10 @@
    {
     "requestPath": "/institutions/datatilsynet-no/",
     "page_views": 1
+   },
+   {
+    "requestPath": "/accessibility/",
+    "page_views": 1
    }
   ],
   "countries": [
@@ -73,11 +77,11 @@
     "page_views": 3
    },
    {
-    "countryName": "AT",
-    "page_views": 1
+    "countryName": "CN",
+    "page_views": 2
    },
    {
-    "countryName": "CN",
+    "countryName": "AT",
     "page_views": 1
    },
    {
@@ -96,7 +100,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 9
+    "page_views": 10
    },
    {
     "refererHost": "www.google.com",
