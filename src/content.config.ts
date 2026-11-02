@@ -8,6 +8,8 @@ import {
   CONTENT_TYPES,
   ENFORCEMENT_ACTIONS,
   ENFORCEMENT_FRAMEWORKS,
+  LEGISLATION_ENDINGS,
+  LEGISLATION_STAGES,
   PREDICTION_STATUSES,
   STATUS_IDS,
 } from './data/site';
@@ -33,6 +35,8 @@ const articles = defineCollection({
     status: z.object({ stage: z.enum(STATUS_IDS), detail: z.string().max(100).optional() }).optional(),
     // Concrete checks for practitioners, drawn from the sources (importance 4–5 only).
     whatToCheck: z.array(z.string()).max(3).default([]),
+    // Laws and rules the story is about (ids in data/legislation.yaml); feeds /legislation/.
+    legislation: z.array(z.string()).default([]),
     // Fines, settlements, rulings, orders, investigations and complaints; feeds /enforcement/.
     enforcement: z
       .object({
@@ -106,6 +110,21 @@ const opinion = defineCollection({
   }),
 });
 
+const legislation = defineCollection({
+  loader: file('data/legislation.yaml'),
+  schema: z.object({
+    name: z.string(),
+    short: z.string(),
+    jurisdiction: z.string(),
+    kind: z.string(),
+    stage: z.enum([...LEGISLATION_STAGES, ...LEGISLATION_ENDINGS]),
+    stageDate: z.coerce.date().optional(),
+    stageNote: z.string().optional(),
+    summary: z.string(),
+    official: z.object({ title: z.string(), url: z.url() }).optional(),
+  }),
+});
+
 const link = z.object({ title: z.string(), url: z.url() });
 
 const predictions = defineCollection({
@@ -154,4 +173,4 @@ const corrections = defineCollection({
   schema: z.object({ date: z.coerce.date(), article: z.string(), what: z.string() }),
 });
 
-export const collections = { articles, columns, opinion, predictions, sources, corrections };
+export const collections = { articles, columns, opinion, predictions, sources, corrections, legislation };

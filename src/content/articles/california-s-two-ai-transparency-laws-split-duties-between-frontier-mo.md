@@ -5,6 +5,7 @@ dek: "SB 53 targets a handful of frontier developers; the Training Data Transpar
 whyItMatters: "Most organisations will not meet SB 53's thresholds, but those that fine-tune or retrain generative AI offered to the public may count as TDTA developers and owe disclosures about the data used to build their systems. Governance teams should confirm which deployed models have been materially changed by fine-tuning and whether training dataset inventories and lineage metadata are complete enough to support disclosure. Frontier developers should also map incident reporting and whistleblower channels into existing AI risk processes."
 categories: [ai-governance, regulation, metadata]
 institutions: []
+legislation: [california-ai-transparency-laws]
 whoShouldCare: ["AI governance lead", "Legal & compliance", "Data stewards", "CDO"]
 importance: 3
 type: "Regulation"

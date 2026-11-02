@@ -5,6 +5,7 @@ dek: "The FTC's draft enforcement statement says undisclosed use of personal dat
 whyItMatters: "Compliance depends on knowing exactly which personal data feeds pricing algorithms, so data owners need lineage from customer attributes to price outputs and a clear record of the purposes for which that data is used. Teams should map pricing flows by jurisdiction, since discount exceptions differ and Connecticut prescribes specific disclosure wording. Marketing collateral implying static prices should be reviewed against the FTC's view that such representations can mislead."
 categories: [regulation, privacy, metadata]
 institutions: [ftc]
+legislation: [ftc-personalised-pricing-statement]
 whoShouldCare: ["DPO", "Legal & compliance", "Data stewards", "CDO"]
 importance: 4
 type: "Guidance"

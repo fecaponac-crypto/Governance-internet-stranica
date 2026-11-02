@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
+import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, getLegislation, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
 import { INSTITUTIONS } from '../data/institutions';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
@@ -40,6 +40,7 @@ const latestEnforcement = articles
   .filter((a) => a.data.enforcement && ['Fine', 'Settlement', 'Court ruling', 'Order'].includes(a.data.enforcement.action))
   .sort((a, b) => b.data.enforcement!.date.getTime() - a.data.enforcement!.date.getTime())
   .slice(0, 4);
+const movingLaws = (await getLegislation(articles)).filter((l) => l.stories.length).slice(0, 4);
 const openPredictions = (await getPredictions()).filter((p) => p.data.status === 'open');
 const nextPrediction = openPredictions[0];
 const counts = Object.fromEntries(
@@ -160,6 +161,21 @@ const counts = Object.fromEntries(
                       {a.data.enforcement!.action}
                       {a.data.enforcement!.amount ? ` · ${formatAmount(a.data.enforcement!.amount, a.data.enforcement!.currency)}` : ''}
                     </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        {
+          movingLaws.length > 0 && (
+            <section class="box" aria-labelledby="law-title">
+              <div class="section-title"><h2 id="law-title">Laws in motion</h2><a href="/legislation/">Tracker</a></div>
+              <ul class="mini">
+                {movingLaws.map(({ file, stories }) => (
+                  <li>
+                    <a href={`/legislation/${file.id}/`}>{file.data.short}</a>
+                    <span>{file.data.stage} · latest {formatDate(stories[0].data.date)}</span>
                   </li>
                 ))}
               </ul>

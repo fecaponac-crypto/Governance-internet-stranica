@@ -5,6 +5,7 @@ dek: "Garante president Pasquale Stanzione told an Italian parliamentary committ
 whyItMatters: "Platforms preparing for EU-level age verification should expect data protection authorities to test those systems against data minimisation. Collecting more identity data than an age check needs is likely to draw scrutiny. Teams designing parental controls, profiling of minors or companion-style chatbots should map these features now against both the draft Kids Act and existing GDPR duties, since the Garante is pressing for the two to be aligned."
 categories: [privacy, regulation, ai-governance]
 institutions: [garante]
+legislation: [eu-kids-act]
 whoShouldCare: ["DPO", "Legal & compliance", "Product privacy leads", "AI governance lead"]
 importance: 3
 type: "Announcement"

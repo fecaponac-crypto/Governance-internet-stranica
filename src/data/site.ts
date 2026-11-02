@@ -65,6 +65,10 @@ export const ENFORCEMENT_FRAMEWORKS = [
   'Other national law',
 ] as const;
 
+// Legislation tracker (/legislation/): stages on the way from proposal to application, in order.
+export const LEGISLATION_STAGES = ['Proposal', 'Negotiation', 'Adopted', 'In force', 'Applies'] as const;
+export const LEGISLATION_ENDINGS = ['Withdrawn', 'Struck down'] as const;
+
 export const PREDICTION_STATUSES = ['open', 'correct', 'partly', 'wrong', 'void'] as const;
 
 export type Section = 'core' | 'broad';

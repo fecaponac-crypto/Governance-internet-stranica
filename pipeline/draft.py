@@ -106,6 +106,43 @@ def institution_vocabulary() -> list[dict]:
     return found
 
 
+LEGISLATION = ROOT / "data" / "legislation.yaml"
+
+
+def legislation_vocabulary() -> tuple[list[dict], list[str]]:
+    """Tracked laws from data/legislation.yaml and the allowed stages from site.ts."""
+    files = yaml.safe_load(LEGISLATION.read_text(encoding="utf-8")) or []
+    ts = (ROOT / "src" / "data" / "site.ts").read_text(encoding="utf-8")
+    stages = []
+    for name in ("LEGISLATION_STAGES", "LEGISLATION_ENDINGS"):
+        block = re.search(rf"{name} = \[(.*?)\] as const", ts, re.S)
+        assert block, f"could not read {name} from site.ts"
+        stages += re.findall(r"'([^']+)'", block.group(1))
+    return files, stages
+
+
+def apply_legislation_update(u: dict | None, on: str, path: Path | None = None) -> bool:
+    """Write a suggested new stage into data/legislation.yaml, keeping its comments and layout."""
+    if not u:
+        return False
+    path = path or LEGISLATION
+    text = path.read_text(encoding="utf-8")
+    m = re.search(rf"^- id: {re.escape(u['file'])}\n(?:  .*\n?)*", text, re.M)
+    if not m:
+        return False
+    block = m.group(0)
+    q = lambda v: json.dumps(v, ensure_ascii=False)
+    lines = [l for l in block.rstrip("\n").split("\n") if not re.match(r"  (stageDate|stageNote):", l)]
+    out = []
+    for l in lines:
+        if l.startswith("  stage:"):
+            out += [f"  stage: {u['stage']}", f"  stageDate: {on}"] + ([f"  stageNote: {q(u['note'])}"] if u["note"] else [])
+        else:
+            out.append(l)
+    path.write_text(text.replace(block, "\n".join(out) + "\n", 1), encoding="utf-8")
+    return True
+
+
 def pending_drafts() -> list[dict]:
     """Drafts waiting in open pull requests, so the same story is not drafted twice."""
     try:
@@ -420,6 +457,9 @@ Fields:
 - why_it_matters: 2–4 sentences on the practical consequence for data governance, privacy, compliance or AI governance teams — what they should check or do. This is the portal's main value; be concrete, not generic.
 - categories: 1–3 category ids, most relevant first.
 - institutions: ids from the allowed list for the institutions that acted in the story — decided, fined, ruled, adopted, published guidance or a standard. Not the outlet that reported it, not institutions merely mentioned. Empty if none on the list acted.
+- legislation: ids from the tracked laws whose development this story reports — a proposal, negotiation step, adoption, entry into force, application date, implementing rules or official guidance on that law. Not laws merely mentioned or used as background. Empty if none.
+- legislation_update: only when the sources show that a tracked law has reached a different stage from the one listed (e.g. a proposal has been adopted, an adopted law has entered into force): the law id, the new stage and one line (max 160 characters) on where it now stands. Otherwise empty file, stage and note.
+- legislation_new: when the story is mainly about a data, privacy or AI law, bill or binding rule that is not tracked, its name as in the sources; else empty.
 - who_should_care: 2–4 roles, e.g. "CDO", "DPO", "Data stewards", "AI governance lead", "Legal & compliance", "CISO".
 - importance: 1–5 as defined (1 Background … 5 Critical).
 - type: one of the allowed content types.
@@ -439,9 +479,13 @@ Fields:
 
 def write_schema(category_ids: list[str], types: list[str], slugs: list[str], refs: list[int],
                  institution_ids: list[str], stages: list[str], actions: list[str] | None = None,
-                 frameworks: list[str] | None = None) -> dict:
+                 frameworks: list[str] | None = None, laws: list[str] | None = None,
+                 law_stages: list[str] | None = None) -> dict:
     if actions is None or frameworks is None:
         actions, frameworks = enforcement_vocabulary()
+    if laws is None or law_stages is None:
+        files, law_stages = legislation_vocabulary()
+        laws = [f["id"] for f in files]
     s = lambda **kw: {"type": "string", **kw}
     return {
         "type": "object",
@@ -452,6 +496,14 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "why_it_matters": s(),
             "categories": {"type": "array", "items": s(enum=category_ids)},
             "institutions": {"type": "array", "items": s(enum=institution_ids)},
+            "legislation": {"type": "array", "items": s(enum=laws) if laws else s()},
+            "legislation_update": {
+                "type": "object",
+                "properties": {"file": s(enum=laws + [""]), "stage": s(enum=law_stages + [""]), "note": s()},
+                "required": ["file", "stage", "note"],
+                "additionalProperties": False,
+            },
+            "legislation_new": s(),
             "who_should_care": {"type": "array", "items": s()},
             "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
             "type": s(enum=types),
@@ -504,7 +556,7 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "review_notes": s(),
         },
         "required": [
-            "title", "dek", "body", "why_it_matters", "categories", "institutions", "who_should_care", "importance", "type", "status_stage", "status_detail", "what_to_check", "deadlines", "enforcement", "region",
+            "title", "dek", "body", "why_it_matters", "categories", "institutions", "legislation", "legislation_update", "legislation_new", "who_should_care", "importance", "type", "status_stage", "status_detail", "what_to_check", "deadlines", "enforcement", "region",
             "card_figure", "card_caption", "editor_note", "sources", "related", "review_notes",
         ],
         "additionalProperties": False,
@@ -527,8 +579,11 @@ def write_draft(client, state, item: dict, sources: list[dict], categories, type
     cases = existing_cases()[:80]
     case_list = "\n".join(f"- {c['id']}: {c['authority']} — {c['parties']} — last {c['action']} {c['date']}" for c in cases)
     stage_list = "\n".join(f"- {k}: {v}" for k, v in stages.items())
+    laws, law_stages = legislation_vocabulary()
+    law_list = "\n".join(f"- {f['id']}: {f['name']} ({f['jurisdiction']}) — stage: {f['stage']}" for f in laws)
     user = (
         f"Allowed categories:\n{cat_list}\n\nAllowed institutions:\n{inst_list}\n\n"
+        f"Tracked laws (for legislation; stages: {', '.join(law_stages)}):\n{law_list or '(none)'}\n\n"
         f"Allowed status stages:\n{stage_list}\n\n"
         f"Existing enforcement cases (for enforcement.case):\n{case_list or '(none)'}\n\nAllowed types: {', '.join(types)}\n\n"
         f"Existing articles (for related):\n{existing_list or '(none)'}\n\n"
@@ -539,7 +594,8 @@ def write_draft(client, state, item: dict, sources: list[dict], categories, type
     d = call_json(
         client, state, model=WRITER_MODEL, system=WRITE_SYSTEM, user=user,
         schema=write_schema([c["id"] for c in categories], types, [a["slug"] for a in existing], refs,
-                            [i["id"] for i in institutions], list(stages)),
+                            [i["id"] for i in institutions], list(stages),
+                            laws=[f["id"] for f in laws], law_stages=law_stages),
         effort="medium", max_tokens=16000,
     )
     cited = {}
@@ -565,7 +621,22 @@ def tidy(d: dict) -> dict:
     d["deadlines"] = sorted(dates, key=lambda x: x["date"])
     d["status_detail"] = d["status_detail"].strip()[:100]
     d["enforcement"] = tidy_enforcement(d.get("enforcement"))
+    d["legislation"], d["legislation_update"] = tidy_legislation(d)
+    d["legislation_new"] = (d.get("legislation_new") or "").strip()[:120]
     return d
+
+
+def tidy_legislation(d: dict) -> tuple[list[str], dict | None]:
+    """Keep known law ids; keep a stage update only when it really changes a linked law's stage."""
+    files = {f["id"]: f for f in legislation_vocabulary()[0]}
+    ids = [i for i in dict.fromkeys(d.get("legislation") or []) if i in files]
+    u = d.get("legislation_update") or {}
+    if not u.get("file") or not u.get("stage") or u["file"] not in files or files[u["file"]]["stage"] == u["stage"]:
+        return ids, None
+    if u["file"] not in ids:
+        ids.append(u["file"])
+    return ids, {"file": u["file"], "stage": u["stage"], "note": (u.get("note") or "").strip()[:160],
+                 "from": files[u["file"]]["stage"]}
 
 
 def tidy_enforcement(e: dict | None) -> dict | None:
@@ -693,6 +764,7 @@ def to_markdown(d: dict, item: dict) -> str:
         f"whyItMatters: {q(d['why_it_matters'])}",
         f"categories: [{', '.join(dict.fromkeys(d['categories']))}]",
         f"institutions: [{', '.join(dict.fromkeys(d.get('institutions', [])))}]",
+        *([f"legislation: [{', '.join(d['legislation'])}]"] if d.get("legislation") else []),
         f"whoShouldCare: [{', '.join(q(r) for r in d['who_should_care'])}]",
         f"importance: {d['importance']}",
         f"type: {q(d['type'])}",
@@ -745,6 +817,18 @@ def enforcement_line(e: dict | None) -> str:
     return update + enforcement_core(e)
 
 
+def legislation_line(d: dict) -> str:
+    parts = [f"`{i}`" for i in d.get("legislation") or []]
+    u = d.get("legislation_update")
+    if u:
+        note = f" · {u['note']}" if u["note"] else ""
+        parts.append(f"**Stage change for `{u['file']}`: {u['from']} → {u['stage']}** (data/legislation.yaml updated in this PR — "
+                     f"edit or revert that file if wrong){note}")
+    if d.get("legislation_new"):
+        parts.append(f"suggests tracking a new law: *{d['legislation_new']}*")
+    return " · ".join(parts) or "not linked"
+
+
 def enforcement_core(e: dict) -> str:
     amount = f" · {e['currency']} {e['amount']:,}" if e.get("amount") else ""
     return f"{e['action']} by {e['authority']} concerning {e['parties']}{amount} · {e.get('law', 'law not stated')} ({e['framework']}, {e['jurisdiction']}, {e['date']})"
@@ -757,6 +841,8 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
         path = ARTICLES / f"{slug}.md"
         path.write_text(markdown, encoding="utf-8")
         git("add", str(path))
+        if apply_legislation_update(d.get("legislation_update"), (item["published"] or item["first_seen"])[:10]):
+            git("add", str(LEGISLATION))
         git("commit", "-q", "-m", f"Draft: {d['title']}\n\nCollected from: {item['url']}\nTriage: {score['reason']}")
         git("push", "-q", "-u", "origin", branch)
     finally:
@@ -777,6 +863,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 **Status:** {d['status_stage']}{f" — {d['status_detail']}" if d['status_detail'] else ''}
 **Key dates:** {'; '.join(f"{x['date']} {x['what']}" for x in d['deadlines']) or 'none'}
 **Enforcement tracker:** {enforcement_line(d.get('enforcement'))}
+**Legislation tracker:** {legislation_line(d)}
 **Card:** `{d['card_figure']}` — {d['card_caption']}
 
 ### {d['title']}

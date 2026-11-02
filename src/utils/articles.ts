@@ -147,3 +147,25 @@ export function enforcementCases(articles: Article[]): EnforcementCase[] {
     })
     .sort((a, b) => b.latest.e.date.getTime() - a.latest.e.date.getTime());
 }
+
+export type LegislationFile = CollectionEntry<'legislation'>;
+export interface LegislationView {
+  file: LegislationFile;
+  stories: Article[]; // newest first
+  keyDates: { date: Date; what: string; article: Article }[];
+}
+
+/** Every tracked law with its stories and the key dates those stories give, latest activity first. */
+export async function getLegislation(articles: Article[]): Promise<LegislationView[]> {
+  const files = await getCollection('legislation');
+  return files
+    .map((file) => {
+      const stories = articles.filter((a) => a.data.legislation.includes(file.id));
+      const keyDates = stories
+        .flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a })))
+        .sort((x, y) => x.date.getTime() - y.date.getTime())
+        .filter((d, i, all) => all.findIndex((o) => o.date.getTime() === d.date.getTime() && o.what === d.what) === i);
+      return { file, stories, keyDates };
+    })
+    .sort((a, b) => (b.stories[0]?.data.date.getTime() ?? 0) - (a.stories[0]?.data.date.getTime() ?? 0));
+}

@@ -1,0 +1,73 @@
+# Legislation tracker (/legislation/): laws, rules and policy statements we follow from
+# proposal to application. Stories link to a file through their `legislation` field.
+#
+#   id:           unique, lowercase-with-hyphens
+#   name:         full name as used in the sources
+#   short:        short name for lists
+#   jurisdiction: EU, UK, US, or a state/country
+#   kind:         Regulation, Act, Bill, Rules, Policy statement …
+#   stage:        Proposal | Negotiation | Adopted | In force | Applies | Withdrawn | Struck down
+#                 (Negotiation = consultation, Council/Parliament positions, trilogue, rulemaking)
+#   stageDate:    date the current stage was reached (YYYY-MM-DD), if known
+#   stageNote:    one line on where things stand, from our sources
+#   summary:      one or two sentences on what it does, from our sources
+#   official:     {title, url} — the official text or announcement, when we have it
+#
+# The stage is confirmed by the editor: a draft that suggests a new stage changes this file
+# in the same pull request.
+- id: eu-ai-act
+  name: EU Artificial Intelligence Act
+  short: AI Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageNote: "Obligations apply in phases; the AI Office's enforcement powers for general-purpose AI models apply since 2 August 2026."
+  summary: "EU-wide rules for AI systems by risk level and for general-purpose AI models, enforced by national authorities and, for general-purpose models, by the European Commission's AI Office."
+- id: colorado-admt-act
+  name: Colorado Automated Decision-Making Technology Act (SB 26-189)
+  short: Colorado ADMT Act
+  jurisdiction: Colorado, US
+  kind: Act
+  stage: Adopted
+  stageNote: "Takes effect on 1 January 2027; the Department of Law's implementing rules were still in draft (interim draft of 6 October 2026)."
+  summary: "Replaced the Colorado AI Act; sets duties for developers and deployers of automated decision-making technology used in consequential decisions."
+- id: california-ai-transparency-laws
+  name: California AI transparency laws (SB 53 and AB 2013)
+  short: California SB 53 and AB 2013
+  jurisdiction: California, US
+  kind: Acts
+  stage: In force
+  stageDate: 2026-01-01
+  stageNote: "Both took effect on 1 January 2026."
+  summary: "SB 53 (Transparency in Frontier Artificial Intelligence Act) covers large frontier developers; AB 2013 (Training Data Transparency Act) requires training-data disclosures from developers of public generative AI, including after fine-tuning."
+  official:
+    title: "Governor Newsom signs SB 53"
+    url: https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/
+- id: new-york-youth-chatbot-law
+  name: New York youth chatbot safety law (S9051B/A10379C)
+  short: New York youth chatbot law
+  jurisdiction: New York, US
+  kind: Act
+  stage: Adopted
+  stageDate: 2026-10-28
+  stageNote: "Signed on 28 October 2026; applies from 1 January 2027."
+  summary: "Bars chatbot features in 12 unsafe categories for minors, requires several age assurance methods and the deletion of age data after verification."
+- id: eu-kids-act
+  name: EU Kids Act (proposed regulation)
+  short: EU Kids Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Proposal
+  stageNote: "A proposal under discussion; national authorities and parliaments are giving their views."
+  summary: "Proposed EU rules on minors online, including age verification for social media, parental controls and measures against addictive design and profiling."
+- id: ftc-personalised-pricing-statement
+  name: FTC enforcement policy statement on personalised pricing
+  short: FTC personalised pricing statement
+  jurisdiction: US
+  kind: Policy statement
+  stage: Negotiation
+  stageNote: "Draft published for comment in August 2026; comment period closed with more than 4,500 comments; not final."
+  summary: "Draft statement that undisclosed use of personal data to set individual prices could be an unfair or deceptive practice under the FTC Act."
+  official:
+    title: "FTC seeks comment on enforcement policy statement regarding personalized pricing"
+    url: https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-seeks-comment-enforcement-policy-statement-regarding-personalized-pricing

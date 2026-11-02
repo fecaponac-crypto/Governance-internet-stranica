@@ -5,6 +5,7 @@ dek: "EPIC, CFA and Fairplay say the October draft drops principal-reason notice
 whyItMatters: "The draft ties consumer notice, access and correction duties to whether a deployer can name the original and intermediary sources of personal data used by an ADMT, including data brokers. Organisations deploying ADMT for consequential decisions in Colorado should check whether their lineage records and developer contracts can supply those sources, system versions and data categories. Final rules may restore stricter duties if regulators accept the advocates' arguments."
 categories: [ai-governance, regulation, metadata]
 institutions: []
+legislation: [colorado-admt-act]
 whoShouldCare: ["AI governance lead", "Legal & compliance", "DPO", "Data stewards"]
 importance: 3
 type: "Regulation"

@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+import StageBar from '../../components/StageBar.astro';
+import { SITE } from '../../data/site';
+import { formatDate, getArticles, getLegislation } from '../../utils/articles';
+
+const laws = await getLegislation(await getArticles());
+---
+
+<Base
+  title="Legislation tracker: data, privacy and AI laws in the making"
+  description="Where data protection, AI and data laws stand — from proposal through negotiation to adoption and application — with every development we have covered."
+>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Tracker</p>
+      <h1>Legislation tracker</h1>
+      <p>
+        Data, privacy and AI laws from proposal to application: where each one stands, what changed and when it starts to
+        apply. Each law links to every development we have covered. Once a law is enforced, follow it in the <a
+          href="/enforcement/">enforcement tracker</a>.
+      </p>
+    </header>
+
+    <ul class="laws">
+      {
+        laws.map(({ file, stories, keyDates }) => {
+          const next = keyDates.find((d) => d.date.getTime() >= Date.now());
+          return (
+            <li>
+              <p class="meta">{file.data.jurisdiction} · {file.data.kind}</p>
+              <h2>
+                <a href={`/legislation/${file.id}/`}>{file.data.name}</a>
+              </h2>
+              <StageBar stage={file.data.stage} compact />
+              {file.data.stageNote && <p class="note">{file.data.stageNote}</p>}
+              <p class="facts">
+                {stories.length} {stories.length === 1 ? 'story' : 'stories'}
+                {stories[0] && <> · latest {formatDate(stories[0].data.date)}</>}
+                {next && <> · next date {formatDate(next.date)}</>}
+              </p>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <div class="prose notes">
+      <h2>About this tracker</h2>
+      <ul>
+        <li><b>Negotiation</b> covers everything between a proposal and adoption: consultations, positions of the Council and the European Parliament, trilogues, and rulemaking for implementing rules.</li>
+        <li>The stage is set by the editor from official sources and our coverage. Dates come from the stories, which link to their sources.</li>
+        <li>Missing a law you follow? <a href={`mailto:${SITE.email}?subject=Legislation tracker`}>Tell us</a>.</li>
+      </ul>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .laws {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+    gap: 1rem 2rem;
+  }
+  .laws li {
+    border-top: 1px solid var(--rule);
+    padding: 1.1rem 0;
+  }
+  .meta,
+  .facts {
+    font-size: 0.8rem;
+    color: var(--ink-2);
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.3rem;
+    margin: 0.25rem 0 0.75rem;
+  }
+  h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  h2 a:hover {
+    text-decoration: underline;
+  }
+  .note {
+    font-size: 0.92rem;
+    color: var(--ink-2);
+    margin: 0.6rem 0 0.4rem;
+  }
+  .notes {
+    margin-top: 2rem;
+  }
+  .notes h2 {
+    font-size: 1.3rem;
+  }
+  .notes ul {
+    padding-left: 1.2rem;
+    font-size: 0.92rem;
+  }
+</style>

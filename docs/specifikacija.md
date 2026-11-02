@@ -240,6 +240,13 @@ Okvirne skupine izvora:
 - Zakonodavni postupci (prijedlog Komisije, stav Vijeća ili Parlamenta, trijalog, savjetovanje, organizirano protivljenje industrije ili regulatora) za zakone o podacima, privatnosti, cloudu i AI-ju ocjenjuju se najmanje 3, a veliki dosjei 4.
 - Praktični stručni tekstovi o kvaliteti podataka, MDM-u, metapodacima, katalozima, lineageu i operativnim modelima iz stručnih medija, udruga ili analitičara: 3 kad daju konkretne, primjenjive smjernice; općeniti komentari ostaju 1–2.
 
+## 10a-7. Tracker zakonodavstva (2. 11. 2026.)
+
+- `/legislation/` i stranica po zakonu `/legislation/<id>/`: traka faza **Proposal ▸ Negotiation ▸ Adopted ▸ In force ▸ Applies** (+ završeci Withdrawn / Struck down), napomena o trenutnom stanju, službeni izvor, ključni datumi iz povezanih vijesti i vremenska crta svih naših vijesti o zakonu (sa statusom svake vijesti).
+- Popis zakona je u `data/legislation.yaml`; vijest se povezuje poljem `legislation: [id]`. Na vijesti se u bočnom stupcu prikazuje kutija „Legislation tracker”, na naslovnici „Laws in motion”.
+- AI predlaže povezivanje vijesti sa zakonom, novu fazu (samo kad izvori to pokazuju) i novi zakon za praćenje. Promjena faze upisuje se u `data/legislation.yaml` **u istom PR-u** i vidljiva je u opisu PR-a — urednik je potvrđuje spajanjem ili ispravlja datoteku. Novi zakon urednik dodaje ručno.
+- Ne uvodimo poseban status „debata”: postojeći statusi vijesti (Consultation, Proposal, Council position…) već to opisuju.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

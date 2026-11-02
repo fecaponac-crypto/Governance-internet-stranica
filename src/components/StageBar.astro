@@ -1,0 +1,69 @@
+---
+// The way from proposal to application, with the current stage highlighted.
+import { LEGISLATION_STAGES } from '../data/site';
+interface Props {
+  stage: string;
+  compact?: boolean;
+}
+const { stage, compact = false } = Astro.props;
+const at = LEGISLATION_STAGES.indexOf(stage as (typeof LEGISLATION_STAGES)[number]);
+const ended = at < 0;
+---
+
+<ol class:list={['stages', { compact, ended }]} aria-label={`Stage: ${stage}`}>
+  {
+    LEGISLATION_STAGES.map((s, i) => (
+      <li class:list={{ done: !ended && i < at, now: i === at }} aria-current={i === at ? 'step' : undefined}>
+        <span>{s}</span>
+      </li>
+    ))
+  }
+  {ended && <li class="now end" aria-current="step"><span>{stage}</span></li>}
+</ol>
+
+<style>
+  .stages {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .stages li {
+    flex: 1 1 0;
+    min-width: 5.5rem;
+    border-top: 4px solid var(--rule);
+    padding-top: 0.35rem;
+    color: var(--ink-2);
+  }
+  .stages li.done {
+    border-top-color: var(--ink-3);
+  }
+  .stages li.now {
+    border-top-color: var(--signal);
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .stages.ended li:not(.end) {
+    opacity: 0.6;
+  }
+  .compact {
+    font-size: 0.72rem;
+  }
+  .compact li {
+    min-width: 4.2rem;
+  }
+  @media (max-width: 520px) {
+    .stages {
+      flex-wrap: nowrap;
+      gap: 0.2rem;
+      font-size: 0.68rem;
+    }
+    .stages li {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+  }
+</style>

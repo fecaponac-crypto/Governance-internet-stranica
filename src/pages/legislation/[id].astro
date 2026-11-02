@@ -1,0 +1,174 @@
+---
+import Base from '../../layouts/Base.astro';
+import StageBar from '../../components/StageBar.astro';
+import { SITE, STATUS_STAGES } from '../../data/site';
+import { articleUrl, formatDate, getArticles, getLegislation, isoDate, type LegislationView } from '../../utils/articles';
+
+export async function getStaticPaths() {
+  const laws = await getLegislation(await getArticles());
+  return laws.map((law) => ({ params: { id: law.file.id }, props: { law } }));
+}
+
+interface Props {
+  law: LegislationView;
+}
+const { file, stories, keyDates } = Astro.props.law;
+const d = file.data;
+const today = isoDate(new Date());
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Legislation',
+  name: d.name,
+  legislationJurisdiction: d.jurisdiction,
+  legislationType: d.kind,
+  ...(d.official && { url: d.official.url }),
+};
+---
+
+<Base title={`${d.short}: status and timeline`} description={`${d.summary} Current stage: ${d.stage}.`}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow"><a href="/legislation/">Legislation tracker</a> · {d.jurisdiction}</p>
+      <h1>{d.name}</h1>
+      <p>{d.summary}</p>
+    </header>
+
+    <section class="where" aria-labelledby="where">
+      <h2 id="where">Where it stands</h2>
+      <StageBar stage={d.stage} />
+      <p class="note">
+        <b>{d.stage}</b>{d.stageDate && <> since {formatDate(d.stageDate)}</>}. {d.stageNote}
+      </p>
+      {d.official && (
+        <p class="official">
+          Official source: <a href={d.official.url} rel="noopener">{d.official.title}</a>
+        </p>
+      )}
+    </section>
+
+    {
+      keyDates.length > 0 && (
+        <section aria-labelledby="dates">
+          <h2 id="dates">Key dates</h2>
+          <ul class="dates">
+            {keyDates.map((k) => (
+              <li class:list={{ past: isoDate(k.date) < today }}>
+                <time datetime={isoDate(k.date)}>{formatDate(k.date)}</time> {k.what}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section aria-labelledby="timeline">
+      <h2 id="timeline">Timeline of our coverage</h2>
+      <ol class="timeline">
+        {
+          stories.map((a) => (
+            <li>
+              <time datetime={isoDate(a.data.date)}>{formatDate(a.data.date)}</time>
+              <div>
+                <a href={articleUrl(a)}>{a.data.title}</a>
+                {a.data.status && (
+                  <span class="st" title={STATUS_STAGES[a.data.status.stage]}>
+                    {a.data.status.stage}
+                  </span>
+                )}
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <p class="disclosure">
+      Stage set by the editor from official sources and our coverage. Spotted something out of date? <a
+        href={`mailto:${SITE.email}?subject=${encodeURIComponent('Legislation tracker: ' + d.short)}`}>Tell us</a
+      >.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .eyebrow a {
+    color: inherit;
+  }
+  section {
+    margin: 2rem 0;
+  }
+  section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.9rem;
+  }
+  .note {
+    margin: 0.9rem 0 0.4rem;
+    color: var(--ink-2);
+  }
+  .official {
+    font-size: 0.9rem;
+  }
+  .dates {
+    padding-left: 1.2rem;
+  }
+  .dates time {
+    font-weight: 650;
+    margin-right: 0.35rem;
+  }
+  .dates .past {
+    color: var(--ink-2);
+  }
+  .timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid var(--rule);
+  }
+  .timeline li {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: 0.75rem;
+    padding: 0 0 1rem 1rem;
+    position: relative;
+  }
+  .timeline li::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0.35rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--signal);
+  }
+  .timeline time {
+    font-size: 0.85rem;
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  .st {
+    display: inline-block;
+    margin-left: 0.4rem;
+    font-size: 0.72rem;
+    font-weight: 650;
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    padding: 0 0.45rem;
+    color: var(--ink-2);
+  }
+  .disclosure {
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  @media (max-width: 520px) {
+    .timeline li {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+  }
+</style>

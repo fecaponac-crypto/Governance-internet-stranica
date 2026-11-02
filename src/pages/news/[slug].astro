@@ -8,7 +8,7 @@ import Feedback from '../../components/Feedback.astro';
 import Listen from '../../components/Listen.astro';
 import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
-import { enforcementCases, getArticles, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
+import { enforcementCases, getArticles, getLegislation, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
 import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
 
 export async function getStaticPaths() {
@@ -28,6 +28,7 @@ const institutions = data.institutions.map(institutionById);
 const official = data.sources.some((s) => s.primary);
 const enfCase = data.enforcement ? enforcementCases(all).find((c) => c.steps.some((s) => s.article.id === article.id)) : undefined;
 const corrections = await getCollection('corrections', (c) => c.data.article === article.id);
+const laws = data.legislation.length ? (await getLegislation(all)).filter((l) => data.legislation.includes(l.file.id)) : [];
 
 // Explicit related items first, then others sharing a category.
 const explicit = data.related.map((id) => all.find((a) => a.id === id)).filter((a): a is Article => !!a);
@@ -213,6 +214,23 @@ const jsonLd = {
                 </p>
               )}
               <a href={`/enforcement/#${enfCase?.id ?? ''}`}>Enforcement tracker</a>
+            </section>
+          )
+        }
+        {
+          laws.length > 0 && (
+            <section>
+              <h2 class="label">Legislation tracker</h2>
+              <ul class="laws">
+                {laws.map(({ file, stories }) => (
+                  <li>
+                    <a href={`/legislation/${file.id}/`}>{file.data.short}</a>
+                    <span>
+                      {file.data.stage} · {stories.length} {stories.length === 1 ? 'story' : 'stories'}
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </section>
           )
         }
@@ -496,5 +514,21 @@ const jsonLd = {
   .enf .case {
     font-size: 0.85rem;
     margin: 0.2rem 0 0.4rem;
+  }
+  .laws {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .laws li {
+    margin-bottom: 0.45rem;
+  }
+  .laws a {
+    font-weight: 650;
+  }
+  .laws span {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--ink-2);
   }
 </style>

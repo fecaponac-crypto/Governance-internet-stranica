@@ -218,6 +218,34 @@ class RulesTest(unittest.TestCase):
         self.assertIn("Fine", actions)
         self.assertIn("GDPR", frameworks)
 
+    def test_legislation_links_and_stage_update(self):
+        files, stages = draft.legislation_vocabulary()
+        self.assertIn("Adopted", stages)
+        self.assertIn("eu-kids-act", [f["id"] for f in files])
+        # unknown ids dropped; an update to the current stage is no update
+        ids, u = draft.tidy_legislation({"legislation": ["eu-ai-act", "nope"],
+                                         "legislation_update": {"file": "eu-ai-act", "stage": "Applies", "note": ""}})
+        self.assertEqual((ids, u), (["eu-ai-act"], None))
+        ids, u = draft.tidy_legislation({"legislation": [],
+                                         "legislation_update": {"file": "eu-kids-act", "stage": "Adopted", "note": "Adopted by Parliament"}})
+        self.assertEqual(ids, ["eu-kids-act"])
+        self.assertEqual((u["from"], u["stage"]), ("Proposal", "Adopted"))
+        self.assertIn("Proposal → Adopted", draft.legislation_line({"legislation": ids, "legislation_update": u}))
+        # the yaml keeps its comments and other entries; the edited entry still parses
+        tmp = Path(tempfile.mkdtemp()) / "legislation.yaml"
+        shutil.copy(draft.LEGISLATION, tmp)
+        self.assertTrue(draft.apply_legislation_update(u, "2026-11-20", tmp))
+        text = tmp.read_text()
+        self.assertTrue(text.startswith("# Legislation tracker"))
+        after = {f["id"]: f for f in yaml.safe_load(text)}
+        self.assertEqual(after["eu-kids-act"]["stage"], "Adopted")
+        self.assertEqual(str(after["eu-kids-act"]["stageDate"]), "2026-11-20")
+        self.assertEqual(after["eu-kids-act"]["stageNote"], "Adopted by Parliament")
+        self.assertEqual(len(after), len(files))
+        self.assertEqual(after["eu-ai-act"], {f["id"]: f for f in files}["eu-ai-act"])
+        self.assertIn("legislation: [eu-kids-act]", draft.to_markdown(
+            {**draft.tidy(dict(DRAFT)), "legislation": ["eu-kids-act"], "sources": []}, {"published": "2026-11-20", "first_seen": ""}))
+
     def test_institutions_read_from_site(self):
         ids = [i["id"] for i in draft.institution_vocabulary()]
         self.assertIn("edpb", ids)

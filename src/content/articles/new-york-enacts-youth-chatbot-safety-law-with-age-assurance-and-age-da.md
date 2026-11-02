@@ -5,6 +5,7 @@ dek: "The law bans companion chatbot features in 12 unsafe categories for minors
 whyItMatters: "Organisations offering conversational AI to New York residents need an age assurance design that combines more than one method, includes a non-ID route and ends with verified deletion of age data, which should be reflected in retention schedules and data flow records. The categorical bans on chatbot behaviour also need to be translated into testable model policies and evidence of controls. Because the definitions are, according to one analyst, loosely drawn, teams should document how they interpret each category ahead of enforcement."
 categories: [ai-governance, privacy, regulation]
 institutions: []
+legislation: [new-york-youth-chatbot-law]
 whoShouldCare: ["AI governance lead", "DPO", "Legal & compliance", "Product owners"]
 importance: 4
 type: "Regulation"

@@ -5,6 +5,7 @@ dek: "In comments on the Colorado Department of Law's 6 October interim draft ru
 whyItMatters: "If FPF's approach is adopted, whether a system is in scope will turn on evidence of what human reviewers actually did, so deployers will need contemporaneous records of review, expertise and decision authority, not just policy documents. The proposed developer disclosures — model name and version, the scores, classifications and inferences a system generates, validated populations and known risks — map directly onto AI inventory and metadata fields. Because the draft already requires deployers to disclose a system's version number, procurement and data teams should ensure vendor contracts and catalogues capture version changes."
 categories: [ai-governance, regulation, metadata]
 institutions: []
+legislation: [colorado-admt-act]
 whoShouldCare: ["AI governance lead", "Legal & compliance", "DPO", "Data stewards"]
 importance: 3
 type: "Regulation"
