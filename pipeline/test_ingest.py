@@ -54,5 +54,24 @@ class ScrapeTest(unittest.TestCase):
         self.assertEqual(len(scrape_page(page.encode(), "https://c.eu/", {"link_pattern": "/n/"})), 40)
 
 
+class SourceProblemsTest(unittest.TestCase):
+    def test_empty_feed_is_reported(self):
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+        import ingest
+        tmp = Path(tempfile.mkdtemp())
+        catalog = {"sources": [{"id": "ep", "name": "European Parliament", "method": "rss", "url": "x"},
+                               {"id": "ok", "name": "Fine source", "method": "rss", "url": "y"}]}
+        health = {"ep": {"consecutive_failures": 0, "last_fetched": 0},
+                  "ok": {"consecutive_failures": 0, "last_fetched": 12}}
+        summary = {"run": "2026-11-02T21:00:00Z", "sources": 2, "failed": 0, "new": 0, "baseline": 0}
+        with mock.patch.object(ingest, "REPORTS", tmp), mock.patch.object(ingest, "load_recent_items", lambda d: []):
+            ingest.write_report(catalog, health, summary)
+        text = (tmp / "latest.md").read_text()
+        self.assertIn("**European Parliament** — the feed or page returned no items", text)
+        self.assertNotIn("Fine source", text)
+
+
 if __name__ == "__main__":
     unittest.main()

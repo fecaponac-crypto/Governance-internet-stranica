@@ -287,6 +287,7 @@ def run() -> dict:
         h["last_success"] = iso(started)
         h.pop("last_error", None)
         stats["fetched"] += len(result.candidates)
+        h["last_fetched"] = len(result.candidates)
         added = 0
 
         for c in result.candidates:
@@ -404,6 +405,8 @@ def write_report(catalog: dict, health: dict, summary: dict) -> None:
         name = sources[sid]["name"]
         if h.get("consecutive_failures", 0) >= 1:
             problems.append(f"- **{name}** — failed {h['consecutive_failures']}× in a row: `{h.get('last_error', '')}`")
+        elif h.get("last_fetched") == 0:
+            problems.append(f"- **{name}** — the feed or page returned no items (blocked, empty or changed layout)")
         elif h.get("last_new_item") and parse_iso(h["last_new_item"]) < started - timedelta(days=STALE_DAYS):
             problems.append(f"- **{name}** — no new items for more than {STALE_DAYS} days")
     lines += ["## Source problems", ""] + (problems or ["_None._"])
