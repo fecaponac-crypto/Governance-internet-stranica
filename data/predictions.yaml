@@ -83,3 +83,58 @@
   made: 2026-10-26
   due: 2027-06-30
   status: open
+- id: 2026-11-02-1
+  claim: LiteLLM publishes a post describing the process improvements it is making after the v1.107.0 compromise.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: The consent flag that lied: GM, Fnac and the gap between records and reality'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-02/
+  made: 2026-11-02
+  due: 2026-11-15
+  confidence: 75
+  status: open
+- id: 2026-11-02-2
+  claim: The FTC has not published a final enforcement policy statement on personalised pricing.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: The consent flag that lied: GM, Fnac and the gap between records and reality'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-02/
+  made: 2026-11-02
+  due: 2027-03-31
+  confidence: 65
+  status: open
+- id: 2026-11-02-3
+  claim: New York amends or formally clarifies the prohibited-feature categories in its youth chatbot law (SB 9051B/AB 10379C) before it applies.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: The consent flag that lied: GM, Fnac and the gap between records and reality'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-02/
+  made: 2026-11-02
+  due: 2027-01-01
+  confidence: 30
+  status: open
+- id: 2026-11-02-4
+  claim: The Dutch AP will hold a roundtable with the debt collection sector on 2 December 2026 to discuss its findings and recommendations.
+  by: Autoriteit Persoonsgegevens
+  role: Dutch data protection authority
+  quote: De AP organiseert op 2 december 2026 een rondetafelgesprek met organisaties uit de incassobranche.
+  source:
+    title: AP informeert incassobureaus over verantwoorde inzet AI
+    url: https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai
+  made: 2026-11-02
+  due: 2026-12-02
+  status: open
+- id: 2026-11-02-5
+  claim: Under New York's new law, minors will no longer have access to companion chatbots that pose as friends or partners.
+  by: Kathy Hochul
+  role: Governor of New York
+  quote: no longer will minors have access to chatbots that pretend to be their friends, boyfriends and girlfriends.
+  source:
+    title: New York's governor signs youth AI chatbot safety bill
+    url: https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill
+  made: 2026-11-02
+  due: 2027-01-01
+  status: open
