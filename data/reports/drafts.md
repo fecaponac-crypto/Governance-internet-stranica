@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-02T21:44:15Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-02T22:44:52Z** · candidates 2 · scored 2 · selected 1 · drafted 0 · failed 1 · queued for next run 0
 
-AI spend this month: **$0.32** of $12 budget (13 calls)
+AI spend this month: **$0.32** of $12 budget (14 calls)
 
 ## This run
 
-_No drafts this run._
+- ❌ [EXCLUSIVE: Ireland makes pro-US Big Tech amendments to EU sovereign cloud law](https://www.rapporteur.com/news/exclusive-ireland-makes-pro-us-big-tech-amendments-to-eu-sovereign-cloud-law/) — source not readable: HTTP 403
 
 ## Recently skipped by triage
 
+- (1) Earnings report for Palantir; general financial news without a concrete data governance angle.
 - (2) Commentary on bad data creating strategic risk in federal AI reliance; general opinion with some governance angle, low importance.
 - (1) Operational technology cyber attacks on retail refrigeration; security news without a data governance angle.
 - (2) Product availability announcement for a governed data platform on Google Cloud; minor platform news from vendor blog, though a genuine GA launch.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Event promotion for a DAMA Day, which is explicitly not relevant.
 - (2) Discusses why data quality governance efforts fail without an operating model, a practical strategy angle, though the excerpt is empty and the piece is somewhat generic.
 - (1) General cybersecurity guide for solopreneurs; no data governance or privacy angle specific to the portal's coverage.
-- (1) Event promotion and prediction panel from a vendor blog; not a genuine launch, acquisition or research finding.

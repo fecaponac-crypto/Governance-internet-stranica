@@ -664,6 +664,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "38579abb46719dc0": {
+   "at": "2026-11-02T22:44:52Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Reports Irish amendments to a pending EU sovereign cloud law affecting data sovereignty obligations for organisations; a legislative process step, rated 3 as it is not a major file.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "39daa83701dc9e8f": {
    "at": "2026-10-25T15:18:12Z",
    "categories": [
@@ -2200,6 +2212,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c292043bc86ef8fd": {
+   "at": "2026-11-02T22:44:52Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Earnings report for Palantir; general financial news without a concrete data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c2b3e3047caa0132": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -3055,8 +3078,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 13,
-   "usd": 0.3168
+   "calls": 14,
+   "usd": 0.3174
   }
  }
 }

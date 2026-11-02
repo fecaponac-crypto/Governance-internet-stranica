@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-02T21:44:17Z",
+ "updated": "2026-11-02T22:44:55Z",
  "portal": {
   "published_total": 44,
   "published_this_month": 1,
@@ -10,16 +10,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 21,
-  "runs": 24,
-  "runs_with_failed_sources": 9,
+  "items_collected": 23,
+  "runs": 25,
+  "runs_with_failed_sources": 10,
   "triage_decisions": {
-   "skipped": 21,
+   "skipped": 22,
+   "failed": 1,
    "drafted": 1
   },
-  "ai_spend_usd": 0.3168,
+  "ai_spend_usd": 0.3174,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 1
  },
  "editor": {
   "drafts_published": 1,
@@ -29,8 +30,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 26,
-  "visits": 24,
+  "page_views": 31,
+  "visits": 29,
   "bots_excluded": true,
   "by_day": [
    {
@@ -40,37 +41,37 @@
    },
    {
     "date": "2026-11-02",
-    "page_views": 14,
-    "visits": 14
+    "page_views": 19,
+    "visits": 19
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 15
+    "page_views": 16
+   },
+   {
+    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
+    "page_views": 3
+   },
+   {
+    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
+    "page_views": 3
    },
    {
     "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
     "page_views": 2
    },
    {
-    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 2
    },
    {
-    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
+    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 2
    },
    {
     "requestPath": "/news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/",
-    "page_views": 1
-   },
-   {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
-    "page_views": 1
-   },
-   {
-    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 1
    },
    {
@@ -84,12 +85,12 @@
   ],
   "countries": [
    {
-    "countryName": "US",
-    "page_views": 11
+    "countryName": "CN",
+    "page_views": 12
    },
    {
-    "countryName": "CN",
-    "page_views": 7
+    "countryName": "US",
+    "page_views": 11
    },
    {
     "countryName": "HR",
@@ -119,7 +120,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 20
+    "page_views": 25
    },
    {
     "refererHost": "www.google.com",
