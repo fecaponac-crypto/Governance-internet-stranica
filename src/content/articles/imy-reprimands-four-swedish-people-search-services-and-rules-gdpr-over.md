@@ -2,7 +2,7 @@
 title: "IMY reprimands four Swedish people-search services and rules GDPR overrides their constitutional shield"
 date: 2026-11-03
 dek: "Sweden's data protection authority says Lexbase, Krimfup, MrKoll and Upplysning must follow GDPR rules on criminal-offence data and erasure, despite holding voluntary publishing certificates."
-whyItMatters: "The decisions narrow a long-standing Swedish route by which data aggregators avoided GDPR duties, so organisations relying on publishing certificates or similar national exemptions can no longer assume they are outside the GDPR. People-search operators, data brokers and firms that buy from them should expect erasure requests and criminal-offence data to be assessed under Articles 17 and 10. Teams sourcing Swedish personal data from such services should review the provenance and lawful basis of what they hold."
+whyItMatters: "The decisions reject the Swedish publishing-certificate route by which these services disapplied GDPR protections, so organisations relying on publishing certificates or similar national exemptions can no longer assume they are outside the GDPR. People-search operators, data brokers and firms that buy from them should expect erasure requests and criminal-offence data to be assessed under Articles 17 and 10. Teams sourcing Swedish personal data from such services should review the provenance and lawful basis of what they hold."
 categories: [privacy, regulation]
 institutions: [imy]
 whoShouldCare: ["DPO", "Legal & compliance", "Data stewards", "CDO"]
@@ -20,7 +20,7 @@ enforcement:
   case: imy-swedish-people-search-services
   action: "Order"
   authority: "IMY (Swedish Authority for Privacy Protection)"
-  parties: "Legal Newsdesk Sweden AB (Lexbase); Fuplex AB (Krimfup); Nusvar AB (MrKoll); Upplysning Checknode AB (Upplysning)"
+  parties: "Legal Newsdesk Sweden AB (Lexbase) and Fuplex AB (Krimfup), ordered and reprimanded; Nusvar AB (MrKoll) and Upplysning Checknode AB (Upplysning), reprimanded"
   framework: "GDPR"
   jurisdiction: "Sweden"
   law: "GDPR Article 10 (criminal offence data) and Article 17 (right to erasure)"

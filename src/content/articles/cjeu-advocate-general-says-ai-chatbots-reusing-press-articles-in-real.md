@@ -1,8 +1,8 @@
 ---
 title: "CJEU Advocate General says AI chatbots reusing press articles in real time may infringe publishers' rights"
 date: 2026-11-03
-dek: "In the first generative AI case before the Court of Justice, Maciej Szpunar says LLM training is generally covered by the text and data mining exception, but chatbot answers built on retrieved articles may not be."
-whyItMatters: "Organisations that build or deploy RAG-based assistants over web or licensed press content should be able to show how retrieved sources are accessed. They should also show that technical measures such as paywalls and scraping restrictions are respected, and how outputs are kept from reproducing source wording. The opinion points to provenance metadata for retrieval sources and output controls as the evidence of 'appropriate measures' that would decide liability. If the Court follows it, AI governance teams would treat training and real-time retrieval as separate risks."
+dek: "In the first generative AI case before the Court of Justice, Maciej Szpunar says LLM training is generally covered by the text and data mining exception, but chatbot answers that retrieve and reuse press articles may infringe publishers' rights."
+whyItMatters: "Organisations that build or deploy RAG-based assistants over web or licensed press content should be able to show how retrieved sources are accessed. They should also show that technical measures such as paywalls and scraping restrictions are respected, and how outputs are kept from reproducing source wording. The opinion makes providers liable where such reuse is inherent to their business model or where they have not put in place appropriate measures to counter it credibly and effectively. If the Court follows it, AI governance teams would treat training and real-time retrieval as separate risks."
 categories: [ai-governance, regulation, ai-industry]
 institutions: [cjeu]
 whoShouldCare: ["AI governance lead", "Legal & compliance", "Data stewards", "CDO"]
