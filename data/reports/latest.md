@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-02T22:48:25Z** · sources checked: 81 · failed: 0 · new items this run: 1
+Last run: **2026-11-03T00:18:13Z** · sources checked: 81 · failed: 0 · new items this run: 3
 
-## New items, last 48 hours (24)
+## New items, last 48 hours (27)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
+| 2026-11-03 | CDO Magazine | [US Federal News Bureau Pentagon’s Overreliance on AI Raises the Danger of Bad Data](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-overreliance-on-ai-raises-the-danger-of-bad-data) |
 | 2026-11-02 | CDO Magazine | [Community Chicago Executives Ask a Bigger Question: Who’s Shaping the Future of AI?](https://www.cdomagazine.tech/community/chicago-executives-ask-a-bigger-question-whos-shaping-the-future-of-ai) |
 | 2026-11-02 | SiliconANGLE — Big Data | [Palantir beats Q3 forecasts as US commercial revenue overtakes government for first time](https://siliconangle.com/2026/11/02/palantir-beats-q3-forecasts-as-us-commercial-revenue-overtakes-government-for-first-time/) |
 | 2026-11-02 | CDO Magazine | [US Federal News Bureau Pentagon’s AI Reliance Turns Bad Data Into Strategic Danger](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-ai-reliance-turns-bad-data-into-strategic-danger) |
@@ -32,6 +34,7 @@ Last run: **2026-11-02T22:48:25Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-02 | Computer Weekly — IT security | [UK to face AI-powered cyber attacks within two years, warns NCSC](https://www.computerweekly.com/news/366653412/UK-to-face-AI-powered-cyber-attacks-within-two-years-warns-NCSC) |
 | 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-what-do-your-snowflake-cortex-agents-actually-cost-now-you-know) |
 | 2026-11-02 | Monte Carlo Blog | [See How Your Genie Agent Got to the Answer](https://montecarlo.ai/blog-see-how-your-genie-agent-got-to-the-answer) |
 | 2026-11-02 | Computer Weekly — IT security | [Cold chain cyber attacks highlight lack of OT security in retail](https://www.computerweekly.com/news/366653380/Cold-chain-cyber-attacks-highlight-lack-of-OT-security-in-retail) |

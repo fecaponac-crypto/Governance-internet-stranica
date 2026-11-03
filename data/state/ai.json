@@ -195,6 +195,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "0fecb9dc346a1f07": {
+   "at": "2026-11-03T00:18:23Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic AI spending survey coverage with no concrete governance consequence; not a clear governance story.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "13067dac8ba153f3": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -2110,6 +2121,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "be020a3bd47cf33d": {
+   "at": "2026-11-03T00:18:23Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Cyber threat warning from NCSC about AI-powered attacks; security news without a concrete data governance consequence for practitioners.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "be265f2bb04213fa": {
    "at": "2026-11-02T03:18:32Z",
    "categories": [
@@ -2561,6 +2583,18 @@
    "importance": 2,
    "reason": "Product availability announcement for a governed data platform on Google Cloud; minor platform news from vendor blog, though a genuine GA launch.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "d8662084df591a4e": {
+   "at": "2026-11-03T00:18:23Z",
+   "categories": [
+    "ai-governance",
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Opinion piece on Pentagon AI reliance and bad data; generic commentary, and the GAO Pentagon responsible AI office story already covers the Pentagon governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "d8a507a0496cc853": {
@@ -3087,8 +3121,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 15,
-   "usd": 0.318
+   "calls": 16,
+   "usd": 0.3187
   }
  }
 }
