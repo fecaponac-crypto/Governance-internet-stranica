@@ -468,6 +468,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1eaf758fdf1c9784": {
+   "at": "2026-11-03T21:18:59Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Invitation letter for an informal summit; no concrete governance consequence for data or AI rules yet, only a general mention of AI discussion.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1f66612295187cec": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -3496,8 +3505,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 49,
-   "usd": 2.006
+   "calls": 50,
+   "usd": 2.0066
   }
  }
 }

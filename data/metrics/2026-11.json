@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T18:19:45Z",
+ "updated": "2026-11-03T21:19:08Z",
  "portal": {
   "published_total": 52,
   "published_this_month": 9,
@@ -12,17 +12,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 57,
-  "runs": 35,
+  "items_collected": 58,
+  "runs": 36,
   "runs_with_failed_sources": 14,
   "triage_decisions": {
-   "skipped": 48,
+   "skipped": 49,
    "drafted": 9,
    "failed": 1
   },
-  "ai_spend_usd": 2.006,
+  "ai_spend_usd": 2.0066,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 0
  },
  "editor": {
   "drafts_published": 9,
@@ -70,7 +70,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 2
    },
    {
@@ -78,7 +78,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
     "page_views": 2
    },
    {

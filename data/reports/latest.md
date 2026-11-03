@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-03T18:18:32Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-03T21:18:24Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (56)
+## New items, last 48 hours (57)
 
 ### High priority sources
 
@@ -17,6 +17,7 @@ Last run: **2026-11-03T18:18:32Z** · sources checked: 81 · failed: 1 · new it
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-03 | Snowflake Blog | [Cortex Training: Serverless Fine-Tuning for Open-Weight LLMs](https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-training-fine-tune-open-weight-llms) |
+| 2026-11-03 | Council of the EU — Press releases | [Informal meeting of Heads of State or Government of 13 November 2026 - Invitation letter by President António Costa to the members of the European Council](https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/) |
 | 2026-11-03 | Alation Blog | [November 3, 2026 How to Ensure Data Consistency and Quality Discover how to maintain data consistency and quality across systems with governance, automation, and Alation Data Quality. Read More](https://www.alation.com/blog/data-consistency-and-quality/) |
 | 2026-11-03 | Datatilsynet (Norway) | [Datatilsynet gir Microsoft-selskap 92 millioner i gebyr](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/datatilsynet-gir-microsoft-selskap-92-millioner-i-gebyr/) |
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Gartner Survey Flags AI Strategy Miscalculation as Major Enterprise Risk](https://www.cdomagazine.tech/aiml/gartner-survey-flags-ai-strategy-miscalculation-as-major-enterprise-risk) |
@@ -77,7 +78,7 @@ Last run: **2026-11-03T18:18:32Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
+_None._
 
 ## Check manually (weekly)
 
