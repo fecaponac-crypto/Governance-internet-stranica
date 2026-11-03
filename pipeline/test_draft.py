@@ -56,6 +56,9 @@ CHECK = {"claims": [
 ]}
 
 
+CLEAN_CHECK = {"claims": [{**c, "verdict": "supported"} for c in CHECK["claims"]]}
+
+
 class FakeClient:
     def __init__(self, scores, primary_indices=(0,)):
         self.scores = scores
@@ -77,8 +80,12 @@ class FakeClient:
         assert params["model"] == draft.WRITER_MODEL and params["fallbacks"] == "default"
         if "claims" in params["output_config"]["format"]["schema"]["properties"]:
             self.check_calls += 1
-            return response(CHECK, draft.WRITER_MODEL)
+            # The corrected draft passes the second check.
+            return response(CHECK if self.check_calls == 1 else CLEAN_CHECK, draft.WRITER_MODEL)
         self.writer_calls += 1
+        if params["system"] == draft.REVISE_SYSTEM:
+            assert "Company relied on invalid consent" in params["messages"][0]["content"]
+            return response({**DRAFT, "dek": "The regulator says the consent the company relied on was not valid."}, draft.WRITER_MODEL)
         return response(DRAFT, draft.WRITER_MODEL)
 
 
@@ -141,7 +148,8 @@ class RunTest(unittest.TestCase):
         ]
         client, summary = self.run_with(scores)
         self.assertEqual((summary["scored"], summary["duplicates"], summary["drafted"]), (2, 1, 1))
-        self.assertEqual((client.writer_calls, client.check_calls), (1, 1))
+        # One flagged claim: the draft is corrected once and checked again.
+        self.assertEqual((client.writer_calls, client.check_calls), (2, 2))
 
         path = self.articles / "regulator-fines-example-corp-eur-2-million-over-unlawful-profiling.md"
         front = yaml.safe_load(path.read_text().split("---")[1])
@@ -152,6 +160,7 @@ class RunTest(unittest.TestCase):
         self.assertEqual(front["sources"][0]["url"], "https://dpa.example.org/decision.pdf")
         self.assertEqual(front["sources"][1]["url"], "https://example.org/0")
         self.assertEqual(front["card"]["figure"], "EUR 2M")
+        self.assertEqual(front["dek"], "The regulator says the consent the company relied on was not valid.")
         self.assertEqual(front["status"], {"stage": "Decision", "detail": "may be appealed"})
         self.assertEqual(len(front["whatToCheck"]), 1)
         self.assertEqual([str(x["date"]) for x in front["deadlines"]], ["2026-12-01"])  # vague date dropped
@@ -164,7 +173,7 @@ class RunTest(unittest.TestCase):
 
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
         self.assertEqual(state["processed"]["id0"]["decision"], "drafted")
-        self.assertEqual((state["processed"]["id0"]["primary_found"], state["processed"]["id0"]["flagged"]), (True, 1))
+        self.assertEqual((state["processed"]["id0"]["primary_found"], state["processed"]["id0"]["flagged"]), (True, 0))
         self.assertEqual(state["processed"]["id1"]["decision"], "skipped")
         self.assertEqual(state["processed"]["id2"]["decision"], "duplicate")
         self.assertNotIn("id3", state["processed"])
@@ -298,6 +307,10 @@ class FactCheckThresholdTest(RunTest):
             client, summary = self.run_with(scores)
         self.assertEqual((summary["drafted"], client.writer_calls, client.check_calls), (1, 1, 0))
         self.assertIn("not run", draft.check_summary({"claims": 0, "flagged": [], "skipped": True}))
+        summary_text = draft.check_summary({"claims": 2, "flagged": [], "corrected": CHECK["claims"][1:]})
+        self.assertIn("✅", summary_text)
+        self.assertIn("Corrected automatically", summary_text)
+        self.assertIn("~~Company relied on invalid consent~~", summary_text)
 
 
 class SameStoryTest(RunTest):
@@ -307,7 +320,7 @@ class SameStoryTest(RunTest):
             {"index": 1, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "same_as_index": 0, "reason": "same launch"},
         ]
         client, summary = self.run_with(scores)
-        self.assertEqual((summary["selected"], summary["drafted"], client.writer_calls), (1, 1, 1))
+        self.assertEqual((summary["selected"], summary["drafted"], client.writer_calls), (1, 1, 2))  # draft + correction
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
         self.assertEqual(state["processed"]["id1"]["decision"], "skipped")
         self.assertEqual(state["processed"]["id1"]["same_story_as"], "item:id0")

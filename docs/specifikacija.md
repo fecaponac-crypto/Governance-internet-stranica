@@ -247,6 +247,12 @@ Okvirne skupine izvora:
 - AI predlaže povezivanje vijesti sa zakonom, novu fazu (samo kad izvori to pokazuju) i novi zakon za praćenje. Promjena faze upisuje se u `data/legislation.yaml` **u istom PR-u** i vidljiva je u opisu PR-a — urednik je potvrđuje spajanjem ili ispravlja datoteku. Novi zakon urednik dodaje ručno.
 - Ne uvodimo poseban status „debata”: postojeći statusi vijesti (Consultation, Proposal, Council position…) već to opisuju.
 
+## 10a-8. Automatska ispravka provjere činjenica (3. 11. 2026.)
+
+- Kad provjera činjenica označi tvrdnje (partly / unsupported), pisac jednom prepravlja nacrt prema dokazima iz provjere (doda ograničenje, ispravi pripisivanje ili izbaci tvrdnju), a ispravljeni nacrt se ponovno provjerava. Zadržava se ispravljena verzija samo ako ima manje označenih tvrdnji.
+- PR prikazuje što je ispravljeno (✏️, sklopivi popis) i samo preostale tvrdnje za urednika (⚠️). Trošak: ~2 dodatna poziva po označenom nacrtu.
+- Razlog: urednik često nema vremena čitati upozorenja; 3. 11. su dvije neprovjerene tvrdnje objavljene i naknadno ispravljene.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

@@ -583,7 +583,8 @@ def sources_block(sources: list[dict]) -> str:
     )
 
 
-def write_draft(client, state, item: dict, sources: list[dict], categories, types, existing) -> dict:
+def write_context(item: dict, sources: list[dict], categories, types, existing) -> tuple[str, dict]:
+    """The writer's prompt and output schema, shared by the first draft and the correction pass."""
     existing_list = "\n".join(f"- {a['slug']}: {a['title']}" for a in existing[-60:])
     cat_list = "\n".join(f"- {c['id']}: {c['label']} ({c['section']})" for c in categories)
     institutions = institution_vocabulary()
@@ -604,13 +605,47 @@ def write_draft(client, state, item: dict, sources: list[dict], categories, type
         f"published {(item['published'] or item['first_seen'])[:10]}.\n\n{sources_block(sources)}"
     )
     refs = list(range(1, len(sources) + 1))
-    d = call_json(
-        client, state, model=WRITER_MODEL, system=WRITE_SYSTEM, user=user,
-        schema=write_schema([c["id"] for c in categories], types, [a["slug"] for a in existing], refs,
-                            [i["id"] for i in institutions], list(stages),
-                            laws=[f["id"] for f in laws], law_stages=law_stages),
-        effort="medium", max_tokens=16000,
-    )
+    schema = write_schema([c["id"] for c in categories], types, [a["slug"] for a in existing], refs,
+                          [i["id"] for i in institutions], list(stages),
+                          laws=[f["id"] for f in laws], law_stages=law_stages)
+    return user, schema
+
+
+def write_draft(client, state, item: dict, sources: list[dict], categories, types, existing) -> dict:
+    user, schema = write_context(item, sources, categories, types, existing)
+    d = call_json(client, state, model=WRITER_MODEL, system=WRITE_SYSTEM, user=user, schema=schema,
+                  effort="medium", max_tokens=16000)
+    return finish_draft(d, item, sources)
+
+
+REVISE_SYSTEM = WRITE_SYSTEM + """
+
+You are now correcting your own draft after an independent fact check. For every flagged claim, rewrite the text so it says only what the sources support: add the missing qualifier, attribute it correctly, use the source's own framing, or remove the claim. A wrong number, date, party or action in a structured field (status, key dates, enforcement record, card) must be corrected or emptied. Keep everything that was not flagged unchanged, keep the same structure and length limits, and do not add new facts. Add a short line to review_notes saying what you corrected."""
+
+
+def revise_draft(client, state, d: dict, flagged: list[dict], item: dict, sources: list[dict],
+                 categories, types, existing) -> dict:
+    """One correction pass that rewrites the claims the fact check flagged."""
+    user, schema = write_context(item, sources, categories, types, existing)
+    current = {k: v for k, v in d.items() if k in schema["properties"]}
+    current["sources"] = [{"ref": s["ref"], "name": s["name"], "title": s["title"], "is_primary": s["is_primary"]}
+                          for s in d["sources"]]
+    current["enforcement"] = d.get("_enforcement_raw") or {"applies": False, "case": "", "final": False, "action": "",
+                                                           "authority": "", "parties": "", "amount": 0, "currency": "",
+                                                           "law": "", "framework": "", "jurisdiction": "", "date": ""}
+    current["legislation_update"] = {"file": "", "stage": "", "note": ""} if not d.get("legislation_update") else \
+        {k: d["legislation_update"][k] for k in ("file", "stage", "note")}
+    issues = "\n".join(f"- [{c['verdict']}] {c['claim']} — source {c['source']}: {c['evidence']}" for c in flagged)
+    user += (f"\n\n--- YOUR DRAFT ---\n{json.dumps(current, ensure_ascii=False, indent=1)}\n--- END DRAFT ---\n\n"
+             f"Claims the fact check flagged:\n{issues}")
+    revised = call_json(client, state, model=WRITER_MODEL, system=REVISE_SYSTEM, user=user, schema=schema,
+                        effort="medium", max_tokens=16000)
+    return finish_draft(revised, item, sources)
+
+
+def finish_draft(d: dict, item: dict, sources: list[dict]) -> dict:
+    """Attach source URLs to the cited references and apply the field rules."""
+    d["_enforcement_raw"] = dict(d.get("enforcement") or {})
     cited = {}
     for s in d["sources"]:
         if 1 <= s["ref"] <= len(sources):
@@ -730,12 +765,18 @@ def check_summary(check: dict) -> str:
     if check.get("skipped"):
         return (f"ℹ️ **Fact check not run** (importance below {FACT_CHECK_MIN_IMPORTANCE}) — "
                 "please verify names, numbers and dates against the sources.")
+    corrected = check.get("corrected") or []
+    note = ""
+    if corrected:
+        note = "\n\n<details><summary>✏️ Corrected automatically before this PR: " + \
+               f"{len(corrected)} claim{'s' if len(corrected) != 1 else ''} the first check flagged</summary>\n\n" + \
+               "\n".join(f"- ~~{c['claim']}~~ ({c['verdict']})" for c in corrected) + "\n</details>"
     if not check["flagged"]:
-        return f"✅ **Fact check:** all {check['claims']} claims are supported by the sources."
+        return f"✅ **Fact check:** all {check['claims']} claims are supported by the sources." + note
     lines = [f"⚠️ **Fact check:** {len(check['flagged'])} of {check['claims']} claims need your attention:"]
     for c in check["flagged"]:
         lines.append(f"- **{c['verdict']}** — {c['claim']}" + (f" _(source {c['source']}: {c['evidence']})_" if c["evidence"] else ""))
-    return "\n".join(lines)
+    return "\n".join(lines) + note
 
 
 def slugify(title: str) -> str:
@@ -1017,6 +1058,13 @@ def run(args) -> dict:
                     raise ModelError("; ".join(problems))
                 if d["importance"] >= FACT_CHECK_MIN_IMPORTANCE:
                     check = fact_check(client, state, d, sources)
+                    if check["flagged"] and not over_budget(state):
+                        # Correct the flagged claims once, then check the corrected draft again.
+                        revised = revise_draft(client, state, d, check["flagged"], item, sources, categories, types, existing)
+                        if not validate(revised):
+                            recheck = fact_check(client, state, revised, sources)
+                            if len(recheck["flagged"]) < len(check["flagged"]):
+                                d, check = revised, {**recheck, "corrected": check["flagged"]}
                 else:
                     check = {"claims": 0, "flagged": [], "skipped": True}
                 slug = unique_slug(d["title"], taken)
@@ -1032,6 +1080,8 @@ def run(args) -> dict:
                 summary["drafted"] += 1
                 mark = ("ℹ️ not fact-checked" if check.get("skipped") else
                         "✅" if not check["flagged"] else f"⚠️ {len(check['flagged'])} claims to check")
+                if check.get("corrected"):
+                    mark += f" (✏️ {len(check['corrected'])} corrected automatically)"
                 log.append(f"- {mark} **{d['title']}** — importance {d['importance']}"
                            f"{' · primary source found' if primary else ''} · {record.get('pr', slug)}")
             except (ModelError, anthropic.APIError, subprocess.CalledProcessError, json.JSONDecodeError) as e:
