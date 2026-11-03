@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-03T09:20:40Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-03T12:19:19Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**30 visits · 32 page views** this month (bots excluded)
+**31 visits · 33 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -10,11 +10,11 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 |---|---:|---:|
 | 2026-11-01 | 10 | 12 |
 | 2026-11-02 | 19 | 19 |
-| 2026-11-03 | 1 | 1 |
+| 2026-11-03 | 2 | 2 |
 
 ## Top pages
 
-- / — 16
+- / — 17
 - /news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/ — 3
 - /news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/ — 3
 - /news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/ — 2
@@ -28,7 +28,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 ## Countries
 
 - CN — 13
-- US — 11
+- US — 12
 - HR — 3
 - AT — 1
 - VE — 1
@@ -38,6 +38,6 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 26
+- (direct) — 27
 - www.google.com — 4
 - datagovernancesignal.com — 2

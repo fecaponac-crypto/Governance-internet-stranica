@@ -1,37 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T09:20:40Z",
+ "updated": "2026-11-03T12:19:19Z",
  "portal": {
-  "published_total": 44,
-  "published_this_month": 1,
+  "published_total": 47,
+  "published_this_month": 4,
   "published_this_month_by_importance": {
-   "2": 1
+   "3": 1,
+   "2": 1,
+   "4": 2
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 33,
-  "runs": 31,
-  "runs_with_failed_sources": 12,
+  "items_collected": 35,
+  "runs": 32,
+  "runs_with_failed_sources": 13,
   "triage_decisions": {
-   "skipped": 29,
+   "skipped": 31,
    "drafted": 4,
    "failed": 1
   },
-  "ai_spend_usd": 0.7015,
+  "ai_spend_usd": 0.7021,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 2,
+  "drafts_published": 4,
   "drafts_rejected": 0
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 32,
-  "visits": 30,
+  "page_views": 33,
+  "visits": 31,
   "bots_excluded": true,
   "by_day": [
    {
@@ -46,14 +48,14 @@
    },
    {
     "date": "2026-11-03",
-    "page_views": 1,
-    "visits": 1
+    "page_views": 2,
+    "visits": 2
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 16
+    "page_views": 17
    },
    {
     "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
@@ -99,7 +101,7 @@
    },
    {
     "countryName": "US",
-    "page_views": 11
+    "page_views": 12
    },
    {
     "countryName": "HR",
@@ -129,7 +131,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 26
+    "page_views": 27
    },
    {
     "refererHost": "www.google.com",

@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-03T09:18:22Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-03T12:18:22Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (33)
+## New items, last 48 hours (35)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-583/24 [Tagu]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260154en.pdf) |
 | 2026-11-03 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-250/25 Like Company](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155en.pdf) |
 | 2026-11-03 | The EU AI Act Newsletter (Future of Life Institute) | [How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)](https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really) |
 
@@ -15,6 +16,7 @@ Last run: **2026-11-03T09:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | CDO Magazine | [Leadership Moves Commvault Names Sarv Saravanan Chief AI and Business Technology Officer](https://www.cdomagazine.tech/leadership-moves/commvault-names-sarv-saravanan-chief-ai-and-business-technology-officer) |
 | 2026-11-03 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Söktjänster behandlar personuppgifter på otillåtet sätt](https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/) |
 | 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
@@ -54,7 +56,7 @@ Last run: **2026-11-03T09:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 2× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+- **The Record (Recorded Future News)** — failed 1× in a row: `HTTPError: 522 Server Error: <none> for url: https://therecord.media/feed`
 
 ## Check manually (weekly)
 
