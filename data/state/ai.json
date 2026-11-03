@@ -1619,6 +1619,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "83a5a51080fab770": {
+   "at": "2026-11-03T18:19:30Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting a product (Control Tower) without a genuine launch announcement in the excerpt; vendor marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "843f89f9765c14fc": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -3180,6 +3191,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ebf4a5e3d175c636": {
+   "at": "2026-11-03T18:19:30Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion piece on cataloguing skills with no concrete practitioner guidance; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ec297997afdc496b": {
    "at": "2026-11-02T11:13:53Z",
    "categories": [],
@@ -3474,8 +3496,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 48,
-   "usd": 2.0053
+   "calls": 49,
+   "usd": 2.006
   }
  }
 }

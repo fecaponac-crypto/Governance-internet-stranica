@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T17:10:44Z",
+ "updated": "2026-11-03T18:19:45Z",
  "portal": {
-  "published_total": 48,
-  "published_this_month": 5,
+  "published_total": 52,
+  "published_this_month": 9,
   "published_this_month_by_importance": {
-   "4": 3,
-   "3": 1,
+   "4": 4,
+   "3": 4,
    "2": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 55,
-  "runs": 34,
-  "runs_with_failed_sources": 13,
+  "items_collected": 57,
+  "runs": 35,
+  "runs_with_failed_sources": 14,
   "triage_decisions": {
-   "skipped": 46,
+   "skipped": 48,
    "drafted": 9,
    "failed": 1
   },
-  "ai_spend_usd": 2.0053,
+  "ai_spend_usd": 2.006,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 8,
+  "drafts_published": 9,
   "drafts_rejected": 0
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 47,
-  "visits": 45,
+  "page_views": 48,
+  "visits": 46,
   "bots_excluded": true,
   "by_day": [
    {
@@ -48,8 +48,8 @@
    },
    {
     "date": "2026-11-03",
-    "page_views": 16,
-    "visits": 16
+    "page_views": 17,
+    "visits": 17
    }
   ],
   "top_pages": [
@@ -70,6 +70,10 @@
     "page_views": 2
    },
    {
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "page_views": 2
+   },
+   {
     "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 2
    },
@@ -79,10 +83,6 @@
    },
    {
     "requestPath": "/accessibility/",
-    "page_views": 1
-   },
-   {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
     "page_views": 1
    },
    {
@@ -105,7 +105,7 @@
    },
    {
     "countryName": "HR",
-    "page_views": 3
+    "page_views": 4
    },
    {
     "countryName": "AT",
@@ -135,7 +135,7 @@
    },
    {
     "refererHost": "www.google.com",
-    "page_views": 4
+    "page_views": 5
    },
    {
     "refererHost": "datagovernancesignal.com",

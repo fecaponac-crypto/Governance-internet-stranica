@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-03T17:10:44Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-03T18:19:45Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**45 visits · 47 page views** this month (bots excluded)
+**46 visits · 48 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -10,7 +10,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 |---|---:|---:|
 | 2026-11-01 | 10 | 12 |
 | 2026-11-02 | 19 | 19 |
-| 2026-11-03 | 16 | 16 |
+| 2026-11-03 | 17 | 17 |
 
 ## Top pages
 
@@ -18,10 +18,10 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/ — 3
 - /news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/ — 3
 - /news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/ — 2
+- /news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/ — 2
 - /news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/ — 2
 - /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/ — 2
 - /accessibility/ — 1
-- /news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/ — 1
 - /methodology/ — 1
 - /institutions/datatilsynet-no/ — 1
 
@@ -29,7 +29,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 - US — 26
 - CN — 13
-- HR — 3
+- HR — 4
 - AT — 1
 - VE — 1
 - SE — 1
@@ -39,5 +39,5 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 ## Referrers
 
 - (direct) — 41
-- www.google.com — 4
+- www.google.com — 5
 - datagovernancesignal.com — 2

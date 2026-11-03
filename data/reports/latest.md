@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-03T17:05:56Z** · sources checked: 81 · failed: 0 · new items this run: 12
+Last run: **2026-11-03T18:18:32Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (54)
+## New items, last 48 hours (56)
 
 ### High priority sources
 
@@ -30,6 +30,7 @@ Last run: **2026-11-03T17:05:56Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
 | 2026-11-03 | CDO Magazine | [US Federal News Bureau Pentagon’s Overreliance on AI Raises the Danger of Bad Data](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-overreliance-on-ai-raises-the-danger-of-bad-data) |
+| 2026-11-03 | Collibra Blog | [Collibra Control Tower is here. Your data policies just got a schedule.](https://www.collibra.com/blog/collibra-control-tower-is-generally-available) |
 | 2026-11-02 | CDO Magazine | [Community Chicago Executives Ask a Bigger Question: Who’s Shaping the Future of AI?](https://www.cdomagazine.tech/community/chicago-executives-ask-a-bigger-question-whos-shaping-the-future-of-ai) |
 | 2026-11-02 | SiliconANGLE — Big Data | [Palantir beats Q3 forecasts as US commercial revenue overtakes government for first time](https://siliconangle.com/2026/11/02/palantir-beats-q3-forecasts-as-us-commercial-revenue-overtakes-government-for-first-time/) |
 | 2026-11-02 | CDO Magazine | [US Federal News Bureau Pentagon’s AI Reliance Turns Bad Data Into Strategic Danger](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-ai-reliance-turns-bad-data-into-strategic-danger) |
@@ -60,6 +61,7 @@ Last run: **2026-11-03T17:05:56Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | Modern Data 101 | [Your Team’s Edge When AI Generates Everything: Rise of the Aggregator](https://moderndata101.substack.com/p/edge-in-the-ai-era) |
 | 2026-11-03 | The Record (Recorded Future News) | [Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects](https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three) |
 | 2026-11-03 | MIT Technology Review | [Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
 | 2026-11-02 | Computer Weekly — IT security | [UK to face AI-powered cyber attacks within two years, warns NCSC](https://www.computerweekly.com/news/366653412/UK-to-face-AI-powered-cyber-attacks-within-two-years-warns-NCSC) |
@@ -75,7 +77,7 @@ Last run: **2026-11-03T17:05:56Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
 
 ## Check manually (weekly)
 
