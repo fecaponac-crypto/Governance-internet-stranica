@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-03T03:18:36Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-03T06:18:35Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.32** of $12 budget (17 calls)
+AI spend this month: **$0.32** of $12 budget (18 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Political commentary on a US executive order about AI branding; no concrete data governance consequence evident from the excerpt.
 - (1) Vendor-adjacent analyst blog about a cloud provider's strategy; generic thought-leadership without a concrete governance consequence.
 - (1) Generic AI spending survey coverage with no concrete governance consequence; not a clear governance story.
 - (2) Cyber threat warning from NCSC about AI-powered attacks; security news without a concrete data governance consequence for practitioners.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (2) Commentary on how AI companies want to be governed could be relevant to AI governance practitioners, though the excerpt is empty so the content is thin and the item is only worth knowing.
 - (1) Analyst prediction piece about cloud market competition; no concrete data governance consequence.
 - (1) Vendor marketing for Monte Carlo and Databricks Genie traces; not a genuine launch with governance consequence.
-- (1) Vendor blog about Snowflake Cortex agent costs; product marketing without governance news.

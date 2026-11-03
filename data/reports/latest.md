@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-03T03:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 1
+Last run: **2026-11-03T06:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (28)
+## New items, last 48 hours (29)
 
 ### Medium priority sources
 
@@ -35,6 +35,7 @@ Last run: **2026-11-03T03:18:20Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | MIT Technology Review | [Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
 | 2026-11-02 | Computer Weekly — IT security | [UK to face AI-powered cyber attacks within two years, warns NCSC](https://www.computerweekly.com/news/366653412/UK-to-face-AI-powered-cyber-attacks-within-two-years-warns-NCSC) |
 | 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-what-do-your-snowflake-cortex-agents-actually-cost-now-you-know) |
 | 2026-11-02 | Monte Carlo Blog | [See How Your Genie Agent Got to the Answer](https://montecarlo.ai/blog-see-how-your-genie-agent-got-to-the-answer) |

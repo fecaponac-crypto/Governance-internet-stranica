@@ -1306,6 +1306,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "76af35d96ed52712": {
+   "at": "2026-11-03T06:18:35Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Political commentary on a US executive order about AI branding; no concrete data governance consequence evident from the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "76af5703bb50381d": {
    "at": "2026-11-02T18:18:48Z",
    "categories": [
@@ -3132,8 +3143,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 17,
-   "usd": 0.3193
+   "calls": 18,
+   "usd": 0.3199
   }
  }
 }
