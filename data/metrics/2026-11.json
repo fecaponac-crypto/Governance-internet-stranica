@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T12:19:19Z",
+ "updated": "2026-11-03T15:19:28Z",
  "portal": {
   "published_total": 47,
   "published_this_month": 4,
@@ -12,17 +12,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 35,
-  "runs": 32,
+  "items_collected": 43,
+  "runs": 33,
   "runs_with_failed_sources": 13,
   "triage_decisions": {
-   "skipped": 31,
-   "drafted": 4,
+   "skipped": 38,
+   "drafted": 5,
    "failed": 1
   },
-  "ai_spend_usd": 0.7021,
+  "ai_spend_usd": 0.8488,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 0
  },
  "editor": {
   "drafts_published": 4,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 33,
-  "visits": 31,
+  "page_views": 47,
+  "visits": 45,
   "bots_excluded": true,
   "by_day": [
    {
@@ -48,21 +48,21 @@
    },
    {
     "date": "2026-11-03",
-    "page_views": 2,
-    "visits": 2
+    "page_views": 16,
+    "visits": 16
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 17
-   },
-   {
-    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
-    "page_views": 3
+    "page_views": 21
    },
    {
     "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
+    "page_views": 3
+   },
+   {
+    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
     "page_views": 3
    },
    {
@@ -78,30 +78,30 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/",
+    "requestPath": "/accessibility/",
     "page_views": 1
    },
    {
-    "requestPath": "/oracle-announces-ai-registry-and-ai-generated-business-ontologies-to-govern-enterprise-ai-agents",
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "page_views": 1
+   },
+   {
+    "requestPath": "/methodology/",
     "page_views": 1
    },
    {
     "requestPath": "/institutions/datatilsynet-no/",
     "page_views": 1
-   },
-   {
-    "requestPath": "/accessibility/",
-    "page_views": 1
    }
   ],
   "countries": [
    {
-    "countryName": "CN",
-    "page_views": 13
+    "countryName": "US",
+    "page_views": 26
    },
    {
-    "countryName": "US",
-    "page_views": 12
+    "countryName": "CN",
+    "page_views": 13
    },
    {
     "countryName": "HR",
@@ -131,7 +131,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 27
+    "page_views": 41
    },
    {
     "refererHost": "www.google.com",

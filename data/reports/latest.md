@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-03T12:18:22Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-03T15:18:19Z** · sources checked: 81 · failed: 0 · new items this run: 8
 
-## New items, last 48 hours (35)
+## New items, last 48 hours (42)
 
 ### High priority sources
 
@@ -16,6 +16,13 @@ Last run: **2026-11-03T12:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | Snowflake Blog | [Cortex Training: Serverless Fine-Tuning for Open-Weight LLMs](https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-training-fine-tune-open-weight-llms) |
+| 2026-11-03 | Datatilsynet (Norway) | [Datatilsynet gir Microsoft-selskap 92 millioner i gebyr](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/datatilsynet-gir-microsoft-selskap-92-millioner-i-gebyr/) |
+| 2026-11-03 | CDO Magazine | [Artificial Intelligence Gartner Survey Flags AI Strategy Miscalculation as Major Enterprise Risk](https://www.cdomagazine.tech/aiml/gartner-survey-flags-ai-strategy-miscalculation-as-major-enterprise-risk) |
+| 2026-11-03 | Forrester Blogs | [AI Capacity Scarcity Shifts The Goals Of FinOps](https://www.forrester.com/blogs/ai-capacity-scarcity-shifts-the-goals-of-finops/) |
+| 2026-11-03 | Ataccama Blog | [Ataccama announces FWRD 2026: Leaders reflect on building trusted data foundations for AI and share 2027 predictions](https://www.ataccama.com/news/ataccama-announces-fwrd-2026-leaders-reflect-on-building-trusted-data-foundations-for-ai-and-share-2027-predictions) |
+| 2026-11-03 | Snowflake Blog | [Snowflake and USA Cycling Partner on Data for LA28 Olympics](https://www.snowflake.com/content/snowflake-site/global/en/blog/usa-cycling-snowflake-partnership) |
+| 2026-11-03 | Snowflake Blog | [Snowflake CoCo: Autonomous Cloud Agents for Data Work](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-cloud-agents-automations) |
 | 2026-11-03 | CDO Magazine | [Leadership Moves Commvault Names Sarv Saravanan Chief AI and Business Technology Officer](https://www.cdomagazine.tech/leadership-moves/commvault-names-sarv-saravanan-chief-ai-and-business-technology-officer) |
 | 2026-11-03 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Söktjänster behandlar personuppgifter på otillåtet sätt](https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/) |
 | 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
@@ -39,13 +46,13 @@ Last run: **2026-11-03T12:18:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
 | 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
 | 2026-11-02 | Euractiv | [EU cloud providers baulk at Brussels’ sovereignty demands](https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/) |
-| 2026-11-01 | SiliconANGLE — Big Data | [Agent demand can’t be forecast, meaning the database has to be ready for anything](https://siliconangle.com/2026/11/01/agentic-ai-architecture-demands-real-time-databases-evolve26/) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Ranking: Who in the EU Parliament fights for your privacy – and who for Big Tech?!](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ranking-who-eu-parliament-fights-your-privacy-and-who-big-tech) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | The Record (Recorded Future News) | [Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects](https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three) |
 | 2026-11-03 | MIT Technology Review | [Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
 | 2026-11-02 | Computer Weekly — IT security | [UK to face AI-powered cyber attacks within two years, warns NCSC](https://www.computerweekly.com/news/366653412/UK-to-face-AI-powered-cyber-attacks-within-two-years-warns-NCSC) |
 | 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-what-do-your-snowflake-cortex-agents-actually-cost-now-you-know) |
@@ -56,7 +63,7 @@ Last run: **2026-11-03T12:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **The Record (Recorded Future News)** — failed 1× in a row: `HTTPError: 522 Server Error: <none> for url: https://therecord.media/feed`
+_None._
 
 ## Check manually (weekly)
 
