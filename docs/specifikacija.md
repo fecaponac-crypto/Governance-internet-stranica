@@ -234,6 +234,7 @@ Okvirne skupine izvora:
 - Podaci su u polju `enforcement` vijesti; AI ga popunjava u nacrtu (samo iz izvora), provjera činjenica ga pokriva, a urednik ga vidi u PR-u („Enforcement tracker”). Pritužbe i istrage jasno su odvojene od odluka.
 - Na vijesti je okvir „Enforcement” u desnom stupcu; na početnoj blok „Latest enforcement”; poveznica u podnožju.
 - **Slučajevi:** vijesti o istoj stvari dijele `enforcement.case`; tracker prikazuje jedan redak po slučaju (zadnja faza, status Open/Closed, vremenska crta). Closed = nagodba ili korak označen `final: true` (žalba isključena, pravomoćno). AI u nacrtu predlaže postojeći slučaj ili novi; u PR-u piše „Update to case …: staro → novo”. Monday paket navodi otvorene slučajeve bez novosti 90+ dana.
+- **Ukori (3. 11. 2026.):** vrsta odluke `Reprimand` za utvrđenu povredu bez kazne ili naredbe (česta GDPR odluka, npr. berlinsko tijelo i IMY). Kad jedna odluka kombinira mjere, bilježi se najjača (kazna → naredba → ukor), a u `parties` piše tko je dobio što. Ukori se prikazuju i u bloku „Latest enforcement” na početnoj.
 
 ## 10a-6. Podešavanje trijaže (2. 11. 2026.)
 
