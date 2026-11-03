@@ -86,3 +86,15 @@ jobs:
             sleep $((i * 5))
           done
           exit 1
+
+      # A red run makes GitHub notify the owner; the commit above keeps the report and queue.
+      - name: Alert when the Anthropic API credits are used up
+        run: |
+          python - <<'PY'
+          import json, sys
+          since = json.load(open("data/state/ai.json")).get("credits_out_since")
+          if since:
+              print(f"::error title=Anthropic API credits used up::No stories drafted since {since}. "
+                    "Top up at console.anthropic.com -> Settings -> Billing; waiting items are drafted automatically afterwards.")
+              sys.exit(1)
+          PY

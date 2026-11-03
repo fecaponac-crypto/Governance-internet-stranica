@@ -315,6 +315,53 @@ class FactCheckThresholdTest(RunTest):
         self.assertIn("~~Company relied on invalid consent~~", summary_text)
 
 
+def credit_error():
+    """The 400 Anthropic returns when prepaid credits run out (built without an HTTP response)."""
+    e = draft.anthropic.BadRequestError.__new__(draft.anthropic.BadRequestError)
+    Exception.__init__(e, "Error code: 400 - Your credit balance is too low to access the Anthropic API. "
+                          "Please go to Plans & Billing to upgrade or purchase credits.")
+    return e
+
+
+class CreditsTest(RunTest):
+    SCORES = [{"index": 0, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "reason": "fine"}]
+
+    def test_drafting_stops_and_keeps_the_item_when_credits_run_out(self):
+        client = FakeClient(self.SCORES)
+        def no_credit(**params):
+            raise credit_error()
+        client.beta.messages.create = no_credit
+        with mock.patch.object(draft.anthropic, "Anthropic", lambda: client):
+            summary = draft.run(SimpleNamespace(no_pr=True, score_only=False))
+        self.assertTrue(summary["credits_out"])
+        self.assertEqual((summary["drafted"], summary["failed"]), (0, 0))
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertEqual(state["processed"]["id0"]["decision"], "selected")  # drafted after the top-up
+        self.assertIn("credits_out_since", state)
+        self.assertIn("credits are used up", (self.tmp / "reports" / "drafts.md").read_text())
+
+        # After the top-up the item is drafted and the warning clears.
+        client = FakeClient(self.SCORES)
+        with mock.patch.object(draft.anthropic, "Anthropic", lambda: client):
+            summary = draft.run(SimpleNamespace(no_pr=True, score_only=False))
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertEqual(state["processed"]["id0"]["decision"], "drafted")
+        self.assertNotIn("credits_out_since", state)
+        self.assertNotIn("credits are used up", (self.tmp / "reports" / "drafts.md").read_text())
+
+    def test_scoring_without_credits_leaves_items_for_later(self):
+        client = FakeClient(self.SCORES)
+        def no_credit(**params):
+            raise credit_error()
+        client.messages.create = no_credit
+        with mock.patch.object(draft.anthropic, "Anthropic", lambda: client):
+            summary = draft.run(SimpleNamespace(no_pr=True, score_only=False))
+        self.assertTrue(summary["credits_out"])
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertNotIn("id0", state["processed"])
+        self.assertFalse(draft.is_credit_error(ValueError("credit balance")))
+
+
 class SameStoryTest(RunTest):
     def test_same_story_in_one_batch_is_drafted_once(self):
         scores = [

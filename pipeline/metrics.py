@@ -278,6 +278,12 @@ def weekly_report(today: date, feedback_month: dict | None) -> str | None:
     before = web_analytics(start - timedelta(days=7), start - timedelta(days=1)) or {}
     span = f"{start:%-d %b} – {end:%-d %b %Y}"
     lines = [f"Data Governance Signal — week {span}", ""]
+    ai_state = DATA / "state" / "ai.json"
+    if ai_state.exists():
+        since = json.loads(ai_state.read_text(encoding="utf-8")).get("credits_out_since")
+        if since:
+            lines += ["!!! ACTION NEEDED: Anthropic API credits are used up (since " + since[:16].replace("T", " ") + " UTC).",
+                      "!!! No new stories are being drafted. Top up at console.anthropic.com -> Settings -> Billing.", ""]
     if "error" in week:
         lines.append(f"Traffic figures unavailable: {week['error']}")
     else:

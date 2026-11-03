@@ -222,6 +222,14 @@ class ModelError(RuntimeError):
     pass
 
 
+CREDITS_MESSAGE = "Anthropic API credits are used up — top up at console.anthropic.com → Settings → Billing"
+
+
+def is_credit_error(e: Exception) -> bool:
+    """Anthropic answers 400 'Your credit balance is too low …' when the prepaid credits run out."""
+    return isinstance(e, anthropic.APIStatusError) and "credit balance" in str(e).lower()
+
+
 def call_json(client: anthropic.Anthropic, state: dict, *, model: str, system: str, user: str, schema: dict,
               effort: str, max_tokens: int) -> dict:
     params = dict(
@@ -1004,7 +1012,7 @@ def run(args) -> dict:
     taken = {a["slug"] for a in existing + pending}
     client = anthropic.Anthropic()
     summary = {"run": now, "candidates": 0, "scored": 0, "duplicates": 0, "selected": 0, "drafted": 0, "failed": 0,
-               "queued": 0, "budget_stop": False}
+               "queued": 0, "budget_stop": False, "credits_out": False}
     log: list[str] = []
 
     candidates = load_candidates(state)
@@ -1016,7 +1024,12 @@ def run(args) -> dict:
 
     scores: dict[str, dict] = {}
     if to_score and not over_budget(state):
-        scores = score_items(client, state, to_score, categories, existing + pending)
+        try:
+            scores = score_items(client, state, to_score, categories, existing + pending)
+        except anthropic.APIStatusError as e:
+            if not is_credit_error(e):
+                raise
+            summary["credits_out"] = True  # items stay unscored and are retried after the top-up
     elif to_score:
         summary["budget_stop"] = True
 
@@ -1043,6 +1056,8 @@ def run(args) -> dict:
         if not args.no_pr:
             git("fetch", "-q", "origin", base)
         for item, record in queue[:MAX_DRAFTS_PER_RUN]:
+            if summary["credits_out"]:
+                break
             if over_budget(state):
                 summary["budget_stop"] = True  # the rest stays queued
                 break
@@ -1085,12 +1100,20 @@ def run(args) -> dict:
                 log.append(f"- {mark} **{d['title']}** — importance {d['importance']}"
                            f"{' · primary source found' if primary else ''} · {record.get('pr', slug)}")
             except (ModelError, anthropic.APIError, subprocess.CalledProcessError, json.JSONDecodeError) as e:
+                if is_credit_error(e):
+                    summary["credits_out"] = True  # the item stays selected and is drafted after the top-up
+                    log.append(f"- 🚨 [{item['title']}]({item['url']}) — waiting: {CREDITS_MESSAGE}")
+                    break
                 detail = e.stderr.strip()[:200] if isinstance(e, subprocess.CalledProcessError) else str(e)[:200]
                 record.update(decision="failed", error=detail)
                 summary["failed"] += 1
                 log.append(f"- ❌ [{item['title']}]({item['url']}) — {detail}")
         summary["queued"] = max(0, len(queue) - MAX_DRAFTS_PER_RUN)
 
+    if summary["credits_out"]:
+        state.setdefault("credits_out_since", now)
+    elif summary["scored"] or summary["drafted"]:
+        state.pop("credits_out_since", None)
     save_state(state)
     write_report(state, summary, log)
     return summary
@@ -1105,6 +1128,8 @@ def write_report(state: dict, summary: dict, log: list[str]) -> None:
     lines = [
         "# Drafts report",
         "",
+        *([f"> 🚨 **{CREDITS_MESSAGE}.** No stories are being scored or drafted since {state['credits_out_since']}; "
+           "waiting items are processed automatically after the top-up.", ""] if state.get("credits_out_since") else []),
         f"Last run: **{summary['run']}** · candidates {summary['candidates']} · scored {summary['scored']} · "
         f"selected {summary['selected']} · drafted {summary['drafted']} · failed {summary['failed']} · "
         f"queued for next run {summary['queued']}"
