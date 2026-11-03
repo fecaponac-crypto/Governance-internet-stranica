@@ -1,15 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-03T06:52:01Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-03T09:18:33Z** · candidates 4 · scored 4 · selected 3 · drafted 3 · failed 0 · queued for next run 0
 
-AI spend this month: **$0.32** of $12 budget (18 calls)
+AI spend this month: **$0.70** of $12 budget (26 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 4 claims to check **CJEU Advocate General says AI chatbots reusing press articles in real time may infringe publishers' rights** — importance 4 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/52
+- ⚠️ 4 claims to check **IMY reprimands four Swedish people-search services and rules GDPR overrides their constitutional shield** — importance 4 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/53
+- ℹ️ not fact-checked **noyb ranks MEPs on more than 1,000 Digital Omnibus amendments to the GDPR and ePrivacy rules** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/54
 
 ## Recently skipped by triage
 
+- (1) Podcast promotion with generic description; no concrete governance consequence.
 - (1) Political commentary on a US executive order about AI branding; no concrete data governance consequence evident from the excerpt.
 - (1) Vendor-adjacent analyst blog about a cloud provider's strategy; generic thought-leadership without a concrete governance consequence.
 - (1) Generic AI spending survey coverage with no concrete governance consequence; not a clear governance story.
@@ -24,4 +27,3 @@ _No drafts this run._
 - (1) Mass arbitration statistics are a consumer dispute topic without a data governance, privacy or AI governance angle.
 - (2) Commentary on how AI companies want to be governed could be relevant to AI governance practitioners, though the excerpt is empty so the content is thin and the item is only worth knowing.
 - (1) Analyst prediction piece about cloud market competition; no concrete data governance consequence.
-- (1) Vendor marketing for Monte Carlo and Databricks Genie traces; not a genuine launch with governance consequence.

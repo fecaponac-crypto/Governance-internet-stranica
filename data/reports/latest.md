@@ -1,13 +1,21 @@
 # Inflow report
 
-Last run: **2026-11-03T06:51:30Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-03T09:18:22Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (29)
+## New items, last 48 hours (33)
+
+### High priority sources
+
+| Date | Source | Title |
+|---|---|---|
+| 2026-11-03 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-250/25 Like Company](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155en.pdf) |
+| 2026-11-03 | The EU AI Act Newsletter (Future of Life Institute) | [How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)](https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Söktjänster behandlar personuppgifter på otillåtet sätt](https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/) |
 | 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
 | 2026-11-03 | CDO Magazine | [US Federal News Bureau Pentagon’s Overreliance on AI Raises the Danger of Bad Data](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-overreliance-on-ai-raises-the-danger-of-bad-data) |
@@ -30,6 +38,7 @@ Last run: **2026-11-03T06:51:30Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
 | 2026-11-02 | Euractiv | [EU cloud providers baulk at Brussels’ sovereignty demands](https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/) |
 | 2026-11-01 | SiliconANGLE — Big Data | [Agent demand can’t be forecast, meaning the database has to be ready for anything](https://siliconangle.com/2026/11/01/agentic-ai-architecture-demands-real-time-databases-evolve26/) |
+| 2026-10-12 | noyb — European Center for Digital Rights | [Ranking: Who in the EU Parliament fights for your privacy – and who for Big Tech?!](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ranking-who-eu-parliament-fights-your-privacy-and-who-big-tech) |
 
 ### Low priority sources
 
@@ -45,7 +54,7 @@ Last run: **2026-11-03T06:51:30Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+- **AEPD — Spanish Data Protection Agency** — failed 2× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
 
 ## Check manually (weekly)
 

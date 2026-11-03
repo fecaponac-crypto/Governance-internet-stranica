@@ -217,6 +217,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "122df05575e5ca86": {
+   "at": "2026-11-03T09:18:33Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over",
+   "flagged": 4,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/53",
+   "primary_found": false,
+   "reason": "Swedish DPA finds search services unlawfully processed criminal-offence data and breached erasure rights; concrete enforcement consequence for data handling.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "13067dac8ba153f3": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -900,6 +917,23 @@
    "importance": 1,
    "reason": "Podcast episode on social media and hate speech; no clear data governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "4c1302a07aad978a": {
+   "at": "2026-11-03T09:18:33Z",
+   "categories": [
+    "privacy",
+    "ai-industry"
+   ],
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "cjeu-advocate-general-says-ai-chatbots-reusing-press-articles-in-real",
+   "flagged": 4,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/52",
+   "primary_found": false,
+   "reason": "CJEU Advocate General opinion on real-time reuse of press publications by AI chatbots; significant legal development for AI data use, though non-binding opinion.",
+   "relevant": true,
    "same_story_as": null
   },
   "4dcd7af26dab1378": {
@@ -1886,6 +1920,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ab96aea88e038380": {
+   "at": "2026-11-03T09:18:33Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Podcast promotion with generic description; no concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "adb5f0ac1636b4a6": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -2439,6 +2484,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Court ruling keeping a medical-privacy claim alive against an ed-tech provider after a data breach.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "d00a463cb85fab77": {
+   "at": "2026-11-03T09:18:33Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "noyb-ranks-meps-on-more-than-1-000-digital-omnibus-amendments-to-the-g",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/54",
+   "primary_found": false,
+   "reason": "Digital Omnibus is a major pending GDPR change; noyb analysis of Parliament amendments shows legislative process positions, though it is advocacy ranking from a complainant organisation.",
    "relevant": true,
    "same_story_as": null
   },
@@ -3143,8 +3205,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 18,
-   "usd": 0.3199
+   "calls": 26,
+   "usd": 0.7015
   }
  }
 }
