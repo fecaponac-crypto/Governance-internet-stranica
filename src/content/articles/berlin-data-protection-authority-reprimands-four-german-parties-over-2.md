@@ -12,6 +12,14 @@ region: "Germany"
 status:
   stage: "Decision"
   detail: "Reprimands issued; AfD complaint still pending"
+enforcement:
+  case: berlin-dpa-german-parties-microtargeting
+  action: "Reprimand"
+  authority: "Berlin Commissioner for Data Protection and Freedom of Information"
+  parties: "CDU; SPD; Bündnis 90/Die Grünen; DIE LINKE"
+  framework: "GDPR"
+  jurisdiction: "Germany"
+  date: 2026-10-21
 sources:
   - name: "noyb"
     title: "noyb win: German DPA finds microtargeting by major political parties illegal"

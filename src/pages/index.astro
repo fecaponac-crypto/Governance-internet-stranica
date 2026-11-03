@@ -37,7 +37,7 @@ const activeInstitutions = INSTITUTIONS.map((i) => ({ ...i, n: monthArticles.fil
   .sort((a, b) => b.n - a.n)
   .slice(0, 5);
 const latestEnforcement = articles
-  .filter((a) => a.data.enforcement && ['Fine', 'Settlement', 'Court ruling', 'Order'].includes(a.data.enforcement.action))
+  .filter((a) => a.data.enforcement && ['Fine', 'Settlement', 'Court ruling', 'Order', 'Reprimand'].includes(a.data.enforcement.action))
   .sort((a, b) => b.data.enforcement!.date.getTime() - a.data.enforcement!.date.getTime())
   .slice(0, 4);
 const movingLaws = (await getLegislation(articles)).filter((l) => l.stories.length).slice(0, 4);
