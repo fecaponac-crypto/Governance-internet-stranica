@@ -1,31 +1,31 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T15:19:28Z",
+ "updated": "2026-11-03T17:10:44Z",
  "portal": {
-  "published_total": 47,
-  "published_this_month": 4,
+  "published_total": 48,
+  "published_this_month": 5,
   "published_this_month_by_importance": {
+   "4": 3,
    "3": 1,
-   "2": 1,
-   "4": 2
+   "2": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 43,
-  "runs": 33,
+  "items_collected": 55,
+  "runs": 34,
   "runs_with_failed_sources": 13,
   "triage_decisions": {
-   "skipped": 38,
-   "drafted": 5,
+   "skipped": 46,
+   "drafted": 9,
    "failed": 1
   },
-  "ai_spend_usd": 0.8488,
+  "ai_spend_usd": 2.0053,
   "sources_active": 81,
   "sources_failing_now": 0
  },
  "editor": {
-  "drafts_published": 4,
+  "drafts_published": 8,
   "drafts_rejected": 0
  },
  "newsletter": {
@@ -70,11 +70,11 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
+    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 2
    },
    {
-    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 2
    },
    {

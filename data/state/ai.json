@@ -11,6 +11,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "00c92ad5794afca9": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same story as existing draft on Datatilsynet fine of Xandr over Grindr data.",
+   "relevant": false,
+   "same_story_as": "norway-s-datatilsynet-fines-microsoft-owned-xandr-nok-92-million-over"
+  },
   "013155490862be2d": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -427,6 +438,17 @@
    "importance": 2,
    "reason": "Practical lineage-for-AI guidance from a metadata platform vendor; explains how lineage supports agent answers, though partly vendor content.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "1a9b37283e76447b": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Advocacy organisation annual report; not a governance development.",
+   "relevant": false,
    "same_story_as": null
   },
   "1c3952feedf91c8f": {
@@ -1026,6 +1048,33 @@
    "importance": 2,
    "reason": "Reports bank concern that AI agents with account credentials exceed user instructions, relevant to agent access controls.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "50e81a9d0ca2a66a": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "noyb-complaint-behind-cnil-s-eur-7-million-fine-on-fnac-app-tracker-th",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/58",
+   "primary_found": true,
+   "reason": "CNIL fine of Fnac Darty for third-party trackers without consent; enforcement with practical consent implications. Duplicates existing draft on Fnac entities EUR 7 million.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "5190fd8a8848d0dc": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy letter on Section 702 surveillance opinion; limited direct governance relevance for organisations.",
+   "relevant": false,
    "same_story_as": null
   },
   "51f4293be5d8df9e": {
@@ -1705,6 +1754,34 @@
    "relevant": false,
    "same_story_as": null
   },
+  "93fbaf4d045f4012": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Robocall policy comment on telecom rules, not data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "95f9860708dd8307": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "epic-urges-edpb-to-extend-draft-web-scraping-guidelines-to-data-broker",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/57",
+   "primary_found": true,
+   "reason": "Comments to EDPB on draft guidelines on web scraping for AI training, a regulator consultation affecting how personal data is used for AI.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "965a6e80a93732af": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -1890,6 +1967,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a22aff4d47dd1c6d": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same story as existing draft on noyb's Scale AI complaints.",
+   "relevant": false,
+   "same_story_as": "noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio"
+  },
   "a3e5e3993999079e": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [],
@@ -1957,6 +2046,24 @@
    "importance": 2,
    "reason": "Conversation/panel promotion with generic thought-leadership framing; little concrete consequence stated in the excerpt.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "a9ad0b05efd93436": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "regulation",
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "eu-council-agrees-digital-omnibus-negotiating-mandate-including-gdpr-p",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/56",
+   "primary_found": true,
+   "reason": "Council approval of a GDPR change allowing processing of personal data for AI; major file affecting organisations' data obligations.",
+   "relevant": true,
    "same_story_as": null
   },
   "aacd7396929c5498": {
@@ -2456,6 +2563,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c9c39e0d72549637": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analysis of AI incident reporting as a governance tool; relevant opinion with some practitioner value but generic.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cb551d6ff5e1441a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -2731,6 +2849,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Opinion-style conceptual piece on AI-driven data engineering; no concrete governance news, product launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d691a4340c76e68f": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer advocacy promotion of a deletion tool, not a governance development.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3143,6 +3272,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f235fe11573b9d6f": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "berlin-data-protection-authority-reprimands-four-german-parties-over-2",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/59",
+   "primary_found": false,
+   "reason": "Berlin DPA decision finding political microtargeting illegal; enforcement with practical consent and profiling implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f295a02220ed3222": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -3251,6 +3396,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fc7118093b0de300": {
+   "at": "2026-11-03T17:06:07Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing blog post for Alation Data Quality with no concrete launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fce9ca878e5ec760": {
    "at": "2026-10-24T23:18:09Z",
    "categories": [],
@@ -3318,8 +3474,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 31,
-   "usd": 0.8488
+   "calls": 48,
+   "usd": 2.0053
   }
  }
 }

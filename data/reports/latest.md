@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-03T15:18:19Z** · sources checked: 81 · failed: 0 · new items this run: 8
+Last run: **2026-11-03T17:05:56Z** · sources checked: 81 · failed: 0 · new items this run: 12
 
-## New items, last 48 hours (42)
+## New items, last 48 hours (54)
 
 ### High priority sources
 
@@ -17,8 +17,10 @@ Last run: **2026-11-03T15:18:19Z** · sources checked: 81 · failed: 0 · new it
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-03 | Snowflake Blog | [Cortex Training: Serverless Fine-Tuning for Open-Weight LLMs](https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-training-fine-tune-open-weight-llms) |
+| 2026-11-03 | Alation Blog | [November 3, 2026 How to Ensure Data Consistency and Quality Discover how to maintain data consistency and quality across systems with governance, automation, and Alation Data Quality. Read More](https://www.alation.com/blog/data-consistency-and-quality/) |
 | 2026-11-03 | Datatilsynet (Norway) | [Datatilsynet gir Microsoft-selskap 92 millioner i gebyr](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/datatilsynet-gir-microsoft-selskap-92-millioner-i-gebyr/) |
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Gartner Survey Flags AI Strategy Miscalculation as Major Enterprise Risk](https://www.cdomagazine.tech/aiml/gartner-survey-flags-ai-strategy-miscalculation-as-major-enterprise-risk) |
+| 2026-11-03 | Tech Policy Press | [The Incident Report Is Becoming a Building Block of AI Governance](https://techpolicy.press/the-incident-report-is-becoming-a-building-block-of-ai-governance) |
 | 2026-11-03 | Forrester Blogs | [AI Capacity Scarcity Shifts The Goals Of FinOps](https://www.forrester.com/blogs/ai-capacity-scarcity-shifts-the-goals-of-finops/) |
 | 2026-11-03 | Ataccama Blog | [Ataccama announces FWRD 2026: Leaders reflect on building trusted data foundations for AI and share 2027 predictions](https://www.ataccama.com/news/ataccama-announces-fwrd-2026-leaders-reflect-on-building-trusted-data-foundations-for-ai-and-share-2027-predictions) |
 | 2026-11-03 | Snowflake Blog | [Snowflake and USA Cycling Partner on Data for LA28 Olympics](https://www.snowflake.com/content/snowflake-site/global/en/blog/usa-cycling-snowflake-partnership) |
@@ -46,6 +48,12 @@ Last run: **2026-11-03T15:18:19Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
 | 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
 | 2026-11-02 | Euractiv | [EU cloud providers baulk at Brussels’ sovereignty demands](https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/) |
+| 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
+| 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
+| 2026-10-23 | noyb — European Center for Digital Rights | [AI: EU Member States approve “digital expropriation” for AI companies](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies) |
+| 2026-10-21 | noyb — European Center for Digital Rights | [noyb win: German DPA finds microtargeting by major political parties illegal](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-german-dpa-finds-microtargeting-major-political-parties-illegal) |
+| 2026-10-13 | noyb — European Center for Digital Rights | [Annual Report 2025 out now!](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/annual-report-2025-out-now) |
+| 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eu-85-million) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Ranking: Who in the EU Parliament fights for your privacy – and who for Big Tech?!](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ranking-who-eu-parliament-fights-your-privacy-and-who-big-tech) |
 
 ### Low priority sources
@@ -60,6 +68,10 @@ Last run: **2026-11-03T15:18:19Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-02 | Computer Weekly — IT security | [Cold chain cyber attacks highlight lack of OT security in retail](https://www.computerweekly.com/news/366653380/Cold-chain-cyber-attacks-highlight-lack-of-OT-security-in-retail) |
 | 2026-11-02 | Computer Weekly — IT security | [Who controls the technology we depend on?](https://www.computerweekly.com/opinion/Who-controls-the-technology-we-depend-on) |
 | 2026-11-02 | Data Engineering Weekly | [Data Engineering Weekly #294](https://www.dataengineeringweekly.com/p/data-engineering-weekly-294) |
+| 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Comments to EDPB on Guidelines on Web Scraping for AI: Go Further](https://epic.org/epic-comments-to-edpb-on-guidelines-on-web-scraping-for-ai-go-further/) |
+| 2026-10-30 | EPIC — Electronic Privacy Information Center | [Don’t Let Data Brokers Profit off of Your Personal Data](https://epic.org/dont-let-data-brokers-profit-off-of-your-personal-data/) |
+| 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Urges FCC to Protect Consumers from Unwanted “Political” Robocalls](https://epic.org/epic-urges-fcc-to-protect-consumers-from-unwanted-political-robocalls/) |
+| 2026-10-26 | EPIC — Electronic Privacy Information Center | [EPIC, Coalition Urge Congress to Force Administration to Publicly Release Surveillance Court Opinion on Section 702](https://epic.org/epic-coalition-urge-congress-to-force-administration-to-publicly-release-surveillance-court-opinion-on-section-702/) |
 
 ## Source problems
 
