@@ -3484,6 +3484,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ff178bdd0eb3ade8": {
+   "at": "2026-11-03T23:26:19Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 21,
+   "decision": "drafted",
+   "draft": "ninth-circuit-finds-standing-on-a-breach-of-confidence-theory-in-healt",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/60",
+   "primary_found": false,
+   "reason": "Ninth Circuit ruling on Article III standing in data privacy class actions, deepening a circuit split; significant for privacy litigation risk, from a law firm analysis with reasonable detail.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "inbox-c3ab45be3c67f524": {
    "at": "2026-11-02T19:18:35Z",
    "categories": [],
@@ -3505,8 +3522,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 50,
-   "usd": 2.0066
+   "calls": 56,
+   "usd": 2.3402
   }
  }
 }

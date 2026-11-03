@@ -1,26 +1,26 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T21:19:08Z",
+ "updated": "2026-11-03T23:27:40Z",
  "portal": {
   "published_total": 52,
   "published_this_month": 9,
   "published_this_month_by_importance": {
-   "4": 4,
    "3": 4,
-   "2": 1
+   "2": 1,
+   "4": 4
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 58,
-  "runs": 36,
+  "items_collected": 59,
+  "runs": 37,
   "runs_with_failed_sources": 14,
   "triage_decisions": {
    "skipped": 49,
-   "drafted": 9,
+   "drafted": 10,
    "failed": 1
   },
-  "ai_spend_usd": 2.0066,
+  "ai_spend_usd": 2.3402,
   "sources_active": 81,
   "sources_failing_now": 0
  },
@@ -70,7 +70,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
     "page_views": 2
    },
    {
@@ -78,7 +78,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 2
    },
    {
