@@ -206,6 +206,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "108c5144ee303b00": {
+   "at": "2026-11-03T03:18:36Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor-adjacent analyst blog about a cloud provider's strategy; generic thought-leadership without a concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "13067dac8ba153f3": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -3121,8 +3132,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 16,
-   "usd": 0.3187
+   "calls": 17,
+   "usd": 0.3193
   }
  }
 }

@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-03T00:18:27Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-03T03:18:39Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**29 visits · 31 page views** this month (bots excluded)
+**30 visits · 32 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -10,6 +10,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 |---|---:|---:|
 | 2026-11-01 | 10 | 12 |
 | 2026-11-02 | 19 | 19 |
+| 2026-11-03 | 1 | 1 |
 
 ## Top pages
 
@@ -20,12 +21,13 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/ — 2
 - /news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/ — 2
 - /news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at/ — 1
+- /oracle-announces-ai-registry-and-ai-generated-business-ontologies-to-govern-enterprise-ai-agents — 1
 - /institutions/datatilsynet-no/ — 1
 - /accessibility/ — 1
 
 ## Countries
 
-- CN — 12
+- CN — 13
 - US — 11
 - HR — 3
 - AT — 1
@@ -36,6 +38,6 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 25
+- (direct) — 26
 - www.google.com — 4
 - datagovernancesignal.com — 2

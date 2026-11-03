@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T00:18:27Z",
+ "updated": "2026-11-03T03:18:39Z",
  "portal": {
   "published_total": 44,
   "published_this_month": 1,
@@ -10,15 +10,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 27,
-  "runs": 27,
+  "items_collected": 28,
+  "runs": 28,
   "runs_with_failed_sources": 10,
   "triage_decisions": {
-   "skipped": 26,
+   "skipped": 27,
    "failed": 1,
    "drafted": 1
   },
-  "ai_spend_usd": 0.3187,
+  "ai_spend_usd": 0.3193,
   "sources_active": 81,
   "sources_failing_now": 0
  },
@@ -30,8 +30,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 31,
-  "visits": 29,
+  "page_views": 32,
+  "visits": 30,
   "bots_excluded": true,
   "by_day": [
    {
@@ -43,6 +43,11 @@
     "date": "2026-11-02",
     "page_views": 19,
     "visits": 19
+   },
+   {
+    "date": "2026-11-03",
+    "page_views": 1,
+    "visits": 1
    }
   ],
   "top_pages": [
@@ -75,6 +80,10 @@
     "page_views": 1
    },
    {
+    "requestPath": "/oracle-announces-ai-registry-and-ai-generated-business-ontologies-to-govern-enterprise-ai-agents",
+    "page_views": 1
+   },
+   {
     "requestPath": "/institutions/datatilsynet-no/",
     "page_views": 1
    },
@@ -86,7 +95,7 @@
   "countries": [
    {
     "countryName": "CN",
-    "page_views": 12
+    "page_views": 13
    },
    {
     "countryName": "US",
@@ -120,7 +129,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 25
+    "page_views": 26
    },
    {
     "refererHost": "www.google.com",

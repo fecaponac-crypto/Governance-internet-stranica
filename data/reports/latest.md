@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-03T00:18:13Z** · sources checked: 81 · failed: 0 · new items this run: 3
+Last run: **2026-11-03T03:18:20Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (27)
+## New items, last 48 hours (28)
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
 | 2026-11-03 | CDO Magazine | [US Federal News Bureau Pentagon’s Overreliance on AI Raises the Danger of Bad Data](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-overreliance-on-ai-raises-the-danger-of-bad-data) |
 | 2026-11-02 | CDO Magazine | [Community Chicago Executives Ask a Bigger Question: Who’s Shaping the Future of AI?](https://www.cdomagazine.tech/community/chicago-executives-ask-a-bigger-question-whos-shaping-the-future-of-ai) |
