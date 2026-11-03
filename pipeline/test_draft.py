@@ -303,9 +303,11 @@ class ExtractLinksTest(unittest.TestCase):
 class FactCheckThresholdTest(RunTest):
     def test_low_importance_draft_is_not_fact_checked(self):
         scores = [{"index": 0, "relevant": True, "importance": 3, "categories": ["privacy"], "same_story_as": "", "reason": "x"}]
-        with mock.patch.dict(DRAFT, importance=3):
+        # The writer rates the story 2: below the threshold, so no fact check.
+        with mock.patch.dict(DRAFT, importance=2):
             client, summary = self.run_with(scores)
         self.assertEqual((summary["drafted"], client.writer_calls, client.check_calls), (1, 1, 0))
+        self.assertEqual(draft.FACT_CHECK_MIN_IMPORTANCE, 3)
         self.assertIn("not run", draft.check_summary({"claims": 0, "flagged": [], "skipped": True}))
         summary_text = draft.check_summary({"claims": 2, "flagged": [], "corrected": CHECK["claims"][1:]})
         self.assertIn("✅", summary_text)

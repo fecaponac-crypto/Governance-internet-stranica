@@ -57,7 +57,7 @@ MIN_SOURCE_CHARS = 600
 MAX_SOURCE_CHARS = 40_000  # per source; a draft may use the collected article and one original document
 MAX_LINKS = 80
 # The fact check roughly doubles the cost of a draft, so it runs only for the most important stories.
-FACT_CHECK_MIN_IMPORTANCE = int(os.environ.get("FACT_CHECK_MIN_IMPORTANCE", "4"))
+FACT_CHECK_MIN_IMPORTANCE = int(os.environ.get("FACT_CHECK_MIN_IMPORTANCE", "3"))
 MAX_PDF_PAGES = 40
 
 EDITOR = os.environ.get("EDITOR_GITHUB", "fecaponac-crypto")
