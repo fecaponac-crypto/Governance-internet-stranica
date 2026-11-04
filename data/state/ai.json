@@ -451,6 +451,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1987bdbb36334531": {
+   "at": "2026-11-04T17:17:13Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same FTC inquiry into personal-data pricing covered by existing article ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai.",
+   "relevant": false,
+   "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
+  },
   "19d3f30dbaeb0425": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -3464,6 +3475,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e96a91a499acf5b4": {
+   "at": "2026-11-04T17:17:13Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Corporate SME cyber training launch; no data governance angle and vendor-style marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ea2d5a0cba6ad367": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -3797,8 +3819,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 80,
-   "usd": 3.8344
+   "calls": 81,
+   "usd": 3.8351
   }
  }
 }

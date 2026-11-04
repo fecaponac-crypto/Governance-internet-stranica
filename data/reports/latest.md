@@ -1,14 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-04T15:18:16Z** · sources checked: 81 · failed: 2 · new items this run: 15
+Last run: **2026-11-04T17:16:50Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (76)
+## New items, last 48 hours (75)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Neural data as the newest frontier in data privacy](https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy) |
+| 2026-11-04 | Hunton Privacy & Information Security Law Blog | [FTC Announces Inquiry into Personalized Pricing and Employee Compensation](https://www.hunton.com/privacy-and-cybersecurity-law-blog/ftc-announces-inquiry-into-personalized-pricing-and-employee-compensation) |
 | 2026-11-04 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-535/24 Russian Maritime Register of Shipping v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260156en.pdf) |
 | 2026-11-04 | Inside Privacy (Covington & Burling) | [CPPA Proposes Amendments to Opt-Out Preference Signal Regulations](https://www.insideprivacy.com/ccpa/cppa-proposes-amendments-to-opt-out-preference-signal-regulations/) |
 | 2026-11-03 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-583/24 [Tagu]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260154en.pdf) |
@@ -58,10 +59,7 @@ Last run: **2026-11-04T15:18:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-02 | Tech Policy Press | [How AI Companies Want to Be Governed, and What That Means for AI Governance](https://techpolicy.press/how-ai-companies-want-to-be-governed-and-what-that-means-for-ai-governance) |
 | 2026-11-02 | Alation Blog | [November 2, 2026 Build vs. Buy in the AI Era: How Veolia Got AI-Ready Veolia’s data governance officer got approval to build her own AI solution. Then she took a second look at a product… Read More](https://www.alation.com/blog/veolia-ai-ready-data-playbook/) |
 | 2026-11-02 | Forrester Blogs | [Predictions 2027: Cloud’s AI Race Gets Messier](https://www.forrester.com/blogs/predictions-2027-clouds-ai-race-gets-messier/) |
-| 2026-11-02 | CDO Magazine | [Data Management Why Efforts Into Data Quality Governance Fail Without an Operating Model](https://www.cdomagazine.tech/data-management/why-efforts-into-data-quality-governance-fail-without-an-operating-model) |
 | 2026-11-02 | Databricks Blog | [Lakebase Postgres is now generally available on Google Cloud](https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud) |
-| 2026-11-02 | DAMA International | [DAMA Day Warsaw 2026: Join DAMA Poland on November 4](https://dama.org/2026/11/02/dama-day-warsaw-2026/) |
-| 2026-11-02 | NIST (US National Institute of Standards and Technology) | [Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You](https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-23 | noyb — European Center for Digital Rights | [AI: EU Member States approve “digital expropriation” for AI companies](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies) |
@@ -81,6 +79,7 @@ Last run: **2026-11-04T15:18:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-04 | Google Cloud Blog — Data Analytics | [Unify operational and Lakehouse data with direct Iceberg access in AlloyDB for PostgreSQL](https://cloud.google.com/blog/products/databases/direct-iceberg-access-in-alloydb/) |
 | 2026-11-04 | European Digital Rights (EDRi) | [EU governments call it ‘simplification,’ but their Data Omnibus deal considerably weakens our rights](https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/) |
 | 2026-11-04 | MIT Technology Review | [Securing the agentic enterprise with data lineage](https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/) |
+| 2026-11-04 | Computer Weekly — IT security | [Mastercard meets ‘responsibility’ through SME cyber security training](https://www.computerweekly.com/news/366653613/Mastercard-meets-responsibility-through-SME-cyber-security-training) |
 | 2026-11-03 | Modern Data 101 | [Your Team’s Edge When AI Generates Everything: Rise of the Aggregator](https://moderndata101.substack.com/p/edge-in-the-ai-era) |
 | 2026-11-03 | The Record (Recorded Future News) | [Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects](https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three) |
 | 2026-11-03 | MIT Technology Review | [Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
@@ -97,8 +96,7 @@ Last run: **2026-11-04T15:18:16Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
-- **European Data Protection Board (EDPB)** — failed 3× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 4× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

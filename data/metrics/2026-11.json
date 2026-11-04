@@ -1,38 +1,38 @@
 {
  "month": "2026-11",
- "updated": "2026-11-04T15:23:34Z",
+ "updated": "2026-11-04T17:17:17Z",
  "portal": {
-  "published_total": 53,
-  "published_this_month": 10,
+  "published_total": 55,
+  "published_this_month": 12,
   "published_this_month_by_importance": {
-   "3": 5,
-   "2": 1,
-   "4": 4
+   "4": 5,
+   "3": 6,
+   "2": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 83,
-  "runs": 44,
-  "runs_with_failed_sources": 18,
+  "items_collected": 85,
+  "runs": 45,
+  "runs_with_failed_sources": 19,
   "triage_decisions": {
    "drafted": 14,
-   "skipped": 69,
+   "skipped": 71,
    "failed": 1
   },
-  "ai_spend_usd": 3.8344,
+  "ai_spend_usd": 3.8351,
   "sources_active": 81,
-  "sources_failing_now": 2
+  "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 10,
-  "drafts_rejected": 0
+  "drafts_published": 12,
+  "drafts_rejected": 1
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 66,
+  "page_views": 67,
   "visits": 59,
   "bots_excluded": true,
   "by_day": [
@@ -53,14 +53,14 @@
    },
    {
     "date": "2026-11-04",
-    "page_views": 17,
+    "page_views": 18,
     "visits": 12
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 27
+    "page_views": 28
    },
    {
     "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
@@ -110,7 +110,7 @@
    },
    {
     "countryName": "HR",
-    "page_views": 9
+    "page_views": 10
    },
    {
     "countryName": "GB",
@@ -147,11 +147,11 @@
     "page_views": 52
    },
    {
-    "refererHost": "www.google.com",
-    "page_views": 7
+    "refererHost": "datagovernancesignal.com",
+    "page_views": 8
    },
    {
-    "refererHost": "datagovernancesignal.com",
+    "refererHost": "www.google.com",
     "page_views": 7
    }
   ]
