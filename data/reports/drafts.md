@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-04T03:18:32Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-04T06:18:20Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$2.65** of $12 budget (62 calls)
 
 ## This run
 
-- ✅ (✏️ 2 corrected automatically) **CPPA staff propose naming Global Privacy Control in CCPA opt-out signal rules and widening metrics reporting** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/61
+_No drafts this run._
 
 ## Recently skipped by triage
 

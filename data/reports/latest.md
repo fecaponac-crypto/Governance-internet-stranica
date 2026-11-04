@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-04T03:18:17Z** · sources checked: 81 · failed: 3 · new items this run: 1
+Last run: **2026-11-04T06:18:10Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (59)
+## New items, last 48 hours (58)
 
 ### High priority sources
 
@@ -51,7 +51,6 @@ Last run: **2026-11-04T03:18:17Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-02 | Ataccama Blog | [Predictions for data and AI in 2027: Meet the FWRD panel](https://www.ataccama.com/blog/predictions-for-data-and-ai-in-2027-meet-the-fwrd-panel) |
 | 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
 | 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
-| 2026-11-02 | Euractiv | [EU cloud providers baulk at Brussels’ sovereignty demands](https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-23 | noyb — European Center for Digital Rights | [AI: EU Member States approve “digital expropriation” for AI companies](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies) |
@@ -80,9 +79,7 @@ Last run: **2026-11-04T03:18:17Z** · sources checked: 81 · failed: 3 · new it
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
-- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **Monte Carlo Blog** — failed 1× in a row: `ValueError: unreadable feed https://www.montecarlodata.com/feed/: <unknown>:94:2: mismatched tag`
+_None._
 
 ## Check manually (weekly)
 
