@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-04T09:18:21Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-04T12:18:21Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (60)
+## New items, last 48 hours (61)
 
 ### High priority sources
 
@@ -18,6 +18,10 @@ Last run: **2026-11-04T09:18:21Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-04 | CDO Magazine | [Leadership Moves Xplor Technologies Names Shivani Stumpf Chief AI Officer](https://www.cdomagazine.tech/leadership-moves/xplor-technologies-names-shivani-stumpf-chief-ai-officer) |
+| 2026-11-04 | AEPD — Spanish Data Protection Agency | [¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves) |
+| 2026-11-04 | AZOP — Croatian Personal Data Protection Agency | [Poziv na online edukaciju o osnovama zaštite osobnih podataka – 6. studenog 2026.](https://azop.hr/poziv-na-besplatnu-online-edukaciju-o-osnovama-zastite-osobnih-podataka-6-studenog-2026/) |
+| 2026-11-04 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Webbinarium: Sociala medier och GDPR i LSS-verksamhet](https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/) |
 | 2026-11-04 | DATAVERSITY | [The Art of Lean Governance: Continuous Reconciliation – The Missing Control in Enterprise Assurance](https://www.dataversity.net/articles/the-art-of-lean-governance-continuous-reconciliation-the-missing-control-in-enterprise-assurance/) |
 | 2026-11-04 | DATAVERSITY | [A Step Ahead: Data Strategy for Complex Systems — Landscape Analysis and Visioning](https://www.dataversity.net/articles/a-step-ahead-data-strategy-for-complex-systems-landscape-analysis-and-visioning/) |
 | 2026-11-03 | Privacy World (Squire Patton Boggs) | [“A Trust Betrayed Is the Harm”: Ninth Circuit Rules Breach of Confidence Supplies Article III Standing in Data Privacy Cases, Deepening Circuit Split](https://www.privacyworld.blog/2026/11/a-trust-betrayed-is-the-harm-ninth-circuit-rules-breach-of-confidence-supplies-article-iii-standing-in-data-privacy-cases-deepening-circuit-split/) |
@@ -49,10 +53,7 @@ Last run: **2026-11-04T09:18:21Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-02 | CDO Magazine | [Data Management Why Efforts Into Data Quality Governance Fail Without an Operating Model](https://www.cdomagazine.tech/data-management/why-efforts-into-data-quality-governance-fail-without-an-operating-model) |
 | 2026-11-02 | Databricks Blog | [Lakebase Postgres is now generally available on Google Cloud](https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud) |
 | 2026-11-02 | DAMA International | [DAMA Day Warsaw 2026: Join DAMA Poland on November 4](https://dama.org/2026/11/02/dama-day-warsaw-2026/) |
-| 2026-11-02 | CDO Magazine | [Leadership Moves Newfold Digital Appoints Jesu Joseph Vice President, Data and Business Analytics](https://www.cdomagazine.tech/leadership-moves/newfold-digital-appoints-jesu-joseph-vice-president-data-and-business-analytics) |
 | 2026-11-02 | NIST (US National Institute of Standards and Technology) | [Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You](https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you) |
-| 2026-11-02 | Ataccama Blog | [Predictions for data and AI in 2027: Meet the FWRD panel](https://www.ataccama.com/blog/predictions-for-data-and-ai-in-2027-meet-the-fwrd-panel) |
-| 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-23 | noyb — European Center for Digital Rights | [AI: EU Member States approve “digital expropriation” for AI companies](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies) |
@@ -81,7 +82,7 @@ Last run: **2026-11-04T09:18:21Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 2× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

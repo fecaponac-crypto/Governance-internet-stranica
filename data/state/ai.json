@@ -910,6 +910,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "40877a351171fc49": {
+   "at": "2026-11-04T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Webinar announcement from IMY; event promotion, not a regulatory decision or guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "40d35a8a77e631ca": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -1112,6 +1121,15 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Practitioner framework for dbt project governance; practical but a vendor blog case study rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5262a154424505ba": {
+   "at": "2026-11-04T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Online training invitation from AZOP; event promotion, not news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1421,6 +1439,15 @@
    "importance": 3,
    "reason": "EDPS FAQs on personal data breach notification give practical guidance on breach handling.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "7026e8e99dff8471": {
+   "at": "2026-11-04T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/webinar promotion for an AEPD livestream; excluded as event promotion.",
+   "relevant": false,
    "same_story_as": null
   },
   "71f8ee46301a9e1b": {
@@ -2927,6 +2954,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d636cf169e9ff1fb": {
+   "at": "2026-11-04T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring/leadership appointment news without a governance angle beyond title; not a substantive governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d691a4340c76e68f": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -3577,8 +3613,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 63,
-   "usd": 2.6513
+   "calls": 64,
+   "usd": 2.6521
   }
  }
 }

@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-04T09:18:40Z",
+ "updated": "2026-11-04T12:18:40Z",
  "portal": {
   "published_total": 53,
   "published_this_month": 10,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 64,
-  "runs": 42,
-  "runs_with_failed_sources": 16,
+  "items_collected": 68,
+  "runs": 43,
+  "runs_with_failed_sources": 17,
   "triage_decisions": {
-   "skipped": 53,
+   "skipped": 57,
    "drafted": 11,
    "failed": 1
   },
-  "ai_spend_usd": 2.6513,
+  "ai_spend_usd": 2.6521,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 56,
-  "visits": 54,
+  "page_views": 57,
+  "visits": 55,
   "bots_excluded": true,
   "by_day": [
    {
@@ -53,8 +53,8 @@
    },
    {
     "date": "2026-11-04",
-    "page_views": 7,
-    "visits": 7
+    "page_views": 8,
+    "visits": 8
    }
   ],
   "top_pages": [
@@ -71,15 +71,7 @@
     "page_views": 3
    },
    {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/enforcement/",
+    "requestPath": "/news/spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis/",
     "page_views": 2
    },
    {
@@ -87,7 +79,15 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis/",
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/enforcement/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 2
    },
    {
@@ -121,15 +121,15 @@
     "page_views": 2
    },
    {
+    "countryName": "KR",
+    "page_views": 1
+   },
+   {
+    "countryName": "EC",
+    "page_views": 1
+   },
+   {
     "countryName": "AT",
-    "page_views": 1
-   },
-   {
-    "countryName": "VE",
-    "page_views": 1
-   },
-   {
-    "countryName": "NG",
     "page_views": 1
    },
    {
@@ -137,14 +137,14 @@
     "page_views": 1
    },
    {
-    "countryName": "KR",
+    "countryName": "NG",
     "page_views": 1
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 48
+    "page_views": 49
    },
    {
     "refererHost": "www.google.com",
