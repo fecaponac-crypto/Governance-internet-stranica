@@ -30,12 +30,32 @@ const enfCase = data.enforcement ? enforcementCases(all).find((c) => c.steps.som
 const corrections = await getCollection('corrections', (c) => c.data.article === article.id);
 const laws = data.legislation.length ? (await getLegislation(all)).filter((l) => data.legislation.includes(l.file.id)) : [];
 
-// Explicit related items first, then others sharing a category.
-const explicit = data.related.map((id) => all.find((a) => a.id === id)).filter((a): a is Article => !!a);
-const shared = all.filter(
-  (a) => a.id !== article.id && !explicit.includes(a) && a.data.categories.some((c) => data.categories.includes(c)),
-);
-const related = [...explicit, ...shared].slice(0, 3);
+// Related stories by how closely they connect: picked by the writer, same law, same enforcement case,
+// same institution, then shared topics; newer first among equals.
+const caseIds = new Set(enfCase ? enfCase.steps.map((st) => st.article.id) : []);
+const relevance = (a: Article) =>
+  (data.related.includes(a.id) ? 8 : 0) +
+  (a.data.legislation.some((l) => data.legislation.includes(l)) ? 5 : 0) +
+  (caseIds.has(a.id) ? 5 : 0) +
+  (a.data.institutions.some((i) => data.institutions.includes(i)) ? 3 : 0) +
+  a.data.categories.filter((c) => data.categories.includes(c)).length;
+const related = all
+  .filter((a) => a.id !== article.id)
+  .map((a) => ({ a, score: relevance(a) }))
+  .filter((x) => x.score > 0)
+  .sort((x, y) => y.score - x.score || y.a.data.date.getTime() - x.a.data.date.getTime())
+  .slice(0, 3)
+  .map((x) => x.a);
+// The newest stories not already shown, for readers arriving from search.
+const latest = all.filter((a) => a.id !== article.id && !related.includes(a)).slice(0, 4);
+// Where to follow this story next.
+const follow = [
+  ...laws.map((l) => ({ href: `/legislation/${l.file.id}/`, label: `${l.file.data.short}: ${l.file.data.stage}`, kind: 'Legislation tracker' })),
+  ...(enfCase ? [{ href: `/enforcement/#${enfCase.id}`, label: `${enfCase.latest.e.authority.split(' (')[0]} case (${enfCase.status.toLowerCase()})`, kind: 'Enforcement tracker' }] : []),
+  ...institutions.map((i) => ({ href: `/institutions/${i.id}/`, label: i.short, kind: 'All news from' })),
+  ...cats.slice(0, 2).map((c) => ({ href: `/category/${c.id}/`, label: c.label, kind: 'More in' })),
+  ...(data.deadlines.length ? [{ href: '/deadlines/', label: 'Key dates', kind: 'Calendar' }] : []),
+];
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -255,6 +275,21 @@ const jsonLd = {
   </article>
 
   <div class="wrap after">
+    <nav class="follow" aria-labelledby="follow-title">
+      <h2 id="follow-title">Follow this story</h2>
+      <ul>
+        {
+          follow.map((f) => (
+            <li>
+              <a href={f.href}>
+                <span class="kind">{f.kind}</span>
+                <span class="what">{f.label}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
     {
       related.length > 0 && (
         <section aria-labelledby="rel">
@@ -263,6 +298,21 @@ const jsonLd = {
           </div>
           <div class="rel-grid">
             {related.map((a) => (
+              <ArticleCard article={a} variant="compact" />
+            ))}
+          </div>
+        </section>
+      )
+    }
+    {
+      latest.length > 0 && (
+        <section aria-labelledby="latest">
+          <div class="section-title">
+            <h2 id="latest">Latest</h2>
+            <a href="/news/">All news</a>
+          </div>
+          <div class="rel-grid four">
+            {latest.map((a) => (
               <ArticleCard article={a} variant="compact" />
             ))}
           </div>
@@ -423,12 +473,57 @@ const jsonLd = {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
   }
+  .rel-grid.four {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .follow {
+    border-top: 3px solid var(--ink);
+    padding-top: 0.9rem;
+  }
+  .follow h2 {
+    font-size: 1.15rem;
+    margin: 0 0 0.75rem;
+  }
+  .follow ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .follow a {
+    display: flex;
+    flex-direction: column;
+    min-height: 44px;
+    justify-content: center;
+    padding: 0.45rem 0.85rem;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .follow a:hover,
+  .follow a:focus-visible {
+    border-color: var(--signal);
+  }
+  .follow .kind {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+  }
+  .follow .what {
+    font-weight: 650;
+    font-size: 0.95rem;
+  }
   @media (max-width: 860px) {
     .layout {
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
-    .rel-grid {
+    .rel-grid,
+    .rel-grid.four {
       grid-template-columns: 1fr;
       gap: 0;
     }
