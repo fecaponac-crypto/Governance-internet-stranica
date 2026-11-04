@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-04T21:18:28Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-04T23:42:41Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$3.93** of $12 budget (85 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Democratic control of both US chambers expected to bring more AI and privacy oversight from 2027** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/65
+_No drafts this run._
 
 ## Recently skipped by triage
 

@@ -1,20 +1,20 @@
 {
  "month": "2026-11",
- "updated": "2026-11-04T21:18:58Z",
+ "updated": "2026-11-04T23:42:42Z",
  "portal": {
-  "published_total": 55,
-  "published_this_month": 12,
+  "published_total": 56,
+  "published_this_month": 13,
   "published_this_month_by_importance": {
    "3": 6,
    "4": 5,
-   "2": 1
+   "2": 2
   },
   "sample_articles": 0
  },
  "pipeline": {
   "items_collected": 90,
-  "runs": 47,
-  "runs_with_failed_sources": 21,
+  "runs": 48,
+  "runs_with_failed_sources": 22,
   "triage_decisions": {
    "drafted": 15,
    "skipped": 75,
@@ -22,18 +22,18 @@
   },
   "ai_spend_usd": 3.9291,
   "sources_active": 81,
-  "sources_failing_now": 2
+  "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 12,
+  "drafts_published": 13,
   "drafts_rejected": 1
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 67,
-  "visits": 59,
+  "page_views": 70,
+  "visits": 62,
   "bots_excluded": true,
   "by_day": [
    {
@@ -53,8 +53,8 @@
    },
    {
     "date": "2026-11-04",
-    "page_views": 18,
-    "visits": 12
+    "page_views": 21,
+    "visits": 15
    }
   ],
   "top_pages": [
@@ -64,7 +64,7 @@
    },
    {
     "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
-    "page_views": 5
+    "page_views": 6
    },
    {
     "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
@@ -75,7 +75,15 @@
     "page_views": 3
    },
    {
+    "requestPath": "/enforcement/",
+    "page_views": 3
+   },
+   {
     "requestPath": "/news/spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/news/norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on/",
     "page_views": 2
    },
    {
@@ -83,15 +91,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/enforcement/",
-    "page_views": 2
-   },
-   {
     "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/cjeu-advocate-general-says-ai-chatbots-reusing-press-articles-in-real/",
     "page_views": 2
    },
    {
@@ -102,7 +102,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 28
+    "page_views": 30
    },
    {
     "countryName": "CN",
@@ -129,30 +129,30 @@
     "page_views": 2
    },
    {
+    "countryName": "KR",
+    "page_views": 1
+   },
+   {
     "countryName": "AT",
     "page_views": 1
    },
    {
     "countryName": "EC",
     "page_views": 1
-   },
-   {
-    "countryName": "KR",
-    "page_views": 1
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 52
+    "page_views": 54
+   },
+   {
+    "refererHost": "www.google.com",
+    "page_views": 8
    },
    {
     "refererHost": "datagovernancesignal.com",
     "page_views": 8
-   },
-   {
-    "refererHost": "www.google.com",
-    "page_views": 7
    }
   ]
  },

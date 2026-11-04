@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-04T21:18:16Z** · sources checked: 81 · failed: 2 · new items this run: 2
+Last run: **2026-11-04T23:42:20Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (69)
+## New items, last 48 hours (66)
 
 ### High priority sources
 
@@ -54,9 +54,6 @@ Last run: **2026-11-04T21:18:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
 | 2026-11-03 | CDO Magazine | [US Federal News Bureau Pentagon’s Overreliance on AI Raises the Danger of Bad Data](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-overreliance-on-ai-raises-the-danger-of-bad-data) |
 | 2026-11-03 | Collibra Blog | [Collibra Control Tower is here. Your data policies just got a schedule.](https://www.collibra.com/blog/collibra-control-tower-is-generally-available) |
-| 2026-11-02 | CDO Magazine | [Community Chicago Executives Ask a Bigger Question: Who’s Shaping the Future of AI?](https://www.cdomagazine.tech/community/chicago-executives-ask-a-bigger-question-whos-shaping-the-future-of-ai) |
-| 2026-11-02 | SiliconANGLE — Big Data | [Palantir beats Q3 forecasts as US commercial revenue overtakes government for first time](https://siliconangle.com/2026/11/02/palantir-beats-q3-forecasts-as-us-commercial-revenue-overtakes-government-for-first-time/) |
-| 2026-11-02 | Euractiv | [EXCLUSIVE: Ireland makes pro-US Big Tech amendments to EU sovereign cloud law](https://www.rapporteur.com/news/exclusive-ireland-makes-pro-us-big-tech-amendments-to-eu-sovereign-cloud-law/) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
@@ -90,8 +87,7 @@ Last run: **2026-11-04T21:18:16Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 6× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
-- **noyb — European Center for Digital Rights** — failed 2× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
+- **European Data Protection Board (EDPB)** — failed 7× in a row: `HTTPError: 503 Server Error: Backend fetch failed for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
