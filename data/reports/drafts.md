@@ -1,27 +1,29 @@
 # Drafts report
 
-Last run: **2026-11-04T12:18:37Z** · candidates 4 · scored 4 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-04T15:19:16Z** · candidates 15 · scored 15 · selected 3 · drafted 3 · failed 0 · queued for next run 0
 
-AI spend this month: **$2.65** of $12 budget (64 calls)
+AI spend this month: **$3.83** of $12 budget (80 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 3 claims to check **EDRi says Council's Digital Omnibus position still weakens GDPR safeguards for AI and pseudonymised data** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/62
+- ⚠️ 1 claims to check (✏️ 5 corrected automatically) **OCC gives bank examiners a 16-component framework for supervising AI and agentic systems** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/63
+- ✅ (✏️ 6 corrected automatically) **NIST workshop report on 'SI' incident management lists SP 800-61 update among areas for future work** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/64
 
 ## Recently skipped by triage
 
-- (1) Hiring/leadership appointment news without a governance angle beyond title; not a substantive governance development.
-- (1) Event/webinar promotion for an AEPD livestream; excluded as event promotion.
-- (1) Online training invitation from AZOP; event promotion, not news.
+- (2) Neural data privacy overview from IAPP; emerging privacy topic with some practitioner relevance but no concrete new obligation.
+- (1) Conversation/sponsored-style piece on agentic AI for national security; generic thought leadership.
+- (2) Accenture survey on AI governance and data readiness lag; research finding with modest practitioner value.
+- (1) Opinion piece on human-in-the-loop; generic commentary without actionable guidance.
+- (1) Vendor blog with survey-style trends; marketing content not a genuine launch or research.
+- (1) Vendor marketing about analyst recognition; not a launch, acquisition or research finding.
+- (1) Product update coverage of Google Agentic Data Cloud; overlaps existing coverage and is low-depth news.
+- (1) Cyberattack on Russian hosting provider; not a governance-focused story for this portal.
+- (1) Google Cloud product marketing for Agentic Data Cloud; vendor marketing not relevant.
+- (1) Product feature blog on AlloyDB Iceberg access; vendor marketing without governance angle.
+- (2) Vendor-style thought piece on lineage for agents; generic without a concrete launch or finding.
+- (2) EDPB launches Privacy for Kids children's digital education platform; regulator initiative with modest practitioner relevance.
 - (1) Webinar announcement from IMY; event promotion, not a regulatory decision or guidance.
-- (1) Advocacy decision-tree tool on responsible chatbot use; not a news item with a concrete governance consequence.
-- (1) EU court judgment on Russian maritime register sanctions; no data governance angle.
-- (1) Broad data strategy landscape piece with no clear governance consequence from the excerpt; generic thought leadership.
-- (2) Generic DATAVERSITY piece on continuous reconciliation as a governance control; excerpt gives little concrete guidance, so low importance.
-- (1) Invitation letter for an informal summit; no concrete governance consequence for data or AI rules yet, only a general mention of AI discussion.
-- (1) Vendor blog promoting a product (Control Tower) without a genuine launch announcement in the excerpt; vendor marketing.
-- (1) Opinion piece on cataloguing skills with no concrete practitioner guidance; generic thought leadership.
-- (3) Same story as existing draft on Datatilsynet fine of Xandr over Grindr data.
-- (1) Advocacy organisation annual report; not a governance development.
-- (2) Advocacy letter on Section 702 surveillance opinion; limited direct governance relevance for organisations.
-- (1) Robocall policy comment on telecom rules, not data governance.
+- (1) Online training invitation from AZOP; event promotion, not news.
+- (1) Event/webinar promotion for an AEPD livestream; excluded as event promotion.

@@ -1,28 +1,28 @@
 {
  "month": "2026-11",
- "updated": "2026-11-04T12:18:40Z",
+ "updated": "2026-11-04T15:23:34Z",
  "portal": {
   "published_total": 53,
   "published_this_month": 10,
   "published_this_month_by_importance": {
-   "4": 4,
    "3": 5,
-   "2": 1
+   "2": 1,
+   "4": 4
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 68,
-  "runs": 43,
-  "runs_with_failed_sources": 17,
+  "items_collected": 83,
+  "runs": 44,
+  "runs_with_failed_sources": 18,
   "triage_decisions": {
-   "skipped": 57,
-   "drafted": 11,
+   "drafted": 14,
+   "skipped": 69,
    "failed": 1
   },
-  "ai_spend_usd": 2.6521,
+  "ai_spend_usd": 3.8344,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 10,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 57,
-  "visits": 55,
+  "page_views": 66,
+  "visits": 59,
   "bots_excluded": true,
   "by_day": [
    {
@@ -53,14 +53,18 @@
    },
    {
     "date": "2026-11-04",
-    "page_views": 8,
-    "visits": 8
+    "page_views": 17,
+    "visits": 12
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 23
+    "page_views": 27
+   },
+   {
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "page_views": 5
    },
    {
     "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
@@ -79,10 +83,6 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
-    "page_views": 2
-   },
-   {
     "requestPath": "/enforcement/",
     "page_views": 2
    },
@@ -91,18 +91,18 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
+    "requestPath": "/news/cjeu-advocate-general-says-ai-chatbots-reusing-press-articles-in-real/",
     "page_views": 2
    },
    {
-    "requestPath": "/category/privacy/",
+    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
     "page_views": 2
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 27
+    "page_views": 28
    },
    {
     "countryName": "CN",
@@ -110,7 +110,7 @@
    },
    {
     "countryName": "HR",
-    "page_views": 4
+    "page_views": 9
    },
    {
     "countryName": "GB",
@@ -121,7 +121,15 @@
     "page_views": 2
    },
    {
-    "countryName": "KR",
+    "countryName": "IE",
+    "page_views": 2
+   },
+   {
+    "countryName": "SE",
+    "page_views": 2
+   },
+   {
+    "countryName": "AT",
     "page_views": 1
    },
    {
@@ -129,30 +137,22 @@
     "page_views": 1
    },
    {
-    "countryName": "AT",
-    "page_views": 1
-   },
-   {
-    "countryName": "SE",
-    "page_views": 1
-   },
-   {
-    "countryName": "NG",
+    "countryName": "KR",
     "page_views": 1
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 49
+    "page_views": 52
    },
    {
     "refererHost": "www.google.com",
-    "page_views": 6
+    "page_views": 7
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 2
+    "page_views": 7
    }
   ]
  },

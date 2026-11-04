@@ -1,5 +1,22 @@
 {
  "processed": {
+  "001bca83c3a99e70": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 15,
+   "decision": "drafted",
+   "draft": "edri-says-council-s-digital-omnibus-position-still-weakens-gdpr-safegu",
+   "flagged": 3,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/62",
+   "primary_found": false,
+   "reason": "Council general approach on Digital Omnibus including GDPR changes for AI and pseudonymised data; major file with pushback.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "00aae7e7cf83f119": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -63,6 +80,17 @@
    "reason": "Covers the same FTC personalized-pricing scrutiny as the existing FTC orders article.",
    "relevant": false,
    "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
+  },
+  "054dac34e8988ed7": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion piece on human-in-the-loop; generic commentary without actionable guidance.",
+   "relevant": false,
+   "same_story_as": null
   },
   "058af24460d1da3e": {
    "at": "2026-10-27T18:18:03Z",
@@ -343,6 +371,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "143dbc2d275ec8fa": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Product update coverage of Google Agentic Data Cloud; overlaps existing coverage and is low-depth news.",
+   "relevant": false,
+   "same_story_as": "google-makes-lookml-metric-definitions-and-lineage-generally-available"
+  },
   "145d9618b9cb72f8": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -584,6 +623,17 @@
    "primary_found": true,
    "reason": "FPF comments on Colorado ADMT rulemaking; practical implications for deployers, though advocates' draft-rules story already covers the rulemaking; kept as relevant commentary from a reliable policy source.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "25b1042911702daf": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing about analyst recognition; not a launch, acquisition or research finding.",
+   "relevant": false,
    "same_story_as": null
   },
   "26348865d55eb03c": {
@@ -965,6 +1015,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "416b7eba9f32ddf4": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "metadata",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor-style thought piece on lineage for agents; generic without a concrete launch or finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4268bd1909e6926e": {
    "at": "2026-11-02T06:18:24Z",
    "categories": [],
@@ -980,6 +1042,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer case study on retiring dashboards; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "4448a4360ec1be65": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cyberattack on Russian hosting provider; not a governance-focused story for this portal.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1375,6 +1448,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "683bbe6ad738607e": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog with survey-style trends; marketing content not a genuine launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "694525516dd0ef68": {
    "at": "2026-10-29T12:18:34Z",
    "categories": [],
@@ -1456,6 +1540,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Executive appointment news; hiring/leadership moves are not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "72957cab726e0334": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Product feature blog on AlloyDB Iceberg access; vendor marketing without governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1681,6 +1776,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "813fd0622c5a7c39": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "nist-workshop-report-on-si-incident-management-lists-sp-800-61-update",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/64",
+   "primary_found": true,
+   "reason": "NIST report on incident management gaps for AI systems; standards-related guidance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "81f753c0409f37da": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -1816,6 +1927,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "90dffca30a2b6575": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Neural data privacy overview from IAPP; emerging privacy topic with some practitioner relevance but no concrete new obligation.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "91083ea259887c1a": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -1919,6 +2041,23 @@
    "importance": 2,
    "reason": "Conference remarks by Sam Altman on patch volume are general security commentary with no concrete data governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "98dfde980f663728": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 20,
+   "decision": "drafted",
+   "draft": "occ-gives-bank-examiners-a-16-component-framework-for-supervising-ai-a",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/63",
+   "primary_found": true,
+   "reason": "OCC supervisory framework for banks using AI is a regulator framework with concrete governance implications.",
+   "relevant": true,
    "same_story_as": null
   },
   "992fe77982d8d47c": {
@@ -2419,6 +2558,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "b93e016ff6309127": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Google Cloud product marketing for Agentic Data Cloud; vendor marketing not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b9f7f99c1f168269": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -2472,6 +2622,17 @@
    "importance": 2,
    "reason": "Discusses ownership of the context layer for AI governance, a governance angle on context for AI; generic commentary, so modest importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "bdb79e6a93bd26c8": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conversation/sponsored-style piece on agentic AI for national security; generic thought leadership.",
+   "relevant": false,
    "same_story_as": null
   },
   "be020a3bd47cf33d": {
@@ -2685,6 +2846,18 @@
    "importance": 1,
    "reason": "Vendor blog promoting an integration; marketing rather than a genuine launch or research.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "cb5e2114b9c12ea5": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "ai-governance",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Accenture survey on AI governance and data readiness lag; research finding with modest practitioner value.",
+   "relevant": true,
    "same_story_as": null
   },
   "cdf860e7fc7e1cbd": {
@@ -3161,6 +3334,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e16d2cb8b459458b": {
+   "at": "2026-11-04T15:19:16Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPB launches Privacy for Kids children's digital education platform; regulator initiative with modest practitioner relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e3381fe87d6b6de3": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -3613,8 +3797,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 64,
-   "usd": 2.6521
+   "calls": 80,
+   "usd": 3.8344
   }
  }
 }
