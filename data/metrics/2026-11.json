@@ -1,19 +1,19 @@
 {
  "month": "2026-11",
- "updated": "2026-11-03T23:27:40Z",
+ "updated": "2026-11-04T00:18:31Z",
  "portal": {
   "published_total": 52,
   "published_this_month": 9,
   "published_this_month_by_importance": {
+   "4": 4,
    "3": 4,
-   "2": 1,
-   "4": 4
+   "2": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
   "items_collected": 59,
-  "runs": 37,
+  "runs": 38,
   "runs_with_failed_sources": 14,
   "triage_decisions": {
    "skipped": 49,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 48,
-  "visits": 46,
+  "page_views": 49,
+  "visits": 47,
   "bots_excluded": true,
   "by_day": [
    {
@@ -48,8 +48,8 @@
    },
    {
     "date": "2026-11-03",
-    "page_views": 17,
-    "visits": 17
+    "page_views": 18,
+    "visits": 18
    }
   ],
   "top_pages": [
@@ -66,7 +66,11 @@
     "page_views": 3
    },
    {
-    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/enforcement/",
     "page_views": 2
    },
    {
@@ -74,23 +78,19 @@
     "page_views": 2
    },
    {
+    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
+    "page_views": 2
+   },
+   {
     "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 2
    },
    {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/accessibility/",
+    "requestPath": "/institutions/datatilsynet-no/",
     "page_views": 1
    },
    {
     "requestPath": "/methodology/",
-    "page_views": 1
-   },
-   {
-    "requestPath": "/institutions/datatilsynet-no/",
     "page_views": 1
    }
   ],
@@ -101,7 +101,7 @@
    },
    {
     "countryName": "CN",
-    "page_views": 13
+    "page_views": 14
    },
    {
     "countryName": "HR",
@@ -131,7 +131,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 41
+    "page_views": 42
    },
    {
     "refererHost": "www.google.com",

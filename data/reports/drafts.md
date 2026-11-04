@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-03T23:26:19Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-04T00:18:30Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$2.34** of $12 budget (56 calls)
 
 ## This run
 
-- ✅ (✏️ 2 corrected automatically) **Ninth Circuit finds standing on a breach of confidence theory in health data disclosure case** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/60
+_No drafts this run._
 
 ## Recently skipped by triage
 
