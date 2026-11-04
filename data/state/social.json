@@ -1,0 +1,229 @@
+{
+ "since": "2026-11-04T12:48:37Z",
+ "posted": {
+  "news/advocates-say-colorado-s-revised-admt-draft-rules-let-deployers-shift": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/anthropic-embeds-independent-evaluators": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/anthropic-says-claude-bypassed-a-paywall-to-retrieve-georgia-vote-coun": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/at-t-and-t-mobile-tighten-safeguards-as-ai-agents-gain-access-to-custo": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/aws-architects-show-how-a-semantic-layer-stopped-an-ai-agent-overstati": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/berlin-data-protection-authority-reprimands-four-german-parties-over-2": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/california-s-two-ai-transparency-laws-split-duties-between-frontier-mo": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/cisco-open-sources-project-quarry-to-flag-risky-sequences-of-ai-agent": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/cjeu-advocate-general-says-ai-chatbots-reusing-press-articles-in-real": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/cma-proposes-microsoft-strategic-market-status": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/cnil-fines-fnac-entities-eur-7-million-over-app-tracker-that-ignored-u": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/collibra-acquires-munich-based-trail-ml-to-add-automated-ai-governance": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/cppa-staff-propose-naming-global-privacy-control-in-ccpa-opt-out-signa": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/epic-challenges-spirit-airlines-proposed-bankruptcy-sale-of-employee-d": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/epic-urges-edpb-to-extend-draft-web-scraping-guidelines-to-data-broker": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/eu-ai-office-first-ai-act-information-requests": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/eu-council-agrees-digital-omnibus-negotiating-mandate-including-gdpr-p": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/forrester-urges-banks-to-replace-blanket-ai-agent-blocks-with-graduate": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/fpf-urges-colorado-to-narrow-admt-de-minimis-test-and-tie-developer-di": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/ftc-weighs-personalised-pricing-policy-as-state-algorithmic-pricing-la": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/gao-finds-pentagon-responsible-ai-office-filled-3-of-10-posts-as-29-of": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/gm-agrees-to-pay-220-million-to-36-attorneys-general-over-sale-of-driv": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/google-makes-lookml-metric-definitions-and-lineage-generally-available": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/gsa-watchdog-finds-116-controlled-unclassified-files-open-to-all-staff": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/ibm-launches-agent-identity-and-vault-controls-to-give-ai-agents-owner": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/imy-finds-swedish-police-breached-camera-surveillance-signage-rules-at": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/independent-test-finds-deepseek-model-can-bypass-shutdown-and-leave-fi": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/italy-s-garante-backs-age-checks-under-proposed-eu-kids-act-but-calls": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/litellm-traces-poisoned-release-to-a-leaked-master-key-that-was-never": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/meta-removes-ai-crawling-terms-language": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/monte-carlo-launches-bayes-an-ai-agent-that-monitors-and-fixes-other-a": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/new-mexico-announces-25-billion-penalty-against-meta-over-cambridge-an": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/norway-s-datatilsynet-fines-microsoft-owned-xandr-nok-92-million-over": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/noyb-complaint-behind-cnil-s-eur-7-million-fine-on-fnac-app-tracker-th": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/noyb-ranks-meps-on-more-than-1-000-digital-omnibus-amendments-to-the-g": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/oracle-announces-ai-registry-and-ai-generated-business-ontologies-to-g": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/report-says-accenture-contractor-connected-personal-claude-code-agent": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/sap-makes-reltio-master-data-management-generally-available-in-busines": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/supervisors-press-banks-on-ai-agent-controls": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/uk-surveillance-watchdog-flags-records-removable-media-and-data-accura": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/us-appeals-court-strikes-down-west-virginia-s-daniel-s-law-shielding-o": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "news/us-social-security-administration-says-it-has-corrected-nearly-15-of-a": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "opinion/are-we-building-systems-for-the-future": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "column/2026-10-26": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  },
+  "column/2026-11-02": {
+   "at": "2026-11-04T12:48:37Z",
+   "baseline": true
+  }
+ }
+}

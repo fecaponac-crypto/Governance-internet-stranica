@@ -254,6 +254,11 @@ Okvirne skupine izvora:
 - PR prikazuje što je ispravljeno (✏️, sklopivi popis) i samo preostale tvrdnje za urednika (⚠️). Trošak: ~2 dodatna poziva po označenom nacrtu.
 - Razlog: urednik često nema vremena čitati upozorenja; 3. 11. su dvije neprovjerene tvrdnje objavljene i naknadno ispravljene.
 
+## 10a-9. Dosezanje publike (4. 11. 2026.)
+
+- **Kraj vijesti:** blok „Follow this story” (zakon u trackeru, slučaj u trackeru kazni, institucije, teme, ključni datumi), povezane vijesti rangirane po zajedničkom zakonu, slučaju, instituciji i temi, te 4 najnovije vijesti. Razlog: čitatelji s Googlea pročitaju 1 stranicu i odu.
+- **Bluesky i Mastodon:** `pipeline/social.py` (workflow `social.yml`, nakon svakog spajanja i svako jutro u 07:41 UTC za zakazane eseje) objavljuje nove vijesti, Opinion i Monday Signal, i to tek kad stranica odgovara 200. Stanje u `data/state/social.json`; postojeći sadržaj na dan uvođenja je zabilježen bez objave. Računi kroz tajne `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `MASTODON_INSTANCE`, `MASTODON_TOKEN`; bez njih se nove vijesti samo bilježe. Ako objava ne uspije, pokretanje je crveno (GitHub javlja vlasniku) i pokušava se ponovno.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
