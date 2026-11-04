@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-04T06:18:10Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-04T06:28:27Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (58)
+## New items, last 48 hours (57)
 
 ### High priority sources
 
@@ -71,7 +71,6 @@ Last run: **2026-11-04T06:18:10Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-02 | Monte Carlo Blog | [See How Your Genie Agent Got to the Answer](https://montecarlo.ai/blog-see-how-your-genie-agent-got-to-the-answer) |
 | 2026-11-02 | Computer Weekly — IT security | [Cold chain cyber attacks highlight lack of OT security in retail](https://www.computerweekly.com/news/366653380/Cold-chain-cyber-attacks-highlight-lack-of-OT-security-in-retail) |
 | 2026-11-02 | Computer Weekly — IT security | [Who controls the technology we depend on?](https://www.computerweekly.com/opinion/Who-controls-the-technology-we-depend-on) |
-| 2026-11-02 | Data Engineering Weekly | [Data Engineering Weekly #294](https://www.dataengineeringweekly.com/p/data-engineering-weekly-294) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Comments to EDPB on Guidelines on Web Scraping for AI: Go Further](https://epic.org/epic-comments-to-edpb-on-guidelines-on-web-scraping-for-ai-go-further/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [Don’t Let Data Brokers Profit off of Your Personal Data](https://epic.org/dont-let-data-brokers-profit-off-of-your-personal-data/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Urges FCC to Protect Consumers from Unwanted “Political” Robocalls](https://epic.org/epic-urges-fcc-to-protect-consumers-from-unwanted-political-robocalls/) |
