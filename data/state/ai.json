@@ -1166,6 +1166,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "593e9a2e76251ac3": {
+   "at": "2026-11-04T03:18:32Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "cppa-staff-propose-naming-global-privacy-control-in-ccpa-opt-out-signa",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/61",
+   "primary_found": true,
+   "reason": "CPPA staff proposed amendments to CCPA regulations on opt-out preference signals, a pending regulatory change affecting organisations' consent and data-use obligations.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "5aed3e8e219a7f7d": {
    "at": "2026-11-02T21:18:27Z",
    "categories": [
@@ -3522,8 +3539,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 56,
-   "usd": 2.3402
+   "calls": 62,
+   "usd": 2.6505
   }
  }
 }

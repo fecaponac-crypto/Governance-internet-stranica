@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-04T00:18:17Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-04T03:18:17Z** · sources checked: 81 · failed: 3 · new items this run: 1
 
-## New items, last 48 hours (58)
+## New items, last 48 hours (59)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-04 | Inside Privacy (Covington & Burling) | [CPPA Proposes Amendments to Opt-Out Preference Signal Regulations](https://www.insideprivacy.com/ccpa/cppa-proposes-amendments-to-opt-out-preference-signal-regulations/) |
 | 2026-11-03 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-583/24 [Tagu]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260154en.pdf) |
 | 2026-11-03 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-250/25 Like Company](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155en.pdf) |
 | 2026-11-03 | The EU AI Act Newsletter (Future of Life Institute) | [How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)](https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really) |
@@ -79,7 +80,9 @@ Last run: **2026-11-04T00:18:17Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.aepd.es/noticias/feed.xml`
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **Monte Carlo Blog** — failed 1× in a row: `ValueError: unreadable feed https://www.montecarlodata.com/feed/: <unknown>:94:2: mismatched tag`
 
 ## Check manually (weekly)
 

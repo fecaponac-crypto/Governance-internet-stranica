@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-04T00:18:31Z",
+ "updated": "2026-11-04T03:19:50Z",
  "portal": {
   "published_total": 52,
   "published_this_month": 9,
@@ -12,17 +12,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 59,
-  "runs": 38,
-  "runs_with_failed_sources": 14,
+  "items_collected": 60,
+  "runs": 39,
+  "runs_with_failed_sources": 15,
   "triage_decisions": {
    "skipped": 49,
-   "drafted": 10,
+   "drafted": 11,
    "failed": 1
   },
-  "ai_spend_usd": 2.3402,
+  "ai_spend_usd": 2.6505,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 3
  },
  "editor": {
   "drafts_published": 9,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 49,
-  "visits": 47,
+  "page_views": 50,
+  "visits": 48,
   "bots_excluded": true,
   "by_day": [
    {
@@ -50,6 +50,11 @@
     "date": "2026-11-03",
     "page_views": 18,
     "visits": 18
+   },
+   {
+    "date": "2026-11-04",
+    "page_views": 1,
+    "visits": 1
    }
   ],
   "top_pages": [
@@ -66,14 +71,6 @@
     "page_views": 3
    },
    {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/enforcement/",
-    "page_views": 2
-   },
-   {
     "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
     "page_views": 2
    },
@@ -86,18 +83,26 @@
     "page_views": 2
    },
    {
-    "requestPath": "/institutions/datatilsynet-no/",
+    "requestPath": "/enforcement/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/accessibility/",
     "page_views": 1
    },
    {
-    "requestPath": "/methodology/",
+    "requestPath": "/news/norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on/",
     "page_views": 1
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 26
+    "page_views": 27
    },
    {
     "countryName": "CN",
@@ -131,7 +136,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 42
+    "page_views": 43
    },
    {
     "refererHost": "www.google.com",
