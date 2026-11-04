@@ -1,17 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-04T18:18:33Z** · candidates 3 · scored 3 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-04T21:18:28Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$3.84** of $12 budget (82 calls)
+AI spend this month: **$3.93** of $12 budget (85 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **Democratic control of both US chambers expected to bring more AI and privacy oversight from 2027** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/65
 
 ## Recently skipped by triage
 
-- (2) IAPP piece on AI non-use and negligence liability; a practitioner-relevant legal angle on AI governance, though commentary-style.
+- (1) Vendor-style buyer checklist for Postgres managed services; generic vendor marketing with no data governance angle.
 - (1) Vendor marketing and analyst recognition announcement, not a genuine launch or research finding.
+- (2) IAPP piece on AI non-use and negligence liability; a practitioner-relevant legal angle on AI governance, though commentary-style.
 - (2) Forrester blog on least agency for AI agents offers a practical access-control concept; vendor-analyst blog posts are only relevant for genuine research, so this stays low-importance.
 - (3) Same FTC inquiry into personal-data pricing covered by existing article ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai.
 - (1) Corporate SME cyber training launch; no data governance angle and vendor-style marketing.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Product feature blog on AlloyDB Iceberg access; vendor marketing without governance angle.
 - (2) Neural data privacy overview from IAPP; emerging privacy topic with some practitioner relevance but no concrete new obligation.
 - (1) Google Cloud product marketing for Agentic Data Cloud; vendor marketing not relevant.
-- (1) Conversation/sponsored-style piece on agentic AI for national security; generic thought leadership.

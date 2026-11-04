@@ -1980,6 +1980,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9593371aeb505d4c": {
+   "at": "2026-11-04T21:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor-style buyer checklist for Postgres managed services; generic vendor marketing with no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "95f9860708dd8307": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -2609,6 +2618,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "IAPP piece on AI non-use and negligence liability; a practitioner-relevant legal angle on AI governance, though commentary-style.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "bb67a2597c8824d5": {
+   "at": "2026-11-04T21:18:28Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "democratic-control-of-both-us-chambers-expected-to-bring-more-ai-and-p",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/65",
+   "primary_found": false,
+   "reason": "Political analysis of how US midterm results may shift tech and AI scrutiny; relevant to governance planning, though speculative and not a concrete rule change.",
    "relevant": true,
    "same_story_as": null
   },
@@ -3854,8 +3880,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 82,
-   "usd": 3.8359
+   "calls": 85,
+   "usd": 3.9291
   }
  }
 }
