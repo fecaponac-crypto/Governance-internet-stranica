@@ -2580,6 +2580,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b95bf61abe287c7f": {
+   "at": "2026-11-04T18:18:33Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing and analyst recognition announcement, not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b9f7f99c1f168269": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -2587,6 +2598,18 @@
    "importance": 1,
    "reason": "Association magazine issue retrospective; no concrete regulatory or practice development.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "bab8269cf670d66e": {
+   "at": "2026-11-04T18:18:33Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP piece on AI non-use and negligence liability; a practitioner-relevant legal angle on AI governance, though commentary-style.",
+   "relevant": true,
    "same_story_as": null
   },
   "bc7e7db1a56fa591": {
@@ -2868,6 +2891,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Accenture survey on AI governance and data readiness lag; research finding with modest practitioner value.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "cdf518fbc65a59fa": {
+   "at": "2026-11-04T18:18:33Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Forrester blog on least agency for AI agents offers a practical access-control concept; vendor-analyst blog posts are only relevant for genuine research, so this stays low-importance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -3819,8 +3854,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 81,
-   "usd": 3.8351
+   "calls": 82,
+   "usd": 3.8359
   }
  }
 }

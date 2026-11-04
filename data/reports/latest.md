@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-04T17:16:50Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-04T18:18:18Z** · sources checked: 81 · failed: 2 · new items this run: 3
 
-## New items, last 48 hours (75)
+## New items, last 48 hours (78)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-04 | IAPP — International Association of Privacy Professionals | [When does not using AI become negligence?](https://iapp.org/news/a/when-does-not-using-ai-become-negligence) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Neural data as the newest frontier in data privacy](https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy) |
 | 2026-11-04 | Hunton Privacy & Information Security Law Blog | [FTC Announces Inquiry into Personalized Pricing and Employee Compensation](https://www.hunton.com/privacy-and-cybersecurity-law-blog/ftc-announces-inquiry-into-personalized-pricing-and-employee-compensation) |
 | 2026-11-04 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-535/24 Russian Maritime Register of Shipping v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260156en.pdf) |
@@ -20,6 +21,8 @@ Last run: **2026-11-04T17:16:50Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-04 | Informatica Blog | [2026 Gartner® Magic Quadrant™ for Data Integration Tools: Salesforce (Informatica) is Recognized as a Leader for the 21st Consecutive time Data Integration](https://www.informatica.com/blogs/2026-gartner-magic-quadrant-for-data-integration-tools-salesforce-informatica-is-recognized-as-a-leader-for-the-21st-consecutive-time.html) |
+| 2026-11-04 | Forrester Blogs | [AI Agents Need More Than Least Privilege. They Need Least Agency.](https://www.forrester.com/blogs/ai-agents-need-more-than-least-privilege-they-need-least-agency/) |
 | 2026-11-04 | CDO Magazine | [AI Governance Responsible Agentic AI for National Security: A Conversation Between AWS and Deloitte](https://www.cdomagazine.tech/ai-governance/responsible-agentic-ai-for-national-security-a-conversation-between-aws-and-deloitte) |
 | 2026-11-04 | CDO Magazine | [US Federal News Bureau OCC Issues Supervisory Framework for Banks Using AI Systems](https://www.cdomagazine.tech/us-federal-news-bureau/occ-issues-supervisory-framework-for-banks-using-ai-systems) |
 | 2026-11-04 | CDO Magazine | [Artificial Intelligence Accenture Survey Finds Enterprise AI Governance and Data Readiness Lag Behind Adoption](https://www.cdomagazine.tech/aiml/accenture-survey-finds-enterprise-ai-governance-and-data-readiness-lag-behind-adoption) |
@@ -96,7 +99,8 @@ Last run: **2026-11-04T17:16:50Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 4× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 5× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **noyb — European Center for Digital Rights** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
 
 ## Check manually (weekly)
 
