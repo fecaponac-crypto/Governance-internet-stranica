@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-04T06:28:41Z",
+ "updated": "2026-11-04T09:18:40Z",
  "portal": {
-  "published_total": 52,
-  "published_this_month": 9,
+  "published_total": 53,
+  "published_this_month": 10,
   "published_this_month_by_importance": {
-   "3": 4,
-   "2": 1,
-   "4": 4
+   "4": 4,
+   "3": 5,
+   "2": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 60,
-  "runs": 41,
-  "runs_with_failed_sources": 15,
+  "items_collected": 64,
+  "runs": 42,
+  "runs_with_failed_sources": 16,
   "triage_decisions": {
-   "skipped": 49,
+   "skipped": 53,
    "drafted": 11,
    "failed": 1
   },
-  "ai_spend_usd": 2.6505,
+  "ai_spend_usd": 2.6513,
   "sources_active": 81,
-  "sources_failing_now": 0
+  "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 9,
+  "drafts_published": 10,
   "drafts_rejected": 0
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 50,
-  "visits": 48,
+  "page_views": 56,
+  "visits": 54,
   "bots_excluded": true,
   "by_day": [
    {
@@ -53,14 +53,14 @@
    },
    {
     "date": "2026-11-04",
-    "page_views": 1,
-    "visits": 1
+    "page_views": 7,
+    "visits": 7
    }
   ],
   "top_pages": [
    {
     "requestPath": "/",
-    "page_views": 21
+    "page_views": 23
    },
    {
     "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
@@ -75,11 +75,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
+    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
     "page_views": 2
    },
    {
@@ -87,16 +83,20 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
+    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
     "page_views": 2
    },
    {
-    "requestPath": "/accessibility/",
-    "page_views": 1
+    "requestPath": "/news/spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis/",
+    "page_views": 2
    },
    {
-    "requestPath": "/news/norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on/",
-    "page_views": 1
+    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
+    "page_views": 2
+   },
+   {
+    "requestPath": "/category/privacy/",
+    "page_views": 2
    }
   ],
   "countries": [
@@ -113,11 +113,23 @@
     "page_views": 4
    },
    {
+    "countryName": "GB",
+    "page_views": 4
+   },
+   {
+    "countryName": "CA",
+    "page_views": 2
+   },
+   {
     "countryName": "AT",
     "page_views": 1
    },
    {
     "countryName": "VE",
+    "page_views": 1
+   },
+   {
+    "countryName": "NG",
     "page_views": 1
    },
    {
@@ -127,20 +139,16 @@
    {
     "countryName": "KR",
     "page_views": 1
-   },
-   {
-    "countryName": "CA",
-    "page_views": 1
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 43
+    "page_views": 48
    },
    {
     "refererHost": "www.google.com",
-    "page_views": 5
+    "page_views": 6
    },
    {
     "refererHost": "datagovernancesignal.com",

@@ -1059,6 +1059,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "50e2d4216deed219": {
+   "at": "2026-11-04T09:18:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Advocacy decision-tree tool on responsible chatbot use; not a news item with a concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "50e81a9d0ca2a66a": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -1523,6 +1532,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Career explainer and skills listicle style content, generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7ac22ef335976f87": {
+   "at": "2026-11-04T09:18:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "EU court judgment on Russian maritime register sanctions; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2063,6 +2081,15 @@
    "primary_found": false,
    "reason": "California AB 1979 extends CMIA to health chatbots and limits AI use in clinical care; concrete governance consequence.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "a7d6c4ecfb0f1c1e": {
+   "at": "2026-11-04T09:18:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Broad data strategy landscape piece with no clear governance consequence from the excerpt; generic thought leadership.",
+   "relevant": false,
    "same_story_as": null
   },
   "a7f60172dc69834e": {
@@ -2608,6 +2635,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Analysis of AI incident reporting as a governance tool; relevant opinion with some practitioner value but generic.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "cb3818f8655d2aa6": {
+   "at": "2026-11-04T09:18:36Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Generic DATAVERSITY piece on continuous reconciliation as a governance control; excerpt gives little concrete guidance, so low importance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -3539,8 +3577,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 62,
-   "usd": 2.6505
+   "calls": 63,
+   "usd": 2.6513
   }
  }
 }

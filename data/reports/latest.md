@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-04T06:28:27Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-04T09:18:21Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (57)
+## New items, last 48 hours (60)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-04 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-535/24 Russian Maritime Register of Shipping v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260156en.pdf) |
 | 2026-11-04 | Inside Privacy (Covington & Burling) | [CPPA Proposes Amendments to Opt-Out Preference Signal Regulations](https://www.insideprivacy.com/ccpa/cppa-proposes-amendments-to-opt-out-preference-signal-regulations/) |
 | 2026-11-03 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-583/24 [Tagu]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260154en.pdf) |
 | 2026-11-03 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-250/25 Like Company](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155en.pdf) |
@@ -17,6 +18,8 @@ Last run: **2026-11-04T06:28:27Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-04 | DATAVERSITY | [The Art of Lean Governance: Continuous Reconciliation – The Missing Control in Enterprise Assurance](https://www.dataversity.net/articles/the-art-of-lean-governance-continuous-reconciliation-the-missing-control-in-enterprise-assurance/) |
+| 2026-11-04 | DATAVERSITY | [A Step Ahead: Data Strategy for Complex Systems — Landscape Analysis and Visioning](https://www.dataversity.net/articles/a-step-ahead-data-strategy-for-complex-systems-landscape-analysis-and-visioning/) |
 | 2026-11-03 | Privacy World (Squire Patton Boggs) | [“A Trust Betrayed Is the Harm”: Ninth Circuit Rules Breach of Confidence Supplies Article III Standing in Data Privacy Cases, Deepening Circuit Split](https://www.privacyworld.blog/2026/11/a-trust-betrayed-is-the-harm-ninth-circuit-rules-breach-of-confidence-supplies-article-iii-standing-in-data-privacy-cases-deepening-circuit-split/) |
 | 2026-11-03 | Snowflake Blog | [Cortex Training: Serverless Fine-Tuning for Open-Weight LLMs](https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-training-fine-tune-open-weight-llms) |
 | 2026-11-03 | Council of the EU — Press releases | [Informal meeting of Heads of State or Government of 13 November 2026 - Invitation letter by President António Costa to the members of the European Council](https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/) |
@@ -50,7 +53,6 @@ Last run: **2026-11-04T06:28:27Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-02 | NIST (US National Institute of Standards and Technology) | [Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You](https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you) |
 | 2026-11-02 | Ataccama Blog | [Predictions for data and AI in 2027: Meet the FWRD panel](https://www.ataccama.com/blog/predictions-for-data-and-ai-in-2027-meet-the-fwrd-panel) |
 | 2026-11-02 | Euractiv | [THE HACK: Cloud industry’s CAIDA gripes](https://www.rapporteur.com/news/the-hack-cloud-industrys-caida-gripes/) |
-| 2026-11-02 | DATAVERSITY | [Book of the Month: The Analytics Operating System](https://www.dataversity.net/articles/book-of-the-month-the-analytics-operating-system/) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
 | 2026-10-27 | noyb — European Center for Digital Rights | [AI training platform Outlier illegally surveils European platform workers](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-training-platform-outlier-illegally-surveils-european-platform-workers) |
 | 2026-10-23 | noyb — European Center for Digital Rights | [AI: EU Member States approve “digital expropriation” for AI companies](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies) |
@@ -75,10 +77,11 @@ Last run: **2026-11-04T06:28:27Z** · sources checked: 81 · failed: 0 · new it
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [Don’t Let Data Brokers Profit off of Your Personal Data](https://epic.org/dont-let-data-brokers-profit-off-of-your-personal-data/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Urges FCC to Protect Consumers from Unwanted “Political” Robocalls](https://epic.org/epic-urges-fcc-to-protect-consumers-from-unwanted-political-robocalls/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [EPIC, Coalition Urge Congress to Force Administration to Publicly Release Surveillance Court Opinion on Section 702](https://epic.org/epic-coalition-urge-congress-to-force-administration-to-publicly-release-surveillance-court-opinion-on-section-702/) |
+| 2026-10-13 | AlgorithmWatch | [Entscheidungsbaum: Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots](https://algorithmwatch.org/de/entscheidungsbaum-generative-ki/) |
 
 ## Source problems
 
-_None._
+- **European Data Protection Board (EDPB)** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
