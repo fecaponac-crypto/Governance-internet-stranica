@@ -547,6 +547,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1acd7e50e6aaaf8f": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "singapore-s-mas-sets-ai-risk-management-expectations-for-financial-ins",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/74",
+   "primary_found": false,
+   "reason": "Singapore financial-services AI risk management guidance from IAPP; concrete supervisory expectations for AI governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1c3952feedf91c8f": {
    "at": "2026-10-30T15:18:31Z",
    "categories": [
@@ -958,6 +975,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3963147d9274ef53": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog opinion on human-agent team structure; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "39daa83701dc9e8f": {
    "at": "2026-10-25T15:18:12Z",
    "categories": [
@@ -1359,6 +1385,31 @@
    "relevant": true,
    "same_story_as": null
   },
+  "5014ff0b146ff2cb": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [
+    "regulation"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "commission-s-2027-work-programme-plans-digital-package-industrial-ai-b",
+   "flagged": 3,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/73",
+   "primary_found": true,
+   "reason": "IAPP analysis of Commission Work Programme 2027 initiatives affecting data and privacy law; forward-looking regulatory planning with governance relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "50dcc273211cdf95": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product tutorial on BigQuery aggregation; no clear governance angle and not a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "50e2d4216deed219": {
    "at": "2026-11-04T09:18:36Z",
    "categories": [],
@@ -1749,6 +1800,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event/webinar promotion for an AEPD livestream; excluded as event promotion.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "71ccf06bd393c1ec": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "CNIL plenary agenda only; no substantive decision or guidance disclosed in the title or excerpt.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2615,6 +2675,15 @@
    "primary_found": true,
    "reason": "Council approval of a GDPR change allowing processing of personal data for AI; major file affecting organisations' data obligations.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "aa517f865e57b338": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog opinion on consultants and AI transformation; generic thought leadership.",
+   "relevant": false,
    "same_story_as": null
   },
   "aacd7396929c5498": {
@@ -3645,6 +3714,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "dcf67a2371bdad3d": {
+   "at": "2026-11-05T17:26:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "AgeTech policy overview without a concrete data governance consequence beyond general privacy interest.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "dd44946c209d2afb": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -4319,8 +4397,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 119,
-   "usd": 5.709
+   "calls": 129,
+   "usd": 6.2549
   }
  }
 }
