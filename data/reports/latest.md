@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-05T06:51:41Z** · sources checked: 81 · failed: 2 · new items this run: 7
+Last run: **2026-11-05T07:07:57Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (69)
 
@@ -90,8 +90,7 @@ Last run: **2026-11-05T06:51:41Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 11× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
-- **Palantir Blog** — failed 1× in a row: `HTTPError: 504 Server Error: Gateway Timeout for url: https://blog.palantir.com/feed`
+- **European Data Protection Board (EDPB)** — failed 12× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
