@@ -30,5 +30,10 @@ function pagefindIndex() {
 export default defineConfig({
   site: 'https://datagovernancesignal.com',
   trailingSlash: 'always',
+  // Removed duplicates: the old address sends readers to the story we kept.
+  redirects: {
+    '/news/us-court-blocks-dhs-and-doj-from-sending-likely-noncitizen-voter-lists-to/':
+      '/news/us-court-halts-dhs-and-doj-transmission-of-likely-noncitizen-voter-lis/',
+  },
   integrations: [sitemap(), pagefindIndex()],
 });

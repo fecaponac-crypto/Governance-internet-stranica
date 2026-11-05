@@ -158,7 +158,7 @@ def pending_drafts() -> list[dict]:
     except (OSError, subprocess.SubprocessError, json.JSONDecodeError):
         return []
     return [
-        {"slug": p["headRefName"].removeprefix("drafts/"), "title": re.sub(r"^(⚠️ )?Draft: | — Importance \d$", "", p["title"]), "date": ""}
+        {"slug": p["headRefName"].removeprefix("drafts/"), "title": re.sub(r"^(⏰ )?(⚠️ )?Draft: | — Importance \d.*$", "", p["title"]), "date": ""}
         for p in prs if p["headRefName"].startswith("drafts/")
     ]
 
@@ -183,8 +183,30 @@ def existing_articles() -> list[dict]:
     for path in sorted(ARTICLES.glob("*.md")):
         front = path.read_text(encoding="utf-8").split("---")[1]
         meta = yaml.safe_load(front)
-        out.append({"slug": path.stem, "title": meta["title"], "date": str(meta["date"])})
+        e = meta.get("enforcement") or {}
+        out.append({"slug": path.stem, "title": meta["title"], "date": str(meta["date"]),
+                    "case": f"{e.get('action')}|{e.get('date')}|{str(e.get('authority', ''))[:25].lower()}" if e else None})
     return out
+
+
+SAME_STORY_TITLE = 0.45  # title overlap above which a new draft repeats a story we have (largest unrelated pair: 0.32)
+
+
+def already_covered_key(d: dict) -> str | None:
+    e = d.get("enforcement")
+    return f"{e['action']}|{e['date']}|{e['authority'][:25].lower()}" if e else None
+
+
+def already_covered(d: dict, others: list[dict]) -> dict | None:
+    """A story we already published, opened as a draft or drafted in this run that this draft would repeat."""
+    from ingest import jaccard, title_tokens
+
+    mine = title_tokens(d["title"])
+    case = already_covered_key(d)
+    for o in others:
+        if (case and o.get("case") == case) or jaccard(mine, title_tokens(o["title"])) >= SAME_STORY_TITLE:
+            return o
+    return None
 
 
 # --------------------------------------------------------------------------- state & cost
@@ -226,6 +248,10 @@ def over_budget(state: dict) -> bool:
 
 class ModelError(RuntimeError):
     pass
+
+
+class Covered(Exception):
+    """The draft repeats a story already published, pending or drafted in this run."""
 
 
 class Outdated(Exception):
@@ -1165,6 +1191,7 @@ def run(args) -> dict:
         base = os.environ.get("GITHUB_REF_NAME") or git("rev-parse", "--abbrev-ref", "HEAD")
         if not args.no_pr:
             git("fetch", "-q", "origin", base)
+        drafted_now: list[dict] = []
         for item, record in queue[:MAX_DRAFTS_PER_RUN]:
             if summary["credits_out"]:
                 break
@@ -1200,6 +1227,9 @@ def run(args) -> dict:
                 problems = validate(d)
                 if problems:
                     raise ModelError("; ".join(problems))
+                covered = already_covered(d, existing + pending + drafted_now)
+                if covered:
+                    raise Covered(covered)
                 if d["importance"] >= FACT_CHECK_MIN_IMPORTANCE:
                     check = fact_check(client, state, d, sources)
                     if check["flagged"] and not over_budget(state):
@@ -1223,6 +1253,7 @@ def run(args) -> dict:
                 else:
                     pr = open_pull_request(slug, markdown, d, item, check, record, base)
                     record.update(decision="drafted", draft=slug, pr=pr)
+                drafted_now.append({"slug": slug, "title": d["title"], "case": already_covered_key(d)})
                 summary["drafted"] += 1
                 mark = ("ℹ️ not fact-checked" if check.get("skipped") else
                         "✅" if not check["flagged"] else f"⚠️ {len(check['flagged'])} claims to check")
@@ -1230,6 +1261,11 @@ def run(args) -> dict:
                     mark += f" (✏️ {len(check['corrected'])} corrected automatically)"
                 log.append(f"- {mark} **{d['title']}** — importance {d['importance']}"
                            f"{' · primary source found' if primary else ''} · {record.get('pr', slug)}")
+            except Covered as e:
+                other = e.args[0]
+                record.update(decision="duplicate", of=other["slug"])
+                summary["duplicates"] += 1
+                log.append(f"- ↩️ Not drafted, already covered: [{item['title']}]({item['url']}) repeats `{other['slug']}`")
             except Outdated as e:
                 fresh = e.args[0]
                 record.update(decision="outdated", later=fresh)

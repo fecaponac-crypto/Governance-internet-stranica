@@ -266,6 +266,7 @@ Pravilo: **ne objavljujemo zastarjele vijesti.** (Povod: PR #67 je opisivao zaht
 - **Ako se novi izvor ne može pročitati**, vijest se ne piše; izvještaj navodi „⏰ Not drafted, outdated” s onim što se dogodilo i poveznicom, a urednik je može dodati u `data/inbox.yaml`.
 - **Pisac zna današnji datum** i prošle datume ne opisuje kao nadolazeće.
 - **Zaštita:** ako svježa vijest (mlađa od 36 sati) ima ključne datume koji su prošli, a status je još „u tijeku” (Alleged, Consultation, Proposal, In negotiation, Investigation, Announced, Preview, Unconfirmed), provjera se pokreće i tada, a vijest se po potrebi piše ponovno. PR uvijek pokazuje ishod: 🔄 ažurirano na najnoviji razvoj, 🔎 provjereno bez promjene, ili ⏰ moguće zastarjelo (i ⏰ u naslovu).
+- **Bez duplikata:** prije provjere činjenica nacrt se uspoređuje s objavljenim vijestima, otvorenim PR-ovima i nacrtima iz istog pokretanja (preklapanje naslova ≥ 0,45 ili isti korak u trackeru kazni: vrsta, datum, tijelo). Ako ponavlja postojeću priču, ne otvara se PR; izvještaj navodi „↩️ Not drafted, already covered”. (Povod: 5. 11. objavljene dvije vijesti o istoj presudi; duplikat uklonjen, stara adresa preusmjerena.)
 
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 

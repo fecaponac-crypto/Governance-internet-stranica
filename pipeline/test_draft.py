@@ -439,6 +439,29 @@ class FreshnessTest(RunTest):
             {"freshness": {"changed": True, "date": "2026-11-02", "what_happened": "Granted.", "url": "u"}}))
 
 
+class AlreadyCoveredTest(RunTest):
+    def test_draft_repeating_a_published_story_is_not_opened(self):
+        (self.articles / "court-halts-transfers.md").write_text(
+            '---\ntitle: "Regulator fines Example Corp EUR 2 million for unlawful customer profiling"\ndate: 2026-10-21\n---\n\nBody.\n')
+        scores = [{"index": 0, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "reason": "x"}]
+        client, summary = self.run_with(scores)
+        self.assertEqual((summary["drafted"], summary["duplicates"]), (0, 2))  # one from ingest, one caught here
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertEqual(state["processed"]["id0"], {**state["processed"]["id0"], "decision": "duplicate", "of": "court-halts-transfers"})
+        self.assertIn("already covered", (self.tmp / "reports" / "drafts.md").read_text())
+
+    def test_similarity_rules(self):
+        d = {"title": "US court blocks DHS and DOJ from sending 'likely noncitizen' voter lists to states, citing the Privacy Act",
+             "enforcement": None}
+        kept = {"slug": "kept", "title": "US court halts DHS and DOJ transmission of 'likely noncitizen' voter lists in Privacy Act and APA challenge"}
+        other = {"slug": "other", "title": "noyb complaint behind CNIL's EUR 7 million fine on Fnac app tracker"}
+        self.assertEqual(draft.already_covered(d, [other, kept])["slug"], "kept")
+        self.assertIsNone(draft.already_covered(d, [other]))
+        e = {"action": "Fine", "date": "2026-10-29", "authority": "CNIL (French DPA)"}
+        same_case = {"slug": "c", "title": "Something else entirely", "case": "Fine|2026-10-29|cnil (french dpa)"}
+        self.assertEqual(draft.already_covered({"title": "Unrelated words here", "enforcement": e}, [same_case])["slug"], "c")
+
+
 class SameStoryTest(RunTest):
     def test_same_story_in_one_batch_is_drafted_once(self):
         scores = [
