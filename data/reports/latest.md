@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-05T06:18:17Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-05T06:51:41Z** · sources checked: 81 · failed: 2 · new items this run: 7
 
-## New items, last 48 hours (63)
+## New items, last 48 hours (69)
 
 ### High priority sources
 
@@ -73,19 +73,25 @@ Last run: **2026-11-05T06:18:17Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-04 | European Digital Rights (EDRi) | [EU governments call it ‘simplification,’ but their Data Omnibus deal considerably weakens our rights](https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/) |
 | 2026-11-04 | MIT Technology Review | [Securing the agentic enterprise with data lineage](https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/) |
 | 2026-11-04 | Computer Weekly — IT security | [Mastercard meets ‘responsibility’ through SME cyber security training](https://www.computerweekly.com/news/366653613/Mastercard-meets-responsibility-through-SME-cyber-security-training) |
+| 2026-11-03 | EPIC — Electronic Privacy Information Center | [Defending Privacy Has Been Essential to the Fight to Ensure the Right to Vote This Year](https://epic.org/defending-privacy-has-been-essential-to-the-fight-to-ensure-the-right-to-vote-this-year/) |
 | 2026-11-03 | Modern Data 101 | [Your Team’s Edge When AI Generates Everything: Rise of the Aggregator](https://moderndata101.substack.com/p/edge-in-the-ai-era) |
+| 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters-2/) |
+| 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters/) |
 | 2026-11-03 | The Record (Recorded Future News) | [Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects](https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three) |
-| 2026-11-03 | MIT Technology Review | [Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
+| 2026-10-31 | EPIC — Electronic Privacy Information Center | [The Verge: Here’s why you can’t shake those unhinged political texts](https://epic.org/the-verge-heres-why-you-cant-shake-those-unhinged-political-texts/) |
+| 2026-10-31 | EPIC — Electronic Privacy Information Center | [Democracy Docket: Federal judge questions DOJ voter ‘purge’ targeting minorities right before election](https://epic.org/democracy-docket-federal-judge-questions-doj-voter-purge-targeting-minorities-right-before-election/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Comments to EDPB on Guidelines on Web Scraping for AI: Go Further](https://epic.org/epic-comments-to-edpb-on-guidelines-on-web-scraping-for-ai-go-further/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [Don’t Let Data Brokers Profit off of Your Personal Data](https://epic.org/dont-let-data-brokers-profit-off-of-your-personal-data/) |
+| 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC and LULAC Ask Court to Halt DHS and DOJ’s Scheme to Weaponize Voter Data Ahead of Election Day](https://epic.org/epic-and-lulac-ask-court-to-halt-dhs-and-dojs-scheme-to-weaponize-voter-data-ahead-of-election-day/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Urges FCC to Protect Consumers from Unwanted “Political” Robocalls](https://epic.org/epic-urges-fcc-to-protect-consumers-from-unwanted-political-robocalls/) |
+| 2026-10-30 | EPIC — Electronic Privacy Information Center | [Utah Public Radio: Vermont is home to two of ICE’s surveillance facilities. Locals are pushing back](https://epic.org/utah-public-radio-vermont-is-home-to-two-of-ices-surveillance-facilities-locals-are-pushing-back/) |
 | 2026-10-26 | EPIC — Electronic Privacy Information Center | [EPIC, Coalition Urge Congress to Force Administration to Publicly Release Surveillance Court Opinion on Section 702](https://epic.org/epic-coalition-urge-congress-to-force-administration-to-publicly-release-surveillance-court-opinion-on-section-702/) |
 | 2026-10-13 | AlgorithmWatch | [Entscheidungsbaum: Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots](https://algorithmwatch.org/de/entscheidungsbaum-generative-ki/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 10× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
-- **noyb — European Center for Digital Rights** — failed 3× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
+- **European Data Protection Board (EDPB)** — failed 11× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **Palantir Blog** — failed 1× in a row: `HTTPError: 504 Server Error: Gateway Timeout for url: https://blog.palantir.com/feed`
 
 ## Check manually (weekly)
 

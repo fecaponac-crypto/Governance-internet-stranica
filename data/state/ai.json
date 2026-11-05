@@ -277,6 +277,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "121817cbaf7b234b": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [
+    "privacy",
+    "data-quality"
+   ],
+   "claims": 20,
+   "decision": "drafted",
+   "draft": "us-court-halts-dhs-and-doj-transmission-of-likely-noncitizen-voter-lis",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/66",
+   "primary_found": true,
+   "reason": "Court order blocking DHS and DOJ from sending error-filled federal voter-data lists to states; concrete government data-accuracy and privacy consequence.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "122df05575e5ca86": {
    "at": "2026-11-03T09:18:33Z",
    "categories": [
@@ -687,6 +704,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2897dced6f8852a1": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Explains how campaigns collate personal data and why outdated or erroneous records drive political texts; a light privacy and data-accuracy angle.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "28d1a96b6b9d8fe1": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -877,6 +905,18 @@
    "reason": "Amicus brief challenging sale of sensitive employee data to Google for AI training in a bankruptcy; a concrete data governance and privacy dispute with an AI training angle.",
    "relevant": true,
    "same_story_as": null
+  },
+  "3ab4fe5ff6902146": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [
+    "privacy",
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Duplicate of candidate 1, the same EPIC press release on the same court order.",
+   "relevant": false,
+   "same_story_as": "item:121817cbaf7b234b"
   },
   "3b846c20f45a03f4": {
    "at": "2026-11-02T18:18:48Z",
@@ -1079,6 +1119,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "48634f70a817bbb9": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Hearing report on the same temporary restraining order request as candidate 5; the filing is the primary source.",
+   "relevant": false,
+   "same_story_as": "item:4e7c56ddf0b255ae"
+  },
   "48d0396a9d17c295": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -1138,6 +1189,23 @@
    "importance": 1,
    "reason": "Political commentary on AI governance in Washington without concrete governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "4e7c56ddf0b255ae": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [
+    "privacy",
+    "data-quality"
+   ],
+   "claims": 20,
+   "decision": "drafted",
+   "draft": "epic-and-lulac-seek-emergency-order-to-stop-dhs-and-doj-sending-likely",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/67",
+   "primary_found": true,
+   "reason": "EPIC and LULAC motion to block DHS and DOJ voter data transmissions; primary source on a government data-misuse case.",
+   "relevant": true,
    "same_story_as": null
   },
   "4ee3b5ca98e0497b": {
@@ -1980,6 +2048,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "94b52cf1393882c7": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic EPIC essay on voting rights and privacy; no concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9593371aeb505d4c": {
    "at": "2026-11-04T21:18:28Z",
    "categories": [],
@@ -2004,6 +2081,15 @@
    "primary_found": true,
    "reason": "Comments to EDPB on draft guidelines on web scraping for AI training, a regulator consultation affecting how personal data is used for AI.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "9624b27e2eaaa382": {
+   "at": "2026-11-05T06:52:15Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Local coverage of ICE surveillance facilities; not a data governance development.",
+   "relevant": false,
    "same_story_as": null
   },
   "965a6e80a93732af": {
@@ -3891,8 +3977,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 86,
-   "usd": 3.9297
+   "calls": 97,
+   "usd": 4.909
   }
  }
 }
