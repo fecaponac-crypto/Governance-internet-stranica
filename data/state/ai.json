@@ -562,6 +562,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1f2e9df832f88829": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Speech on education and skills package; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1f66612295187cec": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -588,6 +597,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Design advice on charts; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "2115796b91039246": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Tobacco taxation story without data angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -842,6 +860,17 @@
    "reason": "Vendor adoption story with no substantive governance consequence.",
    "relevant": false,
    "same_story_as": null
+  },
+  "33636056686e109e": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same OCC AI supervision framework story already covered.",
+   "relevant": false,
+   "same_story_as": "occ-gives-bank-examiners-a-16-component-framework-for-supervising-ai-a"
   },
   "336a5fa5fd29e18b": {
    "at": "2026-10-27T18:18:03Z",
@@ -1114,6 +1143,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "43ae3be6b6bfd9ba": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "security",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/69",
+   "primary_found": true,
+   "reason": "Survey on enterprise AI controls lagging data exposure risk; practitioner-relevant security governance finding, but secondary outlet reporting a survey.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4448a4360ec1be65": {
    "at": "2026-11-04T15:19:16Z",
    "categories": [
@@ -1123,6 +1169,23 @@
    "importance": 1,
    "reason": "Cyberattack on Russian hosting provider; not a governance-focused story for this portal.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "4470a6b88475d4f6": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "security",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "sailpoint-survey-says-89-of-emea-firms-run-ai-agents-but-99-lack-ident",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/71",
+   "primary_found": false,
+   "reason": "SailPoint research on AI agent identity governance gaps; research finding with practical implications, though vendor-sourced.",
+   "relevant": true,
    "same_story_as": null
   },
   "44c3382f9aef8185": {
@@ -1809,6 +1872,23 @@
    "importance": 1,
    "reason": "Vendor product blog post about an MCP server; not a genuine launch with governance news.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "7c589889d44ad8c5": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "claims": 11,
+   "decision": "drafted",
+   "draft": "imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/70",
+   "primary_found": false,
+   "reason": "Swedish DPA opens supervision of Arbetsförmedlingen AI system assessing job seekers; official regulator action with data-protection angle.",
+   "relevant": true,
    "same_story_as": null
   },
   "7d17d1cb2c6be6b8": {
@@ -3159,6 +3239,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "cf5e60dd506a8280": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Records withholding over White House AI model security review; governance transparency angle, limited practical consequence.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cfa6ae58746884f3": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -3574,6 +3665,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e1f2399f3696918a": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Pentagon plan for public inventory of rules governing AI labs; plan stage, modest practitioner impact.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e3381fe87d6b6de3": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -3795,6 +3897,26 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Podcast episode announcement with no substantive governance news in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f0294af6c6fa2762": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Funding round for an analytics database vendor; little governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f04adc613d53050f": {
+   "at": "2026-11-05T12:18:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring/appointment news without a governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4057,8 +4179,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 101,
-   "usd": 5.0082
+   "calls": 111,
+   "usd": 5.3918
   }
  }
 }

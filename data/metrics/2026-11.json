@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-05T09:19:09Z",
+ "updated": "2026-11-05T12:20:22Z",
  "portal": {
-  "published_total": 57,
-  "published_this_month": 14,
+  "published_total": 58,
+  "published_this_month": 15,
   "published_this_month_by_importance": {
-   "3": 7,
    "4": 5,
+   "3": 8,
    "2": 2
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 106,
-  "runs": 54,
-  "runs_with_failed_sources": 28,
+  "items_collected": 116,
+  "runs": 55,
+  "runs_with_failed_sources": 29,
   "triage_decisions": {
-   "drafted": 18,
-   "skipped": 88,
+   "drafted": 21,
+   "skipped": 95,
    "failed": 1
   },
-  "ai_spend_usd": 5.0082,
+  "ai_spend_usd": 5.3918,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 15,
+  "drafts_published": 16,
   "drafts_rejected": 1
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 74,
-  "visits": 65,
+  "page_views": 401,
+  "visits": 392,
   "bots_excluded": true,
   "by_day": [
    {
@@ -58,106 +58,110 @@
    },
    {
     "date": "2026-11-05",
-    "page_views": 4,
-    "visits": 3
+    "page_views": 331,
+    "visits": 330
    }
   ],
   "top_pages": [
    {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
+    "page_views": 96
+   },
+   {
     "requestPath": "/",
-    "page_views": 28
+    "page_views": 95
+   },
+   {
+    "requestPath": "/category/privacy/",
+    "page_views": 59
+   },
+   {
+    "requestPath": "/category/security/",
+    "page_views": 58
+   },
+   {
+    "requestPath": "/sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd",
+    "page_views": 12
+   },
+   {
+    "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
+    "page_views": 12
+   },
+   {
+    "requestPath": "/enforcement/",
+    "page_views": 11
+   },
+   {
+    "requestPath": "/legislation/",
+    "page_views": 8
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 6
    },
    {
     "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
     "page_views": 6
-   },
-   {
-    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
-    "page_views": 3
-   },
-   {
-    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
-    "page_views": 3
-   },
-   {
-    "requestPath": "/enforcement/",
-    "page_views": 3
-   },
-   {
-    "requestPath": "/news/dutch-ap-warns-debt-collectors-that-ai-scoring-and-file-enrichment-may/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/spain-s-aepd-publishes-ten-point-guide-on-delegating-tasks-to-ai-assis/",
-    "page_views": 2
-   },
-   {
-    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
-    "page_views": 2
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 30
+    "page_views": 266
+   },
+   {
+    "countryName": "NL",
+    "page_views": 16
    },
    {
     "countryName": "CN",
-    "page_views": 14
+    "page_views": 16
+   },
+   {
+    "countryName": "AU",
+    "page_views": 15
+   },
+   {
+    "countryName": "SE",
+    "page_views": 11
    },
    {
     "countryName": "HR",
     "page_views": 10
    },
    {
+    "countryName": "BE",
+    "page_views": 9
+   },
+   {
     "countryName": "GB",
-    "page_views": 4
+    "page_views": 8
+   },
+   {
+    "countryName": "HK",
+    "page_views": 7
    },
    {
     "countryName": "CA",
-    "page_views": 2
-   },
-   {
-    "countryName": "PH",
-    "page_views": 2
-   },
-   {
-    "countryName": "BE",
-    "page_views": 2
-   },
-   {
-    "countryName": "SE",
-    "page_views": 2
-   },
-   {
-    "countryName": "IE",
-    "page_views": 2
-   },
-   {
-    "countryName": "KR",
-    "page_views": 1
+    "page_views": 6
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 56
+    "page_views": 377
    },
    {
     "refererHost": "www.google.com",
-    "page_views": 9
+    "page_views": 11
    },
    {
     "refererHost": "datagovernancesignal.com",
     "page_views": 9
+   },
+   {
+    "refererHost": "teams.public.onecdn.static.microsoft",
+    "page_views": 4
    }
   ]
  },
