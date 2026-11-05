@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-05T21:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-05T23:39:54Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (85)
+## New items, last 48 hours (86)
 
 ### High priority sources
 
@@ -64,8 +64,6 @@ Last run: **2026-11-05T21:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Webbinarium: Sociala medier och GDPR i LSS-verksamhet](https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/) |
 | 2026-11-04 | DATAVERSITY | [The Art of Lean Governance: Continuous Reconciliation – The Missing Control in Enterprise Assurance](https://www.dataversity.net/articles/the-art-of-lean-governance-continuous-reconciliation-the-missing-control-in-enterprise-assurance/) |
 | 2026-11-04 | DATAVERSITY | [A Step Ahead: Data Strategy for Complex Systems — Landscape Analysis and Visioning](https://www.dataversity.net/articles/a-step-ahead-data-strategy-for-complex-systems-landscape-analysis-and-visioning/) |
-| 2026-11-03 | Privacy World (Squire Patton Boggs) | [“A Trust Betrayed Is the Harm”: Ninth Circuit Rules Breach of Confidence Supplies Article III Standing in Data Privacy Cases, Deepening Circuit Split](https://www.privacyworld.blog/2026/11/a-trust-betrayed-is-the-harm-ninth-circuit-rules-breach-of-confidence-supplies-article-iii-standing-in-data-privacy-cases-deepening-circuit-split/) |
-| 2026-11-03 | Council of the EU — Press releases | [Informal meeting of Heads of State or Government of 13 November 2026 - Invitation letter by President António Costa to the members of the European Council](https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -73,6 +71,9 @@ Last run: **2026-11-05T21:18:20Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | Monte Carlo Blog | [Is “outcome maxxing” the new “tokenmaxxing”?](https://montecarlo.ai/blog-outcome-maxxing-vs-tokenmaxxing) |
+| 2026-11-05 | DataHub Blog (open source metadata platform) | [CONTEXT 2026 Highlights: Context Management in Practice](https://datahub.com/blog/context-2026-highlights/) |
+| 2026-11-05 | dbt Labs Blog | [How to assess your organization’s AI readiness](https://www.getdbt.com/blog/how-to-assess-your-ai-readiness) |
 | 2026-11-05 | Center for Data Innovation | [Better Federal Statistics Are Needed to Understand AI’s Impact on Work](https://datainnovation.org/2026/11/better-federal-statistics-are-necessary-to-understand-how-ai-is-changing-work/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [VAPOR PANDA Using AI Pen Testing Platform to Enhance Hacking Speed](https://www.dataprivacyandsecurityinsider.com/2026/11/vapor-panda-using-ai-pen-testing-platform-to-enhance-hacking-speed/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [General Motors Inks $220M Settlement Over Drivers’ Data](https://www.dataprivacyandsecurityinsider.com/2026/11/general-motors-inks-220m-settlement-over-drivers-data/) |
@@ -106,7 +107,7 @@ Last run: **2026-11-05T21:18:20Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 18× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 19× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

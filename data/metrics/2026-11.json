@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-05T21:18:41Z",
+ "updated": "2026-11-05T23:40:12Z",
  "portal": {
   "published_total": 65,
   "published_this_month": 22,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 142,
-  "runs": 59,
-  "runs_with_failed_sources": 33,
+  "items_collected": 145,
+  "runs": 60,
+  "runs_with_failed_sources": 34,
   "triage_decisions": {
    "drafted": 27,
-   "skipped": 114,
+   "skipped": 117,
    "failed": 2
   },
-  "ai_spend_usd": 6.8689,
+  "ai_spend_usd": 6.8697,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 467,
-  "visits": 456,
+  "page_views": 470,
+  "visits": 458,
   "bots_excluded": true,
   "by_day": [
    {
@@ -58,8 +58,8 @@
    },
    {
     "date": "2026-11-05",
-    "page_views": 397,
-    "visits": 394
+    "page_views": 400,
+    "visits": 396
    }
   ],
   "top_pages": [
@@ -92,12 +92,12 @@
     "page_views": 11
    },
    {
-    "requestPath": "/legislation/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
-    "page_views": 7
+    "requestPath": "/legislation/",
+    "page_views": 8
    },
    {
     "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
@@ -107,7 +107,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 292
+    "page_views": 294
    },
    {
     "countryName": "AU",
@@ -149,15 +149,15 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 437
+    "page_views": 438
    },
    {
     "refererHost": "www.google.com",
-    "page_views": 12
+    "page_views": 13
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 11
+    "page_views": 12
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",

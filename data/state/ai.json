@@ -799,6 +799,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "290b4b2511e962d2": {
+   "at": "2026-11-05T23:40:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog with generic AI readiness framing; marketing-style content without concrete governance guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "291b33c92e244271": {
    "at": "2026-10-29T06:18:32Z",
    "categories": [
@@ -1535,6 +1544,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Executive appointment news with no governance-specific consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "56a5e736cd67eee0": {
+   "at": "2026-11-05T23:40:09Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vague opinion piece on token usage trends from a vendor blog; no concrete governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2326,6 +2344,17 @@
    "importance": 1,
    "reason": "Lobbying story; federal policy debate is background without a concrete practitioner consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "91e71a36ad56d7e7": {
+   "at": "2026-11-05T23:40:09Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Conference highlights on context management with practical lessons from named enterprises; touches metadata and context for AI, though it reads partly as event recap.",
+   "relevant": true,
    "same_story_as": null
   },
   "930f130217b1910c": {
@@ -4490,8 +4519,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 144,
-   "usd": 6.8689
+   "calls": 145,
+   "usd": 6.8697
   }
  }
 }
