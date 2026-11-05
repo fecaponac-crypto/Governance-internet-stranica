@@ -25,7 +25,11 @@ jobs:
       MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
       MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
     steps:
+      # The newest commit of the branch, not the one that triggered the run: it holds the
+      # latest record of what was posted, so a story is never posted twice.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v5
         with:
@@ -46,11 +50,16 @@ jobs:
         run: |
           git config user.name "dgs-social-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/state/social.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Social: record posted stories [skip ci]"
+          cp data/state/social.json "$RUNNER_TEMP/ours.json"
           for i in 1 2 3; do
-            git pull --rebase --quiet origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            git fetch --quiet origin "${GITHUB_REF_NAME}"
+            git reset --quiet --hard "origin/${GITHUB_REF_NAME}"
+            git show "origin/${GITHUB_REF_NAME}:data/state/social.json" > "$RUNNER_TEMP/theirs.json"
+            python pipeline/merge_social_state.py "$RUNNER_TEMP/ours.json" "$RUNNER_TEMP/theirs.json" data/state/social.json
+            git add data/state/social.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit --quiet -m "Social: record posted stories [skip ci]"
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
             sleep $((i * 5))
           done
           exit 1

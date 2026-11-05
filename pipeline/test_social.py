@@ -85,5 +85,18 @@ class SocialTest(unittest.TestCase):
         self.assertTrue(social.mastodon_text({**item, "kind": "opinion"}).startswith("Editor's Opinion: "))
 
 
+class MergeStateTest(unittest.TestCase):
+    def test_two_runs_keep_each_others_posts(self):
+        from merge_social_state import merge
+        base = {"a": {"baseline": True}}
+        ours = {"since": "x", "posted": {**base, "news/b": {"bluesky": "at://b"}}}
+        theirs = {"since": "x", "posted": {**base, "news/c": {"bluesky": "at://c"}, "news/d": {"skipped": "no accounts"}}}
+        merged = merge(ours, theirs)["posted"]
+        self.assertEqual(set(merged), {"a", "news/b", "news/c", "news/d"})
+        # a real post wins over a skip record of the same story
+        merged = merge({"posted": {"news/d": {"bluesky": "at://d"}}}, theirs)["posted"]
+        self.assertEqual(merged["news/d"]["bluesky"], "at://d")
+
+
 if __name__ == "__main__":
     unittest.main()
