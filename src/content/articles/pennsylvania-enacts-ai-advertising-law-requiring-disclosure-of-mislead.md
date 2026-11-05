@@ -16,6 +16,13 @@ deadlines:
   - date: 2026-12-21
     what: "Pennsylvania AI Deceptive Advertising Act takes effect"
 sources:
+  - name: "Pennsylvania General Assembly"
+    title: "Senate Bill 806 (Act 99 of 2026), final text, Printer's Number 1808"
+    url: "https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0806/PN1808"
+    primary: true
+  - name: "Pennsylvania General Assembly"
+    title: "Bill information and history: Senate Bill 806, 2025-2026 session"
+    url: "https://www.palegis.us/legislation/bills/2025/sb806"
   - name: "Data Privacy + Cybersecurity Insider (Robinson+Cole)"
     title: "Pennsylvania's New Rules for AI-Generated Advertising"
     url: "https://www.dataprivacyandsecurityinsider.com/2026/11/pennsylvanias-new-rules-for-ai-generated-advertising/"
@@ -25,10 +32,10 @@ card:
   caption: "Pennsylvania's AI advertising disclosure law takes effect"
 ---
 
-Pennsylvania Governor Shapiro signed the **Artificial Intelligence Deceptive Advertising Act** on 22 October 2026. It bars advertisers from knowingly, recklessly or wilfully using "synthetic content" to create a false impression about a product's or service's nature, origin or authenticity, unless the advert carries a clear and conspicuous disclosure. Synthetic content covers images, video, audio or text that AI has generated or significantly modified.
+Pennsylvania Governor Josh Shapiro signed the **Artificial Intelligence Deceptive Advertising Act** (Senate Bill 806, Act 99 of 2026) on 22 October 2026. It bars advertisers from knowingly, recklessly or wilfully using "synthetic content" to create a false impression about a product's or service's nature, origin or authenticity, unless the advert carries a clear and conspicuous disclosure. Synthetic content covers images, video, audio or text that AI has generated or significantly modified.
 
-The disclosure must label the content as AI-generated or AI-modified. It must appear at first encounter, in the same format as the content, and be understandable to the consumer. Where technically feasible, it must be "permanent or extraordinarily difficult to remove". Exemptions cover fiction, parody, satire, commentary and criticism, and text-only adverts are excluded.
+The disclosure must label the content as AI-generated or AI-modified. It must appear the first time the synthetic content is presented, in the same medium as the content, and be readily noticeable and understandable. Where technically feasible, it must be "permanent or extraordinarily difficult to remove". The rule does not apply to content that is evidently fictional, to parody, satire, commentary or criticism, or to content limited to text.
 
-The Act takes effect on **21 December 2026**. The Attorney General or a district attorney may seek injunctions or bring civil actions, and a court may impose a civil fine of up to $3,000 for a violation.
+The Act takes effect 60 days after signature, on **21 December 2026**. The Attorney General or a district attorney may seek injunctions or bring civil actions, and a court may impose a civil fine of up to $3,000 for a violation.
 
-*Editor's note: This article relies on a single secondary report by a law firm blog; the Act's text was not reviewed.*
+*Editor's note: Checked against the final bill text and the General Assembly's record of the bill.*
