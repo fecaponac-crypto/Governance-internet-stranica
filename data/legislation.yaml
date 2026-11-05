@@ -83,3 +83,15 @@
   official:
     title: "European Commission: Cloud and AI Development Act"
     url: https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act
+- id: pennsylvania-ai-deceptive-advertising-act
+  name: Pennsylvania Artificial Intelligence Deceptive Advertising Act (SB 806, Act 99 of 2026)
+  short: Pennsylvania AI Advertising Act
+  jurisdiction: Pennsylvania, US
+  kind: Act
+  stage: Adopted
+  stageDate: 2026-10-22
+  stageNote: "Signed on 22 October 2026; takes effect on 21 December 2026, 60 days after signature."
+  summary: "Requires a clear and conspicuous AI disclosure on adverts that use AI-generated or AI-modified content in a way that creates a false impression about goods or services; enforced by the Attorney General or district attorneys, with civil fines of up to $3,000."
+  official:
+    title: "Pennsylvania General Assembly: Senate Bill 806 (2025-2026)"
+    url: https://www.palegis.us/legislation/bills/2025/sb806

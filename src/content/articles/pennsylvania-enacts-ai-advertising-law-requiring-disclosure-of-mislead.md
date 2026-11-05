@@ -5,6 +5,7 @@ dek: "The Artificial Intelligence Deceptive Advertising Act, signed on 22 Octobe
 whyItMatters: "Marketing teams using generative AI will need to know which campaign assets contain AI-generated or AI-modified images, video or audio, so asset metadata and provenance records become a compliance input. AI governance leads should check that review workflows flag realistic synthetic media that could be mistaken for a genuine product, person or endorsement. They should also confirm that disclosures persist in the format required, rather than being stripped when assets are edited or redistributed."
 categories: [ai-governance, regulation, metadata]
 institutions: []
+legislation: [pennsylvania-ai-deceptive-advertising-act]
 whoShouldCare: ["AI governance lead", "Legal & compliance", "Marketing data owners"]
 importance: 3
 type: "Regulation"
