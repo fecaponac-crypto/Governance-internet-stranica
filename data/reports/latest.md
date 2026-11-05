@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-04T23:42:20Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-05T00:18:18Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (66)
+## New items, last 48 hours (63)
 
 ### High priority sources
 
@@ -51,8 +51,6 @@ Last run: **2026-11-04T23:42:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-03 | CDO Magazine | [Leadership Moves Commvault Names Sarv Saravanan Chief AI and Business Technology Officer](https://www.cdomagazine.tech/leadership-moves/commvault-names-sarv-saravanan-chief-ai-and-business-technology-officer) |
 | 2026-11-03 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Söktjänster behandlar personuppgifter på otillåtet sätt](https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/) |
 | 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
-| 2026-11-03 | CDO Magazine | [Artificial Intelligence Indian Businesses Increase AI Spending Plans Despite Data Readiness Gaps](https://www.cdomagazine.tech/aiml/indian-businesses-increase-ai-spending-plans-despite-data-readiness-gaps) |
-| 2026-11-03 | CDO Magazine | [US Federal News Bureau Pentagon’s Overreliance on AI Raises the Danger of Bad Data](https://www.cdomagazine.tech/us-federal-news-bureau/pentagons-overreliance-on-ai-raises-the-danger-of-bad-data) |
 | 2026-11-03 | Collibra Blog | [Collibra Control Tower is here. Your data policies just got a schedule.](https://www.collibra.com/blog/collibra-control-tower-is-generally-available) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
@@ -78,7 +76,6 @@ Last run: **2026-11-04T23:42:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-03 | Modern Data 101 | [Your Team’s Edge When AI Generates Everything: Rise of the Aggregator](https://moderndata101.substack.com/p/edge-in-the-ai-era) |
 | 2026-11-03 | The Record (Recorded Future News) | [Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects](https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three) |
 | 2026-11-03 | MIT Technology Review | [Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
-| 2026-11-02 | Computer Weekly — IT security | [UK to face AI-powered cyber attacks within two years, warns NCSC](https://www.computerweekly.com/news/366653412/UK-to-face-AI-powered-cyber-attacks-within-two-years-warns-NCSC) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Comments to EDPB on Guidelines on Web Scraping for AI: Go Further](https://epic.org/epic-comments-to-edpb-on-guidelines-on-web-scraping-for-ai-go-further/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [Don’t Let Data Brokers Profit off of Your Personal Data](https://epic.org/dont-let-data-brokers-profit-off-of-your-personal-data/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC Urges FCC to Protect Consumers from Unwanted “Political” Robocalls](https://epic.org/epic-urges-fcc-to-protect-consumers-from-unwanted-political-robocalls/) |
@@ -87,7 +84,8 @@ Last run: **2026-11-04T23:42:20Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 7× in a row: `HTTPError: 503 Server Error: Backend fetch failed for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 8× in a row: `HTTPError: 503 Server Error: Backend fetch failed for url: https://www.edpb.europa.eu/feed/news_en`
+- **noyb — European Center for Digital Rights** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
 
 ## Check manually (weekly)
 
