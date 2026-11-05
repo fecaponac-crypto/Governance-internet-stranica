@@ -44,8 +44,9 @@ REPORT_PATH = DATA / "reports" / "drafts.md"
 
 SCORER_MODEL = "claude-haiku-5-5"
 WRITER_MODEL = "claude-opus-5-5"
+CHECK_MODEL = "claude-sonnet-5-5"  # fact and freshness checks: half the price of the writer (decision 5 Nov 2026)
 # USD per million tokens (input, output); see https://platform.claude.com/docs/en/about-claude/pricing
-PRICES = {"claude-haiku-5-5": (0.10, 0.50), "claude-opus-5-5": (4.00, 20.00)}
+PRICES = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00), "claude-opus-5-5": (4.00, 20.00)}
 MONTHLY_BUDGET_USD = float(os.environ.get("AI_MONTHLY_BUDGET_USD", "12"))
 
 SCORE_BATCH = 20
@@ -248,7 +249,7 @@ def call_json(client: anthropic.Anthropic, state: dict, *, model: str, system: s
         messages=[{"role": "user", "content": user}],
         output_config={"effort": effort, "format": {"type": "json_schema", "schema": schema}},
     )
-    if model == WRITER_MODEL:
+    if model in (WRITER_MODEL, CHECK_MODEL):
         # Re-run on another model if a safety classifier declines (e.g. a security-incident story).
         response = client.beta.messages.create(betas=["server-side-fallback-2026-07-01"], fallbacks="default", **params)
     else:
@@ -616,7 +617,7 @@ def check_freshness(client, state, item: dict, source: dict, today: date) -> dic
     found_urls: set[str] = set()
     for _ in range(4):  # a long search turn can pause; send it back to continue
         response = client.beta.messages.create(
-            model=WRITER_MODEL, max_tokens=8000, system=FRESHNESS_SYSTEM, messages=messages,
+            model=CHECK_MODEL, max_tokens=8000, system=FRESHNESS_SYSTEM, messages=messages,
             tools=[{"type": "web_search_20260209", "name": "web_search", "max_uses": 4}],
             output_config={"effort": "medium"},
             betas=["server-side-fallback-2026-07-01"], fallbacks="default",
@@ -851,7 +852,7 @@ def fact_check(client, state, d: dict, sources: list[dict]) -> dict:
         f"What to check: {' | '.join(d['what_to_check']) or 'none'}\n"
         f"Enforcement record: {json.dumps(d.get('enforcement'), ensure_ascii=False) if d.get('enforcement') else 'none'}"
     )
-    result = call_json(client, state, model=WRITER_MODEL, system=CHECK_SYSTEM,
+    result = call_json(client, state, model=CHECK_MODEL, system=CHECK_SYSTEM,
                        user=f"--- DRAFT ---\n{draft_text}\n--- END DRAFT ---\n\n{sources_block(sources)}",
                        schema=CHECK_SCHEMA, effort="medium", max_tokens=16000)
     claims = result["claims"]
@@ -1057,7 +1058,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 @{EDITOR} — new draft for review.
 
 ---
-_Drafted and fact-checked automatically by the Data Governance Signal pipeline ({WRITER_MODEL}); not published until merged._
+_Drafted ({WRITER_MODEL}) and fact-checked ({CHECK_MODEL}) automatically by the Data Governance Signal pipeline; not published until merged._
 """
     stale = check.get("past_dates") and not (check.get("freshness") or {}).get("checked")
     title = f"{'⏰ ' if stale else ''}{'' if not check['flagged'] else '⚠️ '}Draft: {d['title']} — Importance {d['importance']}"

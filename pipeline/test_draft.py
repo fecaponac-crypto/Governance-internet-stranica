@@ -81,7 +81,9 @@ class FakeClient:
     freshness_calls = 0
 
     def _large(self, **params):
-        assert params["model"] == draft.WRITER_MODEL and params["fallbacks"] == "default"
+        assert params["fallbacks"] == "default"
+        checking = params.get("tools") or "claims" in params["output_config"].get("format", {}).get("schema", {}).get("properties", {})
+        assert params["model"] == (draft.CHECK_MODEL if checking else draft.WRITER_MODEL)
         if params.get("tools"):
             assert params["tools"][0]["type"] == "web_search_20260209"
             self.freshness_calls += 1
