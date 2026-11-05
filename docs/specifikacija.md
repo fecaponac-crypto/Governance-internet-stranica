@@ -259,6 +259,14 @@ Okvirne skupine izvora:
 - **Kraj vijesti:** blok „Follow this story” (zakon u trackeru, slučaj u trackeru kazni, institucije, teme, ključni datumi), povezane vijesti rangirane po zajedničkom zakonu, slučaju, instituciji i temi, te 4 najnovije vijesti. Razlog: čitatelji s Googlea pročitaju 1 stranicu i odu.
 - **Bluesky i Mastodon:** `pipeline/social.py` (workflow `social.yml`, nakon svakog spajanja i svako jutro u 07:41 UTC za zakazane eseje) objavljuje nove vijesti, Opinion i Monday Signal, i to tek kad stranica odgovara 200. Stanje u `data/state/social.json`; postojeći sadržaj na dan uvođenja je zabilježen bez objave. Računi kroz tajne `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `MASTODON_INSTANCE`, `MASTODON_TOKEN`; bez njih se nove vijesti samo bilježe. Ako objava ne uspije, pokretanje je crveno (GitHub javlja vlasniku) i pokušava se ponovno.
 
+## 10a-10. Svježina vijesti (5. 11. 2026.)
+
+Pravilo: **ne objavljujemo zastarjele vijesti.** (Povod: PR #67 je opisivao zahtjev za hitnu zabranu tri dana nakon što je sud već odlučio.)
+- **Provjera prije pisanja:** za svaku vijest stariju od 36 sati AI pretražuje web (do 4 pretrage, ~0,01 $ po pretrazi) što se dogodilo nakon objave izvora (presuda, odluka, usvajanje, povlačenje, novi rok). Ako se nešto dogodilo, izvor novog razvoja se čita i dodaje, a vijest se piše o trenutnom stanju i nosi datum novog razvoja. Prihvaća se samo URL koji je pretraga stvarno vratila.
+- **Ako se novi izvor ne može pročitati**, vijest se ne piše; izvještaj navodi „⏰ Not drafted, outdated” s onim što se dogodilo i poveznicom, a urednik je može dodati u `data/inbox.yaml`.
+- **Pisac zna današnji datum** i prošle datume ne opisuje kao nadolazeće.
+- **Zaštita:** ako svježa vijest (mlađa od 36 sati) ima ključne datume koji su prošli, a status je još „u tijeku” (Alleged, Consultation, Proposal, In negotiation, Investigation, Announced, Preview, Unconfirmed), provjera se pokreće i tada, a vijest se po potrebi piše ponovno. PR uvijek pokazuje ishod: 🔄 ažurirano na najnoviji razvoj, 🔎 provjereno bez promjene, ili ⏰ moguće zastarjelo (i ⏰ u naslovu).
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

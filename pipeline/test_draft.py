@@ -76,8 +76,20 @@ class FakeClient:
         payload = {"article_is_original": False, "primary_link_indices": self.primary_indices, "reason": "decision"}
         return response(payload, draft.SCORER_MODEL)
 
+    freshness = {"changed": False, "what_happened": "", "date": "", "url": ""}
+    search_urls = ["https://court.example.org/ruling.pdf"]
+    freshness_calls = 0
+
     def _large(self, **params):
         assert params["model"] == draft.WRITER_MODEL and params["fallbacks"] == "default"
+        if params.get("tools"):
+            assert params["tools"][0]["type"] == "web_search_20260209"
+            self.freshness_calls += 1
+            r = response(self.freshness, draft.WRITER_MODEL)
+            r.usage.server_tool_use = SimpleNamespace(web_search_requests=2)
+            r.content.insert(0, SimpleNamespace(type="web_search_tool_result",
+                                                content=[SimpleNamespace(url=u) for u in self.search_urls]))
+            return r
         if "claims" in params["output_config"]["format"]["schema"]["properties"]:
             self.check_calls += 1
             # The corrected draft passes the second check.
@@ -90,6 +102,10 @@ class FakeClient:
 
 
 def fake_fetch(url):
+    if url == "https://court.example.org/ruling.pdf":
+        return {"url": url, "text": "ruling text " * 200, "links": []}
+    if url == "https://blocked.example.org/x":
+        raise draft.ModelError("source not readable: HTTP 403")
     if url == "https://dpa.example.org/decision.pdf":
         return {"url": url, "text": "decision text " * 200, "links": []}
     return {"url": url, "text": "news text " * 200,
@@ -360,6 +376,65 @@ class CreditsTest(RunTest):
         state = json.loads((self.tmp / "state" / "ai.json").read_text())
         self.assertNotIn("id0", state["processed"])
         self.assertFalse(draft.is_credit_error(ValueError("credit balance")))
+
+
+class FreshnessTest(RunTest):
+    SCORES = [{"index": 0, "relevant": True, "importance": 4, "categories": ["privacy"], "same_story_as": "", "reason": "x"}]
+
+    def run_client(self, client):
+        with mock.patch.object(draft.anthropic, "Anthropic", lambda: client):
+            return draft.run(SimpleNamespace(no_pr=True, score_only=False))
+
+    def test_old_story_unchanged_is_checked_and_drafted(self):
+        client = FakeClient(self.SCORES)
+        summary = self.run_client(client)
+        self.assertEqual((summary["drafted"], client.freshness_calls), (1, 1))  # the test items are days old
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertGreaterEqual(state["usage"][draft.month_key()]["usd"], 0.02)  # two searches counted
+
+    def test_story_that_moved_on_is_written_from_the_later_source(self):
+        client = FakeClient(self.SCORES)
+        client.freshness = {"changed": True, "what_happened": "The court granted the injunction.",
+                            "date": "2026-11-02", "url": "https://court.example.org/ruling.pdf"}
+        seen = []
+        original = client._large
+        def spy(**params):
+            if not params.get("tools") and "LATER DEVELOPMENT" in params["messages"][0]["content"]:
+                seen.append(params["messages"][0]["content"])
+            return original(**params)
+        client.beta.messages.create = spy
+        summary = self.run_client(client)
+        self.assertEqual(summary["drafted"], 1)
+        self.assertTrue(seen and "later development" in seen[0] and "ruling text" in seen[0])
+        front = yaml.safe_load(next(self.articles.glob("regulator-*.md")).read_text().split("---")[1])
+        self.assertEqual(str(front["date"]), "2026-11-02")  # dated by the later development
+
+    def test_story_that_moved_on_without_a_readable_source_is_not_drafted(self):
+        client = FakeClient(self.SCORES)
+        client.freshness = {"changed": True, "what_happened": "Withdrawn.", "date": "2026-11-01",
+                            "url": "https://blocked.example.org/x"}
+        client.search_urls = ["https://blocked.example.org/x"]
+        summary = self.run_client(client)
+        self.assertEqual((summary["drafted"], summary.get("outdated")), (0, 1))
+        state = json.loads((self.tmp / "state" / "ai.json").read_text())
+        self.assertEqual(state["processed"]["id0"]["decision"], "outdated")
+        self.assertIn("Not drafted, outdated", (self.tmp / "reports" / "drafts.md").read_text())
+
+    def test_url_not_from_the_search_is_ignored(self):
+        client = FakeClient(self.SCORES)
+        client.freshness = {"changed": True, "what_happened": "X.", "date": "2026-11-01", "url": "https://invented.example/x"}
+        summary = self.run_client(client)
+        self.assertEqual(summary.get("outdated"), 1)  # no trustworthy source: do not publish the old version
+
+    def test_past_dates_and_pr_lines(self):
+        d = {"status_stage": "Alleged", "deadlines": [{"date": "2026-11-02", "what": "ruling requested"}]}
+        from datetime import date
+        self.assertEqual(len(draft.past_dates(d, date(2026, 11, 5))), 1)
+        self.assertEqual(draft.past_dates({**d, "status_stage": "Court ruling"}, date(2026, 11, 5)), [])
+        self.assertIn("Possibly outdated", draft.freshness_line({"past_dates": d["deadlines"]}))
+        self.assertIn("no later development", draft.freshness_line({"freshness": {"checked": "2026-11-05", "changed": False}}))
+        self.assertIn("Updated to the latest development", draft.freshness_line(
+            {"freshness": {"changed": True, "date": "2026-11-02", "what_happened": "Granted.", "url": "u"}}))
 
 
 class SameStoryTest(RunTest):
