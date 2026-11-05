@@ -121,6 +121,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0609ca14b1882c06": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion piece on information management accountability; not concrete practitioner guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "069e6a8001eda096": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [
@@ -309,6 +318,15 @@
    "primary_found": false,
    "reason": "Swedish DPA finds search services unlawfully processed criminal-offence data and breached erasure rights; concrete enforcement consequence for data handling.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "127277a0ff047bba": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Placeholder lorem ipsum excerpt with no usable content.",
+   "relevant": false,
    "same_story_as": null
   },
   "13067dac8ba153f3": {
@@ -1107,6 +1125,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "44c3382f9aef8185": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "COVID State aid case between airline and Ryanair; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "461b8bc82c16192f": {
    "at": "2026-11-02T21:18:27Z",
    "categories": [
@@ -1710,6 +1737,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "778df958173a08d8": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 1,
+   "decision": "drafted",
+   "draft": "spanish-and-greek-data-protection-authorities-publish-joint-guide-on-s",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/68",
+   "primary_found": false,
+   "reason": "AEPD and Greek DPA joint guidance on secure processing environments for reuse of sensitive health data; practical regulator guidance with concrete governance impact.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "7870b3e44d1b546f": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -2028,6 +2072,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "930f130217b1910c": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "COVID State aid case; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "935067253b935d0f": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -2089,6 +2142,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Local coverage of ICE surveillance facilities; not a data governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "964a78edc9c624f5": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Gas pipeline directive case; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2894,6 +2956,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c1cd2fcf2fbe4333": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer protection case on chemical packaging resembling food; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c292043bc86ef8fd": {
    "at": "2026-11-02T22:44:52Z",
    "categories": [
@@ -3633,6 +3704,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e9ae46d8c9bc9a2e": {
+   "at": "2026-11-05T09:18:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Organic farming/CBD case; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ea2d5a0cba6ad367": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -3977,8 +4057,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 97,
-   "usd": 4.909
+   "calls": 101,
+   "usd": 5.0082
   }
  }
 }

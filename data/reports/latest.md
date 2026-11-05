@@ -1,13 +1,18 @@
 # Inflow report
 
-Last run: **2026-11-05T07:07:57Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-05T09:18:13Z** · sources checked: 81 · failed: 1 · new items this run: 8
 
-## New items, last 48 hours (69)
+## New items, last 48 hours (77)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-395/25 Orkla Care](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260161en.pdf) |
+| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-118/25 P Nord Stream 2 v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260160en.pdf) |
+| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-495/25 Syndicat professionnel du chanvre](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260159en.pdf) |
+| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-505/24 P Condor Flugdienst v Ryanair](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260158en.pdf) |
+| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Joined Cases C-266/24 P Commission v Ryanair, C-269/24 P Koninklijke Luchtvaart Maatschappij v Ryanair and C-289/24 P Société Air France and Air France-KLM v Ryanair (Covid-19 State aid – KLM)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260157en.pdf) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Democratic midterm wins set stage for tougher tech and AI scrutiny](https://iapp.org/news/a/democratic-midterm-wins-set-stage-for-tougher-tech-and-ai-scrutiny) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [When does not using AI become negligence?](https://iapp.org/news/a/when-does-not-using-ai-become-negligence) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Neural data as the newest frontier in data privacy](https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy) |
@@ -22,6 +27,8 @@ Last run: **2026-11-05T07:07:57Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | AEPD — Spanish Data Protection Agency | [La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos) |
+| 2026-11-05 | DATAVERSITY | [Mind the Gap: Accountability – Why Information Management Exists](https://www.dataversity.net/articles/mind-the-gap-accountability-why-information-management-exists/) |
 | 2026-11-04 | Informatica Blog | [2026 Gartner® Magic Quadrant™ for Data Integration Tools: Salesforce (Informatica) is Recognized as a Leader for the 21st Consecutive time Data Integration](https://www.informatica.com/blogs/2026-gartner-magic-quadrant-for-data-integration-tools-salesforce-informatica-is-recognized-as-a-leader-for-the-21st-consecutive-time.html) |
 | 2026-11-04 | Forrester Blogs | [AI Agents Need More Than Least Privilege. They Need Least Agency.](https://www.forrester.com/blogs/ai-agents-need-more-than-least-privilege-they-need-least-agency/) |
 | 2026-11-04 | CDO Magazine | [AI Governance Responsible Agentic AI for National Security: A Conversation Between AWS and Deloitte](https://www.cdomagazine.tech/ai-governance/responsible-agentic-ai-for-national-security-a-conversation-between-aws-and-deloitte) |
@@ -65,6 +72,7 @@ Last run: **2026-11-05T07:07:57Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | AlgorithmWatch | [Chatbots & Wahlen](https://algorithmwatch.org/de/dossier-chatbots-wahlen/) |
 | 2026-11-04 | Precisely Blog | [SAP® automation trends for 2027: AI, migration, and BTP insights](https://www.precisely.com/blog/cat-sap-automation/sap-automation-trends-for-2027-ai-migration-and-btp-insights/) |
 | 2026-11-04 | Precisely Blog | [Precisely is a Major Player in the IDC MarketScape for CCM. What does that mean for your next decision?](https://www.precisely.com/blog/cat-customer-engagement/precisely-is-a-major-player-in-the-idc-marketscape-for-ccm-what-does-that-mean-for-your-next-decision/) |
 | 2026-11-04 | The Record (Recorded Future News) | [Cyberattack wipes cloud data at major Russian hosting provider Beget](https://therecord.media/russia-cyberattack-beget-cloud) |
@@ -90,7 +98,7 @@ Last run: **2026-11-05T07:07:57Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 12× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 13× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
