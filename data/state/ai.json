@@ -3785,6 +3785,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fa793b73c2982992": {
+   "at": "2026-11-05T03:18:38Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic report on Commission using AI for lawmaking; no concrete governance consequence for organisations' data and only a thin excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fc7118093b0de300": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -3880,8 +3891,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 85,
-   "usd": 3.9291
+   "calls": 86,
+   "usd": 3.9297
   }
  }
 }

@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-05T00:18:18Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-05T03:18:24Z** · sources checked: 81 · failed: 2 · new items this run: 1
 
 ## New items, last 48 hours (63)
 
@@ -31,6 +31,7 @@ Last run: **2026-11-05T00:18:18Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-04 | CDO Magazine | [AI Governance The Emperor’s New Loop: Why “Human-in-the-Loop” Is the Flimsiest Leaf in Enterprise AI](https://www.cdomagazine.tech/ai-governance/the-emperors-new-loop-why-human-in-the-loop-is-the-flimsiest-leaf-in-enterprise-ai) |
 | 2026-11-04 | SiliconANGLE — Big Data | [Google fine-tunes its Agentic Data Cloud to support highly scalable autonomous AI workers](https://siliconangle.com/2026/11/04/google-fine-tunes-its-agentic-data-cloud-to-support-highly-scalable-autonomous-ai-workers/) |
 | 2026-11-04 | CDO Magazine | [Leadership Moves Xplor Technologies Names Shivani Stumpf Chief AI Officer](https://www.cdomagazine.tech/leadership-moves/xplor-technologies-names-shivani-stumpf-chief-ai-officer) |
+| 2026-11-04 | POLITICO Europe — Technology | [Commission turns to artificial intelligence to write better laws](https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-04 | CNIL (France) | [Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants](https://www.cnil.fr/fr/cepd-privacy-for-kids) |
 | 2026-11-04 | AEPD — Spanish Data Protection Agency | [¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves) |
 | 2026-11-04 | AZOP — Croatian Personal Data Protection Agency | [Poziv na online edukaciju o osnovama zaštite osobnih podataka – 6. studenog 2026.](https://azop.hr/poziv-na-besplatnu-online-edukaciju-o-osnovama-zastite-osobnih-podataka-6-studenog-2026/) |
@@ -50,7 +51,6 @@ Last run: **2026-11-05T00:18:18Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-03 | Snowflake Blog | [Snowflake CoCo: Autonomous Cloud Agents for Data Work](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-cloud-agents-automations) |
 | 2026-11-03 | CDO Magazine | [Leadership Moves Commvault Names Sarv Saravanan Chief AI and Business Technology Officer](https://www.cdomagazine.tech/leadership-moves/commvault-names-sarv-saravanan-chief-ai-and-business-technology-officer) |
 | 2026-11-03 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Söktjänster behandlar personuppgifter på otillåtet sätt](https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/) |
-| 2026-11-03 | Forrester Blogs | [Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem](https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/) |
 | 2026-11-03 | Collibra Blog | [Collibra Control Tower is here. Your data policies just got a schedule.](https://www.collibra.com/blog/collibra-control-tower-is-generally-available) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-29 | noyb — European Center for Digital Rights | [noyb win: French electronics retailer Fnac Darty fined €7 million](https://noyb.eu/%69%6e%64%65%78.%70%68%70/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million) |
@@ -84,8 +84,8 @@ Last run: **2026-11-05T00:18:18Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 8× in a row: `HTTPError: 503 Server Error: Backend fetch failed for url: https://www.edpb.europa.eu/feed/news_en`
-- **noyb — European Center for Digital Rights** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
+- **European Data Protection Board (EDPB)** — failed 9× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **noyb — European Center for Digital Rights** — failed 2× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
 
 ## Check manually (weekly)
 
