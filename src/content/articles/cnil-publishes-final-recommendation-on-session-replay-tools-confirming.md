@@ -2,7 +2,7 @@
 title: "CNIL publishes final recommendation on session replay tools, confirming prior consent is required"
 date: 2026-11-05
 dek: "The French regulator's guidance covers tool providers and site or app publishers, and asks for masking of irrelevant data, limits on sessions recorded and masking of chatbot conversations."
-whyItMatters: "Session replay scripts are often added by product or UX teams without passing through privacy review, yet the CNIL now treats them as consent-based trackers with no exemption. Privacy and analytics owners should inventory where these tools run, confirm they fire only after consent, and record the purposes defined before deployment. Masking settings are now a governance control: form fields, authentication areas and chatbot content need to be masked by configuration, not left to defaults."
+whyItMatters: "The CNIL treats session replay tools as trackers that need prior consent, with no exemption, and expects their purposes to be fixed before deployment. Privacy and analytics owners should inventory where these tools run, confirm they fire only after consent, and record the purposes defined before deployment. Masking settings are now a governance control: form fields, authentication areas and chatbot content need to be masked by configuration, not left to defaults."
 categories: [privacy, regulation, analytics]
 institutions: [cnil]
 whoShouldCare: ["DPO", "Legal & compliance", "Analytics and product teams", "CISO"]
