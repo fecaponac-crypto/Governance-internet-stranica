@@ -2633,6 +2633,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a62ff74ec57f7af6": {
+   "at": "2026-11-05T21:18:38Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Policy commentary on federal statistics about AI and work; no concrete governance consequence for organisations and reliability is low.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a68aede0b61b2dde": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -4479,8 +4490,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 143,
-   "usd": 6.8682
+   "calls": 144,
+   "usd": 6.8689
   }
  }
 }

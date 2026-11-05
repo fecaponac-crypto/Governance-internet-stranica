@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-05T18:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 6
+Last run: **2026-11-05T21:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (86)
+## New items, last 48 hours (85)
 
 ### High priority sources
 
@@ -66,7 +66,6 @@ Last run: **2026-11-05T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | DATAVERSITY | [A Step Ahead: Data Strategy for Complex Systems — Landscape Analysis and Visioning](https://www.dataversity.net/articles/a-step-ahead-data-strategy-for-complex-systems-landscape-analysis-and-visioning/) |
 | 2026-11-03 | Privacy World (Squire Patton Boggs) | [“A Trust Betrayed Is the Harm”: Ninth Circuit Rules Breach of Confidence Supplies Article III Standing in Data Privacy Cases, Deepening Circuit Split](https://www.privacyworld.blog/2026/11/a-trust-betrayed-is-the-harm-ninth-circuit-rules-breach-of-confidence-supplies-article-iii-standing-in-data-privacy-cases-deepening-circuit-split/) |
 | 2026-11-03 | Council of the EU — Press releases | [Informal meeting of Heads of State or Government of 13 November 2026 - Invitation letter by President António Costa to the members of the European Council](https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/) |
-| 2026-11-03 | Collibra Blog | [Collibra Control Tower is here. Your data policies just got a schedule.](https://www.collibra.com/blog/collibra-control-tower-is-generally-available) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -74,6 +73,7 @@ Last run: **2026-11-05T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | Center for Data Innovation | [Better Federal Statistics Are Needed to Understand AI’s Impact on Work](https://datainnovation.org/2026/11/better-federal-statistics-are-necessary-to-understand-how-ai-is-changing-work/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [VAPOR PANDA Using AI Pen Testing Platform to Enhance Hacking Speed](https://www.dataprivacyandsecurityinsider.com/2026/11/vapor-panda-using-ai-pen-testing-platform-to-enhance-hacking-speed/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [General Motors Inks $220M Settlement Over Drivers’ Data](https://www.dataprivacyandsecurityinsider.com/2026/11/general-motors-inks-220m-settlement-over-drivers-data/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Pennsylvania’s New Rules for AI-Generated Advertising](https://www.dataprivacyandsecurityinsider.com/2026/11/pennsylvanias-new-rules-for-ai-generated-advertising/) |
@@ -96,7 +96,6 @@ Last run: **2026-11-05T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | MIT Technology Review | [Securing the agentic enterprise with data lineage](https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/) |
 | 2026-11-04 | Computer Weekly — IT security | [Mastercard meets ‘responsibility’ through SME cyber security training](https://www.computerweekly.com/news/366653613/Mastercard-meets-responsibility-through-SME-cyber-security-training) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [Defending Privacy Has Been Essential to the Fight to Ensure the Right to Vote This Year](https://epic.org/defending-privacy-has-been-essential-to-the-fight-to-ensure-the-right-to-vote-this-year/) |
-| 2026-11-03 | Modern Data 101 | [Your Team’s Edge When AI Generates Everything: Rise of the Aggregator](https://moderndata101.substack.com/p/edge-in-the-ai-era) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters-2/) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters/) |
 | 2026-10-31 | EPIC — Electronic Privacy Information Center | [The Verge: Here’s why you can’t shake those unhinged political texts](https://epic.org/the-verge-heres-why-you-cant-shake-those-unhinged-political-texts/) |
@@ -107,7 +106,7 @@ Last run: **2026-11-05T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 17× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 18× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
