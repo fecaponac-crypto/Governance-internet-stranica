@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-05T17:26:30Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-05T18:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 6
 
-## New items, last 48 hours (80)
+## New items, last 48 hours (86)
 
 ### High priority sources
 
@@ -74,6 +74,12 @@ Last run: **2026-11-05T17:26:30Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [VAPOR PANDA Using AI Pen Testing Platform to Enhance Hacking Speed](https://www.dataprivacyandsecurityinsider.com/2026/11/vapor-panda-using-ai-pen-testing-platform-to-enhance-hacking-speed/) |
+| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [General Motors Inks $220M Settlement Over Drivers’ Data](https://www.dataprivacyandsecurityinsider.com/2026/11/general-motors-inks-220m-settlement-over-drivers-data/) |
+| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Pennsylvania’s New Rules for AI-Generated Advertising](https://www.dataprivacyandsecurityinsider.com/2026/11/pennsylvanias-new-rules-for-ai-generated-advertising/) |
+| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [When an AI Chatbot’s Reassurance Becomes a Risk](https://www.dataprivacyandsecurityinsider.com/2026/11/when-an-ai-chatbots-reassurance-becomes-a-risk/) |
+| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [American Medical Association Releases AI Governance Framework](https://www.dataprivacyandsecurityinsider.com/2026/11/american-medical-association-releases-ai-governance-framework/) |
+| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #515 – Digital Parenting Week](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-515-digital-parenting-week/) |
 | 2026-11-05 | Monte Carlo Blog | [AI’s Full-Circle Moment: Are the Consultants Back?](https://montecarlo.ai/blog-ais-full-circle-moment) |
 | 2026-11-05 | Google Cloud Blog — Data Analytics | [Semantic aggregation over millions of rows in BigQuery with AI.AGG](https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/) |
 | 2026-11-05 | Monte Carlo Blog | [Beyond the “Agent Boss”: Why Human-AI Teams Need a Middle Layer](https://montecarlo.ai/blog-beyond-the-agent-boss-why-human-ai-teams-need-a-middle-layer) |
@@ -101,7 +107,7 @@ Last run: **2026-11-05T17:26:30Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 16× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 17× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

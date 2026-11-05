@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-05T17:28:44Z",
+ "updated": "2026-11-05T18:21:05Z",
  "portal": {
-  "published_total": 61,
-  "published_this_month": 18,
+  "published_total": 62,
+  "published_this_month": 19,
   "published_this_month_by_importance": {
-   "3": 9,
+   "3": 10,
    "4": 6,
    "2": 3
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 135,
-  "runs": 57,
-  "runs_with_failed_sources": 31,
+  "items_collected": 141,
+  "runs": 58,
+  "runs_with_failed_sources": 32,
   "triage_decisions": {
-   "drafted": 24,
-   "skipped": 110,
+   "drafted": 27,
+   "skipped": 113,
    "failed": 2
   },
-  "ai_spend_usd": 6.2549,
+  "ai_spend_usd": 6.8682,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 19,
+  "drafts_published": 20,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 458,
-  "visits": 447,
+  "page_views": 461,
+  "visits": 450,
   "bots_excluded": true,
   "by_day": [
    {
@@ -58,14 +58,14 @@
    },
    {
     "date": "2026-11-05",
-    "page_views": 388,
-    "visits": 385
+    "page_views": 391,
+    "visits": 388
    }
   ],
   "top_pages": [
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
-    "page_views": 120
+    "page_views": 123
    },
    {
     "requestPath": "/",
@@ -107,7 +107,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 285
+    "page_views": 287
    },
    {
     "countryName": "AU",
@@ -149,7 +149,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 429
+    "page_views": 432
    },
    {
     "refererHost": "www.google.com",

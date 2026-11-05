@@ -845,6 +845,22 @@
    "relevant": true,
    "same_story_as": null
   },
+  "2dd992c3e6237281": {
+   "at": "2026-11-05T18:18:35Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "claims": 10,
+   "decision": "drafted",
+   "draft": "ama-publishes-governance-framework-for-agentic-ai-taking-on-clinical-f",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/77",
+   "primary_found": true,
+   "reason": "AMA governance framework for AI use in healthcare provides practical governance structure for health organisations.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "2deaf08f90c7f7f4": {
    "at": "2026-10-26T21:18:08Z",
    "categories": [],
@@ -1330,6 +1346,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "4c568e587fabefa1": {
+   "at": "2026-11-05T18:18:35Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Awareness tip about parenting week; no governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4dcd7af26dab1378": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -1532,6 +1559,22 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Coverage of stakeholder concerns over proposed AI rules on human review; background on regulatory debate, lower importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "58682110862662d2": {
+   "at": "2026-11-05T18:18:35Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "crowdstrike-says-china-nexus-group-vapor-panda-used-artex-ai-agents-to",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/75",
+   "primary_found": true,
+   "reason": "Threat intelligence on an AI-assisted attack campaign against 200+ organisations; concrete security posture relevance, though sourced secondhand from CrowdStrike findings.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2185,6 +2228,17 @@
    "reason": "Human-checked AI-assisted dbt staging at scale touches on governed AI-assisted data modelling; modest practitioner interest.",
    "relevant": true,
    "same_story_as": null
+  },
+  "8b3fe9a8326f50af": {
+   "at": "2026-11-05T18:18:35Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same story as existing GM $220 million AG settlement draft.",
+   "relevant": false,
+   "same_story_as": "gm-agrees-to-pay-220-million-to-36-attorneys-general-over-sale-of-driv"
   },
   "8be3dbb8b270d5ad": {
    "at": "2026-10-26T15:18:52Z",
@@ -3265,6 +3319,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ca6ba7d80995771b": {
+   "at": "2026-11-05T18:18:35Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/76",
+   "primary_found": false,
+   "reason": "Pennsylvania AI Deceptive Advertising Act sets disclosure duties for synthetic content, a concrete new state obligation affecting how organisations govern AI-generated content.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cb3818f8655d2aa6": {
    "at": "2026-11-04T09:18:36Z",
    "categories": [
@@ -3618,6 +3689,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Consumer advocacy promotion of a deletion tool, not a governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d74b371d02938ced": {
+   "at": "2026-11-05T18:18:35Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic commentary on chatbot reassurance risk without concrete governance guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4397,8 +4479,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 129,
-   "usd": 6.2549
+   "calls": 143,
+   "usd": 6.8682
   }
  }
 }
