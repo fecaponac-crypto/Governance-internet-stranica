@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-05T03:18:24Z** · sources checked: 81 · failed: 2 · new items this run: 1
+Last run: **2026-11-05T06:18:17Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
 ## New items, last 48 hours (63)
 
@@ -84,8 +84,8 @@ Last run: **2026-11-05T03:18:24Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 9× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
-- **noyb — European Center for Digital Rights** — failed 2× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
+- **European Data Protection Board (EDPB)** — failed 10× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://www.edpb.europa.eu/feed/news_en`
+- **noyb — European Center for Digital Rights** — failed 3× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://noyb.eu/en/rss`
 
 ## Check manually (weekly)
 

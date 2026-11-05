@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-05T03:18:42Z",
+ "updated": "2026-11-05T06:18:38Z",
  "portal": {
   "published_total": 56,
   "published_this_month": 13,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 91,
-  "runs": 50,
-  "runs_with_failed_sources": 24,
+  "runs": 51,
+  "runs_with_failed_sources": 25,
   "triage_decisions": {
    "drafted": 15,
    "skipped": 76,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 70,
-  "visits": 62,
+  "page_views": 71,
+  "visits": 63,
   "bots_excluded": true,
   "by_day": [
    {
@@ -55,6 +55,11 @@
     "date": "2026-11-04",
     "page_views": 21,
     "visits": 15
+   },
+   {
+    "date": "2026-11-05",
+    "page_views": 1,
+    "visits": 1
    }
   ],
   "top_pages": [
@@ -67,11 +72,11 @@
     "page_views": 6
    },
    {
-    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
+    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
     "page_views": 3
    },
    {
-    "requestPath": "/news/gm-driver-data-judgment-sets-out-privacy-programme-data-inventory-and/",
+    "requestPath": "/news/us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch/",
     "page_views": 3
    },
    {
@@ -83,7 +88,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on/",
+    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
     "page_views": 2
    },
    {
@@ -95,7 +100,7 @@
     "page_views": 2
    },
    {
-    "requestPath": "/news/dutch-data-protection-authority-publishes-final-enforcement-policy-aft/",
+    "requestPath": "/news/cjeu-advocate-general-says-ai-chatbots-reusing-press-articles-in-real/",
     "page_views": 2
    }
   ],
@@ -129,7 +134,7 @@
     "page_views": 2
    },
    {
-    "countryName": "KR",
+    "countryName": "PH",
     "page_views": 1
    },
    {
@@ -137,14 +142,14 @@
     "page_views": 1
    },
    {
-    "countryName": "EC",
+    "countryName": "KR",
     "page_views": 1
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 54
+    "page_views": 55
    },
    {
     "refererHost": "www.google.com",
