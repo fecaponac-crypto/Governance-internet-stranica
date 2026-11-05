@@ -60,6 +60,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "02ccca99cf715b6e": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion piece on AI spend with no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "039df5a113eb098a": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -740,6 +751,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "28469c3caa3f111f": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on in-house attack surface tooling; not governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2897dced6f8852a1": {
    "at": "2026-11-05T06:52:15Z",
    "categories": [
@@ -996,6 +1018,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3d194c3cde7bb488": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "cnil-publishes-final-recommendation-on-session-replay-tools-confirming",
+   "flagged": 1,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/72",
+   "primary_found": false,
+   "reason": "CNIL publishes an official recommendation on session replay tools, direct compliance guidance for controllers and vendors.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3d41fbc3100a9b37": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -1194,6 +1232,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "COVID State aid case between airline and Ryanair; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "452283bda43f7a07": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on agentic AI frameworks with no concrete governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2004,6 +2053,19 @@
    "relevant": false,
    "same_story_as": null
   },
+  "8254622595d1989b": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "metadata",
+    "ai-governance"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Practical guidance on governing catalogue asset readiness for AI with steward workflows; vendor blog but usable approach.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "83a5a51080fab770": {
    "at": "2026-11-03T18:19:30Z",
    "categories": [
@@ -2525,6 +2587,17 @@
    "reason": "Conversation/panel promotion with generic thought-leadership framing; little concrete consequence stated in the excerpt.",
    "relevant": false,
    "same_story_as": null
+  },
+  "a93c696d51d89767": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Covers the Norwegian Datatilsynet Xandr fine already tracked as an existing draft story.",
+   "relevant": false,
+   "same_story_as": "noyb-complaint-behind-cnil-s-eur-7-million-fine-on-fnac-app-tracker-th"
   },
   "a9ad0b05efd93436": {
    "at": "2026-11-03T17:06:07Z",
@@ -3406,6 +3479,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d34e531d6f8c59b5": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "platforms",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Concrete AWS guidance on enforcing row and column-level governed access for AI analytics; practical but vendor blog tutorial.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d38fceab7d173d4f": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -3645,6 +3730,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e1135bc2083df783": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog thought-leadership on AI ownership without concrete guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e1384af5e276298d": {
    "at": "2026-10-29T09:18:31Z",
    "categories": [],
@@ -3663,6 +3759,17 @@
    "importance": 2,
    "reason": "EDPB launches Privacy for Kids children's digital education platform; regulator initiative with modest practitioner relevance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "e197b15d9798afac": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor technical how-to on CDC ingestion; not governance news.",
+   "relevant": false,
    "same_story_as": null
   },
   "e1f2399f3696918a": {
@@ -3709,6 +3816,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Federal agency cloud migration news; data management angle is thin and no excerpt provided.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e4e6bb8c78abde51": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor-sponsored survey on consumer approval of AI agents; marketing-level, limited practitioner action.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3965,6 +4083,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f25def9a3bd14e95": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "CNIL explainer on session replay tools and user rights; duplicates the CNIL recommendation story, so the recommendation item is the best match.",
+   "relevant": false,
+   "same_story_as": "item:3d194c3cde7bb488"
+  },
   "f295a02220ed3222": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -4042,6 +4171,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog post about a product going GA with lessons learned; marketing rather than a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f83c25a08ba0ac8e": {
+   "at": "2026-11-05T15:18:33Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Product announcement from a trade outlet on a context layer for agents; vendor-driven, modest governance relevance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4179,8 +4319,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 111,
-   "usd": 5.3918
+   "calls": 119,
+   "usd": 5.709
   }
  }
 }
