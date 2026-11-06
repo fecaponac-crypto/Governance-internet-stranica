@@ -14,6 +14,10 @@ status:
   stage: "Proposal"
   detail: "Awaiting EESC and Committee of the Regions opinions before Parliament and Council positions"
 sources:
+  - name: "European Commission"
+    title: "The KIDS Act explained"
+    url: "https://digital-strategy.ec.europa.eu/en/faqs/kids-act-explained"
+    primary: true
   - name: "Privacy World (Squire Patton Boggs)"
     title: "The EU KIDS Act: From Moderation to Mandatory Design"
     url: "https://www.privacyworld.blog/2026/11/the-eu-kids-act-from-moderation-to-mandatory-design/"
@@ -25,8 +29,8 @@ card:
 
 The European Commission adopted its proposal for the EU KIDS Act on 17 September 2026. According to an analysis by Squire Patton Boggs, it would turn minor protection under Article 28 of the Digital Services Act, so far shaped largely by non-binding guidelines, into specific design obligations. It would cover social networks, video-sharing platforms, app stores, games, operating systems and AI chatbots, with no size threshold.
 
-The text sets **no own account below 13, guardian-run accounts capped at one hour a day for 13–14, and own accounts from 15**. Providers would have **six months from application to identify existing under-15 accounts** and disable those of minors or users whose age cannot be confirmed. Recommender systems must offer a non-profiling option, and very large platforms face audits.
+The text sets **no own account below 13, guardian-run accounts capped at one hour a day for 13–14, and own accounts from 15**. Providers would have **six months from application to identify existing under-15 accounts** and disable those of minors or users whose age cannot be confirmed. Children must always have at least one feed option without profiling, and the largest platforms must have their compliance plans checked by independent auditors.
 
 The proposal now awaits opinions from EU advisory committees before Parliament and Council set positions. No end date is set.
 
-*Editor's note: This article relies on a law firm's analysis of the proposal rather than the Commission's own text.*
+*Editor's note: The age rules and the review of existing accounts are checked against the Commission's explanation of the proposal; the scope and GDPR points follow Squire Patton Boggs' analysis.*
