@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-06T03:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-06T06:18:14Z** · sources checked: 81 · failed: 3 · new items this run: 0
 
-## New items, last 48 hours (86)
+## New items, last 48 hours (85)
 
 ### High priority sources
 
@@ -21,7 +21,6 @@ Last run: **2026-11-06T03:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Neural data as the newest frontier in data privacy](https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy) |
 | 2026-11-04 | Hunton Privacy & Information Security Law Blog | [FTC Announces Inquiry into Personalized Pricing and Employee Compensation](https://www.hunton.com/privacy-and-cybersecurity-law-blog/ftc-announces-inquiry-into-personalized-pricing-and-employee-compensation) |
 | 2026-11-04 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-535/24 Russian Maritime Register of Shipping v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260156en.pdf) |
-| 2026-11-04 | Inside Privacy (Covington & Burling) | [CPPA Proposes Amendments to Opt-Out Preference Signal Regulations](https://www.insideprivacy.com/ccpa/cppa-proposes-amendments-to-opt-out-preference-signal-regulations/) |
 
 ### Medium priority sources
 
@@ -107,7 +106,9 @@ Last run: **2026-11-06T03:18:17Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 21× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
+- **European Data Protection Board (EDPB)** — failed 22× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 
