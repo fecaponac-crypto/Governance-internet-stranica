@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new items this run: 6
+Last run: **2026-11-06T18:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (82)
+## New items, last 48 hours (80)
 
 ### High priority sources
 
@@ -20,8 +20,6 @@ Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-505/24 P Condor Flugdienst v Ryanair](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260158en.pdf) |
 | 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Joined Cases C-266/24 P Commission v Ryanair, C-269/24 P Koninklijke Luchtvaart Maatschappij v Ryanair and C-289/24 P Société Air France and Air France-KLM v Ryanair (Covid-19 State aid – KLM)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260157en.pdf) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Democratic midterm wins set stage for tougher tech and AI scrutiny](https://iapp.org/news/a/democratic-midterm-wins-set-stage-for-tougher-tech-and-ai-scrutiny) |
-| 2026-11-04 | IAPP — International Association of Privacy Professionals | [When does not using AI become negligence?](https://iapp.org/news/a/when-does-not-using-ai-become-negligence) |
-| 2026-11-04 | Hunton Privacy & Information Security Law Blog | [FTC Announces Inquiry into Personalized Pricing and Employee Compensation](https://www.hunton.com/privacy-and-cybersecurity-law-blog/ftc-announces-inquiry-into-personalized-pricing-and-employee-compensation) |
 
 ### Medium priority sources
 
@@ -56,8 +54,6 @@ Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Euractiv | [Spain raises last-minute objections in tobacco taxation saga](https://www.rapporteur.com/news/spain-raises-last-minute-objections-in-tobacco-taxation-saga/) |
 | 2026-11-05 | DATAVERSITY | [Mind the Gap: Accountability – Why Information Management Exists](https://www.dataversity.net/articles/mind-the-gap-accountability-why-information-management-exists/) |
 | 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
-| 2026-11-04 | Informatica Blog | [2026 Gartner® Magic Quadrant™ for Data Integration Tools: Salesforce (Informatica) is Recognized as a Leader for the 21st Consecutive time Data Integration](https://www.informatica.com/blogs/2026-gartner-magic-quadrant-for-data-integration-tools-salesforce-informatica-is-recognized-as-a-leader-for-the-21st-consecutive-time.html) |
-| 2026-11-04 | Forrester Blogs | [AI Agents Need More Than Least Privilege. They Need Least Agency.](https://www.forrester.com/blogs/ai-agents-need-more-than-least-privilege-they-need-least-agency/) |
 | 2026-11-04 | POLITICO Europe — Technology | [Commission turns to artificial intelligence to write better laws](https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
@@ -66,14 +62,17 @@ Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-580/) |
 | 2026-11-06 | Center for Data Innovation | [5 Q’s with Catharina van Delden, CEO of Finches](https://datainnovation.org/2026/11/5-qs-with-catharina-van-delden-ceo-of-finches/) |
 | 2026-11-06 | Center for Data Innovation | [Visualizing Coastal Climate Risks](https://datainnovation.org/2026/11/visualizing-coastal-climate-risks/) |
 | 2026-11-06 | Center for Data Innovation | [Cataloging Scorpion Species](https://datainnovation.org/2026/11/cataloging-scorpion-species/) |
 | 2026-11-06 | DataGalaxy | [Product Update October](https://www.datagalaxy.com/en/blog/product-update-october/) |
 | 2026-11-06 | Modern Data 101 | [The Human Side of the Semantic Layer: Translating Data Meaning Across Teams](https://moderndata101.substack.com/p/the-human-side-of-the-semantic-layer) |
+| 2026-11-06 | Google Cloud Blog — Data Analytics | [Zero-shot predictions in Pandas using the new BigQuery Accessor](https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/) |
 | 2026-11-06 | Computer Weekly — IT security | [Watchdog investigates Europol over ‘irregular’ data processing claims](https://www.computerweekly.com/news/366653892/Watchdog-investigates-Europol-over-irregular-data-processing-claims) |
 | 2026-11-06 | Computer Weekly — IT security | [Zurich uncovers £19m of fraud with Quantexa data analytics](https://www.computerweekly.com/news/366653717/Zurich-uncovers-19m-of-fraud-with-Quantexa-data-analytics) |
 | 2026-11-06 | The Record (Recorded Future News) | [EU accuses TikTok of trapping users in harmful ‘rabbit holes’](https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation) |
+| 2026-11-05 | Google Cloud Blog — Data Analytics | [Bringing conversational analytics to Gemini with Agentic Data Cloud connectors](https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/) |
 | 2026-11-05 | Monte Carlo Blog | [Is “outcome maxxing” the new “tokenmaxxing”?](https://montecarlo.ai/blog-outcome-maxxing-vs-tokenmaxxing) |
 | 2026-11-05 | DataHub Blog (open source metadata platform) | [CONTEXT 2026 Highlights: Context Management in Practice](https://datahub.com/blog/context-2026-highlights/) |
 | 2026-11-05 | dbt Labs Blog | [How to assess your organization’s AI readiness](https://www.getdbt.com/blog/how-to-assess-your-ai-readiness) |
@@ -92,7 +91,6 @@ Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Precisely Blog | [How we built AI-powered attack surface management in-house](https://www.precisely.com/blog/engineering/how-we-built-ai-powered-attack-surface-management-in-house/) |
 | 2026-11-05 | AlgorithmWatch | [Chatbots & Wahlen](https://algorithmwatch.org/de/dossier-chatbots-wahlen/) |
 | 2026-11-05 | Computer Weekly — IT security | [SailPoint: Anarchy reigns over enterprise agentic AI](https://www.computerweekly.com/news/366653557/SailPoint-Anarchy-reigns-over-enterprise-agentic-AI) |
-| 2026-11-04 | Computer Weekly — IT security | [Mastercard meets ‘responsibility’ through SME cyber security training](https://www.computerweekly.com/news/366653613/Mastercard-meets-responsibility-through-SME-cyber-security-training) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [Defending Privacy Has Been Essential to the Fight to Ensure the Right to Vote This Year](https://epic.org/defending-privacy-has-been-essential-to-the-fight-to-ensure-the-right-to-vote-this-year/) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters-2/) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters/) |
@@ -103,7 +101,7 @@ Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 27× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 28× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

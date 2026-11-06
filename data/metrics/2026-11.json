@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-06T16:48:05Z",
+ "updated": "2026-11-06T18:18:40Z",
  "portal": {
-  "published_total": 67,
-  "published_this_month": 24,
+  "published_total": 68,
+  "published_this_month": 25,
   "published_this_month_by_importance": {
-   "3": 14,
+   "3": 15,
    "4": 7,
    "2": 3
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 165,
-  "runs": 68,
-  "runs_with_failed_sources": 42,
+  "items_collected": 168,
+  "runs": 69,
+  "runs_with_failed_sources": 43,
   "triage_decisions": {
    "drafted": 30,
-   "skipped": 133,
+   "skipped": 136,
    "failed": 3
   },
-  "ai_spend_usd": 7.5537,
+  "ai_spend_usd": 7.5545,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 25,
+  "drafts_published": 26,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 530,
-  "visits": 518,
+  "page_views": 535,
+  "visits": 523,
   "bots_excluded": true,
   "by_day": [
    {
@@ -63,26 +63,26 @@
    },
    {
     "date": "2026-11-06",
-    "page_views": 60,
-    "visits": 60
+    "page_views": 65,
+    "visits": 65
    }
   ],
   "top_pages": [
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
-    "page_views": 126
+    "page_views": 127
    },
    {
     "requestPath": "/",
-    "page_views": 118
+    "page_views": 119
    },
    {
     "requestPath": "/category/privacy/",
-    "page_views": 71
+    "page_views": 72
    },
    {
     "requestPath": "/category/security/",
-    "page_views": 65
+    "page_views": 66
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
@@ -101,18 +101,18 @@
     "page_views": 11
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/legislation/",
     "page_views": 8
    },
    {
-    "requestPath": "/legislation/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 303
+    "page_views": 307
    },
    {
     "countryName": "GB",
@@ -154,7 +154,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 488
+    "page_views": 493
    },
    {
     "refererHost": "www.google.com",

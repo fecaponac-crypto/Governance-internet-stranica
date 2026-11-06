@@ -3004,6 +3004,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ac1bf60e23e03e56": {
+   "at": "2026-11-06T18:18:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic weekly roundup with an AI chatbot sports anecdote; no concrete governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "adb5f0ac1636b4a6": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -4032,6 +4041,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "dbb09eb09bdf73eb": {
+   "at": "2026-11-06T18:18:36Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor product preview promoting natural-language querying; marketing without a clear governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "dc6a0ab0abd1fabd": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -4465,6 +4485,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f1280b003fab5afa": {
+   "at": "2026-11-06T18:18:36Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor how-to tutorial on a BigQuery accessor; not a genuine launch with governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f198ffae199d5089": {
    "at": "2026-10-30T12:18:32Z",
    "categories": [
@@ -4753,8 +4784,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 164,
-   "usd": 7.5537
+   "calls": 165,
+   "usd": 7.5545
   }
  }
 }
