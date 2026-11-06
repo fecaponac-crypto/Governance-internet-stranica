@@ -247,6 +247,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0da6cf00fb542a34": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "european-commission-preliminarily-finds-tiktok-s-for-you-algorithm-bre",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/78",
+   "primary_found": false,
+   "reason": "Commission preliminary DSA findings against TikTok recommender system; relevant as regulatory enforcement touching algorithmic data use, though primarily platform regulation.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "0e9f0808ec1fdad8": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -852,6 +868,17 @@
    "primary_found": false,
    "reason": "Telecom firms tightening AI guardrails as agents access sensitive data is a practical governance development with access-control implications.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "2cfeb177251efcf4": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Litigation over California youth addictive feeds law; primarily child online safety and speech, weak data governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "2dd992c3e6237281": {
@@ -1724,6 +1751,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "64daaf919430282b": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Research programme association agreement; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "64f393d0a30d324c": {
    "at": "2026-11-02T12:18:24Z",
    "categories": [],
@@ -1739,6 +1775,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Product feature for dashboards in dbt repo; limited governance relevance, vendor product content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "66c49a62b1a80a6d": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor customer case study of fraud detection with analytics; no governance angle, vendor marketing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2384,6 +2431,29 @@
    "importance": 1,
    "reason": "Opinion essay on creativity; no governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "9365d99d3d0c7c95": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical expert piece on semantic layers and governance of business meaning; usable but generic opinion, rated worth knowing.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "93acc374c646c0b8": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "EDPS fact-finding investigation into Europol data processing; regulator enforcement affecting data governance, notable.",
+   "relevant": true,
    "same_story_as": null
   },
   "93fbaf4d045f4012": {
@@ -3491,6 +3561,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ce879dfe9df1de72": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment news; hiring/leadership moves are not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ceb4b784fbabf8ce": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -3844,6 +3923,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog promoting a product integration rather than a genuine launch or research finding; marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "db19cd20b90a786e": {
+   "at": "2026-11-06T12:18:30Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Commission preliminary findings against TikTok under DSA recommender systems; a platform regulation story without direct data governance angle, and same story as item 5 where the other outlet is the best source.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4541,8 +4631,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 146,
-   "usd": 6.8704
+   "calls": 154,
+   "usd": 7.2126
   }
  }
 }

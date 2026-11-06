@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-06T09:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-06T12:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 8
 
-## New items, last 48 hours (87)
+## New items, last 48 hours (91)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-05 | European Commission — Press Corner | [EU and India conclude negotiations on association to Horizon Europe](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [A view from Brussels: What the Commission's Work Programme says about 2027 initiatives](https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: Singapore charts course for AI risk management in financial services](https://iapp.org/news/a/notes-from-the-asia-pacific-region-singapore-charts-course-for-ai-risk-management-in-financial-services) |
 | 2026-11-05 | European Commission — Press Corner | [Remarks by Executive Vice-President Mînzatu on the Education and Skills package](https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2351) |
@@ -20,12 +21,13 @@ Last run: **2026-11-06T09:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [When does not using AI become negligence?](https://iapp.org/news/a/when-does-not-using-ai-become-negligence) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Neural data as the newest frontier in data privacy](https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy) |
 | 2026-11-04 | Hunton Privacy & Information Security Law Blog | [FTC Announces Inquiry into Personalized Pricing and Employee Compensation](https://www.hunton.com/privacy-and-cybersecurity-law-blog/ftc-announces-inquiry-into-personalized-pricing-and-employee-compensation) |
-| 2026-11-04 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-535/24 Russian Maritime Register of Shipping v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260156en.pdf) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | CDO Magazine | [Leadership Moves Abbott Appoints Sonali Mathur Global Head of Data and Analytics](https://www.cdomagazine.tech/leadership-moves/abbott-appoints-sonali-mathur-global-head-of-data-and-analytics) |
+| 2026-11-06 | POLITICO Europe — Technology | [EU accuses TikTok of designing algorithm that creates ‘rabbit holes’](https://www.politico.eu/article/eu-accuses-tiktok-of-breaching-digital-rules-because-algorithm-creates-rabbit-holes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-06 | DATAVERSITY | [Employees Are Already Using AI – Can Enterprises Govern the Risk?](https://www.dataversity.net/articles/employees-are-already-using-ai-can-enterprises-govern-the-risk/) |
 | 2026-11-05 | Future of Privacy Forum | [Bridging State Aging Plans and AgeTech Development](https://fpf.org/blog/bridging-state-aging-plans-and-agetech-development/) |
 | 2026-11-05 | CDO Magazine | [Artificial Intelligence How Enterprise Leaders Should Implement Agentic AI Frameworks](https://www.cdomagazine.tech/aiml/how-enterprise-leaders-should-implement-agentic-ai-frameworks) |
@@ -63,8 +65,6 @@ Last run: **2026-11-06T09:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | AEPD — Spanish Data Protection Agency | [¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves) |
 | 2026-11-04 | AZOP — Croatian Personal Data Protection Agency | [Poziv na online edukaciju o osnovama zaštite osobnih podataka – 6. studenog 2026.](https://azop.hr/poziv-na-besplatnu-online-edukaciju-o-osnovama-zastite-osobnih-podataka-6-studenog-2026/) |
 | 2026-11-04 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Webbinarium: Sociala medier och GDPR i LSS-verksamhet](https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/) |
-| 2026-11-04 | DATAVERSITY | [The Art of Lean Governance: Continuous Reconciliation – The Missing Control in Enterprise Assurance](https://www.dataversity.net/articles/the-art-of-lean-governance-continuous-reconciliation-the-missing-control-in-enterprise-assurance/) |
-| 2026-11-04 | DATAVERSITY | [A Step Ahead: Data Strategy for Complex Systems — Landscape Analysis and Visioning](https://www.dataversity.net/articles/a-step-ahead-data-strategy-for-complex-systems-landscape-analysis-and-visioning/) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -72,10 +72,15 @@ Last run: **2026-11-06T09:18:17Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | Modern Data 101 | [The Human Side of the Semantic Layer: Translating Data Meaning Across Teams](https://moderndata101.substack.com/p/the-human-side-of-the-semantic-layer) |
+| 2026-11-06 | Computer Weekly — IT security | [Watchdog investigates Europol over ‘irregular’ data processing claims](https://www.computerweekly.com/news/366653892/Watchdog-investigates-Europol-over-irregular-data-processing-claims) |
+| 2026-11-06 | Computer Weekly — IT security | [Zurich uncovers £19m of fraud with Quantexa data analytics](https://www.computerweekly.com/news/366653717/Zurich-uncovers-19m-of-fraud-with-Quantexa-data-analytics) |
+| 2026-11-06 | The Record (Recorded Future News) | [EU accuses TikTok of trapping users in harmful ‘rabbit holes’](https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation) |
 | 2026-11-05 | Monte Carlo Blog | [Is “outcome maxxing” the new “tokenmaxxing”?](https://montecarlo.ai/blog-outcome-maxxing-vs-tokenmaxxing) |
 | 2026-11-05 | DataHub Blog (open source metadata platform) | [CONTEXT 2026 Highlights: Context Management in Practice](https://datahub.com/blog/context-2026-highlights/) |
 | 2026-11-05 | dbt Labs Blog | [How to assess your organization’s AI readiness](https://www.getdbt.com/blog/how-to-assess-your-ai-readiness) |
 | 2026-11-05 | Center for Data Innovation | [Better Federal Statistics Are Needed to Understand AI’s Impact on Work](https://datainnovation.org/2026/11/better-federal-statistics-are-necessary-to-understand-how-ai-is-changing-work/) |
+| 2026-11-05 | EPIC — Electronic Privacy Information Center | [Big Tech Companies Repeat Same Losing Arguments in New Challenge to California’s AB 1709](https://epic.org/big-tech-companies-repeat-same-losing-arguments-in-new-challenge-to-californias-ab-1709/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [VAPOR PANDA Using AI Pen Testing Platform to Enhance Hacking Speed](https://www.dataprivacyandsecurityinsider.com/2026/11/vapor-panda-using-ai-pen-testing-platform-to-enhance-hacking-speed/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [General Motors Inks $220M Settlement Over Drivers’ Data](https://www.dataprivacyandsecurityinsider.com/2026/11/general-motors-inks-220m-settlement-over-drivers-data/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Pennsylvania’s New Rules for AI-Generated Advertising](https://www.dataprivacyandsecurityinsider.com/2026/11/pennsylvanias-new-rules-for-ai-generated-advertising/) |
@@ -104,11 +109,10 @@ Last run: **2026-11-06T09:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-10-31 | EPIC — Electronic Privacy Information Center | [Democracy Docket: Federal judge questions DOJ voter ‘purge’ targeting minorities right before election](https://epic.org/democracy-docket-federal-judge-questions-doj-voter-purge-targeting-minorities-right-before-election/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC and LULAC Ask Court to Halt DHS and DOJ’s Scheme to Weaponize Voter Data Ahead of Election Day](https://epic.org/epic-and-lulac-ask-court-to-halt-dhs-and-dojs-scheme-to-weaponize-voter-data-ahead-of-election-day/) |
 | 2026-10-30 | EPIC — Electronic Privacy Information Center | [Utah Public Radio: Vermont is home to two of ICE’s surveillance facilities. Locals are pushing back](https://epic.org/utah-public-radio-vermont-is-home-to-two-of-ices-surveillance-facilities-locals-are-pushing-back/) |
-| 2026-10-13 | AlgorithmWatch | [Entscheidungsbaum: Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots](https://algorithmwatch.org/de/entscheidungsbaum-generative-ki/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 24× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 25× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
