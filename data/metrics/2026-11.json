@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-06T21:19:09Z",
+ "updated": "2026-11-06T23:12:50Z",
  "portal": {
-  "published_total": 68,
-  "published_this_month": 25,
+  "published_total": 69,
+  "published_this_month": 26,
   "published_this_month_by_importance": {
    "3": 15,
    "4": 7,
-   "2": 3
+   "2": 4
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 172,
-  "runs": 70,
-  "runs_with_failed_sources": 44,
+  "items_collected": 173,
+  "runs": 71,
+  "runs_with_failed_sources": 45,
   "triage_decisions": {
    "drafted": 31,
-   "skipped": 139,
+   "skipped": 140,
    "failed": 3
   },
-  "ai_spend_usd": 7.6718,
+  "ai_spend_usd": 7.6725,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
-  "drafts_published": 26,
+  "drafts_published": 27,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 536,
-  "visits": 524,
+  "page_views": 537,
+  "visits": 525,
   "bots_excluded": true,
   "by_day": [
    {
@@ -63,14 +63,14 @@
    },
    {
     "date": "2026-11-06",
-    "page_views": 66,
-    "visits": 66
+    "page_views": 67,
+    "visits": 67
    }
   ],
   "top_pages": [
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
-    "page_views": 127
+    "page_views": 128
    },
    {
     "requestPath": "/",
@@ -93,26 +93,26 @@
     "page_views": 12
    },
    {
-    "requestPath": "/enforcement/",
-    "page_views": 11
-   },
-   {
     "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
     "page_views": 11
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/enforcement/",
+    "page_views": 11
+   },
+   {
+    "requestPath": "/legislation/",
     "page_views": 8
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 307
+    "page_views": 308
    },
    {
     "countryName": "GB",
@@ -154,7 +154,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 494
+    "page_views": 495
    },
    {
     "refererHost": "www.google.com",

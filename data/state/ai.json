@@ -2741,6 +2741,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9b660ac5efdeaa63": {
+   "at": "2026-11-06T23:12:48Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic listicle of CIO stories on resilience; no concrete data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9bcb10a9534553de": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -4836,8 +4845,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 168,
-   "usd": 7.6718
+   "calls": 169,
+   "usd": 7.6725
   }
  }
 }

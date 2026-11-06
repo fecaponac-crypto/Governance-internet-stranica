@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-06T21:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-06T23:12:16Z** · sources checked: 81 · failed: 2 · new items this run: 1
 
-## New items, last 48 hours (82)
+## New items, last 48 hours (83)
 
 ### High priority sources
 
@@ -63,6 +63,7 @@ Last run: **2026-11-06T21:18:18Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | InformationWeek | [Enterprise resilience: 10 stories on managing in the AI era](https://www.informationweek.com/cyber-resilience/enterprise-resilience-10-stories-on-managing-in-the-ai-era) |
 | 2026-11-06 | DataHub Blog (open source metadata platform) | [Agent Context Management: How to Manage Context for AI Agents After Launch](https://datahub.com/blog/agent-context-management/) |
 | 2026-11-06 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-580/) |
 | 2026-11-06 | Center for Data Innovation | [5 Q’s with Catharina van Delden, CEO of Finches](https://datainnovation.org/2026/11/5-qs-with-catharina-van-delden-ceo-of-finches/) |
@@ -103,7 +104,8 @@ Last run: **2026-11-06T21:18:18Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 29× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 30× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
