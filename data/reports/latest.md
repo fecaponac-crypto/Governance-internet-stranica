@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-06T06:18:14Z** · sources checked: 81 · failed: 3 · new items this run: 0
+Last run: **2026-11-06T06:51:28Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (85)
 
@@ -106,9 +106,7 @@ Last run: **2026-11-06T06:18:14Z** · sources checked: 81 · failed: 3 · new it
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
-- **European Data Protection Board (EDPB)** — failed 22× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
+- **European Data Protection Board (EDPB)** — failed 23× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
