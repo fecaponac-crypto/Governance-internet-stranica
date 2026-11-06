@@ -55,6 +55,7 @@ MAX_DRAFTS_PER_RUN = int(os.environ.get("MAX_DRAFTS_PER_RUN", "6"))
 MIN_IMPORTANCE_CORE = 3
 MIN_IMPORTANCE_BROAD = 4
 MIN_SOURCE_CHARS = 600
+MIN_CHECKED_CLAIMS = 6  # every draft names more facts than this; fewer means the check was cut short
 WEB_SEARCH_USD = 0.01  # $10 per 1,000 searches
 FRESHNESS_MIN_AGE_HOURS = 36  # older stories are checked for later developments before drafting
 PENDING_STAGES = {"Alleged", "Consultation", "Proposal", "In negotiation", "Investigation", "Announced", "Preview", "Unconfirmed"}
@@ -878,12 +879,19 @@ def fact_check(client, state, d: dict, sources: list[dict]) -> dict:
         f"What to check: {' | '.join(d['what_to_check']) or 'none'}\n"
         f"Enforcement record: {json.dumps(d.get('enforcement'), ensure_ascii=False) if d.get('enforcement') else 'none'}"
     )
-    result = call_json(client, state, model=CHECK_MODEL, system=CHECK_SYSTEM,
-                       user=f"--- DRAFT ---\n{draft_text}\n--- END DRAFT ---\n\n{sources_block(sources)}",
-                       schema=CHECK_SCHEMA, effort="medium", max_tokens=16000)
-    claims = result["claims"]
+    user = f"--- DRAFT ---\n{draft_text}\n--- END DRAFT ---\n\n{sources_block(sources)}"
+    claims: list[dict] = []
+    for effort in ("medium", "high"):  # a check that lists only a handful of claims has skipped most of them
+        result = call_json(client, state, model=CHECK_MODEL, system=CHECK_SYSTEM, user=user,
+                           schema=CHECK_SCHEMA, effort=effort, max_tokens=16000)
+        claims = result["claims"]
+        if len(claims) >= MIN_CHECKED_CLAIMS:
+            break
     flagged = [c for c in claims if c["verdict"] != "supported"]
-    return {"claims": len(claims), "flagged": flagged}
+    out = {"claims": len(claims), "flagged": flagged}
+    if len(claims) < MIN_CHECKED_CLAIMS:
+        out["incomplete"] = True
+    return out
 
 
 def check_summary(check: dict) -> str:
@@ -896,6 +904,10 @@ def check_summary(check: dict) -> str:
         note = "\n\n<details><summary>✏️ Corrected automatically before this PR: " + \
                f"{len(corrected)} claim{'s' if len(corrected) != 1 else ''} the first check flagged</summary>\n\n" + \
                "\n".join(f"- ~~{c['claim']}~~ ({c['verdict']})" for c in corrected) + "\n</details>"
+    if check.get("incomplete"):
+        return (f"⚠️ **Fact check incomplete:** only {check['claims']} claims were checked, twice — verify names, "
+                "numbers and dates against the sources yourself." + ("".join(
+                    f"\n- **{c['verdict']}** — {c['claim']}" for c in check["flagged"])) + note)
     if not check["flagged"]:
         return f"✅ **Fact check:** all {check['claims']} claims are supported by the sources." + note
     lines = [f"⚠️ **Fact check:** {len(check['flagged'])} of {check['claims']} claims need your attention:"]
@@ -1087,7 +1099,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 _Drafted ({WRITER_MODEL}) and fact-checked ({CHECK_MODEL}) automatically by the Data Governance Signal pipeline; not published until merged._
 """
     stale = check.get("past_dates") and not (check.get("freshness") or {}).get("checked")
-    title = f"{'⏰ ' if stale else ''}{'' if not check['flagged'] else '⚠️ '}Draft: {d['title']} — Importance {d['importance']}"
+    title = f"{'⏰ ' if stale else ''}{'' if not (check['flagged'] or check.get('incomplete')) else '⚠️ '}Draft: {d['title']} — Importance {d['importance']}"
     out = subprocess.run(
         ["gh", "pr", "create", "--base", base, "--head", branch, "--title", title,
          "--body", body, "--reviewer", EDITOR, "--assignee", EDITOR],

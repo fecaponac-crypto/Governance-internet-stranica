@@ -53,7 +53,7 @@ DRAFT = {
 CHECK = {"claims": [
     {"claim": "Fine of EUR 2 million", "verdict": "supported", "source": 2, "evidence": "fine of EUR 2 000 000"},
     {"claim": "Company relied on invalid consent", "verdict": "partly", "source": 1, "evidence": "consent was not valid"},
-]}
+] + [{"claim": f"Supported fact {i}", "verdict": "supported", "source": 2, "evidence": "stated"} for i in range(4)]}
 
 
 CLEAN_CHECK = {"claims": [{**c, "verdict": "supported"} for c in CHECK["claims"]]}
@@ -460,6 +460,20 @@ class AlreadyCoveredTest(RunTest):
         e = {"action": "Fine", "date": "2026-10-29", "authority": "CNIL (French DPA)"}
         same_case = {"slug": "c", "title": "Something else entirely", "case": "Fine|2026-10-29|cnil (french dpa)"}
         self.assertEqual(draft.already_covered({"title": "Unrelated words here", "enforcement": e}, [same_case])["slug"], "c")
+
+
+class IncompleteCheckTest(unittest.TestCase):
+    def test_short_check_is_retried_then_flagged(self):
+        calls = []
+        def fake_call_json(client, state, **kw):
+            calls.append(kw["effort"])
+            return {"claims": [{"claim": "x", "verdict": "supported", "source": 1, "evidence": "x"}]}
+        d = {**DRAFT, "deadlines": [], "status_stage": "Decision"}
+        with mock.patch.object(draft, "call_json", fake_call_json):
+            check = draft.fact_check(None, {}, d, [{"url": "u", "text": "t", "role": "r"}])
+        self.assertEqual(calls, ["medium", "high"])
+        self.assertTrue(check["incomplete"])
+        self.assertIn("Fact check incomplete", draft.check_summary(check))
 
 
 class SameStoryTest(RunTest):
