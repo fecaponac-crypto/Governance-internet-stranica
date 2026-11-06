@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-06T16:47:16Z** · sources checked: 81 · failed: 1 · new items this run: 6
 
-## New items, last 48 hours (91)
+## New items, last 48 hours (82)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | IAPP — International Association of Privacy Professionals | [A view from DC: How to read policy tea leaves](https://iapp.org/news/a/a-view-from-dc-how-to-read-policy-tea-leaves) |
 | 2026-11-06 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Kerr's privacy questions echo in Bill C-22](https://iapp.org/news/a/notes-from-the-iapp-canada-kerrs-privacy-questions-echo-in-bill-c-22) |
 | 2026-11-05 | European Commission — Press Corner | [EU and India conclude negotiations on association to Horizon Europe](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [A view from Brussels: What the Commission's Work Programme says about 2027 initiatives](https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives) |
@@ -20,13 +21,13 @@ Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Joined Cases C-266/24 P Commission v Ryanair, C-269/24 P Koninklijke Luchtvaart Maatschappij v Ryanair and C-289/24 P Société Air France and Air France-KLM v Ryanair (Covid-19 State aid – KLM)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260157en.pdf) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [Democratic midterm wins set stage for tougher tech and AI scrutiny](https://iapp.org/news/a/democratic-midterm-wins-set-stage-for-tougher-tech-and-ai-scrutiny) |
 | 2026-11-04 | IAPP — International Association of Privacy Professionals | [When does not using AI become negligence?](https://iapp.org/news/a/when-does-not-using-ai-become-negligence) |
-| 2026-11-04 | IAPP — International Association of Privacy Professionals | [Neural data as the newest frontier in data privacy](https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy) |
 | 2026-11-04 | Hunton Privacy & Information Security Law Blog | [FTC Announces Inquiry into Personalized Pricing and Employee Compensation](https://www.hunton.com/privacy-and-cybersecurity-law-blog/ftc-announces-inquiry-into-personalized-pricing-and-employee-compensation) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | Privacy World (Squire Patton Boggs) | [The EU KIDS Act: From moderation to mandatory design](https://www.privacyworld.blog/2026/11/the-eu-kids-act-from-moderation-to-mandatory-design/) |
 | 2026-11-06 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Abbott, Commvault, and Michigan Medicine](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-abbott-commvault-and-michigan-medicine) |
 | 2026-11-06 | CDO Magazine | [Community From the $10M Delete Button to the Human Advantage: Toronto Data Leaders Get Candid at CDO Magazine Roundtable Exchange](https://www.cdomagazine.tech/community/from-the-10m-delete-button-to-the-human-advantage-toronto-data-leaders-get-candid-at-cdo-magazine-roundtable-exchange) |
 | 2026-11-06 | CDO Magazine | [Leadership Moves Abbott Appoints Sonali Mathur Global Head of Data and Analytics](https://www.cdomagazine.tech/leadership-moves/abbott-appoints-sonali-mathur-global-head-of-data-and-analytics) |
@@ -57,14 +58,7 @@ Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
 | 2026-11-04 | Informatica Blog | [2026 Gartner® Magic Quadrant™ for Data Integration Tools: Salesforce (Informatica) is Recognized as a Leader for the 21st Consecutive time Data Integration](https://www.informatica.com/blogs/2026-gartner-magic-quadrant-for-data-integration-tools-salesforce-informatica-is-recognized-as-a-leader-for-the-21st-consecutive-time.html) |
 | 2026-11-04 | Forrester Blogs | [AI Agents Need More Than Least Privilege. They Need Least Agency.](https://www.forrester.com/blogs/ai-agents-need-more-than-least-privilege-they-need-least-agency/) |
-| 2026-11-04 | CDO Magazine | [AI Governance Responsible Agentic AI for National Security: A Conversation Between AWS and Deloitte](https://www.cdomagazine.tech/ai-governance/responsible-agentic-ai-for-national-security-a-conversation-between-aws-and-deloitte) |
-| 2026-11-04 | CDO Magazine | [US Federal News Bureau OCC Issues Supervisory Framework for Banks Using AI Systems](https://www.cdomagazine.tech/us-federal-news-bureau/occ-issues-supervisory-framework-for-banks-using-ai-systems) |
-| 2026-11-04 | CDO Magazine | [Artificial Intelligence Accenture Survey Finds Enterprise AI Governance and Data Readiness Lag Behind Adoption](https://www.cdomagazine.tech/aiml/accenture-survey-finds-enterprise-ai-governance-and-data-readiness-lag-behind-adoption) |
-| 2026-11-04 | CDO Magazine | [US Federal News Bureau NIST Report Identifies Gaps in Incident Management for AI Systems](https://www.cdomagazine.tech/us-federal-news-bureau/nist-report-identifies-gaps-in-incident-management-for-ai-systems) |
-| 2026-11-04 | CDO Magazine | [AI Governance The Emperor’s New Loop: Why “Human-in-the-Loop” Is the Flimsiest Leaf in Enterprise AI](https://www.cdomagazine.tech/ai-governance/the-emperors-new-loop-why-human-in-the-loop-is-the-flimsiest-leaf-in-enterprise-ai) |
-| 2026-11-04 | SiliconANGLE — Big Data | [Google fine-tunes its Agentic Data Cloud to support highly scalable autonomous AI workers](https://siliconangle.com/2026/11/04/google-fine-tunes-its-agentic-data-cloud-to-support-highly-scalable-autonomous-ai-workers/) |
 | 2026-11-04 | POLITICO Europe — Technology | [Commission turns to artificial intelligence to write better laws](https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-04 | CNIL (France) | [Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants](https://www.cnil.fr/fr/cepd-privacy-for-kids) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -72,6 +66,10 @@ Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | Center for Data Innovation | [5 Q’s with Catharina van Delden, CEO of Finches](https://datainnovation.org/2026/11/5-qs-with-catharina-van-delden-ceo-of-finches/) |
+| 2026-11-06 | Center for Data Innovation | [Visualizing Coastal Climate Risks](https://datainnovation.org/2026/11/visualizing-coastal-climate-risks/) |
+| 2026-11-06 | Center for Data Innovation | [Cataloging Scorpion Species](https://datainnovation.org/2026/11/cataloging-scorpion-species/) |
+| 2026-11-06 | DataGalaxy | [Product Update October](https://www.datagalaxy.com/en/blog/product-update-october/) |
 | 2026-11-06 | Modern Data 101 | [The Human Side of the Semantic Layer: Translating Data Meaning Across Teams](https://moderndata101.substack.com/p/the-human-side-of-the-semantic-layer) |
 | 2026-11-06 | Computer Weekly — IT security | [Watchdog investigates Europol over ‘irregular’ data processing claims](https://www.computerweekly.com/news/366653892/Watchdog-investigates-Europol-over-irregular-data-processing-claims) |
 | 2026-11-06 | Computer Weekly — IT security | [Zurich uncovers £19m of fraud with Quantexa data analytics](https://www.computerweekly.com/news/366653717/Zurich-uncovers-19m-of-fraud-with-Quantexa-data-analytics) |
@@ -94,13 +92,6 @@ Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Precisely Blog | [How we built AI-powered attack surface management in-house](https://www.precisely.com/blog/engineering/how-we-built-ai-powered-attack-surface-management-in-house/) |
 | 2026-11-05 | AlgorithmWatch | [Chatbots & Wahlen](https://algorithmwatch.org/de/dossier-chatbots-wahlen/) |
 | 2026-11-05 | Computer Weekly — IT security | [SailPoint: Anarchy reigns over enterprise agentic AI](https://www.computerweekly.com/news/366653557/SailPoint-Anarchy-reigns-over-enterprise-agentic-AI) |
-| 2026-11-04 | Precisely Blog | [SAP® automation trends for 2027: AI, migration, and BTP insights](https://www.precisely.com/blog/cat-sap-automation/sap-automation-trends-for-2027-ai-migration-and-btp-insights/) |
-| 2026-11-04 | Precisely Blog | [Precisely is a Major Player in the IDC MarketScape for CCM. What does that mean for your next decision?](https://www.precisely.com/blog/cat-customer-engagement/precisely-is-a-major-player-in-the-idc-marketscape-for-ccm-what-does-that-mean-for-your-next-decision/) |
-| 2026-11-04 | The Record (Recorded Future News) | [Cyberattack wipes cloud data at major Russian hosting provider Beget](https://therecord.media/russia-cyberattack-beget-cloud) |
-| 2026-11-04 | Google Cloud Blog — Data Analytics | [New capabilities to power agents at scale with Google's Agentic Data Cloud](https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/) |
-| 2026-11-04 | Google Cloud Blog — Data Analytics | [Unify operational and Lakehouse data with direct Iceberg access in AlloyDB for PostgreSQL](https://cloud.google.com/blog/products/databases/direct-iceberg-access-in-alloydb/) |
-| 2026-11-04 | European Digital Rights (EDRi) | [EU governments call it ‘simplification,’ but their Data Omnibus deal considerably weakens our rights](https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/) |
-| 2026-11-04 | MIT Technology Review | [Securing the agentic enterprise with data lineage](https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/) |
 | 2026-11-04 | Computer Weekly — IT security | [Mastercard meets ‘responsibility’ through SME cyber security training](https://www.computerweekly.com/news/366653613/Mastercard-meets-responsibility-through-SME-cyber-security-training) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [Defending Privacy Has Been Essential to the Fight to Ensure the Right to Vote This Year](https://epic.org/defending-privacy-has-been-essential-to-the-fight-to-ensure-the-right-to-vote-this-year/) |
 | 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters-2/) |
@@ -112,7 +103,7 @@ Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 26× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 27× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

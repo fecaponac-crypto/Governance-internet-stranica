@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-06T15:19:21Z",
+ "updated": "2026-11-06T16:48:05Z",
  "portal": {
-  "published_total": 66,
-  "published_this_month": 23,
+  "published_total": 67,
+  "published_this_month": 24,
   "published_this_month_by_importance": {
-   "3": 13,
+   "3": 14,
    "4": 7,
    "2": 3
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 159,
-  "runs": 67,
-  "runs_with_failed_sources": 41,
+  "items_collected": 165,
+  "runs": 68,
+  "runs_with_failed_sources": 42,
   "triage_decisions": {
-   "drafted": 29,
-   "skipped": 128,
+   "drafted": 30,
+   "skipped": 133,
    "failed": 3
   },
-  "ai_spend_usd": 7.437,
+  "ai_spend_usd": 7.5537,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 24,
+  "drafts_published": 25,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 524,
-  "visits": 512,
+  "page_views": 530,
+  "visits": 518,
   "bots_excluded": true,
   "by_day": [
    {
@@ -63,8 +63,8 @@
    },
    {
     "date": "2026-11-06",
-    "page_views": 54,
-    "visits": 54
+    "page_views": 60,
+    "visits": 60
    }
   ],
   "top_pages": [
@@ -74,11 +74,11 @@
    },
    {
     "requestPath": "/",
-    "page_views": 117
+    "page_views": 118
    },
    {
     "requestPath": "/category/privacy/",
-    "page_views": 70
+    "page_views": 71
    },
    {
     "requestPath": "/category/security/",
@@ -86,22 +86,22 @@
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
-    "page_views": 25
+    "page_views": 26
    },
    {
     "requestPath": "/sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd",
     "page_views": 12
    },
    {
+    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
+    "page_views": 11
+   },
+   {
     "requestPath": "/enforcement/",
     "page_views": 11
    },
    {
-    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
-    "page_views": 10
-   },
-   {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/category/ai-governance/",
     "page_views": 8
    },
    {
@@ -115,12 +115,12 @@
     "page_views": 303
    },
    {
-    "countryName": "NL",
-    "page_views": 29
+    "countryName": "GB",
+    "page_views": 32
    },
    {
-    "countryName": "GB",
-    "page_views": 28
+    "countryName": "NL",
+    "page_views": 29
    },
    {
     "countryName": "AU",
@@ -131,11 +131,11 @@
     "page_views": 22
    },
    {
-    "countryName": "IE",
-    "page_views": 17
+    "countryName": "BE",
+    "page_views": 18
    },
    {
-    "countryName": "BE",
+    "countryName": "IE",
     "page_views": 17
    },
    {
@@ -154,7 +154,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 483
+    "page_views": 488
    },
    {
     "refererHost": "www.google.com",
@@ -174,6 +174,10 @@
    },
    {
     "refererHost": "links.eu1.defend.egress.com",
+    "page_views": 1
+   },
+   {
+    "refererHost": "www.linkedin.com",
     "page_views": 1
    }
   ]

@@ -1026,6 +1026,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3790207784711e45": {
+   "at": "2026-11-06T16:47:30Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic DC policy commentary without a concrete obligation or decision; no specific governance consequence stated.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "38579abb46719dc0": {
    "at": "2026-11-02T22:44:52Z",
    "categories": [
@@ -1641,6 +1652,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "582fdebcfe6e6a3c": {
+   "at": "2026-11-06T16:47:30Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 1,
+   "decision": "drafted",
+   "draft": "eu-kids-act-proposal-would-turn-minor-protection-guidance-into-audited",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/80",
+   "primary_found": false,
+   "reason": "Analysis of the Commission's EU KIDS Act proposal covering age assurance and data protection duties; a major pending file with data obligations. Not a duplicate of the Italian Garante article, which covers a different angle.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "58682110862662d2": {
    "at": "2026-11-05T18:18:35Z",
    "categories": [
@@ -2068,6 +2096,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "77e28038bcde9b77": {
+   "at": "2026-11-06T16:47:30Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Climate risk visualisation platform launch; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7870b3e44d1b546f": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -2277,6 +2316,17 @@
    "importance": 3,
    "reason": "Practical guidance on governing catalogue asset readiness for AI with steward workflows; vendor blog but usable approach.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "834cc2a4b571ea6b": {
+   "at": "2026-11-06T16:47:30Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Open dataset release of scorpion specimens; not governance-relevant news.",
+   "relevant": false,
    "same_story_as": null
   },
   "83a5a51080fab770": {
@@ -2809,6 +2859,17 @@
    "importance": 2,
    "reason": "Use of dbt context layer to give AI agents governed metric context is a practical governance example.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "a68dfd13113b76b4": {
+   "at": "2026-11-06T16:47:30Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Company interview on supply-chain AI platform; not a governance story.",
+   "relevant": false,
    "same_story_as": null
   },
   "a789a9507cfb0a3a": {
@@ -4129,6 +4190,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e2d37355f3b0f073": {
+   "at": "2026-11-06T16:47:30Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product update roundup, which is marketing rather than a genuine launch.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e3381fe87d6b6de3": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [],
@@ -4681,8 +4753,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 160,
-   "usd": 7.437
+   "calls": 164,
+   "usd": 7.5537
   }
  }
 }
