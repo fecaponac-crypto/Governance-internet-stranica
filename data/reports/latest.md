@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-06T00:18:12Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-06T03:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (86)
 
@@ -107,8 +107,7 @@ Last run: **2026-11-06T00:18:12Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 20× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Partnership on AI** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://partnershiponai.org/feed/`
+- **European Data Protection Board (EDPB)** — failed 21× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

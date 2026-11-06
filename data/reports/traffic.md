@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-06T00:18:26Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-06T03:18:32Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**458 visits · 470 page views** this month (bots excluded)
+**466 visits · 478 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -13,6 +13,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-03 | 18 | 18 |
 | 2026-11-04 | 15 | 21 |
 | 2026-11-05 | 396 | 400 |
+| 2026-11-06 | 8 | 8 |
 
 ## Top pages
 
@@ -29,9 +30,9 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Countries
 
-- US — 294
+- US — 298
 - AU — 23
-- CN — 21
+- CN — 22
 - NL — 20
 - IE — 13
 - BE — 12
@@ -42,7 +43,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 438
+- (direct) — 446
 - www.google.com — 13
 - datagovernancesignal.com — 12
 - teams.public.onecdn.static.microsoft — 4
