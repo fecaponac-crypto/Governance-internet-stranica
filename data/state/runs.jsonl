@@ -155,3 +155,4 @@
 {"run": "2026-11-06T15:18:15Z", "seconds": 10, "sources": 81, "failed": 1, "fetched": 7950, "too_old": 6893, "known": 1037, "filtered": 16, "new": 4, "baseline": 0}
 {"run": "2026-11-06T16:47:16Z", "seconds": 12, "sources": 81, "failed": 1, "fetched": 7951, "too_old": 6882, "known": 1055, "filtered": 8, "new": 6, "baseline": 0}
 {"run": "2026-11-06T18:18:20Z", "seconds": 14, "sources": 81, "failed": 1, "fetched": 7951, "too_old": 6880, "known": 1061, "filtered": 7, "new": 3, "baseline": 0}
+{"run": "2026-11-06T21:18:18Z", "seconds": 13, "sources": 81, "failed": 1, "fetched": 7951, "too_old": 6876, "known": 1066, "filtered": 5, "new": 4, "baseline": 0}

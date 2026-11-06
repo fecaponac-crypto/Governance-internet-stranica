@@ -367,6 +367,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1308ff56ef212878": {
+   "at": "2026-11-06T21:18:32Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Reports Democratic plans for new AI legislation on model safety; a pending legislative proposal with limited detail in the excerpt, so worth knowing rather than urgent.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "133f912dbdc79453": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -1309,6 +1321,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "43ba49d8db021316": {
+   "at": "2026-11-06T21:18:32Z",
+   "categories": [
+    "ai-governance",
+    "metadata"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "datahub-sets-out-six-step-loop-for-managing-shared-context-for-ai-agen",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/81",
+   "primary_found": true,
+   "reason": "Vendor blog from DataHub, but it gives practical guidance on scoping, testing and owning agent context, which practitioners can apply; kept at notable level given vendor source.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4448a4360ec1be65": {
    "at": "2026-11-04T15:19:16Z",
    "categories": [
@@ -1450,6 +1479,18 @@
    "importance": 1,
    "reason": "Political commentary on AI governance in Washington without concrete governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "4e46f0ac52a237fa": {
+   "at": "2026-11-06T21:18:32Z",
+   "categories": [
+    "ai-industry",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "OECD research on AI adoption gaps between large and small firms; background context for governance operating models with little practical action.",
+   "relevant": true,
    "same_story_as": null
   },
   "4e7c56ddf0b255ae": {
@@ -3937,6 +3978,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d6e804764748674b": {
+   "at": "2026-11-06T21:18:32Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Forrester blog promoting a client-only report on cyber risk ratings; generic analyst opinion with no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d74b371d02938ced": {
    "at": "2026-11-05T18:18:35Z",
    "categories": [
@@ -4784,8 +4836,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 165,
-   "usd": 7.5545
+   "calls": 168,
+   "usd": 7.6718
   }
  }
 }

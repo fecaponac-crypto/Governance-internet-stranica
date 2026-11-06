@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-06T18:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-06T21:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (80)
+## New items, last 48 hours (82)
 
 ### High priority sources
 
@@ -19,12 +19,14 @@ Last run: **2026-11-06T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-495/25 Syndicat professionnel du chanvre](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260159en.pdf) |
 | 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-505/24 P Condor Flugdienst v Ryanair](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260158en.pdf) |
 | 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Joined Cases C-266/24 P Commission v Ryanair, C-269/24 P Koninklijke Luchtvaart Maatschappij v Ryanair and C-289/24 P Société Air France and Air France-KLM v Ryanair (Covid-19 State aid – KLM)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260157en.pdf) |
-| 2026-11-04 | IAPP — International Association of Privacy Professionals | [Democratic midterm wins set stage for tougher tech and AI scrutiny](https://iapp.org/news/a/democratic-midterm-wins-set-stage-for-tougher-tech-and-ai-scrutiny) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | CDO Magazine | [US Federal News Bureau Democrats Prepare New AI Legislation Targeting Model Safety and Rapid Expansion](https://www.cdomagazine.tech/us-federal-news-bureau/democrats-prepare-new-ai-legislation-targeting-model-safety-and-rapid-expansion) |
+| 2026-11-06 | CDO Magazine | [Artificial Intelligence OECD Report Finds Large Businesses Outpacing Smaller Firms in AI Adoption](https://www.cdomagazine.tech/aiml/oecd-report-finds-large-businesses-outpacing-smaller-firms-in-ai-adoption) |
+| 2026-11-06 | Forrester Blogs | [CISOs Have Spoken: Risk Reduction, Not Another Cyber Risk Rating](https://www.forrester.com/blogs/cisos-have-spoken-risk-reduction-not-another-cyber-risk-rating/) |
 | 2026-11-06 | Privacy World (Squire Patton Boggs) | [The EU KIDS Act: From moderation to mandatory design](https://www.privacyworld.blog/2026/11/the-eu-kids-act-from-moderation-to-mandatory-design/) |
 | 2026-11-06 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Abbott, Commvault, and Michigan Medicine](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-abbott-commvault-and-michigan-medicine) |
 | 2026-11-06 | CDO Magazine | [Community From the $10M Delete Button to the Human Advantage: Toronto Data Leaders Get Candid at CDO Magazine Roundtable Exchange](https://www.cdomagazine.tech/community/from-the-10m-delete-button-to-the-human-advantage-toronto-data-leaders-get-candid-at-cdo-magazine-roundtable-exchange) |
@@ -55,13 +57,13 @@ Last run: **2026-11-06T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | DATAVERSITY | [Mind the Gap: Accountability – Why Information Management Exists](https://www.dataversity.net/articles/mind-the-gap-accountability-why-information-management-exists/) |
 | 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
 | 2026-11-04 | POLITICO Europe — Technology | [Commission turns to artificial intelligence to write better laws](https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | DataHub Blog (open source metadata platform) | [Agent Context Management: How to Manage Context for AI Agents After Launch](https://datahub.com/blog/agent-context-management/) |
 | 2026-11-06 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-580/) |
 | 2026-11-06 | Center for Data Innovation | [5 Q’s with Catharina van Delden, CEO of Finches](https://datainnovation.org/2026/11/5-qs-with-catharina-van-delden-ceo-of-finches/) |
 | 2026-11-06 | Center for Data Innovation | [Visualizing Coastal Climate Risks](https://datainnovation.org/2026/11/visualizing-coastal-climate-risks/) |
@@ -101,7 +103,7 @@ Last run: **2026-11-06T18:18:20Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 28× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 29× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

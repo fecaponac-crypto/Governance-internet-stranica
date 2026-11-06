@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-06T18:18:40Z",
+ "updated": "2026-11-06T21:19:09Z",
  "portal": {
   "published_total": 68,
   "published_this_month": 25,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 168,
-  "runs": 69,
-  "runs_with_failed_sources": 43,
+  "items_collected": 172,
+  "runs": 70,
+  "runs_with_failed_sources": 44,
   "triage_decisions": {
-   "drafted": 30,
-   "skipped": 136,
+   "drafted": 31,
+   "skipped": 139,
    "failed": 3
   },
-  "ai_spend_usd": 7.5545,
+  "ai_spend_usd": 7.6718,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 535,
-  "visits": 523,
+  "page_views": 536,
+  "visits": 524,
   "bots_excluded": true,
   "by_day": [
    {
@@ -63,8 +63,8 @@
    },
    {
     "date": "2026-11-06",
-    "page_views": 65,
-    "visits": 65
+    "page_views": 66,
+    "visits": 66
    }
   ],
   "top_pages": [
@@ -93,19 +93,19 @@
     "page_views": 12
    },
    {
-    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
-    "page_views": 11
-   },
-   {
     "requestPath": "/enforcement/",
     "page_views": 11
    },
    {
-    "requestPath": "/legislation/",
-    "page_views": 8
+    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
+    "page_views": 11
    },
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 8
+   },
+   {
+    "requestPath": "/category/ai-governance/",
     "page_views": 8
    }
   ],
@@ -154,7 +154,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 493
+    "page_views": 494
    },
    {
     "refererHost": "www.google.com",

@@ -1,18 +1,21 @@
 # Drafts report
 
-Last run: **2026-11-06T18:18:36Z** · candidates 3 · scored 3 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-06T21:18:32Z** · candidates 4 · scored 4 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$7.55** of $12 budget (165 calls)
+AI spend this month: **$7.67** of $12 budget (168 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **DataHub sets out six-step loop for managing shared context for AI agents after launch** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/81
 
 ## Recently skipped by triage
 
+- (2) Reports Democratic plans for new AI legislation on model safety; a pending legislative proposal with limited detail in the excerpt, so worth knowing rather than urgent.
+- (2) OECD research on AI adoption gaps between large and small firms; background context for governance operating models with little practical action.
+- (1) Forrester blog promoting a client-only report on cyber risk ratings; generic analyst opinion with no concrete data governance consequence.
 - (1) Generic weekly roundup with an AI chatbot sports anecdote; no concrete governance angle.
-- (1) Vendor how-to tutorial on a BigQuery accessor; not a genuine launch with governance consequence.
 - (2) Vendor product preview promoting natural-language querying; marketing without a clear governance angle.
+- (1) Vendor how-to tutorial on a BigQuery accessor; not a genuine launch with governance consequence.
 - (1) Generic DC policy commentary without a concrete obligation or decision; no specific governance consequence stated.
 - (1) Climate risk visualisation platform launch; no data governance angle.
 - (1) Open dataset release of scorpion specimens; not governance-relevant news.
@@ -22,6 +25,3 @@ _No drafts this run._
 - (2) IAPP notes on Canadian privacy debate around Bill C-22; relevant to privacy law watchers but no concrete obligation yet, excerpt is absent.
 - (1) Executive appointment roundup; hiring/people news not relevant.
 - (2) Litigation over California youth addictive feeds law; primarily child online safety and speech, weak data governance angle.
-- (1) Research programme association agreement; no data governance angle.
-- (2) Vendor customer case study of fraud detection with analytics; no governance angle, vendor marketing.
-- (2) Practical expert piece on semantic layers and governance of business meaning; usable but generic opinion, rated worth knowing.
