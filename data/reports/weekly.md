@@ -1,44 +1,46 @@
-Data Governance Signal — week 29 Oct – 4 Nov 2026
+Data Governance Signal — week 30 Oct – 5 Nov 2026
 
-Visits:      125  (+56% on the week before: 80)
-Page views:  167  (+39% on the week before: 120)
+Visits:      474  (+216% on the week before: 150)
+Page views:  504  (+152% on the week before: 200)
 
 Most read:
-   114  /
-     6  /news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/
-     3  /news/cnil-fines-fnac-entities-eur-7-million-over-app-tracker-that-ignored-u/
-     3  /opinion/
-     3  /opinion/are-we-building-systems-for-the-future/
+   138  /
+   124  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
+    65  /category/privacy/
+    64  /category/security/
+    18  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
 
 Countries:
-    61  US
-    43  HR
-    14  CN
-    10  CA
-    10  NL
+   299  US
+    28  HR
+    25  NL
+    23  AU
+    21  CN
 
 Where visitors came from:
-   117  (direct)
-    42  datagovernancesignal.com
-     8  www.google.com
+   454  (direct)
+    30  datagovernancesignal.com
+    13  www.google.com
+     4  teams.public.onecdn.static.microsoft
+     2  com.google.android.gm
 
-Published this week: 31 stories
-  - Advocates say Colorado's revised ADMT draft rules let deployers shift blame to developers and data brokers
+Published this week: 30 stories
+  - AMA publishes governance framework for agentic AI taking on clinical functions
   - Berlin data protection authority reprimands four German parties over 2021 political microtargeting
-  - Cisco open-sources Project Quarry to flag risky sequences of AI agent actions
+  - BlackFog-commissioned survey finds 47% of firms report sensitive data exposed through AI tools
   - CJEU Advocate General says AI chatbots reusing press articles in real time may infringe publishers' rights
-  - CNIL fines Fnac entities EUR 7 million over app tracker that ignored users' refusal of consent
+  - CNIL publishes final recommendation on session replay tools, confirming prior consent is required
   - CPPA staff propose naming Global Privacy Control in CCPA opt-out signal rules and widening metrics reporting
+  - CrowdStrike says China-nexus group VAPOR PANDA used ARTEX AI agents to target more than 200 organisations
   - Democratic control of both US chambers expected to bring more AI and privacy oversight from 2027
   - DIGITALEUROPE urges EU to limit strict cloud sovereignty rules to sensitive public workloads
-  - Dutch AP warns debt collectors that AI scoring and file enrichment may breach GDPR automated decision rules
   - Dutch data protection authority publishes final enforcement policy after public consultation
   - EPIC urges EDPB to extend draft web scraping guidelines to data brokers and tighten GDPR limits
   - EU Council agrees Digital Omnibus negotiating mandate, including GDPR provision on AI processing
-  - FPF urges Colorado to narrow ADMT 'de minimis' test and tie developer disclosures to deployer duties
   - FTC weighs personalised pricing policy as state algorithmic pricing laws diverge
-  - GAO finds Pentagon responsible AI office filled 3 of 10 posts as 29 of 64 strategy efforts stall
-  … and 16 more
+  - GM driver-data judgment sets out privacy programme, data inventory and consent terms running to 2046
+  - GSA watchdog finds 116 controlled unclassified files open to all staff in agency Google Drive
+  … and 15 more
 
 Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).
 Month so far: https://github.com/fecaponac-crypto/Governance-internet-stranica/blob/claude/data-intelligence-portal-plan-v46ux0/data/reports/traffic.md
