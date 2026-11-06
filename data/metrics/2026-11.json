@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-06T12:19:56Z",
+ "updated": "2026-11-06T15:19:21Z",
  "portal": {
-  "published_total": 65,
-  "published_this_month": 22,
+  "published_total": 66,
+  "published_this_month": 23,
   "published_this_month_by_importance": {
    "3": 13,
-   "4": 6,
+   "4": 7,
    "2": 3
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 155,
-  "runs": 66,
-  "runs_with_failed_sources": 40,
+  "items_collected": 159,
+  "runs": 67,
+  "runs_with_failed_sources": 41,
   "triage_decisions": {
-   "drafted": 28,
-   "skipped": 125,
+   "drafted": 29,
+   "skipped": 128,
    "failed": 3
   },
-  "ai_spend_usd": 7.2126,
+  "ai_spend_usd": 7.437,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 23,
+  "drafts_published": 24,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 501,
-  "visits": 489,
+  "page_views": 524,
+  "visits": 512,
   "bots_excluded": true,
   "by_day": [
    {
@@ -63,8 +63,8 @@
    },
    {
     "date": "2026-11-06",
-    "page_views": 31,
-    "visits": 31
+    "page_views": 54,
+    "visits": 54
    }
   ],
   "top_pages": [
@@ -74,11 +74,11 @@
    },
    {
     "requestPath": "/",
-    "page_views": 112
+    "page_views": 117
    },
    {
     "requestPath": "/category/privacy/",
-    "page_views": 68
+    "page_views": 70
    },
    {
     "requestPath": "/category/security/",
@@ -86,7 +86,7 @@
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
-    "page_views": 20
+    "page_views": 25
    },
    {
     "requestPath": "/sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd",
@@ -97,26 +97,30 @@
     "page_views": 11
    },
    {
-    "requestPath": "/legislation/",
-    "page_views": 8
+    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
+    "page_views": 10
    },
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    },
    {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
-    "page_views": 6
+    "requestPath": "/legislation/",
+    "page_views": 8
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 299
+    "page_views": 303
    },
    {
     "countryName": "NL",
     "page_views": 29
+   },
+   {
+    "countryName": "GB",
+    "page_views": 28
    },
    {
     "countryName": "AU",
@@ -127,16 +131,16 @@
     "page_views": 22
    },
    {
-    "countryName": "GB",
-    "page_views": 19
-   },
-   {
     "countryName": "IE",
-    "page_views": 13
+    "page_views": 17
    },
    {
     "countryName": "BE",
-    "page_views": 13
+    "page_views": 17
+   },
+   {
+    "countryName": "CA",
+    "page_views": 12
    },
    {
     "countryName": "SE",
@@ -145,16 +149,12 @@
    {
     "countryName": "HR",
     "page_views": 10
-   },
-   {
-    "countryName": "CA",
-    "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 464
+    "page_views": 483
    },
    {
     "refererHost": "www.google.com",
@@ -166,7 +166,7 @@
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",
-    "page_views": 7
+    "page_views": 11
    },
    {
     "refererHost": "com.google.android.gm",

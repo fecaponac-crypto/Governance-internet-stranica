@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-06T12:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 8
+Last run: **2026-11-06T15:18:15Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
 ## New items, last 48 hours (91)
 
@@ -8,6 +8,7 @@ Last run: **2026-11-06T12:18:17Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Kerr's privacy questions echo in Bill C-22](https://iapp.org/news/a/notes-from-the-iapp-canada-kerrs-privacy-questions-echo-in-bill-c-22) |
 | 2026-11-05 | European Commission — Press Corner | [EU and India conclude negotiations on association to Horizon Europe](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [A view from Brussels: What the Commission's Work Programme says about 2027 initiatives](https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: Singapore charts course for AI risk management in financial services](https://iapp.org/news/a/notes-from-the-asia-pacific-region-singapore-charts-course-for-ai-risk-management-in-financial-services) |
@@ -26,7 +27,10 @@ Last run: **2026-11-06T12:18:17Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Abbott, Commvault, and Michigan Medicine](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-abbott-commvault-and-michigan-medicine) |
+| 2026-11-06 | CDO Magazine | [Community From the $10M Delete Button to the Human Advantage: Toronto Data Leaders Get Candid at CDO Magazine Roundtable Exchange](https://www.cdomagazine.tech/community/from-the-10m-delete-button-to-the-human-advantage-toronto-data-leaders-get-candid-at-cdo-magazine-roundtable-exchange) |
 | 2026-11-06 | CDO Magazine | [Leadership Moves Abbott Appoints Sonali Mathur Global Head of Data and Analytics](https://www.cdomagazine.tech/leadership-moves/abbott-appoints-sonali-mathur-global-head-of-data-and-analytics) |
+| 2026-11-06 | CNIL (France) | [Recherches internes : quelles sont les obligations pour les professionnels de santé ?](https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations) |
 | 2026-11-06 | POLITICO Europe — Technology | [EU accuses TikTok of designing algorithm that creates ‘rabbit holes’](https://www.politico.eu/article/eu-accuses-tiktok-of-breaching-digital-rules-because-algorithm-creates-rabbit-holes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-06 | DATAVERSITY | [Employees Are Already Using AI – Can Enterprises Govern the Risk?](https://www.dataversity.net/articles/employees-are-already-using-ai-can-enterprises-govern-the-risk/) |
 | 2026-11-05 | Future of Privacy Forum | [Bridging State Aging Plans and AgeTech Development](https://fpf.org/blog/bridging-state-aging-plans-and-agetech-development/) |
@@ -59,12 +63,8 @@ Last run: **2026-11-06T12:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-04 | CDO Magazine | [US Federal News Bureau NIST Report Identifies Gaps in Incident Management for AI Systems](https://www.cdomagazine.tech/us-federal-news-bureau/nist-report-identifies-gaps-in-incident-management-for-ai-systems) |
 | 2026-11-04 | CDO Magazine | [AI Governance The Emperor’s New Loop: Why “Human-in-the-Loop” Is the Flimsiest Leaf in Enterprise AI](https://www.cdomagazine.tech/ai-governance/the-emperors-new-loop-why-human-in-the-loop-is-the-flimsiest-leaf-in-enterprise-ai) |
 | 2026-11-04 | SiliconANGLE — Big Data | [Google fine-tunes its Agentic Data Cloud to support highly scalable autonomous AI workers](https://siliconangle.com/2026/11/04/google-fine-tunes-its-agentic-data-cloud-to-support-highly-scalable-autonomous-ai-workers/) |
-| 2026-11-04 | CDO Magazine | [Leadership Moves Xplor Technologies Names Shivani Stumpf Chief AI Officer](https://www.cdomagazine.tech/leadership-moves/xplor-technologies-names-shivani-stumpf-chief-ai-officer) |
 | 2026-11-04 | POLITICO Europe — Technology | [Commission turns to artificial intelligence to write better laws](https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-04 | CNIL (France) | [Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants](https://www.cnil.fr/fr/cepd-privacy-for-kids) |
-| 2026-11-04 | AEPD — Spanish Data Protection Agency | [¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves) |
-| 2026-11-04 | AZOP — Croatian Personal Data Protection Agency | [Poziv na online edukaciju o osnovama zaštite osobnih podataka – 6. studenog 2026.](https://azop.hr/poziv-na-besplatnu-online-edukaciju-o-osnovama-zastite-osobnih-podataka-6-studenog-2026/) |
-| 2026-11-04 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Webbinarium: Sociala medier och GDPR i LSS-verksamhet](https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/) |
 | 2026-10-29 | Databricks Blog | [What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist](https://www.databricks.com/blog/postgres-managed-service) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -112,7 +112,7 @@ Last run: **2026-11-06T12:18:17Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 25× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 26× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

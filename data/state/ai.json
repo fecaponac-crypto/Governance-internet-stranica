@@ -716,6 +716,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2420e5efbbf9cf82": {
+   "at": "2026-11-06T15:18:26Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event roundtable coverage with no concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "24f010460a399cea": {
    "at": "2026-10-29T21:19:01Z",
    "categories": [
@@ -1475,6 +1486,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "50575217abd13070": {
+   "at": "2026-11-06T15:18:26Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP notes on Canadian privacy debate around Bill C-22; relevant to privacy law watchers but no concrete obligation yet, excerpt is absent.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "50dcc273211cdf95": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -2149,6 +2172,17 @@
    "importance": 2,
    "reason": "Evaluation framework for AI analytics agents touches on governing AI output accuracy, though it reads as a vendor customer case study.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "7f860703c4bd17e7": {
+   "at": "2026-11-06T15:18:26Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment roundup; hiring/people news not relevant.",
+   "relevant": false,
    "same_story_as": null
   },
   "800f145116b0ef05": {
@@ -4536,6 +4570,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fabc947f2b060d7b": {
+   "at": "2026-11-06T15:18:26Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "cnil-sets-out-gdpr-duties-for-internal-research-by-health-professional",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/79",
+   "primary_found": false,
+   "reason": "CNIL practical guidance on obligations for internal health research involving personal data; regulator guidance with concrete compliance consequences.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fc7118093b0de300": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -4631,8 +4681,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 154,
-   "usd": 7.2126
+   "calls": 160,
+   "usd": 7.437
   }
  }
 }
