@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-06T06:51:42Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-06T09:18:31Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$6.87** of $12 budget (145 calls)
+AI spend this month: **$6.87** of $12 budget (146 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic thought-leadership piece on employee AI use with no concrete practitioner guidance or new development; low value.
+- (1) Newsletter digest episode promotion with only a vague summary; no specific regulatory action or guidance identified.
 - (1) Vendor blog with generic AI readiness framing; marketing-style content without concrete governance guidance.
 - (1) Vague opinion piece on token usage trends from a vendor blog; no concrete governance consequence.
 - (2) Conference highlights on context management with practical lessons from named enterprises; touches metadata and context for AI, though it reads partly as event recap.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (1) Vendor blog opinion on consultants and AI transformation; generic thought leadership.
 - (1) AgeTech policy overview without a concrete data governance consequence beyond general privacy interest.
 - (1) Generic opinion piece on AI spend with no governance angle.
-- (1) Vendor blog on in-house attack surface tooling; not governance news.
-- (1) Generic thought-leadership on agentic AI frameworks with no concrete governance consequence.

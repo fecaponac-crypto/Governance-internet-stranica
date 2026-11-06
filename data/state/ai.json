@@ -1122,6 +1122,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3e1fd78dc3b79a59": {
+   "at": "2026-11-06T09:18:31Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership piece on employee AI use with no concrete practitioner guidance or new development; low value.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3fa6d42c9228487d": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -2392,6 +2403,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic EPIC essay on voting rights and privacy; no concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9580ce75b153ee1c": {
+   "at": "2026-11-06T09:18:31Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter digest episode promotion with only a vague summary; no specific regulatory action or guidance identified.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4519,8 +4541,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 145,
-   "usd": 6.8697
+   "calls": 146,
+   "usd": 6.8704
   }
  }
 }

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-06T06:51:28Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-06T09:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (85)
+## New items, last 48 hours (87)
 
 ### High priority sources
 
@@ -26,11 +26,13 @@ Last run: **2026-11-06T06:51:28Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-06 | DATAVERSITY | [Employees Are Already Using AI – Can Enterprises Govern the Risk?](https://www.dataversity.net/articles/employees-are-already-using-ai-can-enterprises-govern-the-risk/) |
 | 2026-11-05 | Future of Privacy Forum | [Bridging State Aging Plans and AgeTech Development](https://fpf.org/blog/bridging-state-aging-plans-and-agetech-development/) |
 | 2026-11-05 | CDO Magazine | [Artificial Intelligence How Enterprise Leaders Should Implement Agentic AI Frameworks](https://www.cdomagazine.tech/aiml/how-enterprise-leaders-should-implement-agentic-ai-frameworks) |
 | 2026-11-05 | CDO Magazine | [Artificial Intelligence The $40,000 Question: How CDOs Can Cut AI Waste Without Cutting Ambition](https://www.cdomagazine.tech/aiml/the-40000-question-how-cdos-can-cut-ai-waste-without-cutting-ambition) |
 | 2026-11-05 | CDO Magazine | [Artificial Intelligence Okta Survey Finds Consumers Want Approval Controls Over Autonomous AI Agents](https://www.cdomagazine.tech/aiml/okta-survey-finds-consumers-want-approval-controls-over-autonomous-ai-agents) |
 | 2026-11-05 | OneTrust Blog | [AI Has Access. Who Owns What Happens Next? AI Governance](https://www.onetrust.com/blog/ai-has-access-who-owns-what-happens-next/) |
+| 2026-11-05 | European Data Protection Supervisor (EDPS) | [New episode of Newsletter Digest](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-episode-newsletter-digest) |
 | 2026-11-05 | SiliconANGLE — Big Data | [Box taps Nvidia’s AI models to build a rich context layer for autonomous enterprise agents](https://siliconangle.com/2026/11/05/box-taps-nvidias-ai-models-to-build-a-rich-context-layer-for-autonomous-enterprise-agents/) |
 | 2026-11-05 | Databricks Blog | [Push-based CDC into Unity Catalog with Zerobus Ingest and Debezium](https://www.databricks.com/blog/push-based-cdc-unity-catalog-zerobus-ingest-and-debezium) |
 | 2026-11-05 | CDO Magazine | [Leadership Moves Michigan Medicine Taps Naveen Maram Inaugural Chief Data & AI Officer](https://www.cdomagazine.tech/leadership-moves/michigan-medicine-taps-naveen-maram-inaugural-chief-data-ai-officer) |
@@ -106,7 +108,7 @@ Last run: **2026-11-06T06:51:28Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 23× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 24× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
