@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-07T12:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-07T13:06:28Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (68)
+## New items, last 48 hours (58)
 
 ### High priority sources
 
@@ -13,7 +13,6 @@ Last run: **2026-11-07T12:18:18Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | European Commission — Press Corner | [EU and India conclude negotiations on association to Horizon Europe](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [A view from Brussels: What the Commission's Work Programme says about 2027 initiatives](https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: Singapore charts course for AI risk management in financial services](https://iapp.org/news/a/notes-from-the-asia-pacific-region-singapore-charts-course-for-ai-risk-management-in-financial-services) |
-| 2026-11-05 | European Commission — Press Corner | [Remarks by Executive Vice-President Mînzatu on the Education and Skills package](https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2351) |
 
 ### Medium priority sources
 
@@ -38,17 +37,9 @@ Last run: **2026-11-07T12:18:18Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | European Data Protection Supervisor (EDPS) | [New episode of Newsletter Digest](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-episode-newsletter-digest) |
 | 2026-11-05 | SiliconANGLE — Big Data | [Box taps Nvidia’s AI models to build a rich context layer for autonomous enterprise agents](https://siliconangle.com/2026/11/05/box-taps-nvidias-ai-models-to-build-a-rich-context-layer-for-autonomous-enterprise-agents/) |
 | 2026-11-05 | Databricks Blog | [Push-based CDC into Unity Catalog with Zerobus Ingest and Debezium](https://www.databricks.com/blog/push-based-cdc-unity-catalog-zerobus-ingest-and-debezium) |
-| 2026-11-05 | CDO Magazine | [Leadership Moves Michigan Medicine Taps Naveen Maram Inaugural Chief Data & AI Officer](https://www.cdomagazine.tech/leadership-moves/michigan-medicine-taps-naveen-maram-inaugural-chief-data-ai-officer) |
-| 2026-11-05 | CDO Magazine | [Artificial Intelligence BlackFog Survey Finds Enterprise AI Controls Lag Behind Data Exposure Risks](https://www.cdomagazine.tech/aiml/blackfog-survey-finds-enterprise-ai-controls-lag-behind-data-exposure-risks) |
-| 2026-11-05 | CDO Magazine | [US Federal News Bureau White House Withholds Records on Its AI Model Security Review Process](https://www.cdomagazine.tech/us-federal-news-bureau/white-house-withholds-records-on-its-ai-model-security-review-process) |
-| 2026-11-05 | CDO Magazine | [US Federal News Bureau Pentagon Task Force Plans Public Inventory of Rules Governing US AI Labs](https://www.cdomagazine.tech/us-federal-news-bureau/pentagon-task-force-plans-public-inventory-of-rules-governing-us-ai-labs) |
-| 2026-11-05 | CDO Magazine | [US Federal News Bureau OCC Framework Puts AI Autonomy and Human Oversight in Focus for Banks](https://www.cdomagazine.tech/us-federal-news-bureau/occ-framework-puts-ai-autonomy-and-human-oversight-in-focus-for-banks) |
-| 2026-11-05 | SiliconANGLE — Big Data | [Ocient raises $100 million as agentic AI drives growth in large-scale analytics](https://siliconangle.com/2026/11/05/ocient-raises-100-million-as-agentic-ai-drives-growth-in-large-scale-analytics/) |
 | 2026-11-05 | CNIL (France) | [Rejeu de session : ces outils qui enregistrent votre activité en ligne](https://www.cnil.fr/fr/rejeu-de-session-vos-droits) |
 | 2026-11-05 | CNIL (France) | [Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs](https://www.cnil.fr/fr/rejeu-de-session-recommandation) |
 | 2026-11-05 | CNIL (France) | [Ordre du jour de la séance plénière du 5 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-5-novembre-2026) |
-| 2026-11-05 | Integritetsskyddsmyndigheten — IMY (Sweden) | [IMY granskar Arbetsförmedlingens AI-system för arbetssökande](https://www.imy.se/nyheter/imy-granskar-arbetsformedlingens-ai-system-for-arbetssokande/) |
-| 2026-11-05 | Euractiv | [Spain raises last-minute objections in tobacco taxation saga](https://www.rapporteur.com/news/spain-raises-last-minute-objections-in-tobacco-taxation-saga/) |
 | 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -85,11 +76,11 @@ Last run: **2026-11-07T12:18:18Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Monte Carlo Blog | [Beyond the “Agent Boss”: Why Human-AI Teams Need a Middle Layer](https://montecarlo.ai/blog-beyond-the-agent-boss-why-human-ai-teams-need-a-middle-layer) |
 | 2026-11-05 | AWS Big Data Blog | [Deliver multi-tenant AI analytics at scale with AgentCore and Lake Formation](https://aws.amazon.com/blogs/big-data/deliver-multi-tenant-ai-analytics-at-scale-with-agentcore-and-lake-formation/) |
 | 2026-11-05 | Precisely Blog | [How we built AI-powered attack surface management in-house](https://www.precisely.com/blog/engineering/how-we-built-ai-powered-attack-surface-management-in-house/) |
-| 2026-11-05 | Computer Weekly — IT security | [SailPoint: Anarchy reigns over enterprise agentic AI](https://www.computerweekly.com/news/366653557/SailPoint-Anarchy-reigns-over-enterprise-agentic-AI) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 36× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 37× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 
