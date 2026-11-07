@@ -47,7 +47,7 @@ WRITER_MODEL = "claude-opus-5-5"
 CHECK_MODEL = "claude-sonnet-5-5"  # fact and freshness checks: half the price of the writer (decision 5 Nov 2026)
 # USD per million tokens (input, output); see https://platform.claude.com/docs/en/about-claude/pricing
 PRICES = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00), "claude-opus-5-5": (4.00, 20.00)}
-MONTHLY_BUDGET_USD = float(os.environ.get("AI_MONTHLY_BUDGET_USD", "12"))
+MONTHLY_BUDGET_USD = float(os.environ.get("AI_MONTHLY_BUDGET_USD", "25"))  # raised from 12 on 7 Nov 2026
 
 SCORE_BATCH = 20
 MAX_SCORED_PER_RUN = 120

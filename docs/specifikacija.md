@@ -198,7 +198,7 @@ Okvirne skupine izvora:
 
 ## 10a. Plan faze 4 (dogovoreno, čeka 3–5 dana podataka iz prikupljanja)
 
-1. ✅ **Dobavljač AI modela** — Anthropic Claude (Haiku 5.5 za trijažu, Opus 5.5 za nacrte); API ključ u GitHub secretu, mjesečni limit 12 $ u kodu. Procjena ~8–10 $/mj.; prvo pokretanje 24. 10.: 5 stavki, 1 nacrt, 0,04 $.
+1. ✅ **Dobavljač AI modela** — Anthropic Claude (Haiku 5.5 za trijažu, Opus 5.5 za nacrte); API ključ u GitHub secretu, mjesečni limit 25 $ u kodu (do 7. 11. 2026. 12 $). Procjena ~8–10 $/mj.; prvo pokretanje 24. 10.: 5 stavki, 1 nacrt, 0,04 $.
 2. ✅ **AI obrada** (`pipeline/draft.py`) — ocjena relevantnosti (jeftini model), nacrt članka u dogovorenom formatu (jači model): sažetak, Why it matters, Who should care, kategorije, važnost, prijedlog kartice; povezivanje iste vijesti iz više izvora.
 3. ✅ **Nacrti kao Pull Requestovi** (push obavijest uredniku potvrđena 24. 10.) — jedan PR po vijesti, urednik je zatražen kao recenzent i dodijeljen (obavijest u GitHub aplikaciji).
 4. ⏸️ **Newsletteri kao izvori** (odgođeno 24. 10. na odluku urednika; `sources@` i pohrana ostaju aktivni, automatska obrada nije uključena) — adresa `sources@datagovernancesignal.com`; Cloudflare Email Worker sprema izdanja, automatizacija vadi poveznice. Članci se pišu iz izvornog članka, uz navod „via …” za newsletter. Prvi: newsletter Nenada Bakića (Substack) — `sources@` pretplaćen 24. 10. 2026., izdanja nedjeljom ujutro. Poveznice u e-mailu idu preko Substack/Mailgun preusmjeravanja (`email.mg-d0.substack.com/c/…`) — pipeline ih mora razriješiti do izvornog članka i preskočiti odjavu i interne Substack poveznice.
@@ -211,7 +211,7 @@ Okvirne skupine izvora:
 - **Tjedna kolumna urednika** svakog ponedjeljka: komentar prošlog tjedna, predviđanja i provjera ranijih predviđanja. Označena kao *Opinion*.
 - **Potpis: pseudonim „The Steward”** (urednik je zaposlen u struci). Na About i uz kolumnu jasno piše da je pseudonim praktičara (MDM od 2011., data governance od 2019., governance i AI governance uloge), bez podataka koji identificiraju osobu; sukob interesa se navodi. Pseudonim je postavka `COLUMN.author` u `src/data/site.ts`.
 - **Tracker predviđanja** (`/predictions/`, podaci u `data/predictions.yaml`): naša predviđanja (s postotkom vjerojatnosti i rokom) i predviđanja drugih (regulatori, tvrtke, analitičari — uvijek doslovni citat i poveznica). Na rok urednik označi ishod (*came true / partly / did not happen / void*) s dokazom. Objavljeno se ne mijenja. Prikazuje se postotak pogodaka i Brierova ocjena.
-- **Automatizacija:** ponedjeljkom u 05:47 UTC (06:47 po zimskom, 07:47 po ljetnom vremenu) Cloudflare Cron pokreće `.github/workflows/monday.yml` → `pipeline/monday.py` otvara PR „Monday Signal YYYY-MM-DD: …” s nacrtom kolumne (iz vijesti objavljenih u proteklih 7 dana), predloženim predviđanjima (tuđa samo ako se citat doslovno nalazi u izvoru), predviđanjima kojima ističe rok i tekstom newslettera. Urednik prepiše kolumnu svojim glasom, uredi predviđanja, spoji (= objava) i pošalje newsletter. Trošak ≈ 0,3–0,6 $ tjedno, unutar limita 12 $.
+- **Automatizacija:** ponedjeljkom u 05:47 UTC (06:47 po zimskom, 07:47 po ljetnom vremenu) Cloudflare Cron pokreće `.github/workflows/monday.yml` → `pipeline/monday.py` otvara PR „Monday Signal YYYY-MM-DD: …” s nacrtom kolumne (iz vijesti objavljenih u proteklih 7 dana), predloženim predviđanjima (tuđa samo ako se citat doslovno nalazi u izvoru), predviđanjima kojima ističe rok i tekstom newslettera. Urednik prepiše kolumnu svojim glasom, uredi predviđanja, spoji (= objava) i pošalje newsletter. Trošak ≈ 0,3–0,6 $ tjedno, unutar mjesečnog limita.
 - Ishod Cloudflare pokretanja: KV ključ `cron:last-monday` (za prikupljanje `cron:last`).
 
 ## 10a-3. Institucije (odluka 25. 10. 2026.)
@@ -272,7 +272,7 @@ Pravilo: **ne objavljujemo zastarjele vijesti.** (Povod: PR #67 je opisivao zaht
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
 - **Provjera činjenica** (svaka tvrdnja prema izvorima) za vijesti **važnosti 3–5** (od 3. 11. 2026.; prije 4–5); za važnost 1–2 urednik dobiva napomenu da sam provjeri ključne činjenice.
-- Mjesečni limit AI troška ostaje **12 $**; kad se dosegne, odabrane vijesti čekaju sljedeći mjesec.
+- Mjesečni limit AI troška je **25 $** (podignut s 12 $ 7. 11. 2026.; stvarni trošak ~18–22 $ mjesečno uz provjeru za važnost 3, provjeru svježine i automatske ispravke); kad se dosegne, odabrane vijesti čekaju sljedeći mjesec.
 - **Modeli (5. 11. 2026.):** trijaža Haiku 5.5, pisanje i automatska ispravka Opus 5.5, provjera činjenica i provjera svježine Sonnet 5.5 (upola jeftiniji od Opusa; odluka urednika radi troška).
 
 ## 10b. Pilot (od 24. 10. 2026., 1–2 tjedna) i priprema lansiranja
