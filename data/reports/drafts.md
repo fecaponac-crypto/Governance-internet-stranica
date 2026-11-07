@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-06T23:12:48Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-07T00:18:24Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$7.67** of $12 budget (169 calls)
+AI spend this month: **$7.67** of $12 budget (170 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Title describes a government health data exchange partnership with no clear governance angle in the excerpt; excerpt is empty and the story is not clearly about data governance practice.
 - (1) Generic listicle of CIO stories on resilience; no concrete data governance angle.
 - (2) Reports Democratic plans for new AI legislation on model safety; a pending legislative proposal with limited detail in the excerpt, so worth knowing rather than urgent.
 - (2) OECD research on AI adoption gaps between large and small firms; background context for governance operating models with little practical action.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Vendor product update roundup, which is marketing rather than a genuine launch.
 - (1) Event roundtable coverage with no concrete governance development.
 - (2) IAPP notes on Canadian privacy debate around Bill C-22; relevant to privacy law watchers but no concrete obligation yet, excerpt is absent.
-- (1) Executive appointment roundup; hiring/people news not relevant.

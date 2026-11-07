@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-06T23:12:16Z** · sources checked: 81 · failed: 2 · new items this run: 1
+Last run: **2026-11-07T00:18:13Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (83)
+## New items, last 48 hours (84)
 
 ### High priority sources
 
@@ -24,6 +24,7 @@ Last run: **2026-11-06T23:12:16Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-07 | CDO Magazine | [US Federal News Bureau VA and Department of War Join Nationwide Health Data Exchange Network](https://www.cdomagazine.tech/us-federal-news-bureau/va-and-department-of-war-join-nationwide-health-data-exchange-network) |
 | 2026-11-06 | CDO Magazine | [US Federal News Bureau Democrats Prepare New AI Legislation Targeting Model Safety and Rapid Expansion](https://www.cdomagazine.tech/us-federal-news-bureau/democrats-prepare-new-ai-legislation-targeting-model-safety-and-rapid-expansion) |
 | 2026-11-06 | CDO Magazine | [Artificial Intelligence OECD Report Finds Large Businesses Outpacing Smaller Firms in AI Adoption](https://www.cdomagazine.tech/aiml/oecd-report-finds-large-businesses-outpacing-smaller-firms-in-ai-adoption) |
 | 2026-11-06 | Forrester Blogs | [CISOs Have Spoken: Risk Reduction, Not Another Cyber Risk Rating](https://www.forrester.com/blogs/cisos-have-spoken-risk-reduction-not-another-cyber-risk-rating/) |
@@ -104,8 +105,7 @@ Last run: **2026-11-06T23:12:16Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 30× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 31× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

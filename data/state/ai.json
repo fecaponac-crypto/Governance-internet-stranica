@@ -665,6 +665,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "212243fd2af70faa": {
+   "at": "2026-11-07T00:18:24Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Title describes a government health data exchange partnership with no clear governance angle in the excerpt; excerpt is empty and the story is not clearly about data governance practice.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "21fb4848b3a9d475": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -4845,8 +4854,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 169,
-   "usd": 7.6725
+   "calls": 170,
+   "usd": 7.6732
   }
  }
 }
