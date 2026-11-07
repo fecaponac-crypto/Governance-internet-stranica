@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-07T19:26:47Z** · sources checked: 81 · failed: 2 · new items this run: 1
+Last run: **2026-11-07T21:18:15Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (34)
 
@@ -55,8 +55,7 @@ Last run: **2026-11-07T19:26:47Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **California Privacy Protection Agency (CalPrivacy)** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://cppa.ca.gov/announcements/`
-- **European Data Protection Board (EDPB)** — failed 40× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 41× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
