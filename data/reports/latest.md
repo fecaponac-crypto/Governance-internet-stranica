@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-07T03:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-07T06:01:59Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (84)
+## New items, last 48 hours (83)
 
 ### High priority sources
 
@@ -57,7 +57,6 @@ Last run: **2026-11-07T03:18:17Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Euractiv | [Spain raises last-minute objections in tobacco taxation saga](https://www.rapporteur.com/news/spain-raises-last-minute-objections-in-tobacco-taxation-saga/) |
 | 2026-11-05 | DATAVERSITY | [Mind the Gap: Accountability – Why Information Management Exists](https://www.dataversity.net/articles/mind-the-gap-accountability-why-information-management-exists/) |
 | 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
-| 2026-11-04 | POLITICO Europe — Technology | [Commission turns to artificial intelligence to write better laws](https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
 ### Low priority sources
@@ -105,7 +104,7 @@ Last run: **2026-11-07T03:18:17Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 32× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 33× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
