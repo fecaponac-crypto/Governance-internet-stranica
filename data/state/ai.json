@@ -2549,6 +2549,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "92ae03ffc14bc817": {
+   "at": "2026-11-07T19:26:59Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Italian-language media warning about a personal data leak story on the dark web; no governance-practice angle clearly stated and excerpt is empty, so not suitable for the portal.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "930f130217b1910c": {
    "at": "2026-11-05T09:18:28Z",
    "categories": [],
@@ -4854,8 +4863,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 170,
-   "usd": 7.6732
+   "calls": 171,
+   "usd": 7.6739
   }
  }
 }

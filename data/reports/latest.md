@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-07T18:18:15Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-07T19:26:47Z** · sources checked: 81 · failed: 2 · new items this run: 1
 
-## New items, last 48 hours (39)
+## New items, last 48 hours (34)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-07 | Garante per la protezione dei dati personali (Italy) | [Caso dati Tajani sul dark web, il Garante avverte i media](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10318166) |
 | 2026-11-06 | IAPP — International Association of Privacy Professionals | [A view from DC: How to read policy tea leaves](https://iapp.org/news/a/a-view-from-dc-how-to-read-policy-tea-leaves) |
 | 2026-11-06 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Kerr's privacy questions echo in Bill C-22](https://iapp.org/news/a/notes-from-the-iapp-canada-kerrs-privacy-questions-echo-in-bill-c-22) |
 | 2026-11-05 | European Commission — Press Corner | [EU and India conclude negotiations on association to Horizon Europe](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334) |
@@ -51,17 +52,11 @@ Last run: **2026-11-07T18:18:15Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-05 | dbt Labs Blog | [How to assess your organization’s AI readiness](https://www.getdbt.com/blog/how-to-assess-your-ai-readiness) |
 | 2026-11-05 | Center for Data Innovation | [Better Federal Statistics Are Needed to Understand AI’s Impact on Work](https://datainnovation.org/2026/11/better-federal-statistics-are-necessary-to-understand-how-ai-is-changing-work/) |
 | 2026-11-05 | EPIC — Electronic Privacy Information Center | [Big Tech Companies Repeat Same Losing Arguments in New Challenge to California’s AB 1709](https://epic.org/big-tech-companies-repeat-same-losing-arguments-in-new-challenge-to-californias-ab-1709/) |
-| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [VAPOR PANDA Using AI Pen Testing Platform to Enhance Hacking Speed](https://www.dataprivacyandsecurityinsider.com/2026/11/vapor-panda-using-ai-pen-testing-platform-to-enhance-hacking-speed/) |
-| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [General Motors Inks $220M Settlement Over Drivers’ Data](https://www.dataprivacyandsecurityinsider.com/2026/11/general-motors-inks-220m-settlement-over-drivers-data/) |
-| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Pennsylvania’s New Rules for AI-Generated Advertising](https://www.dataprivacyandsecurityinsider.com/2026/11/pennsylvanias-new-rules-for-ai-generated-advertising/) |
-| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [When an AI Chatbot’s Reassurance Becomes a Risk](https://www.dataprivacyandsecurityinsider.com/2026/11/when-an-ai-chatbots-reassurance-becomes-a-risk/) |
-| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [American Medical Association Releases AI Governance Framework](https://www.dataprivacyandsecurityinsider.com/2026/11/american-medical-association-releases-ai-governance-framework/) |
-| 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #515 – Digital Parenting Week](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-515-digital-parenting-week/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 39× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
+- **California Privacy Protection Agency (CalPrivacy)** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://cppa.ca.gov/announcements/`
+- **European Data Protection Board (EDPB)** — failed 40× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
