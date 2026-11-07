@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-07T09:18:20Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-07T12:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (68)
 
@@ -89,8 +89,7 @@ Last run: **2026-11-07T09:18:20Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Commission — Press Corner** — failed 1× in a row: `ValueError: unreadable feed https://ec.europa.eu/commission/presscorner/api/rss?language=en: <unknown>:2:0: syntax error`
-- **European Data Protection Board (EDPB)** — failed 35× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 36× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
