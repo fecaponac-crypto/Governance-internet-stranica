@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-07T06:18:16Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-07T09:18:20Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (83)
+## New items, last 48 hours (68)
 
 ### High priority sources
 
@@ -14,11 +14,6 @@ Last run: **2026-11-07T06:18:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [A view from Brussels: What the Commission's Work Programme says about 2027 initiatives](https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives) |
 | 2026-11-05 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: Singapore charts course for AI risk management in financial services](https://iapp.org/news/a/notes-from-the-asia-pacific-region-singapore-charts-course-for-ai-risk-management-in-financial-services) |
 | 2026-11-05 | European Commission — Press Corner | [Remarks by Executive Vice-President Mînzatu on the Education and Skills package](https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2351) |
-| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-395/25 Orkla Care](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260161en.pdf) |
-| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-118/25 P Nord Stream 2 v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260160en.pdf) |
-| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-495/25 Syndicat professionnel du chanvre](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260159en.pdf) |
-| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-505/24 P Condor Flugdienst v Ryanair](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260158en.pdf) |
-| 2026-11-05 | Court of Justice of the EU — Press releases | [Judgment of the Court in Joined Cases C-266/24 P Commission v Ryanair, C-269/24 P Koninklijke Luchtvaart Maatschappij v Ryanair and C-289/24 P Société Air France and Air France-KLM v Ryanair (Covid-19 State aid – KLM)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260157en.pdf) |
 
 ### Medium priority sources
 
@@ -53,9 +48,7 @@ Last run: **2026-11-07T06:18:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | CNIL (France) | [Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs](https://www.cnil.fr/fr/rejeu-de-session-recommandation) |
 | 2026-11-05 | CNIL (France) | [Ordre du jour de la séance plénière du 5 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-5-novembre-2026) |
 | 2026-11-05 | Integritetsskyddsmyndigheten — IMY (Sweden) | [IMY granskar Arbetsförmedlingens AI-system för arbetssökande](https://www.imy.se/nyheter/imy-granskar-arbetsformedlingens-ai-system-for-arbetssokande/) |
-| 2026-11-05 | AEPD — Spanish Data Protection Agency | [La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos) |
 | 2026-11-05 | Euractiv | [Spain raises last-minute objections in tobacco taxation saga](https://www.rapporteur.com/news/spain-raises-last-minute-objections-in-tobacco-taxation-saga/) |
-| 2026-11-05 | DATAVERSITY | [Mind the Gap: Accountability – Why Information Management Exists](https://www.dataversity.net/articles/mind-the-gap-accountability-why-information-management-exists/) |
 | 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
 | 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
@@ -92,19 +85,12 @@ Last run: **2026-11-07T06:18:16Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | Monte Carlo Blog | [Beyond the “Agent Boss”: Why Human-AI Teams Need a Middle Layer](https://montecarlo.ai/blog-beyond-the-agent-boss-why-human-ai-teams-need-a-middle-layer) |
 | 2026-11-05 | AWS Big Data Blog | [Deliver multi-tenant AI analytics at scale with AgentCore and Lake Formation](https://aws.amazon.com/blogs/big-data/deliver-multi-tenant-ai-analytics-at-scale-with-agentcore-and-lake-formation/) |
 | 2026-11-05 | Precisely Blog | [How we built AI-powered attack surface management in-house](https://www.precisely.com/blog/engineering/how-we-built-ai-powered-attack-surface-management-in-house/) |
-| 2026-11-05 | AlgorithmWatch | [Chatbots & Wahlen](https://algorithmwatch.org/de/dossier-chatbots-wahlen/) |
 | 2026-11-05 | Computer Weekly — IT security | [SailPoint: Anarchy reigns over enterprise agentic AI](https://www.computerweekly.com/news/366653557/SailPoint-Anarchy-reigns-over-enterprise-agentic-AI) |
-| 2026-11-03 | EPIC — Electronic Privacy Information Center | [Defending Privacy Has Been Essential to the Fight to Ensure the Right to Vote This Year](https://epic.org/defending-privacy-has-been-essential-to-the-fight-to-ensure-the-right-to-vote-this-year/) |
-| 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters-2/) |
-| 2026-11-03 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: Judge blocks Trump administration scheme to disenfranchise voters](https://epic.org/press-release-judge-blocks-trump-administration-scheme-to-disenfranchise-voters/) |
-| 2026-10-31 | EPIC — Electronic Privacy Information Center | [The Verge: Here’s why you can’t shake those unhinged political texts](https://epic.org/the-verge-heres-why-you-cant-shake-those-unhinged-political-texts/) |
-| 2026-10-31 | EPIC — Electronic Privacy Information Center | [Democracy Docket: Federal judge questions DOJ voter ‘purge’ targeting minorities right before election](https://epic.org/democracy-docket-federal-judge-questions-doj-voter-purge-targeting-minorities-right-before-election/) |
-| 2026-10-30 | EPIC — Electronic Privacy Information Center | [EPIC and LULAC Ask Court to Halt DHS and DOJ’s Scheme to Weaponize Voter Data Ahead of Election Day](https://epic.org/epic-and-lulac-ask-court-to-halt-dhs-and-dojs-scheme-to-weaponize-voter-data-ahead-of-election-day/) |
-| 2026-10-30 | EPIC — Electronic Privacy Information Center | [Utah Public Radio: Vermont is home to two of ICE’s surveillance facilities. Locals are pushing back](https://epic.org/utah-public-radio-vermont-is-home-to-two-of-ices-surveillance-facilities-locals-are-pushing-back/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 34× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Commission — Press Corner** — failed 1× in a row: `ValueError: unreadable feed https://ec.europa.eu/commission/presscorner/api/rss?language=en: <unknown>:2:0: syntax error`
+- **European Data Protection Board (EDPB)** — failed 35× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
