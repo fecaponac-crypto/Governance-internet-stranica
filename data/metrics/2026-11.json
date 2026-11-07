@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-07T06:02:15Z",
+ "updated": "2026-11-07T06:18:30Z",
  "portal": {
   "published_total": 69,
   "published_this_month": 26,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 174,
-  "runs": 74,
-  "runs_with_failed_sources": 48,
+  "runs": 75,
+  "runs_with_failed_sources": 49,
   "triage_decisions": {
    "drafted": 31,
    "skipped": 141,
@@ -93,19 +93,19 @@
     "page_views": 12
    },
    {
-    "requestPath": "/enforcement/",
-    "page_views": 11
-   },
-   {
     "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
     "page_views": 11
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/enforcement/",
+    "page_views": 11
+   },
+   {
+    "requestPath": "/legislation/",
     "page_views": 8
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    }
   ],
