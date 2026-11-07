@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-07T15:18:16Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-07T18:18:15Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (58)
+## New items, last 48 hours (39)
 
 ### High priority sources
 
@@ -11,8 +11,6 @@ Last run: **2026-11-07T15:18:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-06 | IAPP — International Association of Privacy Professionals | [A view from DC: How to read policy tea leaves](https://iapp.org/news/a/a-view-from-dc-how-to-read-policy-tea-leaves) |
 | 2026-11-06 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Kerr's privacy questions echo in Bill C-22](https://iapp.org/news/a/notes-from-the-iapp-canada-kerrs-privacy-questions-echo-in-bill-c-22) |
 | 2026-11-05 | European Commission — Press Corner | [EU and India conclude negotiations on association to Horizon Europe](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334) |
-| 2026-11-05 | IAPP — International Association of Privacy Professionals | [A view from Brussels: What the Commission's Work Programme says about 2027 initiatives](https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives) |
-| 2026-11-05 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: Singapore charts course for AI risk management in financial services](https://iapp.org/news/a/notes-from-the-asia-pacific-region-singapore-charts-course-for-ai-risk-management-in-financial-services) |
 
 ### Medium priority sources
 
@@ -29,19 +27,7 @@ Last run: **2026-11-07T15:18:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-06 | CNIL (France) | [Recherches internes : quelles sont les obligations pour les professionnels de santé ?](https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations) |
 | 2026-11-06 | POLITICO Europe — Technology | [EU accuses TikTok of designing algorithm that creates ‘rabbit holes’](https://www.politico.eu/article/eu-accuses-tiktok-of-breaching-digital-rules-because-algorithm-creates-rabbit-holes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-06 | DATAVERSITY | [Employees Are Already Using AI – Can Enterprises Govern the Risk?](https://www.dataversity.net/articles/employees-are-already-using-ai-can-enterprises-govern-the-risk/) |
-| 2026-11-05 | Future of Privacy Forum | [Bridging State Aging Plans and AgeTech Development](https://fpf.org/blog/bridging-state-aging-plans-and-agetech-development/) |
-| 2026-11-05 | CDO Magazine | [Artificial Intelligence How Enterprise Leaders Should Implement Agentic AI Frameworks](https://www.cdomagazine.tech/aiml/how-enterprise-leaders-should-implement-agentic-ai-frameworks) |
-| 2026-11-05 | CDO Magazine | [Artificial Intelligence The $40,000 Question: How CDOs Can Cut AI Waste Without Cutting Ambition](https://www.cdomagazine.tech/aiml/the-40000-question-how-cdos-can-cut-ai-waste-without-cutting-ambition) |
-| 2026-11-05 | CDO Magazine | [Artificial Intelligence Okta Survey Finds Consumers Want Approval Controls Over Autonomous AI Agents](https://www.cdomagazine.tech/aiml/okta-survey-finds-consumers-want-approval-controls-over-autonomous-ai-agents) |
-| 2026-11-05 | OneTrust Blog | [AI Has Access. Who Owns What Happens Next? AI Governance](https://www.onetrust.com/blog/ai-has-access-who-owns-what-happens-next/) |
 | 2026-11-05 | European Data Protection Supervisor (EDPS) | [New episode of Newsletter Digest](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-episode-newsletter-digest) |
-| 2026-11-05 | SiliconANGLE — Big Data | [Box taps Nvidia’s AI models to build a rich context layer for autonomous enterprise agents](https://siliconangle.com/2026/11/05/box-taps-nvidias-ai-models-to-build-a-rich-context-layer-for-autonomous-enterprise-agents/) |
-| 2026-11-05 | Databricks Blog | [Push-based CDC into Unity Catalog with Zerobus Ingest and Debezium](https://www.databricks.com/blog/push-based-cdc-unity-catalog-zerobus-ingest-and-debezium) |
-| 2026-11-05 | CNIL (France) | [Rejeu de session : ces outils qui enregistrent votre activité en ligne](https://www.cnil.fr/fr/rejeu-de-session-vos-droits) |
-| 2026-11-05 | CNIL (France) | [Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs](https://www.cnil.fr/fr/rejeu-de-session-recommandation) |
-| 2026-11-05 | CNIL (France) | [Ordre du jour de la séance plénière du 5 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-5-novembre-2026) |
-| 2026-11-05 | Collibra Blog | [Governance by design: write it, check it, approve it](https://www.collibra.com/blog/governance-by-design-write-it-check-it-approve-it) |
-| 2026-10-12 | noyb — European Center for Digital Rights | [Privacy win: Norwegian Authority fines Microsoft’s Xandr € 8.5 Million](https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eur-85-million) |
 
 ### Low priority sources
 
@@ -71,16 +57,11 @@ Last run: **2026-11-07T15:18:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [When an AI Chatbot’s Reassurance Becomes a Risk](https://www.dataprivacyandsecurityinsider.com/2026/11/when-an-ai-chatbots-reassurance-becomes-a-risk/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [American Medical Association Releases AI Governance Framework](https://www.dataprivacyandsecurityinsider.com/2026/11/american-medical-association-releases-ai-governance-framework/) |
 | 2026-11-05 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #515 – Digital Parenting Week](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-515-digital-parenting-week/) |
-| 2026-11-05 | Monte Carlo Blog | [AI’s Full-Circle Moment: Are the Consultants Back?](https://montecarlo.ai/blog-ais-full-circle-moment) |
-| 2026-11-05 | Google Cloud Blog — Data Analytics | [Semantic aggregation over millions of rows in BigQuery with AI.AGG](https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/) |
-| 2026-11-05 | Monte Carlo Blog | [Beyond the “Agent Boss”: Why Human-AI Teams Need a Middle Layer](https://montecarlo.ai/blog-beyond-the-agent-boss-why-human-ai-teams-need-a-middle-layer) |
-| 2026-11-05 | AWS Big Data Blog | [Deliver multi-tenant AI analytics at scale with AgentCore and Lake Formation](https://aws.amazon.com/blogs/big-data/deliver-multi-tenant-ai-analytics-at-scale-with-agentcore-and-lake-formation/) |
-| 2026-11-05 | Precisely Blog | [How we built AI-powered attack surface management in-house](https://www.precisely.com/blog/engineering/how-we-built-ai-powered-attack-surface-management-in-house/) |
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
-- **European Data Protection Board (EDPB)** — failed 38× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 39× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 

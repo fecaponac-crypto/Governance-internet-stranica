@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-07T15:19:17Z",
+ "updated": "2026-11-07T18:18:47Z",
  "portal": {
   "published_total": 69,
   "published_this_month": 26,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 174,
-  "runs": 79,
-  "runs_with_failed_sources": 53,
+  "runs": 80,
+  "runs_with_failed_sources": 54,
   "triage_decisions": {
    "drafted": 31,
    "skipped": 141,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 539,
-  "visits": 527,
+  "page_views": 542,
+  "visits": 530,
   "bots_excluded": true,
   "by_day": [
    {
@@ -68,8 +68,8 @@
    },
    {
     "date": "2026-11-07",
-    "page_views": 2,
-    "visits": 2
+    "page_views": 5,
+    "visits": 5
    }
   ],
   "top_pages": [
@@ -79,7 +79,7 @@
    },
    {
     "requestPath": "/",
-    "page_views": 119
+    "page_views": 120
    },
    {
     "requestPath": "/category/privacy/",
@@ -91,7 +91,7 @@
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
-    "page_views": 26
+    "page_views": 27
    },
    {
     "requestPath": "/sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd",
@@ -117,7 +117,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 308
+    "page_views": 309
    },
    {
     "countryName": "GB",
@@ -159,7 +159,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 497
+    "page_views": 499
    },
    {
     "refererHost": "www.google.com",
@@ -178,11 +178,11 @@
     "page_views": 2
    },
    {
-    "refererHost": "links.eu1.defend.egress.com",
-    "page_views": 1
+    "refererHost": "www.linkedin.com",
+    "page_views": 2
    },
    {
-    "refererHost": "www.linkedin.com",
+    "refererHost": "links.eu1.defend.egress.com",
     "page_views": 1
    }
   ]
