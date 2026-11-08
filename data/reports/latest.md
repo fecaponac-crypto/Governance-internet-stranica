@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-07T21:18:15Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-08T00:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (34)
+## New items, last 48 hours (30)
 
 ### High priority sources
 
@@ -47,15 +47,11 @@ Last run: **2026-11-07T21:18:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-06 | Computer Weekly — IT security | [Zurich uncovers £19m of fraud with Quantexa data analytics](https://www.computerweekly.com/news/366653717/Zurich-uncovers-19m-of-fraud-with-Quantexa-data-analytics) |
 | 2026-11-06 | The Record (Recorded Future News) | [EU accuses TikTok of trapping users in harmful ‘rabbit holes’](https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation) |
 | 2026-11-05 | Google Cloud Blog — Data Analytics | [Bringing conversational analytics to Gemini with Agentic Data Cloud connectors](https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/) |
-| 2026-11-05 | Monte Carlo Blog | [Is “outcome maxxing” the new “tokenmaxxing”?](https://montecarlo.ai/blog-outcome-maxxing-vs-tokenmaxxing) |
-| 2026-11-05 | DataHub Blog (open source metadata platform) | [CONTEXT 2026 Highlights: Context Management in Practice](https://datahub.com/blog/context-2026-highlights/) |
-| 2026-11-05 | dbt Labs Blog | [How to assess your organization’s AI readiness](https://www.getdbt.com/blog/how-to-assess-your-ai-readiness) |
-| 2026-11-05 | Center for Data Innovation | [Better Federal Statistics Are Needed to Understand AI’s Impact on Work](https://datainnovation.org/2026/11/better-federal-statistics-are-necessary-to-understand-how-ai-is-changing-work/) |
 | 2026-11-05 | EPIC — Electronic Privacy Information Center | [Big Tech Companies Repeat Same Losing Arguments in New Challenge to California’s AB 1709](https://epic.org/big-tech-companies-repeat-same-losing-arguments-in-new-challenge-to-californias-ab-1709/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 41× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 42× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -1,26 +1,26 @@
-Data Governance Signal — week 31 Oct – 6 Nov 2026
+Data Governance Signal — week 1 Nov – 7 Nov 2026
 
-Visits:      533  (+233% on the week before: 160)
-Page views:  553  (+151% on the week before: 220)
+Visits:      533  (+281% on the week before: 140)
+Page views:  545  (+203% on the week before: 180)
 
 Most read:
-   133  /
-   128  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
+   131  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
+   121  /
     72  /category/privacy/
     66  /category/security/
-    26  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
+    27  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
 
 Countries:
-   312  US
+   311  US
     32  GB
     29  NL
     23  AU
     22  CN
 
 Where visitors came from:
-   503  (direct)
-    20  datagovernancesignal.com
+   502  (direct)
     15  www.google.com
+    12  datagovernancesignal.com
     11  teams.public.onecdn.static.microsoft
      2  com.google.android.gm
 

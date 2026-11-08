@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-07T21:18:28Z",
+ "updated": "2026-11-08T00:18:32Z",
  "portal": {
   "published_total": 69,
   "published_this_month": 26,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 175,
-  "runs": 82,
-  "runs_with_failed_sources": 56,
+  "runs": 83,
+  "runs_with_failed_sources": 57,
   "triage_decisions": {
    "drafted": 31,
    "skipped": 142,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 543,
-  "visits": 531,
+  "page_views": 547,
+  "visits": 535,
   "bots_excluded": true,
   "by_day": [
    {
@@ -68,18 +68,23 @@
    },
    {
     "date": "2026-11-07",
-    "page_views": 6,
-    "visits": 6
+    "page_views": 8,
+    "visits": 8
+   },
+   {
+    "date": "2026-11-08",
+    "page_views": 2,
+    "visits": 2
    }
   ],
   "top_pages": [
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
-    "page_views": 130
+    "page_views": 131
    },
    {
     "requestPath": "/",
-    "page_views": 120
+    "page_views": 121
    },
    {
     "requestPath": "/category/privacy/",
@@ -106,18 +111,18 @@
     "page_views": 11
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/category/ai-governance/",
     "page_views": 8
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/legislation/",
     "page_views": 8
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 310
+    "page_views": 311
    },
    {
     "countryName": "GB",
@@ -159,7 +164,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 500
+    "page_views": 504
    },
    {
     "refererHost": "www.google.com",
