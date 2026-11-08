@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-08T15:18:32Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-08T17:57:23Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$7.93** of $25 budget (177 calls)
 
 ## This run
 
-- ⚠️ 1 claims to check (✏️ 3 corrected automatically) **US driver privacy law remains a class action risk as claims extend to plate readers and data breaches** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/82
+_No drafts this run._
 
 ## Recently skipped by triage
 

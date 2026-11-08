@@ -1,15 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-08T15:18:20Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-08T17:56:51Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (17)
+## New items, last 48 hours (11)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-07 | Garante per la protezione dei dati personali (Italy) | [Caso dati Tajani sul dark web, il Garante avverte i media](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10318166) |
-| 2026-11-06 | IAPP — International Association of Privacy Professionals | [A view from DC: How to read policy tea leaves](https://iapp.org/news/a/a-view-from-dc-how-to-read-policy-tea-leaves) |
 
 ### Medium priority sources
 
@@ -20,7 +19,6 @@ Last run: **2026-11-08T15:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-06 | CDO Magazine | [US Federal News Bureau Democrats Prepare New AI Legislation Targeting Model Safety and Rapid Expansion](https://www.cdomagazine.tech/us-federal-news-bureau/democrats-prepare-new-ai-legislation-targeting-model-safety-and-rapid-expansion) |
 | 2026-11-06 | CDO Magazine | [Artificial Intelligence OECD Report Finds Large Businesses Outpacing Smaller Firms in AI Adoption](https://www.cdomagazine.tech/aiml/oecd-report-finds-large-businesses-outpacing-smaller-firms-in-ai-adoption) |
 | 2026-11-06 | Forrester Blogs | [CISOs Have Spoken: Risk Reduction, Not Another Cyber Risk Rating](https://www.forrester.com/blogs/cisos-have-spoken-risk-reduction-not-another-cyber-risk-rating/) |
-| 2026-11-06 | Privacy World (Squire Patton Boggs) | [The EU KIDS Act: From moderation to mandatory design](https://www.privacyworld.blog/2026/11/the-eu-kids-act-from-moderation-to-mandatory-design/) |
 
 ### Low priority sources
 
@@ -29,16 +27,12 @@ Last run: **2026-11-08T15:18:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-06 | InformationWeek | [Enterprise resilience: 10 stories on managing in the AI era](https://www.informationweek.com/cyber-resilience/enterprise-resilience-10-stories-on-managing-in-the-ai-era) |
 | 2026-11-06 | DataHub Blog (open source metadata platform) | [Agent Context Management: How to Manage Context for AI Agents After Launch](https://datahub.com/blog/agent-context-management/) |
 | 2026-11-06 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-580/) |
-| 2026-11-06 | Center for Data Innovation | [5 Q’s with Catharina van Delden, CEO of Finches](https://datainnovation.org/2026/11/5-qs-with-catharina-van-delden-ceo-of-finches/) |
-| 2026-11-06 | Center for Data Innovation | [Visualizing Coastal Climate Risks](https://datainnovation.org/2026/11/visualizing-coastal-climate-risks/) |
-| 2026-11-06 | Center for Data Innovation | [Cataloging Scorpion Species](https://datainnovation.org/2026/11/cataloging-scorpion-species/) |
-| 2026-11-06 | DataGalaxy | [Product Update October](https://www.datagalaxy.com/en/blog/product-update-october/) |
 | 2026-11-06 | Google Cloud Blog — Data Analytics | [Zero-shot predictions in Pandas using the new BigQuery Accessor](https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/) |
 | 2026-11-05 | Google Cloud Blog — Data Analytics | [Bringing conversational analytics to Gemini with Agentic Data Cloud connectors](https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 49× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 50× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
