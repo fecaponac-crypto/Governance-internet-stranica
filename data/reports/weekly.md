@@ -1,7 +1,7 @@
 Data Governance Signal — week 1 Nov – 7 Nov 2026
 
-Visits:      533  (+281% on the week before: 140)
-Page views:  545  (+203% on the week before: 180)
+Visits:      533  (no data for the week before)
+Page views:  545  (no data for the week before)
 
 Most read:
    131  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
@@ -11,11 +11,11 @@ Most read:
     27  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
 
 Countries:
-   311  US
-    32  GB
-    29  NL
-    23  AU
-    22  CN
+   270  US
+    40  GB
+    30  CN
+    20  AU
+    10  NL
 
 Where visitors came from:
    502  (direct)
