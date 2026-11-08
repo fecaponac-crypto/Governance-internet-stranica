@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-08T09:18:29Z",
+ "updated": "2026-11-08T10:27:09Z",
  "portal": {
   "published_total": 69,
   "published_this_month": 26,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 175,
-  "runs": 87,
-  "runs_with_failed_sources": 61,
+  "runs": 88,
+  "runs_with_failed_sources": 62,
   "triage_decisions": {
    "drafted": 31,
    "skipped": 142,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 480,
-  "visits": 470,
+  "page_views": 548,
+  "visits": 536,
   "bots_excluded": true,
   "by_day": [
    {
@@ -103,68 +103,92 @@
     "page_views": 12
    },
    {
-    "requestPath": "/enforcement/",
-    "page_views": 11
-   },
-   {
     "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
     "page_views": 11
    },
    {
-    "requestPath": "/legislation/",
-    "page_views": 8
+    "requestPath": "/enforcement/",
+    "page_views": 11
    },
    {
     "requestPath": "/category/ai-governance/",
+    "page_views": 8
+   },
+   {
+    "requestPath": "/legislation/",
     "page_views": 8
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 270
+    "page_views": 312
    },
    {
     "countryName": "GB",
-    "page_views": 40
-   },
-   {
-    "countryName": "CN",
-    "page_views": 30
-   },
-   {
-    "countryName": "AU",
-    "page_views": 20
+    "page_views": 32
    },
    {
     "countryName": "NL",
-    "page_views": 10
+    "page_views": 29
    },
    {
-    "countryName": "SG",
-    "page_views": 10
+    "countryName": "AU",
+    "page_views": 23
+   },
+   {
+    "countryName": "CN",
+    "page_views": 22
+   },
+   {
+    "countryName": "BE",
+    "page_views": 18
+   },
+   {
+    "countryName": "IE",
+    "page_views": 17
    },
    {
     "countryName": "CA",
-    "page_views": 10
-   },
-   {
-    "countryName": "HK",
-    "page_views": 10
-   },
-   {
-    "countryName": "PH",
-    "page_views": 10
+    "page_views": 12
    },
    {
     "countryName": "SE",
+    "page_views": 12
+   },
+   {
+    "countryName": "HR",
     "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 400
+    "page_views": 505
+   },
+   {
+    "refererHost": "www.google.com",
+    "page_views": 15
+   },
+   {
+    "refererHost": "datagovernancesignal.com",
+    "page_views": 12
+   },
+   {
+    "refererHost": "teams.public.onecdn.static.microsoft",
+    "page_views": 11
+   },
+   {
+    "refererHost": "com.google.android.gm",
+    "page_views": 2
+   },
+   {
+    "refererHost": "www.linkedin.com",
+    "page_views": 2
+   },
+   {
+    "refererHost": "links.eu1.defend.egress.com",
+    "page_views": 1
    }
   ]
  },

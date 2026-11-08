@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-08T09:18:14Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-08T10:26:52Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (30)
+## New items, last 48 hours (28)
 
 ### High priority sources
 
@@ -27,8 +27,6 @@ Last run: **2026-11-08T09:18:14Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-06 | CDO Magazine | [Leadership Moves Abbott Appoints Sonali Mathur Global Head of Data and Analytics](https://www.cdomagazine.tech/leadership-moves/abbott-appoints-sonali-mathur-global-head-of-data-and-analytics) |
 | 2026-11-06 | CNIL (France) | [Recherches internes : quelles sont les obligations pour les professionnels de santé ?](https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations) |
 | 2026-11-06 | POLITICO Europe — Technology | [EU accuses TikTok of designing algorithm that creates ‘rabbit holes’](https://www.politico.eu/article/eu-accuses-tiktok-of-breaching-digital-rules-because-algorithm-creates-rabbit-holes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-06 | DATAVERSITY | [Employees Are Already Using AI – Can Enterprises Govern the Risk?](https://www.dataversity.net/articles/employees-are-already-using-ai-can-enterprises-govern-the-risk/) |
-| 2026-11-05 | European Data Protection Supervisor (EDPS) | [New episode of Newsletter Digest](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-episode-newsletter-digest) |
 
 ### Low priority sources
 
@@ -51,7 +49,7 @@ Last run: **2026-11-08T09:18:14Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 46× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 47× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
