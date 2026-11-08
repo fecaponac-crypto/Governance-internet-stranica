@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-08T00:40:26Z",
+ "updated": "2026-11-08T03:18:28Z",
  "portal": {
   "published_total": 69,
   "published_this_month": 26,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 175,
-  "runs": 84,
-  "runs_with_failed_sources": 58,
+  "runs": 85,
+  "runs_with_failed_sources": 59,
   "triage_decisions": {
    "drafted": 31,
    "skipped": 142,
@@ -115,7 +115,7 @@
     "page_views": 8
    },
    {
-    "requestPath": "/legislation/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    }
   ],
