@@ -1,6 +1,6 @@
 # Traffic — 2026-11
 
-Updated 2026-11-08T18:18:34Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-08T21:18:33Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
 **542 visits · 554 page views** this month (bots excluded)
 
@@ -27,8 +27,8 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd — 12
 - /enforcement/ — 11
 - /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/ — 11
-- /legislation/ — 8
 - /category/ai-governance/ — 8
+- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 8
 
 ## Countries
 
@@ -39,8 +39,8 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - CN — 22
 - BE — 18
 - IE — 17
-- SE — 12
 - CA — 12
+- SE — 12
 - HR — 10
 
 ## Referrers

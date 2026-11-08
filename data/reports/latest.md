@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-08T18:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-08T21:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (11)
+## New items, last 48 hours (8)
 
 ### High priority sources
 
@@ -26,13 +26,10 @@ Last run: **2026-11-08T18:18:18Z** · sources checked: 81 · failed: 1 · new it
 |---|---|---|
 | 2026-11-06 | InformationWeek | [Enterprise resilience: 10 stories on managing in the AI era](https://www.informationweek.com/cyber-resilience/enterprise-resilience-10-stories-on-managing-in-the-ai-era) |
 | 2026-11-06 | DataHub Blog (open source metadata platform) | [Agent Context Management: How to Manage Context for AI Agents After Launch](https://datahub.com/blog/agent-context-management/) |
-| 2026-11-06 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-580/) |
-| 2026-11-06 | Google Cloud Blog — Data Analytics | [Zero-shot predictions in Pandas using the new BigQuery Accessor](https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/) |
-| 2026-11-05 | Google Cloud Blog — Data Analytics | [Bringing conversational analytics to Gemini with Agentic Data Cloud connectors](https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 51× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 52× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
