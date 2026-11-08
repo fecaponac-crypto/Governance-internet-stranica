@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-08T12:18:25Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-08T15:19:30Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**536 visits · 548 page views** this month (bots excluded)
+**537 visits · 549 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -15,7 +15,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-05 | 396 | 400 |
 | 2026-11-06 | 67 | 67 |
 | 2026-11-07 | 8 | 8 |
-| 2026-11-08 | 3 | 3 |
+| 2026-11-08 | 4 | 4 |
 
 ## Top pages
 
@@ -23,7 +23,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - / — 121
 - /category/privacy/ — 72
 - /category/security/ — 66
-- /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 27
+- /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 28
 - /sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd — 12
 - /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/ — 11
 - /enforcement/ — 11
@@ -49,6 +49,6 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - www.google.com — 15
 - datagovernancesignal.com — 12
 - teams.public.onecdn.static.microsoft — 11
+- www.linkedin.com — 3
 - com.google.android.gm — 2
-- www.linkedin.com — 2
 - links.eu1.defend.egress.com — 1

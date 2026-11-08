@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-08T12:18:25Z",
+ "updated": "2026-11-08T15:19:30Z",
  "portal": {
   "published_total": 69,
   "published_this_month": 26,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 175,
-  "runs": 89,
-  "runs_with_failed_sources": 63,
+  "items_collected": 176,
+  "runs": 90,
+  "runs_with_failed_sources": 64,
   "triage_decisions": {
-   "drafted": 31,
+   "drafted": 32,
    "skipped": 142,
    "failed": 3
   },
-  "ai_spend_usd": 7.6739,
+  "ai_spend_usd": 7.9288,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 548,
-  "visits": 536,
+  "page_views": 549,
+  "visits": 537,
   "bots_excluded": true,
   "by_day": [
    {
@@ -73,8 +73,8 @@
    },
    {
     "date": "2026-11-08",
-    "page_views": 3,
-    "visits": 3
+    "page_views": 4,
+    "visits": 4
    }
   ],
   "top_pages": [
@@ -96,7 +96,7 @@
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
-    "page_views": 27
+    "page_views": 28
    },
    {
     "requestPath": "/sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd",
@@ -179,11 +179,11 @@
     "page_views": 11
    },
    {
-    "refererHost": "com.google.android.gm",
-    "page_views": 2
+    "refererHost": "www.linkedin.com",
+    "page_views": 3
    },
    {
-    "refererHost": "www.linkedin.com",
+    "refererHost": "com.google.android.gm",
     "page_views": 2
    },
    {

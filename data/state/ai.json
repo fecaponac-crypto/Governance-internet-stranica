@@ -4788,6 +4788,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fd1bf9f5f6bbd467": {
+   "at": "2026-11-08T15:18:32Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 15,
+   "decision": "drafted",
+   "draft": "us-driver-privacy-law-remains-a-class-action-risk-as-claims-extend-to",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/82",
+   "primary_found": false,
+   "reason": "Legal analysis of DPPA litigation risk for companies handling DMV data; practical privacy compliance angle from a law firm blog, moderately useful for practitioners.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fe909fccac8332c4": {
    "at": "2026-10-29T03:18:57Z",
    "categories": [
@@ -4863,8 +4880,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 171,
-   "usd": 7.6739
+   "calls": 177,
+   "usd": 7.9288
   }
  }
 }
