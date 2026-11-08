@@ -1,6 +1,6 @@
 # Traffic — 2026-11
 
-Updated 2026-11-08T21:18:33Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-08T22:09:39Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
 **542 visits · 554 page views** this month (bots excluded)
 
@@ -39,8 +39,8 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - CN — 22
 - BE — 18
 - IE — 17
-- CA — 12
 - SE — 12
+- CA — 12
 - HR — 10
 
 ## Referrers

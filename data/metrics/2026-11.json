@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-08T21:18:33Z",
+ "updated": "2026-11-08T22:09:39Z",
  "portal": {
   "published_total": 70,
   "published_this_month": 27,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 176,
-  "runs": 93,
-  "runs_with_failed_sources": 67,
+  "runs": 94,
+  "runs_with_failed_sources": 68,
   "triage_decisions": {
    "drafted": 32,
    "skipped": 142,
@@ -149,11 +149,11 @@
     "page_views": 17
    },
    {
-    "countryName": "CA",
+    "countryName": "SE",
     "page_views": 12
    },
    {
-    "countryName": "SE",
+    "countryName": "CA",
     "page_views": 12
    },
    {
