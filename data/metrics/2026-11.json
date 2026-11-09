@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-09T19:51:27Z",
+ "updated": "2026-11-09T21:19:01Z",
  "portal": {
   "published_total": 73,
   "published_this_month": 30,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 200,
-  "runs": 102,
-  "runs_with_failed_sources": 76,
+  "items_collected": 206,
+  "runs": 103,
+  "runs_with_failed_sources": 77,
   "triage_decisions": {
-   "drafted": 35,
-   "skipped": 162,
+   "drafted": 36,
+   "skipped": 167,
    "failed": 4
   },
-  "ai_spend_usd": 8.6939,
+  "ai_spend_usd": 8.7964,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -154,11 +154,11 @@
     "page_views": 18
    },
    {
-    "countryName": "HR",
+    "countryName": "CA",
     "page_views": 13
    },
    {
-    "countryName": "CA",
+    "countryName": "HR",
     "page_views": 13
    },
    {

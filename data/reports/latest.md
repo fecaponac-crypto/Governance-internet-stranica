@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-09T19:51:11Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-09T21:18:15Z** · sources checked: 81 · failed: 1 · new items this run: 6
 
-## New items, last 48 hours (25)
+## New items, last 48 hours (31)
 
 ### High priority sources
 
@@ -15,6 +15,11 @@ Last run: **2026-11-09T19:51:11Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-09 | CDO Magazine | [Artificial Intelligence Gartner: Agentic AI Adoption Is Outpacing Enterprise Governance](https://www.cdomagazine.tech/aiml/gartner-agentic-ai-adoption-is-outpacing-enterprise-governance) |
+| 2026-11-09 | CDO Magazine | [Artificial Intelligence DARPA Turns to AI to Uncover Hidden Weaknesses in Digital Markets](https://www.cdomagazine.tech/aiml/darpa-turns-to-ai-to-uncover-hidden-weaknesses-in-digital-markets) |
+| 2026-11-09 | CDO Magazine | [US Federal News Bureau US AI Safety Center Faces Questions Over Independence and White House Ties](https://www.cdomagazine.tech/us-federal-news-bureau/us-ai-safety-center-faces-questions-over-independence-and-white-house-ties) |
+| 2026-11-09 | CDO Magazine | [US Federal News Bureau DOGE Envisions AI Agents as the Next Interface for Federal Government Services](https://www.cdomagazine.tech/us-federal-news-bureau/doge-envisions-ai-agents-as-the-next-interface-for-federal-government-services) |
+| 2026-11-09 | Privacy World (Squire Patton Boggs) | [Upcoming Speaking Engagements and On-Demand Learning Opportunities](https://www.privacyworld.blog/2026/11/upcoming-speaking-engagements-and-on-demand-learning-opportunities/) |
 | 2026-11-09 | Privacy World (Squire Patton Boggs) | [Privacy World Week in Review](https://www.privacyworld.blog/2026/11/privacy-world-week-in-review-95/) |
 | 2026-11-09 | Euractiv | [The Data Act, tested in practice](https://www.rapporteur.com/video/the-data-act-tested-in-practice/) |
 | 2026-11-09 | Datatilsynet (Norway) | [Råd til virksomheter og enkeltpersoner etter databrudd](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/rad-til-virksomheter-og-enkeltpersoner-etter-databrudd/) |
@@ -27,6 +32,7 @@ Last run: **2026-11-09T19:51:11Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | Euractiv | [Europe risks confusing more data centres with greater digital sovereignty [Promoted Content]](https://www.rapporteur.com/opinion/europe-risks-confusing-more-data-centres-with-greater-digital-sovereignty/) |
 | 2026-11-09 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Nytt lektionsmaterial ska göra elever säkrare på nätet](https://www.imy.se/nyheter/nytt-lektionsmaterial-ska-gora-elever-sakrare-pa-natet/) |
 | 2026-11-09 | Euractiv | [THE HACK: EU leaders to talk AI challenges](https://www.rapporteur.com/news/the-hack-eu-leaders-to-talk-ai-challenges/) |
+| 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
 | 2026-11-08 | Privacy World (Squire Patton Boggs) | [Still in the Driver’s Seat: DPPA Litigation Risk Persists for Companies Handling State DMV Data](https://www.privacyworld.blog/2026/11/still-in-the-drivers-seat-dppa-litigation-risk-persists-for-companies-handling-state-dmv-data/) |
 | 2026-11-04 | DATAVERSITY | [Context-Aware Rules: The Next Frontier for Data Quality Solutions](https://www.dataversity.net/articles/context-aware-rules-the-next-frontier-for-data-quality-solutions/) |
 
@@ -46,7 +52,7 @@ Last run: **2026-11-09T19:51:11Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 61× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 62× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

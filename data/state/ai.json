@@ -794,6 +794,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "258395ff0aad7cd7": {
+   "at": "2026-11-09T21:18:27Z",
+   "categories": [
+    "ai-governance",
+    "strategy"
+   ],
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "gartner-survey-71-of-organisations-expect-to-deploy-agentic-ai-within",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/87",
+   "primary_found": false,
+   "reason": "Gartner research on agentic AI adoption outpacing governance is a relevant analyst finding for governance practitioners.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "25b1042911702daf": {
    "at": "2026-11-04T15:19:16Z",
    "categories": [
@@ -1991,6 +2008,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "669e6158dec3f02a": {
+   "at": "2026-11-09T21:18:27Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "DOGE vision for AI agents in government services is a vision piece without concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "66c49a62b1a80a6d": {
    "at": "2026-11-06T12:18:30Z",
    "categories": [
@@ -2135,6 +2163,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7035277b85ccc0f8": {
+   "at": "2026-11-09T21:18:27Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on setting up Collibra MCP on Snowflake is how-to marketing rather than a genuine launch or acquisition.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "71ccf06bd393c1ec": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -2208,6 +2247,17 @@
    "primary_found": true,
    "reason": "Legal analysis of algorithmic pricing laws and FTC proposed policy statement; practical compliance guidance, though overlaps FTC pricing order topic and is analysis rather than new event.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "765e39afe3b58e25": {
+   "at": "2026-11-09T21:18:27Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "DARPA using AI to find market weaknesses has little direct data governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "766b500a31aa07ab": {
@@ -2450,6 +2500,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "80e47ddce49e769c": {
+   "at": "2026-11-09T21:18:27Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Questions over US AI Safety Center independence are governance-relevant but a modest news item with limited practitioner action.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "81204e04abb97f01": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -2525,6 +2587,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog promoting a product (Control Tower) without a genuine launch announcement in the excerpt; vendor marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "8405a7d8907c6612": {
+   "at": "2026-11-09T21:18:27Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Speaking engagements and webinar promotion are explicitly not relevant.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5146,8 +5217,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 195,
-   "usd": 8.6939
+   "calls": 199,
+   "usd": 8.7964
   }
  }
 }
