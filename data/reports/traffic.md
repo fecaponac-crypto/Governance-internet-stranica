@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-09T12:18:34Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-09T15:20:42Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**480 visits · 490 page views** this month (bots excluded)
+**557 visits · 572 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -16,37 +16,37 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-06 | 67 | 67 |
 | 2026-11-07 | 8 | 8 |
 | 2026-11-08 | 10 | 10 |
-| 2026-11-09 | 6 | 9 |
+| 2026-11-09 | 14 | 17 |
 
 ## Top pages
 
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/ — 131
-- / — 126
-- /category/privacy/ — 73
+- / — 127
+- /category/privacy/ — 74
 - /category/security/ — 66
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 28
 - /sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd — 12
-- /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/ — 11
 - /enforcement/ — 11
+- /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/ — 11
+- /category/ai-governance/ — 9
 - /legislation/ — 8
-- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 8
 
 ## Countries
 
-- US — 317
+- US — 325
 - GB — 32
 - NL — 29
 - AU — 23
 - CN — 23
 - BE — 18
 - IE — 18
-- CA — 13
 - HR — 13
+- CA — 13
 - SE — 12
 
 ## Referrers
 
-- (direct) — 513
+- (direct) — 521
 - www.google.com — 18
 - datagovernancesignal.com — 15
 - teams.public.onecdn.static.microsoft — 11

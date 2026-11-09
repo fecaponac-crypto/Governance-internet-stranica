@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-09T12:18:34Z",
+ "updated": "2026-11-09T15:20:42Z",
  "portal": {
   "published_total": 71,
   "published_this_month": 28,
@@ -12,17 +12,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 185,
-  "runs": 100,
-  "runs_with_failed_sources": 74,
+  "items_collected": 193,
+  "runs": 101,
+  "runs_with_failed_sources": 75,
   "triage_decisions": {
-   "drafted": 33,
-   "skipped": 150,
+   "drafted": 35,
+   "skipped": 156,
    "failed": 3
   },
-  "ai_spend_usd": 8.3795,
+  "ai_spend_usd": 8.6928,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 3
  },
  "editor": {
   "drafts_published": 29,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 490,
-  "visits": 480,
+  "page_views": 572,
+  "visits": 557,
   "bots_excluded": true,
   "by_day": [
    {
@@ -78,8 +78,8 @@
    },
    {
     "date": "2026-11-09",
-    "page_views": 9,
-    "visits": 6
+    "page_views": 17,
+    "visits": 14
    }
   ],
   "top_pages": [
@@ -89,11 +89,11 @@
    },
    {
     "requestPath": "/",
-    "page_views": 126
+    "page_views": 127
    },
    {
     "requestPath": "/category/privacy/",
-    "page_views": 73
+    "page_views": 74
    },
    {
     "requestPath": "/category/security/",
@@ -108,26 +108,26 @@
     "page_views": 12
    },
    {
-    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
-    "page_views": 11
-   },
-   {
     "requestPath": "/enforcement/",
     "page_views": 11
    },
    {
-    "requestPath": "/legislation/",
-    "page_views": 8
+    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
+    "page_views": 11
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/category/ai-governance/",
+    "page_views": 9
+   },
+   {
+    "requestPath": "/legislation/",
     "page_views": 8
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 317
+    "page_views": 325
    },
    {
     "countryName": "GB",
@@ -154,11 +154,11 @@
     "page_views": 18
    },
    {
-    "countryName": "CA",
+    "countryName": "HR",
     "page_views": 13
    },
    {
-    "countryName": "HR",
+    "countryName": "CA",
     "page_views": 13
    },
    {
@@ -169,7 +169,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 513
+    "page_views": 521
    },
    {
     "refererHost": "www.google.com",
