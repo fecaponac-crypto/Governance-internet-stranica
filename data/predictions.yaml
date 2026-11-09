@@ -138,3 +138,47 @@
   made: 2026-11-02
   due: 2027-01-01
   status: open
+- id: 2026-11-09-1
+  claim: The European Parliament adopts its negotiating position on the Digital Omnibus, opening the way to trilogues.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent you didn''t check is consent you don''t have'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-09/
+  made: 2026-11-09
+  due: 2027-03-31
+  confidence: 45
+  status: open
+- id: 2026-11-09-2
+  claim: The Court of Justice delivers its judgment in Case C-250/25 Like Company.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent you didn''t check is consent you don''t have'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-09/
+  made: 2026-11-09
+  due: 2027-06-30
+  confidence: 55
+  status: open
+- id: 2026-11-09-3
+  claim: The European Commission adopts a final non-compliance decision against TikTok concerning the 'For You' feed rabbit-hole findings.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent you didn''t check is consent you don''t have'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-09/
+  made: 2026-11-09
+  due: 2027-06-30
+  confidence: 20
+  status: open
+- id: 2026-11-09-4
+  claim: The CNIL will support professionals in applying its session replay recommendation, including through a webinar.
+  by: CNIL
+  role: French data protection authority
+  quote: La CNIL accompagnera les acteurs professionnels, notamment à travers un webinaire.
+  source:
+    title: 'Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs'
+    url: https://www.cnil.fr/fr/rejeu-de-session-recommandation
+  made: 2026-11-09
+  due: 2027-03-31
+  status: open
