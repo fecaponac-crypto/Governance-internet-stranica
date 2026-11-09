@@ -2,7 +2,7 @@
 title: "Norway's Datatilsynet receives breach notifications over Amadeus travel booking systems compromise"
 date: 2026-11-09
 dek: "Berg-Hansen and the Norwegian group were among those notifying the regulator after a threat actor reportedly accessed Amadeus systems for at least three years, according to Norway's national security authority."
-whyItMatters: "The incident sits in a supplier's platform, yet the notifications came from the travel firms using it, showing that controllers carry breach duties for processors' failures. Organisations booking travel through affected agencies or airlines should establish whether employee or customer data passed through Amadeus systems and assess their own notification obligations. Security teams should also expect phishing that cites genuine booking details."
+whyItMatters: "The incident sits in a supplier's systems, yet the notifications reached the regulator from the travel companies that use them: a breach at a shared platform can trigger notification duties for each organisation whose data it holds. Organisations booking travel through affected agencies or airlines should establish whether employee or customer data passed through Amadeus systems and assess their own notification obligations. Security teams should also expect phishing that cites genuine booking details."
 categories: [security, privacy]
 institutions: [datatilsynet-no]
 whoShouldCare: ["DPO", "CISO", "Vendor risk managers", "Legal & compliance"]
