@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-09T00:18:35Z",
+ "updated": "2026-11-09T03:18:53Z",
  "portal": {
   "published_total": 70,
   "published_this_month": 27,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 176,
-  "runs": 95,
-  "runs_with_failed_sources": 69,
+  "runs": 96,
+  "runs_with_failed_sources": 70,
   "triage_decisions": {
    "drafted": 32,
    "skipped": 142,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 555,
-  "visits": 543,
+  "page_views": 490,
+  "visits": 480,
   "bots_excluded": true,
   "by_day": [
    {
@@ -75,6 +75,11 @@
     "date": "2026-11-08",
     "page_views": 10,
     "visits": 10
+   },
+   {
+    "date": "2026-11-09",
+    "page_views": 1,
+    "visits": 1
    }
   ],
   "top_pages": [
@@ -149,22 +154,22 @@
     "page_views": 17
    },
    {
-    "countryName": "SE",
-    "page_views": 12
-   },
-   {
     "countryName": "CA",
     "page_views": 12
    },
    {
-    "countryName": "HR",
+    "countryName": "SE",
+    "page_views": 12
+   },
+   {
+    "countryName": "HK",
     "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 511
+    "page_views": 512
    },
    {
     "refererHost": "www.google.com",
