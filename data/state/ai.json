@@ -1395,6 +1395,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4555140d044eb55f": {
+   "at": "2026-11-09T09:18:38Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Generic thought-leadership on data quality rules without clear actionable detail in the excerpt; not enough to judge as practical guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "461b8bc82c16192f": {
    "at": "2026-11-02T21:18:27Z",
    "categories": [
@@ -2174,6 +2185,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "7a11eabd2cfef4de": {
+   "at": "2026-11-09T09:18:38Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "cnil-issues-ten-fines-of-up-to-eur-20-000-to-local-authorities-and-a-p",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/84",
+   "primary_found": false,
+   "reason": "CNIL sanctions against local authorities for cybersecurity failings are concrete enforcement with security lessons for public bodies.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "7abea47610836fb9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -2683,6 +2711,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "96de09d7170092e9": {
+   "at": "2026-11-09T09:18:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Educational teaching material for pupils; no concrete governance consequence for organisations.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "972c08c416af73de": {
    "at": "2026-10-27T15:18:25Z",
    "categories": [
@@ -2860,6 +2899,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog (Alation) promoting its product through a customer story; marketing rather than genuine launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9fd9bb439318f305": {
+   "at": "2026-11-09T09:18:38Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup with vague teasers and no substantive story detail.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4889,8 +4939,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 179,
-   "usd": 8.138
+   "calls": 185,
+   "usd": 8.3787
   }
  }
 }
