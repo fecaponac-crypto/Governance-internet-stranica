@@ -268,6 +268,11 @@ Pravilo: **ne objavljujemo zastarjele vijesti.** (Povod: PR #67 je opisivao zaht
 - **Zaštita:** ako svježa vijest (mlađa od 36 sati) ima ključne datume koji su prošli, a status je još „u tijeku” (Alleged, Consultation, Proposal, In negotiation, Investigation, Announced, Preview, Unconfirmed), provjera se pokreće i tada, a vijest se po potrebi piše ponovno. PR uvijek pokazuje ishod: 🔄 ažurirano na najnoviji razvoj, 🔎 provjereno bez promjene, ili ⏰ moguće zastarjelo (i ⏰ u naslovu).
 - **Bez duplikata:** prije provjere činjenica nacrt se uspoređuje s objavljenim vijestima, otvorenim PR-ovima i nacrtima iz istog pokretanja (preklapanje naslova ≥ 0,45 ili isti korak u trackeru kazni: vrsta, datum, tijelo). Ako ponavlja postojeću priču, ne otvara se PR; izvještaj navodi „↩️ Not drafted, already covered”. (Povod: 5. 11. objavljene dvije vijesti o istoj presudi; duplikat uklonjen, stara adresa preusmjerena.)
 
+## 10a-11. Zaštita „Was this useful?” i 404 (9. 11. 2026.)
+
+- Netko je sustavno testirao `/api/feedback` (ratelimit-probe, cors-probe, csrf, izmišljene i vrlo duge adrese), pa su brojke za listopad i studeni bile nepouzdane. Od 9. 11. glas se broji samo ako dolazi s našeg portala (Origin), za objavljenu stranicu i najviše 10 puta u minuti po posjetitelju (Cloudflare Rate Limiting, ništa ne spremamo). Tjedni e-mail briše brojače za adrese koje nisu objavljene stranice.
+- Worker za nepostojeće adrese vraća našu 404 stranicu, a poveznice sa zagradom, točkom, zarezom ili navodnicima na kraju trajno (301) preusmjerava na pravu stranicu.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
