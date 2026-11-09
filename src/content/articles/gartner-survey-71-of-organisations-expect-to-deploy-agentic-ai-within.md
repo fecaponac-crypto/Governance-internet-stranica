@@ -1,7 +1,7 @@
 ---
 title: "Gartner survey: 71% of organisations expect to deploy agentic AI within a year, but 21% have governance in place"
 date: 2026-11-09
-dek: "Gartner, as reported by CDO Magazine, recommends a central 'Flywheel Governor' to coordinate AI accountability and treat controls such as data quality checks and audit trails as 'good drag'."
+dek: "Presented at Gartner IT Symposium/Xpo in Barcelona, the findings come with a recommendation for a central 'Flywheel Governor' to coordinate AI accountability, technology and economic decisions, according to CDO Magazine."
 whyItMatters: "The 50-point gap suggests many agent deployments will go live before ownership, access and logging rules exist. Data governance teams should define which data each agent can reach, how agents are authorised to act, what actions are logged and who is accountable for an incorrect automated outcome. Positioning data quality checks, access limits, audit trails and human review as enabling controls, rather than blockers, can help secure them a place in deployment plans."
 categories: [ai-governance, strategy, data-quality]
 institutions: []
