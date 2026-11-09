@@ -10,10 +10,12 @@ function memoryKV() {
     store,
     get: async (k, type) => (store.has(k) ? (type === 'json' ? JSON.parse(store.get(k)) : store.get(k)) : null),
     put: async (k, v) => void store.set(k, v),
+    delete: async (k) => void store.delete(k),
     list: async ({ prefix }) => ({ keys: [...store.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name })), list_complete: true }),
   };
 }
-const post = (body) => new Request('https://x.test/api/feedback', { method: 'POST', body: JSON.stringify(body) });
+const post = (body, origin = 'https://x.test') =>
+  new Request('https://x.test/api/feedback', { method: 'POST', body: JSON.stringify(body), headers: origin ? { Origin: origin } : {} });
 
 const raw = [
   'From: Newsletter <news@example.com>',
@@ -225,4 +227,26 @@ test('pasted links with stray punctuation redirect; other misses get the 404 pag
   assert.match(await missing.text(), /No signal here/);
   const plain = await notFound(new Request('https://datagovernancesignal.com/x/'), {});
   assert.equal(plain.status, 404);
+});
+
+test('feedback: only published pages, only from the site, rate limited', async () => {
+  const published = new Set(['/news/real-story/']);
+  const assets = { fetch: async (req) => new Response(null, { status: published.has(new URL(req.url).pathname) ? 200 : 404 }) };
+  let calls = 0;
+  const env = { SOURCES: memoryKV(), ASSETS: assets, FEEDBACK_LIMIT: { limit: async () => ({ success: ++calls <= 2 }) } };
+  assert.equal((await worker.fetch(post({ page: '/news/real-story/', vote: 'yes' }), env)).status, 200);
+  assert.equal((await worker.fetch(post({ page: '/news/ratelimit-probe-1/', vote: 'yes' }), env)).status, 400);
+  assert.equal((await worker.fetch(post({ page: '/news/real-story/', vote: 'yes' }), env)).status, 429);
+  const noLimit = { SOURCES: env.SOURCES, ASSETS: assets };
+  assert.equal((await worker.fetch(post({ page: '/news/real-story/', vote: 'yes' }, 'https://evil.example'), noLimit)).status, 403);
+  assert.equal((await worker.fetch(post({ page: '/news/real-story/', vote: 'yes' }, null), noLimit)).status, 403);
+
+  const month = new Date().toISOString().slice(0, 7);
+  await env.SOURCES.put(`feedback:${month}:/news/evil-test-slug/`, JSON.stringify({ yes: 9, no: 0, reasons: {} }));
+  const { feedbackSummary } = await import('./index.js');
+  const text = await feedbackSummary(env);
+  assert.match(text, /1 yes, 0 no/);
+  assert.doesNotMatch(text, /evil-test-slug/);
+  assert.match(text, /removed answers recorded for 1 addresses/);
+  assert.equal(env.SOURCES.store.has(`feedback:${month}:/news/evil-test-slug/`), false);
 });

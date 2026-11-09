@@ -110,13 +110,30 @@ export async function dispatchWorkflow(env, workflow = 'ingest.yml') {
 }
 
 export const FEEDBACK_REASONS = ['not-relevant', 'too-technical', 'too-basic', 'possible-error'];
+const SITE_URL = 'https://datagovernancesignal.com/';
 const FEEDBACK_PAGE = /^\/(news|opinion|monday-signal)\/[a-z0-9-]+\/$/;
 
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
 
 /** Count one vote ({page, vote: yes|no}) or one reason ({page, reason}) for the current month. */
+/** Whether a page is published (assets binding); true where there is none, e.g. in tests. */
+async function pageExists(env, page, base) {
+  if (!env?.ASSETS) return true;
+  const res = await env.ASSETS.fetch(new Request(new URL(page, base), { method: 'HEAD' }));
+  return res.ok;
+}
+
 export async function recordFeedback(request, env) {
+  // Only the site's own pages may vote: browsers send Origin on every POST.
+  const url = new URL(request.url);
+  if (request.headers.get('Origin') !== url.origin) return json({ error: 'forbidden' }, 403);
+  // A few votes per minute per visitor and page (Cloudflare rate limiting; nothing is stored by us).
+  if (env.FEEDBACK_LIMIT) {
+    const visitor = request.headers.get('CF-Connecting-IP') ?? 'unknown';
+    const { success } = await env.FEEDBACK_LIMIT.limit({ key: visitor });
+    if (!success) return json({ error: 'slow down' }, 429);
+  }
   if (Number(request.headers.get('Content-Length') ?? 0) > 1000) return json({ error: 'too large' }, 413);
   let body;
   try {
@@ -129,6 +146,7 @@ export async function recordFeedback(request, env) {
   if (vote !== undefined && vote !== 'yes' && vote !== 'no') return json({ error: 'bad vote' }, 400);
   if (reason !== undefined && !FEEDBACK_REASONS.includes(reason)) return json({ error: 'bad reason' }, 400);
   if ((vote === undefined) === (reason === undefined)) return json({ error: 'send a vote or a reason' }, 400);
+  if (page.length > 120 || !(await pageExists(env, page, url))) return json({ error: 'unknown page' }, 400);
 
   const key = `feedback:${new Date().toISOString().slice(0, 7)}:${page}`;
   const counts = (await env.SOURCES.get(key, 'json')) ?? { yes: 0, no: 0, reasons: {} };
@@ -197,10 +215,19 @@ export async function feedbackSummary(env, now = new Date()) {
   for (const month of months) {
     const prefix = `feedback:${month}:`;
     const pages = [];
+    let ignored = 0;
     let cursor;
     do {
       const list = await env.SOURCES.list({ prefix, cursor });
-      for (const { name } of list.keys) pages.push({ page: name.slice(prefix.length), ...(await env.SOURCES.get(name, 'json')) });
+      for (const { name } of list.keys) {
+        const page = name.slice(prefix.length);
+        if (!(await pageExists(env, page, SITE_URL))) {
+          ignored += 1;
+          if (env.SOURCES.delete) await env.SOURCES.delete(name); // test traffic and probes for pages we never published
+          continue;
+        }
+        pages.push({ page, ...(await env.SOURCES.get(name, 'json')) });
+      }
       cursor = list.list_complete ? undefined : list.cursor;
     } while (cursor);
     const yes = pages.reduce((n, p) => n + (p.yes ?? 0), 0);
@@ -213,6 +240,7 @@ export async function feedbackSummary(env, now = new Date()) {
         lines.push(`  ${String(p.yes ?? 0).padStart(3)} yes ${String(p.no ?? 0).padStart(3)} no  ${p.page}${reasons ? `  (${reasons})` : ''}`);
       });
     if (!pages.length) lines.push('  no answers yet');
+    if (ignored) lines.push(`  (removed answers recorded for ${ignored} addresses that are not published pages)`);
     lines.push('');
   }
   return lines.join('\n');

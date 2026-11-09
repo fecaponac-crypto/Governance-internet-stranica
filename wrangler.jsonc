@@ -22,6 +22,8 @@
   "triggers": { "crons": ["17 */3 * * *", "47 5 * * MON", "55 10 30 10 *"] },
   // Private store for incoming newsletters; created automatically on first deploy.
   "kv_namespaces": [{ "binding": "SOURCES" }],
+  // At most 10 "Was this useful?" answers a minute per visitor (Cloudflare rate limiting).
+  "ratelimits": [{ "name": "FEEDBACK_LIMIT", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } }],
   // Monday traffic report to the editor (REPORT_EMAIL secret; only verified Email Routing destinations).
   "send_email": [{ "name": "REPORT_MAILER" }]
 }
