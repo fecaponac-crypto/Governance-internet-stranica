@@ -1,31 +1,31 @@
 {
  "month": "2026-11",
- "updated": "2026-11-09T09:19:45Z",
+ "updated": "2026-11-09T12:18:34Z",
  "portal": {
-  "published_total": 70,
-  "published_this_month": 27,
+  "published_total": 71,
+  "published_this_month": 28,
   "published_this_month_by_importance": {
-   "3": 16,
+   "3": 17,
    "4": 7,
    "2": 4
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 181,
-  "runs": 99,
-  "runs_with_failed_sources": 73,
+  "items_collected": 185,
+  "runs": 100,
+  "runs_with_failed_sources": 74,
   "triage_decisions": {
    "drafted": 33,
-   "skipped": 146,
+   "skipped": 150,
    "failed": 3
   },
-  "ai_spend_usd": 8.3787,
+  "ai_spend_usd": 8.3795,
   "sources_active": 81,
-  "sources_failing_now": 2
+  "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 28,
+  "drafts_published": 29,
   "drafts_rejected": 2
  },
  "newsletter": {
@@ -78,8 +78,8 @@
    },
    {
     "date": "2026-11-09",
-    "page_views": 4,
-    "visits": 4
+    "page_views": 9,
+    "visits": 6
    }
   ],
   "top_pages": [
@@ -89,7 +89,7 @@
    },
    {
     "requestPath": "/",
-    "page_views": 123
+    "page_views": 126
    },
    {
     "requestPath": "/category/privacy/",
@@ -108,19 +108,19 @@
     "page_views": 12
    },
    {
-    "requestPath": "/enforcement/",
-    "page_views": 11
-   },
-   {
     "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
     "page_views": 11
    },
    {
-    "requestPath": "/category/ai-governance/",
-    "page_views": 8
+    "requestPath": "/enforcement/",
+    "page_views": 11
    },
    {
     "requestPath": "/legislation/",
+    "page_views": 8
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 8
    }
   ],
@@ -143,7 +143,7 @@
    },
    {
     "countryName": "CN",
-    "page_views": 22
+    "page_views": 23
    },
    {
     "countryName": "BE",
@@ -154,22 +154,22 @@
     "page_views": 18
    },
    {
+    "countryName": "CA",
+    "page_views": 13
+   },
+   {
+    "countryName": "HR",
+    "page_views": 13
+   },
+   {
     "countryName": "SE",
     "page_views": 12
-   },
-   {
-    "countryName": "CA",
-    "page_views": 12
-   },
-   {
-    "countryName": "HK",
-    "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 512
+    "page_views": 513
    },
    {
     "refererHost": "www.google.com",
@@ -177,7 +177,7 @@
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 12
+    "page_views": 15
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",
@@ -193,6 +193,10 @@
    },
    {
     "refererHost": "links.eu1.defend.egress.com",
+    "page_views": 1
+   },
+   {
+    "refererHost": "go.bsky.app",
     "page_views": 1
    }
   ]

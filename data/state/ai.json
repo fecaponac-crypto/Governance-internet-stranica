@@ -313,6 +313,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "111b66d97ab01eca": {
+   "at": "2026-11-09T12:18:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Climate policy commentary about AI; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "121817cbaf7b234b": {
    "at": "2026-11-05T06:52:15Z",
    "categories": [
@@ -2798,6 +2807,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9afb530081cdd8e3": {
+   "at": "2026-11-09T12:18:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Promoted content and generic opinion on data centres; vendor-style marketing without governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9b660ac5efdeaa63": {
    "at": "2026-11-06T23:12:48Z",
    "categories": [],
@@ -2973,6 +2991,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Policy commentary on federal statistics about AI and work; no concrete governance consequence for organisations and reliability is low.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a68a39b07149564d": {
+   "at": "2026-11-09T12:18:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment news; hiring/leadership moves are not relevant.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3446,6 +3473,15 @@
    "importance": 2,
    "reason": "EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "bce2338b5376d58d": {
+   "at": "2026-11-09T12:18:30Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic government fraud-analytics piece with no concrete governance consequence; low-value promotional framing from a reliability-2 source.",
+   "relevant": false,
    "same_story_as": null
   },
   "bd3850508ce90c66": {
@@ -4939,8 +4975,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 185,
-   "usd": 8.3787
+   "calls": 186,
+   "usd": 8.3795
   }
  }
 }

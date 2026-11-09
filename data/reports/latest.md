@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-09T09:18:24Z** · sources checked: 81 · failed: 2 · new items this run: 4
+Last run: **2026-11-09T12:18:17Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (7)
+## New items, last 48 hours (11)
 
 ### High priority sources
 
@@ -14,7 +14,10 @@ Last run: **2026-11-09T09:18:24Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-09 | CDO Magazine | [Leadership Moves Landchecker Names Gerry Stanley Chief Data & AI Officer](https://www.cdomagazine.tech/leadership-moves/landchecker-names-gerry-stanley-chief-data-ai-officer) |
+| 2026-11-09 | CDO Magazine | [US Federal News Bureau Federal Agencies Turn to AI and Data Analytics to Prevent Billions in Fraud](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-turn-to-ai-and-data-analytics-to-prevent-billions-in-fraud) |
 | 2026-11-09 | CNIL (France) | [Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions](https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales) |
+| 2026-11-09 | Euractiv | [Europe risks confusing more data centres with greater digital sovereignty [Promoted Content]](https://www.rapporteur.com/opinion/europe-risks-confusing-more-data-centres-with-greater-digital-sovereignty/) |
 | 2026-11-09 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Nytt lektionsmaterial ska göra elever säkrare på nätet](https://www.imy.se/nyheter/nytt-lektionsmaterial-ska-gora-elever-sakrare-pa-natet/) |
 | 2026-11-09 | Euractiv | [THE HACK: EU leaders to talk AI challenges](https://www.rapporteur.com/news/the-hack-eu-leaders-to-talk-ai-challenges/) |
 | 2026-11-08 | Privacy World (Squire Patton Boggs) | [Still in the Driver’s Seat: DPPA Litigation Risk Persists for Companies Handling State DMV Data](https://www.privacyworld.blog/2026/11/still-in-the-drivers-seat-dppa-litigation-risk-persists-for-companies-handling-state-dmv-data/) |
@@ -24,12 +27,12 @@ Last run: **2026-11-09T09:18:24Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-09 | MIT Technology Review | [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) |
 | 2026-11-09 | Data Engineering Weekly | [Data Engineering Weekly #295](https://www.dataengineeringweekly.com/p/data-engineering-weekly-295) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 58× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **ENISA — EU Agency for Cybersecurity** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.enisa.europa.eu/news`
+- **European Data Protection Board (EDPB)** — failed 59× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
