@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import PostalMime from 'postal-mime';
-import worker, { extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS, reportMime, sendWeeklyReport } from './index.js';
+import worker, { notFound, extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS, reportMime, sendWeeklyReport } from './index.js';
 
 function memoryKV() {
   const store = new Map();
@@ -202,4 +202,27 @@ test('weekly report: fetched from the repo and emailed as UTF-8 plain text', asy
   }
   const decoded = new TextDecoder().decode(Uint8Array.from(atob(reportMime('a@b.c', 'Ünïcode — ok\n').match(/=\?UTF-8\?B\?(.*)\?=/)[1]), (c) => c.charCodeAt(0)));
   assert.equal(decoded, 'Ünïcode — ok');
+});
+
+test('pasted links with stray punctuation redirect; other misses get the 404 page', async () => {
+  const pages = new Set(['/news/story/', '/404.html']);
+  const env = {
+    ASSETS: {
+      fetch: async (req) => {
+        const { pathname } = new URL(req.url);
+        return pages.has(pathname) ? new Response(req.method === 'HEAD' ? null : 'No signal here.', { status: 200, headers: { 'Content-Type': 'text/html' } })
+          : new Response('nope', { status: 404 });
+      },
+    },
+  };
+  for (const tail of [')', ').', '%22', '%29', ',', '%E2%80%9D']) {
+    const res = await notFound(new Request(`https://datagovernancesignal.com/news/story/${tail}`), env);
+    assert.equal(res.status, 301, tail);
+    assert.equal(res.headers.get('location'), 'https://datagovernancesignal.com/news/story/');
+  }
+  const missing = await notFound(new Request('https://datagovernancesignal.com/news/other/)'), env);
+  assert.equal(missing.status, 404);
+  assert.match(await missing.text(), /No signal here/);
+  const plain = await notFound(new Request('https://datagovernancesignal.com/x/'), {});
+  assert.equal(plain.status, 404);
 });

@@ -8,6 +8,8 @@
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./dist",
+    // The Worker reads assets to send pasted links with stray punctuation to the right page.
+    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },

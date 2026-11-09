@@ -235,6 +235,25 @@ export async function sendWeeklyReport(env, makeMessage) {
   await env.REPORT_MAILER.send(makeMessage(REPORT_FROM, env.REPORT_EMAIL, reportMime(env.REPORT_EMAIL, text)));
 }
 
+// Links pasted into emails and chats pick up a closing bracket, full stop or quote mark (".../story/)").
+const TRAILING_JUNK = /(?:[)\].,;:!?'"’”>»]|%22|%27|%29|%5D|%E2%80%9D)+\/?$/i;
+
+/** Requests with no matching file: send pasted links with stray punctuation to the page, else show the 404 page. */
+export async function notFound(request, env) {
+  const url = new URL(request.url);
+  if (env?.ASSETS && (request.method === 'GET' || request.method === 'HEAD')) {
+    const cleaned = url.pathname.replace(TRAILING_JUNK, '');
+    if (cleaned !== url.pathname && cleaned.length > 1) {
+      const target = new URL(cleaned.endsWith('/') ? cleaned : `${cleaned}/`, url);
+      const probe = await env.ASSETS.fetch(new Request(target, { method: 'HEAD' }));
+      if (probe.ok) return Response.redirect(target.href, 301);
+    }
+    const page = await env.ASSETS.fetch(new Request(new URL('/404.html', url)));
+    if (page.ok) return new Response(page.body, { status: 404, headers: page.headers });
+  }
+  return new Response('Not found', { status: 404 });
+}
+
 export default {
   async scheduled(event, env, ctx) {
     const key = Object.keys(CRON_JOBS).find((c) => c.toLowerCase() === String(event.cron).toLowerCase());
@@ -264,7 +283,7 @@ export default {
     }
     const match = pathname.match(/^\/feeds\/([a-z0-9-]+)\/?$/);
     if (match && request.method === 'GET') return relayFeed(match[1]);
-    return new Response('Not found', { status: 404 });
+    return notFound(request, env);
   },
 
   async email(message, env) {
