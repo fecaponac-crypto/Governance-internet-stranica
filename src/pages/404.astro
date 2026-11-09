@@ -12,3 +12,20 @@ import Base from '../layouts/Base.astro';
     <p><a class="btn" href="/">Back to the front page</a> &nbsp; <a href="/search/">Search the archive</a></p>
   </div>
 </Base>
+
+<script>
+  // Links pasted into emails and chats often pick up a closing bracket, full stop or quote mark
+  // (".../story/)"), or lose the trailing slash. Try the cleaned-up address and go there if it exists.
+  (async () => {
+    const raw = decodeURIComponent(location.pathname);
+    let clean = raw.replace(/[)\].,;:!?'"’”>»]+$/u, '').replace(/[)\].,;:!?'"’”>»]+\/$/u, '/');
+    if (!clean.endsWith('/')) clean += '/';
+    if (clean === raw) return;
+    try {
+      const res = await fetch(clean, { method: 'HEAD' });
+      if (res.ok) location.replace(clean + location.search + location.hash);
+    } catch {
+      /* stay on the 404 page */
+    }
+  })();
+</script>

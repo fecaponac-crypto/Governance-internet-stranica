@@ -5,6 +5,7 @@ import Importance from '../../components/Importance.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
 import Feedback from '../../components/Feedback.astro';
+import Share from '../../components/Share.astro';
 import Listen from '../../components/Listen.astro';
 import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
@@ -181,6 +182,7 @@ const jsonLd = {
           }
         </section>
 
+        <Share title={data.title} url={new URL(`/news/${article.id}/`, SITE.url).href} />
         <Feedback title={data.title} />
         {
           corrections.map((c) => (

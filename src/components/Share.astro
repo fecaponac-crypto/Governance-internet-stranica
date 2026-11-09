@@ -1,0 +1,101 @@
+---
+// Share a story: LinkedIn, Bluesky, email and copy link. Plain links, no third-party scripts or trackers.
+interface Props {
+  title: string;
+  url: string;
+}
+const { title, url } = Astro.props;
+const e = encodeURIComponent;
+const links = [
+  { label: 'LinkedIn', href: `https://www.linkedin.com/sharing/share-offsite/?url=${e(url)}` },
+  { label: 'Bluesky', href: `https://bsky.app/intent/compose?text=${e(`${title} ${url}`)}` },
+  { label: 'Email', href: `mailto:?subject=${e(title)}&body=${e(`${title}\n\n${url}`)}` },
+];
+---
+
+<section class="share" aria-label="Share this story">
+  <p>Share</p>
+  <ul>
+    {
+      links.map((l) => (
+        <li>
+          <a href={l.href} target={l.label === 'Email' ? undefined : '_blank'} rel="noopener">
+            {l.label}
+            {l.label !== 'Email' && <span class="visually-hidden"> (opens in a new tab)</span>}
+          </a>
+        </li>
+      ))
+    }
+    <li>
+      <button type="button" data-copy={url}>Copy link</button>
+    </li>
+  </ul>
+  <p class="copied" role="status" data-copied></p>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach((b) =>
+    b.addEventListener('click', async () => {
+      const status = b.closest('.share')?.querySelector<HTMLElement>('[data-copied]');
+      try {
+        await navigator.clipboard.writeText(b.dataset.copy!);
+        if (status) status.textContent = 'Link copied.';
+      } catch {
+        if (status) status.textContent = b.dataset.copy!;
+      }
+    }),
+  );
+</script>
+
+<style>
+  .share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin: 1.5rem 0 0;
+    font-size: 0.9rem;
+  }
+  .share > p:first-child {
+    margin: 0;
+    font-weight: 650;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  a,
+  button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 0.9rem;
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    background: transparent;
+    color: var(--ink);
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover,
+  a:focus-visible,
+  button:hover,
+  button:focus-visible {
+    border-color: var(--signal);
+  }
+  .copied {
+    flex-basis: 100%;
+    margin: 0;
+    color: var(--ink-2);
+    font-size: 0.85rem;
+    word-break: break-all;
+  }
+  .copied:empty {
+    display: none;
+  }
+</style>
