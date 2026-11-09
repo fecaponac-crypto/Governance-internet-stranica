@@ -1,30 +1,30 @@
-Data Governance Signal — week 1 Nov – 7 Nov 2026
+Data Governance Signal — week 2 Nov – 8 Nov 2026
 
-Visits:      533  (+281% on the week before: 140)
-Page views:  545  (+203% on the week before: 180)
+Visits:      533  (+344% on the week before: 120)
+Page views:  543  (+239% on the week before: 160)
 
 Most read:
    131  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
-   121  /
-    72  /category/privacy/
+   114  /
+    73  /category/privacy/
     66  /category/security/
-    27  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
+    28  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
 
 Countries:
-   311  US
+   312  US
     32  GB
     29  NL
     23  AU
-    22  CN
+    21  CN
 
 Where visitors came from:
-   502  (direct)
-    15  www.google.com
-    12  datagovernancesignal.com
+   503  (direct)
+    13  www.google.com
     11  teams.public.onecdn.static.microsoft
-     2  com.google.android.gm
+    10  datagovernancesignal.com
+     3  www.linkedin.com
 
-Published this week: 26 stories
+Published this week: 27 stories
   - AMA publishes governance framework for agentic AI taking on clinical functions
   - Berlin data protection authority reprimands four German parties over 2021 political microtargeting
   - BlackFog-commissioned survey finds 47% of firms report sensitive data exposed through AI tools
@@ -40,7 +40,7 @@ Published this week: 26 stories
   - EU Council agrees Digital Omnibus negotiating mandate, including GDPR provision on AI processing
   - EU Kids Act proposal would turn minor-protection guidance into audited design and age-check duties
   - European Commission preliminarily finds TikTok's 'For You' algorithm breaches the DSA over 'rabbit holes'
-  … and 11 more
+  … and 12 more
 
 Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).
 Month so far: https://github.com/fecaponac-crypto/Governance-internet-stranica/blob/claude/data-intelligence-portal-plan-v46ux0/data/reports/traffic.md

@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-08T22:09:39Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-09T00:18:35Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**542 visits · 554 page views** this month (bots excluded)
+**543 visits · 555 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -15,7 +15,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-05 | 396 | 400 |
 | 2026-11-06 | 67 | 67 |
 | 2026-11-07 | 8 | 8 |
-| 2026-11-08 | 9 | 9 |
+| 2026-11-08 | 10 | 10 |
 
 ## Top pages
 
@@ -27,8 +27,8 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd — 12
 - /enforcement/ — 11
 - /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/ — 11
-- /category/ai-governance/ — 8
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 8
+- /legislation/ — 8
 
 ## Countries
 
@@ -45,7 +45,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 510
+- (direct) — 511
 - www.google.com — 15
 - datagovernancesignal.com — 12
 - teams.public.onecdn.static.microsoft — 11
