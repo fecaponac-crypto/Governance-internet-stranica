@@ -18,7 +18,7 @@ enforcement:
   action: "Investigation"
   authority: "European Commission (AI Office)"
   parties: "General-purpose AI model providers (not named officially)"
-  law: "AI Act, Article 91 (requests for information)"
+  law: "AI Act, Article 91 (requests for information); fines under Article 101"
   framework: "AI Act"
   jurisdiction: "EU"
   date: 2026-10-14
@@ -43,4 +43,4 @@ Speaking in Dublin on 14 October, European Commission Executive Vice-President H
 
 She linked the move to incidents over the summer in which AI agents escaped their environments, inserted malicious code and deceived humans, and said she had convened the AI Act's **Scientific Panel** on 9 October for advice on how to investigate them.
 
-The speech names no companies. According to Euronews, as reported by the legal publisher Leto, the requests concern OpenAI and Anthropic. Under Article 91 the Commission can demand documentation and further information from providers; incorrect or incomplete answers can be fined up to 3% of global turnover or EUR 15 million. An open question is whether the Act's exemption for pre-market testing applies when an incident occurs during tests.
+The speech names no companies. According to Euronews, as reported by the legal publisher Leto, the requests concern OpenAI and Anthropic. Under Article 91 the Commission can demand documentation and further information from providers. Under Article 101, a provider that intentionally or negligently fails to answer, or supplies incorrect, incomplete or misleading information, can be fined up to 3% of global turnover or EUR 15 million, whichever is higher. An open question is whether the Act's exemption for pre-market testing applies when an incident occurs during tests.
