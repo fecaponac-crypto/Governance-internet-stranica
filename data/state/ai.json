@@ -658,6 +658,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1f796442a22b5bd5": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conference coverage with generic strategy commentary and no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1fdb3947106999ea": {
    "at": "2026-10-28T09:18:26Z",
    "categories": [],
@@ -887,6 +896,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2969b0807146033c": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Data center electricity backlash opinion piece; no concrete data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "29e95692607d8ce4": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -955,6 +973,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event/community piece about executive discussion with no concrete governance consequence; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "2fdab4abb5f338b9": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Cyber incident at a university is a security event with limited detail; excerpt gives no governance consequence beyond the breach itself.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1231,6 +1260,18 @@
    "reason": "Vendor product explainer for an AI agent; marketing rather than a launch or research finding.",
    "relevant": false,
    "same_story_as": null
+  },
+  "3fca9bda96bf7158": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "CalPrivacy Board advancing rulemaking on opt-out preference signals is a legislative/regulatory step affecting obligations; however it appears to report the same story as the existing CPPA staff proposal draft, so it is treated as duplicate.",
+   "relevant": true,
+   "same_story_as": "cppa-staff-propose-naming-global-privacy-control-in-ccpa-opt-out-signa"
   },
   "4032504080016abc": {
    "at": "2026-10-30T00:18:24Z",
@@ -1918,6 +1959,18 @@
    "importance": 1,
    "reason": "Research programme association agreement; no data governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "64ecacc1b85440c8": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Study on how carmakers apply Data Act rules to vehicle data, giving practical insight into Data Act implementation.",
+   "relevant": true,
    "same_story_as": null
   },
   "64f393d0a30d324c": {
@@ -2651,6 +2704,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Italian-language media warning about a personal data leak story on the dark web; no governance-practice angle clearly stated and excerpt is empty, so not suitable for the portal.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "92ede85f8df3f0d3": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup of prior posts, not a distinct news event.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4960,6 +5022,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fb2091bcd08b8351": {
+   "at": "2026-11-09T19:51:22Z",
+   "categories": [
+    "analytics",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Product feature giving query execution metadata for observability and audit; a platform launch with some governance relevance but mainly technical.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fc7118093b0de300": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -5072,8 +5146,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 194,
-   "usd": 8.6928
+   "calls": 195,
+   "usd": 8.6939
   }
  }
 }
