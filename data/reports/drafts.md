@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-09T03:18:52Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-09T06:18:36Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$7.93** of $25 budget (177 calls)
+AI spend this month: **$8.14** of $25 budget (179 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic newsletter issue with no specific governance story in the title or excerpt.
 - (1) Italian-language media warning about a personal data leak story on the dark web; no governance-practice angle clearly stated and excerpt is empty, so not suitable for the portal.
 - (1) Title describes a government health data exchange partnership with no clear governance angle in the excerpt; excerpt is empty and the story is not clearly about data governance practice.
 - (1) Generic listicle of CIO stories on resilience; no concrete data governance angle.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Open dataset release of scorpion specimens; not governance-relevant news.
 - (1) Company interview on supply-chain AI platform; not a governance story.
 - (1) Vendor product update roundup, which is marketing rather than a genuine launch.
-- (1) Event roundtable coverage with no concrete governance development.
