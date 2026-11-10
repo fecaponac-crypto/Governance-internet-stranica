@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-09T21:18:15Z** · sources checked: 81 · failed: 1 · new items this run: 6
+Last run: **2026-11-10T00:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (31)
+## New items, last 48 hours (34)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [CalPrivacy Board advances rulemaking to update opt-out preference signals requirements](https://iapp.org/news/a/calprivacy-board-advances-rulemaking-to-update-opt-out-preference-signals-requirements) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [Thought for the week: Companies face cyber pain as hackers press AI advantage](https://iapp.org/news/a/thought-for-the-week-companies-face-cyber-pain-as-hackers-press-ai-advantage) |
 
@@ -40,6 +41,8 @@ Last run: **2026-11-09T21:18:15Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-09 | AWS Big Data Blog | [Introducing the Workday Data Cloud integration with AWS](https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/) |
+| 2026-11-09 | Monte Carlo Blog | [What Is Agentic Observability? How It Works and Where It Stops](https://montecarlo.ai/blog-what-is-agentic-observability) |
 | 2026-11-09 | MIT Technology Review | [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) |
 | 2026-11-09 | The Record (Recorded Future News) | [Vanderbilt cybersecurity incident impacting campus devices and systems](https://therecord.media/vanderbilt-cyberattack-ransomware-alert) |
 | 2026-11-09 | AWS Big Data Blog | [Amazon Athena introduces system tables for query execution observability](https://aws.amazon.com/blogs/big-data/amazon-athena-introduces-system-tables-for-query-execution-observability/) |
@@ -52,7 +55,7 @@ Last run: **2026-11-09T21:18:15Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 62× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 63× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

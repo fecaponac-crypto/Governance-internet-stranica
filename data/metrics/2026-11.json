@@ -1,75 +1,65 @@
 {
  "month": "2026-11",
- "updated": "2026-11-09T21:19:01Z",
+ "updated": "2026-11-10T00:18:42Z",
  "portal": {
-  "published_total": 73,
-  "published_this_month": 30,
+  "published_total": 74,
+  "published_this_month": 31,
   "published_this_month_by_importance": {
-   "3": 17,
+   "3": 18,
    "4": 8,
    "2": 5
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 206,
-  "runs": 103,
-  "runs_with_failed_sources": 77,
+  "items_collected": 209,
+  "runs": 104,
+  "runs_with_failed_sources": 78,
   "triage_decisions": {
    "drafted": 36,
-   "skipped": 167,
+   "skipped": 170,
    "failed": 4
   },
-  "ai_spend_usd": 8.7964,
+  "ai_spend_usd": 8.7972,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 31,
+  "drafts_published": 32,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 577,
-  "visits": 562,
+  "page_views": 510,
+  "visits": 500,
   "bots_excluded": true,
   "by_day": [
    {
-    "date": "2026-11-01",
-    "page_views": 12,
-    "visits": 10
-   },
-   {
     "date": "2026-11-02",
-    "page_views": 19,
-    "visits": 19
+    "page_views": 30,
+    "visits": 30
    },
    {
     "date": "2026-11-03",
-    "page_views": 18,
-    "visits": 18
+    "page_views": 30,
+    "visits": 30
    },
    {
     "date": "2026-11-04",
-    "page_views": 21,
-    "visits": 15
+    "page_views": 10,
+    "visits": 10
    },
    {
     "date": "2026-11-05",
-    "page_views": 400,
-    "visits": 396
+    "page_views": 340,
+    "visits": 330
    },
    {
     "date": "2026-11-06",
-    "page_views": 67,
-    "visits": 67
-   },
-   {
-    "date": "2026-11-07",
-    "page_views": 8,
-    "visits": 8
+    "page_views": 70,
+    "visits": 70
    },
    {
     "date": "2026-11-08",
@@ -78,126 +68,110 @@
    },
    {
     "date": "2026-11-09",
-    "page_views": 22,
-    "visits": 19
+    "page_views": 20,
+    "visits": 20
    }
   ],
   "top_pages": [
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
-    "page_views": 131
-   },
-   {
-    "requestPath": "/",
-    "page_views": 129
+    "page_views": 120
    },
    {
     "requestPath": "/category/privacy/",
-    "page_views": 75
+    "page_views": 80
    },
    {
     "requestPath": "/category/security/",
-    "page_views": 66
+    "page_views": 60
+   },
+   {
+    "requestPath": "/",
+    "page_views": 50
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
-    "page_views": 28
-   },
-   {
-    "requestPath": "/sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd",
-    "page_views": 12
-   },
-   {
-    "requestPath": "/enforcement/",
-    "page_views": 11
-   },
-   {
-    "requestPath": "/news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/",
-    "page_views": 11
+    "page_views": 30
    },
    {
     "requestPath": "/category/ai-governance/",
-    "page_views": 9
+    "page_views": 20
    },
    {
-    "requestPath": "/legislation/",
-    "page_views": 8
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "page_views": 10
+   },
+   {
+    "requestPath": "/news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g",
+    "page_views": 10
+   },
+   {
+    "requestPath": "/legislation/eu-cloud-ai-development-act/",
+    "page_views": 10
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 330
+    "page_views": 290
    },
    {
     "countryName": "GB",
-    "page_views": 32
-   },
-   {
-    "countryName": "NL",
-    "page_views": 29
-   },
-   {
-    "countryName": "AU",
-    "page_views": 23
+    "page_views": 40
    },
    {
     "countryName": "CN",
-    "page_views": 23
+    "page_views": 30
    },
    {
-    "countryName": "BE",
-    "page_views": 18
-   },
-   {
-    "countryName": "IE",
-    "page_views": 18
+    "countryName": "AU",
+    "page_views": 20
    },
    {
     "countryName": "CA",
-    "page_views": 13
-   },
-   {
-    "countryName": "HR",
-    "page_views": 13
+    "page_views": 10
    },
    {
     "countryName": "SE",
-    "page_views": 12
+    "page_views": 10
+   },
+   {
+    "countryName": "PH",
+    "page_views": 10
+   },
+   {
+    "countryName": "NL",
+    "page_views": 10
+   },
+   {
+    "countryName": "SG",
+    "page_views": 10
+   },
+   {
+    "countryName": "HK",
+    "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 526
-   },
-   {
-    "refererHost": "www.google.com",
-    "page_views": 18
-   },
-   {
-    "refererHost": "datagovernancesignal.com",
-    "page_views": 15
+    "page_views": 480
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",
-    "page_views": 11
+    "page_views": 10
+   },
+   {
+    "refererHost": "datagovernancesignal.com",
+    "page_views": 10
    },
    {
     "refererHost": "www.linkedin.com",
-    "page_views": 3
-   },
-   {
-    "refererHost": "com.google.android.gm",
-    "page_views": 2
-   },
-   {
-    "refererHost": "links.eu1.defend.egress.com",
-    "page_views": 1
-   },
-   {
-    "refererHost": "go.bsky.app",
-    "page_views": 1
+    "page_views": 10
    }
   ]
  },

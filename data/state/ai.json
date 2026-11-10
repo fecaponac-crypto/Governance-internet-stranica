@@ -1162,6 +1162,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3a76f249765a6e17": {
+   "at": "2026-11-10T00:18:34Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same story as existing draft on Pennsylvania AI advertising law; marked as duplicate of existing article.",
+   "relevant": true,
+   "same_story_as": "pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead"
+  },
   "3ab4fe5ff6902146": {
    "at": "2026-11-05T06:52:15Z",
    "categories": [
@@ -2097,6 +2109,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6a4a0065d42d41fd": {
+   "at": "2026-11-10T00:18:34Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog educational explainer on agentic observability; generic thought leadership and vendor marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "6b32941e8800f533": {
    "at": "2026-10-29T21:19:01Z",
    "categories": [
@@ -2459,6 +2482,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Executive appointment roundup; hiring/people news not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7fd3d744b826e9e5": {
+   "at": "2026-11-10T00:18:34Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor integration announcement from a cloud provider blog; it is marketing-style product integration with limited governance consequence, not a genuine launch with governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5217,8 +5251,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 199,
-   "usd": 8.7964
+   "calls": 200,
+   "usd": 8.7972
   }
  }
 }

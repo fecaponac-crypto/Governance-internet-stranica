@@ -1,56 +1,50 @@
 # Traffic — 2026-11
 
-Updated 2026-11-09T21:19:01Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-10T00:18:42Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**562 visits · 577 page views** this month (bots excluded)
+**500 visits · 510 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 | Day | Visits | Page views |
 |---|---:|---:|
-| 2026-11-01 | 10 | 12 |
-| 2026-11-02 | 19 | 19 |
-| 2026-11-03 | 18 | 18 |
-| 2026-11-04 | 15 | 21 |
-| 2026-11-05 | 396 | 400 |
-| 2026-11-06 | 67 | 67 |
-| 2026-11-07 | 8 | 8 |
+| 2026-11-02 | 30 | 30 |
+| 2026-11-03 | 30 | 30 |
+| 2026-11-04 | 10 | 10 |
+| 2026-11-05 | 330 | 340 |
+| 2026-11-06 | 70 | 70 |
 | 2026-11-08 | 10 | 10 |
-| 2026-11-09 | 19 | 22 |
+| 2026-11-09 | 20 | 20 |
 
 ## Top pages
 
-- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/ — 131
-- / — 129
-- /category/privacy/ — 75
-- /category/security/ — 66
-- /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 28
-- /sjBxdstDg-knqjx-knAj-liuw-htruqfnsyx-flfnsxy-xhfqj-fn-tAjw-ywfhpnsl-fsi-gntd — 12
-- /enforcement/ — 11
-- /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/ — 11
-- /category/ai-governance/ — 9
-- /legislation/ — 8
+- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/ — 120
+- /category/privacy/ — 80
+- /category/security/ — 60
+- / — 50
+- /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
+- /category/ai-governance/ — 20
+- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
+- /news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/ — 10
+- /news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g — 10
+- /legislation/eu-cloud-ai-development-act/ — 10
 
 ## Countries
 
-- US — 330
-- GB — 32
-- NL — 29
-- AU — 23
-- CN — 23
-- BE — 18
-- IE — 18
-- CA — 13
-- HR — 13
-- SE — 12
+- US — 290
+- GB — 40
+- CN — 30
+- AU — 20
+- CA — 10
+- SE — 10
+- PH — 10
+- NL — 10
+- SG — 10
+- HK — 10
 
 ## Referrers
 
-- (direct) — 526
-- www.google.com — 18
-- datagovernancesignal.com — 15
-- teams.public.onecdn.static.microsoft — 11
-- www.linkedin.com — 3
-- com.google.android.gm — 2
-- links.eu1.defend.egress.com — 1
-- go.bsky.app — 1
+- (direct) — 480
+- teams.public.onecdn.static.microsoft — 10
+- datagovernancesignal.com — 10
+- www.linkedin.com — 10
