@@ -1205,6 +1205,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3866d98ef9617ce8": {
+   "at": "2026-11-10T18:17:39Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Horizon Europe research funding news without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3963147d9274ef53": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -2671,6 +2680,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "809ca37994643a67": {
+   "at": "2026-11-10T18:17:39Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Product release of a metadata platform adding lineage, certified assets and context docs; useful for catalogue practitioners but largely vendor release notes.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "80b936e6dfd46869": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -3305,6 +3325,23 @@
    "importance": 1,
    "reason": "Generic thought-leadership opinion piece with no new concrete development or research finding.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "9e3006c02e11ed54": {
+   "at": "2026-11-10T18:17:39Z",
+   "categories": [
+    "metadata",
+    "analytics"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "google-makes-bigquery-measures-generally-available-putting-governed-me",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/93",
+   "primary_found": false,
+   "reason": "GA launch of governed metric definitions and knowledge graphs for AI accuracy from a major platform is a concrete metadata/semantic-layer development.",
+   "relevant": true,
    "same_story_as": null
   },
   "9e3563532aba4693": {
@@ -4138,6 +4175,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c5cb5b8b5a387939": {
+   "at": "2026-11-10T18:17:39Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "enisa-s-2026-state-of-cybersecurity-report-puts-eu-cyber-maturity-inde",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/91",
+   "primary_found": false,
+   "reason": "ENISA State of Cybersecurity report is a significant official security posture publication relevant to data security governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "c5d2977915966002": {
    "at": "2026-11-10T12:18:32Z",
    "categories": [
@@ -4736,6 +4789,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Consulting thought-leadership on securities services; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "dca62fce29ba0799": {
+   "at": "2026-11-10T18:17:39Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analysis of council cloud dependence; touches sovereignty but is more infrastructure than data governance practice and comes from a low-reliability type.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5454,6 +5518,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fe08f85d3e46e80f": {
+   "at": "2026-11-10T18:17:39Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 8,
+   "decision": "drafted",
+   "draft": "australia-plans-mandatory-frontier-ai-security-duties-and-a-new-ai-saf",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/92",
+   "primary_found": true,
+   "reason": "New national AI regulator and frontier model security obligations in Australia affect AI governance practice.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fe909fccac8332c4": {
    "at": "2026-10-29T03:18:57Z",
    "categories": [
@@ -5529,8 +5610,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 216,
-   "usd": 9.2818
+   "calls": 227,
+   "usd": 9.7265
   }
  }
 }
