@@ -1751,6 +1751,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "523534093530831a": {
+   "at": "2026-11-10T09:19:14Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IMY regulator guidance report on location-based direct communication to mobile phones with GDPR/privacy-by-design angle; practical but niche.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "52626182acc0f701": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -3040,6 +3052,19 @@
    "importance": 1,
    "reason": "Vendor landscape commentary on agent builders; generic thought-leadership without a concrete governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "9a94a53174789115": {
+   "at": "2026-11-10T09:19:14Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Newsletter on AI Office proposal for independent external evaluators of GPAI models with systemic risk and incident reporting gaps; concrete AI Act governance development.",
+   "relevant": true,
    "same_story_as": null
   },
   "9afb530081cdd8e3": {
@@ -5278,8 +5303,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 202,
-   "usd": 8.7986
+   "calls": 203,
+   "usd": 8.7994
   }
  }
 }

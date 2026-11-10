@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-10T06:18:26Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-10T09:19:14Z** · candidates 2 · scored 2 · selected 1 · drafted 0 · failed 1 · queued for next run 0
 
-AI spend this month: **$8.80** of $25 budget (202 calls)
+AI spend this month: **$8.80** of $25 budget (203 calls)
 
 ## This run
 
-_No drafts this run._
+- ❌ [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) — source not readable: HTTP 403
 
 ## Recently skipped by triage
 
+- (2) IMY regulator guidance report on location-based direct communication to mobile phones with GDPR/privacy-by-design angle; practical but niche.
 - (1) Generic opinion column with no concrete governance guidance visible in the excerpt; stays at background level at most.
 - (1) Event/community networking coverage about executive gatherings; generic thought-leadership without a concrete governance consequence.
 - (1) Event-recap style networking piece with generic AI commentary; no concrete governance development.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Conference coverage with generic strategy commentary and no concrete data governance consequence.
 - (1) Data center electricity backlash opinion piece; no concrete data governance angle.
 - (2) Cyber incident at a university is a security event with limited detail; excerpt gives no governance consequence beyond the breach itself.
-- (3) CalPrivacy Board advancing rulemaking on opt-out preference signals is a legislative/regulatory step affecting obligations; however it appears to report the same story as the existing CPPA staff proposal draft, so it is treated as duplicate.

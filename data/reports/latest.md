@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-10T06:18:14Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-10T09:18:15Z** · sources checked: 81 · failed: 2 · new items this run: 2
 
-## New items, last 48 hours (37)
+## New items, last 48 hours (39)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
 | 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [CalPrivacy Board advances rulemaking to update opt-out preference signals requirements](https://iapp.org/news/a/calprivacy-board-advances-rulemaking-to-update-opt-out-preference-signals-requirements) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [Thought for the week: Companies face cyber pain as hackers press AI advantage](https://iapp.org/news/a/thought-for-the-week-companies-face-cyber-pain-as-hackers-press-ai-advantage) |
@@ -16,6 +17,7 @@ Last run: **2026-11-10T06:18:14Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
 | 2026-11-10 | CDO Magazine | [Community Trust Is What Moves AI Forward: Southern California Executives Connect on Responsible Innovation](https://www.cdomagazine.tech/community/trust-is-what-moves-ai-forward-southern-california-executives-connect-on-responsible-innovation) |
 | 2026-11-10 | CDO Magazine | [Community Beyond Summaries and Chatbots: DC Executives Consider What AI Needs to Understand About Business](https://www.cdomagazine.tech/community/beyond-summaries-and-chatbots-dc-executives-consider-what-ai-needs-to-understand-about-business) |
 | 2026-11-09 | CDO Magazine | [Artificial Intelligence Gartner: Agentic AI Adoption Is Outpacing Enterprise Governance](https://www.cdomagazine.tech/aiml/gartner-agentic-ai-adoption-is-outpacing-enterprise-governance) |
@@ -58,7 +60,8 @@ Last run: **2026-11-10T06:18:14Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 66× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
+- **European Data Protection Board (EDPB)** — failed 67× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
