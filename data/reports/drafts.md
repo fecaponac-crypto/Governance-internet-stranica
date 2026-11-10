@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-10T03:36:07Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-10T06:18:26Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$8.80** of $25 budget (201 calls)
+AI spend this month: **$8.80** of $25 budget (202 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic opinion column with no concrete governance guidance visible in the excerpt; stays at background level at most.
 - (1) Event/community networking coverage about executive gatherings; generic thought-leadership without a concrete governance consequence.
 - (1) Event-recap style networking piece with generic AI commentary; no concrete governance development.
 - (3) Same story as existing draft on Pennsylvania AI advertising law; marked as duplicate of existing article.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Data center electricity backlash opinion piece; no concrete data governance angle.
 - (2) Cyber incident at a university is a security event with limited detail; excerpt gives no governance consequence beyond the breach itself.
 - (3) CalPrivacy Board advancing rulemaking on opt-out preference signals is a legislative/regulatory step affecting obligations; however it appears to report the same story as the existing CPPA staff proposal draft, so it is treated as duplicate.
-- (1) Newsletter roundup of prior posts, not a distinct news event.

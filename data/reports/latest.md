@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-10T03:35:52Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-10T06:18:14Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (36)
+## New items, last 48 hours (37)
 
 ### High priority sources
 
@@ -34,6 +34,7 @@ Last run: **2026-11-10T03:35:52Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | CNIL (France) | [Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions](https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales) |
 | 2026-11-09 | Euractiv | [Europe risks confusing more data centres with greater digital sovereignty [Promoted Content]](https://www.rapporteur.com/opinion/europe-risks-confusing-more-data-centres-with-greater-digital-sovereignty/) |
 | 2026-11-09 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Nytt lektionsmaterial ska göra elever säkrare på nätet](https://www.imy.se/nyheter/nytt-lektionsmaterial-ska-gora-elever-sakrare-pa-natet/) |
+| 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
 | 2026-11-09 | Euractiv | [THE HACK: EU leaders to talk AI challenges](https://www.rapporteur.com/news/the-hack-eu-leaders-to-talk-ai-challenges/) |
 | 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
 | 2026-11-08 | Privacy World (Squire Patton Boggs) | [Still in the Driver’s Seat: DPPA Litigation Risk Persists for Companies Handling State DMV Data](https://www.privacyworld.blog/2026/11/still-in-the-drivers-seat-dppa-litigation-risk-persists-for-companies-handling-state-dmv-data/) |
@@ -57,7 +58,7 @@ Last run: **2026-11-10T03:35:52Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 65× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 66× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

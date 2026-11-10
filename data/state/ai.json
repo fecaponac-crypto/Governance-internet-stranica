@@ -227,6 +227,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "095d0f50c23bcc87": {
+   "at": "2026-11-10T06:18:26Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion column with no concrete governance guidance visible in the excerpt; stays at background level at most.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0c098d5b895afe7b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -5269,8 +5278,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 201,
-   "usd": 8.7979
+   "calls": 202,
+   "usd": 8.7986
   }
  }
 }
