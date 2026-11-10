@@ -5,7 +5,9 @@ on:
     branches: [claude/data-intelligence-portal-plan-v46ux0]
     paths: ['src/content/**']
   schedule:
-    - cron: '41 7 * * *' # scheduled Opinion essays go live with the morning build
+    # Started daily at 06:41 UTC by the Cloudflare Worker cron (GitHub's schedule can run hours late);
+    # this later run is only a fallback.
+    - cron: '41 9 * * *'
   workflow_dispatch:
 
 permissions:

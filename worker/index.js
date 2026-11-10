@@ -83,6 +83,8 @@ const WORKFLOWS_URL = 'https://api.github.com/repos/fecaponac-crypto/Governance-
 export const CRON_JOBS = {
   '17 */3 * * *': { workflow: 'ingest.yml', key: 'cron:last' },
   '47 5 * * MON': { workflow: 'monday.yml', key: 'cron:last-monday', weeklyReport: true },
+  // Bluesky/Mastodon after the morning rebuild, so scheduled Opinion essays are posted on the day (GitHub's own schedule runs hours late).
+  '41 6 * * *': { workflow: 'social.yml', key: 'cron:last-social' },
   // Public launch, 30 October 12:00 Zagreb; repeats yearly but does nothing after launch.
   '55 10 30 10 *': { workflow: 'launch.yml', key: 'cron:last-launch' },
 };
