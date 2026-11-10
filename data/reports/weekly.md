@@ -15,7 +15,7 @@ Countries:
     32  GB
     29  NL
     23  AU
-    18  IE
+    18  BE
 
 Where visitors came from:
    501  (direct)

@@ -51,6 +51,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "016a84ead6e34f50": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "mexico-decree-requires-platforms-to-verify-age-set-strict-defaults-and",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/89",
+   "primary_found": true,
+   "reason": "Mexico decree on secure digital environments for minors is a new regulatory instrument affecting data handling for children.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "01caa11db6e10890": {
    "at": "2026-11-03T12:19:15Z",
    "categories": [],
@@ -545,6 +562,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1696165d4e910ef6": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "GSA tightening data ownership rules for federal AI contractors has a governance angle, though the excerpt is thin.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "17ef4919ead4cb16": {
    "at": "2026-10-29T09:18:31Z",
    "categories": [],
@@ -682,6 +711,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Newsletter teaser with only topic keywords and no concrete detail; not a standalone story.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "2097511f7f1d1e9e": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic examination commentary without concrete detail to act on; not clearly a governance development.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1030,6 +1070,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "310173fdff214cac": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "No data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "32592c3b6ffb701d": {
    "at": "2026-10-30T09:18:28Z",
    "categories": [],
@@ -1223,6 +1272,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor product feature announcement for automated Snowpipe setup is marketing-style with no clear governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3c9057e116d97096": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing content rather than genuine launch or research.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1803,6 +1863,29 @@
    "relevant": false,
    "same_story_as": null
   },
+  "53fdaf1a50633250": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Listicle-style thought piece on context failures; generic opinion.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "546f5d8ec61c4b94": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "metadata",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical piece on defining metrics and dimensions before agents; usable but modest.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "54955e6fc7a6f700": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -2168,6 +2251,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "6b843fb0a88b5193": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP regional note on AI governance moving into practice in Latin America; practical but general.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "6d2a4c80a61e10ec": {
    "at": "2026-10-27T15:18:25Z",
    "categories": [],
@@ -2226,6 +2321,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog on setting up Collibra MCP on Snowflake is how-to marketing rather than a genuine launch or acquisition.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "70f87f6bfcb3fc1f": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for a trade fair.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2936,6 +3040,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "958678e7fd6a1848": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "market",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Funding round for a data query engine vendor; minor market news.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "9593371aeb505d4c": {
    "at": "2026-11-04T21:18:28Z",
    "categories": [],
@@ -3305,6 +3421,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Company interview on supply-chain AI platform; not a governance story.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a7814420102e207d": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conference talk recap on a healthcare ML model; no governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3958,6 +4085,23 @@
    "importance": 1,
    "reason": "Earnings report for Palantir; general financial news without a concrete data governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "c29b9c1028c52855": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 15,
+   "decision": "drafted",
+   "draft": "chilean-bill-to-delay-data-protection-law-to-15-october-2027-passes-se",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/90",
+   "primary_found": false,
+   "reason": "Probable change to entry-into-force date of Chile's personal data law affects compliance planning.",
+   "relevant": true,
    "same_story_as": null
   },
   "c2b3e3047caa0132": {
@@ -4678,6 +4822,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e0cc8918832f1909": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPB launches child-oriented data protection information hub; limited practitioner consequence.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e1135bc2083df783": {
    "at": "2026-11-05T15:18:33Z",
    "categories": [
@@ -4983,6 +5138,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Podcast episode announcement with no substantive governance news in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f00273d9e0a70d0a": {
+   "at": "2026-11-10T14:57:08Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Personnel nomination for CISA without a data governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5352,8 +5518,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 206,
-   "usd": 8.8874
+   "calls": 215,
+   "usd": 9.2811
   }
  }
 }

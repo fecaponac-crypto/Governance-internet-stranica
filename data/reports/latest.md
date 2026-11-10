@@ -1,13 +1,16 @@
 # Inflow report
 
-Last run: **2026-11-10T12:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-10T14:56:52Z** · sources checked: 81 · failed: 1 · new items this run: 14
 
-## New items, last 48 hours (43)
+## New items, last 48 hours (57)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | IAPP — International Association of Privacy Professionals | [México expide el Decreto de entornos digitales seguros para niñas, niños y adolescentes](https://iapp.org/news/a/m-xico-expide-el-decreto-de-entornos-digitales-seguros-para-ni-as-ni-os-y-adolescentes) |
+| 2026-11-10 | IAPP — International Association of Privacy Professionals | [El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?](https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-) |
+| 2026-11-10 | IAPP — International Association of Privacy Professionals | [Notas de la IAPP América Latina: La gobernanza de la IA en América Latina empieza a ponerse en práctica](https://iapp.org/news/a/notas-de-la-iapp-am-rica-latina-la-gobernanza-de-la-ia-en-am-rica-latina-empieza-a-ponerse-en-pr-ctica) |
 | 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
 | 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [CalPrivacy Board advances rulemaking to update opt-out preference signals requirements](https://iapp.org/news/a/calprivacy-board-advances-rulemaking-to-update-opt-out-preference-signals-requirements) |
@@ -17,8 +20,15 @@ Last run: **2026-11-10T12:18:18Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | CDO Magazine | [US Federal News Bureau GSA Tightens Data Ownership Rules for Federal AI Contractors](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-tightens-data-ownership-rules-for-federal-ai-contractors) |
+| 2026-11-10 | CDO Magazine | [Artificial Intelligence SEC Examines Data Governance Challenges as AI Systems Interpret Financial Disclosures](https://www.cdomagazine.tech/aiml/sec-examines-data-governance-challenges-as-ai-systems-interpret-financial-disclosures) |
+| 2026-11-10 | CDO Magazine | [AI Governance Five Context Failures CDOs Must Address Before Building AI Agents](https://www.cdomagazine.tech/ai-governance/five-context-failures-cdos-must-address-before-building-ai-agents) |
+| 2026-11-10 | SiliconANGLE — Big Data | [PuppyGraph raises $10M to let AI agents query enterprise data as a graph](https://siliconangle.com/2026/11/10/puppygraph-raises-10m-to-let-ai-agents-query-enterprise-data-as-a-graph/) |
+| 2026-11-10 | Euractiv | [Why AI might be behind surge in cases of mushroom poisoning](https://www.rapporteur.com/news/why-ai-might-be-behind-surge-in-cases-of-mushroom-poisoning/) |
+| 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [EDPB lanserar information om dataskydd anpassad för barn och unga](https://www.imy.se/nyheter/edpb-lanserar-information-om-dataskydd-anpassad-for-barn-och-unga/) |
 | 2026-11-10 | Datatilsynet (Norway) | [Gebyr for kredittvurdering og publisering av personopplysningar utan rettsleg grunnlag](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gebyr-for-kredittvurdering-og-publisering-av-personopplysningar-utan-rettsleg-grunnlag/) |
 | 2026-11-10 | CDO Magazine | [Leadership Moves Scotiabank Appoints Luke Gee EVP, Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/scotiabank-appoints-luke-gee-evp-chief-data-and-ai-officer) |
+| 2026-11-10 | CNIL (France) | [La CNIL sera présente au Salon des maires et des collectivités locales 2026](https://www.cnil.fr/fr/salon-maires-collectivites-2026) |
 | 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
 | 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
 | 2026-11-10 | CDO Magazine | [Community Trust Is What Moves AI Forward: Southern California Executives Connect on Responsible Innovation](https://www.cdomagazine.tech/community/trust-is-what-moves-ai-forward-southern-california-executives-connect-on-responsible-innovation) |
@@ -49,6 +59,8 @@ Last run: **2026-11-10T12:18:18Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | The Record (Recorded Future News) | [Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain](https://therecord.media/michael-losapio-cisa-director-nomination) |
+| 2026-11-10 | dbt Labs Blog | [How organizations progress from trusted data to trusted AI and agents](https://www.getdbt.com/blog/ai-maturity-trusted-data-to-trusted-ai-agents) |
 | 2026-11-10 | Computer Weekly — IT security | [Google Cloud London outage: Continuity lessons for IT leaders](https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders) |
 | 2026-11-09 | AWS Big Data Blog | [Introducing the Workday Data Cloud integration with AWS](https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/) |
 | 2026-11-09 | Monte Carlo Blog | [What Is Agentic Observability? How It Works and Where It Stops](https://montecarlo.ai/blog-what-is-agentic-observability) |
@@ -61,10 +73,12 @@ Last run: **2026-11-10T12:18:18Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | Computer Weekly — IT security | [Gartner Symposium: Keeping the tech flywheel under control](https://www.computerweekly.com/news/366654694/Gartner-Symposium-Keeping-the-tech-flywheel-under-control) |
 | 2026-11-09 | MIT Technology Review | [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) |
 | 2026-11-09 | Data Engineering Weekly | [Data Engineering Weekly #295](https://www.dataengineeringweekly.com/p/data-engineering-weekly-295) |
+| 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
+| 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 68× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 69× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

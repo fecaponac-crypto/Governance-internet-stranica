@@ -1,38 +1,38 @@
 {
  "month": "2026-11",
- "updated": "2026-11-10T12:19:02Z",
+ "updated": "2026-11-10T14:58:57Z",
  "portal": {
-  "published_total": 74,
-  "published_this_month": 31,
+  "published_total": 75,
+  "published_this_month": 32,
   "published_this_month_by_importance": {
    "3": 18,
    "4": 8,
-   "2": 5
+   "2": 6
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 218,
-  "runs": 109,
-  "runs_with_failed_sources": 83,
+  "items_collected": 232,
+  "runs": 110,
+  "runs_with_failed_sources": 84,
   "triage_decisions": {
-   "drafted": 37,
-   "skipped": 177,
+   "drafted": 39,
+   "skipped": 189,
    "failed": 5
   },
-  "ai_spend_usd": 8.8874,
+  "ai_spend_usd": 9.2811,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 32,
+  "drafts_published": 33,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 520,
+  "page_views": 540,
   "visits": 510,
   "bots_excluded": true,
   "by_day": [
@@ -73,7 +73,7 @@
    },
    {
     "date": "2026-11-10",
-    "page_views": 10,
+    "page_views": 30,
     "visits": 10
    }
   ],
@@ -141,11 +141,11 @@
     "page_views": 20
    },
    {
-    "countryName": "SE",
-    "page_views": 10
+    "countryName": "HR",
+    "page_views": 20
    },
    {
-    "countryName": "CA",
+    "countryName": "SE",
     "page_views": 10
    },
    {
@@ -153,11 +153,11 @@
     "page_views": 10
    },
    {
-    "countryName": "NL",
+    "countryName": "HK",
     "page_views": 10
    },
    {
-    "countryName": "HK",
+    "countryName": "NL",
     "page_views": 10
    }
   ],
@@ -167,11 +167,11 @@
     "page_views": 490
    },
    {
-    "refererHost": "teams.public.onecdn.static.microsoft",
-    "page_views": 10
+    "refererHost": "datagovernancesignal.com",
+    "page_views": 30
    },
    {
-    "refererHost": "datagovernancesignal.com",
+    "refererHost": "teams.public.onecdn.static.microsoft",
     "page_views": 10
    },
    {
