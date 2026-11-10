@@ -31,6 +31,6 @@ A bill (Boletín N.º 18.623-07) postponing the entry into force of Chile's data
 
 The bill also addresses the appointment date and number of board members (consejeros) for the new Personal Data Protection Agency and the agency's set-up. Board members would have to be appointed no later than nine months before the new start date. The Chamber of Deputies' Constitution Committee unanimously approved the bill in general on 5 November, and it now moves to the Finance Committee.
 
-The law was published on 13 December 2024 with an original start date of 1 December 2026; the author describes the change as 'probable'. He notes that many organisations have already made substantial progress towards that date.
+The law was published on 13 December 2024 with an original start date of 1 December 2026; the author describes the change as 'probable'. He notes that several organisations have already made significant progress towards that date.
 
 *Editor's note: This article relies on a single secondary source, a contributed opinion piece by a practitioner published by the IAPP.*
