@@ -4761,6 +4761,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e7d97d948e8ddff1": {
+   "at": "2026-11-10T03:18:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/community networking coverage about executive gatherings; generic thought-leadership without a concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e839167a565141bd": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [
@@ -5072,6 +5081,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f87c18444fb2111a": {
+   "at": "2026-11-10T03:18:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event-recap style networking piece with generic AI commentary; no concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f9cc03fb7f579fc7": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -5251,8 +5269,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 200,
-   "usd": 8.7972
+   "calls": 201,
+   "usd": 8.7979
   }
  }
 }
