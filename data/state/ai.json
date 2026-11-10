@@ -1680,6 +1680,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "507988b0a5aa9635": {
+   "at": "2026-11-10T12:18:32Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Promoted content from a sponsor study; vendor-style marketing with limited governance news value.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "50dcc273211cdf95": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -2387,6 +2398,17 @@
    "primary_found": false,
    "reason": "New state laws banning personal data use for personalised pricing and FTC signals create concrete compliance obligations.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "78884ce71ea8ea36": {
+   "at": "2026-11-10T12:18:32Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Cloud outage continuity lessons are generic IT resilience content rather than data governance news.",
+   "relevant": false,
    "same_story_as": null
   },
   "7a11eabd2cfef4de": {
@@ -3961,6 +3983,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c5d2977915966002": {
+   "at": "2026-11-10T12:18:32Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment announcement; hiring news is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c699e2cecab92b1b": {
    "at": "2026-10-29T12:18:34Z",
    "categories": [
@@ -4478,6 +4511,22 @@
    "importance": 1,
    "reason": "Vendor product marketing for AI Studio; not a genuine launch with governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "d8f1dd58500b1681": {
+   "at": "2026-11-10T12:18:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "norway-s-datatilsynet-fines-individual-nok-10-000-for-private-credit-c",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/88",
+   "primary_found": false,
+   "reason": "Norwegian DPA item on fees for credit rating and unlawful publication of personal data; concrete privacy enforcement angle, though title is in Norwegian and excerpt is missing.",
+   "relevant": true,
    "same_story_as": null
   },
   "d9da7553b89f69a8": {
@@ -5303,8 +5352,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 203,
-   "usd": 8.7994
+   "calls": 206,
+   "usd": 8.8874
   }
  }
 }

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-10T09:18:15Z** · sources checked: 81 · failed: 2 · new items this run: 2
+Last run: **2026-11-10T12:18:18Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (39)
+## New items, last 48 hours (43)
 
 ### High priority sources
 
@@ -17,6 +17,9 @@ Last run: **2026-11-10T09:18:15Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | Datatilsynet (Norway) | [Gebyr for kredittvurdering og publisering av personopplysningar utan rettsleg grunnlag](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gebyr-for-kredittvurdering-og-publisering-av-personopplysningar-utan-rettsleg-grunnlag/) |
+| 2026-11-10 | CDO Magazine | [Leadership Moves Scotiabank Appoints Luke Gee EVP, Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/scotiabank-appoints-luke-gee-evp-chief-data-and-ai-officer) |
+| 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
 | 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
 | 2026-11-10 | CDO Magazine | [Community Trust Is What Moves AI Forward: Southern California Executives Connect on Responsible Innovation](https://www.cdomagazine.tech/community/trust-is-what-moves-ai-forward-southern-california-executives-connect-on-responsible-innovation) |
 | 2026-11-10 | CDO Magazine | [Community Beyond Summaries and Chatbots: DC Executives Consider What AI Needs to Understand About Business](https://www.cdomagazine.tech/community/beyond-summaries-and-chatbots-dc-executives-consider-what-ai-needs-to-understand-about-business) |
@@ -46,6 +49,7 @@ Last run: **2026-11-10T09:18:15Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | Computer Weekly — IT security | [Google Cloud London outage: Continuity lessons for IT leaders](https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders) |
 | 2026-11-09 | AWS Big Data Blog | [Introducing the Workday Data Cloud integration with AWS](https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/) |
 | 2026-11-09 | Monte Carlo Blog | [What Is Agentic Observability? How It Works and Where It Stops](https://montecarlo.ai/blog-what-is-agentic-observability) |
 | 2026-11-09 | MIT Technology Review | [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) |
@@ -60,8 +64,7 @@ Last run: **2026-11-10T09:18:15Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
-- **European Data Protection Board (EDPB)** — failed 67× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 68× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
