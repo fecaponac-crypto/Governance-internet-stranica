@@ -1,7 +1,7 @@
 Data Governance Signal — week 3 Nov – 9 Nov 2026
 
-Visits:      533  (+281% on the week before: 140)
-Page views:  546  (+221% on the week before: 170)
+Visits:      470  (+236% on the week before: 140)
+Page views:  480  (+182% on the week before: 170)
 
 Most read:
    131  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/

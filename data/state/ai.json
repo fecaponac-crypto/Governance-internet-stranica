@@ -284,6 +284,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0c8f2fc6f67e2488": {
+   "at": "2026-11-10T15:17:39Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical expert piece from a professional association on operationalising AI governance; generic but usable, rated worth knowing.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "0da6cf00fb542a34": {
    "at": "2026-11-06T12:18:30Z",
    "categories": [
@@ -5518,8 +5529,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 215,
-   "usd": 9.2811
+   "calls": 216,
+   "usd": 9.2818
   }
  }
 }

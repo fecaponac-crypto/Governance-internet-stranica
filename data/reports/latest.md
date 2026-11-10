@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-10T14:56:52Z** · sources checked: 81 · failed: 1 · new items this run: 14
+Last run: **2026-11-10T15:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (57)
+## New items, last 48 hours (58)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | IAPP — International Association of Privacy Professionals | [What AI governance demands of the teams putting it into practice](https://iapp.org/news/a/what-ai-governance-demands-of-the-teams-putting-it-into-practice) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [México expide el Decreto de entornos digitales seguros para niñas, niños y adolescentes](https://iapp.org/news/a/m-xico-expide-el-decreto-de-entornos-digitales-seguros-para-ni-as-ni-os-y-adolescentes) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?](https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Notas de la IAPP América Latina: La gobernanza de la IA en América Latina empieza a ponerse en práctica](https://iapp.org/news/a/notas-de-la-iapp-am-rica-latina-la-gobernanza-de-la-ia-en-am-rica-latina-empieza-a-ponerse-en-pr-ctica) |
@@ -78,7 +79,7 @@ Last run: **2026-11-10T14:56:52Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 69× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 70× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
