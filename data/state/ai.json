@@ -436,6 +436,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1331c1487079abe4": {
+   "at": "2026-11-10T21:17:48Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "calprivacy-advances-ccpa-amendments-requiring-opt-out-signals-to-be-ho",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/97",
+   "primary_found": true,
+   "reason": "CalPrivacy proposed amendments on opt-out preference signals are a pending regulatory step changing obligations on cookies and tracking consent.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "133f912dbdc79453": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -1462,6 +1479,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "415b30672edaeb3c": {
+   "at": "2026-11-10T21:17:48Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 9,
+   "decision": "drafted",
+   "draft": "european-commission-set-to-present-digital-fairness-act-targeting-canc",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/94",
+   "primary_found": false,
+   "reason": "EU proposal to fine manipulative dynamic pricing and addictive design is a pending legislative step affecting consumer data-driven practices; major file with obligations for organisations.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "416b7eba9f32ddf4": {
    "at": "2026-11-04T15:19:16Z",
    "categories": [
@@ -2075,6 +2109,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Supreme Court video privacy case (VPPA consumer definition) is a court decision affecting personal data handling.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "5c7174c45ad1d8f3": {
+   "at": "2026-11-10T21:17:48Z",
+   "categories": [
+    "metadata",
+    "platforms"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "databricks-previews-publishing-unity-catalog-metric-views-directly-to",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/96",
+   "primary_found": false,
+   "reason": "Unity Catalog metric views in Power BI give a governed semantic layer; a concrete product development relevant to metadata governance, though from a vendor blog about a product capability.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2978,6 +3029,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Conference highlights on context management with practical lessons from named enterprises; touches metadata and context for AI, though it reads partly as event recap.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "9220707caf4d9a06": {
+   "at": "2026-11-10T21:17:48Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "california-ends-private-cipa-pen-register-suits-over-website-and-app-t",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/95",
+   "primary_found": false,
+   "reason": "California SB 690 ending private CIPA pen-register suits over website tracking is a significant legal change affecting how organisations handle tracking data and litigation risk.",
    "relevant": true,
    "same_story_as": null
   },
@@ -5610,8 +5678,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 227,
-   "usd": 9.7265
+   "calls": 243,
+   "usd": 10.6033
   }
  }
 }

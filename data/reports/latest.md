@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-10T18:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 6
+Last run: **2026-11-10T21:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (63)
+## New items, last 48 hours (67)
 
 ### High priority sources
 
@@ -13,6 +13,7 @@ Last run: **2026-11-10T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [México expide el Decreto de entornos digitales seguros para niñas, niños y adolescentes](https://iapp.org/news/a/m-xico-expide-el-decreto-de-entornos-digitales-seguros-para-ni-as-ni-os-y-adolescentes) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?](https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Notas de la IAPP América Latina: La gobernanza de la IA en América Latina empieza a ponerse en práctica](https://iapp.org/news/a/notas-de-la-iapp-am-rica-latina-la-gobernanza-de-la-ia-en-am-rica-latina-empieza-a-ponerse-en-pr-ctica) |
+| 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
 | 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
 | 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [CalPrivacy Board advances rulemaking to update opt-out preference signals requirements](https://iapp.org/news/a/calprivacy-board-advances-rulemaking-to-update-opt-out-preference-signals-requirements) |
@@ -22,6 +23,9 @@ Last run: **2026-11-10T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | Privacy World (Squire Patton Boggs) | [California Shuts the Door on Private CIPA Pen Register Suits Over Websites, Leaving the Closely Watched Variety Media Appeal in Limbo](https://www.privacyworld.blog/2026/11/california-shuts-the-door-on-private-cipa-pen-register-suits-over-websites-leaving-the-closely-watched-variety-media-appeal-in-limbo/) |
+| 2026-11-10 | POLITICO Europe — Technology | [Brussels takes on the evils of online commerce](https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
+| 2026-11-10 | Databricks Blog | [Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI](https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting) |
 | 2026-11-10 | European Parliament — Press releases | [Press release - Horizon Europe: MEPs back plans to strengthen the EU’s scientific base](https://www.europarl.europa.eu/news/en/press-room/20261109IPR48713/) |
 | 2026-11-10 | CDO Magazine | [US Federal News Bureau GSA Tightens Data Ownership Rules for Federal AI Contractors](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-tightens-data-ownership-rules-for-federal-ai-contractors) |
 | 2026-11-10 | CDO Magazine | [Artificial Intelligence SEC Examines Data Governance Challenges as AI Systems Interpret Financial Disclosures](https://www.cdomagazine.tech/aiml/sec-examines-data-governance-challenges-as-ai-systems-interpret-financial-disclosures) |
@@ -84,7 +88,7 @@ Last run: **2026-11-10T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 71× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 72× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

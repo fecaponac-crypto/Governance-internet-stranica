@@ -1,14 +1,15 @@
 # Drafts report
 
-Last run: **2026-11-10T18:17:39Z** · candidates 6 · scored 6 · selected 3 · drafted 3 · failed 0 · queued for next run 0
+Last run: **2026-11-10T21:17:48Z** · candidates 4 · scored 4 · selected 4 · drafted 4 · failed 0 · queued for next run 0
 
-AI spend this month: **$9.73** of $25 budget (227 calls)
+AI spend this month: **$10.60** of $25 budget (243 calls)
 
 ## This run
 
-- ⚠️ 1 claims to check (✏️ 4 corrected automatically) **ENISA's 2026 State of Cybersecurity report puts EU cyber maturity index at 71.53 out of 100** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/91
-- ✅ **Australia plans mandatory frontier AI security duties and a new AI safety regulator** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/92
-- ℹ️ not fact-checked **Google makes BigQuery measures generally available, putting governed metrics on knowledge graph entities** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/93
+- ✅ (✏️ 3 corrected automatically) **European Commission set to present Digital Fairness Act targeting cancellation hurdles and chatbots** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/94
+- ✅ **California ends private CIPA pen register suits over website and app tracking from 1 January 2027** — importance 4 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/95
+- ℹ️ not fact-checked **Databricks previews publishing Unity Catalog metric views directly to Power BI semantic models** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/96
+- ⚠️ 1 claims to check **CalPrivacy advances CCPA amendments requiring opt-out signals to be honoured before tracking cookies fire** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/97
 
 ## Recently skipped by triage
 

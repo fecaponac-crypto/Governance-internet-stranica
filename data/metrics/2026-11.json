@@ -1,39 +1,39 @@
 {
  "month": "2026-11",
- "updated": "2026-11-10T18:19:26Z",
+ "updated": "2026-11-10T21:20:39Z",
  "portal": {
-  "published_total": 77,
-  "published_this_month": 34,
+  "published_total": 80,
+  "published_this_month": 37,
   "published_this_month_by_importance": {
-   "3": 19,
+   "3": 21,
    "4": 9,
-   "2": 6
+   "2": 7
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 239,
-  "runs": 112,
-  "runs_with_failed_sources": 86,
+  "items_collected": 243,
+  "runs": 113,
+  "runs_with_failed_sources": 87,
   "triage_decisions": {
-   "drafted": 42,
+   "drafted": 46,
    "skipped": 193,
    "failed": 5
   },
-  "ai_spend_usd": 9.7265,
+  "ai_spend_usd": 10.6033,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 35,
+  "drafts_published": 39,
   "drafts_rejected": 2
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 540,
-  "visits": 510,
+  "page_views": 550,
+  "visits": 520,
   "bots_excluded": true,
   "by_day": [
    {
@@ -73,8 +73,8 @@
    },
    {
     "date": "2026-11-10",
-    "page_views": 30,
-    "visits": 10
+    "page_views": 40,
+    "visits": 20
    }
   ],
   "top_pages": [
@@ -99,11 +99,15 @@
     "page_views": 30
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/category/ai-governance/",
     "page_views": 20
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/institutions/edpb/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 20
    },
    {
@@ -111,11 +115,7 @@
     "page_views": 10
    },
    {
-    "requestPath": "/monday-signal/",
-    "page_views": 10
-   },
-   {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
+    "requestPath": "/news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g",
     "page_views": 10
    }
   ],
@@ -131,6 +131,10 @@
    {
     "countryName": "CN",
     "page_views": 30
+   },
+   {
+    "countryName": "HK",
+    "page_views": 20
    },
    {
     "countryName": "AR",
@@ -153,10 +157,6 @@
     "page_views": 10
    },
    {
-    "countryName": "HK",
-    "page_views": 10
-   },
-   {
     "countryName": "NL",
     "page_views": 10
    }
@@ -164,7 +164,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 490
+    "page_views": 500
    },
    {
     "refererHost": "datagovernancesignal.com",
