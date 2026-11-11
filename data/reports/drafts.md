@@ -1,18 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-10T21:17:48Z** · candidates 4 · scored 4 · selected 4 · drafted 4 · failed 0 · queued for next run 0
+Last run: **2026-11-11T00:17:43Z** · candidates 4 · scored 4 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$10.60** of $25 budget (243 calls)
+AI spend this month: **$10.82** of $25 budget (250 calls)
 
 ## This run
 
-- ✅ (✏️ 3 corrected automatically) **European Commission set to present Digital Fairness Act targeting cancellation hurdles and chatbots** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/94
-- ✅ **California ends private CIPA pen register suits over website and app tracking from 1 January 2027** — importance 4 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/95
-- ℹ️ not fact-checked **Databricks previews publishing Unity Catalog metric views directly to Power BI semantic models** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/96
-- ⚠️ 1 claims to check **CalPrivacy advances CCPA amendments requiring opt-out signals to be honoured before tracking cookies fire** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/97
+- ✅ (✏️ 2 corrected automatically) **Five more states join FTC lawsuit alleging Hims & Hers shared health data with ad platforms** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/98
 
 ## Recently skipped by triage
 
+- (2) Analyst data on governance embedding in AI strategy; practitioner-relevant strategy insight from Forrester, though brief excerpt.
+- (1) Vendor blog (Precisely) with customer testimonials and product-oriented guidance; vendor marketing not relevant.
+- (1) Generic how-to guide on metadata management with no specific news or research; listicle-style content.
 - (1) Horizon Europe research funding news without a data governance angle.
 - (2) Product release of a metadata platform adding lineage, certified assets and context docs; useful for catalogue practitioners but largely vendor release notes.
 - (2) Analysis of council cloud dependence; touches sovereignty but is more infrastructure than data governance practice and comes from a low-reliability type.
@@ -25,6 +25,3 @@ AI spend this month: **$10.60** of $25 budget (243 calls)
 - (2) Practical piece on defining metrics and dimensions before agents; usable but modest.
 - (2) IAPP regional note on AI governance moving into practice in Latin America; practical but general.
 - (1) Event promotion for a trade fair.
-- (2) Funding round for a data query engine vendor; minor market news.
-- (1) Conference talk recap on a healthcare ML model; no governance angle.
-- (2) EDPB launches child-oriented data protection information hub; limited practitioner consequence.

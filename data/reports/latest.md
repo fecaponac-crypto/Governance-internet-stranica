@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-10T21:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-11T00:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (67)
+## New items, last 48 hours (71)
 
 ### High priority sources
 
@@ -23,6 +23,7 @@ Last run: **2026-11-10T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | Forrester Blogs | [AI Governance Has A Strategy Problem](https://www.forrester.com/blogs/ai-governance-has-a-strategy-problem/) |
 | 2026-11-10 | Privacy World (Squire Patton Boggs) | [California Shuts the Door on Private CIPA Pen Register Suits Over Websites, Leaving the Closely Watched Variety Media Appeal in Limbo](https://www.privacyworld.blog/2026/11/california-shuts-the-door-on-private-cipa-pen-register-suits-over-websites-leaving-the-closely-watched-variety-media-appeal-in-limbo/) |
 | 2026-11-10 | POLITICO Europe — Technology | [Brussels takes on the evils of online commerce](https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-10 | Databricks Blog | [Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI](https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting) |
@@ -36,7 +37,9 @@ Last run: **2026-11-10T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | Datatilsynet (Norway) | [Gebyr for kredittvurdering og publisering av personopplysningar utan rettsleg grunnlag](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gebyr-for-kredittvurdering-og-publisering-av-personopplysningar-utan-rettsleg-grunnlag/) |
 | 2026-11-10 | CDO Magazine | [Leadership Moves Scotiabank Appoints Luke Gee EVP, Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/scotiabank-appoints-luke-gee-evp-chief-data-and-ai-officer) |
 | 2026-11-10 | CNIL (France) | [La CNIL sera présente au Salon des maires et des collectivités locales 2026](https://www.cnil.fr/fr/salon-maires-collectivites-2026) |
+| 2026-11-10 | US Federal Trade Commission | [Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices](https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices) |
 | 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
+| 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 | 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
 | 2026-11-10 | CDO Magazine | [Community Trust Is What Moves AI Forward: Southern California Executives Connect on Responsible Innovation](https://www.cdomagazine.tech/community/trust-is-what-moves-ai-forward-southern-california-executives-connect-on-responsible-innovation) |
 | 2026-11-10 | CDO Magazine | [Community Beyond Summaries and Chatbots: DC Executives Consider What AI Needs to Understand About Business](https://www.cdomagazine.tech/community/beyond-summaries-and-chatbots-dc-executives-consider-what-ai-needs-to-understand-about-business) |
@@ -65,6 +68,7 @@ Last run: **2026-11-10T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-10 | Precisely Blog | [Insights from three SAP customers on master data automation](https://www.precisely.com/blog/cat-sap-automation/insights-from-three-sap-customers-on-master-data-automation/) |
 | 2026-11-10 | ENISA — EU Agency for Cybersecurity | [ENISA reveals the State of Cybersecurity in the Union](https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union) |
 | 2026-11-10 | Google Cloud Blog — Data Analytics | [BigQuery measures is now GA, unifying BI metrics and knowledge graphs for AI accuracy](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
 | 2026-11-10 | DataHub Blog (open source metadata platform) | [Introducing DataHub Cloud v2.4](https://datahub.com/blog/datahub-cloud-v2-4/) |
@@ -88,7 +92,7 @@ Last run: **2026-11-10T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 72× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 73× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

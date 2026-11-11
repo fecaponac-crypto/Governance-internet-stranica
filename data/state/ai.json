@@ -473,6 +473,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "135544a06165acd2": {
+   "at": "2026-11-11T00:17:43Z",
+   "categories": [
+    "strategy",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analyst data on governance embedding in AI strategy; practitioner-relevant strategy insight from Forrester, though brief excerpt.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "13a101261912a42e": {
    "at": "2026-11-02T15:18:39Z",
    "categories": [],
@@ -851,6 +863,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event roundtable coverage with no concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "24e4244a47f6362d": {
+   "at": "2026-11-11T00:17:43Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic how-to guide on metadata management with no specific news or research; listicle-style content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2167,6 +2190,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "61f01ba0426c9cc8": {
+   "at": "2026-11-11T00:17:43Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 1,
+   "decision": "drafted",
+   "draft": "five-more-states-join-ftc-lawsuit-alleging-hims-hers-shared-health-dat",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/98",
+   "primary_found": false,
+   "reason": "FTC enforcement action over sharing sensitive health data with advertisers; concrete privacy enforcement with states joining.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "64daaf919430282b": {
    "at": "2026-11-06T12:18:30Z",
    "categories": [],
@@ -2360,6 +2399,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Tooling how-to on DuckDB adapter; not governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "6f4c3522778e9fa3": {
+   "at": "2026-11-11T00:17:43Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog (Precisely) with customer testimonials and product-oriented guidance; vendor marketing not relevant.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5678,8 +5728,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 243,
-   "usd": 10.6033
+   "calls": 250,
+   "usd": 10.8188
   }
  }
 }
