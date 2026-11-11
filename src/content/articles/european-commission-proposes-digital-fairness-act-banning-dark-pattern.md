@@ -1,10 +1,11 @@
 ---
 title: "European Commission proposes Digital Fairness Act banning dark patterns and sensitive-data ad targeting"
 date: 2026-11-11
-dek: "The draft regulation would replace the Unfair Commercial Practices Directive and extend limits on personalised advertising and pricing for minors and vulnerable consumers to all traders, not only large platforms."
+dek: "The draft regulation would replace the Unfair Commercial Practices Directive, ban business-to-consumer dark patterns and extend the ban on personalised ads to minors or based on sensitive data to all websites and apps."
 whyItMatters: "The ad-targeting ban turns GDPR special-category classification and age data into direct inputs for marketing eligibility, so data stewards need reliable tagging of sensitive attributes and minor status across customer and audience data. Personalised pricing models would need to show they do not disadvantage minors or vulnerable consumers, and the eased burden of proof means firms may have to evidence how personalisation logic works. Privacy and marketing teams should map where profiling feeds advertising and pricing now, while the text can still change."
 categories: [regulation, privacy, ai-governance]
 institutions: [european-commission]
+legislation: [eu-digital-fairness-act]
 whoShouldCare: ["DPO", "Legal & compliance", "CDO", "AI governance lead"]
 importance: 4
 type: "Regulation"
@@ -34,4 +35,4 @@ The European Commission published its proposal for a **Digital Fairness Act** (C
 
 The preferred policy option includes a general ban on business-to-consumer dark patterns. It would also prohibit personalised advertising aimed at minors or based on GDPR special categories of data or on consumer vulnerabilities, and ban personalised pricing for minors or vulnerable consumers where it leads to worse outcomes. Other measures include a fairness-by-design duty, an eased burden of proof in technologically complex cases, a right to a human in customer service and easier cancellation of subscriptions.
 
-The Commission puts yearly recurrent business costs at **EUR 678 million** after adjusting for overlaps. The proposal now goes to Parliament and Council. According to IAPP, a parallel revision of the consumer enforcement regulation would allow fines of up to 6% in large-scale cases.
+The proposal puts the yearly cut in consumer detriment at EUR 13.7 billion, counting financial losses and time lost; the Commission's announcement, as reported by IAPP, cites EUR 10.3 billion a year in consumer savings. It puts yearly recurrent business costs at **EUR 678 million** after adjusting for overlaps. The proposal now goes to Parliament and Council. According to IAPP, a parallel revision of the consumer enforcement regulation would allow fines of up to 6% in large-scale cases.

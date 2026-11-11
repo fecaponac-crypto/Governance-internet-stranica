@@ -104,3 +104,15 @@
   stageDate: 2024-12-13
   stageNote: "Published on 13 December 2024 and due to apply from 1 December 2026; a bill to postpone this to 15 October 2027 (Boletín 18.623-07) has passed the Senate and is before the Chamber of Deputies."
   summary: "Overhauls Chile's data protection framework and creates a Personal Data Protection Agency; a pending bill would move its start date and the appointment of the agency's board."
+- id: eu-digital-fairness-act
+  name: EU Digital Fairness Act (proposed regulation, COM(2026) 1100)
+  short: Digital Fairness Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Proposal
+  stageDate: 2026-11-11
+  stageNote: "Commission proposal of 11 November 2026; Parliament and Council have yet to negotiate the text."
+  summary: "Would replace the Unfair Commercial Practices Directive with a directly applicable regulation, banning business-to-consumer dark patterns and personalised ads to minors or based on sensitive data, and limiting harmful personalised pricing."
+  official:
+    title: "European Commission: Proposal for a Digital Fairness Act, COM(2026) 1100"
+    url: https://commission.europa.eu/document/download/0575d59f-554f-4a9e-b54b-e6b717175809_en
