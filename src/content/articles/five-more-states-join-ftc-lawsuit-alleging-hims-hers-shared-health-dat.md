@@ -12,6 +12,15 @@ region: "US"
 status:
   stage: "Alleged"
   detail: "Amended complaint filed; the court has not ruled"
+enforcement:
+  case: ftc-hims-hers-health-data
+  action: "Complaint"
+  authority: "US Federal Trade Commission, with Arizona, California, Florida, Nebraska, Ohio, Utah and Wisconsin"
+  parties: "Hims & Hers"
+  framework: "US federal"
+  jurisdiction: "US"
+  law: "FTC Act; Restore Online Shoppers' Confidence Act; state consumer protection laws"
+  date: 2026-11-10
 sources:
   - name: "US Federal Trade Commission"
     title: "Five States Join FTC Lawsuit Alleging Hims & Hers Engaged in Deceptive, Unlawful Privacy Practices"
