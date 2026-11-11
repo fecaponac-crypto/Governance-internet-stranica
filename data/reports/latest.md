@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-11T06:28:10Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-11T09:17:34Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (70)
+## New items, last 48 hours (71)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Australia rolls out new AI regulator, frontier model security obligations](https://iapp.org/news/a/australia-rolls-out-new-ai-regulators-security-obligations) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [What AI governance demands of the teams putting it into practice](https://iapp.org/news/a/what-ai-governance-demands-of-the-teams-putting-it-into-practice) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [México expide el Decreto de entornos digitales seguros para niñas, niños y adolescentes](https://iapp.org/news/a/m-xico-expide-el-decreto-de-entornos-digitales-seguros-para-ni-as-ni-os-y-adolescentes) |
@@ -91,7 +92,7 @@ Last run: **2026-11-11T06:28:10Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 76× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 77× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

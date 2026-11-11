@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-11T06:28:20Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-11T09:18:07Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$10.82** of $25 budget (250 calls)
+AI spend this month: **$10.82** of $25 budget (251 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Food safety court ruling on smoke flavourings; no data governance, privacy or AI angle.
 - (2) Analyst data on governance embedding in AI strategy; practitioner-relevant strategy insight from Forrester, though brief excerpt.
 - (1) Generic how-to guide on metadata management with no specific news or research; listicle-style content.
 - (1) Vendor blog (Precisely) with customer testimonials and product-oriented guidance; vendor marketing not relevant.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Listicle-style thought piece on context failures; generic opinion.
 - (2) Practical piece on defining metrics and dimensions before agents; usable but modest.
 - (2) IAPP regional note on AI governance moving into practice in Latin America; practical but general.
-- (1) Event promotion for a trade fair.

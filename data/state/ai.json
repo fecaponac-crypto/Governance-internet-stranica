@@ -2710,6 +2710,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "7cd82f54ddb2afff": {
+   "at": "2026-11-11T09:18:07Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Food safety court ruling on smoke flavourings; no data governance, privacy or AI angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7d17d1cb2c6be6b8": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -5728,8 +5737,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 250,
-   "usd": 10.8188
+   "calls": 251,
+   "usd": 10.8195
   }
  }
 }
