@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-11T06:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-11T06:28:10Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (71)
+## New items, last 48 hours (70)
 
 ### High priority sources
 
@@ -86,13 +86,12 @@ Last run: **2026-11-11T06:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | MIT Technology Review | [Innovating with AI in the special chemicals industry](https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/) |
 | 2026-11-09 | Computer Weekly — IT security | [Gartner Symposium: Keeping the tech flywheel under control](https://www.computerweekly.com/news/366654694/Gartner-Symposium-Keeping-the-tech-flywheel-under-control) |
 | 2026-11-09 | MIT Technology Review | [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) |
-| 2026-11-09 | Data Engineering Weekly | [Data Engineering Weekly #295](https://www.dataengineeringweekly.com/p/data-engineering-weekly-295) |
 | 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
 | 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 75× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 76× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
