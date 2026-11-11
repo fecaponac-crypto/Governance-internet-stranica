@@ -466,12 +466,12 @@ class IncompleteCheckTest(unittest.TestCase):
     def test_short_check_is_retried_then_flagged(self):
         calls = []
         def fake_call_json(client, state, **kw):
-            calls.append(kw["effort"])
+            calls.append(kw["model"])
             return {"claims": [{"claim": "x", "verdict": "supported", "source": 1, "evidence": "x"}]}
         d = {**DRAFT, "deadlines": [], "status_stage": "Decision"}
         with mock.patch.object(draft, "call_json", fake_call_json):
             check = draft.fact_check(None, {}, d, [{"url": "u", "text": "t", "role": "r"}])
-        self.assertEqual(calls, ["medium", "high"])
+        self.assertEqual(calls, [draft.CHECK_MODEL, draft.WRITER_MODEL])
         self.assertTrue(check["incomplete"])
         self.assertIn("Fact check incomplete", draft.check_summary(check))
 

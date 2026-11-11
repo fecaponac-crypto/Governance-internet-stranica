@@ -881,9 +881,10 @@ def fact_check(client, state, d: dict, sources: list[dict]) -> dict:
     )
     user = f"--- DRAFT ---\n{draft_text}\n--- END DRAFT ---\n\n{sources_block(sources)}"
     claims: list[dict] = []
-    for effort in ("medium", "high"):  # a check that lists only a handful of claims has skipped most of them
-        result = call_json(client, state, model=CHECK_MODEL, system=CHECK_SYSTEM, user=user,
-                           schema=CHECK_SCHEMA, effort=effort, max_tokens=16000)
+    # A check that lists only a handful of claims has skipped most of them: the second try runs on the writer model.
+    for model in (CHECK_MODEL, WRITER_MODEL):
+        result = call_json(client, state, model=model, system=CHECK_SYSTEM, user=user,
+                           schema=CHECK_SCHEMA, effort="medium", max_tokens=16000)
         claims = result["claims"]
         if len(claims) >= MIN_CHECKED_CLAIMS:
             break
