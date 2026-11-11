@@ -217,7 +217,7 @@ test('pasted links with stray punctuation redirect; other misses get the 404 pag
       },
     },
   };
-  for (const tail of [')', ').', '%22', '%29', ',', '%E2%80%9D']) {
+  for (const tail of [')', ').', '%22', '%29', ',', '%E2%80%9D', '%26ss%3Dtw%26rt%3DIMY%2Bopens', '&utm_source=x', '%3Futm%3D1']) {
     const res = await notFound(new Request(`https://datagovernancesignal.com/news/story/${tail}`), env);
     assert.equal(res.status, 301, tail);
     assert.equal(res.headers.get('location'), 'https://datagovernancesignal.com/news/story/');

@@ -272,7 +272,8 @@ const TRAILING_JUNK = /(?:[)\].,;:!?'"’”>»]|%22|%27|%29|%5D|%E2%80%9D)+\/?$
 export async function notFound(request, env) {
   const url = new URL(request.url);
   if (env?.ASSETS && (request.method === 'GET' || request.method === 'HEAD')) {
-    const cleaned = url.pathname.replace(TRAILING_JUNK, '');
+    // Some apps glue an encoded query string onto the path (".../story/%26ss%3Dtw%26…"): drop it, then stray punctuation.
+    const cleaned = url.pathname.replace(/\/(?:%26|&|%3F)[^/]*$/i, '/').replace(TRAILING_JUNK, '');
     if (cleaned !== url.pathname && cleaned.length > 1) {
       const target = new URL(cleaned.endsWith('/') ? cleaned : `${cleaned}/`, url);
       const probe = await env.ASSETS.fetch(new Request(target, { method: 'HEAD' }));
