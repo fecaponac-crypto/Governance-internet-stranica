@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-11T17:10:45Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-11T18:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (72)
+## New items, last 48 hours (73)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | IAPP — International Association of Privacy Professionals | [EDPB puts ADMT-based recruitment in focus under Coordinated Enforcement Framework](https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Centralized or decentralized AI governance?](https://iapp.org/news/a/centralized-or-decentralized-ai-governance) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
@@ -93,7 +94,7 @@ Last run: **2026-11-11T17:10:45Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 80× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 81× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
