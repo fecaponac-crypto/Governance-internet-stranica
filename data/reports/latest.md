@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-11T18:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-11T21:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 8
 
-## New items, last 48 hours (73)
+## New items, last 48 hours (74)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | IAPP — International Association of Privacy Professionals | [European Commission releases draft proposal for Digital Fairness Act](https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [EDPB puts ADMT-based recruitment in focus under Coordinated Enforcement Framework](https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Centralized or decentralized AI governance?](https://iapp.org/news/a/centralized-or-decentralized-ai-governance) |
@@ -22,12 +23,13 @@ Last run: **2026-11-11T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
 | 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
 | 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
-| 2026-11-09 | IAPP — International Association of Privacy Professionals | [CalPrivacy Board advances rulemaking to update opt-out preference signals requirements](https://iapp.org/news/a/calprivacy-board-advances-rulemaking-to-update-opt-out-preference-signals-requirements) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | CDO Magazine | [US Federal News Bureau Federal Agencies Put Data Governance at the Center of Agentic AI Readiness](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-put-data-governance-at-the-center-of-agentic-ai-readiness) |
+| 2026-11-11 | AZOP — Croatian Personal Data Protection Agency | [EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu](https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/) |
 | 2026-11-11 | CDO Magazine | [Data Management Data Quality: The Most Expensive Technical Debt Nobody Is Measuring](https://www.cdomagazine.tech/data-management/data-quality-the-most-expensive-technical-debt-nobody-is-measuring) |
 | 2026-11-11 | Alation Blog | [November 11, 2026 Enterprise AI: How a Manufacturing CIO Moved from PoC to Production Why does a leading manufacturer's CIO reject 70% of AI use cases? Learn how trusted data and clear governance moved… Read More](https://www.alation.com/blog/enterprise-ai-manufacturing/) |
 | 2026-11-11 | AEPD — Spanish Data Protection Agency | [La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-espanola-de-proteccion-de-datos-ante-la-difusion-tiktok-abuso-sexual-infantil) |
@@ -59,8 +61,6 @@ Last run: **2026-11-11T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | CDO Magazine | [US Federal News Bureau US AI Safety Center Faces Questions Over Independence and White House Ties](https://www.cdomagazine.tech/us-federal-news-bureau/us-ai-safety-center-faces-questions-over-independence-and-white-house-ties) |
 | 2026-11-09 | CDO Magazine | [US Federal News Bureau DOGE Envisions AI Agents as the Next Interface for Federal Government Services](https://www.cdomagazine.tech/us-federal-news-bureau/doge-envisions-ai-agents-as-the-next-interface-for-federal-government-services) |
 | 2026-11-09 | Privacy World (Squire Patton Boggs) | [Upcoming Speaking Engagements and On-Demand Learning Opportunities](https://www.privacyworld.blog/2026/11/upcoming-speaking-engagements-and-on-demand-learning-opportunities/) |
-| 2026-11-09 | Privacy World (Squire Patton Boggs) | [Privacy World Week in Review](https://www.privacyworld.blog/2026/11/privacy-world-week-in-review-95/) |
-| 2026-11-09 | Euractiv | [The Data Act, tested in practice](https://www.rapporteur.com/video/the-data-act-tested-in-practice/) |
 | 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
 | 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
 
@@ -68,10 +68,15 @@ Last run: **2026-11-11T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | AWS Big Data Blog | [Build a data foundation for agentic AI on AWS: From lakehouse to MCP](https://aws.amazon.com/blogs/big-data/build-a-data-foundation-for-agentic-ai-on-aws-from-lakehouse-to-mcp/) |
+| 2026-11-11 | Data Engineering Weekly | [How Open Is Open? Iceberg, Catalogs, and User Choice](https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs) |
+| 2026-11-11 | AWS Big Data Blog | [How Samsung Ads federated Snowflake Iceberg tables using Amazon Cognito](https://aws.amazon.com/blogs/big-data/how-samsung-ads-federated-snowflake-iceberg-tables-using-amazon-cognito/) |
+| 2026-11-11 | Precisely Blog | [Enterprise AI Needs a Deterministic Layer](https://www.precisely.com/blog/ai-ready-data/enterprise-ai-needs-a-deterministic-layer/) |
 | 2026-11-11 | AWS Big Data Blog | [Governance compliance beyond the catalog in Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/governance-compliance-beyond-the-catalog-in-amazon-sagemaker-unified-studio/) |
 | 2026-11-11 | AWS Big Data Blog | [How Intuit migrated from Apache Hive Metastore to AWS Glue Data Catalog](https://aws.amazon.com/blogs/big-data/how-intuit-migrated-from-apache-hive-metastore-to-aws-glue-data-catalog/) |
 | 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Espionage, AI, and the Risks of Strategic Overreaction](https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/) |
 | 2026-11-11 | dbt Labs Blog | [Making the economic case for warehouse-first AI context](https://www.getdbt.com/blog/economic-case-warehouse-first-ai-context) |
+| 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Spy scandal highlights contradictions at heart of Trump’s China policy](https://cset.georgetown.edu/article/spy-scandal-highlights-contradictions-at-heart-of-trumps-china-policy/) |
 | 2026-11-11 | Gaia-X | [Gaia-X Summit 2026 to Accelerate Europe’s Transition to Sovereign, Trusted AI and Data Ecosystems](https://gaia-x.eu/gaia-x-summit-2026-to-accelerate-europes-transition-to-sovereign-trusted-ai-and-data-ecosystems/) |
 | 2026-11-11 | dbt Labs Blog | [A letter from our founders](https://www.getdbt.com/blog/founders-letter) |
 | 2026-11-10 | Center for Security and Emerging Technology (CSET) | [The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO](https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/) |
@@ -85,16 +90,12 @@ Last run: **2026-11-11T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | Computer Weekly — IT security | [Google Cloud London outage: Continuity lessons for IT leaders](https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders) |
 | 2026-11-09 | AWS Big Data Blog | [Introducing the Workday Data Cloud integration with AWS](https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/) |
 | 2026-11-09 | Monte Carlo Blog | [What Is Agentic Observability? How It Works and Where It Stops](https://montecarlo.ai/blog-what-is-agentic-observability) |
-| 2026-11-09 | MIT Technology Review | [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) |
-| 2026-11-09 | The Record (Recorded Future News) | [Vanderbilt cybersecurity incident impacting campus devices and systems](https://therecord.media/vanderbilt-cyberattack-ransomware-alert) |
-| 2026-11-09 | AWS Big Data Blog | [Amazon Athena introduces system tables for query execution observability](https://aws.amazon.com/blogs/big-data/amazon-athena-introduces-system-tables-for-query-execution-observability/) |
-| 2026-11-09 | Computer Weekly — IT security | [Gartner Symposium: Keeping the tech flywheel under control](https://www.computerweekly.com/news/366654694/Gartner-Symposium-Keeping-the-tech-flywheel-under-control) |
 | 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
 | 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 81× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 82× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
