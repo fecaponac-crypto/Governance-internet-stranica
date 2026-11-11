@@ -1,15 +1,19 @@
 # Drafts report
 
-Last run: **2026-11-11T09:18:07Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-11T12:17:55Z** · candidates 5 · scored 5 · selected 2 · drafted 1 · failed 1 · queued for next run 0
 
-AI spend this month: **$10.82** of $25 budget (251 calls)
+AI spend this month: **$11.05** of $25 budget (258 calls)
 
 ## This run
 
-_No drafts this run._
+- ❌ [EU unveils new rules to tackle online consumer harms](https://www.rapporteur.com/news/eu-unveils-new-rules-to-tackle-online-consumer-harms/) — source not readable: HTTP 403
+- ✅ (✏️ 3 corrected automatically) **Dutch AP finds Tax Administration complies with privacy law on only 2 of 12 topics under intensified oversight** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/99
 
 ## Recently skipped by triage
 
+- (1) Vendor/partner promotional content about national security outcomes; no clear data governance angle.
+- (1) Hiring/leadership appointment news with no governance substance.
+- (2) Event promotion for Gaia-X Summit; webinars and event promotion are not relevant.
 - (1) Food safety court ruling on smoke flavourings; no data governance, privacy or AI angle.
 - (2) Analyst data on governance embedding in AI strategy; practitioner-relevant strategy insight from Forrester, though brief excerpt.
 - (1) Generic how-to guide on metadata management with no specific news or research; listicle-style content.
@@ -22,6 +26,3 @@ _No drafts this run._
 - (1) Generic examination commentary without concrete detail to act on; not clearly a governance development.
 - (1) No data governance angle.
 - (1) Vendor blog marketing content rather than genuine launch or research.
-- (1) Listicle-style thought piece on context failures; generic opinion.
-- (2) Practical piece on defining metrics and dimensions before agents; usable but modest.
-- (2) IAPP regional note on AI governance moving into practice in Latin America; practical but general.

@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-11T09:17:34Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-11T12:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 5
 
-## New items, last 48 hours (71)
+## New items, last 48 hours (72)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
 | 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Australia rolls out new AI regulator, frontier model security obligations](https://iapp.org/news/a/australia-rolls-out-new-ai-regulators-security-obligations) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [What AI governance demands of the teams putting it into practice](https://iapp.org/news/a/what-ai-governance-demands-of-the-teams-putting-it-into-practice) |
@@ -24,6 +25,9 @@ Last run: **2026-11-11T09:17:34Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | CDO Magazine | [Digital Transformation From Funding to Fielded Capability: How AWS and Deloitte Partner on National Security Outcomes](https://www.cdomagazine.tech/digital-transformation/from-funding-to-fielded-capability-how-aws-and-deloitte-partner-on-national-security-outcomes) |
+| 2026-11-11 | CDO Magazine | [Leadership Moves YPrime Promotes Greg Wellbrock to Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/yprime-promotes-greg-wellbrock-to-chief-data-and-ai-officer) |
+| 2026-11-11 | Euractiv | [EU unveils new rules to tackle online consumer harms](https://www.rapporteur.com/news/eu-unveils-new-rules-to-tackle-online-consumer-harms/) |
 | 2026-11-10 | Forrester Blogs | [AI Governance Has A Strategy Problem](https://www.forrester.com/blogs/ai-governance-has-a-strategy-problem/) |
 | 2026-11-10 | Privacy World (Squire Patton Boggs) | [California Shuts the Door on Private CIPA Pen Register Suits Over Websites, Leaving the Closely Watched Variety Media Appeal in Limbo](https://www.privacyworld.blog/2026/11/california-shuts-the-door-on-private-cipa-pen-register-suits-over-websites-leaving-the-closely-watched-variety-media-appeal-in-limbo/) |
 | 2026-11-10 | POLITICO Europe — Technology | [Brussels takes on the evils of online commerce](https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
@@ -57,18 +61,15 @@ Last run: **2026-11-11T09:17:34Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | Databricks Blog | [Accelerate GPU training on Unity Catalog tables with UCDataset](https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset) |
 | 2026-11-09 | CDO Magazine | [Leadership Moves Landchecker Names Gerry Stanley Chief Data & AI Officer](https://www.cdomagazine.tech/leadership-moves/landchecker-names-gerry-stanley-chief-data-ai-officer) |
 | 2026-11-09 | CDO Magazine | [US Federal News Bureau Federal Agencies Turn to AI and Data Analytics to Prevent Billions in Fraud](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-turn-to-ai-and-data-analytics-to-prevent-billions-in-fraud) |
-| 2026-11-09 | CNIL (France) | [Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions](https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales) |
 | 2026-11-09 | Euractiv | [Europe risks confusing more data centres with greater digital sovereignty [Promoted Content]](https://www.rapporteur.com/opinion/europe-risks-confusing-more-data-centres-with-greater-digital-sovereignty/) |
-| 2026-11-09 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Nytt lektionsmaterial ska göra elever säkrare på nätet](https://www.imy.se/nyheter/nytt-lektionsmaterial-ska-gora-elever-sakrare-pa-natet/) |
 | 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
-| 2026-11-09 | Euractiv | [THE HACK: EU leaders to talk AI challenges](https://www.rapporteur.com/news/the-hack-eu-leaders-to-talk-ai-challenges/) |
 | 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
-| 2026-11-04 | DATAVERSITY | [Context-Aware Rules: The Next Frontier for Data Quality Solutions](https://www.dataversity.net/articles/context-aware-rules-the-next-frontier-for-data-quality-solutions/) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | Gaia-X | [Gaia-X Summit 2026 to Accelerate Europe’s Transition to Sovereign, Trusted AI and Data Ecosystems](https://gaia-x.eu/gaia-x-summit-2026-to-accelerate-europes-transition-to-sovereign-trusted-ai-and-data-ecosystems/) |
 | 2026-11-10 | Precisely Blog | [Insights from three SAP customers on master data automation](https://www.precisely.com/blog/cat-sap-automation/insights-from-three-sap-customers-on-master-data-automation/) |
 | 2026-11-10 | ENISA — EU Agency for Cybersecurity | [ENISA reveals the State of Cybersecurity in the Union](https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union) |
 | 2026-11-10 | Google Cloud Blog — Data Analytics | [BigQuery measures is now GA, unifying BI metrics and knowledge graphs for AI accuracy](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
@@ -92,7 +93,7 @@ Last run: **2026-11-11T09:17:34Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 77× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 78× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

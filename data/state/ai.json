@@ -707,6 +707,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1d74e8f145eb674c": {
+   "at": "2026-11-11T12:17:55Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring/leadership appointment news with no governance substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1eaf758fdf1c9784": {
    "at": "2026-11-03T21:18:59Z",
    "categories": [],
@@ -2150,6 +2161,17 @@
    "primary_found": false,
    "reason": "Unity Catalog metric views in Power BI give a governed semantic layer; a concrete product development relevant to metadata governance, though from a vendor blog about a product capability.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "5e09c4604479547f": {
+   "at": "2026-11-11T12:17:55Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Event promotion for Gaia-X Summit; webinars and event promotion are not relevant.",
+   "relevant": false,
    "same_story_as": null
   },
   "5e7a4f7d9a8a4bb1": {
@@ -3843,6 +3865,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "b4681dc463861592": {
+   "at": "2026-11-11T12:17:55Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor/partner promotional content about national security outcomes; no clear data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b4a4ecd888916d2a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -4432,6 +4465,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Accenture survey on AI governance and data readiness lag; research finding with modest practitioner value.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "cc7832c56b0e7f5b": {
+   "at": "2026-11-11T12:17:55Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "New EU consumer-harm rules with fines up to 6% of turnover affect platform obligations; notable but details limited from excerpt alone.",
    "relevant": true,
    "same_story_as": null
   },
@@ -5569,6 +5614,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fa6c45fb07d4cc7e": {
+   "at": "2026-11-11T12:17:55Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 1,
+   "decision": "drafted",
+   "draft": "dutch-ap-finds-tax-administration-complies-with-privacy-law-on-only-2",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/99",
+   "primary_found": false,
+   "reason": "Dutch DPA supervisory report finds Tax Authority still breaching privacy law on many areas; concrete regulator finding on data protection practice.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fa793b73c2982992": {
    "at": "2026-11-05T03:18:38Z",
    "categories": [
@@ -5737,8 +5798,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 251,
-   "usd": 10.8195
+   "calls": 258,
+   "usd": 11.0504
   }
  }
 }
