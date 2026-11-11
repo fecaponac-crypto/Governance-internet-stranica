@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-11T00:18:34Z",
+ "updated": "2026-11-11T03:17:33Z",
  "portal": {
   "published_total": 82,
   "published_this_month": 39,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 247,
-  "runs": 114,
-  "runs_with_failed_sources": 88,
+  "runs": 115,
+  "runs_with_failed_sources": 89,
   "triage_decisions": {
    "drafted": 47,
    "skipped": 196,
@@ -22,7 +22,7 @@
   },
   "ai_spend_usd": 10.8188,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 40,
@@ -35,9 +35,132 @@
   "page_views": 550,
   "visits": 520,
   "bots_excluded": true,
-  "by_day": [],
-  "top_pages": [],
-  "countries": [],
+  "by_day": [
+   {
+    "date": "2026-11-02",
+    "page_views": 30,
+    "visits": 30
+   },
+   {
+    "date": "2026-11-03",
+    "page_views": 30,
+    "visits": 30
+   },
+   {
+    "date": "2026-11-04",
+    "page_views": 10,
+    "visits": 10
+   },
+   {
+    "date": "2026-11-05",
+    "page_views": 340,
+    "visits": 330
+   },
+   {
+    "date": "2026-11-06",
+    "page_views": 70,
+    "visits": 70
+   },
+   {
+    "date": "2026-11-08",
+    "page_views": 10,
+    "visits": 10
+   },
+   {
+    "date": "2026-11-09",
+    "page_views": 20,
+    "visits": 20
+   },
+   {
+    "date": "2026-11-10",
+    "page_views": 40,
+    "visits": 20
+   }
+  ],
+  "top_pages": [
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
+    "page_views": 120
+   },
+   {
+    "requestPath": "/category/privacy/",
+    "page_views": 80
+   },
+   {
+    "requestPath": "/category/security/",
+    "page_views": 60
+   },
+   {
+    "requestPath": "/",
+    "page_views": 50
+   },
+   {
+    "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
+    "page_views": 30
+   },
+   {
+    "requestPath": "/category/ai-governance/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/institutions/edpb/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/methodology/",
+    "page_views": 10
+   },
+   {
+    "requestPath": "/news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g",
+    "page_views": 10
+   }
+  ],
+  "countries": [
+   {
+    "countryName": "US",
+    "page_views": 290
+   },
+   {
+    "countryName": "GB",
+    "page_views": 40
+   },
+   {
+    "countryName": "CN",
+    "page_views": 30
+   },
+   {
+    "countryName": "HK",
+    "page_views": 20
+   },
+   {
+    "countryName": "AR",
+    "page_views": 20
+   },
+   {
+    "countryName": "AU",
+    "page_views": 20
+   },
+   {
+    "countryName": "HR",
+    "page_views": 20
+   },
+   {
+    "countryName": "SE",
+    "page_views": 10
+   },
+   {
+    "countryName": "PH",
+    "page_views": 10
+   },
+   {
+    "countryName": "NL",
+    "page_views": 10
+   }
+  ],
   "referrers": [
    {
     "refererHost": "(direct)",

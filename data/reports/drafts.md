@@ -1,18 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-11T00:17:43Z** · candidates 4 · scored 4 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-11T03:17:32Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$10.82** of $25 budget (250 calls)
 
 ## This run
 
-- ✅ (✏️ 2 corrected automatically) **Five more states join FTC lawsuit alleging Hims & Hers shared health data with ad platforms** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/98
+_No drafts this run._
 
 ## Recently skipped by triage
 
 - (2) Analyst data on governance embedding in AI strategy; practitioner-relevant strategy insight from Forrester, though brief excerpt.
-- (1) Vendor blog (Precisely) with customer testimonials and product-oriented guidance; vendor marketing not relevant.
 - (1) Generic how-to guide on metadata management with no specific news or research; listicle-style content.
+- (1) Vendor blog (Precisely) with customer testimonials and product-oriented guidance; vendor marketing not relevant.
 - (1) Horizon Europe research funding news without a data governance angle.
 - (2) Product release of a metadata platform adding lineage, certified assets and context docs; useful for catalogue practitioners but largely vendor release notes.
 - (2) Analysis of council cloud dependence; touches sovereignty but is more infrastructure than data governance practice and comes from a low-reliability type.
