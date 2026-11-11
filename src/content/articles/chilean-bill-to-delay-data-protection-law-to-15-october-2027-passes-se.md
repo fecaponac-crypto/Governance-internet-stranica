@@ -5,6 +5,7 @@ dek: "The bill would move Law 21.719's entry into force from the original 1 Dece
 whyItMatters: "The postponement is still a bill, and the author describes the date change only as probable, so organisations processing personal data in Chile should not assume the 1 December 2026 date has gone. The author sees the possible extra time as an opportunity to put in place internal processes that are developed and verified. He also notes that the law's obligations require a deep and detailed analysis of processing activities, which may need to be run as a cross-organisational project."
 categories: [regulation, privacy]
 institutions: []
+legislation: [chile-data-protection-law-21719]
 whoShouldCare: ["DPO", "Legal & compliance", "CDO", "Data stewards"]
 importance: 3
 type: "Regulation"

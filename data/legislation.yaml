@@ -95,3 +95,12 @@
   official:
     title: "Pennsylvania General Assembly: Senate Bill 806 (2025-2026)"
     url: https://www.palegis.us/legislation/bills/2025/sb806
+- id: chile-data-protection-law-21719
+  name: Chile Law 21.719 on personal data protection (amending Law 19.628)
+  short: Chile Law 21.719
+  jurisdiction: Chile
+  kind: Act
+  stage: Adopted
+  stageDate: 2024-12-13
+  stageNote: "Published on 13 December 2024 and due to apply from 1 December 2026; a bill to postpone this to 15 October 2027 (Boletín 18.623-07) has passed the Senate and is before the Chamber of Deputies."
+  summary: "Overhauls Chile's data protection framework and creates a Personal Data Protection Agency; a pending bill would move its start date and the appointment of the agency's board."
