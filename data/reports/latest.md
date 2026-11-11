@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-11T12:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 5
+Last run: **2026-11-11T15:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 5
 
-## New items, last 48 hours (72)
+## New items, last 48 hours (73)
 
 ### High priority sources
 
@@ -25,6 +25,9 @@ Last run: **2026-11-11T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | CDO Magazine | [Data Management Data Quality: The Most Expensive Technical Debt Nobody Is Measuring](https://www.cdomagazine.tech/data-management/data-quality-the-most-expensive-technical-debt-nobody-is-measuring) |
+| 2026-11-11 | Alation Blog | [November 11, 2026 Enterprise AI: How a Manufacturing CIO Moved from PoC to Production Why does a leading manufacturer's CIO reject 70% of AI use cases? Learn how trusted data and clear governance moved… Read More](https://www.alation.com/blog/enterprise-ai-manufacturing/) |
+| 2026-11-11 | AEPD — Spanish Data Protection Agency | [La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-espanola-de-proteccion-de-datos-ante-la-difusion-tiktok-abuso-sexual-infantil) |
 | 2026-11-11 | CDO Magazine | [Digital Transformation From Funding to Fielded Capability: How AWS and Deloitte Partner on National Security Outcomes](https://www.cdomagazine.tech/digital-transformation/from-funding-to-fielded-capability-how-aws-and-deloitte-partner-on-national-security-outcomes) |
 | 2026-11-11 | CDO Magazine | [Leadership Moves YPrime Promotes Greg Wellbrock to Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/yprime-promotes-greg-wellbrock-to-chief-data-and-ai-officer) |
 | 2026-11-11 | Euractiv | [EU unveils new rules to tackle online consumer harms](https://www.rapporteur.com/news/eu-unveils-new-rules-to-tackle-online-consumer-harms/) |
@@ -59,9 +62,6 @@ Last run: **2026-11-11T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | CDO Magazine | [Nominations and Lists CDO Magazine Announces Top 30 Higher Education Data & AI Influencers 2026](https://www.cdomagazine.tech/nominations-and-lists/cdo-magazine-announces-top-30-higher-education-data-ai-influencers-2026) |
 | 2026-11-09 | Alation Blog | [November 9, 2026 AI-Ready Data in Three Tiers: How the BBC Grades its Own Metadata Learn how the BBC used Alation to build an agent that grades metadata in tiers for AI readiness to drive future AI use… Read More](https://www.alation.com/blog/bbc-ai-data-readiness-tiers/) |
 | 2026-11-09 | Databricks Blog | [Accelerate GPU training on Unity Catalog tables with UCDataset](https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset) |
-| 2026-11-09 | CDO Magazine | [Leadership Moves Landchecker Names Gerry Stanley Chief Data & AI Officer](https://www.cdomagazine.tech/leadership-moves/landchecker-names-gerry-stanley-chief-data-ai-officer) |
-| 2026-11-09 | CDO Magazine | [US Federal News Bureau Federal Agencies Turn to AI and Data Analytics to Prevent Billions in Fraud](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-turn-to-ai-and-data-analytics-to-prevent-billions-in-fraud) |
-| 2026-11-09 | Euractiv | [Europe risks confusing more data centres with greater digital sovereignty [Promoted Content]](https://www.rapporteur.com/opinion/europe-risks-confusing-more-data-centres-with-greater-digital-sovereignty/) |
 | 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
 | 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
 
@@ -69,6 +69,8 @@ Last run: **2026-11-11T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Espionage, AI, and the Risks of Strategic Overreaction](https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/) |
+| 2026-11-11 | dbt Labs Blog | [Making the economic case for warehouse-first AI context](https://www.getdbt.com/blog/economic-case-warehouse-first-ai-context) |
 | 2026-11-11 | Gaia-X | [Gaia-X Summit 2026 to Accelerate Europe’s Transition to Sovereign, Trusted AI and Data Ecosystems](https://gaia-x.eu/gaia-x-summit-2026-to-accelerate-europes-transition-to-sovereign-trusted-ai-and-data-ecosystems/) |
 | 2026-11-10 | Precisely Blog | [Insights from three SAP customers on master data automation](https://www.precisely.com/blog/cat-sap-automation/insights-from-three-sap-customers-on-master-data-automation/) |
 | 2026-11-10 | ENISA — EU Agency for Cybersecurity | [ENISA reveals the State of Cybersecurity in the Union](https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union) |
@@ -87,13 +89,12 @@ Last run: **2026-11-11T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | European Digital Rights (EDRi) | [Data retention is mass surveillance of people’s phone and internet activity](https://edri.org/our-work/data-retention-is-mass-surveillance-of-peoples-phone-and-internet-activity/) |
 | 2026-11-09 | MIT Technology Review | [Innovating with AI in the special chemicals industry](https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/) |
 | 2026-11-09 | Computer Weekly — IT security | [Gartner Symposium: Keeping the tech flywheel under control](https://www.computerweekly.com/news/366654694/Gartner-Symposium-Keeping-the-tech-flywheel-under-control) |
-| 2026-11-09 | MIT Technology Review | [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) |
 | 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
 | 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 78× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 79× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -662,6 +662,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1a699990151f4c50": {
+   "at": "2026-11-11T15:17:41Z",
+   "categories": [
+    "data-quality",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Data quality cost framing; generic opinion with limited practitioner guidance, rated 2.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1a9b37283e76447b": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -2347,6 +2359,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6896d2b4a123ec14": {
+   "at": "2026-11-11T15:17:41Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting a customer story; marketing, not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "694525516dd0ef68": {
    "at": "2026-10-29T12:18:34Z",
    "categories": [],
@@ -2401,6 +2424,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Newsletter roundup promotion; the AI Act transparency mention is too thin to warrant a standalone item.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "6ded4aa1cdcfc264": {
+   "at": "2026-11-11T15:17:41Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on token costs; marketing rather than a genuine launch or research finding.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2464,6 +2498,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog on setting up Collibra MCP on Snowflake is how-to marketing rather than a genuine launch or acquisition.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "70bced9e77f9233d": {
+   "at": "2026-11-11T15:17:41Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Geopolitical espionage commentary without a concrete data governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4909,6 +4954,22 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d9b58dd148687cd3": {
+   "at": "2026-11-11T15:17:41Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "spain-s-aepd-seeks-tiktok-information-and-plans-to-block-links-after-r",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/100",
+   "primary_found": false,
+   "reason": "Spanish DPA statement on TikTok child sexual abuse content; regulator action with privacy angle, notable but limited governance lesson.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d9da7553b89f69a8": {
    "at": "2026-10-25T16:25:44Z",
    "categories": [
@@ -5798,8 +5859,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 258,
-   "usd": 11.0504
+   "calls": 264,
+   "usd": 11.2985
   }
  }
 }
