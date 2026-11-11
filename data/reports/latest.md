@@ -1,13 +1,16 @@
 # Inflow report
 
-Last run: **2026-11-11T15:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 5
+Last run: **2026-11-11T17:10:45Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (73)
+## New items, last 48 hours (72)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
+| 2026-11-11 | IAPP — International Association of Privacy Professionals | [Centralized or decentralized AI governance?](https://iapp.org/news/a/centralized-or-decentralized-ai-governance) |
+| 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
 | 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
 | 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Australia rolls out new AI regulator, frontier model security obligations](https://iapp.org/news/a/australia-rolls-out-new-ai-regulators-security-obligations) |
@@ -19,7 +22,6 @@ Last run: **2026-11-11T15:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
 | 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
 | 2026-11-09 | IAPP — International Association of Privacy Professionals | [CalPrivacy Board advances rulemaking to update opt-out preference signals requirements](https://iapp.org/news/a/calprivacy-board-advances-rulemaking-to-update-opt-out-preference-signals-requirements) |
-| 2026-11-09 | IAPP — International Association of Privacy Professionals | [Thought for the week: Companies face cyber pain as hackers press AI advantage](https://iapp.org/news/a/thought-for-the-week-companies-face-cyber-pain-as-hackers-press-ai-advantage) |
 
 ### Medium priority sources
 
@@ -58,10 +60,6 @@ Last run: **2026-11-11T15:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | Privacy World (Squire Patton Boggs) | [Upcoming Speaking Engagements and On-Demand Learning Opportunities](https://www.privacyworld.blog/2026/11/upcoming-speaking-engagements-and-on-demand-learning-opportunities/) |
 | 2026-11-09 | Privacy World (Squire Patton Boggs) | [Privacy World Week in Review](https://www.privacyworld.blog/2026/11/privacy-world-week-in-review-95/) |
 | 2026-11-09 | Euractiv | [The Data Act, tested in practice](https://www.rapporteur.com/video/the-data-act-tested-in-practice/) |
-| 2026-11-09 | Datatilsynet (Norway) | [Råd til virksomheter og enkeltpersoner etter databrudd](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/rad-til-virksomheter-og-enkeltpersoner-etter-databrudd/) |
-| 2026-11-09 | CDO Magazine | [Nominations and Lists CDO Magazine Announces Top 30 Higher Education Data & AI Influencers 2026](https://www.cdomagazine.tech/nominations-and-lists/cdo-magazine-announces-top-30-higher-education-data-ai-influencers-2026) |
-| 2026-11-09 | Alation Blog | [November 9, 2026 AI-Ready Data in Three Tiers: How the BBC Grades its Own Metadata Learn how the BBC used Alation to build an agent that grades metadata in tiers for AI readiness to drive future AI use… Read More](https://www.alation.com/blog/bbc-ai-data-readiness-tiers/) |
-| 2026-11-09 | Databricks Blog | [Accelerate GPU training on Unity Catalog tables with UCDataset](https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset) |
 | 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
 | 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
 
@@ -69,9 +67,13 @@ Last run: **2026-11-11T15:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | AWS Big Data Blog | [Governance compliance beyond the catalog in Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/governance-compliance-beyond-the-catalog-in-amazon-sagemaker-unified-studio/) |
+| 2026-11-11 | AWS Big Data Blog | [How Intuit migrated from Apache Hive Metastore to AWS Glue Data Catalog](https://aws.amazon.com/blogs/big-data/how-intuit-migrated-from-apache-hive-metastore-to-aws-glue-data-catalog/) |
 | 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Espionage, AI, and the Risks of Strategic Overreaction](https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/) |
 | 2026-11-11 | dbt Labs Blog | [Making the economic case for warehouse-first AI context](https://www.getdbt.com/blog/economic-case-warehouse-first-ai-context) |
 | 2026-11-11 | Gaia-X | [Gaia-X Summit 2026 to Accelerate Europe’s Transition to Sovereign, Trusted AI and Data Ecosystems](https://gaia-x.eu/gaia-x-summit-2026-to-accelerate-europes-transition-to-sovereign-trusted-ai-and-data-ecosystems/) |
+| 2026-11-11 | dbt Labs Blog | [A letter from our founders](https://www.getdbt.com/blog/founders-letter) |
+| 2026-11-10 | Center for Security and Emerging Technology (CSET) | [The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO](https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/) |
 | 2026-11-10 | Precisely Blog | [Insights from three SAP customers on master data automation](https://www.precisely.com/blog/cat-sap-automation/insights-from-three-sap-customers-on-master-data-automation/) |
 | 2026-11-10 | ENISA — EU Agency for Cybersecurity | [ENISA reveals the State of Cybersecurity in the Union](https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union) |
 | 2026-11-10 | Google Cloud Blog — Data Analytics | [BigQuery measures is now GA, unifying BI metrics and knowledge graphs for AI accuracy](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
@@ -85,16 +87,13 @@ Last run: **2026-11-11T15:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-09 | MIT Technology Review | [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) |
 | 2026-11-09 | The Record (Recorded Future News) | [Vanderbilt cybersecurity incident impacting campus devices and systems](https://therecord.media/vanderbilt-cyberattack-ransomware-alert) |
 | 2026-11-09 | AWS Big Data Blog | [Amazon Athena introduces system tables for query execution observability](https://aws.amazon.com/blogs/big-data/amazon-athena-introduces-system-tables-for-query-execution-observability/) |
-| 2026-11-09 | Center for Security and Emerging Technology (CSET) | [The U.S.–China AI Competition: Two Paths to Artificial General Intelligence](https://cset.georgetown.edu/article/the-u-s-china-ai-competition-two-paths-to-artificial-general-intelligence/) |
-| 2026-11-09 | European Digital Rights (EDRi) | [Data retention is mass surveillance of people’s phone and internet activity](https://edri.org/our-work/data-retention-is-mass-surveillance-of-peoples-phone-and-internet-activity/) |
-| 2026-11-09 | MIT Technology Review | [Innovating with AI in the special chemicals industry](https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/) |
 | 2026-11-09 | Computer Weekly — IT security | [Gartner Symposium: Keeping the tech flywheel under control](https://www.computerweekly.com/news/366654694/Gartner-Symposium-Keeping-the-tech-flywheel-under-control) |
 | 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
 | 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 79× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 80× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -815,6 +815,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "21490a6f9177af3d": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Covers Greece's national AI Act implementation framework; relevant to governance but with no excerpt, so rated modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "21fb4848b3a9d475": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -823,6 +835,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog generic readiness checklist; thought-leadership rather than news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "22500a8ec4c22a9e": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Espionage and export-control story about an individual with no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -1440,6 +1461,23 @@
    "importance": 1,
    "reason": "Vendor product explainer for an AI agent; marketing rather than a launch or research finding.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "3fa76febf243d220": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [
+    "metadata",
+    "data-quality"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "aws-sets-out-pattern-to-score-sagemaker-catalogue-assets-against-gover",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/102",
+   "primary_found": true,
+   "reason": "Practical how-to joining catalog metadata, quality scores and glossary signals into a compliance scorecard; concrete, usable for practitioners.",
+   "relevant": true,
    "same_story_as": null
   },
   "3fca9bda96bf7158": {
@@ -2593,6 +2631,18 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/47",
    "primary_found": true,
    "reason": "Legal analysis of algorithmic pricing laws and FTC proposed policy statement; practical compliance guidance, though overlaps FTC pricing order topic and is analysis rather than new event.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "746de3a09f78d237": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [
+    "ai-governance",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Generic opinion on centralised versus decentralised AI governance models; some operating-model value but no concrete guidance visible.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4369,6 +4419,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "c37e1b21a6c67d15": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Founders' letter with generic thought-leadership on agents and data infrastructure; no concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c4b97dff2dcab455": {
    "at": "2026-10-30T15:18:31Z",
    "categories": [
@@ -5194,6 +5253,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e1ffbd9c517eff15": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "opinion-eu-ai-act-article-72-monitoring-plans-risk-missing-behavioural",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/101",
+   "primary_found": false,
+   "reason": "Analysis of AI Act Article 72 post-market monitoring gaps from a specialist privacy media source, practically useful for compliance teams.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e2d37355f3b0f073": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -5730,6 +5806,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fb9389653ce80578": {
+   "at": "2026-11-11T17:10:58Z",
+   "categories": [
+    "metadata",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical migration case study of a data catalog move with governance benefits, but mainly a vendor-platform technical story.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fc7118093b0de300": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -5859,8 +5947,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 264,
-   "usd": 11.2985
+   "calls": 269,
+   "usd": 11.535
   }
  }
 }
