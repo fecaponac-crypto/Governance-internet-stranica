@@ -273,6 +273,12 @@ Pravilo: **ne objavljujemo zastarjele vijesti.** (Povod: PR #67 je opisivao zaht
 - Netko je sustavno testirao `/api/feedback` (ratelimit-probe, cors-probe, csrf, izmišljene i vrlo duge adrese), pa su brojke za listopad i studeni bile nepouzdane. Od 9. 11. glas se broji samo ako dolazi s našeg portala (Origin), za objavljenu stranicu i najviše 10 puta u minuti po posjetitelju (Cloudflare Rate Limiting, ništa ne spremamo). Tjedni e-mail briše brojače za adrese koje nisu objavljene stranice.
 - Worker za nepostojeće adrese vraća našu 404 stranicu, a poveznice sa zagradom, točkom, zarezom ili navodnicima na kraju trajno (301) preusmjerava na pravu stranicu.
 
+## 10a-12. Službeni izvori i kalendar obveza (12. 11. 2026.)
+
+Cilj (odluka urednika): biti najrelevantniji izvor u niši — prednost su provjerenost, trackeri i praktična korist, ne broj vijesti.
+- **Službeni izvori:** priopćenja Europske komisije (press corner, stranica traži JavaScript) i dokumenti Federal Registera (CAPTCHA) čitaju se preko njihovih javnih API-ja (Federal Register uz govinfo PDF). Kad članak ne vodi na izvornik, pretraga weba (do 3 pretrage, model za provjere) traži vlastitu objavu tijela; prihvaća se samo URL koji je pretraga vratila i koji nije na stranici samog članka. Isključuje se varijablom `SEARCH_FOR_PRIMARY=0`.
+- **Kalendar obveza** (`/deadlines/`): svi datumi iz vijesti po mjesecima, s odbrojavanjem, vrstom (Applies, Comment deadline, Hearing or vote), regijom i poveznicom na zakon u trackeru; filtri po regiji i vrsti. Pretplata preko `/deadlines.ics` (Outlook, Apple, Google) — novi datumi stižu sami.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

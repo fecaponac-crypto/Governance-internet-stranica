@@ -1,64 +1,232 @@
 ---
 import Base from '../layouts/Base.astro';
-import { formatDate, getArticles, isoDate } from '../utils/articles';
+import { SITE } from '../data/site';
+import { formatDate, getArticles, getKeyDates, isoDate } from '../utils/articles';
 
-const articles = await getArticles();
-const rows = articles
-  .flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a })))
-  .sort((x, y) => x.date.getTime() - y.date.getTime());
+const rows = await getKeyDates(await getArticles());
 const today = isoDate(new Date());
+const month = (d: Date) => d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+const groups = [...new Set(rows.map((r) => month(r.date)))].map((m) => ({ month: m, rows: rows.filter((r) => month(r.date) === m) }));
+const areas = ['EU', 'UK', 'US', 'Other'].filter((a) => rows.some((r) => r.area === a));
+const kinds = ['Applies', 'Comment deadline', 'Hearing or vote', 'Other'].filter((k) => rows.some((r) => r.kind === k));
+const feed = new URL('/deadlines.ics', SITE.url).href;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Key dates in data protection, AI and data regulation',
+  itemListElement: rows
+    .filter((r) => isoDate(r.date) >= today)
+    .slice(0, 50)
+    .map((r, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: { '@type': 'Event', name: r.what, startDate: isoDate(r.date), url: new URL(`/news/${r.article.id}/`, SITE.url).href },
+    })),
+};
 ---
 
 <Base
-  title="Key dates"
-  description="Upcoming application dates, consultation deadlines and votes in data governance, privacy and AI regulation — each linked to our coverage and its sources."
+  title="Key dates: compliance calendar for data protection and AI regulation"
+  description="When laws start to apply, when consultations close and when courts and parliaments decide: every key date from our coverage in one calendar you can subscribe to."
 >
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
   <div class="wrap narrow">
     <header class="page-head">
       <p class="eyebrow">Calendar</p>
       <h1>Key dates</h1>
       <p>
-        Application dates, consultation deadlines, votes and compliance deadlines from the developments we cover — each
-        linked to the article and its sources. Dates are taken from official sources where we have them.
+        When laws start to apply, when consultations close and when courts and parliaments decide. Every date comes from a
+        story we have covered and links to it and its sources.
       </p>
     </header>
 
-    <ol class="dates" data-dates>
+    <section class="subscribe" aria-labelledby="sub-title">
+      <h2 id="sub-title">Put these dates in your calendar</h2>
+      <p>Subscribe once and new dates appear in your calendar by themselves.</p>
+      <ul>
+        <li><a class="btn" href={feed.replace(/^https:/, 'webcal:')}>Subscribe (Outlook, Apple)</a></li>
+        <li>
+          <a href={`https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feed.replace(/^https:/, 'webcal:'))}`} rel="noopener" target="_blank"
+            >Add to Google Calendar<span class="visually-hidden"> (opens in a new tab)</span></a
+          >
+        </li>
+        <li><a href="/deadlines.ics" download>Download .ics file</a></li>
+      </ul>
+    </section>
+
+    {
+      rows.length > 0 && (
+        <form class="filters" data-filters aria-label="Filter key dates">
+          <label>
+            Region
+            <select name="area">
+              <option value="">All</option>
+              {areas.map((a) => <option value={a}>{a}</option>)}
+            </select>
+          </label>
+          <label>
+            Type
+            <select name="kind">
+              <option value="">All</option>
+              {kinds.map((k) => <option value={k}>{k}</option>)}
+            </select>
+          </label>
+          <p class="count" role="status" data-count />
+        </form>
+      )
+    }
+
+    <div data-dates>
       {
-        rows.map((r) => (
-          <li data-date={isoDate(r.date)} class:list={{ past: isoDate(r.date) < today }}>
-            <time datetime={isoDate(r.date)}>{formatDate(r.date)}</time>
-            <div>
-              <p class="what">{r.what}</p>
-              <a href={`/news/${r.article.id}/`}>{r.article.data.title}</a>
-            </div>
-          </li>
+        groups.map((g) => (
+          <section class="month" data-month>
+            <h2>{g.month}</h2>
+            <ol class="dates">
+              {g.rows.map((r) => (
+                <li data-date={isoDate(r.date)} data-area={r.area} data-kind={r.kind} class:list={{ past: isoDate(r.date) < today }}>
+                  <div class="when">
+                    <time datetime={isoDate(r.date)}>{formatDate(r.date)}</time>
+                    <span class="left" data-left />
+                  </div>
+                  <div>
+                    <p class="what">{r.what}</p>
+                    <p class="tags">
+                      <span class:list={['kind', r.kind.toLowerCase().replace(/\s+/g, '-')]}>{r.kind}</span>
+                      <span>{r.area}</span>
+                      {r.laws.map((l) => <a href={`/legislation/${l.id}/`}>{l.data.short}</a>)}
+                    </p>
+                    <a class="story" href={`/news/${r.article.id}/`}>{r.article.data.title}</a>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
         ))
       }
-    </ol>
+    </div>
     {rows.length === 0 && <p class="empty">No dates yet.</p>}
+    <p class="empty" hidden data-none>No dates match these filters.</p>
     <p class="toggle" hidden data-toggle><button type="button">Show past dates</button></p>
+    <p class="note">
+      Dates are taken from the sources of each story; check the linked source before relying on one. Missing a date?
+      <a href={`mailto:${SITE.email}?subject=Key dates`}>Tell us</a>.
+    </p>
   </div>
 </Base>
 
 <script>
-  // The page is built ahead of time; recheck which dates have passed in the reader's browser.
-  const today = new Date().toISOString().slice(0, 10);
+  // The page is built ahead of time: work out in the reader's browser what has passed and how far away each date is.
+  const root = document.querySelector<HTMLElement>('[data-dates]');
   const items = [...document.querySelectorAll<HTMLElement>('[data-dates] li')];
-  items.forEach((li) => li.classList.toggle('past', (li.dataset.date ?? '') < today));
+  const today = new Date().toISOString().slice(0, 10);
+  const days = (iso: string) => Math.round((Date.parse(iso) - Date.parse(today)) / 864e5);
+  items.forEach((li) => {
+    const n = days(li.dataset.date ?? '');
+    li.classList.toggle('past', n < 0);
+    const left = li.querySelector<HTMLElement>('[data-left]');
+    if (left) left.textContent = n < 0 ? 'passed' : n === 0 ? 'today' : n === 1 ? 'tomorrow' : n <= 120 ? `in ${n} days` : '';
+    li.classList.toggle('soon', n >= 0 && n <= 14);
+  });
+
+  const form = document.querySelector<HTMLFormElement>('[data-filters]');
+  const count = document.querySelector<HTMLElement>('[data-count]');
+  const none = document.querySelector<HTMLElement>('[data-none]');
   const toggle = document.querySelector<HTMLElement>('[data-toggle]');
+  function apply() {
+    const area = (form?.elements.namedItem('area') as HTMLSelectElement | null)?.value ?? '';
+    const kind = (form?.elements.namedItem('kind') as HTMLSelectElement | null)?.value ?? '';
+    const showPast = root?.classList.contains('show-past');
+    let shown = 0;
+    items.forEach((li) => {
+      const match = (!area || li.dataset.area === area) && (!kind || li.dataset.kind === kind);
+      li.hidden = !match;
+      if (match && (showPast || !li.classList.contains('past'))) shown += 1;
+    });
+    document.querySelectorAll<HTMLElement>('[data-month]').forEach((m) => {
+      m.hidden = ![...m.querySelectorAll<HTMLElement>('li')].some((li) => !li.hidden && (showPast || !li.classList.contains('past')));
+    });
+    if (count) count.textContent = `${shown} ${shown === 1 ? 'date' : 'dates'}`;
+    if (none) none.hidden = shown > 0 || items.length === 0;
+  }
+  form?.addEventListener('change', apply);
   if (toggle && items.some((li) => li.classList.contains('past'))) {
     toggle.hidden = false;
     toggle.querySelector('button')?.addEventListener('click', () => {
-      document.querySelector('[data-dates]')?.classList.add('show-past');
+      root?.classList.add('show-past');
       toggle.hidden = true;
+      apply();
     });
   }
+  apply();
 </script>
 
 <style>
   .narrow {
     max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .subscribe {
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--signal);
+    border-radius: 6px;
+    padding: 1rem 1.25rem 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  .subscribe h2 {
+    font-size: 1.15rem;
+    margin: 0 0 0.25rem;
+  }
+  .subscribe p {
+    margin: 0 0 0.8rem;
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
+  .subscribe ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem 1.25rem;
+    font-size: 0.95rem;
+  }
+  .subscribe li a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 0.75rem 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .filters label {
+    display: grid;
+    gap: 0.2rem;
+    font-weight: 600;
+  }
+  .filters select {
+    font: inherit;
+    min-height: 44px;
+    padding: 0 0.6rem;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--ink);
+  }
+  .count {
+    margin: 0 0 0.6rem;
+    color: var(--ink-2);
+  }
+  .month h2 {
+    font-size: 1.05rem;
+    margin: 1.75rem 0 0;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--ink);
   }
   .dates {
     list-style: none;
@@ -67,48 +235,93 @@ const today = isoDate(new Date());
   }
   .dates li {
     display: grid;
-    grid-template-columns: 7.5rem 1fr;
+    grid-template-columns: 8rem 1fr;
     gap: 1rem;
-    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
     padding: 1rem 0;
   }
+  .dates li[hidden],
   .dates li.past {
     display: none;
   }
-  .dates.show-past li.past {
+  .show-past li.past:not([hidden]) {
     display: grid;
-    opacity: 0.6;
+    opacity: 0.65;
+  }
+  .when {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
   }
   time {
     font-weight: 650;
     font-size: 0.95rem;
   }
+  .left {
+    font-size: 0.8rem;
+    color: var(--ink-2);
+  }
+  .soon .left {
+    color: var(--signal);
+    font-weight: 650;
+  }
   .what {
-    margin: 0 0 0.25rem;
+    margin: 0 0 0.35rem;
     font-family: var(--serif);
     font-size: 1.1rem;
   }
-  .dates a {
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0 0 0.35rem;
+    font-size: 0.75rem;
+  }
+  .tags span,
+  .tags a {
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    padding: 0.05rem 0.55rem;
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  .tags .kind.applies {
+    border-color: var(--signal);
+    color: var(--signal);
+  }
+  .story {
     font-size: 0.9rem;
     color: var(--ink-2);
   }
-  .empty {
-    color: var(--ink-3);
+  .empty,
+  .note {
+    color: var(--ink-2);
+    font-size: 0.9rem;
+  }
+  .note {
+    margin-top: 1.5rem;
   }
   .toggle button {
     font: inherit;
     font-size: 0.9rem;
+    min-height: 44px;
     background: none;
     border: 1px solid var(--rule);
     border-radius: 6px;
-    padding: 0.4rem 0.8rem;
+    padding: 0 0.9rem;
     cursor: pointer;
     color: var(--ink-2);
   }
   @media (max-width: 520px) {
-    .dates li {
+    .dates li,
+    .show-past li.past:not([hidden]) {
       grid-template-columns: 1fr;
-      gap: 0.25rem;
+      gap: 0.3rem;
+    }
+    .when {
+      flex-direction: row;
+      align-items: baseline;
+      gap: 0.6rem;
     }
   }
 </style>

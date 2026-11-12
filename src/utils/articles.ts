@@ -169,3 +169,55 @@ export async function getLegislation(articles: Article[]): Promise<LegislationVi
     })
     .sort((a, b) => (b.stories[0]?.data.date.getTime() ?? 0) - (a.stories[0]?.data.date.getTime() ?? 0));
 }
+
+export type KeyDateKind = 'Applies' | 'Comment deadline' | 'Hearing or vote' | 'Other';
+export interface KeyDate {
+  id: string;
+  date: Date;
+  what: string;
+  kind: KeyDateKind;
+  area: 'EU' | 'UK' | 'US' | 'Other';
+  article: Article;
+  laws: LegislationFile[];
+}
+
+const kindOf = (what: string): KeyDateKind =>
+  /comment|consultation|feedback|submission|respond/i.test(what)
+    ? 'Comment deadline'
+    : /hearing|vote|ruling|judgment|plenary|trial|meeting|decision due/i.test(what)
+      ? 'Hearing or vote'
+      : /effect|force|appl|start|begin|commenc|in operation|compliance|deadline to comply|must/i.test(what)
+        ? 'Applies'
+        : 'Other';
+
+const areaOf = (region = ''): KeyDate['area'] =>
+  /\bEU\b|Europe|France|German|Spain|Ital|Nether|Dutch|Ireland|Sweden|Norway|Denmark|Belg|Austria|Poland|Croatia/i.test(region)
+    ? 'EU'
+    : /\bUK\b|United Kingdom|Britain/i.test(region)
+      ? 'UK'
+      : /\bUS\b|United States|California|Colorado|New York|Texas|Pennsylvania/i.test(region)
+        ? 'US'
+        : 'Other';
+
+/** Every dated obligation, deadline, hearing and vote from our stories, earliest first, without repeats. */
+export async function getKeyDates(articles: Article[]): Promise<KeyDate[]> {
+  const files = await getCollection('legislation');
+  const seen = new Set<string>();
+  return articles
+    .flatMap((article) =>
+      article.data.deadlines.map((d) => ({
+        id: `${isoDate(d.date)}-${article.id}`.slice(0, 80),
+        date: d.date,
+        what: d.what,
+        kind: kindOf(d.what),
+        area: areaOf(article.data.region),
+        article,
+        laws: files.filter((f) => article.data.legislation.includes(f.id)),
+      })),
+    )
+    .sort((x, y) => x.date.getTime() - y.date.getTime() || y.article.data.date.getTime() - x.article.data.date.getTime())
+    .filter((d) => {
+      const key = `${isoDate(d.date)}|${d.what.toLowerCase()}`;
+      return seen.has(key) ? false : (seen.add(key), true);
+    });
+}
