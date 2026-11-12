@@ -492,7 +492,27 @@ def federal_register(url: str) -> dict | None:
     return {"url": url, "text": "\n".join(head) + ("\n\n" + body if body else ""), "links": []}
 
 
-OFFICIAL_READERS = (commission_press, federal_register)
+def eur_lex(url: str) -> dict | None:
+    """EUR-Lex (often answers with an empty page to scripts): the same text from the EU Publications Office."""
+    m = re.search(r"eur-lex\.europa\.eu/.*CELEX(?::|%3A)(\d\w+)", url, re.I)
+    if not m:
+        return None
+    r = requests.get(f"http://publications.europa.eu/resource/celex/{m.group(1)}", timeout=60,
+                     headers={"User-Agent": USER_AGENT, "Accept": "application/xhtml+xml, text/html", "Accept-Language": "eng"})
+    r.raise_for_status()
+    r.encoding = "utf-8"
+    from bs4 import BeautifulSoup
+
+    # The whole text: in legal acts short lines matter ("It shall apply from 17 January 2025.").
+    text = re.sub(r"[ \t]*\n\s*", "\n", BeautifulSoup(r.text, "html.parser").get_text("\n", strip=True).replace("\xa0", " "))
+    if len(text) > MAX_SOURCE_CHARS:  # long acts: keep the opening and the final provisions (application dates)
+        at = max(text.rfind("Entry into force"), text.rfind("Transposition"))
+        closing = text[max(0, at - 3000): at + 3000] if at > 0 else text[-6000:]
+        text = text[: MAX_SOURCE_CHARS - len(closing) - 10] + "\n[…]\n" + closing
+    return {"url": url, "text": text, "links": []}
+
+
+OFFICIAL_READERS = (commission_press, federal_register, eur_lex)
 
 
 def fetch_source(url: str) -> dict:

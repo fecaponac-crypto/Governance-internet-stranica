@@ -21,7 +21,7 @@ const jsonLd = {
     .map((r, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      item: { '@type': 'Event', name: r.what, startDate: isoDate(r.date), url: new URL(`/news/${r.article.id}/`, SITE.url).href },
+      item: { '@type': 'Event', name: r.what, startDate: isoDate(r.date), url: new URL(r.href, SITE.url).href },
     })),
 };
 ---
@@ -36,8 +36,8 @@ const jsonLd = {
       <p class="eyebrow">Calendar</p>
       <h1>Key dates</h1>
       <p>
-        When laws start to apply, when consultations close and when courts and parliaments decide. Every date comes from a
-        story we have covered and links to it and its sources.
+        When laws start to apply, when consultations close and when courts and parliaments decide. Every date comes from
+        the text of a law we track or from a story we have covered, and links to it.
       </p>
     </header>
 
@@ -94,9 +94,9 @@ const jsonLd = {
                     <p class="tags">
                       <span class:list={['kind', r.kind.toLowerCase().replace(/\s+/g, '-')]}>{r.kind}</span>
                       <span>{r.area}</span>
-                      {r.laws.map((l) => <a href={`/legislation/${l.id}/`}>{l.data.short}</a>)}
+                      {r.article && r.laws.map((l) => <a href={`/legislation/${l.id}/`}>{l.data.short}</a>)}
                     </p>
-                    <a class="story" href={`/news/${r.article.id}/`}>{r.article.data.title}</a>
+                    <a class="story" href={r.href}>{r.from}</a>
                   </div>
                 </li>
               ))}

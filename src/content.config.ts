@@ -126,6 +126,8 @@ const legislation = defineCollection({
     stageNote: z.string().optional(),
     summary: z.string(),
     official: z.object({ title: z.string(), url: z.url() }).optional(),
+    // Dates set by the law itself (application, transposition, phase-in), from the official text.
+    dates: z.array(z.object({ date: z.coerce.date(), what: z.string() })).default([]),
   }),
 });
 

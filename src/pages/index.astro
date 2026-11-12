@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, isNews, getLegislation, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
+import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, getKeyDates, isNews, getLegislation, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
 import { INSTITUTIONS } from '../data/institutions';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
@@ -25,11 +25,7 @@ const top = column || essay ? [] : latest.slice(0, 2);
 // Rail: our tools, filled from the published articles (the site rebuilds at least daily).
 const now = Date.now();
 const today = isoDate(new Date());
-const upcoming = articles
-  .flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a })))
-  .filter((d) => isoDate(d.date) >= today)
-  .sort((x, y) => x.date.getTime() - y.date.getTime())
-  .slice(0, 5);
+const upcoming = (await getKeyDates(articles)).filter((d) => isoDate(d.date) >= today).slice(0, 5);
 const week = news
   .filter((a) => a !== lead && now - a.data.date.getTime() <= 7 * 864e5)
   .sort((a, b) => b.data.importance - a.data.importance || b.data.date.getTime() - a.data.date.getTime())
@@ -155,7 +151,7 @@ const counts = Object.fromEntries(
                 {upcoming.map((d) => (
                   <li>
                     <time datetime={isoDate(d.date)}>{formatDate(d.date)}</time>
-                    <a href={articleUrl(d.article)}>{d.what}</a>
+                    <a href={d.href}>{d.what}</a>
                   </li>
                 ))}
               </ul>

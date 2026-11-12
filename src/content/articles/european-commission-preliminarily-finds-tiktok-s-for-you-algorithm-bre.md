@@ -5,6 +5,7 @@ dek: "The Commission says TikTok did not adequately assess how its feed pulls us
 whyItMatters: "The Commission is challenging the design of a recommender system, not the removal of content: it found the risk assessment inadequate, the mitigations ineffective and named engagement signals such as viewing time as part of the problem. Teams running personalisation or ranking systems should check that the risks in their assessments lead to mitigations that are tested and shown to work. They should also be able to show which signals drive recommendations, implicit ones such as viewing time or explicit user preferences, and that user controls actually change what is shown."
 categories: [regulation, ai-governance, privacy]
 institutions: [european-commission]
+legislation: [eu-digital-services-act]
 whoShouldCare: ["Legal & compliance", "AI governance lead", "DPO", "Product and data science leads"]
 importance: 4
 type: "Enforcement"

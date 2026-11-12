@@ -5,6 +5,7 @@ dek: "The privacy group's scoring, published on a new website, says the EPP tabl
 whyItMatters: "The Digital Omnibus could change the GDPR's scope and the legal basis for using personal data in AI, which would affect records of processing, lawful-basis assessments and AI training data policies. Parliament's position is still being formed, so privacy and AI governance teams should track which amendments gain support rather than plan around the Commission text alone. noyb's ranking is an advocacy assessment, not an official count, but it indicates where the contested provisions lie."
 categories: [regulation, privacy, ai-governance]
 institutions: []
+legislation: [eu-gdpr]
 whoShouldCare: ["DPO", "Legal & compliance", "AI governance lead", "CDO"]
 importance: 3
 type: "Research"

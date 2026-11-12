@@ -5,6 +5,7 @@ dek: "Member state ambassadors set the Council's position on rewriting GDPR, Dat
 whyItMatters: "If Article 88bis survives trilogues, the lawful basis for AI training and use of historic personal data could shift. DPOs should already know which datasets and AI use cases currently depend on consent or a case-by-case legitimate interest assessment. A narrower definition of personal data would affect how pseudonymised identifiers such as user IDs and tracking IDs are classified in data catalogues and records of processing. Data Act teams should note the proposed trade-secret refusal ground and the narrower public-emergency scope of business-to-government requests."
 categories: [regulation, privacy, ai-governance]
 institutions: [council-eu]
+legislation: [eu-gdpr, eu-data-act, eu-data-governance-act]
 whoShouldCare: ["DPO", "Legal & compliance", "AI governance lead", "CDO"]
 importance: 4
 type: "Regulation"

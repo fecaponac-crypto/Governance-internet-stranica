@@ -285,6 +285,13 @@ Cilj (odluka urednika): biti najrelevantniji izvor u niši — prednost su provj
 - Glavni tok (naslovnica: glavna vijest, Latest, This week; `/news/`) prikazuje samo News. Ostalo ide na `/analysis/` („Analysis & practice”) i u manji blok na naslovnici; na samom tekstu je istaknuta oznaka s objašnjenjem i autorom. Uredničko mišljenje (Opinion eseji, Monday Signal) ostaje zasebno.
 - AI u nacrtu određuje format i autora; PR je označen (🗣️, format u naslovu). Mišljenje o predmetu ne ulazi u tracker kazni. Trijaža: komentar o već pokrivenom razvoju bez nove činjenice nije relevantan; mišljenja i vodiči dobivaju 3 samo kad daju nešto primjenjivo.
 
+## 10a-14. Proširenje trackera zakonodavstva (12. 11. 2026.)
+
+- Zakon u `data/legislation.yaml` može imati vlastite `dates` (primjena, prijenos u nacionalno pravo, faze) — iz službenog teksta, ne iz vijesti. Ti datumi idu na stranicu zakona i u kalendar obveza (`/deadlines/`, `.ics`); datum iz vijesti o istom zakonu i danu ne udvostručuje se.
+- **Prva skupina (10 EU zakona), faze i datumi pročitani iz tekstova na poslužitelju Ureda za publikacije EU-a:** GDPR, Data Act, Data Governance Act, DSA, DMA, DORA, NIS 2, Cyber Resilience Act, European Health Data Space, Product Liability Directive. Tracker: 20 zakona. Pravilo: zakon se dodaje tek kad su faza i datumi provjereni u službenom tekstu.
+- Pipeline čita EUR-Lex (CELEX poveznice) preko `publications.europa.eu` i zadržava završne odredbe dugih akata, da datumi primjene ne ispadnu.
+- Sljedeće skupine: UK (Data (Use and Access) Act), američke savezne države, ostale jurisdikcije — svaka uz provjeru u službenom izvoru.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

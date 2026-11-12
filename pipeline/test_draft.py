@@ -515,6 +515,18 @@ class OfficialSourceTest(unittest.TestCase):
         self.assertIn("Docket: FDA-2026-N-10742", d["text"])
         self.assertIn("Full notice text.", d["text"])
 
+    def test_eur_lex_is_read_from_the_publications_office(self):
+        seen = {}
+        def fake_get(url, **kw):
+            seen["url"] = url
+            return SimpleNamespace(text="<html><body>" + "<p>This Regulation shall apply from 12 September 2025 to all the things.</p>" * 20 + "</body></html>",
+                                   raise_for_status=lambda: None, encoding=None)
+        with mock.patch.object(draft.requests, "get", fake_get):
+            d = draft.fetch_source("https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R2854")
+        self.assertEqual(seen["url"], "http://publications.europa.eu/resource/celex/32023R2854")
+        self.assertIn("shall apply from 12 September 2025", d["text"])
+        self.assertIsNone(draft.eur_lex("https://eur-lex.europa.eu/homepage.html"))
+
     def test_search_finds_the_official_document_only_among_search_results(self):
         item_, src = item(0), {"url": "https://news.example.org/story", "text": "Report " * 300, "links": []}
         client = FakeClient([])

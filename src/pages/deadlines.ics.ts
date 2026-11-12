@@ -1,7 +1,7 @@
 // Calendar feed of the key dates (/deadlines/): subscribe once, new dates appear by themselves.
 import { createHash } from 'node:crypto';
 import { SITE } from '../data/site';
-import { articleUrl, getArticles, getKeyDates, isoDate } from '../utils/articles';
+import { getArticles, getKeyDates, isoDate } from '../utils/articles';
 
 const esc = (s: string) => s.replace(/\\/g, '\\\\').replace(/\r?\n/g, '\\n').replace(/([,;])/g, '\\$1');
 const day = (d: Date) => isoDate(d).replace(/-/g, '');
@@ -34,16 +34,16 @@ export async function GET() {
     'X-PUBLISHED-TTL:PT12H',
   ];
   for (const d of dates.filter((x) => x.date.getTime() >= cutoff)) {
-    const url = new URL(articleUrl(d.article), SITE.url).href;
+    const url = new URL(d.href, SITE.url).href;
     const next = new Date(d.date.getTime() + 864e5);
     lines.push(
       'BEGIN:VEVENT',
       `UID:${createHash('sha1').update(`${isoDate(d.date)}|${d.what}`).digest('hex').slice(0, 24)}@datagovernancesignal.com`,
-      `DTSTAMP:${day(d.article.data.date)}T000000Z`,
+      `DTSTAMP:${day(d.article?.data.date ?? d.date)}T000000Z`,
       `DTSTART;VALUE=DATE:${day(d.date)}`,
       `DTEND;VALUE=DATE:${day(next)}`,
       `SUMMARY:${esc(d.what)}`,
-      `DESCRIPTION:${esc(`${d.kind}. From: ${d.article.data.title}\n${url}`)}`,
+      `DESCRIPTION:${esc(`${d.kind}. From: ${d.from}\n${url}`)}`,
       `URL:${url}`,
       `CATEGORIES:${esc(d.kind)}`,
       'TRANSP:TRANSPARENT',

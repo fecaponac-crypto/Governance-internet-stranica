@@ -116,3 +116,144 @@
   official:
     title: "European Commission: Proposal for a Digital Fairness Act, COM(2026) 1100"
     url: https://commission.europa.eu/document/download/0575d59f-554f-4a9e-b54b-e6b717175809_en
+- id: eu-gdpr
+  name: General Data Protection Regulation (Regulation (EU) 2016/679)
+  short: GDPR
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageDate: 2018-05-25
+  stageNote: "Applies since 25 May 2018. The Digital Omnibus, now in negotiation, would amend parts of it."
+  summary: "The EU's general rules on processing personal data: lawful bases, individuals' rights, controller and processor duties, transfers and enforcement by national data protection authorities."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2016/679"
+    url: https://eur-lex.europa.eu/eli/reg/2016/679/oj
+- id: eu-data-act
+  name: Data Act (Regulation (EU) 2023/2854)
+  short: Data Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageDate: 2025-09-12
+  stageNote: "Applies since 12 September 2025, with later dates for connected-product design and for older contracts."
+  summary: "Harmonised rules on fair access to and use of data, including data from connected products and related services, data sharing between businesses, switching between data processing services and unfair contract terms."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2023/2854"
+    url: https://eur-lex.europa.eu/eli/reg/2023/2854/oj
+  dates:
+    - date: 2025-09-12
+      what: "Data Act starts to apply"
+    - date: 2026-09-12
+      what: "Data Act: the access-by-design obligation in Article 3(1) applies to connected products and related services placed on the market after this date"
+    - date: 2027-09-12
+      what: "Data Act: Chapter IV on unfair contract terms starts to apply to certain contracts concluded on or before 12 September 2025"
+- id: eu-data-governance-act
+  name: Data Governance Act (Regulation (EU) 2022/868)
+  short: Data Governance Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageDate: 2023-09-24
+  stageNote: "Applies since 24 September 2023. The Council's Digital Omnibus mandate would repeal it and move its rules elsewhere."
+  summary: "Rules for the re-use of protected public-sector data, data intermediation services and data altruism organisations, and the European Data Innovation Board."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2022/868"
+    url: https://eur-lex.europa.eu/eli/reg/2022/868/oj
+- id: eu-digital-services-act
+  name: Digital Services Act (Regulation (EU) 2022/2065)
+  short: Digital Services Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageDate: 2024-02-17
+  stageNote: "Applies in full since 17 February 2024; the Commission enforces it against very large online platforms and search engines."
+  summary: "Rules for online intermediaries and platforms on illegal content, transparency, recommender systems, advertising and the protection of minors, with risk-assessment duties for very large platforms."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2022/2065"
+    url: https://eur-lex.europa.eu/eli/reg/2022/2065/oj
+- id: eu-digital-markets-act
+  name: Digital Markets Act (Regulation (EU) 2022/1925)
+  short: Digital Markets Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageDate: 2023-05-02
+  stageNote: "Applies since 2 May 2023."
+  summary: "Obligations for designated gatekeeper platforms, including limits on combining personal data across services, data portability and access to data for business users."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2022/1925"
+    url: https://eur-lex.europa.eu/eli/reg/2022/1925/oj
+- id: eu-dora
+  name: Digital Operational Resilience Act (Regulation (EU) 2022/2554)
+  short: DORA
+  jurisdiction: EU
+  kind: Regulation
+  stage: Applies
+  stageDate: 2025-01-17
+  stageNote: "Applies since 17 January 2025."
+  summary: "Digital operational resilience rules for the financial sector: ICT risk management, incident reporting, resilience testing and the management of ICT third-party risk."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2022/2554"
+    url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+- id: eu-nis2
+  name: NIS 2 Directive (Directive (EU) 2022/2555)
+  short: NIS 2
+  jurisdiction: EU
+  kind: Directive
+  stage: Applies
+  stageDate: 2024-10-18
+  stageNote: "Member States had to transpose it by 17 October 2024 and apply their measures from 18 October 2024; obligations bind organisations through national law."
+  summary: "Cybersecurity risk-management and incident-reporting duties for essential and important entities across the EU, replacing the first NIS Directive."
+  official:
+    title: "EUR-Lex: Directive (EU) 2022/2555"
+    url: https://eur-lex.europa.eu/eli/dir/2022/2555/oj
+- id: eu-cyber-resilience-act
+  name: Cyber Resilience Act (Regulation (EU) 2024/2847)
+  short: Cyber Resilience Act
+  jurisdiction: EU
+  kind: Regulation
+  stage: In force
+  stageNote: "In force; reporting obligations apply since 11 September 2026 and the regulation applies in full from 11 December 2027."
+  summary: "Horizontal cybersecurity requirements for products with digital elements, covering design, vulnerability handling and reporting by manufacturers."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2024/2847"
+    url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+  dates:
+    - date: 2026-06-11
+      what: "Cyber Resilience Act: Chapter IV on the notification of conformity assessment bodies starts to apply"
+    - date: 2026-09-11
+      what: "Cyber Resilience Act: manufacturers' reporting obligations under Article 14 start to apply"
+    - date: 2027-12-11
+      what: "Cyber Resilience Act starts to apply in full"
+- id: eu-health-data-space
+  name: European Health Data Space Regulation (Regulation (EU) 2025/327)
+  short: European Health Data Space
+  jurisdiction: EU
+  kind: Regulation
+  stage: In force
+  stageNote: "In force; applies from 26 March 2027, with later dates for the priority categories of electronic health data."
+  summary: "Rules on individuals' access to and control over their electronic health data, electronic health record systems and the secondary use of health data."
+  official:
+    title: "EUR-Lex: Regulation (EU) 2025/327"
+    url: https://eur-lex.europa.eu/eli/reg/2025/327/oj
+  dates:
+    - date: 2027-03-26
+      what: "European Health Data Space Regulation starts to apply"
+    - date: 2029-03-26
+      what: "European Health Data Space: rules start to apply to the first priority categories of electronic health data (Article 14(1)(a) to (c))"
+    - date: 2031-03-26
+      what: "European Health Data Space: rules start to apply to the further priority categories of electronic health data (Article 14(1)(d) to (f))"
+- id: eu-product-liability-directive
+  name: Product Liability Directive (Directive (EU) 2024/2853)
+  short: Product Liability Directive
+  jurisdiction: EU
+  kind: Directive
+  stage: In force
+  stageNote: "In force; Member States must bring their national measures into force by 9 December 2026."
+  summary: "Liability for defective products, replacing Directive 85/374/EEC."
+  official:
+    title: "EUR-Lex: Directive (EU) 2024/2853"
+    url: https://eur-lex.europa.eu/eli/dir/2024/2853/oj
+  dates:
+    - date: 2026-12-09
+      what: "Product Liability Directive: deadline for Member States to bring national measures into force"

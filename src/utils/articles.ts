@@ -157,7 +157,7 @@ export type LegislationFile = CollectionEntry<'legislation'>;
 export interface LegislationView {
   file: LegislationFile;
   stories: Article[]; // newest first
-  keyDates: { date: Date; what: string; article: Article }[];
+  keyDates: { date: Date; what: string; article?: Article }[];
 }
 
 /** Every tracked law with its stories and the key dates those stories give, latest activity first. */
@@ -166,8 +166,10 @@ export async function getLegislation(articles: Article[]): Promise<LegislationVi
   return files
     .map((file) => {
       const stories = articles.filter((a) => a.data.legislation.includes(file.id));
-      const keyDates = stories
-        .flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a })))
+      const keyDates = [
+        ...file.data.dates.map((d) => ({ ...d, article: undefined as Article | undefined })),
+        ...stories.flatMap((a) => a.data.deadlines.map((d) => ({ ...d, article: a as Article | undefined }))),
+      ]
         .sort((x, y) => x.date.getTime() - y.date.getTime())
         .filter((d, i, all) => all.findIndex((o) => o.date.getTime() === d.date.getTime() && o.what === d.what) === i);
       return { file, stories, keyDates };
@@ -182,8 +184,12 @@ export interface KeyDate {
   what: string;
   kind: KeyDateKind;
   area: 'EU' | 'UK' | 'US' | 'Other';
-  article: Article;
+  /** The story the date comes from, or none when the date is set by the tracked law itself. */
+  article?: Article;
   laws: LegislationFile[];
+  /** Where the reader goes for more: the story, or the law's page in the tracker. */
+  href: string;
+  from: string;
 }
 
 const kindOf = (what: string): KeyDateKind =>
@@ -204,25 +210,44 @@ const areaOf = (region = ''): KeyDate['area'] =>
         ? 'US'
         : 'Other';
 
-/** Every dated obligation, deadline, hearing and vote from our stories, earliest first, without repeats. */
+/** Every dated obligation, deadline, hearing and vote from our stories and tracked laws, earliest first, without repeats. */
 export async function getKeyDates(articles: Article[]): Promise<KeyDate[]> {
   const files = await getCollection('legislation');
   const seen = new Set<string>();
-  return articles
-    .flatMap((article) =>
-      article.data.deadlines.map((d) => ({
-        id: `${isoDate(d.date)}-${article.id}`.slice(0, 80),
-        date: d.date,
-        what: d.what,
-        kind: kindOf(d.what),
-        area: areaOf(article.data.region),
-        article,
-        laws: files.filter((f) => article.data.legislation.includes(f.id)),
-      })),
-    )
-    .sort((x, y) => x.date.getTime() - y.date.getTime() || y.article.data.date.getTime() - x.article.data.date.getTime())
+  const fromLaws: KeyDate[] = files.flatMap((f) =>
+    f.data.dates.map((d) => ({
+      id: `${isoDate(d.date)}-${f.id}`.slice(0, 80),
+      date: d.date,
+      what: d.what,
+      kind: kindOf(d.what),
+      area: areaOf(f.data.jurisdiction),
+      laws: [f],
+      href: `/legislation/${f.id}/`,
+      from: `${f.data.short}: official text`,
+    })),
+  );
+  const fromStories: KeyDate[] = articles.flatMap((article) =>
+    article.data.deadlines.map((d) => ({
+      id: `${isoDate(d.date)}-${article.id}`.slice(0, 80),
+      date: d.date,
+      what: d.what,
+      kind: kindOf(d.what),
+      area: areaOf(article.data.region),
+      article,
+      laws: files.filter((f) => article.data.legislation.includes(f.id)),
+      href: articleUrl(article),
+      from: article.data.title,
+    })),
+  );
+  // Dates from the law's own text come first, so a story repeating one does not double it.
+  return [...fromLaws, ...fromStories]
+    .sort((x, y) => x.date.getTime() - y.date.getTime())
     .filter((d) => {
       const key = `${isoDate(d.date)}|${d.what.toLowerCase()}`;
-      return seen.has(key) ? false : (seen.add(key), true);
+      const sameLawSameDay = d.laws.some((l) => seen.has(`${isoDate(d.date)}|law:${l.id}`));
+      if (seen.has(key) || (d.article && sameLawSameDay)) return false;
+      seen.add(key);
+      if (!d.article) d.laws.forEach((l) => seen.add(`${isoDate(d.date)}|law:${l.id}`));
+      return true;
     });
 }
