@@ -742,6 +742,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1eaaafd11cb234ee": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "New Jersey chatbot liability bill A5607 pending; a legislative step but described mainly as advocacy support.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1eaf758fdf1c9784": {
    "at": "2026-11-03T21:18:59Z",
    "categories": [],
@@ -758,6 +770,23 @@
    "importance": 1,
    "reason": "Speech on education and skills package; no concrete data governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "1f532bbcfed63841": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "privacy",
+    "ai-industry"
+   ],
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "spirit-airlines-and-google-revise-10m-data-sale-to-add-de-identificati",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/106",
+   "primary_found": true,
+   "reason": "Reports AI companies buying work files and emails and union objections over personal data leakage; a real data-governance concern for AI training data.",
+   "relevant": true,
    "same_story_as": null
   },
   "1f66612295187cec": {
@@ -1846,6 +1875,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4cb6d57b8cfd2b1e": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Political coverage of midterm tech policy; general commentary without a concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4dcd7af26dab1378": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -2613,6 +2651,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "70968fb6869c13aa": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "regulation",
+    "metadata"
+   ],
+   "claims": 11,
+   "decision": "drafted",
+   "draft": "fda-asks-for-input-on-getting-patient-level-real-world-data-behind-dru",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/105",
+   "primary_found": true,
+   "reason": "FDA request for input on patient-level data access for real-world evidence affects how health data is governed and documented; regulatory consultation, but excerpt is absent so kept at moderate importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "70bced9e77f9233d": {
    "at": "2026-11-11T15:17:41Z",
    "categories": [
@@ -3334,6 +3389,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "9274072b08baa96d": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same Character.AI bankruptcy chat-records story already covered by a pending draft, so not relevant as a new item.",
+   "relevant": true,
+   "same_story_as": "us-justice-department-seeks-privacy-ombudsman-over-possible-sale-of-ch"
+  },
   "92ae03ffc14bc817": {
    "at": "2026-11-07T19:26:59Z",
    "categories": [],
@@ -3705,6 +3772,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor thought-leadership citing a survey; generic marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9ef850e23cc4eca0": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Philanthropy commentary on democracy funding; generic opinion without practical governance content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4232,6 +4308,18 @@
    "importance": 1,
    "reason": "Legal profession commentary on training lawyers, not data governance.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "b8e5883b1ad1d0f0": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Covers the New Jersey A5607 chatbot bill; same bill as item 6, so it is a duplicate of that story.",
+   "relevant": true,
    "same_story_as": null
   },
   "b8f4f0b03121475e": {
@@ -5693,6 +5781,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f096dabaada2ea70": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Explainer on data broker industry and limited regulation; background context on privacy practice.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f0a13e878241b010": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -5850,6 +5949,18 @@
    "importance": 1,
    "reason": "Vendor blog post about a product going GA with lessons learned; marketing rather than a genuine launch or research finding.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "f805bef09d1ff979": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy comment on Treasury's SORN for federal student aid records; a privacy-relevant government data-governance process but mainly advocacy at low importance.",
+   "relevant": true,
    "same_story_as": null
   },
   "f83c25a08ba0ac8e": {
@@ -6058,6 +6169,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fef267063eeefec2": {
+   "at": "2026-11-12T06:17:32Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Election commentary on tech money and voter opinion; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ff178bdd0eb3ade8": {
    "at": "2026-11-03T23:26:19Z",
    "categories": [
@@ -6096,8 +6216,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 283,
-   "usd": 12.2269
+   "calls": 295,
+   "usd": 12.8649
   }
  }
 }

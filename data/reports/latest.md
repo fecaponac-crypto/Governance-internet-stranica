@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T03:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-12T06:17:20Z** · sources checked: 81 · failed: 1 · new items this run: 10
 
-## New items, last 48 hours (68)
+## New items, last 48 hours (76)
 
 ### High priority sources
 
@@ -27,6 +27,7 @@ Last run: **2026-11-12T03:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | CDO Magazine | [US Federal News Bureau FDA Seeks Input on Patient-Level Data Access for Real-World Evidence Submissions](https://www.cdomagazine.tech/us-federal-news-bureau/fda-seeks-input-on-patient-level-data-access-for-real-world-evidence-submissions) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence Companies Tighten Employee Access to AI Tools as Costs and Risks Grow](https://www.cdomagazine.tech/aiml/companies-tighten-employee-access-to-ai-tools-as-costs-and-risks-grow) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
 | 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
@@ -56,8 +57,6 @@ Last run: **2026-11-12T03:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
 | 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 | 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
-| 2026-11-10 | CDO Magazine | [Community Trust Is What Moves AI Forward: Southern California Executives Connect on Responsible Innovation](https://www.cdomagazine.tech/community/trust-is-what-moves-ai-forward-southern-california-executives-connect-on-responsible-innovation) |
-| 2026-11-10 | CDO Magazine | [Community Beyond Summaries and Chatbots: DC Executives Consider What AI Needs to Understand About Business](https://www.cdomagazine.tech/community/beyond-summaries-and-chatbots-dc-executives-consider-what-ai-needs-to-understand-about-business) |
 | 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
 
 ### Low priority sources
@@ -84,12 +83,21 @@ Last run: **2026-11-12T03:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | dbt Labs Blog | [How organizations progress from trusted data to trusted AI and agents](https://www.getdbt.com/blog/ai-maturity-trusted-data-to-trusted-ai-agents) |
 | 2026-11-10 | Computer Weekly — IT security | [Data dive: Mapping UK councils’ hyperscale dependence](https://www.computerweekly.com/news/366654752/Data-dive-Mapping-UK-councils-hyperscale-dependence) |
 | 2026-11-10 | Computer Weekly — IT security | [Google Cloud London outage: Continuity lessons for IT leaders](https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders) |
+| 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
 | 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
 | 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
+| 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
+| 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
+| 2026-11-06 | EPIC — Electronic Privacy Information Center | [CNET: Will Democrats Rein in Big Tech? It Starts With Privacy and Data Centers](https://epic.org/cnet-will-democrats-rein-in-big-tech-it-starts-with-privacy-and-data-centers/) |
+| 2026-11-05 | EPIC — Electronic Privacy Information Center | [Seoul Economic Daily: Character.AI Bankruptcy Raises Fears Over Chat Records](https://epic.org/seoul-economic-daily-character-ai-bankruptcy-raises-fears-over-chat-records/) |
+| 2026-11-05 | EPIC — Electronic Privacy Information Center | [Gadget Review: New Jersey Wants to Make AI Companies Pay $5,000 for Every Violation](https://epic.org/gadget-review-new-jersey-wants-to-make-ai-companies-pay-5000-for-every-violation/) |
+| 2026-11-05 | EPIC — Electronic Privacy Information Center | [WGAL: Data brokers sell your personal information with little regulation](https://epic.org/wgal-data-brokers-sell-your-personal-information-with-little-regulation/) |
+| 2026-11-04 | EPIC — Electronic Privacy Information Center | [Reclaim the Net: New Jersey Wants “Accountable” Chatbots, But At What Privacy Cost?](https://epic.org/reclaim-the-net-new-jersey-wants-accountable-chatbots-but-at-what-privacy-cost/) |
+| 2026-11-04 | EPIC — Electronic Privacy Information Center | [Inside Philanthropy: Going Forward, Democracy Funders Can’t Ignore Surveillance](https://epic.org/inside-philanthropy-going-forward-democracy-funders-cant-ignore-surveillance/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 85× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 86× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
