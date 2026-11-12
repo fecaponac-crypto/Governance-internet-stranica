@@ -1186,6 +1186,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2d485dbddc557f71": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Research programme association unrelated to data governance practice.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2daaf9b116cc3218": {
    "at": "2026-11-11T21:17:32Z",
    "categories": [
@@ -2429,6 +2440,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "664d75246fac6669": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Parliament co-rapporteurs proposing data security tiers inside the Cloud and AI Development Act is a legislative process step affecting cloud data governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "669e6158dec3f02a": {
    "at": "2026-11-09T21:18:27Z",
    "categories": [
@@ -2905,6 +2928,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "789c132de711af75": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vulnerability discovery research on security tooling; weak data governance angle and low source reliability.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7a11eabd2cfef4de": {
    "at": "2026-11-09T09:18:38Z",
    "categories": [
@@ -2994,6 +3028,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Compute and scheduling optimisation how-to; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7db36a1ac8f411e2": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on cost of Snowflake Cortex agents; vendor marketing without governance substance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3866,6 +3911,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic AI newsletter piece about Anthropic's IPO prospectus; no concrete data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a47fbe05948e7343": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Horizon Europe research association agreement with no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5055,6 +5111,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d28e38fddb0e9adf": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Non-human identity security for AI governance is a relevant practice topic, though excerpt is absent and the piece is general.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d28fc72e303e8de8": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [
@@ -5307,6 +5374,23 @@
    "importance": 3,
    "reason": "Commission preliminary findings against TikTok under DSA recommender systems; a platform regulation story without direct data governance angle, and same story as item 5 where the other outlet is the best source.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "db63a1c7d6d36a39": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 11,
+   "decision": "drafted",
+   "draft": "nist-opens-comment-on-draft-adversarial-machine-learning-taxonomy-focu",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/108",
+   "primary_found": true,
+   "reason": "NIST draft mapping security threats to agentic AI systems is a standards/guidance development with governance implications.",
+   "relevant": true,
    "same_story_as": null
   },
   "dbb09eb09bdf73eb": {
@@ -6033,6 +6117,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f8e0e0fab5bb015f": {
+   "at": "2026-11-12T11:18:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Norwegian DPA fine (overtredelsesgebyr) against Social Garden; enforcement action with practical privacy relevance, primary regulator source.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f9cc03fb7f579fc7": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -6266,8 +6362,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 300,
-   "usd": 13.1155
+   "calls": 306,
+   "usd": 13.3308
   }
  }
 }

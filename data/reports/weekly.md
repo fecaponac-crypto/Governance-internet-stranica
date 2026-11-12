@@ -18,10 +18,11 @@ Countries:
     18  BE
 
 Where visitors came from:
-   430  (direct)
-    30  datagovernancesignal.com
-    10  teams.public.onecdn.static.microsoft
-    10  www.linkedin.com
+   485  (direct)
+    15  datagovernancesignal.com
+    14  www.google.com
+    11  teams.public.onecdn.static.microsoft
+     3  www.linkedin.com
 
 Published this week: 33 stories
   - AMA publishes governance framework for agentic AI taking on clinical functions

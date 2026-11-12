@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T09:17:21Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-12T11:18:22Z** · sources checked: 81 · failed: 1 · new items this run: 8
 
-## New items, last 48 hours (79)
+## New items, last 48 hours (85)
 
 ### High priority sources
 
@@ -10,6 +10,7 @@ Last run: **2026-11-12T09:17:21Z** · sources checked: 81 · failed: 1 · new it
 |---|---|---|
 | 2026-11-12 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Juliane Kokott in Case C-826/24 P Commission v Google and Alphabet (Google AdSense)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260164en.pdf) |
 | 2026-11-12 | Court of Justice of the EU — Press releases | [Judgments of the Court In Cases C-442/23 Poland v Parliament and Council (Objectives of the LULUCF sector), C-444/23 Poland v Parliament and Council (Strengthening of performance standards for vehicles), C-445/23 Poland v Parliament and Council (Extension of the market stability reserve), C-451/23 Poland v Parliament and Council (Objectives fixed for sectors covered by the ESR Regulation), C-505/23 Poland v Parliament and Council (Emission allowances in building and road transport), C-512/23 Poland v Parliament and Council (Carbon Border Adjustment Mechanism) and C-771/23 Poland v Parliament and Council (Energy efficiency)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260163en.pdf) |
+| 2026-11-12 | European Commission — Press Corner | [EU and Australia deepen science and innovation ties with Horizon Europe Agreement](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2418) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [European Commission releases draft proposal for Digital Fairness Act](https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [EDPB puts ADMT-based recruitment in focus under Coordinated Enforcement Framework](https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
@@ -23,12 +24,16 @@ Last run: **2026-11-12T09:17:21Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?](https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Notas de la IAPP América Latina: La gobernanza de la IA en América Latina empieza a ponerse en práctica](https://iapp.org/news/a/notas-de-la-iapp-am-rica-latina-la-gobernanza-de-la-ia-en-am-rica-latina-empieza-a-ponerse-en-pr-ctica) |
 | 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
-| 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | Datatilsynet (Norway) | [Overtredelsesgebyr til Social Garden](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/overtredelsesgebyr-til-social-garden/) |
+| 2026-11-12 | CDO Magazine | [AI Governance Non-Human Identity Security](https://www.cdomagazine.tech/ai-governance/non-human-identity-security) |
+| 2026-11-12 | CDO Magazine | [Artificial Intelligence NIST Draft Maps Security Threats Facing Agentic AI Systems](https://www.cdomagazine.tech/aiml/nist-draft-maps-security-threats-facing-agentic-ai-systems) |
+| 2026-11-12 | POLITICO Europe — Technology | [Australia signs up to EU’s Horizon Europe research program](https://www.politico.eu/article/australia-signs-up-to-eus-horizon-europe-research-program/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
+| 2026-11-12 | Euractiv | [MEPs create pan-European rules for cloud sovereignty tiers](https://www.rapporteur.com/news/meps-create-pan-european-rules-for-cloud-sovereignty-tiers/) |
 | 2026-11-12 | AEPD — Spanish Data Protection Agency | [La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos) |
 | 2026-11-12 | DATAVERSITY | [From Data Complexity to Data Decisions: Rethinking the Vs](https://www.dataversity.net/articles/from-data-complexity-to-data-decisions-rethinking-the-vs/) |
 | 2026-11-12 | CDO Magazine | [US Federal News Bureau FDA Seeks Input on Patient-Level Data Access for Real-World Evidence Submissions](https://www.cdomagazine.tech/us-federal-news-bureau/fda-seeks-input-on-patient-level-data-access-for-real-world-evidence-submissions) |
@@ -60,12 +65,12 @@ Last run: **2026-11-12T09:17:21Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | US Federal Trade Commission | [Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices](https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices) |
 | 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
 | 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
-| 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | Computer Weekly — IT security | [Bug-hunting time cut dramatically with AI, says Forescout](https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout) |
 | 2026-11-11 | AWS Big Data Blog | [Build a data foundation for agentic AI on AWS: From lakehouse to MCP](https://aws.amazon.com/blogs/big-data/build-a-data-foundation-for-agentic-ai-on-aws-from-lakehouse-to-mcp/) |
 | 2026-11-11 | Data Engineering Weekly | [How Open Is Open? Iceberg, Catalogs, and User Choice](https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs) |
 | 2026-11-11 | AWS Big Data Blog | [How Samsung Ads federated Snowflake Iceberg tables using Amazon Cognito](https://aws.amazon.com/blogs/big-data/how-samsung-ads-federated-snowflake-iceberg-tables-using-amazon-cognito/) |
@@ -97,10 +102,11 @@ Last run: **2026-11-12T09:17:21Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-05 | EPIC — Electronic Privacy Information Center | [WGAL: Data brokers sell your personal information with little regulation](https://epic.org/wgal-data-brokers-sell-your-personal-information-with-little-regulation/) |
 | 2026-11-04 | EPIC — Electronic Privacy Information Center | [Reclaim the Net: New Jersey Wants “Accountable” Chatbots, But At What Privacy Cost?](https://epic.org/reclaim-the-net-new-jersey-wants-accountable-chatbots-but-at-what-privacy-cost/) |
 | 2026-11-04 | EPIC — Electronic Privacy Information Center | [Inside Philanthropy: Going Forward, Democracy Funders Can’t Ignore Surveillance](https://epic.org/inside-philanthropy-going-forward-democracy-funders-cant-ignore-surveillance/) |
+| 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-snowflake-cortex-agents) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 87× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 88× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
