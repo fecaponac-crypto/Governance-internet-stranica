@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-11T21:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 8
+Last run: **2026-11-12T00:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (74)
+## New items, last 48 hours (69)
 
 ### High priority sources
 
@@ -28,6 +28,7 @@ Last run: **2026-11-11T21:17:22Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
 | 2026-11-11 | CDO Magazine | [US Federal News Bureau Federal Agencies Put Data Governance at the Center of Agentic AI Readiness](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-put-data-governance-at-the-center-of-agentic-ai-readiness) |
 | 2026-11-11 | AZOP — Croatian Personal Data Protection Agency | [EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu](https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/) |
 | 2026-11-11 | CDO Magazine | [Data Management Data Quality: The Most Expensive Technical Debt Nobody Is Measuring](https://www.cdomagazine.tech/data-management/data-quality-the-most-expensive-technical-debt-nobody-is-measuring) |
@@ -56,13 +57,7 @@ Last run: **2026-11-11T21:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
 | 2026-11-10 | CDO Magazine | [Community Trust Is What Moves AI Forward: Southern California Executives Connect on Responsible Innovation](https://www.cdomagazine.tech/community/trust-is-what-moves-ai-forward-southern-california-executives-connect-on-responsible-innovation) |
 | 2026-11-10 | CDO Magazine | [Community Beyond Summaries and Chatbots: DC Executives Consider What AI Needs to Understand About Business](https://www.cdomagazine.tech/community/beyond-summaries-and-chatbots-dc-executives-consider-what-ai-needs-to-understand-about-business) |
-| 2026-11-09 | CDO Magazine | [Artificial Intelligence Gartner: Agentic AI Adoption Is Outpacing Enterprise Governance](https://www.cdomagazine.tech/aiml/gartner-agentic-ai-adoption-is-outpacing-enterprise-governance) |
-| 2026-11-09 | CDO Magazine | [Artificial Intelligence DARPA Turns to AI to Uncover Hidden Weaknesses in Digital Markets](https://www.cdomagazine.tech/aiml/darpa-turns-to-ai-to-uncover-hidden-weaknesses-in-digital-markets) |
-| 2026-11-09 | CDO Magazine | [US Federal News Bureau US AI Safety Center Faces Questions Over Independence and White House Ties](https://www.cdomagazine.tech/us-federal-news-bureau/us-ai-safety-center-faces-questions-over-independence-and-white-house-ties) |
-| 2026-11-09 | CDO Magazine | [US Federal News Bureau DOGE Envisions AI Agents as the Next Interface for Federal Government Services](https://www.cdomagazine.tech/us-federal-news-bureau/doge-envisions-ai-agents-as-the-next-interface-for-federal-government-services) |
-| 2026-11-09 | Privacy World (Squire Patton Boggs) | [Upcoming Speaking Engagements and On-Demand Learning Opportunities](https://www.privacyworld.blog/2026/11/upcoming-speaking-engagements-and-on-demand-learning-opportunities/) |
 | 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
-| 2026-11-09 | Collibra Blog | [Collibra MCP now on Snowflake Marketplace: How to set it up and put it to work in Snowflake CoWork and CoCo](https://www.collibra.com/blog/collibra-mcp-now-on-snowflake-marketplace-how-to-set-it-up-and-put-it-to-work-in-snowflake) |
 
 ### Low priority sources
 
@@ -95,7 +90,7 @@ Last run: **2026-11-11T21:17:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 82× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 83× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
