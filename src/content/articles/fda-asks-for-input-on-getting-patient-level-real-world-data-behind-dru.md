@@ -16,6 +16,10 @@ deadlines:
   - date: 2027-01-11
     what: "Comment deadline for FDA request for information on patient-level RWD access in RWE submissions"
 sources:
+  - name: "US Food and Drug Administration (Federal Register)"
+    title: "Patient-Level Data for Drugs and Biological Products Submissions Containing Real-World Data and Real-World Evidence; Request for Information (Docket FDA-2026-N-10742)"
+    url: "https://www.federalregister.gov/documents/2026/11/12/2026-22996/patient-level-data-for-drugs-and-biological-products-submissions-containing-real-world-data-and"
+    primary: true
   - name: "CDO Magazine"
     title: "FDA seeks input on patient-level data access for real-world evidence submissions"
     url: "https://www.cdomagazine.tech/us-federal-news-bureau/fda-seeks-input-on-patient-level-data-access-for-real-world-evidence-submissions"
@@ -31,4 +35,4 @@ According to the notice, sponsors often do not own the RWD they use; hospitals, 
 
 The agency also cites conflicts between data-use agreements and federal record-retention and Freedom of Information Act duties, privacy constraints under **HIPAA and the GDPR**, and the size of imaging, longitudinal and multi-omics datasets.
 
-*Editor's note: This article relies on secondary news coverage; the Federal Register notice itself could not be accessed.*
+*Editor's note: The date, deadline and docket are checked against the Federal Register notice; the details of the challenges follow CDO Magazine's report of it.*
