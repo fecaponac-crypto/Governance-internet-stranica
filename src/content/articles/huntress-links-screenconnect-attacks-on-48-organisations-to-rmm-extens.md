@@ -23,10 +23,10 @@ sources:
 related: [litellm-traces-poisoned-release-to-a-leaked-master-key-that-was-never]
 card:
   figure: "288 hosts"
-  caption: "Endpoints across 48 organisations affected within 90 minutes, according to Huntress"
+  caption: "Minimum number of endpoints hit at 48 Huntress customers within 90 minutes"
 ---
 
-Security firm Huntress said that on 11 November 2026 an operator used access to cloud-hosted ConnectWise ScreenConnect panels to push commands that installed rogue ScreenConnect clients and a toolkit called SCKit. It counted **288 hosts across 48 organisations** affected within 90 minutes.
+Security firm Huntress said that on 11 November 2026 an operator used access to cloud-hosted ConnectWise ScreenConnect panels to push commands that installed rogue ScreenConnect clients and a toolkit called SCKit. It counted **at least 288 hosts across 48 organisations** among its own customers, all hit within 90 minutes.
 
 In an update, Huntress linked the activity to RMM+, a third-party extension that authenticates with a shared access key rather than ScreenConnect's user accounts, roles and MFA. In **versions 1.0.31 and 1.0.32 the key defaulted to blank** and an empty value passed the check. According to The Record, ConnectWise said about 400 partner environments had the extension installed and that its presence alone did not establish compromise.
 
