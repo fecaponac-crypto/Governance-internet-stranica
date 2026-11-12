@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T12:17:32Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-12T15:17:34Z** · sources checked: 81 · failed: 1 · new items this run: 9
 
-## New items, last 48 hours (88)
+## New items, last 48 hours (78)
 
 ### High priority sources
 
@@ -19,16 +19,16 @@ Last run: **2026-11-12T12:17:32Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
 | 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Australia rolls out new AI regulator, frontier model security obligations](https://iapp.org/news/a/australia-rolls-out-new-ai-regulators-security-obligations) |
-| 2026-11-10 | IAPP — International Association of Privacy Professionals | [What AI governance demands of the teams putting it into practice](https://iapp.org/news/a/what-ai-governance-demands-of-the-teams-putting-it-into-practice) |
-| 2026-11-10 | IAPP — International Association of Privacy Professionals | [México expide el Decreto de entornos digitales seguros para niñas, niños y adolescentes](https://iapp.org/news/a/m-xico-expide-el-decreto-de-entornos-digitales-seguros-para-ni-as-ni-os-y-adolescentes) |
-| 2026-11-10 | IAPP — International Association of Privacy Professionals | [El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?](https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-) |
-| 2026-11-10 | IAPP — International Association of Privacy Professionals | [Notas de la IAPP América Latina: La gobernanza de la IA en América Latina empieza a ponerse en práctica](https://iapp.org/news/a/notas-de-la-iapp-am-rica-latina-la-gobernanza-de-la-ia-en-am-rica-latina-empieza-a-ponerse-en-pr-ctica) |
 | 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | CDO Magazine | [Artificial Intelligence Three Myths of Agentic BI](https://www.cdomagazine.tech/aiml/three-myths-of-agentic-bi) |
+| 2026-11-12 | CDO Magazine | [Industry Newsroom 4Minds Raises $15M Series A to Give Enterprises a Faster Path to Accurate AI](https://www.cdomagazine.tech/others/4minds-raises-15m-series-a-to-give-enterprises-a-faster-path-to-accurate-ai) |
+| 2026-11-12 | Council of the EU — Press releases | [Fisheries and aquaculture: Council and Parliament agree on modernised framework for statistics](https://www.consilium.europa.eu/en/press/press-releases/2026/11/12/fisheries-and-aquaculture-council-and-parliament-agree-on-modernised-framework-for-statistics/) |
+| 2026-11-12 | European Data Protection Supervisor (EDPS) | [TechSonar 2026-2027](https://www.edps.europa.eu/press-publications/press-news/news/2026/techsonar-2026-2027) |
 | 2026-11-12 | CDO Magazine | [Leadership Moves Tony Cyriac Joins JPMorganChase as Chief Data and Analytics Officer for Wealth Management](https://www.cdomagazine.tech/leadership-moves/tony-cyriac-joins-jpmorganchase-as-chief-data-and-analytics-officer-for-wealth-management) |
 | 2026-11-12 | Datatilsynet (Norway) | [Overtredelsesgebyr til Social Garden](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/overtredelsesgebyr-til-social-garden/) |
 | 2026-11-12 | CDO Magazine | [AI Governance Non-Human Identity Security](https://www.cdomagazine.tech/ai-governance/non-human-identity-security) |
@@ -55,24 +55,19 @@ Last run: **2026-11-12T12:17:32Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | POLITICO Europe — Technology | [Brussels takes on the evils of online commerce](https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-10 | Databricks Blog | [Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI](https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting) |
 | 2026-11-10 | European Parliament — Press releases | [Press release - Horizon Europe: MEPs back plans to strengthen the EU’s scientific base](https://www.europarl.europa.eu/news/en/press-room/20261109IPR48713/) |
-| 2026-11-10 | CDO Magazine | [US Federal News Bureau GSA Tightens Data Ownership Rules for Federal AI Contractors](https://www.cdomagazine.tech/us-federal-news-bureau/gsa-tightens-data-ownership-rules-for-federal-ai-contractors) |
-| 2026-11-10 | CDO Magazine | [Artificial Intelligence SEC Examines Data Governance Challenges as AI Systems Interpret Financial Disclosures](https://www.cdomagazine.tech/aiml/sec-examines-data-governance-challenges-as-ai-systems-interpret-financial-disclosures) |
-| 2026-11-10 | CDO Magazine | [AI Governance Five Context Failures CDOs Must Address Before Building AI Agents](https://www.cdomagazine.tech/ai-governance/five-context-failures-cdos-must-address-before-building-ai-agents) |
-| 2026-11-10 | SiliconANGLE — Big Data | [PuppyGraph raises $10M to let AI agents query enterprise data as a graph](https://siliconangle.com/2026/11/10/puppygraph-raises-10m-to-let-ai-agents-query-enterprise-data-as-a-graph/) |
-| 2026-11-10 | Euractiv | [Why AI might be behind surge in cases of mushroom poisoning](https://www.rapporteur.com/news/why-ai-might-be-behind-surge-in-cases-of-mushroom-poisoning/) |
-| 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [EDPB lanserar information om dataskydd anpassad för barn och unga](https://www.imy.se/nyheter/edpb-lanserar-information-om-dataskydd-anpassad-for-barn-och-unga/) |
-| 2026-11-10 | Datatilsynet (Norway) | [Gebyr for kredittvurdering og publisering av personopplysningar utan rettsleg grunnlag](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/gebyr-for-kredittvurdering-og-publisering-av-personopplysningar-utan-rettsleg-grunnlag/) |
-| 2026-11-10 | CDO Magazine | [Leadership Moves Scotiabank Appoints Luke Gee EVP, Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/scotiabank-appoints-luke-gee-evp-chief-data-and-ai-officer) |
-| 2026-11-10 | CNIL (France) | [La CNIL sera présente au Salon des maires et des collectivités locales 2026](https://www.cnil.fr/fr/salon-maires-collectivites-2026) |
 | 2026-11-10 | US Federal Trade Commission | [Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices](https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices) |
-| 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
 | 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | Monte Carlo Blog | [AWS re:Invent 2026: Everything You Need to Know Before You Go](https://montecarlo.ai/blog-aws-reinvent-2026-know-before-you-go) |
+| 2026-11-12 | International Data Spaces Association | [A decade of data spaces produced standards, code and a question about money](https://internationaldataspaces.org/a-decade-of-data-spaces-produced-standards-code-and-a-question-about-money/) |
+| 2026-11-12 | The Record (Recorded Future News) | [Kazakhstan-linked hackers used AI agent to spy on Central Asian governments](https://therecord.media/kazakhstan-hackers-central-asia) |
+| 2026-11-12 | Modern Data 101 | [The Tell: Good Metrics vs. Bad Metrics](https://moderndata101.substack.com/p/good-metrics-vs-bad-metrics) |
 | 2026-11-12 | Stibo Systems Blog | [AI has entered the ROI phase](https://www.stibosystems.com/blog/ai-has-entered-the-roi-phase) |
+| 2026-11-12 | Computer Weekly — IT security | [AI agents bring down wind farm within two hours](https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours) |
 | 2026-11-12 | Computer Weekly — IT security | [Bug-hunting time cut dramatically with AI, says Forescout](https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout) |
 | 2026-11-11 | AWS Big Data Blog | [Build a data foundation for agentic AI on AWS: From lakehouse to MCP](https://aws.amazon.com/blogs/big-data/build-a-data-foundation-for-agentic-ai-on-aws-from-lakehouse-to-mcp/) |
 | 2026-11-11 | Data Engineering Weekly | [How Open Is Open? Iceberg, Catalogs, and User Choice](https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs) |
@@ -90,13 +85,8 @@ Last run: **2026-11-12T12:17:32Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | ENISA — EU Agency for Cybersecurity | [ENISA reveals the State of Cybersecurity in the Union](https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union) |
 | 2026-11-10 | Google Cloud Blog — Data Analytics | [BigQuery measures is now GA, unifying BI metrics and knowledge graphs for AI accuracy](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
 | 2026-11-10 | DataHub Blog (open source metadata platform) | [Introducing DataHub Cloud v2.4](https://datahub.com/blog/datahub-cloud-v2-4/) |
-| 2026-11-10 | The Record (Recorded Future News) | [Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain](https://therecord.media/michael-losapio-cisa-director-nomination) |
-| 2026-11-10 | dbt Labs Blog | [How organizations progress from trusted data to trusted AI and agents](https://www.getdbt.com/blog/ai-maturity-trusted-data-to-trusted-ai-agents) |
 | 2026-11-10 | Computer Weekly — IT security | [Data dive: Mapping UK councils’ hyperscale dependence](https://www.computerweekly.com/news/366654752/Data-dive-Mapping-UK-councils-hyperscale-dependence) |
-| 2026-11-10 | Computer Weekly — IT security | [Google Cloud London outage: Continuity lessons for IT leaders](https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders) |
 | 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
-| 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
-| 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [CNET: Will Democrats Rein in Big Tech? It Starts With Privacy and Data Centers](https://epic.org/cnet-will-democrats-rein-in-big-tech-it-starts-with-privacy-and-data-centers/) |
@@ -109,7 +99,7 @@ Last run: **2026-11-12T12:17:32Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 89× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 90× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

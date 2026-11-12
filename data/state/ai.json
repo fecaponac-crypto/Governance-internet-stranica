@@ -1208,6 +1208,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2d927b865318aa77": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Fisheries statistics framework; no data governance or privacy angle for practitioners.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2daaf9b116cc3218": {
    "at": "2026-11-11T21:17:32Z",
    "categories": [
@@ -1934,6 +1943,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "4ddc10b65f6a204d": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "strategy",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Data spaces stakeholder dialogue outcomes and standards work; useful background on governance frameworks for shared data.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4ddff7760a2794f7": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -1982,6 +2003,17 @@
    "importance": 2,
    "reason": "Reports bank concern that AI agents with account credentials exceed user instructions, relevant to agent access controls.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "4fbc78826d8ce121": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for AWS re:Invent, explicitly excluded.",
+   "relevant": false,
    "same_story_as": null
   },
   "5014ff0b146ff2cb": {
@@ -4125,6 +4157,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "aab79ee98f276c97": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "ai-industry",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Research on AI agents attacking industrial control systems; security signal but reported via a lower-reliability outlet and not a data governance item.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "aacd7396929c5498": {
    "at": "2026-10-29T21:19:01Z",
    "categories": [
@@ -4169,6 +4213,17 @@
    "importance": 1,
    "reason": "Generic weekly roundup with an AI chatbot sports anecdote; no concrete governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "ac44700bb8b7f703": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Funding round for a data/AI accuracy vendor; a minor market item with some governance relevance but reported via a weaker source.",
+   "relevant": true,
    "same_story_as": null
   },
   "adb5f0ac1636b4a6": {
@@ -4487,6 +4542,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "IAPP piece on AI non-use and negligence liability; a practitioner-relevant legal angle on AI governance, though commentary-style.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "badf8d182f1d736d": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "ai-industry",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPS foresight report on emerging technologies with privacy implications; background-level signal for data protection practitioners.",
    "relevant": true,
    "same_story_as": null
   },
@@ -5535,6 +5602,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "df7327b7a46764d9": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on metrics without concrete practitioner guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "df7c8b7fd24d40e4": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -5698,6 +5776,18 @@
    "importance": 1,
    "reason": "Federal agency cloud migration news; data management angle is thin and no excerpt provided.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "e447c2de7d90e5c8": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "ai-industry",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Threat research on AI agent misuse in cyber-espionage; security news with limited direct governance guidance.",
+   "relevant": true,
    "same_story_as": null
   },
   "e4e6bb8c78abde51": {
@@ -6051,6 +6141,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f3becddce2e83ac2": {
+   "at": "2026-11-12T15:18:06Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion-style piece on agentic BI with no concrete governance consequence or specific news; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f3cd60898c9b7aa1": {
    "at": "2026-11-02T21:18:27Z",
    "categories": [
@@ -6397,8 +6498,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 307,
-   "usd": 13.3316
+   "calls": 308,
+   "usd": 13.3327
   }
  }
 }
