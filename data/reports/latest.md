@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T19:57:03Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-12T21:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (97)
+## New items, last 48 hours (99)
 
 ### High priority sources
 
@@ -28,6 +28,7 @@ Last run: **2026-11-12T19:57:03Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | Future of Privacy Forum | [FPF Launches Roundtable Series on Agentic AI, Privacy, and PETs](https://fpf.org/blog/fpf-launches-roundtable-series-on-agentic-ai-privacy-and-pets/) |
 | 2026-11-12 | CDO Magazine | [Data Management Trusted Data Means On-Time Medicine: Cencora’s Jig Patel on the Data Foundation for AI](https://www.cdomagazine.tech/data-management/trusted-data-means-on-time-medicine-cencoras-jig-patel-on-the-data-foundation-for-ai) |
 | 2026-11-12 | CDO Magazine | [Community When AI Results Depend on Data You Don’t Own: San Francisco Leaders Confront the Production Challenge](https://www.cdomagazine.tech/community/when-ai-results-depend-on-data-you-dont-own-san-francisco-leaders-confront-the-production-challenge) |
 | 2026-11-12 | Alation Blog | [November 12, 2026 Why AI Verification Needs Trusted Data Models will cheat any test you give them. The best defense against a plausible wrong answer is data your agents can’t… Read More](https://www.alation.com/blog/ai-verification-trusted-data-software-factory/) |
@@ -73,6 +74,7 @@ Last run: **2026-11-12T19:57:03Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | DataHub Blog (open source metadata platform) | [What Is an Automated Data Catalog? From Stale Metadata to Trusted Context](https://datahub.com/blog/automated-data-catalog/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [CISA + Partners Warn Industrial Refrigeration Industry About Cyberattacks](https://www.dataprivacyandsecurityinsider.com/2026/11/cisa-partners-warn-industrial-refrigeration-industry-about-cyberattacks/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [From Passwords to Backups: NIST’s Small-Business Cybersecurity Guide](https://www.dataprivacyandsecurityinsider.com/2026/11/from-passwords-to-backups-nists-small-business-cybersecurity-guide/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Tripadvisor Ruling Highlights the Power, and Limits, of Online Terms](https://www.dataprivacyandsecurityinsider.com/2026/11/tripadvisor-ruling-highlights-the-power-and-limits-of-online-terms/) |
@@ -118,7 +120,7 @@ Last run: **2026-11-12T19:57:03Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 92× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 93× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

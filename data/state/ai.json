@@ -4057,6 +4057,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9d6d1cfd5f212116": {
+   "at": "2026-11-12T21:17:59Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Roundtable series promotion, a webinar/event-type item with no new regulatory or governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9e3006c02e11ed54": {
    "at": "2026-11-10T18:17:39Z",
    "categories": [
@@ -5754,6 +5765,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "db42be66850f0515": {
+   "at": "2026-11-12T21:17:59Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog (DataHub) with generic how-to/thought-leadership on automated catalogues; vendor marketing, not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "db63a1c7d6d36a39": {
    "at": "2026-11-12T11:18:33Z",
    "categories": [
@@ -6797,8 +6819,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 334,
-   "usd": 14.8354
+   "calls": 335,
+   "usd": 14.8362
   }
  }
 }
