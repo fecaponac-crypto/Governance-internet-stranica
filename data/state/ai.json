@@ -233,6 +233,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "08ef67ca3f27cb1a": {
+   "at": "2026-11-12T09:17:32Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "CJEU Advocate General opinion on Google AdSense competition case; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "092107622f30f634": {
    "at": "2026-11-02T18:18:48Z",
    "categories": [
@@ -5265,6 +5276,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "da2f7b391bf66c7d": {
+   "at": "2026-11-12T09:17:32Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "CJEU judgments on climate and energy legislation; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "daa5a36998e1881b": {
    "at": "2026-10-28T21:18:33Z",
    "categories": [
@@ -5513,6 +5535,23 @@
    "importance": 1,
    "reason": "Event/podcast-style promotion about freedom of information with a school angle; no clear data governance news.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "e39a2f42a5da657c": {
+   "at": "2026-11-12T09:17:32Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "ibero-american-data-protection-network-adopts-ai-standards-on-inferred",
+   "flagged": 6,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/107",
+   "primary_found": false,
+   "reason": "Ibero-American data protection network approves international standards on applying personal data protection to AI; regulator-backed standard with practical implications.",
+   "relevant": true,
    "same_story_as": null
   },
   "e3c3dd9269d56829": {
@@ -5829,6 +5868,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Call for contributions to a DPO event; event promotion is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f21d181d927a455c": {
+   "at": "2026-11-12T09:17:32Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic data-concepts opinion piece without concrete practitioner guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6216,8 +6266,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 295,
-   "usd": 12.8649
+   "calls": 300,
+   "usd": 13.1155
   }
  }
 }

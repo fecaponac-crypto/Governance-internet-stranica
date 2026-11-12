@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-12T06:17:20Z** · sources checked: 81 · failed: 1 · new items this run: 10
+Last run: **2026-11-12T09:17:21Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (76)
+## New items, last 48 hours (79)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Juliane Kokott in Case C-826/24 P Commission v Google and Alphabet (Google AdSense)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260164en.pdf) |
+| 2026-11-12 | Court of Justice of the EU — Press releases | [Judgments of the Court In Cases C-442/23 Poland v Parliament and Council (Objectives of the LULUCF sector), C-444/23 Poland v Parliament and Council (Strengthening of performance standards for vehicles), C-445/23 Poland v Parliament and Council (Extension of the market stability reserve), C-451/23 Poland v Parliament and Council (Objectives fixed for sectors covered by the ESR Regulation), C-505/23 Poland v Parliament and Council (Emission allowances in building and road transport), C-512/23 Poland v Parliament and Council (Carbon Border Adjustment Mechanism) and C-771/23 Poland v Parliament and Council (Energy efficiency)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260163en.pdf) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [European Commission releases draft proposal for Digital Fairness Act](https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [EDPB puts ADMT-based recruitment in focus under Coordinated Enforcement Framework](https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
@@ -27,6 +29,8 @@ Last run: **2026-11-12T06:17:20Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | AEPD — Spanish Data Protection Agency | [La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos) |
+| 2026-11-12 | DATAVERSITY | [From Data Complexity to Data Decisions: Rethinking the Vs](https://www.dataversity.net/articles/from-data-complexity-to-data-decisions-rethinking-the-vs/) |
 | 2026-11-12 | CDO Magazine | [US Federal News Bureau FDA Seeks Input on Patient-Level Data Access for Real-World Evidence Submissions](https://www.cdomagazine.tech/us-federal-news-bureau/fda-seeks-input-on-patient-level-data-access-for-real-world-evidence-submissions) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence Companies Tighten Employee Access to AI Tools as Costs and Risks Grow](https://www.cdomagazine.tech/aiml/companies-tighten-employee-access-to-ai-tools-as-costs-and-risks-grow) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
@@ -57,7 +61,6 @@ Last run: **2026-11-12T06:17:20Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | Euractiv | [Car data rights exist on paper. Now they need to work in practice [Promoted Content]](https://www.rapporteur.com/opinion/car-data-rights-exist-on-paper-now-they-need-to-work-in-practice/) |
 | 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 | 2026-11-10 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: IMY vägleder om platsbaserad direktkommunikation till mobiltelefoner](https://www.imy.se/nyheter/ny-rapport-imy-vagleder-om-platsbaserad-direktkommunikation-till-mobiltelefoner/) |
-| 2026-11-09 | DATAVERSITY | [Ask a Data Ethicist: How Should We Deploy AI in the Enterprise?](https://www.dataversity.net/articles/ask-a-data-ethicist-how-should-we-deploy-ai-in-the-enterprise/) |
 
 ### Low priority sources
 
@@ -97,7 +100,7 @@ Last run: **2026-11-12T06:17:20Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 86× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 87× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
