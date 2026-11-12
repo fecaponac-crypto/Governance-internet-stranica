@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T00:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-12T00:46:11Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (69)
+## New items, last 48 hours (66)
 
 ### High priority sources
 
@@ -22,7 +22,6 @@ Last run: **2026-11-12T00:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | IAPP — International Association of Privacy Professionals | [Notas de la IAPP América Latina: La gobernanza de la IA en América Latina empieza a ponerse en práctica](https://iapp.org/news/a/notas-de-la-iapp-am-rica-latina-la-gobernanza-de-la-ia-en-am-rica-latina-empieza-a-ponerse-en-pr-ctica) |
 | 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
 | 2026-11-10 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #114: Who Evaluates the Evaluators?](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who) |
-| 2026-11-09 | Inside Privacy (Covington & Burling) | [Pennsylvania Enacts Artificial Intelligence Deceptive Advertising Act](https://www.insideprivacy.com/artificial-intelligence/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/) |
 
 ### Medium priority sources
 
@@ -83,14 +82,13 @@ Last run: **2026-11-12T00:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-10 | dbt Labs Blog | [How organizations progress from trusted data to trusted AI and agents](https://www.getdbt.com/blog/ai-maturity-trusted-data-to-trusted-ai-agents) |
 | 2026-11-10 | Computer Weekly — IT security | [Data dive: Mapping UK councils’ hyperscale dependence](https://www.computerweekly.com/news/366654752/Data-dive-Mapping-UK-councils-hyperscale-dependence) |
 | 2026-11-10 | Computer Weekly — IT security | [Google Cloud London outage: Continuity lessons for IT leaders](https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders) |
-| 2026-11-09 | AWS Big Data Blog | [Introducing the Workday Data Cloud integration with AWS](https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/) |
-| 2026-11-09 | Monte Carlo Blog | [What Is Agentic Observability? How It Works and Where It Stops](https://montecarlo.ai/blog-what-is-agentic-observability) |
 | 2026-11-08 | Eckerson Group | [Transformers on Healthcare Claims Data: Lessons from Transcarent](https://www.eckerson.com/articles/transformers-on-healthcare-claims-data-lessons-from-transcarent?feed=true) |
 | 2026-11-08 | Eckerson Group | [Before the Agent: The Data Modeling Sequence That Makes It Work](https://www.eckerson.com/articles/before-the-agent-the-data-modeling-sequence-that-makes-it-work?feed=true) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 83× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 84× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 
