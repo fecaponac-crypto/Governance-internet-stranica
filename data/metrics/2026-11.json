@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-12T11:19:29Z",
+ "updated": "2026-11-12T12:17:52Z",
  "portal": {
   "published_total": 91,
   "published_this_month": 48,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 299,
-  "runs": 129,
-  "runs_with_failed_sources": 103,
+  "items_collected": 302,
+  "runs": 130,
+  "runs_with_failed_sources": 104,
   "triage_decisions": {
    "drafted": 57,
-   "skipped": 235,
-   "failed": 8
+   "skipped": 237,
+   "failed": 9
   },
-  "ai_spend_usd": 13.3308,
+  "ai_spend_usd": 13.3316,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 560,
-  "visits": 530,
+  "page_views": 570,
+  "visits": 540,
   "bots_excluded": true,
   "by_day": [
    {
@@ -78,8 +78,8 @@
    },
    {
     "date": "2026-11-12",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 20,
+    "visits": 20
    }
   ],
   "top_pages": [
@@ -104,6 +104,10 @@
     "page_views": 30
    },
    {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 20
+   },
+   {
     "requestPath": "/category/ai-governance/",
     "page_views": 20
    },
@@ -112,15 +116,11 @@
     "page_views": 20
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/methodology/",
+    "requestPath": "/news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g",
     "page_views": 10
    },
    {
-    "requestPath": "/news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g",
+    "requestPath": "/methodology/",
     "page_views": 10
    }
   ],
@@ -150,19 +150,19 @@
     "page_views": 20
    },
    {
+    "countryName": "DK",
+    "page_views": 20
+   },
+   {
     "countryName": "HR",
     "page_views": 20
    },
    {
-    "countryName": "SE",
+    "countryName": "SG",
     "page_views": 10
    },
    {
     "countryName": "PH",
-    "page_views": 10
-   },
-   {
-    "countryName": "NL",
     "page_views": 10
    }
   ],
@@ -174,6 +174,10 @@
    {
     "refererHost": "datagovernancesignal.com",
     "page_views": 30
+   },
+   {
+    "refererHost": "www.google.com",
+    "page_views": 10
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",

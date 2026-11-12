@@ -646,6 +646,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1953a7e71d6a04df": {
+   "at": "2026-11-12T12:17:47Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment news; hiring/leadership moves are not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1987bdbb36334531": {
    "at": "2026-11-04T17:17:13Z",
    "categories": [
@@ -2147,6 +2158,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "54920c7f35929ec2": {
+   "at": "2026-11-12T12:17:47Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing generalities without a genuine launch, acquisition or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "54955e6fc7a6f700": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -2204,6 +2226,19 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Coverage of stakeholder concerns over proposed AI rules on human review; background on regulatory debate, lower importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "57f4de218359eeb0": {
+   "at": "2026-11-12T12:17:47Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: only 0 characters readable",
+   "importance": 3,
+   "reason": "European Parliament committee position on parliamentary scrutiny and regulation of AI's impact on democratic processes; a legislative-process step with governance relevance, but not a specific pending law.",
    "relevant": true,
    "same_story_as": null
   },
@@ -6362,8 +6397,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 306,
-   "usd": 13.3308
+   "calls": 307,
+   "usd": 13.3316
   }
  }
 }

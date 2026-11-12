@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-12T11:19:29Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-12T12:17:52Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**530 visits · 560 page views** this month (bots excluded)
+**540 visits · 570 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -16,7 +16,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-08 | 10 | 10 |
 | 2026-11-09 | 20 | 20 |
 | 2026-11-10 | 20 | 40 |
-| 2026-11-12 | 10 | 10 |
+| 2026-11-12 | 20 | 20 |
 
 ## Top pages
 
@@ -25,11 +25,11 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/security/ — 60
 - / — 60
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
+- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
 - /category/ai-governance/ — 20
 - /institutions/edpb/ — 20
-- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
-- /methodology/ — 10
 - /news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g — 10
+- /methodology/ — 10
 
 ## Countries
 
@@ -39,14 +39,15 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - HK — 20
 - AR — 20
 - AU — 20
+- DK — 20
 - HR — 20
-- SE — 10
+- SG — 10
 - PH — 10
-- NL — 10
 
 ## Referrers
 
 - (direct) — 510
 - datagovernancesignal.com — 30
+- www.google.com — 10
 - teams.public.onecdn.static.microsoft — 10
 - www.linkedin.com — 10

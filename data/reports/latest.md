@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T11:18:22Z** · sources checked: 81 · failed: 1 · new items this run: 8
+Last run: **2026-11-12T12:17:32Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (85)
+## New items, last 48 hours (88)
 
 ### High priority sources
 
@@ -29,9 +29,11 @@ Last run: **2026-11-12T11:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | CDO Magazine | [Leadership Moves Tony Cyriac Joins JPMorganChase as Chief Data and Analytics Officer for Wealth Management](https://www.cdomagazine.tech/leadership-moves/tony-cyriac-joins-jpmorganchase-as-chief-data-and-analytics-officer-for-wealth-management) |
 | 2026-11-12 | Datatilsynet (Norway) | [Overtredelsesgebyr til Social Garden](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/overtredelsesgebyr-til-social-garden/) |
 | 2026-11-12 | CDO Magazine | [AI Governance Non-Human Identity Security](https://www.cdomagazine.tech/ai-governance/non-human-identity-security) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence NIST Draft Maps Security Threats Facing Agentic AI Systems](https://www.cdomagazine.tech/aiml/nist-draft-maps-security-threats-facing-agentic-ai-systems) |
+| 2026-11-12 | European Parliament — Press releases | [Press release - AI in democracy: ensuring oversight and compliance with EU values](https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/) |
 | 2026-11-12 | POLITICO Europe — Technology | [Australia signs up to EU’s Horizon Europe research program](https://www.politico.eu/article/australia-signs-up-to-eus-horizon-europe-research-program/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-12 | Euractiv | [MEPs create pan-European rules for cloud sovereignty tiers](https://www.rapporteur.com/news/meps-create-pan-european-rules-for-cloud-sovereignty-tiers/) |
 | 2026-11-12 | AEPD — Spanish Data Protection Agency | [La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos) |
@@ -70,6 +72,7 @@ Last run: **2026-11-12T11:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | Stibo Systems Blog | [AI has entered the ROI phase](https://www.stibosystems.com/blog/ai-has-entered-the-roi-phase) |
 | 2026-11-12 | Computer Weekly — IT security | [Bug-hunting time cut dramatically with AI, says Forescout](https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout) |
 | 2026-11-11 | AWS Big Data Blog | [Build a data foundation for agentic AI on AWS: From lakehouse to MCP](https://aws.amazon.com/blogs/big-data/build-a-data-foundation-for-agentic-ai-on-aws-from-lakehouse-to-mcp/) |
 | 2026-11-11 | Data Engineering Weekly | [How Open Is Open? Iceberg, Catalogs, and User Choice](https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs) |
@@ -106,7 +109,7 @@ Last run: **2026-11-12T11:18:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 88× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 89× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
