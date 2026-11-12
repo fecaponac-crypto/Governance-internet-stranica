@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T00:46:11Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-12T03:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (66)
+## New items, last 48 hours (68)
 
 ### High priority sources
 
@@ -27,6 +27,8 @@ Last run: **2026-11-12T00:46:11Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | CDO Magazine | [Artificial Intelligence Companies Tighten Employee Access to AI Tools as Costs and Risks Grow](https://www.cdomagazine.tech/aiml/companies-tighten-employee-access-to-ai-tools-as-costs-and-risks-grow) |
+| 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
 | 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
 | 2026-11-11 | CDO Magazine | [US Federal News Bureau Federal Agencies Put Data Governance at the Center of Agentic AI Readiness](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-put-data-governance-at-the-center-of-agentic-ai-readiness) |
 | 2026-11-11 | AZOP — Croatian Personal Data Protection Agency | [EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu](https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/) |
@@ -87,8 +89,7 @@ Last run: **2026-11-12T00:46:11Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 84× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
+- **European Data Protection Board (EDPB)** — failed 85× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

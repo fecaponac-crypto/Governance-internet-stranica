@@ -1225,6 +1225,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "32042220ba52f934": {
+   "at": "2026-11-12T03:17:55Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IBM survey on enterprise AI sovereignty confidence versus proof touches data governance and sovereignty, but it is survey-based and from a lower-reliability outlet, so modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "32592c3b6ffb701d": {
    "at": "2026-10-30T09:18:28Z",
    "categories": [],
@@ -3158,6 +3170,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Human-checked AI-assisted dbt staging at scale touches on governed AI-assisted data modelling; modest practitioner interest.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "8a863823f6df3001": {
+   "at": "2026-11-12T03:17:55Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Covers AI companies restricting employee access to AI tools due to cost and risk, a practical governance angle, though title-only detail is thin and the source is a lower-reliability trade outlet.",
    "relevant": true,
    "same_story_as": null
   },
@@ -6072,8 +6096,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 282,
-   "usd": 12.2261
+   "calls": 283,
+   "usd": 12.2269
   }
  }
 }
