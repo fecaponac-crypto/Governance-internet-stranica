@@ -353,3 +353,16 @@ Cilj (odluka urednika): biti najrelevantniji izvor u niši — prednost su provj
 - [x] Statistika posjeta: Cloudflare Web Analytics (bez kolačića)
 - [x] Hosting: Cloudflare Pages (statična stranica, Astro)
 - [ ] Dopuna kataloga izvorima koje već pratiš (vidi „Što nedostaje” u katalogu)
+
+### Drugi krug: Ujedinjena Kraljevina i SAD (12. 11. 2026.)
+
+Dodano šest zakona (ukupno 26), svaki provjeren u službenom tekstu:
+
+- **UK Data (Use and Access) Act 2025** – legislation.gov.uk: Royal Assent 19. 6. 2025.; datumi iz uredbi o stupanju na snagu (SI 2025/1213, 2026/82, 2026/1015).
+- **UK Online Safety Act 2023** – Royal Assent 26. 10. 2023. Datumi pojedinih obveza nisu upisani jer ovise o nizu uredbi i Ofcomovim kodeksima.
+- **COPPA Rule (izmjene 2025.)** – Federal Register 2025-05904: na snazi 23. 6. 2025., rok usklađivanja 22. 4. 2026.
+- **Texas Responsible AI Governance Act (HB 149)** – Texas Legislature Online: na snazi 1. 1. 2026.
+- **CCPA Regulations** – tekst CalPrivacyja na snazi od 1. 1. 2026.: ADMT 1. 1. 2027., procjene rizika 31. 12. 2027., revizije kibernetičke sigurnosti 1. 4. 2028./2029./2030.
+- **California Delete Act** – tekst zakona: 1. 8. 2026. (brisanje svakih 45 dana), 1. 1. 2028. (revizija).
+
+Dvije vijesti o CCPA signalima za odjavu povezane su s unosom `california-ccpa-regulations`.

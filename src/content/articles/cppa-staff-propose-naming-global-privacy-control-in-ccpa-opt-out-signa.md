@@ -5,6 +5,7 @@ dek: "The draft would also bar certain browser features from blocking opt-out si
 whyItMatters: "Privacy teams should confirm that GPC signals are detected on their sites and apps and flow through to sale and sharing opt-outs in downstream systems, not just cookie banners. Businesses already within scope of the cybersecurity audit or risk assessment rules should check whether they can log and count opt-out requests by channel, since signal-based requests would need separate reporting. The Opt Me Out Act, which requires browser developers to offer GPC functionality, is set to take effect on 1 January 2027."
 categories: [privacy, regulation]
 institutions: [cppa]
+legislation: [california-ccpa-regulations]
 whoShouldCare: ["DPO", "Legal & compliance", "Privacy engineering", "Data stewards"]
 importance: 3
 type: "Regulation"

@@ -5,6 +5,7 @@ dek: "Draft text extends opt-outs to linked pseudonymous profiles, bans cookie s
 whyItMatters: "The draft turns opt-out handling into a data lineage and identity-resolution problem: if your organisation links browsers and devices into a pseudonymous or master profile, a single GPC signal must propagate to every linked record and downstream third party. Tag and consent management sequencing becomes a compliance control, since tracking that fires before signal detection is treated as non-compliance. Large data handlers will also need request logs that record the channel each opt-out arrived through, so that annual metrics can be produced."
 categories: [privacy, regulation, mdm]
 institutions: [cppa]
+legislation: [california-ccpa-regulations]
 whoShouldCare: ["DPO", "Legal & compliance", "Data stewards", "Marketing technology owners"]
 importance: 4
 type: "Regulation"
