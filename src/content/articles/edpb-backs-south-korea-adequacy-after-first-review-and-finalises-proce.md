@@ -1,5 +1,5 @@
 ---
-title: "EDPB backs South Korea adequacy after first review and finalises processor BCR recommendations"
+title: "EDPB welcomes South Korea's privacy law changes in first adequacy review and finalises processor BCR recommendations"
 date: 2026-11-12
 dek: "The Board welcomed Korean law changes, including a right to object to automated decisions, and told processor BCR holders to align with new recommendations during their application or in their 2028 annual update."
 whyItMatters: "Transfer teams relying on the Korea adequacy decision can note that the Commission concluded in July 2026 that Korea continues to ensure an adequate level of protection and that the EDPB supports a four-year review cycle. Groups holding or applying for processor BCRs should compare their current rules against the final recommendations and the published track-changes version, and plan updates either within a pending application or in the 2028 annual update, depending on their situation. Organisations using automated candidate-screening tools, including AI-based ones, should prepare for the 2027 coordinated action on the right not to be subject to solely automated decisions and the related right of access."
