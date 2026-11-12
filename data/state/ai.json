@@ -264,6 +264,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "097d4aadc262f4a9": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 15,
+   "decision": "drafted",
+   "draft": "edpb-backs-south-korea-adequacy-after-first-review-and-finalises-proce",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/112",
+   "primary_found": false,
+   "reason": "EDPB adopts statement on South Korea adequacy, final BCR-ST recommendations and coordinated enforcement action on AI recruitment; regulator guidance with practical implications for transfers and AI hiring.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "0c098d5b895afe7b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -304,6 +321,15 @@
    "importance": 2,
    "reason": "Practical expert piece from a professional association on operationalising AI governance; generic but usable, rated worth knowing.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "0d53d6bc43eb0f3a": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on CMMC cybersecurity frameworks; marketing-style explainer without a concrete data governance development.",
+   "relevant": false,
    "same_story_as": null
   },
   "0da6cf00fb542a34": {
@@ -594,6 +620,18 @@
    "relevant": true,
    "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
   },
+  "14ca85cb02bcdac0": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Class action over ALPR tracking disclosures; privacy litigation risk.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "162d9664025f5457": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -840,6 +878,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "200bd2a0a7acb8c0": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Study on EU Data Act vehicle data access in practice; regulatory implementation evidence.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "203354a426fffc97": {
    "at": "2026-11-11T21:17:32Z",
    "categories": [
@@ -1051,6 +1100,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2604802e1527c0a1": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Breach accountability commentary; practical lessons but limited detail in excerpt.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "26348865d55eb03c": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -1206,6 +1267,17 @@
    "importance": 1,
    "reason": "Research programme association unrelated to data governance practice.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "2d612e64e0c723a7": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Policy analysis of AI kill switches; relevant to AI oversight design.",
+   "relevant": true,
    "same_story_as": null
   },
   "2d927b865318aa77": {
@@ -1993,6 +2065,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "4e8a75aab0829f37": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Ruling on smart TV viewing data collection and arbitration; privacy litigation.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4ee3b5ca98e0497b": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -2029,6 +2112,17 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/73",
    "primary_found": true,
    "reason": "IAPP analysis of Commission Work Programme 2027 initiatives affecting data and privacy law; forward-looking regulatory planning with governance relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "50186a4f41dba191": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Court ruling on CIPA claim and online terms; privacy litigation with practical implications.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2136,6 +2230,17 @@
    "importance": 2,
    "reason": "IMY regulator guidance report on location-based direct communication to mobile phones with GDPR/privacy-by-design angle; practical but niche.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "5249f3eeda35fad2": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor announcement of analyst recognition; marketing, not a launch or acquisition.",
+   "relevant": false,
    "same_story_as": null
   },
   "52626182acc0f701": {
@@ -2344,6 +2449,17 @@
    "importance": 1,
    "reason": "Customer case study on dbt self-service; practical but vendor-blog style with limited governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "5b2b846f720adbce": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical guidance on column-level AI-ready lineage and how to test it; vendor blog but usable guidance.",
+   "relevant": true,
    "same_story_as": null
   },
   "5b404974edc48a39": {
@@ -2732,6 +2848,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "6fe41e60da9e9081": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event-style community discussion; generic opinion without concrete guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7026e8e99dff8471": {
    "at": "2026-11-04T12:18:37Z",
    "categories": [],
@@ -2876,6 +3003,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "764e0a3e7bee0ea8": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Ninth Circuit rulings on arbitration in privacy class actions; litigation insight.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "765e39afe3b58e25": {
    "at": "2026-11-09T21:18:27Z",
    "categories": [
@@ -3004,6 +3142,44 @@
    "importance": 1,
    "reason": "Vulnerability discovery research on security tooling; weak data governance angle and low source reliability.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "78e42f93b1359b93": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing content without a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7968b43f44c2e8e1": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "huntress-links-screenconnect-attacks-on-48-organisations-to-rmm-extens",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/111",
+   "primary_found": true,
+   "reason": "Investigation into ScreenConnect breaches affecting nearly 50 organisations; notable security incident.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "7971c2aa3544f54a": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "NIST small-business cybersecurity guide; practical but mainly security-focused.",
+   "relevant": true,
    "same_story_as": null
   },
   "7a11eabd2cfef4de": {
@@ -3898,6 +4074,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9ef1c3be796605f6": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Joint government cybersecurity warning on attacks against refrigeration sector; limited governance relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "9ef850e23cc4eca0": {
    "at": "2026-11-12T06:17:32Z",
    "categories": [],
@@ -3958,6 +4145,19 @@
    "importance": 1,
    "reason": "Generic newsletter issue with no specific governance story in the title or excerpt.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "a1de1459dfd85def": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "regulation",
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Overview of Italy's combined AI, privacy and cybersecurity approach; relevant analysis but no specific new decision in excerpt.",
+   "relevant": true,
    "same_story_as": null
   },
   "a22aff4d47dd1c6d": {
@@ -4259,6 +4459,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "EPIC amicus brief on voter-registration data use is advocacy in a court case with data privacy angle, lower practitioner impact.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "b0996e3d36b9fc49": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "iapp-s-brussels-lead-says-digital-fairness-act-proposal-could-force-pr",
+   "flagged": 1,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/109",
+   "primary_found": false,
+   "reason": "Initial reaction to the Digital Fairness Act proposal, which bans dark patterns and sensitive-data ad targeting; related to existing draft but a distinct analysis piece.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4574,6 +4791,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "bbf5f9b15208c31e": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer awareness tip and survey; not governance-focused.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "bc7e7db1a56fa591": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -4819,6 +5047,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Founders' letter with generic thought-leadership on agents and data infrastructure; no concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c490df9a5393f04c": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Podcast on AI and cybersecurity training; generic thought leadership without a data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5268,6 +5505,23 @@
    "importance": 1,
    "reason": "Congressional bill debate on Treasury payment data is policy commentary with limited practitioner action.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "d423927e6188a38a": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "opinion-state-attorneys-general-could-shore-up-eu-us-data-privacy-fram",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/110",
+   "primary_found": true,
+   "reason": "Analysis of state attorneys general and the EU-US Data Privacy Framework after Slaughter ruling; affects transfer governance.",
+   "relevant": true,
    "same_story_as": null
   },
   "d4c022aa68ef2403": {
@@ -5924,6 +6178,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "eab3933db4fb8d1a": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Class action on consent for AI documentation tools in healthcare; practical AI consent issue.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ebf4a5e3d175c636": {
    "at": "2026-11-03T18:19:30Z",
    "categories": [
@@ -6265,6 +6531,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f98e64db3340979f": {
+   "at": "2026-11-12T18:18:26Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive interview on data foundation for AI; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f9cc03fb7f579fc7": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -6498,8 +6775,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 308,
-   "usd": 13.3327
+   "calls": 333,
+   "usd": 14.8346
   }
  }
 }

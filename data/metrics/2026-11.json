@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-12T15:18:11Z",
+ "updated": "2026-11-12T18:23:04Z",
  "portal": {
   "published_total": 93,
   "published_this_month": 50,
@@ -12,28 +12,28 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 311,
-  "runs": 131,
-  "runs_with_failed_sources": 105,
+  "items_collected": 334,
+  "runs": 132,
+  "runs_with_failed_sources": 106,
   "triage_decisions": {
-   "drafted": 57,
-   "skipped": 246,
+   "drafted": 61,
+   "skipped": 265,
    "failed": 9
   },
-  "ai_spend_usd": 13.3327,
+  "ai_spend_usd": 14.8346,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
-  "drafts_published": 51,
-  "drafts_rejected": 2
+  "drafts_published": 52,
+  "drafts_rejected": 3
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 570,
-  "visits": 540,
+  "page_views": 590,
+  "visits": 560,
   "bots_excluded": true,
   "by_day": [
    {
@@ -78,8 +78,8 @@
    },
    {
     "date": "2026-11-12",
-    "page_views": 20,
-    "visits": 20
+    "page_views": 40,
+    "visits": 40
    }
   ],
   "top_pages": [
@@ -92,11 +92,11 @@
     "page_views": 80
    },
    {
-    "requestPath": "/category/security/",
+    "requestPath": "/",
     "page_views": 60
    },
    {
-    "requestPath": "/",
+    "requestPath": "/category/security/",
     "page_views": 60
    },
    {
@@ -104,15 +104,15 @@
     "page_views": 30
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
-    "page_views": 20
-   },
-   {
     "requestPath": "/category/ai-governance/",
     "page_views": 20
    },
    {
     "requestPath": "/institutions/edpb/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 20
    },
    {
@@ -127,7 +127,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 300
+    "page_views": 320
    },
    {
     "countryName": "GB",
@@ -169,7 +169,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 510
+    "page_views": 530
    },
    {
     "refererHost": "datagovernancesignal.com",
