@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, getLegislation, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
+import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, isNews, getLegislation, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
 import { INSTITUTIONS } from '../data/institutions';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
 
@@ -10,11 +10,14 @@ const articles = await getArticles();
 const column = (await getColumns())[0];
 const essay = (await getOpinions())[0];
 // Lead story: importance weighed against age at build time (the site rebuilds at least daily).
-const leads = pickLeadStories(articles);
+// The news stream leaves out analysis, opinion and how-to pieces; they have their own block below.
+const news = articles.filter(isNews);
+const analysis = articles.filter((a) => !isNews(a)).slice(0, 4);
+const leads = pickLeadStories(news);
 const lead = leads[0];
 // Latest: every other article, newest first. The top right holds our own writing, so no
 // news item appears twice and the newest story is always first under Latest (or the lead).
-const others = articles.filter((a) => a !== lead);
+const others = news.filter((a) => a !== lead);
 const LATEST_COUNT = 12;
 const latest = others.slice(0, LATEST_COUNT);
 const top = column || essay ? [] : latest.slice(0, 2);
@@ -27,7 +30,7 @@ const upcoming = articles
   .filter((d) => isoDate(d.date) >= today)
   .sort((x, y) => x.date.getTime() - y.date.getTime())
   .slice(0, 5);
-const week = articles
+const week = news
   .filter((a) => a !== lead && now - a.data.date.getTime() <= 7 * 864e5)
   .sort((a, b) => b.data.importance - a.data.importance || b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 5);
@@ -113,7 +116,19 @@ const counts = Object.fromEntries(
           <a href="/search/">Search the archive</a>
         </div>
         {latest.map((a) => <ArticleCard article={a} />)}
-        {others.length > LATEST_COUNT && <p class="all-news"><a href="/news/">All news ({articles.length}) →</a></p>}
+        {
+          analysis.length > 0 && (
+            <section class="analysis" aria-labelledby="analysis-title">
+              <div class="section-title">
+                <h2 id="analysis-title">Analysis &amp; practice</h2>
+                <a href="/analysis/">All</a>
+              </div>
+              <p class="analysis-note">Expert views and practical guidance from others, summarised by us. Not news reports.</p>
+              {analysis.map((a) => <ArticleCard article={a} variant="compact" />)}
+            </section>
+          )
+        }
+        {others.length > LATEST_COUNT && <p class="all-news"><a href="/news/">All news ({news.length}) →</a></p>}
       </section>
 
       <aside class="rail">
@@ -530,5 +545,13 @@ const counts = Object.fromEntries(
     .slide {
       transition: none;
     }
+  }
+  .analysis {
+    margin-top: 2rem;
+  }
+  .analysis-note {
+    margin: -0.4rem 0 1rem;
+    font-size: 0.88rem;
+    color: var(--ink-2);
   }
 </style>

@@ -2,9 +2,10 @@
 import Base from '../../layouts/Base.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
-import { getArticles } from '../../utils/articles';
+import { getAnalysis, getNews } from '../../utils/articles';
 
-const articles = await getArticles();
+const articles = await getNews();
+const analysisCount = (await getAnalysis()).length;
 // Group by month of the news date, newest first.
 const months = new Map<string, typeof articles>();
 for (const a of articles) {
@@ -18,7 +19,7 @@ for (const a of articles) {
     <header class="page-head">
       <p class="eyebrow">Archive</p>
       <h1>All news</h1>
-      <p>{articles.length} stories, newest first. Looking for something specific? <a href="/search/">Search</a> or browse by <a href="/topics/">topic</a> or <a href="/institutions/">institution</a>.</p>
+      <p>{articles.length} stories, newest first. Opinion, analysis and how-to pieces ({analysisCount}) are under <a href="/analysis/">Analysis &amp; practice</a>. Looking for something specific? <a href="/search/">Search</a> or browse by <a href="/topics/">topic</a> or <a href="/institutions/">institution</a>.</p>
     </header>
     <div class="cols">
       <div>

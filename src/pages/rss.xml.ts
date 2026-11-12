@@ -10,7 +10,7 @@ export async function GET(context: APIContext) {
     description: SITE.description,
     site: context.site ?? SITE.url,
     items: articles.map((a) => ({
-      title: a.data.title,
+      title: a.data.format === 'News' ? a.data.title : `${a.data.format}: ${a.data.title}`,
       pubDate: a.data.date,
       description: `${a.data.dek} Why it matters: ${a.data.whyItMatters}`,
       link: articleUrl(a),

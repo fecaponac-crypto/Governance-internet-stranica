@@ -45,7 +45,7 @@ const Heading = variant === 'lead' ? 'h2' : 'h3';
   }
   <p class="meta">
     <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time>
-    <span aria-hidden="true"> · </span>{data.type}
+    <span aria-hidden="true"> · </span>{data.format === 'News' ? data.type : <b class="format">{data.format}</b>}
     {data.region && <><span aria-hidden="true"> · </span>{data.region}</>}
   </p>
 </article>

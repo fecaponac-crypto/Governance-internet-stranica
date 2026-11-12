@@ -9,6 +9,11 @@ export async function getArticles(): Promise<Article[]> {
   return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
 
+/** News reports a development; analysis, opinion and how-to pieces are someone's view or advice. */
+export const isNews = (a: Article) => a.data.format === 'News';
+export const getNews = async () => (await getArticles()).filter(isNews);
+export const getAnalysis = async () => (await getArticles()).filter((a) => !isNews(a));
+
 export const articleUrl = (a: Article) => `/news/${a.id}/`;
 
 const DAY = 864e5;

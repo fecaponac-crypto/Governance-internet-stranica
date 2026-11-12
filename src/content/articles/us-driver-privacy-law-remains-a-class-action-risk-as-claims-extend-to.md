@@ -7,6 +7,10 @@ categories: [privacy, regulation, metadata]
 institutions: []
 whoShouldCare: ["Legal & compliance", "DPO", "Data stewards", "CDO"]
 importance: 3
+format: "Analysis"
+byline:
+  name: "Squire Patton Boggs"
+  role: "a law firm that defends such claims"
 type: "Research"
 region: "US"
 status:

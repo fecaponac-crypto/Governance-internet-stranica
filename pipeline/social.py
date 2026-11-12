@@ -65,6 +65,7 @@ def published_items(today: date) -> list[dict]:
                 "url": SITE_URL + url.format(path.stem),
                 "title": d["title"],
                 "dek": d.get("dek", ""),
+                "format": d.get("format", "News"),
                 "categories": d.get("categories", []),
                 "thumb": f"{SITE_URL}/cards/thumbs/{path.stem}.png" if kind == "news" else None,
             })
@@ -85,6 +86,8 @@ def tags(item: dict) -> list[str]:
 
 
 def label(item: dict) -> str:
+    if item["kind"] == "news" and item.get("format", "News") != "News":
+        return f"{item['format']}: "
     return {"opinion": "Editor's Opinion: ", "column": "The Monday Signal: "}.get(item["kind"], "")
 
 

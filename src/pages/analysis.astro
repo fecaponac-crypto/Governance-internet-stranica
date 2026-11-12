@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { CONTENT_FORMATS, FORMAT_NOTES } from '../data/site';
+import { getAnalysis } from '../utils/articles';
+
+const pieces = await getAnalysis();
+const formats = CONTENT_FORMATS.filter((f) => f !== 'News' && pieces.some((p) => p.data.format === f));
+---
+
+<Base
+  title="Analysis & practice: expert views and practical guidance"
+  description="Analysis, opinion and how-to pieces on data protection, AI governance and data management from law firms, practitioners and vendors, summarised and clearly labelled."
+>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Analysis &amp; practice</p>
+      <h1>Expert views and practical guidance</h1>
+      <p>
+        What others think and advise: analysis from law firms, contributed opinion and practical how-to pieces, summarised
+        by us and labelled for what they are. For what actually happened, see the <a href="/news/">news</a>; for our own
+        view, the <a href="/opinion/">Editor's Opinion</a> and <a href="/monday-signal/">The Monday Signal</a>.
+      </p>
+    </header>
+    {
+      formats.map((f) => (
+        <section aria-labelledby={`f-${f}`}>
+          <div class="section-title">
+            <h2 id={`f-${f}`}>{f}</h2>
+          </div>
+          <p class="note">{FORMAT_NOTES[f]}</p>
+          <div class="grid">
+            {pieces.filter((p) => p.data.format === f).map((a) => <ArticleCard article={a} variant="compact" />)}
+          </div>
+        </section>
+      ))
+    }
+    {pieces.length === 0 && <p class="note">Nothing here yet.</p>}
+  </div>
+</Base>
+
+<style>
+  section {
+    margin-bottom: 2.5rem;
+  }
+  .note {
+    margin: -0.4rem 0 1rem;
+    font-size: 0.9rem;
+    color: var(--ink-2);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    gap: 0 2rem;
+  }
+</style>

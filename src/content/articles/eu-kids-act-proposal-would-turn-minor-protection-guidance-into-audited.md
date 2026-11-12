@@ -8,6 +8,10 @@ institutions: [european-commission]
 legislation: [eu-kids-act]
 whoShouldCare: ["DPO", "Legal & compliance", "AI governance lead", "Product owners"]
 importance: 3
+format: "Analysis"
+byline:
+  name: "Squire Patton Boggs"
+  role: "a law firm"
 type: "Regulation"
 region: "EU"
 status:

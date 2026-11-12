@@ -1,5 +1,5 @@
 ---
-title: "Opinion: EU AI Act Article 72 monitoring plans risk missing behavioural drift in high-risk AI"
+title: "EU AI Act Article 72 monitoring plans risk missing behavioural drift in high-risk AI"
 date: 2026-11-11
 dek: "A consultant writing for the IAPP argues that post-market monitoring built around performance thresholds will not detect AI systems that behave differently from the version that was assessed."
 whyItMatters: "Monitoring plans that only track accuracy and error rates may satisfy a documentation check while missing changes in how a high-risk system actually decides. Governance teams preparing Article 72 plans can test whether anyone owns behavioural change, whether a baseline from the last assessment is kept and compared, and whether recalibration on data shaped by manual overrides triggers review. This also links model governance to data lineage: override and feedback data feeding retraining should be tracked as a source of change."
@@ -7,6 +7,10 @@ categories: [ai-governance, regulation, data-quality]
 institutions: []
 whoShouldCare: ["AI governance lead", "Model risk managers", "Data stewards", "Legal & compliance"]
 importance: 2
+format: "Opinion"
+byline:
+  name: "Nadège Barnes"
+  role: "founder of Praxeon Consulting, writing for the IAPP"
 type: "Guidance"
 region: "EU"
 status:

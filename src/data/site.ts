@@ -194,6 +194,15 @@ export const CONTENT_TYPES = [
   'Event',
 ] as const;
 
+// What a piece is: News reports something that happened; the others are someone's view or advice
+// (a law firm's analysis, a contributed opinion, a vendor's how-to) and are kept out of the news stream.
+export const CONTENT_FORMATS = ['News', 'Analysis', 'Opinion', 'How-to'] as const;
+export const FORMAT_NOTES: Record<string, string> = {
+  Analysis: 'Analysis: an expert reading of the rules or the trends, not a report of a new development.',
+  Opinion: "Opinion: the author's own view, summarised by us. It is not a news report or official guidance.",
+  'How-to': 'How-to: practical guidance from the source named below, summarised by us.',
+};
+
 export const IMPORTANCE_LABELS: Record<number, string> = {
   1: 'Background',
   2: 'Worth knowing',

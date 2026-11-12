@@ -68,7 +68,7 @@ function bars(level: number): Node {
 export async function renderCard(article: Article, width = CARD_WIDTH): Promise<Buffer> {
   const { data } = article;
   return renderFrame({
-    eyebrow: [data.type, data.region].filter(Boolean).join('  ·  ').toUpperCase(),
+    eyebrow: [data.format === 'News' ? data.type : data.format, data.region].filter(Boolean).join('  ·  ').toUpperCase(),
     figure: data.card?.figure ?? data.type,
     caption: data.card?.caption ?? data.dek,
     topic: categoryById(data.categories[0]).label,

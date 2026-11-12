@@ -531,6 +531,28 @@ class OfficialSourceTest(unittest.TestCase):
         self.assertEqual(client.search_calls, 3)
 
 
+class FormatTest(unittest.TestCase):
+    def test_opinion_is_labelled_bylined_and_kept_out_of_the_tracker(self):
+        d = draft.tidy({**DRAFT, "title": "Opinion: Monitoring plans miss drift", "format": "Opinion",
+                        "author_name": "A. Consultant", "author_role": "founder of X, writing for the IAPP"})
+        self.assertEqual(d["title"], "Monitoring plans miss drift")
+        self.assertIsNone(d["enforcement"])
+        md = draft.to_markdown({**d, "sources": []}, {"published": "2026-11-12", "first_seen": ""})
+        front = yaml.safe_load(md.split("---")[1])
+        self.assertEqual(front["format"], "Opinion")
+        self.assertEqual(front["byline"], {"name": "A. Consultant", "role": "founder of X, writing for the IAPP"})
+        self.assertIn("Opinion by A. Consultant", draft.format_line(d))
+
+    def test_news_carries_no_format_or_byline(self):
+        d = draft.tidy({**DRAFT, "format": "News", "author_name": "Someone", "author_role": "x"})
+        md = draft.to_markdown({**d, "sources": []}, {"published": "2026-11-12", "first_seen": ""})
+        front = yaml.safe_load(md.split("---")[1])
+        self.assertNotIn("format", front)
+        self.assertNotIn("byline", front)
+        self.assertEqual(draft.format_line(d), "")
+        self.assertIsNotNone(d["enforcement"])
+
+
 class SameStoryTest(RunTest):
     def test_same_story_in_one_batch_is_drafted_once(self):
         scores = [

@@ -7,9 +7,9 @@ import NewsletterForm from '../../components/NewsletterForm.astro';
 import Feedback from '../../components/Feedback.astro';
 import Share from '../../components/Share.astro';
 import Listen from '../../components/Listen.astro';
-import { categoryById, SITE, STATUS_STAGES } from '../../data/site';
+import { categoryById, FORMAT_NOTES, SITE, STATUS_STAGES } from '../../data/site';
 import { institutionById } from '../../data/institutions';
-import { enforcementCases, getArticles, getLegislation, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
+import { enforcementCases, getArticles, getLegislation, isNews, formatAmount, formatDate, isoDate, type Article } from '../../utils/articles';
 import { cardUrl, cardAbsoluteUrl, CARD_WIDTH, CARD_HEIGHT } from '../../utils/card';
 
 export async function getStaticPaths() {
@@ -48,7 +48,7 @@ const related = all
   .slice(0, 3)
   .map((x) => x.a);
 // The newest stories not already shown, for readers arriving from search.
-const latest = all.filter((a) => a.id !== article.id && !related.includes(a)).slice(0, 4);
+const latest = all.filter((a) => a.id !== article.id && !related.includes(a) && isNews(a)).slice(0, 4);
 // Where to follow this story next.
 const follow = [
   ...laws.map((l) => ({ href: `/legislation/${l.file.id}/`, label: `${l.file.data.short}: ${l.file.data.stage}`, kind: 'Legislation tracker' })),
@@ -80,9 +80,25 @@ const jsonLd = {
       </p>
       <h1>{data.title}</h1>
       <p class="dek">{data.dek}</p>
+      {
+        data.format !== 'News' && (
+          <p class="format-note">
+            <a class="tag" href="/analysis/">{data.format}</a>
+            <span>
+              {FORMAT_NOTES[data.format]}
+              {data.byline && (
+                <>
+                  {' '}By {data.byline.name}
+                  {data.byline.role && <>, {data.byline.role}</>}.
+                </>
+              )}
+            </span>
+          </p>
+        )
+      }
       <div class="facts" data-pagefind-ignore>
         <time datetime={isoDate(data.date)}>{formatDate(data.date)}</time>
-        <span>{data.type}</span>
+        <span>{data.format === 'News' ? data.type : data.format}</span>
         {data.region && <span>{data.region}</span>}
         <Importance level={data.importance} />
         {
@@ -336,6 +352,24 @@ const jsonLd = {
   }
   .sep {
     color: var(--ink-3);
+  }
+  .format-note {
+    display: flex;
+    gap: 0.75rem;
+    align-items: baseline;
+    margin: 1rem 0 0;
+    padding: 0.7rem 0.9rem;
+    border-left: 3px solid var(--signal);
+    background: color-mix(in srgb, var(--signal) 7%, transparent);
+    font-size: 0.92rem;
+    max-width: var(--measure);
+  }
+  .format-note .tag {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.75rem;
+    white-space: nowrap;
   }
   h1 {
     font-size: clamp(1.9rem, 5vw, 2.9rem);

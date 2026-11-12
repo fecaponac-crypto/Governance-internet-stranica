@@ -279,6 +279,12 @@ Cilj (odluka urednika): biti najrelevantniji izvor u niši — prednost su provj
 - **Službeni izvori:** priopćenja Europske komisije (press corner, stranica traži JavaScript) i dokumenti Federal Registera (CAPTCHA) čitaju se preko njihovih javnih API-ja (Federal Register uz govinfo PDF). Kad članak ne vodi na izvornik, pretraga weba (do 3 pretrage, model za provjere) traži vlastitu objavu tijela; prihvaća se samo URL koji je pretraga vratila i koji nije na stranici samog članka. Isključuje se varijablom `SEARCH_FOR_PRIMARY=0`.
 - **Kalendar obveza** (`/deadlines/`): svi datumi iz vijesti po mjesecima, s odbrojavanjem, vrstom (Applies, Comment deadline, Hearing or vote), regijom i poveznicom na zakon u trackeru; filtri po regiji i vrsti. Pretplata preko `/deadlines.ics` (Outlook, Apple, Google) — novi datumi stižu sami.
 
+## 10a-13. Vijesti odvojene od mišljenja i vodiča (12. 11. 2026.)
+
+- Svaki tekst ima `format`: **News** (nešto se dogodilo), **Analysis** (stručno čitanje pravila ili trendova, npr. odvjetnički ured), **Opinion** (autorov stav ili prijedlog), **How-to** (praktični vodič proizvođača ili praktičara). Uz ne-vijesti ide `byline` (tko je autor i što je).
+- Glavni tok (naslovnica: glavna vijest, Latest, This week; `/news/`) prikazuje samo News. Ostalo ide na `/analysis/` („Analysis & practice”) i u manji blok na naslovnici; na samom tekstu je istaknuta oznaka s objašnjenjem i autorom. Uredničko mišljenje (Opinion eseji, Monday Signal) ostaje zasebno.
+- AI u nacrtu određuje format i autora; PR je označen (🗣️, format u naslovu). Mišljenje o predmetu ne ulazi u tracker kazni. Trijaža: komentar o već pokrivenom razvoju bez nove činjenice nije relevantan; mišljenja i vodiči dobivaju 3 samo kad daju nešto primjenjivo.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

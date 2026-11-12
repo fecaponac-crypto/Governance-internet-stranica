@@ -7,6 +7,10 @@ categories: [metadata, data-quality, platforms]
 institutions: []
 whoShouldCare: ["Data stewards", "Data owners", "CDO", "Data platform teams"]
 importance: 2
+format: "How-to"
+byline:
+  name: "AWS"
+  role: "the vendor of the product described"
 type: "Case study"
 region: "Global"
 status:

@@ -161,7 +161,7 @@ def pending_drafts() -> list[dict]:
     except (OSError, subprocess.SubprocessError, json.JSONDecodeError):
         return []
     return [
-        {"slug": p["headRefName"].removeprefix("drafts/"), "title": re.sub(r"^(⏰ )?(⚠️ )?Draft: | — Importance \d.*$", "", p["title"]), "date": ""}
+        {"slug": p["headRefName"].removeprefix("drafts/"), "title": re.sub(r"^(⏰ )?(⚠️ )?Draft: ((Analysis|Opinion|How-to) — )?| — Importance \d.*$", "", p["title"]), "date": ""}
         for p in prs if p["headRefName"].startswith("drafts/")
     ]
 
@@ -314,6 +314,7 @@ Rules:
 - Not relevant: webinars, event promotion, award announcements, hiring news, generic thought-leadership or vendor marketing, how-to listicles, stories without a data/privacy/AI-governance angle.
 - Vendor blog posts are relevant only for genuine launches, acquisitions or research findings.
 - Legislative process steps count even before anything is adopted: a Commission proposal, a Council general approach, a Parliament committee or plenary position, trilogue progress, a formal consultation, or organised industry or regulator pushback on a pending EU, UK or US data, privacy, cloud or AI law. Rate these at least 3 when the law would change obligations for organisations' data, and 4 for major files (e.g. GDPR changes, AI Act changes, Data Act, Digital Omnibus).
+- Opinion columns, law-firm analyses and vendor how-tos are not news. Rate them 3 only when they give concrete, usable guidance beyond the vendor's own product or a reading of the rules practitioners can act on; otherwise 1–2. Commentary on a development we have already covered (see the existing articles) that adds no new fact is not relevant.
 - Practical expert pieces on data quality, master data, metadata, catalogues, lineage or governance operating models are relevant when they come from specialist media, professional associations or analysts and give concrete, usable guidance (rate 3); generic opinion without anything practitioners can apply stays at 1–2. Vendor marketing remains not relevant.
 - If an item reports the same story as one of the existing articles or pending drafts listed below, set same_story_as to that slug and relevant to false.
 - If two or more candidates in this list report the same story (the same launch, decision, report or event, even from different outlets), judge the best one normally — prefer the original publisher or official source, then the most detailed coverage — and on every other one set same_as_index to the index of that best item and relevant to false. Otherwise same_as_index is -1.
@@ -635,6 +636,8 @@ Fields:
 - who_should_care: 2–4 roles, e.g. "CDO", "DPO", "Data stewards", "AI governance lead", "Legal & compliance", "CISO".
 - importance: 1–5 as defined (1 Background … 5 Critical).
 - type: one of the allowed content types.
+- format: "News" when the source reports something that happened (a decision, fine, ruling, proposal, adoption, publication of official guidance, a standard, research or survey results, a product launch, an incident). "Analysis" when it is an expert's reading of rules or trends without a new development (typically a law firm or consultancy piece). "Opinion" when it argues the author's own view or proposal (contributed columns, op-eds). "How-to" when it is practical guidance or a walkthrough from a vendor or practitioner. A regulator's or standards body's own guidance is News, not How-to.
+- author_name, author_role: for Analysis, Opinion and How-to, who wrote or published the piece and what they are (e.g. "Hogan Lovells" / "a law firm, writing for the IAPP"; "AWS" / "the vendor of the product described"); empty for News. For these formats, attribute the views to the author in the title, dek and body, and do not write "Opinion:" in the title.
 - status_stage: where the development stands, from the allowed stages. Be exact: a proposal or a Council position is not adopted law; a media report not confirmed by the parties is "Unconfirmed"; a complaint, lawsuit or advocacy claim is "Alleged"; a product preview is not "Available".
 - status_detail: one short clause qualifying the stage (max 100 characters), e.g. "Parliament has yet to adopt its position" or "applies from 2 August 2027"; empty if nothing to add.
 - what_to_check: only for importance 4–5, 1–3 concrete checks a governance, privacy or compliance team should make in their own organisation, each one sentence, following directly from what the sources say (not generic advice). Empty list for importance 1–3 or when the sources give no basis.
@@ -679,6 +682,9 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "who_should_care": {"type": "array", "items": s()},
             "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
             "type": s(enum=types),
+            "format": s(enum=["News", "Analysis", "Opinion", "How-to"]),
+            "author_name": s(),
+            "author_role": s(),
             "status_stage": s(enum=stages),
             "status_detail": s(),
             "what_to_check": {"type": "array", "items": s()},
@@ -728,7 +734,7 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
             "review_notes": s(),
         },
         "required": [
-            "title", "dek", "body", "why_it_matters", "categories", "institutions", "legislation", "legislation_update", "legislation_new", "who_should_care", "importance", "type", "status_stage", "status_detail", "what_to_check", "deadlines", "enforcement", "region",
+            "title", "dek", "body", "why_it_matters", "categories", "institutions", "legislation", "legislation_update", "legislation_new", "who_should_care", "importance", "type", "format", "author_name", "author_role", "status_stage", "status_detail", "what_to_check", "deadlines", "enforcement", "region",
             "card_figure", "card_caption", "editor_note", "sources", "related", "review_notes",
         ],
         "additionalProperties": False,
@@ -911,6 +917,12 @@ def tidy(d: dict) -> dict:
     d["enforcement"] = tidy_enforcement(d.get("enforcement"))
     d["legislation"], d["legislation_update"] = tidy_legislation(d)
     d["legislation_new"] = (d.get("legislation_new") or "").strip()[:120]
+    d["format"] = d.get("format") or "News"
+    d["author_name"] = (d.get("author_name") or "").strip()[:80] if d["format"] != "News" else ""
+    d["author_role"] = (d.get("author_role") or "").strip()[:120] if d["author_name"] else ""
+    if d["format"] != "News":
+        d["title"] = re.sub(r"^(opinion|analysis|how-to)\s*:\s*", "", d["title"], flags=re.I)
+        d["enforcement"] = None  # someone's view of a case is not a step in it
     return d
 
 
@@ -1073,6 +1085,9 @@ def to_markdown(d: dict, item: dict) -> str:
         *([f"legislation: [{', '.join(d['legislation'])}]"] if d.get("legislation") else []),
         f"whoShouldCare: [{', '.join(q(r) for r in d['who_should_care'])}]",
         f"importance: {d['importance']}",
+        *([f"format: {q(d['format'])}"] if d.get("format", "News") != "News" else []),
+        *(["byline:", f"  name: {q(d['author_name'])}", *([f"  role: {q(d['author_role'])}"] if d.get("author_role") else [])]
+          if d.get("author_name") else []),
         f"type: {q(d['type'])}",
         f"region: {q(d['region'])}",
         "status:",
@@ -1121,6 +1136,14 @@ def enforcement_line(e: dict | None) -> str:
     update = (f"**Update to case `{e['case']}`: {prior['action']} ({prior['date']}) → {e['action']}** · "
               if prior else f"new case `{e.get('case', '—')}` · ")
     return update + enforcement_core(e)
+
+
+def format_line(d: dict) -> str:
+    if d.get("format", "News") == "News":
+        return ""
+    by = f" by {d['author_name']}" + (f" ({d['author_role']})" if d.get("author_role") else "") if d.get("author_name") else ""
+    return (f"🗣️ **{d['format']}{by}** — goes to Analysis & practice, not the news stream. "
+            "Close the PR if it adds nothing practitioners can use.\n")
 
 
 def freshness_line(check: dict) -> str:
@@ -1181,7 +1204,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 {freshness_line(check)}
 {'' if has_primary else '⚠️ **No primary source found** — the article relies on secondary coverage.'}
 
-**Type:** {d['type']} · {d['region']} · **Importance:** {d['importance']} ({labels[d['importance']]})
+{format_line(d)}**Type:** {d['type']} · {d['region']} · **Importance:** {d['importance']} ({labels[d['importance']]})
 **Categories:** {', '.join(d['categories'])}
 **Institutions:** {', '.join(d.get('institutions', [])) or 'none'}
 **Status:** {d['status_stage']}{f" — {d['status_detail']}" if d['status_detail'] else ''}
@@ -1214,7 +1237,7 @@ def open_pull_request(slug: str, markdown: str, d: dict, item: dict, check: dict
 _Drafted ({WRITER_MODEL}) and fact-checked ({CHECK_MODEL}) automatically by the Data Governance Signal pipeline; not published until merged._
 """
     stale = check.get("past_dates") and not (check.get("freshness") or {}).get("checked")
-    title = f"{'⏰ ' if stale else ''}{'' if not (check['flagged'] or check.get('incomplete')) else '⚠️ '}Draft: {d['title']} — Importance {d['importance']}"
+    title = f"{'⏰ ' if stale else ''}{'' if not (check['flagged'] or check.get('incomplete')) else '⚠️ '}Draft: {'' if d.get('format', 'News') == 'News' else d['format'] + ' — '}{d['title']} — Importance {d['importance']}"
     out = subprocess.run(
         ["gh", "pr", "create", "--base", base, "--head", branch, "--title", title,
          "--body", body, "--reviewer", EDITOR, "--assignee", EDITOR],

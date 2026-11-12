@@ -7,6 +7,10 @@ categories: [metadata, ai-governance, data-quality]
 institutions: []
 whoShouldCare: ["Data stewards", "CDO", "AI governance lead", "Data platform teams"]
 importance: 2
+format: "How-to"
+byline:
+  name: "DataHub"
+  role: "the vendor of the product described"
 type: "Guidance"
 region: "Global"
 status:

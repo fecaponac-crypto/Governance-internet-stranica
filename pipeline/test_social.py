@@ -83,6 +83,8 @@ class SocialTest(unittest.TestCase):
         self.assertLessEqual(len(text) - len(item["url"]) + 23, 500)
         self.assertIn("#DataGovernance #Privacy #AIGovernance", text)
         self.assertTrue(social.mastodon_text({**item, "kind": "opinion"}).startswith("Editor's Opinion: "))
+        self.assertTrue(social.bluesky_text({**item, "format": "Analysis"}).startswith("Analysis: "))
+        self.assertFalse(social.bluesky_text({**item, "format": "News"}).startswith("News"))
 
 
 class MergeStateTest(unittest.TestCase):

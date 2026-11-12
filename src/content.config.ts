@@ -5,6 +5,7 @@ import { parse as parseYaml } from 'yaml';
 import {
   CATEGORY_IDS,
   COLUMN,
+  CONTENT_FORMATS,
   CONTENT_TYPES,
   ENFORCEMENT_ACTIONS,
   ENFORCEMENT_FRAMEWORKS,
@@ -30,6 +31,9 @@ const articles = defineCollection({
     whoShouldCare: z.array(z.string()).min(1),
     importance: z.number().int().min(1).max(5),
     type: z.enum(CONTENT_TYPES),
+    // News unless the piece is someone's view or advice; see CONTENT_FORMATS.
+    format: z.enum(CONTENT_FORMATS).default('News'),
+    byline: z.object({ name: z.string(), role: z.string().optional() }).optional(),
     region: z.string().optional(),
     // Where the development stands, e.g. {stage: 'In negotiation', detail: 'Parliament has yet to vote'}.
     status: z.object({ stage: z.enum(STATUS_IDS), detail: z.string().max(100).optional() }).optional(),

@@ -1,5 +1,5 @@
 ---
-title: "Opinion: State attorneys general could shore up EU-US Data Privacy Framework after Trump v. Slaughter"
+title: "State attorneys general could shore up EU-US Data Privacy Framework after Trump v. Slaughter"
 date: 2026-11-12
 dek: "Hogan Lovells lawyers argue that selected state attorneys general, who are outside presidential control, could act as supplemental enforcers if the Commission wants extra assurances on FTC independence."
 whyItMatters: "The adequacy decision makes FTC or Department of Transportation jurisdiction a condition of DPF certification and lets transfers to certified organisations proceed without further authorisation, so any Commission review prompted by Slaughter goes to the legal basis of transfers that rely on the DPF. Privacy teams should list which US transfers depend solely on the DPF and confirm that fallback mechanisms, such as standard contractual clauses, are ready. Teams should also record which enforcement body each US recipient named in its certification, because a supplemental state-level model could change that."
@@ -7,6 +7,10 @@ categories: [privacy, regulation]
 institutions: []
 whoShouldCare: ["DPO", "Legal & compliance", "Procurement and vendor risk teams"]
 importance: 3
+format: "Opinion"
+byline:
+  name: "Bret Cohen and Julian Flamant"
+  role: "lawyers at Hogan Lovells, writing for the IAPP"
 type: "Research"
 region: "EU / US"
 status:
