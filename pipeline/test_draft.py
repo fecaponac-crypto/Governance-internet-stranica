@@ -79,6 +79,8 @@ class FakeClient:
     freshness = {"changed": False, "what_happened": "", "date": "", "url": ""}
     search_urls = ["https://court.example.org/ruling.pdf"]
     freshness_calls = 0
+    official = {"url": "", "publisher": ""}
+    search_calls = 0
 
     def _large(self, **params):
         assert params["fallbacks"] == "default"
@@ -86,6 +88,12 @@ class FakeClient:
         assert params["model"] == (draft.CHECK_MODEL if checking else draft.WRITER_MODEL)
         if params.get("tools"):
             assert params["tools"][0]["type"] == "web_search_20260209"
+            if params["system"] == draft.OFFICIAL_SEARCH_SYSTEM:
+                self.search_calls += 1
+                r = response(self.official, draft.CHECK_MODEL)
+                r.content.insert(0, SimpleNamespace(type="web_search_tool_result",
+                                                    content=[SimpleNamespace(url=u) for u in self.search_urls]))
+                return r
             self.freshness_calls += 1
             r = response(self.freshness, draft.WRITER_MODEL)
             r.usage.server_tool_use = SimpleNamespace(web_search_requests=2)
@@ -474,6 +482,53 @@ class IncompleteCheckTest(unittest.TestCase):
         self.assertEqual(calls, [draft.CHECK_MODEL, draft.WRITER_MODEL])
         self.assertTrue(check["incomplete"])
         self.assertIn("Fact check incomplete", draft.check_summary(check))
+
+
+class OfficialSourceTest(unittest.TestCase):
+    def test_commission_press_corner_is_read_through_its_api(self):
+        api = {"eventDate": "2026-11-06", "docuLanguageResource": {
+            "title": "Commission preliminarily finds TikTok in breach", "htmlContent": "<p>Today, the Commission " + "found. " * 120 + "</p>",
+            "dolaQuoteResources": [{"author": {"authorName": "Henna Virkkunen"}, "extract": "Every time a user scrolls."}]}}
+        seen = {}
+        def fake_get(url, **kw):
+            seen.update(url=url, **kw)
+            return SimpleNamespace(json=lambda: api)
+        with mock.patch.object(draft, "_get", fake_get):
+            d = draft.fetch_source("https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2361")
+        self.assertEqual(seen["params"], {"reference": "IP/26/2361", "language": "en"})
+        self.assertIn("IP/26/2361 · published 2026-11-06", d["text"])
+        self.assertIn("Henna Virkkunen: Every time", d["text"])
+        self.assertIsNone(draft.commission_press("https://example.org/presscorner"))
+
+    def test_federal_register_metadata_and_pdf(self):
+        doc = {"title": "Patient-Level Data; Request for Information", "type": "Notice", "abstract": "The FDA is announcing an RFI.",
+               "publication_date": "2026-11-12", "comments_close_on": "2027-01-11", "docket_ids": ["FDA-2026-N-10742"],
+               "agencies": [{"name": "Food and Drug Administration"}], "pdf_url": "https://www.govinfo.gov/x.pdf"}
+        def fake_get(url, **kw):
+            if url.endswith(".pdf"):
+                return SimpleNamespace(content=b"pdf")
+            self.assertTrue(url.endswith("/documents/2026-22996.json"))
+            return SimpleNamespace(json=lambda: doc)
+        with mock.patch.object(draft, "_get", fake_get), mock.patch.object(draft, "_pdf_text", lambda c: "Full notice text. " * 60):
+            d = draft.fetch_source("https://www.federalregister.gov/documents/2026/11/12/2026-22996/patient-level-data")
+        self.assertIn("Comments close on: 2027-01-11", d["text"])
+        self.assertIn("Docket: FDA-2026-N-10742", d["text"])
+        self.assertIn("Full notice text.", d["text"])
+
+    def test_search_finds_the_official_document_only_among_search_results(self):
+        item_, src = item(0), {"url": "https://news.example.org/story", "text": "Report " * 300, "links": []}
+        client = FakeClient([])
+        client.search_urls = ["https://court.example.org/ruling.pdf"]
+        with mock.patch.object(draft, "fetch_source", fake_fetch):
+            client.official = {"url": "https://court.example.org/ruling.pdf", "publisher": "Court"}
+            found = draft.find_primary(client, {"usage": {}}, item_, src)
+            self.assertEqual(found["url"], "https://court.example.org/ruling.pdf")
+            client.official = {"url": "https://invented.example/x", "publisher": "?"}  # not in the results
+            self.assertIsNone(draft.find_primary(client, {"usage": {}}, item_, src))
+            client.search_urls = ["https://news.example.org/other"]
+            client.official = {"url": "https://news.example.org/other", "publisher": "same outlet"}
+            self.assertIsNone(draft.find_primary(client, {"usage": {}}, item_, src))
+        self.assertEqual(client.search_calls, 3)
 
 
 class SameStoryTest(RunTest):
