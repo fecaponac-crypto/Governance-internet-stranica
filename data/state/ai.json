@@ -2324,6 +2324,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "55ea60e6066a8a04": {
+   "at": "2026-11-12T19:57:34Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor analyst-recognition marketing about a Gartner Magic Quadrant placement; award/recognition announcements are not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "55f8a072612dc225": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [],
@@ -4460,6 +4471,17 @@
    "importance": 2,
    "reason": "EPIC amicus brief on voter-registration data use is advocacy in a court case with data privacy angle, lower practitioner impact.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "afd7c1dcbafb4394": {
+   "at": "2026-11-12T19:57:34Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog opinion on job titles and word order; generic thought-leadership without actionable guidance.",
+   "relevant": false,
    "same_story_as": null
   },
   "b0996e3d36b9fc49": {
@@ -6775,8 +6797,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 333,
-   "usd": 14.8346
+   "calls": 334,
+   "usd": 14.8354
   }
  }
 }

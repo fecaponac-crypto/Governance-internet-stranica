@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new items this run: 23
+Last run: **2026-11-12T19:57:03Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (101)
+## New items, last 48 hours (97)
 
 ### High priority sources
 
@@ -22,7 +22,6 @@ Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
 | 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
 | 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
-| 2026-11-10 | IAPP — International Association of Privacy Professionals | [Australia rolls out new AI regulator, frontier model security obligations](https://iapp.org/news/a/australia-rolls-out-new-ai-regulators-security-obligations) |
 | 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
 
 ### Medium priority sources
@@ -52,6 +51,7 @@ Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-12 | CDO Magazine | [US Federal News Bureau FDA Seeks Input on Patient-Level Data Access for Real-World Evidence Submissions](https://www.cdomagazine.tech/us-federal-news-bureau/fda-seeks-input-on-patient-level-data-access-for-real-world-evidence-submissions) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence Companies Tighten Employee Access to AI Tools as Costs and Risks Grow](https://www.cdomagazine.tech/aiml/companies-tighten-employee-access-to-ai-tools-as-costs-and-risks-grow) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
+| 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
 | 2026-11-11 | CDO Magazine | [US Federal News Bureau Federal Agencies Put Data Governance at the Center of Agentic AI Readiness](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-put-data-governance-at-the-center-of-agentic-ai-readiness) |
 | 2026-11-11 | AZOP — Croatian Personal Data Protection Agency | [EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu](https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/) |
@@ -65,7 +65,6 @@ Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-10 | Privacy World (Squire Patton Boggs) | [California Shuts the Door on Private CIPA Pen Register Suits Over Websites, Leaving the Closely Watched Variety Media Appeal in Limbo](https://www.privacyworld.blog/2026/11/california-shuts-the-door-on-private-cipa-pen-register-suits-over-websites-leaving-the-closely-watched-variety-media-appeal-in-limbo/) |
 | 2026-11-10 | POLITICO Europe — Technology | [Brussels takes on the evils of online commerce](https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-10 | Databricks Blog | [Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI](https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting) |
-| 2026-11-10 | European Parliament — Press releases | [Press release - Horizon Europe: MEPs back plans to strengthen the EU’s scientific base](https://www.europarl.europa.eu/news/en/press-room/20261109IPR48713/) |
 | 2026-11-10 | US Federal Trade Commission | [Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices](https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices) |
 | 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
@@ -84,6 +83,7 @@ Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-12 | Center for Security and Emerging Technology (CSET) | [AI Kill Switches: What Policymakers Should Know](https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/) |
 | 2026-11-12 | DataHub Blog (open source metadata platform) | [AI-Ready Data Lineage: What It Is and How to Prove You Have It](https://datahub.com/blog/ai-ready-data-lineage/) |
 | 2026-11-12 | The Record (Recorded Future News) | [ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations](https://therecord.media/connectwise-screenconnect-breaches-third-party-tool) |
+| 2026-11-12 | Google Cloud Blog — Data Analytics | [Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms](https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/) |
 | 2026-11-12 | Monte Carlo Blog | [AWS re:Invent 2026: Everything You Need to Know Before You Go](https://montecarlo.ai/blog-aws-reinvent-2026-know-before-you-go) |
 | 2026-11-12 | International Data Spaces Association | [A decade of data spaces produced standards, code and a question about money](https://internationaldataspaces.org/a-decade-of-data-spaces-produced-standards-code-and-a-question-about-money/) |
 | 2026-11-12 | The Record (Recorded Future News) | [Kazakhstan-linked hackers used AI agent to spy on Central Asian governments](https://therecord.media/kazakhstan-hackers-central-asia) |
@@ -105,10 +105,6 @@ Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-11 | dbt Labs Blog | [A letter from our founders](https://www.getdbt.com/blog/founders-letter) |
 | 2026-11-10 | Center for Security and Emerging Technology (CSET) | [The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO](https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/) |
 | 2026-11-10 | Precisely Blog | [Insights from three SAP customers on master data automation](https://www.precisely.com/blog/cat-sap-automation/insights-from-three-sap-customers-on-master-data-automation/) |
-| 2026-11-10 | ENISA — EU Agency for Cybersecurity | [ENISA reveals the State of Cybersecurity in the Union](https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union) |
-| 2026-11-10 | Google Cloud Blog — Data Analytics | [BigQuery measures is now GA, unifying BI metrics and knowledge graphs for AI accuracy](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
-| 2026-11-10 | DataHub Blog (open source metadata platform) | [Introducing DataHub Cloud v2.4](https://datahub.com/blog/datahub-cloud-v2-4/) |
-| 2026-11-10 | Computer Weekly — IT security | [Data dive: Mapping UK councils’ hyperscale dependence](https://www.computerweekly.com/news/366654752/Data-dive-Mapping-UK-councils-hyperscale-dependence) |
 | 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
@@ -122,8 +118,7 @@ Last run: **2026-11-12T18:17:20Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 91× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Google Cloud Blog — Data Analytics** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='cloudblog.withgoogle.com', port=443): Read timed out. (read timeout=25)`
+- **European Data Protection Board (EDPB)** — failed 92× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
