@@ -31,6 +31,6 @@ card:
 
 NIST published an initial public draft of **Special Publication 2400-102e2026**, *Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations*, on 9 November 2026. The edition builds on the earlier NIST AI 100-2 series and aims to give a common language that can inform future standards and practice guides on system security.
 
-This edition centres on attacks against agentic systems and their mitigations, set out in Section 4, with a new agentic attacks taxonomy index. According to CDO Magazine, the draft covers untrusted retrieved data, malicious tools and skills, multi-agent workflows, long-running tasks and memory poisoning. It also lists defences such as separating trusted instructions from untrusted content, least-privilege access, sandboxing and audit logging.
+This edition centres on attacks against agentic systems and their mitigations, set out in Section 4, with a new agentic attacks taxonomy index. NIST's page now refers to these as 'Super Intelligence (SI)' systems. According to CDO Magazine, the draft covers untrusted retrieved data, malicious tools and skills, multi-agent workflows, long-running tasks and memory poisoning. It also lists defences such as separating trusted instructions from untrusted content, least-privilege access, sandboxing and audit logging.
 
 The document is voluntary. **Comments are due by 18 December 2026.**
