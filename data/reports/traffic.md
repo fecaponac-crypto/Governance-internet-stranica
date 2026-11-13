@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-13T03:17:35Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-13T06:17:39Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**560 visits · 590 page views** this month (bots excluded)
+**570 visits · 600 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -17,6 +17,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-09 | 20 | 20 |
 | 2026-11-10 | 20 | 40 |
 | 2026-11-12 | 40 | 40 |
+| 2026-11-13 | 10 | 10 |
 
 ## Top pages
 
@@ -28,12 +29,12 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/ai-governance/ — 20
 - /institutions/edpb/ — 20
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
-- /news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g — 10
 - /methodology/ — 10
+- /news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/ — 10
 
 ## Countries
 
-- US — 320
+- US — 330
 - GB — 40
 - CN — 30
 - HK — 20
@@ -46,7 +47,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 530
+- (direct) — 540
 - datagovernancesignal.com — 30
 - www.google.com — 10
 - teams.public.onecdn.static.microsoft — 10
