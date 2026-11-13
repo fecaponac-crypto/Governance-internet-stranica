@@ -1186,6 +1186,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "28ade469ba3e6466": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General news roundup on Air Force AI deployment without clear data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "28d1a96b6b9d8fe1": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -1458,6 +1469,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "34d462d00c444040": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Digital identity card data protection gaps analysis from IAPP; practical privacy angle but modest impact and title-only judgement.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "357fa5943f2603b0": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -1516,6 +1538,17 @@
    "importance": 3,
    "reason": "Reports Irish amendments to a pending EU sovereign cloud law affecting data sovereignty obligations for organisations; a legislative process step, rated 3 as it is not a major file.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "38640011eaa35ef0": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog post marketing a product release, not a genuine launch or research finding.",
+   "relevant": false,
    "same_story_as": null
   },
   "3866d98ef9617ce8": {
@@ -1981,6 +2014,17 @@
    "importance": 2,
    "reason": "Commentary on bad data creating strategic risk in federal AI reliance; general opinion with some governance angle, low importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "46d74d78a62b60a5": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion-style piece on auditability with no concrete development evident.",
+   "relevant": false,
    "same_story_as": null
   },
   "473014bd0fabddf7": {
@@ -3388,6 +3432,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7e18bf8a0caef50c": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Leadership moves/hiring news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7e41de454a890cf6": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [
@@ -4673,6 +4726,17 @@
    "relevant": false,
    "same_story_as": "new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da"
   },
+  "b42b9d4c805ec477": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Conference notes on connected vehicle consent versus accountability; commentary with some practitioner relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b43cb2cdb7c156ad": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [
@@ -4804,6 +4868,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Cost optimisation story for Snowflake credits; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "b826d3e05f08f73a": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic trends piece for CDOs without concrete governance news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6226,6 +6301,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e4db44a3eaf88456": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Microsoft outage fuelling European sovereignty debate; same event as Computer Weekly item, this is the better-sourced version of the policy angle.",
+   "relevant": false,
+   "same_story_as": "item:e89d9c2ca015e4e8"
+  },
   "e4e6bb8c78abde51": {
    "at": "2026-11-05T15:18:33Z",
    "categories": [
@@ -6292,6 +6378,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e71bf5215ff136bd": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Ransomware attack on cloud provider disrupting customers; useful third-party risk example.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e7d97d948e8ddff1": {
    "at": "2026-11-10T03:18:36Z",
    "categories": [],
@@ -6315,6 +6412,28 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/23",
    "primary_found": false,
    "reason": "Italian DPA chair comments on EU child protection legislation and the balance with privacy; policy-level news with a privacy angle, though no excerpt detail.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "e89d9c2ca015e4e8": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Same Microsoft outage story covered by Euractiv; the Euractiv item is preferred.",
+   "relevant": false,
+   "same_story_as": "item:e4db44a3eaf88456"
+  },
+  "e8d212e2e33e21cf": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Employee data breach linked to a cloud provider; limited governance consequence.",
    "relevant": true,
    "same_story_as": null
   },
@@ -6701,6 +6820,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f88082b89135d1a8": {
+   "at": "2026-11-13T15:17:40Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Record cyber incident reports to UK ICO is a notable trend for breach-notification practice.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f8e0e0fab5bb015f": {
    "at": "2026-11-12T11:18:33Z",
    "categories": [
@@ -6957,8 +7088,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 357,
-   "usd": 16.0479
+   "calls": 361,
+   "usd": 16.2472
   }
  }
 }
