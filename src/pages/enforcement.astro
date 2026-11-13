@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { ENFORCEMENT_ACTIONS, ENFORCEMENT_FRAMEWORKS, SITE } from '../data/site';
-import { articleUrl, enforcementCases, formatAmount, formatDate, getArticles, isoDate } from '../utils/articles';
+import { articleUrl, enforcementCases, enforcementTotals, formatAmount, formatDate, getArticles, isoDate } from '../utils/articles';
 
 const cases = enforcementCases(await getArticles());
 const count = (key: 'framework' | 'action', value: string) => cases.filter((c) => c.latest.e[key] === value).length;
@@ -9,6 +9,14 @@ const frameworks = ENFORCEMENT_FRAMEWORKS.filter((f) => count('framework', f));
 const actions = ENFORCEMENT_ACTIONS.filter((a) => count('action', a));
 const open = cases.filter((c) => c.status === 'Open').length;
 const withAmount = cases.filter((c) => c.amount).length;
+const totals = enforcementTotals(cases);
+// The step that carries the amount (a settlement stays the reference after a later court step).
+const amountStep = (c: (typeof cases)[number]) => [...c.steps].reverse().find((s) => s.e.amount && s.e.currency) ?? c.latest;
+const breakdowns = [
+  { title: 'By law', head: 'Law', rows: totals.byLaw },
+  { title: 'By country', head: 'Country', rows: totals.byCountry },
+  { title: `By ${totals.periodLabel.toLowerCase()}`, head: totals.periodLabel, rows: totals.byPeriod },
+];
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -42,6 +50,59 @@ const jsonLd = {
       <div><b>{cases.length}</b><span>cases followed</span></div>
       <div><b>{open}</b><span>still open</span></div>
       <div><b>{withAmount}</b><span>with a stated amount</span></div>
+    </section>
+
+    <section class="numbers" aria-labelledby="numbers-title">
+      <h2 id="numbers-title">The tracker in numbers</h2>
+      <div class="grid">
+        {
+          breakdowns.map((b) => (
+            <table class="mini">
+              <caption>{b.title}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">{b.head}</th>
+                  <th scope="col" class="num">Cases</th>
+                  <th scope="col" class="num">Open</th>
+                  <th scope="col" class="num">Stated amounts</th>
+                </tr>
+              </thead>
+              <tbody>
+                {b.rows.map((g) => (
+                  <tr>
+                    <th scope="row">{g.label}</th>
+                    <td class="num">{g.cases}</td>
+                    <td class="num">{g.open}</td>
+                    <td class="num sums">{g.amounts.length ? g.amounts.map((a) => <span>{formatAmount(a.amount, a.currency)}</span>) : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ))
+        }
+        {
+          totals.largest.length > 0 && (
+            <div class="largest">
+              <h3>Largest stated amounts</h3>
+              <ol>
+                {totals.largest.map((c) => (
+                  <li>
+                    <b>{formatAmount(c.amount!.amount, c.amount!.currency)}</b>
+                    <a href={`#${c.id}`}>{c.latest.e.parties}</a>
+                    <span class="sub">
+                      {amountStep(c).e.authority} · {amountStep(c).e.action}, case {c.status.toLowerCase()}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )
+        }
+      </div>
+      <p class="caveat">
+        Counts cover the cases we have reported, not every decision made. Amounts are added up per currency as stated in the
+        sources and are not converted; they include jury verdicts and fines that can still be appealed or reduced.
+      </p>
     </section>
 
     <form class="filters" data-filters aria-label="Filter the tracker">
@@ -143,7 +204,7 @@ const jsonLd = {
 
 <script>
   document.querySelectorAll<HTMLFormElement>('[data-filters]').forEach((form) => {
-    const rows = [...document.querySelectorAll<HTMLTableRowElement>('tbody tr')];
+    const rows = [...document.querySelectorAll<HTMLTableRowElement>('.table-wrap tbody tr')];
     const shown = form.querySelector<HTMLElement>('[data-shown]')!;
     const apply = () => {
       const f = (form.elements.namedItem('framework') as HTMLSelectElement).value;
@@ -182,6 +243,80 @@ const jsonLd = {
   .stats span {
     font-size: 0.8rem;
     color: var(--ink-2);
+  }
+  .numbers {
+    margin-bottom: 2rem;
+  }
+  .numbers h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.75rem;
+  }
+  .numbers .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 21rem), 1fr));
+    gap: 1.5rem 2rem;
+    align-items: start;
+  }
+  .mini {
+    font-size: 0.88rem;
+  }
+  .mini caption,
+  .largest h3 {
+    text-align: left;
+    font-family: var(--sans);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0 0 0.3rem;
+  }
+  .mini th,
+  .mini td {
+    padding: 0.4rem 0.4rem;
+  }
+  .mini tbody th {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: inherit;
+    font-weight: 500;
+    color: var(--ink);
+    border-bottom: 1px solid var(--rule);
+  }
+  .mini th.num {
+    text-align: right;
+  }
+  .mini td.num {
+    font-weight: 500;
+  }
+  .mini {
+    width: 100%;
+  }
+  .sums span {
+    display: block;
+  }
+  .largest ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    border-top: 2px solid var(--ink);
+  }
+  .largest li {
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    gap: 0 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .largest b {
+    font-variant-numeric: tabular-nums;
+  }
+  .largest .sub {
+    grid-column: 2;
+  }
+  .caveat {
+    margin: 0.9rem 0 0;
+    font-size: 0.82rem;
+    color: var(--ink-2);
+    max-width: 60rem;
   }
   .filters {
     display: flex;
@@ -309,22 +444,22 @@ const jsonLd = {
   }
   /* Phones: each row becomes a card. */
   @media (max-width: 720px) {
-    thead {
+    .table-wrap thead {
       display: none;
     }
-    tr {
+    .table-wrap tr {
       display: block;
       border-bottom: 1px solid var(--rule);
       padding: 0.6rem 0;
     }
-    td {
+    .table-wrap td {
       display: grid;
       grid-template-columns: 7.5rem 1fr;
       gap: 0.5rem;
       border: none;
       padding: 0.25rem 0;
     }
-    td::before {
+    .table-wrap td::before {
       content: attr(data-label);
       font-size: 0.75rem;
       font-weight: 650;
@@ -339,7 +474,7 @@ const jsonLd = {
       grid-column: 2;
       margin-top: -0.4rem;
     }
-    .num {
+    .table-wrap .num {
       text-align: left;
     }
   }

@@ -309,6 +309,10 @@ Dvije vijesti o CCPA signalima za odjavu povezane su s unosom `california-ccpa-r
 
 Dodano pet zakona (ukupno 31): australski Privacy and Other Legislation Amendment Act 2024 (tablica stupanja na snagu iz teksta zakona; automatizirane odluke 10. 12. 2026.), kanadski PIPEDA, singapurski PDPA, Maryland Online Data Privacy Act (1. 10. 2025. / 1. 4. 2026.) i Minnesota Consumer Data Privacy Act (31. 7. 2025. / 31. 7. 2029.). Brazil (planalto.gov.br) i Indija (meity.gov.in, pib.gov.in) nisu upisani: službene stranice ne dopuštaju automatsko čitanje, a bez provjere u službenom tekstu zakon se ne upisuje.
 
+### Tracker kazni u brojkama (13. 11. 2026.)
+
+Na `/enforcement/` iznad tablice stoji blok „The tracker in numbers”: slučajevi po zakonu, po državi (američke savezne države i sudovi broje se kao United States, tijela EU-a kao EU) i po mjesecu (po godini čim tracker pokrije više od jedne godine), te pet najvećih navedenih iznosa. Iznosi se zbrajaju **po valuti kako su navedeni u izvorima i ne preračunavaju se**; približni tečajevi u `ROUGH_EUR` služe samo za redoslijed. Računa `enforcementTotals()` u `src/utils/articles.ts`.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

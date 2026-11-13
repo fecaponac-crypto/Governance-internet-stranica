@@ -153,6 +153,59 @@ export function enforcementCases(articles: Article[]): EnforcementCase[] {
     .sort((a, b) => b.latest.e.date.getTime() - a.latest.e.date.getTime());
 }
 
+// Rough euro values, used only to order amounts in different currencies; amounts are always shown as stated.
+const ROUGH_EUR: Record<string, number> = { EUR: 1, USD: 0.92, GBP: 1.17, CHF: 1.05, NOK: 0.085, SEK: 0.09, DKK: 0.134, CAD: 0.67, AUD: 0.6 };
+const roughEur = (a: { amount: number; currency: string }) => a.amount * (ROUGH_EUR[a.currency] ?? 1);
+
+/** Where a case belongs in the country totals: US states and courts count as United States, EU bodies as EU. */
+export const enforcementCountry = (jurisdiction: string): string =>
+  /\bUS\b|United States/.test(jurisdiction) ? 'United States' : /^EU\b/.test(jurisdiction) ? 'EU' : /\bUK\b|United Kingdom/.test(jurisdiction) ? 'United Kingdom' : jurisdiction;
+
+export interface EnforcementGroup {
+  label: string;
+  cases: number;
+  open: number;
+  // Stated amounts added up per currency, largest first; never converted.
+  amounts: { amount: number; currency: string }[];
+}
+
+function groupCases(cases: EnforcementCase[], key: (c: EnforcementCase) => string): EnforcementGroup[] {
+  const groups = new Map<string, EnforcementCase[]>();
+  for (const c of cases) groups.set(key(c), [...(groups.get(key(c)) ?? []), c]);
+  return [...groups]
+    .map(([label, list]) => {
+      const sums = new Map<string, number>();
+      for (const c of list) if (c.amount) sums.set(c.amount.currency, (sums.get(c.amount.currency) ?? 0) + c.amount.amount);
+      return {
+        label,
+        cases: list.length,
+        open: list.filter((c) => c.status === 'Open').length,
+        amounts: [...sums].map(([currency, amount]) => ({ amount, currency })).sort((a, b) => roughEur(b) - roughEur(a)),
+      };
+    })
+    .sort((a, b) => b.cases - a.cases || a.label.localeCompare(b.label));
+}
+
+/** The tracker in numbers: cases by law, by country and by period, and the largest stated amounts. */
+export function enforcementTotals(cases: EnforcementCase[]) {
+  const years = new Set(cases.map((c) => c.latest.e.date.getUTCFullYear()));
+  const byMonth = years.size < 2;
+  const period = (c: EnforcementCase) =>
+    byMonth ? c.latest.e.date.toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' }) : String(c.latest.e.date.getUTCFullYear());
+  const newest = new Map<string, number>();
+  for (const c of cases) newest.set(period(c), Math.max(newest.get(period(c)) ?? 0, c.latest.e.date.getTime()));
+  return {
+    byLaw: groupCases(cases, (c) => c.latest.e.framework),
+    byCountry: groupCases(cases, (c) => enforcementCountry(c.latest.e.jurisdiction)),
+    byPeriod: groupCases(cases, period).sort((a, b) => newest.get(b.label)! - newest.get(a.label)!),
+    periodLabel: byMonth ? 'Month' : 'Year',
+    largest: cases
+      .filter((c) => c.amount)
+      .sort((a, b) => roughEur(b.amount!) - roughEur(a.amount!))
+      .slice(0, 5),
+  };
+}
+
 export type LegislationFile = CollectionEntry<'legislation'>;
 export interface LegislationView {
   file: LegislationFile;
