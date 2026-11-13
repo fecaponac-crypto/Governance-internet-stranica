@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (93)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -21,7 +21,6 @@ Last run: **2026-11-13T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Centralized or decentralized AI governance?](https://iapp.org/news/a/centralized-or-decentralized-ai-governance) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
 | 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
-| 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
 
 ### Medium priority sources
 
@@ -68,7 +67,10 @@ Last run: **2026-11-13T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: #01 Auf einen Kaffee mit IF … Tobias Keber](https://www.baden-wuerttemberg.datenschutz.de/zum-nachschauen-01-auf-einen-kaffee-mit-if-tobias-keber/) |
+| 2026-11-13 | Computer Weekly — IT security | [Global Microsoft outage leaves users open to phishing attacks](https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks) |
 | 2026-11-12 | LfDI Baden-Württemberg (Germany) | [Leitung der Registratur](https://www.baden-wuerttemberg.datenschutz.de/leitung-der-registratur/) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [New York City Becomes the Latest City to Ban Surveillance Pricing](https://epic.org/new-york-city-becomes-the-latest-city-to-ban-surveillance-pricing/) |
 | 2026-11-12 | DataHub Blog (open source metadata platform) | [What Is an Automated Data Catalog? From Stale Metadata to Trusted Context](https://datahub.com/blog/automated-data-catalog/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [CISA + Partners Warn Industrial Refrigeration Industry About Cyberattacks](https://www.dataprivacyandsecurityinsider.com/2026/11/cisa-partners-warn-industrial-refrigeration-industry-about-cyberattacks/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [From Passwords to Backups: NIST’s Small-Business Cybersecurity Guide](https://www.dataprivacyandsecurityinsider.com/2026/11/from-passwords-to-backups-nists-small-business-cybersecurity-guide/) |
@@ -80,6 +82,7 @@ Last run: **2026-11-13T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Center for Security and Emerging Technology (CSET) | [AI Kill Switches: What Policymakers Should Know](https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/) |
 | 2026-11-12 | DataHub Blog (open source metadata platform) | [AI-Ready Data Lineage: What It Is and How to Prove You Have It](https://datahub.com/blog/ai-ready-data-lineage/) |
 | 2026-11-12 | The Record (Recorded Future News) | [ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations](https://therecord.media/connectwise-screenconnect-breaches-third-party-tool) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [EPIC Testifies in New York State and the City of Boston Urging for ALPR Guardrails and Greater Transparency](https://epic.org/epic-testifies-in-new-york-state-and-the-city-of-boston-urging-for-alpr-guardrails-and-greater-transparency/) |
 | 2026-11-12 | Google Cloud Blog — Data Analytics | [Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms](https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/) |
 | 2026-11-12 | Monte Carlo Blog | [AWS re:Invent 2026: Everything You Need to Know Before You Go](https://montecarlo.ai/blog-aws-reinvent-2026-know-before-you-go) |
 | 2026-11-12 | International Data Spaces Association | [A decade of data spaces produced standards, code and a question about money](https://internationaldataspaces.org/a-decade-of-data-spaces-produced-standards-code-and-a-question-about-money/) |
@@ -114,7 +117,7 @@ Last run: **2026-11-13T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 98× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 99× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -1,15 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-13T09:17:41Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-13T11:03:03Z** · candidates 4 · scored 4 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$14.84** of $25 budget (337 calls)
+AI spend this month: **$15.15** of $25 budget (343 calls)
 
 ## This run
 
-_No drafts this run._
+- ✅ (✏️ 1 corrected automatically) **New York City Council passes ban on surveillance pricing using personal data and algorithms** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/113
 
 ## Recently skipped by triage
 
+- (1) Freedom of information podcast episode; not a governance development and no concrete news.
+- (2) Microsoft outage with phishing risk; general security incident coverage from a low-reliability general outlet, not a governance development with a clear data-governance angle.
+- (2) Advocacy testimony on pending ALPR bills; legislative process with limited obligation impact so far, worth knowing.
 - (3) EDPS Opinion on the EU KIDS Act is a relevant regulator development, but it is the same pending proposal already covered by the existing EU Kids Act article, adding no clearly new substantive fact beyond the publication itself.
 - (1) Job advertisement for a records registry head; hiring news with no governance news angle.
 - (1) Roundtable series promotion, a webinar/event-type item with no new regulatory or governance development.
@@ -22,6 +25,3 @@ _No drafts this run._
 - (2) Breach accountability commentary; practical lessons but limited detail in excerpt.
 - (2) Policy analysis of AI kill switches; relevant to AI oversight design.
 - (2) Ruling on smart TV viewing data collection and arbitration; privacy litigation.
-- (2) Court ruling on CIPA claim and online terms; privacy litigation with practical implications.
-- (1) Vendor announcement of analyst recognition; marketing, not a launch or acquisition.
-- (2) Practical guidance on column-level AI-ready lineage and how to test it; vendor blog but usable guidance.

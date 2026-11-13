@@ -1484,6 +1484,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3625abbdcfca949d": {
+   "at": "2026-11-13T11:03:03Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Microsoft outage with phishing risk; general security incident coverage from a low-reliability general outlet, not a governance development with a clear data-governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3790207784711e45": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -1631,6 +1642,18 @@
    "importance": 1,
    "reason": "Customer success story; no governance development.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "3daf77dcacc52c32": {
+   "at": "2026-11-13T11:03:03Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy testimony on pending ALPR bills; legislative process with limited obligation impact so far, worth knowing.",
+   "relevant": true,
    "same_story_as": null
   },
   "3dfd33e7b86f7b41": {
@@ -2756,6 +2779,23 @@
    "importance": 1,
    "reason": "Personnel appointment news (hiring/role announcement), not governance substance.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "69b724dc9dfee599": {
+   "at": "2026-11-13T11:03:03Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "new-york-city-council-passes-ban-on-surveillance-pricing-using-persona",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/113",
+   "primary_found": true,
+   "reason": "NYC surveillance pricing ban bill awaiting mayor's signature; pending local law affecting how businesses use personal data for pricing.",
+   "relevant": true,
    "same_story_as": null
   },
   "6a4a0065d42d41fd": {
@@ -4372,6 +4412,15 @@
    "reason": "Covers the Norwegian Datatilsynet Xandr fine already tracked as an existing draft story.",
    "relevant": false,
    "same_story_as": "noyb-complaint-behind-cnil-s-eur-7-million-fine-on-fnac-app-tracker-th"
+  },
+  "a96dd06b3ee75757": {
+   "at": "2026-11-13T11:03:03Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Freedom of information podcast episode; not a governance development and no concrete news.",
+   "relevant": false,
+   "same_story_as": null
   },
   "a9ad0b05efd93436": {
    "at": "2026-11-03T17:06:07Z",
@@ -6840,8 +6889,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 337,
-   "usd": 14.8376
+   "calls": 343,
+   "usd": 15.1535
   }
  }
 }
