@@ -1,0 +1,126 @@
+---
+import Base from '../layouts/Base.astro';
+import Tools from '../components/Tools.astro';
+import { FORMAT_NOTES, IMPORTANCE_LABELS, SITE } from '../data/site';
+---
+
+<Base
+  title="How to use Data Governance Signal"
+  description="What we follow and how to get the most from the site: the legislation and enforcement trackers, the compliance calendar, how to read a story, and how to follow by feed."
+>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Guide</p>
+      <h1>How to use this site</h1>
+      <p>
+        We follow data protection, AI regulation and data governance: what regulators, courts and lawmakers do, and what it
+        means for the people who have to act on it. Here is what the site offers and how to use it.
+      </p>
+    </header>
+
+    <section id="trackers" aria-labelledby="trackers-title">
+      <h2 id="trackers-title">Trackers and tools</h2>
+      <p class="lede">Four tools are built from our coverage and updated with every story we publish.</p>
+      <Tools heading="h3" />
+      <ul class="tips">
+        <li><b>Legislation tracker.</b> Each law has its own page with its stage, key dates from the official text and every development we have covered.</li>
+        <li><b>Enforcement tracker.</b> Each matter is followed as a case, from complaint to decision and appeal. Filter by law, action or status; totals by law and country are at the top.</li>
+        <li><b>Key dates.</b> Filter by region or type, or subscribe once and new dates appear in your Outlook, Apple or Google calendar by themselves.</li>
+        <li><b>The month in numbers.</b> One page per month: stories by topic and region, enforcement steps, laws that moved and the dates ahead.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="story-title">
+      <h2 id="story-title">How to read a story</h2>
+      <ul class="tips">
+        <li><b>Importance.</b> Every story is rated from 1 to 5: {[1, 2, 3, 4, 5].map((n) => IMPORTANCE_LABELS[n]).join(', ')}. The bars next to a headline show the rating. <a href="/methodology/#importance">What each level means</a>.</li>
+        <li><b>Why it matters.</b> A short paragraph on what the development means in practice, kept apart from the facts.</li>
+        <li><b>What to check.</b> For important stories, concrete things to verify in your own organisation.</li>
+        <li><b>Status.</b> Where the matter stands: a proposal, a decision that can be appealed, a rule already in force.</li>
+        <li><b>Sources.</b> Every story links to its sources, with the original document first and marked as primary.</li>
+        <li><b>Follow this story.</b> At the end of a story: the law, case, institution and dates it belongs to.</li>
+        <li><b>Listen.</b> The Listen button reads the story aloud in your browser.</li>
+        <li><b>Was this useful?</b> An anonymous thumbs up or down under each story tells us what to cover more.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="kinds-title">
+      <h2 id="kinds-title">News, analysis and opinion</h2>
+      <p>
+        News reports a development. Other pieces are labelled under the headline and kept out of the news stream, in <a
+          href="/analysis/">Analysis &amp; practice</a>:
+      </p>
+      <ul class="tips">
+        {Object.values(FORMAT_NOTES).map((note) => <li>{note}</li>)}
+      </ul>
+      <p>
+        Our own writing is separate again: <a href="/monday-signal/">The Monday Signal</a> is the weekly column on what the
+        week's news adds up to, <a href="/opinion/">Editor's Opinion</a> holds longer essays, and <a href="/predictions/"
+          >Predictions</a
+        > keeps score of the forecasts we make.
+      </p>
+    </section>
+
+    <section aria-labelledby="find-title">
+      <h2 id="find-title">Finding things</h2>
+      <ul class="tips">
+        <li><b>Topics.</b> The menu holds the main topics; <a href="/topics/">all topics</a> lists the rest.</li>
+        <li><b>Institutions.</b> <a href="/institutions/">Every regulator and body</a> we cover has a page with its stories.</li>
+        <li><b>Search.</b> <a href="/search/">Search</a> covers every story, law and page on the site.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="follow-title">
+      <h2 id="follow-title">Keeping up</h2>
+      <ul class="tips">
+        <li><b>RSS.</b> <a href="/rss.xml">The feed</a> carries every story as it is published.</li>
+        <li><b>Calendar.</b> <a href="/deadlines/">Subscribe to the key dates</a> to get deadlines in your own calendar.</li>
+        {SITE.newsletter && <li><b>Newsletter.</b> <a href="/newsletter/">The Monday Signal by email</a>, once a week.</li>}
+      </ul>
+    </section>
+
+    <section aria-labelledby="trust-title">
+      <h2 id="trust-title">How we work</h2>
+      <p>
+        Stories are prepared with AI assistance and reviewed by a human editor before publication; nothing is published
+        automatically. See the <a href="/methodology/">methodology and sources</a>, the <a href="/editorial-policy/"
+          >editorial policy</a
+        > and our <a href="/methodology/#corrections">corrections</a>. Found a mistake or missing something? <a
+          href={`mailto:${SITE.email}?subject=Feedback`}>Tell us</a>.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 6rem + 2 * var(--gutter));
+  }
+  section {
+    margin-bottom: 2.5rem;
+    scroll-margin-top: 1rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+    margin: 0 0 0.6rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--ink);
+  }
+  p {
+    max-width: var(--measure);
+  }
+  .lede {
+    color: var(--ink-2);
+    margin: 0 0 1rem;
+  }
+  .tips {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    max-width: var(--measure);
+  }
+  .tips li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+</style>

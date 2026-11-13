@@ -1,0 +1,85 @@
+---
+// The site's own tools with live figures; shown on the homepage and on the guide.
+import { enforcementCases, getArticles, getKeyDates, getLegislation, isoDate } from '../utils/articles';
+import { getMonthReviews } from '../utils/review';
+
+interface Props {
+  heading?: 'h2' | 'h3';
+}
+const { heading: H = 'h2' } = Astro.props;
+const articles = await getArticles();
+const today = isoDate(new Date());
+const laws = (await getLegislation(articles)).length;
+const cases = enforcementCases(articles).length;
+const dates = (await getKeyDates(articles)).filter((d) => isoDate(d.date) >= today).length;
+const month = (await getMonthReviews())[0];
+const tools = [
+  { href: '/legislation/', name: 'Legislation tracker', figure: `${laws} laws`, text: 'Where each data, privacy and AI law stands, and when it starts to apply.' },
+  { href: '/enforcement/', name: 'Enforcement tracker', figure: `${cases} cases`, text: 'Fines, settlements and rulings: who acted, against whom and for how much.' },
+  { href: '/deadlines/', name: 'Key dates', figure: `${dates} dates ahead`, text: 'Compliance deadlines, consultations and hearings. Subscribe in your calendar.' },
+  ...(month ? [{ href: `/review/${month.key}/`, name: 'The month in numbers', figure: month.label, text: 'Each month counted: stories, enforcement, laws that moved and dates ahead.' }] : []),
+];
+---
+
+<ul class="tools">
+  {
+    tools.map((t) => (
+      <li>
+        <a href={t.href}>
+          <span class="figure">{t.figure}</span>
+          <H class="name">{t.name}</H>
+          <span class="text">{t.text}</span>
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .tools {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .tools a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    height: 100%;
+    padding: 1rem 1.1rem 1.1rem;
+    background: var(--paper);
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .tools a:hover {
+    background: var(--paper-2);
+  }
+  .tools a:hover .name {
+    text-decoration: underline;
+  }
+  .figure {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 650;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--signal);
+  }
+  .name {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    margin: 0;
+  }
+  .text {
+    font-size: 0.88rem;
+    color: var(--ink-2);
+    line-height: 1.45;
+  }
+</style>

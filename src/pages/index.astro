@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
+import Tools from '../components/Tools.astro';
 import { articleUrl, columnUrl, formatAmount, formatDate, getArticles, getColumns, getKeyDates, isNews, getLegislation, getOpinions, getPredictions, isoDate, opinionUrl, pickLeadStories } from '../utils/articles';
 import { INSTITUTIONS } from '../data/institutions';
 import { CATEGORIES, COLUMN, SITE } from '../data/site';
@@ -103,6 +104,11 @@ const counts = Object.fromEntries(
         {top.map((a) => <ArticleCard article={a} variant="stack" />)}
         <NewsletterForm compact />
       </div>
+    </section>
+
+    <section class="tools-strip" aria-labelledby="tools-title">
+      <div class="section-title"><h2 id="tools-title">Trackers and tools</h2><a href="/guide/">How to use this site</a></div>
+      <Tools heading="h3" />
     </section>
 
     <div class="cols">
@@ -307,6 +313,9 @@ const counts = Object.fromEntries(
 </script>
 
 <style>
+  .tools-strip {
+    margin: 0 0 2.5rem;
+  }
   .hero {
     display: grid;
     grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);

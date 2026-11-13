@@ -47,6 +47,9 @@ const nav = NAV_CATEGORIES.map((id) => ({ id, label: categoryById(id).short, hre
       <li>
         <a href="/opinion/" class="column" aria-current={path.startsWith('/opinion/') ? 'page' : undefined}>Opinion</a>
       </li>
+      <li>
+        <a href="/guide/#trackers" class="column" aria-current={/^\/(guide|legislation|enforcement|deadlines|review)\//.test(path) ? 'page' : undefined}>Trackers</a>
+      </li>
       {
         nav.map((n) => (
           <li>

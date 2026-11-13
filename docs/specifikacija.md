@@ -319,6 +319,13 @@ Na `/enforcement/` iznad tablice stoji blok „The tracker in numbers”: sluča
 - Bez AI-ja i bez komentara: sve računa `getMonthReviews()` u `src/utils/review.ts` iz vijesti i dvaju trackera, pa nema troška ni uredničkog rizika.
 - Dvije vijesti o istoj odluci (isti slučaj, isti dan, ista vrsta koraka) broje se kao jedan korak (`enforcementCases`), da se iznos ne zbroji dvaput.
 
+### Alati na vidljivom mjestu i upute (13. 11. 2026.)
+
+- Naslovnica ispod glavne vijesti ima traku „Trackers and tools” (`src/components/Tools.astro`): tracker zakona, tracker kazni, kalendar i mjesec u brojkama, svaki sa živom brojkom.
+- Glavni izbornik ima stavku **Trackers** (vodi na `/guide/#trackers`), podnožje poveznicu „How to use this site”.
+- `/guide/`: što pratimo, alati, kako čitati vijest (važnost, why it matters, what to check, status, izvori, Listen, palac), vrste sadržaja, pretraga, RSS i kalendar, kako radimo.
+- Odluka: upute ne idu u prazne rubove naslovnice jer ih na laptopu i mobitelu nema.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
