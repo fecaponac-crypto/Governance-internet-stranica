@@ -1,0 +1,288 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../data/site';
+import { articleUrl, formatAmount, formatDate, isoDate } from '../../utils/articles';
+import { getMonthReviews, type MonthReview } from '../../utils/review';
+
+export async function getStaticPaths() {
+  const months = await getMonthReviews();
+  return months.map((m, i) => ({ params: { month: m.key }, props: { m, newer: months[i - 1], older: months[i + 1] } }));
+}
+interface Props {
+  m: MonthReview;
+  newer?: MonthReview;
+  older?: MonthReview;
+}
+const { m, newer, older } = Astro.props;
+const sums = m.amounts.map((a) => formatAmount(a.amount, a.currency));
+const fines = m.steps.filter((s) => s.e.action === 'Fine').length;
+const bars = (rows: { label: string; count: number }[]) => {
+  const max = Math.max(1, ...rows.map((r) => r.count));
+  return rows.map((r) => ({ ...r, width: `${Math.round((r.count / max) * 100)}%` }));
+};
+const description = `${m.label} in numbers: ${m.stories.length} stories, ${m.steps.length} enforcement steps${sums.length ? ` (${sums.join(' + ')} stated)` : ''} and ${m.laws.length} laws with developments.`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${m.label} in numbers`,
+  description,
+  url: `${SITE.url}/review/${m.key}/`,
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+};
+---
+
+<Base title={`${m.label} in numbers: data protection and AI regulation`} description={description}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow"><a href="/review/">The month in numbers</a></p>
+      <h1>{m.label} in numbers</h1>
+      <p>
+        {
+          m.complete
+            ? 'The month counted from our coverage and our two trackers.'
+            : 'The month so far, counted from our coverage and our two trackers. This page updates as we publish.'
+        }
+      </p>
+    </header>
+
+    <section class="stats" aria-label="Summary">
+      <div><b>{m.stories.length}</b><span>{m.stories.length === 1 ? 'story' : 'stories'} published</span></div>
+      <div><b>{m.steps.length}</b><span>enforcement {m.steps.length === 1 ? 'step' : 'steps'}{fines > 0 && `, ${fines} of them ${fines === 1 ? 'a fine' : 'fines'}`}</span></div>
+      <div><b class:list={{ small: sums.length > 1 }}>{sums.length ? sums.map((s) => <span class="sum">{s}</span>) : '—'}</b><span>stated in fines, settlements and awards</span></div>
+      <div><b>{m.laws.length}</b><span>{m.laws.length === 1 ? 'law' : 'laws'} with developments</span></div>
+    </section>
+
+    {
+      m.top.length > 0 && (
+        <section>
+          <h2>The stories that mattered most</h2>
+          <ol class="plain">
+            {m.top.map((a) => (
+              <li>
+                <a href={articleUrl(a)}>{a.data.title}</a>
+                <span class="sub"><time datetime={isoDate(a.data.date)}>{formatDate(a.data.date)}</time></span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    <section class="two">
+      <div>
+        <h2>By topic</h2>
+        <ul class="bars">
+          {bars(m.byTopic).map((r) => (
+            <li><span class="l">{r.label}</span><span class="bar"><i style={`width:${r.width}`} /></span><span class="n">{r.count}</span></li>
+          ))}
+        </ul>
+        <p class="fine">A story can belong to more than one topic.</p>
+      </div>
+      <div>
+        <h2>By region</h2>
+        <ul class="bars">
+          {bars(m.byRegion).map((r) => (
+            <li><span class="l">{r.label}</span><span class="bar"><i style={`width:${r.width}`} /></span><span class="n">{r.count}</span></li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Enforcement</h2>
+      {
+        m.steps.length === 0 ? (
+          <p class="fine">No enforcement steps dated in this month.</p>
+        ) : (
+          <ol class="plain">
+            {m.steps.map((s) => (
+              <li>
+                <a href={articleUrl(s.article)}>{s.e.parties}</a>
+                <span class="sub">
+                  <time datetime={isoDate(s.e.date)}>{formatDate(s.e.date)}</time> · {s.e.authority} · {s.e.action}
+                  {s.e.amount && s.e.currency && <> · <b>{formatAmount(s.e.amount, s.e.currency)}</b></>}
+                </span>
+              </li>
+            ))}
+          </ol>
+        )
+      }
+      <p class="fine">
+        Steps are counted in the month of the decision, filing or announcement. Complaints and investigations are not
+        findings; amounts are as stated and may be appealed. Full record: <a href="/enforcement/">enforcement tracker</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Laws that moved</h2>
+      {
+        m.laws.length === 0 && m.lawDates.length === 0 ? (
+          <p class="fine">No developments on tracked laws in this month.</p>
+        ) : (
+          <ul class="plain">
+            {m.lawDates.map((d) => (
+              <li>
+                <a href={d.href}>{d.what}</a>
+                <span class="sub"><time datetime={isoDate(d.date)}>{formatDate(d.date)}</time> · date set by the law</span>
+              </li>
+            ))}
+            {m.laws.map((l) => (
+              <li>
+                <a href={`/legislation/${l.file.id}/`}>{l.file.data.short}</a>
+                <span class="sub">
+                  {l.file.data.jurisdiction} · {l.stories.length} {l.stories.length === 1 ? 'story' : 'stories'}:{' '}
+                  {l.stories.map((a, i) => <>{i > 0 && '; '}<a href={articleUrl(a)}>{a.data.title}</a></>)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </section>
+
+    {
+      m.ahead.length > 0 && (
+        <section>
+          <h2>Dates ahead</h2>
+          <ul class="plain">
+            {m.ahead.map((d) => (
+              <li>
+                <a href={d.href}>{d.what}</a>
+                <span class="sub"><time datetime={isoDate(d.date)}>{formatDate(d.date)}</time> · {d.area}</span>
+              </li>
+            ))}
+          </ul>
+          <p class="fine">All dates: <a href="/deadlines/">key dates calendar</a>.</p>
+        </section>
+      )
+    }
+
+    <nav class="pager" aria-label="Other months">
+      {older ? <a href={`/review/${older.key}/`}>← {older.label}</a> : <span />}
+      {newer && <a href={`/review/${newer.key}/`}>{newer.label} →</a>}
+    </nav>
+    <p class="fine">
+      Counts cover what we reported, not every decision or law. Amounts are added up per currency as stated in the sources and
+      are not converted. Something wrong? <a href={`mailto:${SITE.email}?subject=Month in numbers`}>Tell us</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .eyebrow a {
+    color: inherit;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-bottom: 2rem;
+  }
+  .stats div {
+    background: var(--paper);
+    padding: 0.9rem 1rem;
+  }
+  .stats b {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+  .stats b.small {
+    font-size: 1.15rem;
+  }
+  .stats .sum {
+    display: block;
+    font-size: inherit;
+    color: inherit;
+  }
+  .stats div > span {
+    font-size: 0.8rem;
+    color: var(--ink-2);
+  }
+  section {
+    margin-bottom: 2.25rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.6rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--ink);
+  }
+  .two {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+    gap: 2rem;
+  }
+  .plain {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .plain li {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .plain li > a {
+    font-family: var(--serif);
+    font-size: 1.08rem;
+  }
+  .sub {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  .bars {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .bars li {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr 2rem;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.3rem 0;
+  }
+  .bar {
+    height: 0.6rem;
+    background: var(--rule);
+    border-radius: 2px;
+  }
+  .bar i {
+    display: block;
+    height: 100%;
+    background: var(--signal);
+    border-radius: 2px;
+  }
+  .n {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+  }
+  .fine {
+    margin: 0.7rem 0 0;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+  .pager a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+</style>

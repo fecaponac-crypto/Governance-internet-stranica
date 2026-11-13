@@ -313,6 +313,12 @@ Dodano pet zakona (ukupno 31): australski Privacy and Other Legislation Amendmen
 
 Na `/enforcement/` iznad tablice stoji blok „The tracker in numbers”: slučajevi po zakonu, po državi (američke savezne države i sudovi broje se kao United States, tijela EU-a kao EU) i po mjesecu (po godini čim tracker pokrije više od jedne godine), te pet najvećih navedenih iznosa. Iznosi se zbrajaju **po valuti kako su navedeni u izvorima i ne preračunavaju se**; približni tečajevi u `ROUGH_EUR` služe samo za redoslijed. Računa `enforcementTotals()` u `src/utils/articles.ts`.
 
+### Mjesec u brojkama (13. 11. 2026.)
+
+- `/review/` i `/review/GGGG-MM/`: automatski pregled svakog mjeseca u kojem smo objavljivali — broj vijesti, najvažnije vijesti, raspodjela po temi i regiji, koraci provedbe datirani u tom mjesecu (s iznosima po valuti), zakoni iz trackera o kojima smo pisali, datumi iz zakona koji su pali u taj mjesec i datumi sljedećeg mjeseca. Tekući mjesec nosi oznaku „so far” i raste sa svakom objavom.
+- Bez AI-ja i bez komentara: sve računa `getMonthReviews()` u `src/utils/review.ts` iz vijesti i dvaju trackera, pa nema troška ni uredničkog rizika.
+- Dvije vijesti o istoj odluci (isti slučaj, isti dan, ista vrsta koraka) broje se kao jedan korak (`enforcementCases`), da se iznos ne zbroji dvaput.
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import { formatAmount } from '../../utils/articles';
+import { getMonthReviews } from '../../utils/review';
+
+const months = await getMonthReviews();
+---
+
+<Base
+  title="The month in numbers: data protection and AI regulation"
+  description="Each month counted: stories by topic and region, fines and other enforcement steps, laws that moved and the dates ahead — built from our trackers."
+>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="eyebrow">Review</p>
+      <h1>The month in numbers</h1>
+      <p>
+        Each month counted from our own coverage: what we reported, which regulators acted and for how much, which laws
+        moved, and which dates come next. The figures are built from the <a href="/enforcement/">enforcement</a> and <a
+          href="/legislation/">legislation</a> trackers, with no commentary added.
+      </p>
+    </header>
+    <ul class="months">
+      {
+        months.map((m) => (
+          <li>
+            <h2>
+              <a href={`/review/${m.key}/`}>{m.label}</a>
+              {!m.complete && <span class="running">so far</span>}
+            </h2>
+            <p>
+              {m.stories.length} {m.stories.length === 1 ? 'story' : 'stories'} · {m.steps.length} enforcement
+              {m.steps.length === 1 ? ' step' : ' steps'}
+              {m.amounts.length > 0 && <> · {m.amounts.map((a) => formatAmount(a.amount, a.currency)).join(' + ')} stated</>}
+              {' '}· {m.laws.length} {m.laws.length === 1 ? 'law' : 'laws'} with developments
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+    {months.length === 0 && <p>No reviews yet.</p>}
+  </div>
+</Base>
+
+<style>
+  .narrow {
+    max-width: calc(var(--measure) + 2 * var(--gutter));
+  }
+  .months {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .months li {
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0;
+  }
+  .months h2 {
+    font-size: 1.4rem;
+    margin: 0 0 0.25rem;
+  }
+  .months p {
+    margin: 0;
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
+  .running {
+    margin-left: 0.6rem;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--signal);
+    border: 1px solid currentColor;
+    border-radius: 99px;
+    padding: 0.05rem 0.5rem;
+    vertical-align: middle;
+  }
+</style>

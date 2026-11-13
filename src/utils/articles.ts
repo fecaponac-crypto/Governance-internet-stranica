@@ -138,8 +138,10 @@ export function enforcementCases(articles: Article[]): EnforcementCase[] {
     byCase.set(id, [...(byCase.get(id) ?? []), { article, e }]);
   }
   return [...byCase]
-    .map(([id, steps]) => {
-      steps.sort((a, b) => a.e.date.getTime() - b.e.date.getTime());
+    .map(([id, all]) => {
+      all.sort((a, b) => a.e.date.getTime() - b.e.date.getTime() || a.article.data.date.getTime() - b.article.data.date.getTime());
+      // Two stories about the same decision (same day, same action) are one step, not two.
+      const steps = all.filter((s, i) => all.findIndex((x) => isoDate(x.e.date) === isoDate(s.e.date) && x.e.action === s.e.action) === i);
       const latest = steps[steps.length - 1];
       const withAmount = [...steps].reverse().find((s) => s.e.amount && s.e.currency);
       return {
@@ -254,7 +256,7 @@ const kindOf = (what: string): KeyDateKind =>
         ? 'Applies'
         : 'Other';
 
-const areaOf = (region = ''): KeyDate['area'] =>
+export const areaOf = (region = ''): KeyDate['area'] =>
   /\bEU\b|Europe|France|German|Spain|Ital|Nether|Dutch|Ireland|Sweden|Norway|Denmark|Belg|Austria|Poland|Croatia/i.test(region)
     ? 'EU'
     : /\bUK\b|United Kingdom|Britain/i.test(region)
