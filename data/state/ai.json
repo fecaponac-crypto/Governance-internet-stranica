@@ -1033,6 +1033,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "24d6806924c8d95b": {
+   "at": "2026-11-13T09:17:41Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "EDPS Opinion on the EU KIDS Act is a relevant regulator development, but it is the same pending proposal already covered by the existing EU Kids Act article, adding no clearly new substantive fact beyond the publication itself.",
+   "relevant": false,
+   "same_story_as": "eu-kids-act-proposal-would-turn-minor-protection-guidance-into-audited"
+  },
   "24e4244a47f6362d": {
    "at": "2026-11-11T00:17:43Z",
    "categories": [
@@ -6828,8 +6840,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 336,
-   "usd": 14.8369
+   "calls": 337,
+   "usd": 14.8376
   }
  }
 }

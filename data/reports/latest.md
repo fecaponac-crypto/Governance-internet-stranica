@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T06:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-13T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (92)
+## New items, last 48 hours (93)
 
 ### High priority sources
 
@@ -32,6 +32,7 @@ Last run: **2026-11-13T06:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | CDO Magazine | [Community When AI Results Depend on Data You Don’t Own: San Francisco Leaders Confront the Production Challenge](https://www.cdomagazine.tech/community/when-ai-results-depend-on-data-you-dont-own-san-francisco-leaders-confront-the-production-challenge) |
 | 2026-11-12 | Alation Blog | [November 12, 2026 Why AI Verification Needs Trusted Data Models will cheat any test you give them. The best defense against a plausible wrong answer is data your agents can’t… Read More](https://www.alation.com/blog/ai-verification-trusted-data-software-factory/) |
 | 2026-11-12 | Ataccama Blog | [Ataccama named a Visionary in the 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms: Governing data for AI agents, and what comes next](https://www.ataccama.com/blog/ataccama-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms-governing-data-for-ai-agents-and-what-comes-next) |
+| 2026-11-12 | European Data Protection Supervisor (EDPS) | [EDPS publishes Opinion on EU KIDS Act](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-publishes-opinion-eu-kids-act) |
 | 2026-11-12 | Privacy World (Squire Patton Boggs) | [Notice and Assent: Ninth Circuit Rejects Availability of Mandatory Consumer Arbitration In Back-to-Back Privacy Class Actions](https://www.privacyworld.blog/2026/11/notice-and-assent-ninth-circuit-rejects-availability-of-mandatory-consumer-arbitration-in-back-to-back-privacy-class-actions/) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence Three Myths of Agentic BI](https://www.cdomagazine.tech/aiml/three-myths-of-agentic-bi) |
 | 2026-11-12 | CDO Magazine | [Industry Newsroom 4Minds Raises $15M Series A to Give Enterprises a Faster Path to Accurate AI](https://www.cdomagazine.tech/others/4minds-raises-15m-series-a-to-give-enterprises-a-faster-path-to-accurate-ai) |
@@ -113,7 +114,7 @@ Last run: **2026-11-13T06:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 97× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 98× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
