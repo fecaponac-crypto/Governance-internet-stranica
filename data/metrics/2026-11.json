@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-13T01:51:33Z",
+ "updated": "2026-11-13T03:17:35Z",
  "portal": {
   "published_total": 96,
   "published_this_month": 53,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 339,
-  "runs": 136,
-  "runs_with_failed_sources": 110,
+  "runs": 137,
+  "runs_with_failed_sources": 111,
   "triage_decisions": {
    "drafted": 61,
    "skipped": 270,
