@@ -369,3 +369,77 @@
       what: "California Delete Act: data brokers must start processing deletion requests from the state platform every 45 days"
     - date: 2028-01-01
       what: "California Delete Act: data brokers must undergo an independent compliance audit, then every three years"
+- id: australia-privacy-amendment-act-2024
+  name: Privacy and Other Legislation Amendment Act 2024 (No. 128, 2024)
+  short: Australia Privacy Amendment Act 2024
+  jurisdiction: Australia
+  kind: Act
+  stage: In force
+  stageDate: 2024-12-11
+  stageNote: "Royal Assent on 10 December 2024; most privacy reforms commenced the next day. The rules on automated decisions and privacy policies commence on 10 December 2026."
+  summary: "First tranche of reforms to the Privacy Act 1988: stronger enforcement powers, a Children's Online Privacy Code, a statutory tort for serious invasions of privacy, doxxing offences and transparency about automated decisions."
+  official:
+    title: "Federal Register of Legislation: Privacy and Other Legislation Amendment Act 2024"
+    url: https://www.legislation.gov.au/C2024A00128/asmade/text
+  dates:
+    - date: 2024-12-10
+      what: "Australia's Privacy and Other Legislation Amendment Act 2024 receives Royal Assent"
+    - date: 2026-12-10
+      what: "Australia Privacy Act: rules on automated decisions and privacy policies commence (Schedule 1, Part 15); the Children's Online Privacy Code is due within 24 months of Royal Assent"
+- id: canada-pipeda
+  name: Personal Information Protection and Electronic Documents Act (S.C. 2000, c. 5)
+  short: PIPEDA
+  jurisdiction: Canada
+  kind: Act
+  stage: In force
+  stageNote: "Assented to on 13 April 2000 and in force."
+  summary: "Canada's federal private-sector privacy law: rules for the collection, use and disclosure of personal information in commercial activity."
+  official:
+    title: "Justice Laws Website: PIPEDA"
+    url: https://laws-lois.justice.gc.ca/eng/acts/P-8.6/
+- id: singapore-pdpa
+  name: Personal Data Protection Act 2012
+  short: Singapore PDPA
+  jurisdiction: Singapore
+  kind: Act
+  stage: In force
+  stageDate: 2014-07-02
+  stageNote: "Commenced in phases from 2 January 2013; the main data protection obligations (Parts III to VII) from 2 July 2014."
+  summary: "Governs the collection, use and disclosure of personal data by organisations in Singapore and establishes the Do Not Call Register."
+  official:
+    title: "Singapore Statutes Online: Personal Data Protection Act 2012"
+    url: https://sso.agc.gov.sg/Act/PDPA2012
+- id: maryland-online-data-privacy-act
+  name: Maryland Online Data Privacy Act of 2024 (Chapter 455, SB 541)
+  short: Maryland Online Data Privacy Act
+  jurisdiction: Maryland, US
+  kind: Act
+  stage: Applies
+  stageDate: 2026-04-01
+  stageNote: "Approved by the Governor on 9 May 2024; took effect on 1 October 2025 and applies to personal data processing from 1 April 2026."
+  summary: "Comprehensive state privacy law with consumer rights and duties for controllers and processors of personal data."
+  official:
+    title: "Maryland General Assembly: SB 541 (2024)"
+    url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0541?ys=2024RS
+  dates:
+    - date: 2025-10-01
+      what: "Maryland Online Data Privacy Act takes effect"
+    - date: 2026-04-01
+      what: "Maryland Online Data Privacy Act: applies to personal data processing from this date"
+- id: minnesota-consumer-data-privacy-act
+  name: Minnesota Consumer Data Privacy Act (Laws 2024, chapter 121; Minnesota Statutes chapter 325M)
+  short: Minnesota Consumer Data Privacy Act
+  jurisdiction: Minnesota, US
+  kind: Act
+  stage: Applies
+  stageDate: 2025-07-31
+  stageNote: "Signed by the Governor on 24 May 2024; effective 31 July 2025. Postsecondary institutions regulated by the Office of Higher Education have until 31 July 2029."
+  summary: "Comprehensive state privacy law with consumer rights, controller duties and data privacy and protection assessments."
+  official:
+    title: "Minnesota Revisor of Statutes: chapter 325M"
+    url: https://www.revisor.mn.gov/statutes/cite/325M
+  dates:
+    - date: 2025-07-31
+      what: "Minnesota Consumer Data Privacy Act takes effect"
+    - date: 2029-07-31
+      what: "Minnesota Consumer Data Privacy Act: compliance deadline for postsecondary institutions regulated by the Office of Higher Education"
