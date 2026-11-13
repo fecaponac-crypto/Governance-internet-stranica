@@ -1527,6 +1527,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "38f3c3afca9dfb8b": {
+   "at": "2026-11-13T12:18:35Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 11,
+   "decision": "drafted",
+   "draft": "irish-dpc-fines-tinder-owner-match-group-11-million-over-incomplete-do",
+   "flagged": 1,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/114",
+   "primary_found": false,
+   "reason": "Irish DPC €11M GDPR fine on Tinder for deficient data access tool is a significant enforcement action with practical lessons on subject access requests.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3963147d9274ef53": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -1964,6 +1980,19 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Commentary on bad data creating strategic risk in federal AI reliance; general opinion with some governance angle, low importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "473014bd0fabddf7": {
+   "at": "2026-11-13T12:18:35Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "EDPS urging GDPR changes to align kids' age limits and address duplicated age assurance is regulator pushback on pending EU law affecting data obligations.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4210,6 +4239,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a0914034be8d9797": {
+   "at": "2026-11-13T12:18:35Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Same story as POLITICO item 3 about the Tinder €11M DPC fine; the POLITICO item is the detailed coverage, so this one is a duplicate.",
+   "relevant": false,
+   "same_story_as": "item:38f3c3afca9dfb8b"
+  },
   "a10d19f89773c9ee": {
    "at": "2026-10-28T12:59:23Z",
    "categories": [
@@ -4853,6 +4893,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "baa1624aa596617a": {
+   "at": "2026-11-13T12:18:35Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment announcement; hiring news is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "bab8269cf670d66e": {
    "at": "2026-11-04T18:18:33Z",
    "categories": [
@@ -5073,6 +5124,23 @@
    "importance": 1,
    "reason": "Generic newsletter issue with no specific governance story in the excerpt; cannot be judged relevant from title and excerpt alone.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "c00167c5cc0e271e": {
+   "at": "2026-11-13T12:18:35Z",
+   "categories": [
+    "metadata",
+    "platforms"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "microsoft-to-retire-purview-data-governance-ending-support-on-12-novem",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/115",
+   "primary_found": false,
+   "reason": "Microsoft retiring Purview Data Governance with capabilities moving into Fabric is a material change for governance tooling and migration planning.",
+   "relevant": true,
    "same_story_as": null
   },
   "c09b425f28824cec": {
@@ -6889,8 +6957,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 343,
-   "usd": 15.1535
+   "calls": 357,
+   "usd": 16.0479
   }
  }
 }

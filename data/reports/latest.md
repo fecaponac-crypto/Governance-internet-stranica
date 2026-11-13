@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-13T12:17:33Z** · sources checked: 81 · failed: 3 · new items this run: 5
 
 ## New items, last 48 hours (96)
 
@@ -8,6 +8,7 @@ Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | Data Protection Commission (Ireland) | [Read more about Data Protection Commission fines MTCH €11 million following Inquiry into Tinder users’ personal data requests](https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-mtch-eu11-million-following-inquiry-tinder-users-personal-data) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Italy's latest approach to AI, privacy and cybersecurity](https://iapp.org/news/a/italys-latest-approach-to-ai-privacy-and-cybersecurity) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Could state attorneys general strengthen the DPF after Slaughter?](https://iapp.org/news/a/could-state-attorneys-general-strengthen-the-dpf-after-slaughter) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Hot off the press — An initial reaction to the DFA](https://iapp.org/news/a/a-view-from-brussels-hot-off-the-press-an-initial-reaction-to-the-dfa) |
@@ -20,12 +21,14 @@ Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Centralized or decentralized AI governance?](https://iapp.org/news/a/centralized-or-decentralized-ai-governance) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
-| 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | CDO Magazine | [Leadership Moves World of Books Appoints Liz Gebhard Chief Transformation and Data Officer](https://www.cdomagazine.tech/leadership-moves/world-of-books-appoints-liz-gebhard-chief-transformation-and-data-officer) |
+| 2026-11-13 | Euractiv | [EU privacy watchdog urges GDPR changes to align kids age limits](https://www.rapporteur.com/news/eu-privacy-watchdog-urges-gdpr-changes-to-align-kids-age-limits/) |
+| 2026-11-13 | POLITICO Europe — Technology | [Tinder owner hit with €11M privacy fine](https://www.politico.eu/article/tinder-owner-hit-with-e11m-privacy-fine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-12 | Future of Privacy Forum | [FPF Launches Roundtable Series on Agentic AI, Privacy, and PETs](https://fpf.org/blog/fpf-launches-roundtable-series-on-agentic-ai-privacy-and-pets/) |
 | 2026-11-12 | CDO Magazine | [Data Management Trusted Data Means On-Time Medicine: Cencora’s Jig Patel on the Data Foundation for AI](https://www.cdomagazine.tech/data-management/trusted-data-means-on-time-medicine-cencoras-jig-patel-on-the-data-foundation-for-ai) |
 | 2026-11-12 | CDO Magazine | [Community When AI Results Depend on Data You Don’t Own: San Francisco Leaders Confront the Production Challenge](https://www.cdomagazine.tech/community/when-ai-results-depend-on-data-you-dont-own-san-francisco-leaders-confront-the-production-challenge) |
@@ -58,15 +61,13 @@ Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | CDO Magazine | [Data Management Data Quality: The Most Expensive Technical Debt Nobody Is Measuring](https://www.cdomagazine.tech/data-management/data-quality-the-most-expensive-technical-debt-nobody-is-measuring) |
 | 2026-11-11 | Alation Blog | [November 11, 2026 Enterprise AI: How a Manufacturing CIO Moved from PoC to Production Why does a leading manufacturer's CIO reject 70% of AI use cases? Learn how trusted data and clear governance moved… Read More](https://www.alation.com/blog/enterprise-ai-manufacturing/) |
 | 2026-11-11 | AEPD — Spanish Data Protection Agency | [La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-espanola-de-proteccion-de-datos-ante-la-difusion-tiktok-abuso-sexual-infantil) |
-| 2026-11-11 | CDO Magazine | [Digital Transformation From Funding to Fielded Capability: How AWS and Deloitte Partner on National Security Outcomes](https://www.cdomagazine.tech/digital-transformation/from-funding-to-fielded-capability-how-aws-and-deloitte-partner-on-national-security-outcomes) |
-| 2026-11-11 | CDO Magazine | [Leadership Moves YPrime Promotes Greg Wellbrock to Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/yprime-promotes-greg-wellbrock-to-chief-data-and-ai-officer) |
-| 2026-11-11 | Euractiv | [EU unveils new rules to tackle online consumer harms](https://www.rapporteur.com/news/eu-unveils-new-rules-to-tackle-online-consumer-harms/) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | DataGalaxy | [Microsoft Purview Data Governance is retiring. What happens next?](https://www.datagalaxy.com/en/blog/microsoft-purview-data-governance-is-retiring-what-happens-next/) |
 | 2026-11-13 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: #01 Auf einen Kaffee mit IF … Tobias Keber](https://www.baden-wuerttemberg.datenschutz.de/zum-nachschauen-01-auf-einen-kaffee-mit-if-tobias-keber/) |
 | 2026-11-13 | Computer Weekly — IT security | [Global Microsoft outage leaves users open to phishing attacks](https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks) |
 | 2026-11-12 | LfDI Baden-Württemberg (Germany) | [Leitung der Registratur](https://www.baden-wuerttemberg.datenschutz.de/leitung-der-registratur/) |
@@ -101,7 +102,6 @@ Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Espionage, AI, and the Risks of Strategic Overreaction](https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/) |
 | 2026-11-11 | dbt Labs Blog | [Making the economic case for warehouse-first AI context](https://www.getdbt.com/blog/economic-case-warehouse-first-ai-context) |
 | 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Spy scandal highlights contradictions at heart of Trump’s China policy](https://cset.georgetown.edu/article/spy-scandal-highlights-contradictions-at-heart-of-trumps-china-policy/) |
-| 2026-11-11 | Gaia-X | [Gaia-X Summit 2026 to Accelerate Europe’s Transition to Sovereign, Trusted AI and Data Ecosystems](https://gaia-x.eu/gaia-x-summit-2026-to-accelerate-europes-transition-to-sovereign-trusted-ai-and-data-ecosystems/) |
 | 2026-11-11 | dbt Labs Blog | [A letter from our founders](https://www.getdbt.com/blog/founders-letter) |
 | 2026-11-10 | Center for Security and Emerging Technology (CSET) | [The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO](https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/) |
 | 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
@@ -117,7 +117,9 @@ Last run: **2026-11-13T11:02:48Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 99× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **AlgorithmWatch** — failed 1× in a row: `ConnectionError: HTTPSConnectionPool(host='algorithmwatch.org', port=443): Max retries exceeded with url: /en/feed/ (Caused by NewConnectionError("HTTPSConnection(host='algorithmwatch.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))`
+- **European Data Protection Board (EDPB)** — failed 100× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 
