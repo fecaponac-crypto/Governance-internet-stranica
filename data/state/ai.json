@@ -1352,6 +1352,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2daace7dc9fe1f63": {
+   "at": "2026-11-13T21:17:47Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog post from Monte Carlo offering agent-building advice; vendor marketing rather than genuine launch or research news, though it cites a survey.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2daaf9b116cc3218": {
    "at": "2026-11-11T21:17:32Z",
    "categories": [
@@ -4509,6 +4520,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a75ac214a1ae2c56": {
+   "at": "2026-11-13T21:17:47Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Post-quantum cyber readiness opinion piece without a concrete data governance angle or new regulatory development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a7814420102e207d": {
    "at": "2026-11-10T14:57:08Z",
    "categories": [
@@ -7234,8 +7256,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 369,
-   "usd": 16.5876
+   "calls": 370,
+   "usd": 16.5884
   }
  }
 }

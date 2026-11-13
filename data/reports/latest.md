@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-13T21:17:35Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (109)
+## New items, last 48 hours (103)
 
 ### High priority sources
 
@@ -19,7 +19,6 @@ Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Juliane Kokott in Case C-826/24 P Commission v Google and Alphabet (Google AdSense)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260164en.pdf) |
 | 2026-11-12 | Court of Justice of the EU — Press releases | [Judgments of the Court In Cases C-442/23 Poland v Parliament and Council (Objectives of the LULUCF sector), C-444/23 Poland v Parliament and Council (Strengthening of performance standards for vehicles), C-445/23 Poland v Parliament and Council (Extension of the market stability reserve), C-451/23 Poland v Parliament and Council (Objectives fixed for sectors covered by the ESR Regulation), C-505/23 Poland v Parliament and Council (Emission allowances in building and road transport), C-512/23 Poland v Parliament and Council (Carbon Border Adjustment Mechanism) and C-771/23 Poland v Parliament and Council (Energy efficiency)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260163en.pdf) |
 | 2026-11-12 | European Commission — Press Corner | [EU and Australia deepen science and innovation ties with Horizon Europe Agreement](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2418) |
-| 2026-11-11 | IAPP — International Association of Privacy Professionals | [European Commission releases draft proposal for Digital Fairness Act](https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act) |
 | 2026-10-22 | Hunton Privacy & Information Security Law Blog | [DOJ Arrests U.S. Nationals in Widespread North Korean IT Worker Fraud Scheme](https://www.hunton.com/privacy-and-cybersecurity-law-blog/doj-arrests-u-s-nationals-in-widespread-north-korean-it-worker-fraud-scheme) |
 
 ### Medium priority sources
@@ -65,14 +64,13 @@ Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
-| 2026-11-11 | CDO Magazine | [US Federal News Bureau Federal Agencies Put Data Governance at the Center of Agentic AI Readiness](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-put-data-governance-at-the-center-of-agentic-ai-readiness) |
-| 2026-11-11 | AZOP — Croatian Personal Data Protection Agency | [EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu](https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | Monte Carlo Blog | [What it takes to ship a self-improving agent](https://montecarlo.ai/blog-ship-self-improving-agents) |
 | 2026-11-13 | The Record (Recorded Future News) | [NYC to bar surveillance pricing as momentum for bans grows nationwide](https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing) |
 | 2026-11-13 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-581/) |
 | 2026-11-13 | Center for Data Innovation | [5 Q’s with Arnaud Schwartz, CEO of CheckMarble](https://datainnovation.org/2026/11/5-qs-with-arnaud-schwartz-ceo-of-checkmarble/) |
@@ -81,6 +79,7 @@ Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | Google Cloud Blog — Data Analytics | [From OLAP to OLTP: How Copel Simplified Reverse ETL Using BigQuery's Native Export to AlloyDB](https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/) |
 | 2026-11-13 | Google Cloud Blog — Data Analytics | [New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) |
 | 2026-11-13 | Monte Carlo Blog | [Fixing the AI Platform Team’s Blind Spot: A Common-Thread Approach to Context Across Teams for Trusted AI Deployment](https://montecarlo.ai/blog-fixing-the-ai-platform-teams-blind-spot-a-common-thread-approach-to-context-across-teams-for-trusted-ai-deployment) |
+| 2026-11-13 | Computer Weekly — IT security | [Mid-sized businesses can't leave quantum readiness to their suppliers](https://www.computerweekly.com/opinion/Mid-sized-businesses-cant-leave-quantum-readiness-to-their-suppliers) |
 | 2026-11-13 | The Record (Recorded Future News) | [TSMC confirms employee data breach tied to cloud service provider](https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider) |
 | 2026-11-13 | The Record (Recorded Future News) | [Ransomware attack on Belarusian cloud firm disrupts businesses for days](https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack) |
 | 2026-11-13 | The Record (Recorded Future News) | [Record number of cyber incidents reported to UK privacy regulator](https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator) |
@@ -112,11 +111,6 @@ Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Computer Weekly — IT security | [AI & cybersecurity: A Computer Weekly Downtime Upload podcast](https://www.computerweekly.com/podcast/AI-cybersecurity-A-Computer-Weekly-Downtime-Upload-podcast) |
 | 2026-11-12 | Computer Weekly — IT security | [AI agents bring down wind farm within two hours](https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours) |
 | 2026-11-12 | Computer Weekly — IT security | [Bug-hunting time cut dramatically with AI, says Forescout](https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout) |
-| 2026-11-11 | AWS Big Data Blog | [Build a data foundation for agentic AI on AWS: From lakehouse to MCP](https://aws.amazon.com/blogs/big-data/build-a-data-foundation-for-agentic-ai-on-aws-from-lakehouse-to-mcp/) |
-| 2026-11-11 | Data Engineering Weekly | [How Open Is Open? Iceberg, Catalogs, and User Choice](https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs) |
-| 2026-11-11 | AWS Big Data Blog | [How Samsung Ads federated Snowflake Iceberg tables using Amazon Cognito](https://aws.amazon.com/blogs/big-data/how-samsung-ads-federated-snowflake-iceberg-tables-using-amazon-cognito/) |
-| 2026-11-11 | Precisely Blog | [Enterprise AI Needs a Deterministic Layer](https://www.precisely.com/blog/ai-ready-data/enterprise-ai-needs-a-deterministic-layer/) |
-| 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Spy scandal highlights contradictions at heart of Trump’s China policy](https://cset.georgetown.edu/article/spy-scandal-highlights-contradictions-at-heart-of-trumps-china-policy/) |
 | 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
@@ -130,7 +124,7 @@ Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 103× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 104× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
