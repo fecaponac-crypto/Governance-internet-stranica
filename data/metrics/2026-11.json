@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-12T21:18:02Z",
+ "updated": "2026-11-13T00:17:39Z",
  "portal": {
   "published_total": 96,
   "published_this_month": 53,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 338,
-  "runs": 134,
-  "runs_with_failed_sources": 108,
+  "items_collected": 339,
+  "runs": 135,
+  "runs_with_failed_sources": 109,
   "triage_decisions": {
    "drafted": 61,
-   "skipped": 269,
+   "skipped": 270,
    "failed": 9
   },
-  "ai_spend_usd": 14.8362,
+  "ai_spend_usd": 14.8369,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -32,39 +32,39 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 590,
-  "visits": 560,
+  "page_views": 730,
+  "visits": 700,
   "bots_excluded": true,
   "by_day": [
    {
+    "date": "2026-11-01",
+    "page_views": 10,
+    "visits": 10
+   },
+   {
     "date": "2026-11-02",
-    "page_views": 30,
-    "visits": 30
+    "page_views": 20,
+    "visits": 20
    },
    {
     "date": "2026-11-03",
-    "page_views": 30,
-    "visits": 30
+    "page_views": 20,
+    "visits": 20
    },
    {
     "date": "2026-11-04",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 60,
+    "visits": 50
    },
    {
     "date": "2026-11-05",
-    "page_views": 340,
-    "visits": 330
+    "page_views": 480,
+    "visits": 480
    },
    {
     "date": "2026-11-06",
-    "page_views": 70,
-    "visits": 70
-   },
-   {
-    "date": "2026-11-08",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 50,
+    "visits": 50
    },
    {
     "date": "2026-11-09",
@@ -73,8 +73,13 @@
    },
    {
     "date": "2026-11-10",
-    "page_views": 40,
-    "visits": 20
+    "page_views": 20,
+    "visits": 0
+   },
+   {
+    "date": "2026-11-11",
+    "page_views": 10,
+    "visits": 10
    },
    {
     "date": "2026-11-12",
@@ -84,108 +89,100 @@
   ],
   "top_pages": [
    {
+    "requestPath": "/",
+    "page_views": 170
+   },
+   {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
-    "page_views": 120
+    "page_views": 160
    },
    {
     "requestPath": "/category/privacy/",
-    "page_views": 80
-   },
-   {
-    "requestPath": "/",
-    "page_views": 60
+    "page_views": 110
    },
    {
     "requestPath": "/category/security/",
-    "page_views": 60
+    "page_views": 50
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
     "page_views": 30
    },
    {
-    "requestPath": "/category/ai-governance/",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/institutions/edpb/",
-    "page_views": 20
-   },
-   {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 30
+   },
+   {
+    "requestPath": "/enforcement/",
+    "page_views": 30
+   },
+   {
+    "requestPath": "/news/cppa-staff-propose-naming-global-privacy-control-in-ccpa-opt-out-signa/",
     "page_views": 20
    },
    {
-    "requestPath": "/news/imy-opens-inquiry-into-swedish-public-employment-service-s-ai-tool-for/%26ss%3Dtw%26rt%3DIMY%2Bopens%2Binquiry%2Binto%2BSwedish%2BPublic%2BEmployment%2BService's%2BAI%2Btool%2Bfor%2Bassessing%2Bjobseekers%26cd%3DKhQxMjE2MDI3OTUyNzc5NzYwMjExOTIcODA2NzcyMjBhOTMxYWM0Njpjb206ZW46VVM6TA%26ssp%3DAMJHsmUFGpfLTcEpxsQJpD0N5duQZgUL5g",
+    "requestPath": "/news/databricks-previews-publishing-unity-catalog-metric-views-directly-to/",
     "page_views": 10
    },
    {
-    "requestPath": "/methodology/",
+    "requestPath": "/category/regulation/",
     "page_views": 10
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 320
+    "page_views": 430
+   },
+   {
+    "countryName": "AU",
+    "page_views": 50
+   },
+   {
+    "countryName": "HR",
+    "page_views": 40
    },
    {
     "countryName": "GB",
     "page_views": 40
    },
    {
-    "countryName": "CN",
-    "page_views": 30
-   },
-   {
-    "countryName": "HK",
-    "page_views": 20
-   },
-   {
-    "countryName": "AR",
-    "page_views": 20
-   },
-   {
-    "countryName": "AU",
-    "page_views": 20
-   },
-   {
-    "countryName": "DK",
-    "page_views": 20
-   },
-   {
-    "countryName": "HR",
-    "page_views": 20
-   },
-   {
     "countryName": "SG",
+    "page_views": 20
+   },
+   {
+    "countryName": "NL",
+    "page_views": 20
+   },
+   {
+    "countryName": "CN",
+    "page_views": 20
+   },
+   {
+    "countryName": "CA",
+    "page_views": 20
+   },
+   {
+    "countryName": "BE",
     "page_views": 10
    },
    {
-    "countryName": "PH",
+    "countryName": "RU",
     "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 530
+    "page_views": 670
+   },
+   {
+    "refererHost": "www.google.com",
+    "page_views": 30
    },
    {
     "refererHost": "datagovernancesignal.com",
     "page_views": 30
-   },
-   {
-    "refererHost": "www.google.com",
-    "page_views": 10
-   },
-   {
-    "refererHost": "teams.public.onecdn.static.microsoft",
-    "page_views": 10
-   },
-   {
-    "refererHost": "www.linkedin.com",
-    "page_views": 10
    }
   ]
  },

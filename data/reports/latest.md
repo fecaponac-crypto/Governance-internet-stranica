@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-12T21:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-13T00:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (99)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -22,7 +22,6 @@ Last run: **2026-11-12T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
 | 2026-11-11 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Vooruitgang Belastingdienst gaat langzaam](https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam) |
 | 2026-11-11 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-523/24 Kerry and Kerry Ingredients (UK) v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260162en.pdf) |
-| 2026-11-10 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Proposes Amendments to Strengthen Opt-Out Preference Signal Compliance](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-proposes-amendments-to-strengthen-opt-out-preference-signal-compliance) |
 
 ### Medium priority sources
 
@@ -63,9 +62,6 @@ Last run: **2026-11-12T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | CDO Magazine | [Leadership Moves YPrime Promotes Greg Wellbrock to Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/yprime-promotes-greg-wellbrock-to-chief-data-and-ai-officer) |
 | 2026-11-11 | Euractiv | [EU unveils new rules to tackle online consumer harms](https://www.rapporteur.com/news/eu-unveils-new-rules-to-tackle-online-consumer-harms/) |
 | 2026-11-10 | Forrester Blogs | [AI Governance Has A Strategy Problem](https://www.forrester.com/blogs/ai-governance-has-a-strategy-problem/) |
-| 2026-11-10 | Privacy World (Squire Patton Boggs) | [California Shuts the Door on Private CIPA Pen Register Suits Over Websites, Leaving the Closely Watched Variety Media Appeal in Limbo](https://www.privacyworld.blog/2026/11/california-shuts-the-door-on-private-cipa-pen-register-suits-over-websites-leaving-the-closely-watched-variety-media-appeal-in-limbo/) |
-| 2026-11-10 | POLITICO Europe — Technology | [Brussels takes on the evils of online commerce](https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-10 | Databricks Blog | [Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI](https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting) |
 | 2026-11-10 | US Federal Trade Commission | [Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices](https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices) |
 | 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
@@ -74,6 +70,7 @@ Last run: **2026-11-12T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-12 | LfDI Baden-Württemberg (Germany) | [Leitung der Registratur](https://www.baden-wuerttemberg.datenschutz.de/leitung-der-registratur/) |
 | 2026-11-12 | DataHub Blog (open source metadata platform) | [What Is an Automated Data Catalog? From Stale Metadata to Trusted Context](https://datahub.com/blog/automated-data-catalog/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [CISA + Partners Warn Industrial Refrigeration Industry About Cyberattacks](https://www.dataprivacyandsecurityinsider.com/2026/11/cisa-partners-warn-industrial-refrigeration-industry-about-cyberattacks/) |
 | 2026-11-12 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [From Passwords to Backups: NIST’s Small-Business Cybersecurity Guide](https://www.dataprivacyandsecurityinsider.com/2026/11/from-passwords-to-backups-nists-small-business-cybersecurity-guide/) |
@@ -120,7 +117,7 @@ Last run: **2026-11-12T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 93× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 94× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

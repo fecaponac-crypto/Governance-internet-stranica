@@ -3953,6 +3953,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "99ab613d22040506": {
+   "at": "2026-11-13T00:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Job advertisement for a records registry head; hiring news with no governance news angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9a94a53174789115": {
    "at": "2026-11-10T09:19:14Z",
    "categories": [
@@ -6819,8 +6828,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 335,
-   "usd": 14.8362
+   "calls": 336,
+   "usd": 14.8369
   }
  }
 }
