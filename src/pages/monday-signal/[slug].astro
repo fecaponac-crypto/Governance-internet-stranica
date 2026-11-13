@@ -5,6 +5,7 @@ import NewsletterForm from '../../components/NewsletterForm.astro';
 import Feedback from '../../components/Feedback.astro';
 import Listen from '../../components/Listen.astro';
 import PredictionList from '../../components/PredictionList.astro';
+import WeekNumbers from '../../components/WeekNumbers.astro';
 import { COLUMN, SITE } from '../../data/site';
 import { columnUrl, formatDate, getColumns, getPredictions, isoDate, type Column } from '../../utils/articles';
 
@@ -52,6 +53,8 @@ const jsonLd = {
     <div class="prose">
       <Content />
     </div>
+
+    <div data-pagefind-ignore><WeekNumbers date={data.date} /></div>
 
     {
       made.length > 0 && (

@@ -29,11 +29,13 @@ import draft
 from draft import ARTICLES, EDITOR, ROOT, WRITER_MODEL, ModelError
 
 COLUMNS = ROOT / "src" / "content" / "columns"
+LEGISLATION = ROOT / "data" / "legislation.yaml"
 PREDICTIONS = ROOT / "data" / "predictions.yaml"
 SITE_URL = "https://datagovernancesignal.com"
 COLUMN_NAME = "The Monday Signal"
 
-MAX_ARTICLES = 10
+MAX_ARTICLES = 10  # stories given to the writer in full; the rest of the week goes in as headline and dek
+NEAR_PREDICTION_DAYS = 56  # at least one of our predictions should be checkable this soon
 MAX_SOURCE_CHARS = 12_000
 DUE_WITHIN_DAYS = 7
 WATCH_DAYS = 60  # "What to Watch" covers key dates and predictions due in this window
@@ -64,7 +66,56 @@ def week_articles(monday: date) -> list[dict]:
         if published and start <= published < monday:
             found.append({"slug": path.stem, "meta": meta, "body": body, "published": published})
     found.sort(key=lambda a: (-a["meta"]["importance"], a["slug"]))
-    return found[:MAX_ARTICLES]
+    return found
+
+
+def as_date(value) -> date:
+    return value if isinstance(value, date) else date.fromisoformat(str(value)[:10])
+
+
+def all_published() -> list[dict]:
+    out = []
+    for path in ARTICLES.glob("*.md"):
+        meta, _ = front_matter(path.read_text(encoding="utf-8"))
+        if not (meta.get("sample") or meta.get("draft")):
+            out.append({"slug": path.stem, "meta": meta})
+    return out
+
+
+def load_legislation() -> list[dict]:
+    return yaml.safe_load(LEGISLATION.read_text(encoding="utf-8")) or [] if LEGISLATION.exists() else []
+
+
+def case_steps(published: list[dict]) -> dict[str, list[dict]]:
+    """Enforcement steps by case, oldest first; two stories on the same decision count once (as on the site)."""
+    cases: dict[str, list[dict]] = {}
+    for a in sorted(published, key=lambda a: as_date(a["meta"]["date"])):
+        e = a["meta"].get("enforcement")
+        if not e:
+            continue
+        steps = cases.setdefault(e.get("case") or a["slug"], [])
+        when = as_date(e["date"])
+        if not any(s["date"] == when and s["action"] == e["action"] for s in steps):
+            steps.append({"date": when, "action": e["action"], "authority": e["authority"], "parties": e["parties"],
+                          "amount": e.get("amount"), "currency": e.get("currency"), "slug": a["slug"]})
+    for steps in cases.values():
+        steps.sort(key=lambda s: s["date"])
+    return cases
+
+
+def week_numbers(monday: date, published: list[dict], laws: list[dict]) -> dict:
+    """The week counted the way the column page counts it: by story date and by date of the enforcement step."""
+    start = monday - timedelta(days=7)
+    in_week = lambda d: start <= as_date(d) < monday
+    stories = [a for a in published if in_week(a["meta"]["date"])]
+    steps = [s for steps in case_steps(published).values() for s in steps if in_week(s["date"])]
+    amounts: dict[str, float] = {}
+    for s in steps:
+        if s["amount"] and s["currency"]:
+            amounts[s["currency"]] = amounts.get(s["currency"], 0) + s["amount"]
+    short = {l["id"]: l["short"] for l in laws}
+    moved = sorted({short[i] for a in stories for i in a["meta"].get("legislation") or [] if i in short})
+    return {"stories": len(stories), "steps": steps, "amounts": amounts, "laws": moved}
 
 
 def upcoming_dates(monday: date) -> list[dict]:
@@ -79,6 +130,11 @@ def upcoming_dates(monday: date) -> list[dict]:
             when = d["date"] if isinstance(d["date"], date) else date.fromisoformat(str(d["date"]))
             if monday <= when <= limit:
                 out.append({"date": when, "what": d["what"], "slug": path.stem})
+    for law in load_legislation():
+        for d in law.get("dates") or []:
+            when = as_date(d["date"])
+            if monday <= when <= limit and not any(o["date"] == when and o["what"] == d["what"] for o in out):
+                out.append({"date": when, "what": d["what"], "law": law["id"]})
     return sorted(out, key=lambda d: d["date"])
 
 
@@ -136,7 +192,11 @@ SYSTEM = f"""You draft "{COLUMN_NAME}", the weekly column of Data Governance Sig
 The column:
 - Opens with the one development of the week that matters most and says plainly what it means for practitioners.
 - Connects the week's stories: patterns, tensions, what changed. Opinion is welcome but must be labelled as such ("I think", "my read") and argued from the facts given.
-- Includes a short "What I'm watching" section that states 2-4 predictions of our own, each specific, checkable, with a date.
+- Includes a short "What I'm watching" section that states 2-4 predictions of our own, each specific, checkable, with a date. At least one must be checkable within eight weeks of the column date, so the scorecard has something to judge soon; the upcoming dates in the material are a good basis for it.
+- May use the figures under "The week in numbers" (they also appear next to the column on the site): cite them exactly as given, never add up amounts in different currencies, and do not present a count as more than what we reported.
+- Uses the tracker context given with a story where it helps: the earlier steps of the same enforcement case, or the stage of the law concerned. Do not restate it for its own sake.
+- Stories marked Analysis, Opinion or How-to are someone's view or advice, not a development: attribute them as such and do not open the column with one.
+- "Also published this week" lists the remaining stories by headline and dek only. You may point to one where it supports a pattern, but state nothing about it beyond what its headline and dek say.
 - If predictions are due for judging, mentions them in a short "Scorecard" paragraph without deciding the outcome (the editor judges).
 - 600-900 words of Markdown body, short paragraphs, a few ## subheadings, no title heading.
 - Links to our articles as [text](/news/<slug>/). Never invent facts, figures, quotes, names or events beyond the material given. If a point would benefit from the editor's own experience, leave a marker like [EDITOR: add an example from practice].
@@ -210,14 +270,57 @@ def schema(source_refs: list[int], due_ids: list[str], slugs: list[str]) -> dict
     }
 
 
-def material(monday: date, articles: list[dict], sources: list[dict], due: list[dict]) -> str:
-    parts = [f"Column date: {monday.isoformat()} (Monday). Week covered: the 7 days before.\n\n# This week's published articles"]
+def money(amount: float, currency: str) -> str:
+    return f"{currency} {amount:,.0f}"
+
+
+def tracker_context(article: dict, cases: dict[str, list[dict]], laws: dict[str, dict]) -> str:
+    """What the two trackers know about a story: earlier steps of its case, and where its laws stand."""
+    lines = []
+    e = article["meta"].get("enforcement")
+    if e:
+        earlier = [s for s in cases.get(e.get("case") or article["slug"], []) if s["slug"] != article["slug"] and s["date"] <= as_date(e["date"])]
+        if earlier:
+            lines.append("Earlier steps in this enforcement case: " + "; ".join(
+                f"{s['date']} {s['action']} by {s['authority']}" + (f" ({money(s['amount'], s['currency'])})" if s["amount"] and s["currency"] else "")
+                + f" [/news/{s['slug']}/]" for s in earlier))
+    for i in article["meta"].get("legislation") or []:
+        law = laws.get(i)
+        if law:
+            lines.append(f"Law concerned: {law['name']} ({law['jurisdiction']}) — stage: {law['stage']}"
+                         + (f". {law['stageNote']}" if law.get("stageNote") else "") + f" [/legislation/{i}/]")
+    return "\n".join(lines)
+
+
+def material(monday: date, articles: list[dict], sources: list[dict], due: list[dict],
+             rest: list[dict] | None = None, numbers: dict | None = None, watch: list[dict] | None = None,
+             cases: dict | None = None, laws: dict | None = None) -> str:
+    parts = [f"Column date: {monday.isoformat()} (Monday). Week covered: the 7 days before."]
+    if numbers:
+        steps = numbers["steps"]
+        lines = [f"- {numbers['stories']} stories published",
+                 f"- {len(steps)} enforcement step(s) dated in the week" + (": " + "; ".join(
+                     f"{s['action']} — {s['authority']} v {s['parties']}" + (f" ({money(s['amount'], s['currency'])})" if s["amount"] and s["currency"] else "")
+                     for s in steps) if steps else ""),
+                 "- amounts stated: " + (" and ".join(money(v, c) for c, v in numbers["amounts"].items()) or "none"),
+                 "- tracked laws with developments: " + (", ".join(numbers["laws"]) or "none")]
+        parts.append("# The week in numbers (from our trackers; counts cover what we reported)\n" + "\n".join(lines))
+    parts.append("# This week's most important articles (full text)")
     for a in articles:
         m = a["meta"]
+        kind = m.get("format", "News")
+        context = tracker_context(a, cases or {}, laws or {})
         parts.append(
-            f"## /news/{a['slug']}/ — importance {m['importance']} — {m['type']}\n"
-            f"Title: {m['title']}\nDek: {m['dek']}\nWhy it matters: {m['whyItMatters']}\n\n{a['body']}"
+            f"## /news/{a['slug']}/ — importance {m['importance']} — {m['type']} — {kind}\n"
+            f"Title: {m['title']}\nDek: {m['dek']}\nWhy it matters: {m['whyItMatters']}\n"
+            + (f"Tracker context:\n{context}\n" if context else "") + f"\n{a['body']}"
         )
+    if rest:
+        parts.append("# Also published this week (headline and dek only)\n" + "\n".join(
+            f"- /news/{a['slug']}/ — {a['meta'].get('format', 'News')} — {a['meta']['title']} — {a['meta']['dek']}" for a in rest))
+    if watch:
+        parts.append(f"# Upcoming dates in the next {WATCH_DAYS} days (from our calendar)\n" + "\n".join(
+            f"- {d['date']}: {d['what']}" for d in watch))
     parts.append("# Source texts (for others' predictions)")
     for s in sources:
         parts.append(f"[{s['ref']}] {s['name']} — {s['title']}\n{s['text'] or '(not available)'}")
@@ -311,7 +414,8 @@ def newsletter_text(monday: date, col: dict, articles: list[dict], watch: list[d
     lines += ["## Governance in Practice", "", col["in_practice"], "", "## What to Watch", ""]
     limit = monday + timedelta(days=WATCH_DAYS)
     soon = [p for p in predictions if p.get("status", "open") == "open" and monday <= p["due"] <= limit]
-    items = [(d["date"], f"{d['what']} ([more]({SITE_URL}/news/{d['slug']}/))") for d in watch]
+    items = [(d["date"], f"{d['what']} ([more]({SITE_URL}/news/{d['slug']}/))" if d.get("slug")
+              else f"{d['what']} ([law]({SITE_URL}/legislation/{d['law']}/))") for d in watch]
     items += [(p["due"], f"Prediction due: {p['claim']} — {'our call' if p.get('ours') else p['by']}") for p in soon]
     lines += [f"- **{when:%-d %b}** — {text}" for when, text in sorted(items, key=lambda i: i[0])] or [
         "- Nothing scheduled in the next weeks."]
@@ -335,7 +439,8 @@ def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hi
     lines = [
         "**Merge = publish the column and its predictions · Close = skip this week**",
         "",
-        f"Draft column for {monday:%A %-d %B %Y}, based on {len(articles)} article(s) published last week. "
+        f"Draft column for {monday:%A %-d %B %Y}, based on {len(articles)} article(s) published last week "
+        f"({min(len(articles), MAX_ARTICLES)} in full, the rest by headline) and on the two trackers. "
         "It is a starting point: **rewrite it in your own voice** (edit "
         f"`src/content/columns/{monday.isoformat()}.md` in this PR), check every claim, fill the `[EDITOR: …]` markers.",
         "",
@@ -343,6 +448,8 @@ def pr_body(monday: date, col: dict, articles, new: list[dict], dropped, due, hi
         "Keep, edit or delete. Once published, they are never edited — only judged.",
     ]
     lines += [f"- **{p['confidence']}%** by {p['due']}: {p['claim']}" for p in ours] or ["- none proposed"]
+    if ours and not any(p["due"] <= monday + timedelta(days=NEAR_PREDICTION_DAYS) for p in ours):
+        lines.append(f"- ⚠️ None of these can be judged within {NEAR_PREDICTION_DAYS // 7} weeks; consider adding a nearer one so the scorecard does not stay empty.")
     lines += ["", "### Others' predictions found in last week's sources (quote verified in the source text)"]
     lines += [f"- **{p['by']}**: {p['claim']} (due {p['due']}) — “{p['quote']}” [source]({p['source']['url']})" for p in others] or ["- none found"]
     if dropped:
@@ -419,12 +526,17 @@ def run(args) -> dict:
     state = draft.load_state()
     if draft.over_budget(state):
         return {"skipped": "monthly AI budget reached"}
-    sources = source_texts(articles)
+    top, rest = articles[:MAX_ARTICLES], articles[MAX_ARTICLES:]
+    published, laws = all_published(), load_legislation()
+    watch = upcoming_dates(monday)
+    sources = source_texts(top)
     client = anthropic.Anthropic()
     try:
         col = draft.call_json(
-            client, state, model=WRITER_MODEL, system=SYSTEM, user=material(monday, articles, sources, due),
-            schema=schema([s["ref"] for s in sources], [p["id"] for p in due], [a["slug"] for a in articles]),
+            client, state, model=WRITER_MODEL, system=SYSTEM,
+            user=material(monday, top, sources, due, rest=rest, numbers=week_numbers(monday, published, laws), watch=watch,
+                          cases=case_steps(published), laws={l["id"]: l for l in laws}),
+            schema=schema([s["ref"] for s in sources], [p["id"] for p in due], [a["slug"] for a in top]),
             effort="medium", max_tokens=16000,
         )
     finally:
@@ -433,7 +545,7 @@ def run(args) -> dict:
     others, dropped = verified_others(col["others_predictions"], sources)
     new = new_predictions(monday, col, others)
     files = {column_path: column_markdown(monday, col), PREDICTIONS: predictions_yaml(header, predictions + new)}
-    body = pr_body(monday, col, articles, new, dropped, due, col["scorecard_hints"], upcoming_dates(monday), predictions)
+    body = pr_body(monday, col, articles, new, dropped, due, col["scorecard_hints"], watch, predictions)
     summary = {"column": column_path.name, "articles": len(articles), "predictions": len(new),
                "dropped": len(dropped), "due": len(due)}
     if args.no_pr:

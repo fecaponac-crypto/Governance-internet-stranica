@@ -75,6 +75,9 @@ class MondayTest(unittest.TestCase):
             {"id": "2026-10-26-2", "claim": "Later", "by": "X", "quote": "q", "source": {"title": "c", "url": "https://x.org"},
              "made": date(2026, 10, 26), "due": date(2027, 5, 1), "status": "open"},
         ], sort_keys=False))
+        (self.tmp / "legislation.yaml").write_text(yaml.safe_dump([
+            {"id": "eu-ai-act", "name": "AI Act", "short": "AI Act", "jurisdiction": "EU", "stage": "Applies",
+             "stageNote": "High-risk rules postponed.", "dates": [{"date": date(2026, 12, 2), "what": "AI Act: a date set by the law"}]}]))
         self.client = FakeClient()
         self.fetched = []
 
@@ -86,6 +89,7 @@ class MondayTest(unittest.TestCase):
             mock.patch.object(monday, "ARTICLES", arts),
             mock.patch.object(monday, "COLUMNS", self.tmp / "columns"),
             mock.patch.object(monday, "PREDICTIONS", self.tmp / "predictions.yaml"),
+            mock.patch.object(monday, "LEGISLATION", self.tmp / "legislation.yaml"),
             mock.patch.object(monday, "added_on", lambda p: added[p.stem]),
             mock.patch.object(draft, "fetch_source", fetch),
             mock.patch.object(draft, "STATE_PATH", self.tmp / "ai.json"),
@@ -170,6 +174,40 @@ class MondayTest(unittest.TestCase):
 
 
 class StaleCaseTest(MondayTest):
+    def test_writer_gets_the_whole_week_and_the_trackers(self):
+        arts = monday.ARTICLES
+        fine = {"case": "c1", "action": "Fine", "authority": "CNIL", "parties": "Example", "framework": "GDPR",
+                "jurisdiction": "France", "amount": 7000000, "currency": "EUR", "date": date(2026, 10, 29)}
+        earlier = {**fine, "action": "Investigation", "date": date(2026, 9, 1), "amount": None, "currency": None}
+        def with_extra(slug, extra, importance=3):
+            front = yaml.safe_load(article(slug, importance).split("---")[1])
+            (arts / f"{slug}.md").write_text("---\n" + yaml.safe_dump({**front, **extra}) + "---\n\nBody.\n")
+        with_extra("one", {"enforcement": fine, "legislation": ["eu-ai-act"]}, 4)
+        with_extra("dup", {"enforcement": fine})          # a second story on the same decision
+        with_extra("old", {"enforcement": earlier, "date": "2026-09-01"}, 5)
+        with_extra("two", {"format": "Opinion"}, 2)
+        with mock.patch.object(monday, "MAX_ARTICLES", 1), \
+                mock.patch.object(monday, "added_on", lambda p: {"old": date(2026, 9, 1)}.get(p.stem, date(2026, 10, 28))):
+            self.run_monday()
+        sent = self.client.calls[0]["messages"][0]["content"]
+        sent = sent if isinstance(sent, str) else json.dumps(sent)
+        self.assertIn("1 enforcement step(s) dated in the week", sent)   # the duplicate is not counted twice
+        self.assertIn("EUR 7,000,000", sent)
+        self.assertNotIn("EUR 14,000,000", sent)
+        self.assertIn("Earlier steps in this enforcement case: 2026-09-01 Investigation by CNIL", sent)
+        self.assertIn("Law concerned: AI Act (EU) — stage: Applies", sent)
+        self.assertIn("Also published this week", sent)
+        self.assertIn("/news/two/ — Opinion — Story two", sent)
+        self.assertIn("2026-12-02: AI Act: a date set by the law", sent)
+        self.assertEqual(len(self.fetched), 1)                           # sources are read for the full-text stories only
+
+    def test_warns_when_no_prediction_is_due_soon(self):
+        col = {**COLUMN, "review_notes": ""}
+        far = [{"claim": "x", "ours": True, "due": date(2027, 6, 30), "confidence": 60}]
+        near = far + [{"claim": "y", "ours": True, "due": date(2026, 12, 1), "confidence": 60}]
+        self.assertIn("None of these can be judged within 8 weeks", monday.pr_body(MONDAY, col, [], far, [], [], []))
+        self.assertNotIn("None of these can be judged", monday.pr_body(MONDAY, col, [], near, [], [], []))
+
     def test_open_cases_without_news_are_listed(self):
         arts = monday.ARTICLES
         (arts / "old-complaint.md").write_text(

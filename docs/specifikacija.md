@@ -326,6 +326,12 @@ Na `/enforcement/` iznad tablice stoji blok „The tracker in numbers”: sluča
 - `/guide/`: što pratimo, alati, kako čitati vijest (važnost, why it matters, what to check, status, izvori, Listen, palac), vrste sadržaja, pretraga, RSS i kalendar, kako radimo.
 - Odluka: upute ne idu u prazne rubove naslovnice jer ih na laptopu i mobitelu nema.
 
+### Monday Signal koristi trackere (13. 11. 2026.)
+
+- **Ulaz za pisanje (`pipeline/monday.py`):** puni tekst 10 najvažnijih vijesti tjedna, ostale vijesti tjedna naslovom i sažetkom, oznaka vrste (News / Analysis / Opinion / How-to), uz vijest raniji koraci istog slučaja i faza povezanog zakona, „The week in numbers” iz trackera te datumi sljedećih 60 dana uključujući datume iz `data/legislation.yaml`.
+- **Predviđanja:** barem jedno mora biti provjerljivo unutar 8 tjedana; ako nije, PR to označi upozorenjem.
+- **Stranica kolumne:** blokovi „The week in numbers” i „Dates in the 30 days after this column” (`WeekNumbers.astro`, `getWeekReview()`), računati bez AI-ja, istim pravilom kao brojke koje dobiva model (datum vijesti i datum koraka u 7 dana prije kolumne).
+
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.

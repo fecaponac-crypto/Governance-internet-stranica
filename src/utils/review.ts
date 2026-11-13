@@ -63,3 +63,33 @@ export async function getMonthReviews(now = new Date()): Promise<MonthReview[]> 
     };
   });
 }
+
+export interface WeekReview {
+  stories: number;
+  steps: CaseStep[];
+  amounts: { amount: number; currency: string }[];
+  laws: LegislationFile[];
+  dates: KeyDate[]; // key dates in the 30 days from the column date
+}
+
+/** The seven days before a Monday column, counted from the stories and the two trackers, and the dates that follow. */
+export async function getWeekReview(monday: Date): Promise<WeekReview> {
+  const articles = await getArticles();
+  const start = monday.getTime() - 7 * 864e5;
+  const inWeek = (d: Date) => d.getTime() >= start && d.getTime() < monday.getTime();
+  const stories = articles.filter((a) => inWeek(a.data.date));
+  const steps = enforcementCases(articles)
+    .flatMap((c) => c.steps)
+    .filter((s) => inWeek(s.e.date))
+    .sort((a, b) => b.e.date.getTime() - a.e.date.getTime());
+  const sums = new Map<string, number>();
+  for (const s of steps) if (s.e.amount && s.e.currency) sums.set(s.e.currency, (sums.get(s.e.currency) ?? 0) + s.e.amount);
+  const ids = new Set(stories.flatMap((a) => a.data.legislation));
+  return {
+    stories: stories.length,
+    steps,
+    amounts: [...sums].map(([currency, amount]) => ({ amount, currency })).sort((a, b) => b.amount - a.amount),
+    laws: (await getLegislation(articles)).map((l) => l.file).filter((f) => ids.has(f.id)),
+    dates: (await getKeyDates(articles)).filter((d) => d.date.getTime() >= monday.getTime() && d.date.getTime() < monday.getTime() + 30 * 864e5),
+  };
+}

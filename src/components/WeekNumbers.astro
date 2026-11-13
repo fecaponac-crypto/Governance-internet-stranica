@@ -1,0 +1,138 @@
+---
+// Next to a Monday column: the week it covers in numbers, and the dates that follow. Built from the trackers, no commentary.
+import { articleUrl, formatAmount, formatDate, isoDate } from '../utils/articles';
+import { getWeekReview } from '../utils/review';
+
+interface Props {
+  date: Date;
+}
+const { date } = Astro.props;
+const w = await getWeekReview(date);
+const month = isoDate(new Date(date.getTime() - 864e5)).slice(0, 7);
+const sums = w.amounts.map((a) => formatAmount(a.amount, a.currency));
+---
+
+{
+  w.stories > 0 && (
+    <section class="week" aria-labelledby="week-numbers">
+      <h2 id="week-numbers">The week in numbers</h2>
+      <dl class="stats">
+        <div><dt>stories published</dt><dd>{w.stories}</dd></div>
+        <div><dt>enforcement {w.steps.length === 1 ? 'step' : 'steps'}</dt><dd>{w.steps.length}</dd></div>
+        <div><dt>stated in fines and awards</dt><dd class:list={{ small: sums.length > 1 }}>{sums.length ? sums.map((s) => <span>{s}</span>) : '—'}</dd></div>
+        <div><dt>{w.laws.length === 1 ? 'law' : 'laws'} with developments</dt><dd>{w.laws.length}</dd></div>
+      </dl>
+      {w.steps.length > 0 && (
+        <ul class="list">
+          {w.steps.map((s) => (
+            <li>
+              <a href={articleUrl(s.article)}>{s.e.parties}</a>
+              <span class="sub">
+                {s.e.action} · {s.e.authority}
+                {s.e.amount && s.e.currency && <> · <b>{formatAmount(s.e.amount, s.e.currency)}</b></>}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {w.laws.length > 0 && (
+        <p class="laws">
+          Laws that moved: {w.laws.map((l, i) => <>{i > 0 && ', '}<a href={`/legislation/${l.id}/`}>{l.data.short}</a></>)}.
+        </p>
+      )}
+      <p class="fine">
+        Counted from our coverage in the seven days before this column; amounts are as stated and not converted. More in <a
+          href={`/review/${month}/`}>the month in numbers</a
+        > and the <a href="/enforcement/">enforcement</a> and <a href="/legislation/">legislation</a> trackers.
+      </p>
+    </section>
+  )
+}
+{
+  w.dates.length > 0 && (
+    <section class="week" aria-labelledby="week-dates">
+      <h2 id="week-dates">Dates in the 30 days after this column</h2>
+      <ul class="list">
+        {w.dates.map((d) => (
+          <li>
+            <a href={d.href}>{d.what}</a>
+            <span class="sub"><time datetime={isoDate(d.date)}>{formatDate(d.date)}</time> · {d.area}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="fine">All dates, and a calendar you can subscribe to: <a href="/deadlines/">key dates</a>.</p>
+    </section>
+  )
+}
+
+<style>
+  .week {
+    margin: 2.5rem 0;
+  }
+  h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--ink);
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 0 0 0.5rem;
+  }
+  .stats div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    background: var(--paper);
+    padding: 0.8rem 0.9rem;
+  }
+  .stats dd {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .stats dd.small {
+    font-size: 1.1rem;
+  }
+  .stats dd span {
+    display: block;
+  }
+  .stats dt {
+    font-size: 0.8rem;
+    color: var(--ink-2);
+  }
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .list li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .list a {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+  }
+  .sub {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  .laws {
+    margin: 0.8rem 0 0;
+    font-size: 0.95rem;
+  }
+  .fine {
+    margin: 0.7rem 0 0;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+</style>
