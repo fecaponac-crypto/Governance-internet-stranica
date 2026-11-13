@@ -15,7 +15,7 @@ status:
 sources:
   - name: "New York City Council"
     title: "Proposed Int. No. 891-A: A Local Law to amend the administrative code of the city of New York, in relation to prohibiting surveillance pricing"
-    url: "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=8027985&amp;GUID=A6815BBB-AC2B-487F-A27B-46449A644474"
+    url: "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=8027985&GUID=A6815BBB-AC2B-487F-A27B-46449A644474"
     primary: true
   - name: "EPIC"
     title: "New York City Becomes the Latest City to Ban Surveillance Pricing"
@@ -26,8 +26,8 @@ card:
   caption: "Maximum civil penalty per violation, counted per consumer or transaction"
 ---
 
-The New York City Council passed **Proposed Int. No. 891-A** on 12 November 2026. The bill bans "surveillance pricing", defined as prices set wholly or partly by an algorithm that uses personal data to charge different customers different prices for the same goods or services. According to EPIC, Mayor Zohran Mamdani is expected to sign it.
+The New York City Council passed **Proposed Int. No. 891-A** on 12 November 2026, and the bill is now on the Mayor's desk for signature. It bans "surveillance pricing", defined as prices set wholly or partly by an algorithm that uses personal data to charge different customers different prices for the same goods or services.
 
-The ban also covers collecting, using, selling or sharing personal data to facilitate such pricing. Disclosed loyalty, self-identified group and prior purchase history discounts remain allowed; purchase history data must not be combined with other personal data, and group status must come from the consumer rather than be inferred. Firms using such discounts must keep procedures explaining to consumers which personal data shaped a price, and must provide these to the city on request. Insurance, credit pricing under the FCRA and legally required pricing are excluded.
+The ban also covers collecting, using, selling or sharing personal data to facilitate such pricing. Disclosed loyalty, self-identified group and prior purchase history discounts remain allowed; purchase history data must not be combined with other personal data, and group status must come from the consumer rather than be inferred. Firms using such discounts must keep procedures explaining to consumers which personal data shaped a price, and must provide these to the city on request. Online marketplaces may use a customer's purchase history only with the same seller, or for one-time new-customer and delivery-fee discounts. Insurance, credit pricing based on consumer reports under the FCRA, pricing required by law and broker-dealer fees based on assets are excluded.
 
-Violations carry civil penalties of **up to $1,000 each**, counted per consumer or transaction. The law would take effect one year after enactment.
+Violations carry civil penalties of **up to $1,000 each**, counted per consumer or transaction. Small local businesses (fewer than 15 locations, mostly operating in the city) get a notice and 30 days to correct a first violation and repay consumers before any proceeding. The law would take effect one year after enactment.
