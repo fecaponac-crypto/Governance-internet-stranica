@@ -25,7 +25,7 @@ card:
 
 Google has announced expanded observability and evaluation features for AI agents across BigQuery and Looker. They cover its own Conversational Analytics agents and custom agents built with ADK or LangGraph. Telemetry is written to **BigQuery tables the customer owns**. The Conversational Analytics API, now generally available, carries admin audit logs, CMEK, VPC Service Controls and data residency options.
 
-Google says operational metrics and trace spans leave out prompts, responses and generated SQL. Agent owners can opt in, agent by agent, to conversation logging into an `agent_events` table, which inherits the dataset's IAM permissions. A fail-closed check **skips logging whenever a knowledge source uses row-level security, column policy tags or dynamic data masking**.
+Google says operational metrics and trace spans leave out prompts, responses and generated SQL. Agent owners can opt in, agent by agent, to conversation logging (generally available) into an `agent_events` table, which inherits the dataset's IAM permissions, CMEK and VPC Service Controls. A fail-closed check before each turn **skips logging whenever a knowledge source uses row-level security, column policy tags or dynamic data masking**; if logging itself fails, the chat carries on.
 
 Cost controls include per-query byte-scan caps. Daily token quotas per project, user or agent are in preview. So are native BigQuery agent evaluations, alongside Google's open-source Prism benchmarking tool.
 
