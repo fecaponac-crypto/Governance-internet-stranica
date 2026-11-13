@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T00:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-13T01:51:18Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (92)
 
 ### High priority sources
 
@@ -61,9 +61,6 @@ Last run: **2026-11-13T00:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | CDO Magazine | [Digital Transformation From Funding to Fielded Capability: How AWS and Deloitte Partner on National Security Outcomes](https://www.cdomagazine.tech/digital-transformation/from-funding-to-fielded-capability-how-aws-and-deloitte-partner-on-national-security-outcomes) |
 | 2026-11-11 | CDO Magazine | [Leadership Moves YPrime Promotes Greg Wellbrock to Chief Data and AI Officer](https://www.cdomagazine.tech/leadership-moves/yprime-promotes-greg-wellbrock-to-chief-data-and-ai-officer) |
 | 2026-11-11 | Euractiv | [EU unveils new rules to tackle online consumer harms](https://www.rapporteur.com/news/eu-unveils-new-rules-to-tackle-online-consumer-harms/) |
-| 2026-11-10 | Forrester Blogs | [AI Governance Has A Strategy Problem](https://www.forrester.com/blogs/ai-governance-has-a-strategy-problem/) |
-| 2026-11-10 | US Federal Trade Commission | [Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices](https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices) |
-| 2026-11-10 | DATAVERSITY | [Metadata Management Strategies for Enterprises: A 2026 Guide](https://www.dataversity.net/articles/metadata-management-the-critical-foundation-for-data-leverage/) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
 ### Low priority sources
@@ -103,7 +100,6 @@ Last run: **2026-11-13T00:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | Gaia-X | [Gaia-X Summit 2026 to Accelerate Europe’s Transition to Sovereign, Trusted AI and Data Ecosystems](https://gaia-x.eu/gaia-x-summit-2026-to-accelerate-europes-transition-to-sovereign-trusted-ai-and-data-ecosystems/) |
 | 2026-11-11 | dbt Labs Blog | [A letter from our founders](https://www.getdbt.com/blog/founders-letter) |
 | 2026-11-10 | Center for Security and Emerging Technology (CSET) | [The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO](https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/) |
-| 2026-11-10 | Precisely Blog | [Insights from three SAP customers on master data automation](https://www.precisely.com/blog/cat-sap-automation/insights-from-three-sap-customers-on-master-data-automation/) |
 | 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
@@ -117,7 +113,7 @@ Last run: **2026-11-13T00:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 94× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 95× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
