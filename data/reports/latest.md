@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T18:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 12
+Last run: **2026-11-13T19:45:26Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (107)
+## New items, last 48 hours (109)
 
 ### High priority sources
 
@@ -10,6 +10,7 @@ Last run: **2026-11-13T18:17:29Z** · sources checked: 81 · failed: 1 · new it
 |---|---|---|
 | 2026-11-13 | IAPP — International Association of Privacy Professionals | [The Barbados-Guyana Digital Identity Card Travel Initiative: Identifying the data protection gaps](https://iapp.org/news/a/the-barbados-guyana-digital-identity-card-travel-initiative-identifying-the-data-protection-gaps) |
 | 2026-11-13 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Accountability should outweigh consent with connected vehicles](https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles) |
+| 2026-11-13 | Hunton Privacy & Information Security Law Blog | [General Motors Settles Multistate Driver Privacy Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/general-motors-settles-multistate-driver-privacy-claims) |
 | 2026-11-13 | Data Protection Commission (Ireland) | [Read more about Data Protection Commission fines MTCH €11 million following Inquiry into Tinder users’ personal data requests](https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-mtch-eu11-million-following-inquiry-tinder-users-personal-data) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Italy's latest approach to AI, privacy and cybersecurity](https://iapp.org/news/a/italys-latest-approach-to-ai-privacy-and-cybersecurity) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Could state attorneys general strengthen the DPF after Slaughter?](https://iapp.org/news/a/could-state-attorneys-general-strengthen-the-dpf-after-slaughter) |
@@ -72,6 +73,7 @@ Last run: **2026-11-13T18:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | The Record (Recorded Future News) | [NYC to bar surveillance pricing as momentum for bans grows nationwide](https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing) |
 | 2026-11-13 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-581/) |
 | 2026-11-13 | Center for Data Innovation | [5 Q’s with Arnaud Schwartz, CEO of CheckMarble](https://datainnovation.org/2026/11/5-qs-with-arnaud-schwartz-ceo-of-checkmarble/) |
 | 2026-11-13 | Center for Data Innovation | [Mapping Ozone Depletion](https://datainnovation.org/2026/11/mapping-ozone-depletion/) |
@@ -128,7 +130,7 @@ Last run: **2026-11-13T18:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 102× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 103× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -1,38 +1,38 @@
 {
  "month": "2026-11",
- "updated": "2026-11-13T18:18:56Z",
+ "updated": "2026-11-13T19:45:44Z",
  "portal": {
-  "published_total": 99,
-  "published_this_month": 56,
+  "published_total": 100,
+  "published_this_month": 57,
   "published_this_month_by_importance": {
-   "3": 32,
+   "3": 33,
    "2": 10,
    "4": 14
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 373,
-  "runs": 143,
-  "runs_with_failed_sources": 117,
+  "items_collected": 375,
+  "runs": 144,
+  "runs_with_failed_sources": 118,
   "triage_decisions": {
    "drafted": 65,
-   "skipped": 298,
+   "skipped": 300,
    "failed": 11
   },
-  "ai_spend_usd": 16.5868,
+  "ai_spend_usd": 16.5876,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 57,
+  "drafts_published": 58,
   "drafts_rejected": 3
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 600,
+  "page_views": 610,
   "visits": 570,
   "bots_excluded": true,
   "by_day": [
@@ -83,7 +83,7 @@
    },
    {
     "date": "2026-11-13",
-    "page_views": 10,
+    "page_views": 20,
     "visits": 10
    }
   ],
@@ -97,11 +97,11 @@
     "page_views": 80
    },
    {
-    "requestPath": "/",
+    "requestPath": "/category/security/",
     "page_views": 60
    },
    {
-    "requestPath": "/category/security/",
+    "requestPath": "/",
     "page_views": 60
    },
    {
@@ -109,11 +109,15 @@
     "page_views": 30
    },
    {
+    "requestPath": "/institutions/edpb/",
+    "page_views": 20
+   },
+   {
     "requestPath": "/category/ai-governance/",
     "page_views": 20
    },
    {
-    "requestPath": "/institutions/edpb/",
+    "requestPath": "/monday-signal/",
     "page_views": 20
    },
    {
@@ -122,10 +126,6 @@
    },
    {
     "requestPath": "/methodology/",
-    "page_views": 10
-   },
-   {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
     "page_views": 10
    }
   ],
@@ -143,11 +143,15 @@
     "page_views": 30
    },
    {
-    "countryName": "HK",
-    "page_views": 20
+    "countryName": "HR",
+    "page_views": 30
    },
    {
     "countryName": "AR",
+    "page_views": 20
+   },
+   {
+    "countryName": "HK",
     "page_views": 20
    },
    {
@@ -159,15 +163,11 @@
     "page_views": 20
    },
    {
-    "countryName": "HR",
-    "page_views": 20
-   },
-   {
-    "countryName": "SG",
+    "countryName": "PH",
     "page_views": 10
    },
    {
-    "countryName": "PH",
+    "countryName": "SG",
     "page_views": 10
    }
   ],
@@ -178,7 +178,7 @@
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 30
+    "page_views": 40
    },
    {
     "refererHost": "www.google.com",
