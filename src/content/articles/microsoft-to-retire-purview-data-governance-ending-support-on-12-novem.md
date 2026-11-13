@@ -1,8 +1,8 @@
 ---
 title: "Microsoft to retire Purview Data Governance, ending support on 12 November 2027 in shift to Fabric"
 date: 2026-11-13
-dek: "The Unified Catalog, Data Map and Workflows are included, according to a report by catalog vendor DataGalaxy. Purview's data security and compliance tools continue, and the OneLake catalog in Fabric becomes Microsoft's governance experience."
-whyItMatters: "Teams using Purview for glossaries, lineage and stewardship have a one-year window to move curated business metadata that cannot simply be rediscovered from source systems. According to DataGalaxy, manually written descriptions and classifications may require dedicated migration work, while custom attributes and approval processes may not have exact equivalents in a new platform. Lineage that supports impact analysis or regulatory evidence should be checked to confirm it survives the move. Because security labels and DLP stay in Purview while the catalog moves to Fabric, teams should also review how governance and protection controls will stay linked."
+dek: "Unified Catalog, Data Map, Workflows and the Azure Purview solutions are covered. Governance moves to the OneLake catalog in Microsoft Fabric, while Purview keeps data security and compliance."
+whyItMatters: "Teams using Purview for glossaries, lineage and stewardship have a one-year window to move curated business metadata that cannot simply be rediscovered from source systems. Microsoft points customers to the OneLake catalog in Fabric, but itself acknowledges that some organisations need more than Fabric offers today and names third-party catalogs that integrate with it, so the real decision is where governance lives after November 2027. Because sensitivity labels and data loss prevention stay in Purview while the catalog moves to Fabric, teams should also check how protection and governance controls will stay linked."
 categories: [metadata, platforms, market]
 institutions: []
 whoShouldCare: ["CDO", "Data stewards", "Data platform owners", "Legal & compliance"]
@@ -20,6 +20,13 @@ deadlines:
   - date: 2027-11-12
     what: "Support for Microsoft Purview Data Governance, including Unified Catalog, Data Map and Workflows, ends"
 sources:
+  - name: "Microsoft Security Community Blog"
+    title: "A next step in the evolution of the Microsoft Data Governance strategy"
+    url: "https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227"
+    primary: true
+  - name: "Microsoft Partner Center"
+    title: "Partner Center announcements, November 2026: Update on the Microsoft Data Governance strategy"
+    url: "https://learn.microsoft.com/en-gb/partner-center/announcements/2026-november"
   - name: "DataGalaxy"
     title: "Microsoft Purview Data Governance is retiring: what happens next?"
     url: "https://www.datagalaxy.com/en/blog/microsoft-purview-data-governance-is-retiring-what-happens-next/"
@@ -29,10 +36,10 @@ card:
   caption: "End of support for Microsoft Purview Data Governance"
 ---
 
-Microsoft announced on 12 November 2026 that it is retiring its standalone Purview Data Governance offering, with **support ending on 12 November 2027**, according to a blog post by DataGalaxy, a competing catalog vendor. The report says the retirement covers the Purview Unified Catalog, Data Map, Workflows and classic Azure Purview governance solutions.
+Microsoft announced on 12 November 2026 that it is retiring **Microsoft Purview Data Governance**, with **support ending on 12 November 2027**. According to Microsoft's partner announcement, the retirement covers the Unified Catalog, Data Map, Workflows and the Microsoft Azure Purview solutions.
 
-According to the report, Microsoft is moving governance into Microsoft Fabric, with the **OneLake catalog** positioned as its successor. The OneLake catalog offers discovery, ownership information, lineage and endorsements, and can cover external data through shortcuts, mirroring and connectors. Purview Data Security and Compliance, including sensitivity labels and data loss prevention, is not affected.
+In a blog post, Microsoft said Microsoft Fabric is now its data governance solution and the **OneLake catalog** is "the single foundation for governing data across your entire estate". The company said the catalog can govern data outside OneLake through shortcuts, mirroring and supported connectors, and that governance is included in Fabric capacity rather than billed through separate meters.
 
-DataGalaxy says Microsoft acknowledges that some organisations have governance requirements beyond what Fabric currently offers. It cautions that the move should not be treated as a "guaranteed one-to-one replacement" of every existing governance capability.
+**Purview stays focused on data security and compliance**, including classifying, labelling and protecting sensitive data and preventing data loss. Microsoft said customers with contractual obligations and those in highly regulated industries should engage their account team early, and that transition guidance is available.
 
-*Editor's note: This story relies solely on a blog post by DataGalaxy, a competing data catalog vendor, not on Microsoft's own announcement.*
+Microsoft also acknowledged that "some organizations have needs that reach beyond what's in Fabric today", and said Fabric integrates with third-party providers such as Atlan, Alation, Collibra and Informatica. DataGalaxy, a competing catalog vendor, warns that manually curated descriptions, custom attributes and approval processes may need dedicated migration work.
