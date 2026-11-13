@@ -1,27 +1,27 @@
 # Drafts report
 
-Last run: **2026-11-13T15:17:40Z** · candidates 12 · scored 12 · selected 1 · drafted 0 · failed 1 · queued for next run 0
+Last run: **2026-11-13T18:17:41Z** · candidates 12 · scored 12 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.25** of $25 budget (361 calls)
+AI spend this month: **$16.59** of $25 budget (368 calls)
 
 ## This run
 
-- ❌ [Record number of cyber incidents reported to UK privacy regulator](https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator) — card_caption longer than 90 characters
+- ⚠️ 2 claims to check **Google adds AI agent observability across BigQuery and Looker, logging prompts to customer-owned tables** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/116
 
 ## Recently skipped by triage
 
-- (2) Digital identity card data protection gaps analysis from IAPP; practical privacy angle but modest impact and title-only judgement.
-- (2) Conference notes on connected vehicle consent versus accountability; commentary with some practitioner relevance.
-- (1) Generic trends piece for CDOs without concrete governance news.
-- (1) Leadership moves/hiring news.
-- (1) Generic opinion-style piece on auditability with no concrete development evident.
+- (1) Political press remarks on AI and Ukraine; no concrete data governance consequence.
+- (1) Weekly roundup of general data news; no specific governance development identified.
+- (1) Interview with a vendor CEO; company profile without governance news.
+- (1) Ozone science news without data governance angle.
+- (1) Wildlife dataset release; no governance angle.
+- (1) Technical how-to on reverse ETL; not governance news.
+- (2) Generic educational explainer on business glossaries; not news.
+- (1) Opinion piece with no excerpt and no clear governance news.
+- (1) Vendor blog marketing on AI platform teams; not a genuine launch or research.
+- (2) Court ruling on Sky ECC evidence is criminal procedure rather than data governance; marginal angle, low reliability source.
+- (2) Criminal enforcement on North Korean IT worker fraud; limited data governance relevance and dated.
 - (1) General news roundup on Air Force AI deployment without clear data governance consequence.
+- (2) Digital identity card data protection gaps analysis from IAPP; practical privacy angle but modest impact and title-only judgement.
 - (1) Vendor blog post marketing a product release, not a genuine launch or research finding.
-- (2) Employee data breach linked to a cloud provider; limited governance consequence.
-- (2) Ransomware attack on cloud provider disrupting customers; useful third-party risk example.
-- (3) Microsoft outage fuelling European sovereignty debate; same event as Computer Weekly item, this is the better-sourced version of the policy angle.
-- (2) Same Microsoft outage story covered by Euractiv; the Euractiv item is preferred.
-- (1) Same story as POLITICO item 3 about the Tinder €11M DPC fine; the POLITICO item is the detailed coverage, so this one is a duplicate.
-- (1) Executive appointment announcement; hiring news is not relevant.
-- (2) Microsoft outage with phishing risk; general security incident coverage from a low-reliability general outlet, not a governance development with a clear data-governance angle.
-- (2) Advocacy testimony on pending ALPR bills; legislative process with limited obligation impact so far, worth knowing.
+- (1) Generic opinion-style piece on auditability with no concrete development evident.

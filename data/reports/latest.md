@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T15:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 12
+Last run: **2026-11-13T18:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 12
 
-## New items, last 48 hours (108)
+## New items, last 48 hours (107)
 
 ### High priority sources
 
@@ -19,15 +19,15 @@ Last run: **2026-11-13T15:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Court of Justice of the EU — Press releases | [Judgments of the Court In Cases C-442/23 Poland v Parliament and Council (Objectives of the LULUCF sector), C-444/23 Poland v Parliament and Council (Strengthening of performance standards for vehicles), C-445/23 Poland v Parliament and Council (Extension of the market stability reserve), C-451/23 Poland v Parliament and Council (Objectives fixed for sectors covered by the ESR Regulation), C-505/23 Poland v Parliament and Council (Emission allowances in building and road transport), C-512/23 Poland v Parliament and Council (Carbon Border Adjustment Mechanism) and C-771/23 Poland v Parliament and Council (Energy efficiency)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260163en.pdf) |
 | 2026-11-12 | European Commission — Press Corner | [EU and Australia deepen science and innovation ties with Horizon Europe Agreement](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2418) |
 | 2026-11-11 | IAPP — International Association of Privacy Professionals | [European Commission releases draft proposal for Digital Fairness Act](https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act) |
-| 2026-11-11 | IAPP — International Association of Privacy Professionals | [EDPB puts ADMT-based recruitment in focus under Coordinated Enforcement Framework](https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework) |
-| 2026-11-11 | IAPP — International Association of Privacy Professionals | [Inside Greece's new AI Act framework](https://iapp.org/news/a/inside-greece-s-new-ai-act-framework) |
-| 2026-11-11 | IAPP — International Association of Privacy Professionals | [Centralized or decentralized AI governance?](https://iapp.org/news/a/centralized-or-decentralized-ai-governance) |
-| 2026-11-11 | IAPP — International Association of Privacy Professionals | [Compliant and still blind: What Article 72 monitoring doesn't see](https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see) |
+| 2026-10-22 | Hunton Privacy & Information Security Law Blog | [DOJ Arrests U.S. Nationals in Widespread North Korean IT Worker Fraud Scheme](https://www.hunton.com/privacy-and-cybersecurity-law-blog/doj-arrests-u-s-nationals-in-widespread-north-korean-it-worker-fraud-scheme) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | Council of the EU — Press releases | [Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/) |
+| 2026-11-13 | Ataccama Blog | [What Is a Business Glossary? Examples and Best Practices](https://www.ataccama.com/blog/what-is-a-business-glossary) |
+| 2026-11-13 | Tech Policy Press | [You’ve Changed. Shouldn’t Your Algorithm?](https://techpolicy.press/youve-changed-shouldnt-your-algorithm) |
 | 2026-11-13 | CDO Magazine | [Artificial Intelligence Agentic AI Trends That Matter Most for CDOs](https://www.cdomagazine.tech/aiml/agentic-ai-trends-that-matter-most-for-cdos) |
 | 2026-11-13 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: JPMorganChase, Scotiabank, and World of Books](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-jpmorganchase-scotiabank-and-world-of-books) |
 | 2026-11-13 | CDO Magazine | [Artificial Intelligence US Investigators Put Auditability at the Center of AI Adoption](https://www.cdomagazine.tech/aiml/us-investigators-put-auditability-at-the-center-of-ai-adoption) |
@@ -66,18 +66,23 @@ Last run: **2026-11-13T15:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
 | 2026-11-11 | CDO Magazine | [US Federal News Bureau Federal Agencies Put Data Governance at the Center of Agentic AI Readiness](https://www.cdomagazine.tech/us-federal-news-bureau/federal-agencies-put-data-governance-at-the-center-of-agentic-ai-readiness) |
 | 2026-11-11 | AZOP — Croatian Personal Data Protection Agency | [EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu](https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/) |
-| 2026-11-11 | CDO Magazine | [Data Management Data Quality: The Most Expensive Technical Debt Nobody Is Measuring](https://www.cdomagazine.tech/data-management/data-quality-the-most-expensive-technical-debt-nobody-is-measuring) |
-| 2026-11-11 | Alation Blog | [November 11, 2026 Enterprise AI: How a Manufacturing CIO Moved from PoC to Production Why does a leading manufacturer's CIO reject 70% of AI use cases? Learn how trusted data and clear governance moved… Read More](https://www.alation.com/blog/enterprise-ai-manufacturing/) |
-| 2026-11-11 | AEPD — Spanish Data Protection Agency | [La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-espanola-de-proteccion-de-datos-ante-la-difusion-tiktok-abuso-sexual-infantil) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-13 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-581/) |
+| 2026-11-13 | Center for Data Innovation | [5 Q’s with Arnaud Schwartz, CEO of CheckMarble](https://datainnovation.org/2026/11/5-qs-with-arnaud-schwartz-ceo-of-checkmarble/) |
+| 2026-11-13 | Center for Data Innovation | [Mapping Ozone Depletion](https://datainnovation.org/2026/11/mapping-ozone-depletion/) |
+| 2026-11-13 | Center for Data Innovation | [Tracking Animal Species](https://datainnovation.org/2026/11/tracking-animal-species/) |
+| 2026-11-13 | Google Cloud Blog — Data Analytics | [From OLAP to OLTP: How Copel Simplified Reverse ETL Using BigQuery's Native Export to AlloyDB](https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/) |
+| 2026-11-13 | Google Cloud Blog — Data Analytics | [New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) |
+| 2026-11-13 | Monte Carlo Blog | [Fixing the AI Platform Team’s Blind Spot: A Common-Thread Approach to Context Across Teams for Trusted AI Deployment](https://montecarlo.ai/blog-fixing-the-ai-platform-teams-blind-spot-a-common-thread-approach-to-context-across-teams-for-trusted-ai-deployment) |
 | 2026-11-13 | The Record (Recorded Future News) | [TSMC confirms employee data breach tied to cloud service provider](https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider) |
 | 2026-11-13 | The Record (Recorded Future News) | [Ransomware attack on Belarusian cloud firm disrupts businesses for days](https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack) |
 | 2026-11-13 | The Record (Recorded Future News) | [Record number of cyber incidents reported to UK privacy regulator](https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator) |
+| 2026-11-13 | Computer Weekly — IT security | [Italian court rejects data from police hacking of Sky ECC cryptophone network](https://www.computerweekly.com/news/366654798/Italian-court-rejects-data-from-police-hacking-of-Sky-ECC-cryptophone-network) |
 | 2026-11-13 | DataGalaxy | [Microsoft Purview Data Governance is retiring. What happens next?](https://www.datagalaxy.com/en/blog/microsoft-purview-data-governance-is-retiring-what-happens-next/) |
 | 2026-11-13 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: #01 Auf einen Kaffee mit IF … Tobias Keber](https://www.baden-wuerttemberg.datenschutz.de/zum-nachschauen-01-auf-einen-kaffee-mit-if-tobias-keber/) |
 | 2026-11-13 | Computer Weekly — IT security | [Microsoft outage: Impact shows risk of M365 bundle lock-in](https://www.computerweekly.com/news/366654819/Microsoft-outage-Impact-shows-risk-of-M365-bundle-lock-in) |
@@ -109,13 +114,7 @@ Last run: **2026-11-13T15:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-11 | Data Engineering Weekly | [How Open Is Open? Iceberg, Catalogs, and User Choice](https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs) |
 | 2026-11-11 | AWS Big Data Blog | [How Samsung Ads federated Snowflake Iceberg tables using Amazon Cognito](https://aws.amazon.com/blogs/big-data/how-samsung-ads-federated-snowflake-iceberg-tables-using-amazon-cognito/) |
 | 2026-11-11 | Precisely Blog | [Enterprise AI Needs a Deterministic Layer](https://www.precisely.com/blog/ai-ready-data/enterprise-ai-needs-a-deterministic-layer/) |
-| 2026-11-11 | AWS Big Data Blog | [Governance compliance beyond the catalog in Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/governance-compliance-beyond-the-catalog-in-amazon-sagemaker-unified-studio/) |
-| 2026-11-11 | AWS Big Data Blog | [How Intuit migrated from Apache Hive Metastore to AWS Glue Data Catalog](https://aws.amazon.com/blogs/big-data/how-intuit-migrated-from-apache-hive-metastore-to-aws-glue-data-catalog/) |
-| 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Espionage, AI, and the Risks of Strategic Overreaction](https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/) |
-| 2026-11-11 | dbt Labs Blog | [Making the economic case for warehouse-first AI context](https://www.getdbt.com/blog/economic-case-warehouse-first-ai-context) |
 | 2026-11-11 | Center for Security and Emerging Technology (CSET) | [Spy scandal highlights contradictions at heart of Trump’s China policy](https://cset.georgetown.edu/article/spy-scandal-highlights-contradictions-at-heart-of-trumps-china-policy/) |
-| 2026-11-11 | dbt Labs Blog | [A letter from our founders](https://www.getdbt.com/blog/founders-letter) |
-| 2026-11-10 | Center for Security and Emerging Technology (CSET) | [The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO](https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/) |
 | 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
 | 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
@@ -129,7 +128,7 @@ Last run: **2026-11-13T15:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 101× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 102× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

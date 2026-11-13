@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-13T15:18:17Z",
+ "updated": "2026-11-13T18:18:56Z",
  "portal": {
   "published_total": 99,
   "published_this_month": 56,
@@ -12,15 +12,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 361,
-  "runs": 142,
-  "runs_with_failed_sources": 116,
+  "items_collected": 373,
+  "runs": 143,
+  "runs_with_failed_sources": 117,
   "triage_decisions": {
-   "drafted": 64,
-   "skipped": 287,
+   "drafted": 65,
+   "skipped": 298,
    "failed": 11
   },
-  "ai_spend_usd": 16.2472,
+  "ai_spend_usd": 16.5868,
   "sources_active": 81,
   "sources_failing_now": 1
  },

@@ -224,6 +224,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "076e47fd1c941748": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Ozone science news without data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "084484653dbf1094": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -563,6 +572,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "14241029f39280dc": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Political press remarks on AI and Ukraine; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1439e0349a54fc98": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -799,6 +817,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Hiring/leadership appointment news with no governance substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "1e1b3dea5c7d74b5": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Criminal enforcement on North Korean IT worker fraud; limited data governance relevance and dated.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2069,6 +2098,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4b0ce8be38ac834d": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Court ruling on Sky ECC evidence is criminal procedure rather than data governance; marginal angle, low reliability source.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4c1302a07aad978a": {
    "at": "2026-11-03T09:18:33Z",
    "categories": [
@@ -2103,6 +2143,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Political coverage of midterm tech policy; general commentary without a concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "4cf6b427460c9cc7": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Generic educational explainer on business glossaries; not news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2546,6 +2597,15 @@
    "primary_found": true,
    "reason": "CPPA staff proposed amendments to CCPA regulations on opt-out preference signals, a pending regulatory change affecting organisations' consent and data-use obligations.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "5ad46b5b03756ecf": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Wildlife dataset release; no governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "5aed3e8e219a7f7d": {
@@ -3660,6 +3720,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "8815af7e70941b21": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview with a vendor CEO; company profile without governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "89ab5b4ce90b3bbc": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -4347,6 +4416,24 @@
    "reason": "Same story as existing draft on noyb's Scale AI complaints.",
    "relevant": false,
    "same_story_as": "noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio"
+  },
+  "a324048b9a561e00": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [
+    "ai-governance",
+    "metadata",
+    "platforms"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "google-adds-ai-agent-observability-across-bigquery-and-looker-logging",
+   "flagged": 2,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/116",
+   "primary_found": false,
+   "reason": "Google announces expanded AI agent observability and governance across BigQuery and Looker, a product development relevant to governing agents and their data access.",
+   "relevant": true,
+   "same_story_as": null
   },
   "a3e5e3993999079e": {
    "at": "2026-10-26T18:18:09Z",
@@ -5365,6 +5452,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c8630dc9887e875b": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing on AI platform teams; not a genuine launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c8c7167627ccba85": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -5549,6 +5645,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event conference notes with no specific decision or consequence stated in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "cf4f434cd34df996": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Technical how-to on reverse ETL; not governance news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6301,6 +6406,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e4d9869d423dfd36": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion piece with no excerpt and no clear governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e4db44a3eaf88456": {
    "at": "2026-11-13T15:17:40Z",
    "categories": [
@@ -7032,6 +7146,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fec0035d2d6355d9": {
+   "at": "2026-11-13T18:17:41Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Weekly roundup of general data news; no specific governance development identified.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "feef222b15ac54bc": {
    "at": "2026-11-02T15:18:39Z",
    "categories": [],
@@ -7088,8 +7211,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 361,
-   "usd": 16.2472
+   "calls": 368,
+   "usd": 16.5868
   }
  }
 }
