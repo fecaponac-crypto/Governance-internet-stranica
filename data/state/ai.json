@@ -77,6 +77,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "020feb91bbacfe71": {
+   "at": "2026-11-14T15:17:37Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same story as existing article on Garante's €805 million Meta fine.",
+   "relevant": false,
+   "same_story_as": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a"
+  },
   "02ccca99cf715b6e": {
    "at": "2026-11-05T15:18:33Z",
    "categories": [
@@ -7301,8 +7312,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 378,
-   "usd": 16.8722
+   "calls": 379,
+   "usd": 16.8729
   }
  }
 }

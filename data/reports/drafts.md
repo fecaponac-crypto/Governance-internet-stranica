@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-14T12:17:32Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-14T15:17:37Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.87** of $25 budget (378 calls)
+AI spend this month: **$16.87** of $25 budget (379 calls)
 
 ## This run
 
-- ✅ (✏️ 2 corrected automatically) **Italy's Garante fines Meta €805 million over Facebook app's access to Android photo galleries** — importance 5 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/117
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (4) Same story as existing article on Garante's €805 million Meta fine.
 - (1) Italian DPA statement about RespiVirNet health surveillance suspension; no excerpt and it is a short clarification with unclear governance substance, not a clear data governance development.
 - (1) Recorded event videos from an AI week; event promotion/content with no concrete governance development.
 - (1) Vendor blog post on context rot; no genuine launch, acquisition or research finding, and generic thought-leadership.
@@ -24,4 +25,3 @@ AI spend this month: **$16.87** of $25 budget (378 calls)
 - (2) Generic educational explainer on business glossaries; not news.
 - (1) Wildlife dataset release; no governance angle.
 - (1) Interview with a vendor CEO; company profile without governance news.
-- (1) Vendor blog marketing on AI platform teams; not a genuine launch or research.

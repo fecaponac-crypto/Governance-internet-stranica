@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T12:17:20Z** · sources checked: 81 · failed: 2 · new items this run: 1
+Last run: **2026-11-14T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (82)
+## New items, last 48 hours (80)
 
 ### High priority sources
 
@@ -24,6 +24,7 @@ Last run: **2026-11-14T12:17:20Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | POLITICO Europe — Technology | [Italy hits Meta with €805m fine over privacy law violation](https://www.politico.eu/article/italy-hits-meta-with-e805m-fine-over-privacy-law-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-13 | Council of the EU — Press releases | [Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/) |
 | 2026-11-13 | Ataccama Blog | [What Is a Business Glossary? Examples and Best Practices](https://www.ataccama.com/blog/what-is-a-business-glossary) |
 | 2026-11-13 | Tech Policy Press | [You’ve Changed. Shouldn’t Your Algorithm?](https://techpolicy.press/youve-changed-shouldnt-your-algorithm) |
@@ -48,9 +49,7 @@ Last run: **2026-11-14T12:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-12 | Euractiv | [The EU Data Act: Vehicle data access is changing, but is it working?](https://www.rapporteur.com/video/the-eu-data-act-vehicle-data-access-is-changing-but-is-it-working/) |
 | 2026-11-12 | Council of the EU — Press releases | [Fisheries and aquaculture: Council and Parliament agree on modernised framework for statistics](https://www.consilium.europa.eu/en/press/press-releases/2026/11/12/fisheries-and-aquaculture-council-and-parliament-agree-on-modernised-framework-for-statistics/) |
 | 2026-11-12 | European Data Protection Supervisor (EDPS) | [TechSonar 2026-2027](https://www.edps.europa.eu/press-publications/press-news/news/2026/techsonar-2026-2027) |
-| 2026-11-12 | CDO Magazine | [Leadership Moves Tony Cyriac Joins JPMorganChase as Chief Data and Analytics Officer for Wealth Management](https://www.cdomagazine.tech/leadership-moves/tony-cyriac-joins-jpmorganchase-as-chief-data-and-analytics-officer-for-wealth-management) |
 | 2026-11-12 | CNIL (France) | [Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA](https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur) |
-| 2026-11-12 | European Parliament — Press releases | [Press release - AI in democracy: ensuring oversight and compliance with EU values](https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
@@ -97,14 +96,12 @@ Last run: **2026-11-14T12:17:20Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-12 | International Data Spaces Association | [A decade of data spaces produced standards, code and a question about money](https://internationaldataspaces.org/a-decade-of-data-spaces-produced-standards-code-and-a-question-about-money/) |
 | 2026-11-12 | The Record (Recorded Future News) | [Kazakhstan-linked hackers used AI agent to spy on Central Asian governments](https://therecord.media/kazakhstan-hackers-central-asia) |
 | 2026-11-12 | Modern Data 101 | [The Tell: Good Metrics vs. Bad Metrics](https://moderndata101.substack.com/p/good-metrics-vs-bad-metrics) |
-| 2026-11-12 | Stibo Systems Blog | [AI has entered the ROI phase](https://www.stibosystems.com/blog/ai-has-entered-the-roi-phase) |
 | 2026-11-12 | Computer Weekly — IT security | [AI & cybersecurity: A Computer Weekly Downtime Upload podcast](https://www.computerweekly.com/podcast/AI-cybersecurity-A-Computer-Weekly-Downtime-Upload-podcast) |
 | 2026-11-12 | Computer Weekly — IT security | [AI agents bring down wind farm within two hours](https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 111× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
+- **European Data Protection Board (EDPB)** — failed 112× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
