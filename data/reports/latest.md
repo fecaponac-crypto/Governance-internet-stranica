@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T06:17:28Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-14T09:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (91)
+## New items, last 48 hours (87)
 
 ### High priority sources
 
@@ -16,8 +16,6 @@ Last run: **2026-11-14T06:17:28Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Could state attorneys general strengthen the DPF after Slaughter?](https://iapp.org/news/a/could-state-attorneys-general-strengthen-the-dpf-after-slaughter) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Hot off the press — An initial reaction to the DFA](https://iapp.org/news/a/a-view-from-brussels-hot-off-the-press-an-initial-reaction-to-the-dfa) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: What NZ's MMH breach reveals about accountability](https://iapp.org/news/a/notes-from-the-asia-pacific-region-what-nz-s-mmh-breach-reveals-about-accountability) |
-| 2026-11-12 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Juliane Kokott in Case C-826/24 P Commission v Google and Alphabet (Google AdSense)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260164en.pdf) |
-| 2026-11-12 | Court of Justice of the EU — Press releases | [Judgments of the Court In Cases C-442/23 Poland v Parliament and Council (Objectives of the LULUCF sector), C-444/23 Poland v Parliament and Council (Strengthening of performance standards for vehicles), C-445/23 Poland v Parliament and Council (Extension of the market stability reserve), C-451/23 Poland v Parliament and Council (Objectives fixed for sectors covered by the ESR Regulation), C-505/23 Poland v Parliament and Council (Emission allowances in building and road transport), C-512/23 Poland v Parliament and Council (Carbon Border Adjustment Mechanism) and C-771/23 Poland v Parliament and Council (Energy efficiency)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260163en.pdf) |
 | 2026-11-12 | European Commission — Press Corner | [EU and Australia deepen science and innovation ties with Horizon Europe Agreement](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2418) |
 | 2026-10-22 | Hunton Privacy & Information Security Law Blog | [DOJ Arrests U.S. Nationals in Widespread North Korean IT Worker Fraud Scheme](https://www.hunton.com/privacy-and-cybersecurity-law-blog/doj-arrests-u-s-nationals-in-widespread-north-korean-it-worker-fraud-scheme) |
 
@@ -57,8 +55,6 @@ Last run: **2026-11-14T06:17:28Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | European Parliament — Press releases | [Press release - AI in democracy: ensuring oversight and compliance with EU values](https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/) |
 | 2026-11-12 | POLITICO Europe — Technology | [Australia signs up to EU’s Horizon Europe research program](https://www.politico.eu/article/australia-signs-up-to-eus-horizon-europe-research-program/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-12 | Euractiv | [MEPs create pan-European rules for cloud sovereignty tiers](https://www.rapporteur.com/news/meps-create-pan-european-rules-for-cloud-sovereignty-tiers/) |
-| 2026-11-12 | AEPD — Spanish Data Protection Agency | [La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos) |
-| 2026-11-12 | DATAVERSITY | [From Data Complexity to Data Decisions: Rethinking the Vs](https://www.dataversity.net/articles/from-data-complexity-to-data-decisions-rethinking-the-vs/) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
@@ -112,7 +108,7 @@ Last run: **2026-11-14T06:17:28Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 108× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 109× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

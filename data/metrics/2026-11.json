@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-14T06:17:47Z",
+ "updated": "2026-11-14T09:17:38Z",
  "portal": {
   "published_total": 100,
   "published_this_month": 57,
@@ -13,8 +13,8 @@
  },
  "pipeline": {
   "items_collected": 378,
-  "runs": 149,
-  "runs_with_failed_sources": 123,
+  "runs": 150,
+  "runs_with_failed_sources": 124,
   "triage_decisions": {
    "drafted": 65,
    "skipped": 303,
@@ -32,8 +32,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 610,
-  "visits": 570,
+  "page_views": 620,
+  "visits": 580,
   "bots_excluded": true,
   "by_day": [
    {
@@ -85,6 +85,11 @@
     "date": "2026-11-13",
     "page_views": 20,
     "visits": 10
+   },
+   {
+    "date": "2026-11-14",
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
@@ -97,11 +102,11 @@
     "page_views": 80
    },
    {
-    "requestPath": "/category/security/",
-    "page_views": 60
+    "requestPath": "/",
+    "page_views": 70
    },
    {
-    "requestPath": "/",
+    "requestPath": "/category/security/",
     "page_views": 60
    },
    {
@@ -132,7 +137,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 330
+    "page_views": 340
    },
    {
     "countryName": "GB",
@@ -174,7 +179,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 540
+    "page_views": 550
    },
    {
     "refererHost": "datagovernancesignal.com",
