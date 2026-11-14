@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-13T21:17:35Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-14T00:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (103)
+## New items, last 48 hours (104)
 
 ### High priority sources
 
@@ -70,6 +70,7 @@ Last run: **2026-11-13T21:17:35Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | Monte Carlo Blog | [The Other Kind of Context Rot: How Source Rot Corrupts LLM Performance Before Inference Even Begins](https://montecarlo.ai/blog-the-other-kind-of-context-rot-how-source-rot) |
 | 2026-11-13 | Monte Carlo Blog | [What it takes to ship a self-improving agent](https://montecarlo.ai/blog-ship-self-improving-agents) |
 | 2026-11-13 | The Record (Recorded Future News) | [NYC to bar surveillance pricing as momentum for bans grows nationwide](https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing) |
 | 2026-11-13 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-581/) |
@@ -124,7 +125,7 @@ Last run: **2026-11-13T21:17:35Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 104× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 105× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

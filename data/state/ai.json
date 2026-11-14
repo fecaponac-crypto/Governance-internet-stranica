@@ -6855,6 +6855,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f2e3cf7064fbae44": {
+   "at": "2026-11-14T00:17:34Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog post on context rot; no genuine launch, acquisition or research finding, and generic thought-leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f39d4264ef97e86a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -7256,8 +7267,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 370,
-   "usd": 16.5884
+   "calls": 371,
+   "usd": 16.5891
   }
  }
 }

@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-13T21:17:47Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-14T00:17:34Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.59** of $25 budget (370 calls)
+AI spend this month: **$16.59** of $25 budget (371 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Vendor blog post on context rot; no genuine launch, acquisition or research finding, and generic thought-leadership.
 - (1) Vendor blog post from Monte Carlo offering agent-building advice; vendor marketing rather than genuine launch or research news, though it cites a survey.
 - (1) Post-quantum cyber readiness opinion piece without a concrete data governance angle or new regulatory development.
 - (4) Same story as existing article on GM's $220 million settlement with attorneys general; the Hunton post adds no new facts, so it is not relevant.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Vendor blog marketing on AI platform teams; not a genuine launch or research.
 - (1) Technical how-to on reverse ETL; not governance news.
 - (1) Opinion piece with no excerpt and no clear governance news.
-- (1) Weekly roundup of general data news; no specific governance development identified.

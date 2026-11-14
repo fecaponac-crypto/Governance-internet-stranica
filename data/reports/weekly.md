@@ -1,28 +1,28 @@
-Data Governance Signal — week 6 Nov – 12 Nov 2026
+Data Governance Signal — week 7 Nov – 13 Nov 2026
 
-Visits:      171  (-58% on the week before: 410)
-Page views:  187  (-57% on the week before: 430)
+Visits:      114  (-76% on the week before: 470)
+Page views:  137  (-71% on the week before: 480)
 
 Most read:
-    46  /
-    12  /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/
-    12  /news/blackfog-commissioned-survey-finds-47-of-firms-report-sensitive-data-e/
-    10  /category/privacy/
-     8  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
+    41  /
+     6  /institutions/edpb/
+     5  /enforcement/
+     4  /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/
+     4  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
 
 Countries:
-    80  US
-    24  GB
-    14  HR
-    10  NL
-     7  BE
+    72  US
+    20  HR
+     6  CN
+     4  HK
+     4  DE
 
 Where visitors came from:
-   147  (direct)
-    16  datagovernancesignal.com
-    11  www.google.com
-     7  teams.public.onecdn.static.microsoft
-     3  www.linkedin.com
+   100  (direct)
+    23  datagovernancesignal.com
+     9  www.google.com
+     2  www.linkedin.com
+     1  go.bsky.app
 
 Published this week: 31 stories
   - Australia plans mandatory frontier AI security duties and a new AI safety regulator
@@ -30,16 +30,16 @@ Published this week: 31 stories
   - CalPrivacy advances CCPA amendments requiring opt-out signals to be honoured before tracking cookies fire
   - Chilean bill to delay data protection law to 15 October 2027 passes Senate, wins general committee backing
   - CNIL issues ten fines of up to EUR 20,000 to local authorities and a public body over cybersecurity
-  - CNIL sets out GDPR duties for internal research by health professionals using patient care data
   - Databricks previews publishing Unity Catalog metric views directly to Power BI semantic models
-  - DataHub sets out six-step loop for managing shared context for AI agents after launch
   - Dutch AP finds Tax Administration complies with privacy law on only 2 of 12 topics under intensified oversight
   - EDPB welcomes South Korea's privacy law changes in first adequacy review and finalises processor BCR recommendations
   - EDPB picks automated decision-making in recruitment as 2027 coordinated enforcement topic
   - EDRi urges EU to limit any new data retention law to targeted, judicially authorised quick freeze orders
   - ENISA's 2026 State of Cybersecurity report puts EU cyber maturity index at 71.53 out of 100
-  - EU Kids Act proposal would turn minor-protection guidance into audited design and age-check duties
-  - European Commission preliminarily finds TikTok's 'For You' algorithm breaches the DSA over 'rabbit holes'
+  - European Commission proposes Digital Fairness Act banning dark patterns and sensitive-data ad targeting
+  - FDA asks for input on getting patient-level real-world data behind drug and biologic submissions
+  - Five more states join FTC lawsuit alleging Hims & Hers shared health data with ad platforms
+  - Gartner survey: 71% of organisations expect to deploy agentic AI within a year, but 21% have governance in place
   … and 16 more
 
 Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).
