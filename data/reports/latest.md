@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T03:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-14T06:17:28Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (103)
+## New items, last 48 hours (91)
 
 ### High priority sources
 
@@ -59,9 +59,6 @@ Last run: **2026-11-14T03:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Euractiv | [MEPs create pan-European rules for cloud sovereignty tiers](https://www.rapporteur.com/news/meps-create-pan-european-rules-for-cloud-sovereignty-tiers/) |
 | 2026-11-12 | AEPD — Spanish Data Protection Agency | [La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos) |
 | 2026-11-12 | DATAVERSITY | [From Data Complexity to Data Decisions: Rethinking the Vs](https://www.dataversity.net/articles/from-data-complexity-to-data-decisions-rethinking-the-vs/) |
-| 2026-11-12 | CDO Magazine | [US Federal News Bureau FDA Seeks Input on Patient-Level Data Access for Real-World Evidence Submissions](https://www.cdomagazine.tech/us-federal-news-bureau/fda-seeks-input-on-patient-level-data-access-for-real-world-evidence-submissions) |
-| 2026-11-12 | CDO Magazine | [Artificial Intelligence Companies Tighten Employee Access to AI Tools as Costs and Risks Grow](https://www.cdomagazine.tech/aiml/companies-tighten-employee-access-to-ai-tools-as-costs-and-risks-grow) |
-| 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
@@ -111,20 +108,11 @@ Last run: **2026-11-14T03:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Computer Weekly — IT security | [AI & cybersecurity: A Computer Weekly Downtime Upload podcast](https://www.computerweekly.com/podcast/AI-cybersecurity-A-Computer-Weekly-Downtime-Upload-podcast) |
 | 2026-11-12 | Computer Weekly — IT security | [AI agents bring down wind farm within two hours](https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours) |
 | 2026-11-12 | Computer Weekly — IT security | [Bug-hunting time cut dramatically with AI, says Forescout](https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout) |
-| 2026-11-09 | EPIC — Electronic Privacy Information Center | [EPIC and Student Defense Submit Comment on Treasury Department’s Takeover of Federal Student Aid Records](https://epic.org/epic-and-student-defense-submit-comment-on-treasury-departments-takeover-of-federal-student-aid-records/) |
-| 2026-11-06 | EPIC — Electronic Privacy Information Center | [WIRED: AI Companies Really, Really Want to Buy Your Work Files and Emails](https://epic.org/wired-ai-companies-really-really-want-to-buy-your-work-files-and-emails/) |
-| 2026-11-06 | EPIC — Electronic Privacy Information Center | [Tech Insider: 56% Cite AI in Vote, Yet Big Tech May Win [2026]](https://epic.org/tech-insider-56-cite-ai-in-vote-yet-big-tech-may-win-2026/) |
-| 2026-11-06 | EPIC — Electronic Privacy Information Center | [CNET: Will Democrats Rein in Big Tech? It Starts With Privacy and Data Centers](https://epic.org/cnet-will-democrats-rein-in-big-tech-it-starts-with-privacy-and-data-centers/) |
-| 2026-11-05 | EPIC — Electronic Privacy Information Center | [Seoul Economic Daily: Character.AI Bankruptcy Raises Fears Over Chat Records](https://epic.org/seoul-economic-daily-character-ai-bankruptcy-raises-fears-over-chat-records/) |
-| 2026-11-05 | EPIC — Electronic Privacy Information Center | [Gadget Review: New Jersey Wants to Make AI Companies Pay $5,000 for Every Violation](https://epic.org/gadget-review-new-jersey-wants-to-make-ai-companies-pay-5000-for-every-violation/) |
-| 2026-11-05 | EPIC — Electronic Privacy Information Center | [WGAL: Data brokers sell your personal information with little regulation](https://epic.org/wgal-data-brokers-sell-your-personal-information-with-little-regulation/) |
-| 2026-11-04 | EPIC — Electronic Privacy Information Center | [Reclaim the Net: New Jersey Wants “Accountable” Chatbots, But At What Privacy Cost?](https://epic.org/reclaim-the-net-new-jersey-wants-accountable-chatbots-but-at-what-privacy-cost/) |
-| 2026-11-04 | EPIC — Electronic Privacy Information Center | [Inside Philanthropy: Going Forward, Democracy Funders Can’t Ignore Surveillance](https://epic.org/inside-philanthropy-going-forward-democracy-funders-cant-ignore-surveillance/) |
 | 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-snowflake-cortex-agents) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 107× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 108× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
