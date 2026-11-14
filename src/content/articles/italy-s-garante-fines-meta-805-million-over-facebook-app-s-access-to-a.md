@@ -20,7 +20,7 @@ enforcement:
   case: garante-meta-facebook-gallery
   action: "Fine"
   authority: "Garante per la protezione dei dati personali"
-  parties: "Meta Platforms Ireland Limited (fined €805 million and ordered to change the Facebook gallery suggestions feature)"
+  parties: "Meta Platforms Ireland Limited (Facebook app for Android)"
   framework: "ePrivacy and cookies"
   jurisdiction: "Italy"
   amount: 805000000
@@ -42,4 +42,8 @@ Italy's Garante has fined Meta Platforms Ireland Limited **€805 million**. It 
 
 The Garante said gallery access relied on a single app-wide permission behind a generic prompt and that the feature was switched on by default. It found a breach of **Article 122 of the Italian Privacy Code**, which transposes the ePrivacy directive. Because ePrivacy has no one-stop-shop, it rejected Meta's claim that the Irish authority was competent.
 
-Within 60 days, Meta must obtain separate, specific consent and keep the feature off by default, including for users who already granted permission. Use of the content to train AI was outside the case; Meta denies such use.
+Within 60 days, Meta must obtain separate, specific consent and keep the feature off by default, including for users who already granted permission. It must report to the Garante within 30 days on the steps started and within 90 days on the measures adopted.
+
+In setting the amount, about **0.47% of the group's worldwide turnover**, the Garante cited the roughly 20 million Android users affected in Italy, the continuing duration of the breach, a 2019 decision against the company and poor cooperation during the inquiry. Changes Meta made after the complaint counted in its favour but were judged late and limited to users who update the app.
+
+Use of the content to train AI was outside the case; Meta denies such use. The Garante reserved the right to examine separately a new feature, launched in 2026, that processes gallery content in the cloud. The press release does not say whether Meta will appeal.
