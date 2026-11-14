@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-14T10:30:16Z",
+ "updated": "2026-11-14T12:18:36Z",
  "portal": {
   "published_total": 100,
   "published_this_month": 57,
@@ -12,17 +12,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 380,
-  "runs": 151,
-  "runs_with_failed_sources": 125,
+  "items_collected": 381,
+  "runs": 152,
+  "runs_with_failed_sources": 126,
   "triage_decisions": {
-   "drafted": 65,
+   "drafted": 66,
    "skipped": 305,
    "failed": 11
   },
-  "ai_spend_usd": 16.5898,
+  "ai_spend_usd": 16.8722,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 58,
@@ -32,7 +32,7 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 630,
+  "page_views": 640,
   "visits": 580,
   "bots_excluded": true,
   "by_day": [
@@ -88,7 +88,7 @@
    },
    {
     "date": "2026-11-14",
-    "page_views": 20,
+    "page_views": 30,
     "visits": 10
    }
   ],
@@ -130,14 +130,14 @@
     "page_views": 20
    },
    {
-    "requestPath": "/news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/",
-    "page_views": 10
+    "requestPath": "/opinion/",
+    "page_views": 20
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 340
+    "page_views": 350
    },
    {
     "countryName": "GB",
@@ -183,7 +183,7 @@
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 50
+    "page_views": 60
    },
    {
     "refererHost": "www.google.com",

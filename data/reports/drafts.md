@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-14T10:30:12Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-14T12:17:32Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.59** of $25 budget (372 calls)
+AI spend this month: **$16.87** of $25 budget (378 calls)
 
 ## This run
 
-_No drafts this run._
+- ✅ (✏️ 2 corrected automatically) **Italy's Garante fines Meta €805 million over Facebook app's access to Android photo galleries** — importance 5 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/117
 
 ## Recently skipped by triage
 

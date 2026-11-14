@@ -1,7 +1,7 @@
 Data Governance Signal — week 7 Nov – 13 Nov 2026
 
-Visits:      114  (-76% on the week before: 470)
-Page views:  137  (-71% on the week before: 480)
+Visits:      100  (-79% on the week before: 470)
+Page views:  130  (-73% on the week before: 480)
 
 Most read:
     41  /
@@ -11,18 +11,17 @@ Most read:
      4  /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/
 
 Countries:
-    72  US
-    20  HR
-     6  CN
-     4  HK
-     4  DE
+    60  US
+    30  HR
+    10  DK
+    10  AR
+    10  MX
 
 Where visitors came from:
-   100  (direct)
-    23  datagovernancesignal.com
-     9  www.google.com
-     2  www.linkedin.com
-     1  go.bsky.app
+    80  (direct)
+    30  datagovernancesignal.com
+    10  www.google.com
+    10  www.linkedin.com
 
 Published this week: 31 stories
   - Australia plans mandatory frontier AI security duties and a new AI safety regulator

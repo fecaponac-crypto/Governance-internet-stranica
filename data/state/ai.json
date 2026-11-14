@@ -6659,6 +6659,22 @@
    "relevant": true,
    "same_story_as": null
   },
+  "eabbe07a99965e89": {
+   "at": "2026-11-14T12:17:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a",
+   "flagged": 0,
+   "importance": 5,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/117",
+   "primary_found": false,
+   "reason": "Italian Garante fines Meta EUR 805 million, a major enforcement action with broad impact; not already covered in existing articles.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ebf4a5e3d175c636": {
    "at": "2026-11-03T18:19:30Z",
    "categories": [
@@ -7285,8 +7301,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 372,
-   "usd": 16.5898
+   "calls": 378,
+   "usd": 16.8722
   }
  }
 }

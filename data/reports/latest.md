@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-14T10:29:58Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-14T12:17:20Z** · sources checked: 81 · failed: 2 · new items this run: 1
 
-## New items, last 48 hours (89)
+## New items, last 48 hours (82)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | Garante per la protezione dei dati personali (Italy) | [Facebook: il Garante Privacy sanziona Meta per 805 milioni di euro](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10321080) |
 | 2026-11-14 | Garante per la protezione dei dati personali (Italy) | [RespiVirNet, Il Garante: "Nessuna sospensione decisa da noi"](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10321055) |
 | 2026-11-13 | IAPP — International Association of Privacy Professionals | [The Barbados-Guyana Digital Identity Card Travel Initiative: Identifying the data protection gaps](https://iapp.org/news/a/the-barbados-guyana-digital-identity-card-travel-initiative-identifying-the-data-protection-gaps) |
 | 2026-11-13 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Accountability should outweigh consent with connected vehicles](https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles) |
@@ -17,7 +18,6 @@ Last run: **2026-11-14T10:29:58Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Could state attorneys general strengthen the DPF after Slaughter?](https://iapp.org/news/a/could-state-attorneys-general-strengthen-the-dpf-after-slaughter) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Hot off the press — An initial reaction to the DFA](https://iapp.org/news/a/a-view-from-brussels-hot-off-the-press-an-initial-reaction-to-the-dfa) |
 | 2026-11-12 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: What NZ's MMH breach reveals about accountability](https://iapp.org/news/a/notes-from-the-asia-pacific-region-what-nz-s-mmh-breach-reveals-about-accountability) |
-| 2026-11-12 | European Commission — Press Corner | [EU and Australia deepen science and innovation ties with Horizon Europe Agreement](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2418) |
 | 2026-10-22 | Hunton Privacy & Information Security Law Blog | [DOJ Arrests U.S. Nationals in Widespread North Korean IT Worker Fraud Scheme](https://www.hunton.com/privacy-and-cybersecurity-law-blog/doj-arrests-u-s-nationals-in-widespread-north-korean-it-worker-fraud-scheme) |
 
 ### Medium priority sources
@@ -50,12 +50,7 @@ Last run: **2026-11-14T10:29:58Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | European Data Protection Supervisor (EDPS) | [TechSonar 2026-2027](https://www.edps.europa.eu/press-publications/press-news/news/2026/techsonar-2026-2027) |
 | 2026-11-12 | CDO Magazine | [Leadership Moves Tony Cyriac Joins JPMorganChase as Chief Data and Analytics Officer for Wealth Management](https://www.cdomagazine.tech/leadership-moves/tony-cyriac-joins-jpmorganchase-as-chief-data-and-analytics-officer-for-wealth-management) |
 | 2026-11-12 | CNIL (France) | [Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA](https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur) |
-| 2026-11-12 | Datatilsynet (Norway) | [Overtredelsesgebyr til Social Garden](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/overtredelsesgebyr-til-social-garden/) |
-| 2026-11-12 | CDO Magazine | [AI Governance Non-Human Identity Security](https://www.cdomagazine.tech/ai-governance/non-human-identity-security) |
-| 2026-11-12 | CDO Magazine | [Artificial Intelligence NIST Draft Maps Security Threats Facing Agentic AI Systems](https://www.cdomagazine.tech/aiml/nist-draft-maps-security-threats-facing-agentic-ai-systems) |
 | 2026-11-12 | European Parliament — Press releases | [Press release - AI in democracy: ensuring oversight and compliance with EU values](https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/) |
-| 2026-11-12 | POLITICO Europe — Technology | [Australia signs up to EU’s Horizon Europe research program](https://www.politico.eu/article/australia-signs-up-to-eus-horizon-europe-research-program/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-12 | Euractiv | [MEPs create pan-European rules for cloud sovereignty tiers](https://www.rapporteur.com/news/meps-create-pan-european-rules-for-cloud-sovereignty-tiers/) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
@@ -105,12 +100,11 @@ Last run: **2026-11-14T10:29:58Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Stibo Systems Blog | [AI has entered the ROI phase](https://www.stibosystems.com/blog/ai-has-entered-the-roi-phase) |
 | 2026-11-12 | Computer Weekly — IT security | [AI & cybersecurity: A Computer Weekly Downtime Upload podcast](https://www.computerweekly.com/podcast/AI-cybersecurity-A-Computer-Weekly-Downtime-Upload-podcast) |
 | 2026-11-12 | Computer Weekly — IT security | [AI agents bring down wind farm within two hours](https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours) |
-| 2026-11-12 | Computer Weekly — IT security | [Bug-hunting time cut dramatically with AI, says Forescout](https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout) |
-| 2026-11-02 | Monte Carlo Blog | [What Do Your Snowflake Cortex Agents Actually Cost? Now You Know](https://montecarlo.ai/blog-snowflake-cortex-agents) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 110× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 111× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 

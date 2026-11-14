@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-14T10:30:16Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-14T12:18:36Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**580 visits · 630 page views** this month (bots excluded)
+**580 visits · 640 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -18,7 +18,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-10 | 20 | 40 |
 | 2026-11-12 | 40 | 40 |
 | 2026-11-13 | 10 | 20 |
-| 2026-11-14 | 10 | 20 |
+| 2026-11-14 | 10 | 30 |
 
 ## Top pages
 
@@ -31,11 +31,11 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/ai-governance/ — 20
 - /monday-signal/ — 20
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
-- /news/imy-reprimands-four-swedish-people-search-services-and-rules-gdpr-over/ — 10
+- /opinion/ — 20
 
 ## Countries
 
-- US — 340
+- US — 350
 - GB — 40
 - CN — 30
 - HR — 30
@@ -49,7 +49,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 ## Referrers
 
 - (direct) — 550
-- datagovernancesignal.com — 50
+- datagovernancesignal.com — 60
 - www.google.com — 10
 - teams.public.onecdn.static.microsoft — 10
 - www.linkedin.com — 10
