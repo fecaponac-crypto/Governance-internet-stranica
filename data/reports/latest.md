@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T18:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-14T21:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (50)
+## New items, last 48 hours (48)
 
 ### High priority sources
 
@@ -36,7 +36,6 @@ Last run: **2026-11-14T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | POLITICO Europe — Technology | [Tinder owner hit with €11M privacy fine](https://www.politico.eu/article/tinder-owner-hit-with-e11m-privacy-fine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-12 | Future of Privacy Forum | [FPF Launches Roundtable Series on Agentic AI, Privacy, and PETs](https://fpf.org/blog/fpf-launches-roundtable-series-on-agentic-ai-privacy-and-pets/) |
 | 2026-11-12 | European Data Protection Supervisor (EDPS) | [EDPS publishes Opinion on EU KIDS Act](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-publishes-opinion-eu-kids-act) |
-| 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 
 ### Low priority sources
 
@@ -67,11 +66,10 @@ Last run: **2026-11-14T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [New York City Becomes the Latest City to Ban Surveillance Pricing](https://epic.org/new-york-city-becomes-the-latest-city-to-ban-surveillance-pricing/) |
 | 2026-11-12 | DataHub Blog (open source metadata platform) | [What Is an Automated Data Catalog? From Stale Metadata to Trusted Context](https://datahub.com/blog/automated-data-catalog/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [EPIC Testifies in New York State and the City of Boston Urging for ALPR Guardrails and Greater Transparency](https://epic.org/epic-testifies-in-new-york-state-and-the-city-of-boston-urging-for-alpr-guardrails-and-greater-transparency/) |
-| 2026-11-12 | Google Cloud Blog — Data Analytics | [Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms](https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 114× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 115× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
