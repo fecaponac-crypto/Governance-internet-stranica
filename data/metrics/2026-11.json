@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-14T15:17:40Z",
+ "updated": "2026-11-14T18:07:37Z",
  "portal": {
   "published_total": 101,
   "published_this_month": 58,
@@ -13,15 +13,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 382,
-  "runs": 153,
-  "runs_with_failed_sources": 127,
+  "items_collected": 384,
+  "runs": 154,
+  "runs_with_failed_sources": 128,
   "triage_decisions": {
    "drafted": 66,
-   "skipped": 306,
+   "skipped": 308,
    "failed": 11
   },
-  "ai_spend_usd": 16.8729,
+  "ai_spend_usd": 16.8737,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 650,
-  "visits": 590,
+  "page_views": 660,
+  "visits": 600,
   "bots_excluded": true,
   "by_day": [
    {
@@ -89,8 +89,8 @@
    },
    {
     "date": "2026-11-14",
-    "page_views": 40,
-    "visits": 20
+    "page_views": 50,
+    "visits": 30
    }
   ],
   "top_pages": [
@@ -115,7 +115,11 @@
     "page_views": 30
    },
    {
-    "requestPath": "/institutions/edpb/",
+    "requestPath": "/monday-signal/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/opinion/",
     "page_views": 20
    },
    {
@@ -123,22 +127,18 @@
     "page_views": 20
    },
    {
-    "requestPath": "/monday-signal/",
+    "requestPath": "/institutions/edpb/",
     "page_views": 20
    },
    {
     "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/opinion/",
     "page_views": 20
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 360
+    "page_views": 370
    },
    {
     "countryName": "GB",
@@ -180,7 +180,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 560
+    "page_views": 570
    },
    {
     "refererHost": "datagovernancesignal.com",

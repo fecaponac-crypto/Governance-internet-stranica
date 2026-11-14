@@ -5341,6 +5341,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c000445cd74bf122": {
+   "at": "2026-11-14T18:07:33Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same story as existing article on Garante's €805 million Meta fine over Android photo gallery access.",
+   "relevant": false,
+   "same_story_as": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a"
+  },
   "c00167c5cc0e271e": {
    "at": "2026-11-13T12:18:35Z",
    "categories": [
@@ -5820,6 +5831,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor marketing announcing an AI teammate product with no concrete launch detail or governance consequence beyond generic trust messaging.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d06b361290afebd8": {
+   "at": "2026-11-14T18:07:33Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General AI policy commentary on US AI leadership; no concrete data governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7312,8 +7334,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 379,
-   "usd": 16.8729
+   "calls": 380,
+   "usd": 16.8737
   }
  }
 }

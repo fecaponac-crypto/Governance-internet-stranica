@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-14T15:17:37Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-14T18:07:33Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.87** of $25 budget (379 calls)
+AI spend this month: **$16.87** of $25 budget (380 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) General AI policy commentary on US AI leadership; no concrete data governance consequence.
+- (4) Same story as existing article on Garante's €805 million Meta fine over Android photo gallery access.
 - (4) Same story as existing article on Garante's €805 million Meta fine.
 - (1) Italian DPA statement about RespiVirNet health surveillance suspension; no excerpt and it is a short clarification with unclear governance substance, not a clear data governance development.
 - (1) Recorded event videos from an AI week; event promotion/content with no concrete governance development.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (2) Criminal enforcement on North Korean IT worker fraud; limited data governance relevance and dated.
 - (2) Court ruling on Sky ECC evidence is criminal procedure rather than data governance; marginal angle, low reliability source.
 - (2) Generic educational explainer on business glossaries; not news.
-- (1) Wildlife dataset release; no governance angle.
-- (1) Interview with a vendor CEO; company profile without governance news.

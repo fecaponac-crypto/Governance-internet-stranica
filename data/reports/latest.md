@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-14T18:07:21Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (80)
+## New items, last 48 hours (73)
 
 ### High priority sources
 
@@ -24,6 +24,7 @@ Last run: **2026-11-14T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | Euractiv | [Italy fines Meta €805mn over photo privacy: authority](https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/) |
 | 2026-11-14 | POLITICO Europe — Technology | [Italy hits Meta with €805m fine over privacy law violation](https://www.politico.eu/article/italy-hits-meta-with-e805m-fine-over-privacy-law-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-13 | Council of the EU — Press releases | [Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/) |
 | 2026-11-13 | Ataccama Blog | [What Is a Business Glossary? Examples and Best Practices](https://www.ataccama.com/blog/what-is-a-business-glossary) |
@@ -44,11 +45,7 @@ Last run: **2026-11-14T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | Ataccama Blog | [Ataccama named a Visionary in the 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms: Governing data for AI agents, and what comes next](https://www.ataccama.com/blog/ataccama-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms-governing-data-for-ai-agents-and-what-comes-next) |
 | 2026-11-12 | European Data Protection Supervisor (EDPS) | [EDPS publishes Opinion on EU KIDS Act](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-publishes-opinion-eu-kids-act) |
 | 2026-11-12 | Privacy World (Squire Patton Boggs) | [Notice and Assent: Ninth Circuit Rejects Availability of Mandatory Consumer Arbitration In Back-to-Back Privacy Class Actions](https://www.privacyworld.blog/2026/11/notice-and-assent-ninth-circuit-rejects-availability-of-mandatory-consumer-arbitration-in-back-to-back-privacy-class-actions/) |
-| 2026-11-12 | CDO Magazine | [Artificial Intelligence Three Myths of Agentic BI](https://www.cdomagazine.tech/aiml/three-myths-of-agentic-bi) |
-| 2026-11-12 | CDO Magazine | [Industry Newsroom 4Minds Raises $15M Series A to Give Enterprises a Faster Path to Accurate AI](https://www.cdomagazine.tech/others/4minds-raises-15m-series-a-to-give-enterprises-a-faster-path-to-accurate-ai) |
 | 2026-11-12 | Euractiv | [The EU Data Act: Vehicle data access is changing, but is it working?](https://www.rapporteur.com/video/the-eu-data-act-vehicle-data-access-is-changing-but-is-it-working/) |
-| 2026-11-12 | Council of the EU — Press releases | [Fisheries and aquaculture: Council and Parliament agree on modernised framework for statistics](https://www.consilium.europa.eu/en/press/press-releases/2026/11/12/fisheries-and-aquaculture-council-and-parliament-agree-on-modernised-framework-for-statistics/) |
-| 2026-11-12 | European Data Protection Supervisor (EDPS) | [TechSonar 2026-2027](https://www.edps.europa.eu/press-publications/press-news/news/2026/techsonar-2026-2027) |
 | 2026-11-12 | CNIL (France) | [Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA](https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
@@ -57,6 +54,7 @@ Last run: **2026-11-14T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | Center for Security and Emerging Technology (CSET) | [Convergent Interests: How America Could Undermine Its Own AI Advantage](https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/) |
 | 2026-11-14 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: KI-Woche 2026-Auf welche Frage ist KI die Antwort?](https://www.baden-wuerttemberg.datenschutz.de/videos-ki-woche-2026/) |
 | 2026-11-14 | Monte Carlo Blog | [The Other Kind of Context Rot: How Source Rot Corrupts LLM Performance Before Inference Even Begins](https://montecarlo.ai/blog-the-other-kind-of-context-rot-how-source-rot) |
 | 2026-11-13 | Monte Carlo Blog | [What it takes to ship a self-improving agent](https://montecarlo.ai/blog-ship-self-improving-agents) |
@@ -92,16 +90,11 @@ Last run: **2026-11-14T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | The Record (Recorded Future News) | [ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations](https://therecord.media/connectwise-screenconnect-breaches-third-party-tool) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [EPIC Testifies in New York State and the City of Boston Urging for ALPR Guardrails and Greater Transparency](https://epic.org/epic-testifies-in-new-york-state-and-the-city-of-boston-urging-for-alpr-guardrails-and-greater-transparency/) |
 | 2026-11-12 | Google Cloud Blog — Data Analytics | [Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms](https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/) |
-| 2026-11-12 | Monte Carlo Blog | [AWS re:Invent 2026: Everything You Need to Know Before You Go](https://montecarlo.ai/blog-aws-reinvent-2026-know-before-you-go) |
-| 2026-11-12 | International Data Spaces Association | [A decade of data spaces produced standards, code and a question about money](https://internationaldataspaces.org/a-decade-of-data-spaces-produced-standards-code-and-a-question-about-money/) |
-| 2026-11-12 | The Record (Recorded Future News) | [Kazakhstan-linked hackers used AI agent to spy on Central Asian governments](https://therecord.media/kazakhstan-hackers-central-asia) |
-| 2026-11-12 | Modern Data 101 | [The Tell: Good Metrics vs. Bad Metrics](https://moderndata101.substack.com/p/good-metrics-vs-bad-metrics) |
 | 2026-11-12 | Computer Weekly — IT security | [AI & cybersecurity: A Computer Weekly Downtime Upload podcast](https://www.computerweekly.com/podcast/AI-cybersecurity-A-Computer-Weekly-Downtime-Upload-podcast) |
-| 2026-11-12 | Computer Weekly — IT security | [AI agents bring down wind farm within two hours](https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 112× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 113× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
