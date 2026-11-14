@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T21:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-14T22:27:40Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (48)
+## New items, last 48 hours (46)
 
 ### High priority sources
 
@@ -34,7 +34,6 @@ Last run: **2026-11-14T21:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | CDO Magazine | [Leadership Moves World of Books Appoints Liz Gebhard Chief Transformation and Data Officer](https://www.cdomagazine.tech/leadership-moves/world-of-books-appoints-liz-gebhard-chief-transformation-and-data-officer) |
 | 2026-11-13 | Euractiv | [EU privacy watchdog urges GDPR changes to align kids age limits](https://www.rapporteur.com/news/eu-privacy-watchdog-urges-gdpr-changes-to-align-kids-age-limits/) |
 | 2026-11-13 | POLITICO Europe — Technology | [Tinder owner hit with €11M privacy fine](https://www.politico.eu/article/tinder-owner-hit-with-e11m-privacy-fine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-12 | Future of Privacy Forum | [FPF Launches Roundtable Series on Agentic AI, Privacy, and PETs](https://fpf.org/blog/fpf-launches-roundtable-series-on-agentic-ai-privacy-and-pets/) |
 | 2026-11-12 | European Data Protection Supervisor (EDPS) | [EDPS publishes Opinion on EU KIDS Act](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-publishes-opinion-eu-kids-act) |
 
 ### Low priority sources
@@ -64,12 +63,11 @@ Last run: **2026-11-14T21:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | Computer Weekly — IT security | [Global Microsoft outage leaves users open to phishing attacks](https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks) |
 | 2026-11-12 | LfDI Baden-Württemberg (Germany) | [Leitung der Registratur](https://www.baden-wuerttemberg.datenschutz.de/leitung-der-registratur/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [New York City Becomes the Latest City to Ban Surveillance Pricing](https://epic.org/new-york-city-becomes-the-latest-city-to-ban-surveillance-pricing/) |
-| 2026-11-12 | DataHub Blog (open source metadata platform) | [What Is an Automated Data Catalog? From Stale Metadata to Trusted Context](https://datahub.com/blog/automated-data-catalog/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [EPIC Testifies in New York State and the City of Boston Urging for ALPR Guardrails and Greater Transparency](https://epic.org/epic-testifies-in-new-york-state-and-the-city-of-boston-urging-for-alpr-guardrails-and-greater-transparency/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 115× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 116× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
