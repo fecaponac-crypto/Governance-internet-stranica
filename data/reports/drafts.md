@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-14T09:17:36Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-14T10:30:12Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.59** of $25 budget (371 calls)
+AI spend this month: **$16.59** of $25 budget (372 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Italian DPA statement about RespiVirNet health surveillance suspension; no excerpt and it is a short clarification with unclear governance substance, not a clear data governance development.
+- (1) Recorded event videos from an AI week; event promotion/content with no concrete governance development.
 - (1) Vendor blog post on context rot; no genuine launch, acquisition or research finding, and generic thought-leadership.
 - (1) Vendor blog post from Monte Carlo offering agent-building advice; vendor marketing rather than genuine launch or research news, though it cites a survey.
 - (1) Post-quantum cyber readiness opinion piece without a concrete data governance angle or new regulatory development.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (1) Wildlife dataset release; no governance angle.
 - (1) Interview with a vendor CEO; company profile without governance news.
 - (1) Vendor blog marketing on AI platform teams; not a genuine launch or research.
-- (1) Technical how-to on reverse ETL; not governance news.
-- (1) Opinion piece with no excerpt and no clear governance news.

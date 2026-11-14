@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-14T09:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-14T10:29:58Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (87)
+## New items, last 48 hours (89)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | Garante per la protezione dei dati personali (Italy) | [RespiVirNet, Il Garante: "Nessuna sospensione decisa da noi"](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10321055) |
 | 2026-11-13 | IAPP — International Association of Privacy Professionals | [The Barbados-Guyana Digital Identity Card Travel Initiative: Identifying the data protection gaps](https://iapp.org/news/a/the-barbados-guyana-digital-identity-card-travel-initiative-identifying-the-data-protection-gaps) |
 | 2026-11-13 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Accountability should outweigh consent with connected vehicles](https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles) |
 | 2026-11-13 | Hunton Privacy & Information Security Law Blog | [General Motors Settles Multistate Driver Privacy Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/general-motors-settles-multistate-driver-privacy-claims) |
@@ -62,6 +63,7 @@ Last run: **2026-11-14T09:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-14 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: KI-Woche 2026-Auf welche Frage ist KI die Antwort?](https://www.baden-wuerttemberg.datenschutz.de/videos-ki-woche-2026/) |
 | 2026-11-14 | Monte Carlo Blog | [The Other Kind of Context Rot: How Source Rot Corrupts LLM Performance Before Inference Even Begins](https://montecarlo.ai/blog-the-other-kind-of-context-rot-how-source-rot) |
 | 2026-11-13 | Monte Carlo Blog | [What it takes to ship a self-improving agent](https://montecarlo.ai/blog-ship-self-improving-agents) |
 | 2026-11-13 | The Record (Recorded Future News) | [NYC to bar surveillance pricing as momentum for bans grows nationwide](https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing) |
@@ -108,7 +110,7 @@ Last run: **2026-11-14T09:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 109× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 110× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
