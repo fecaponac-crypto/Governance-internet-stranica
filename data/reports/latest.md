@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-14T00:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-14T01:27:55Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (104)
+## New items, last 48 hours (103)
 
 ### High priority sources
 
@@ -63,7 +63,6 @@ Last run: **2026-11-14T00:17:23Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence Companies Tighten Employee Access to AI Tools as Costs and Risks Grow](https://www.cdomagazine.tech/aiml/companies-tighten-employee-access-to-ai-tools-as-costs-and-risks-grow) |
 | 2026-11-12 | CDO Magazine | [Artificial Intelligence IBM Survey Finds Gap Between Enterprises’ AI Sovereignty Confidence and Proof](https://www.cdomagazine.tech/aiml/ibm-survey-finds-gap-between-enterprises-ai-sovereignty-confidence-and-proof) |
 | 2026-11-12 | Collibra Blog | [It's the Chief Data and AI Officer, not the Chief AI and Data Officer](https://www.collibra.com/blog/it-s-the-chief-data-and-ai-officer-not-the-chief-ai-and-data-officer) |
-| 2026-11-11 | SiliconANGLE — Big Data | [Edelbyte reels in $70M for its multipurpose data analytics platform](https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/) |
 | 2026-11-04 | Collibra Blog | [5 reasons the commercial and private sector got serious about cybersecurity models: CMMC and CPCSC](https://www.collibra.com/blog/5-reasons-the-commercial-and-private-sector-got-serious-about-cybersecurity-models-cmmc-and) |
 
 ### Low priority sources
@@ -125,7 +124,7 @@ Last run: **2026-11-14T00:17:23Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 105× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 106× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
