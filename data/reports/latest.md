@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-15T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-15T12:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (45)
+## New items, last 48 hours (40)
 
 ### High priority sources
 
@@ -34,7 +34,6 @@ Last run: **2026-11-15T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | CDO Magazine | [Leadership Moves World of Books Appoints Liz Gebhard Chief Transformation and Data Officer](https://www.cdomagazine.tech/leadership-moves/world-of-books-appoints-liz-gebhard-chief-transformation-and-data-officer) |
 | 2026-11-13 | Euractiv | [EU privacy watchdog urges GDPR changes to align kids age limits](https://www.rapporteur.com/news/eu-privacy-watchdog-urges-gdpr-changes-to-align-kids-age-limits/) |
 | 2026-11-13 | POLITICO Europe — Technology | [Tinder owner hit with €11M privacy fine](https://www.politico.eu/article/tinder-owner-hit-with-e11m-privacy-fine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-12 | European Data Protection Supervisor (EDPS) | [EDPS publishes Opinion on EU KIDS Act](https://www.edps.europa.eu/press-publications/press-news/news/2026/edps-publishes-opinion-eu-kids-act) |
 
 ### Low priority sources
 
@@ -58,15 +57,11 @@ Last run: **2026-11-15T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | The Record (Recorded Future News) | [Record number of cyber incidents reported to UK privacy regulator](https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator) |
 | 2026-11-13 | Computer Weekly — IT security | [Italian court rejects data from police hacking of Sky ECC cryptophone network](https://www.computerweekly.com/news/366654798/Italian-court-rejects-data-from-police-hacking-of-Sky-ECC-cryptophone-network) |
 | 2026-11-13 | DataGalaxy | [Microsoft Purview Data Governance is retiring. What happens next?](https://www.datagalaxy.com/en/blog/microsoft-purview-data-governance-is-retiring-what-happens-next/) |
-| 2026-11-13 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: #01 Auf einen Kaffee mit IF … Tobias Keber](https://www.baden-wuerttemberg.datenschutz.de/zum-nachschauen-01-auf-einen-kaffee-mit-if-tobias-keber/) |
 | 2026-11-13 | Computer Weekly — IT security | [Microsoft outage: Impact shows risk of M365 bundle lock-in](https://www.computerweekly.com/news/366654819/Microsoft-outage-Impact-shows-risk-of-M365-bundle-lock-in) |
-| 2026-11-13 | Computer Weekly — IT security | [Global Microsoft outage leaves users open to phishing attacks](https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [New York City Becomes the Latest City to Ban Surveillance Pricing](https://epic.org/new-york-city-becomes-the-latest-city-to-ban-surveillance-pricing/) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [EPIC Testifies in New York State and the City of Boston Urging for ALPR Guardrails and Greater Transparency](https://epic.org/epic-testifies-in-new-york-state-and-the-city-of-boston-urging-for-alpr-guardrails-and-greater-transparency/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 121× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 122× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
