@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-15T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-15T16:24:00Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (35)
+## New items, last 48 hours (23)
 
 ### High priority sources
 
@@ -10,8 +10,6 @@ Last run: **2026-11-15T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 |---|---|---|
 | 2026-11-14 | Garante per la protezione dei dati personali (Italy) | [Facebook: il Garante Privacy sanziona Meta per 805 milioni di euro](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10321080) |
 | 2026-11-14 | Garante per la protezione dei dati personali (Italy) | [RespiVirNet, Il Garante: "Nessuna sospensione decisa da noi"](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10321055) |
-| 2026-11-13 | IAPP — International Association of Privacy Professionals | [The Barbados-Guyana Digital Identity Card Travel Initiative: Identifying the data protection gaps](https://iapp.org/news/a/the-barbados-guyana-digital-identity-card-travel-initiative-identifying-the-data-protection-gaps) |
-| 2026-11-13 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Accountability should outweigh consent with connected vehicles](https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles) |
 | 2026-11-13 | Hunton Privacy & Information Security Law Blog | [General Motors Settles Multistate Driver Privacy Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/general-motors-settles-multistate-driver-privacy-claims) |
 | 2026-10-22 | Hunton Privacy & Information Security Law Blog | [DOJ Arrests U.S. Nationals in Widespread North Korean IT Worker Fraud Scheme](https://www.hunton.com/privacy-and-cybersecurity-law-blog/doj-arrests-u-s-nationals-in-widespread-north-korean-it-worker-fraud-scheme) |
 
@@ -24,12 +22,6 @@ Last run: **2026-11-15T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | Council of the EU — Press releases | [Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/) |
 | 2026-11-13 | Ataccama Blog | [What Is a Business Glossary? Examples and Best Practices](https://www.ataccama.com/blog/what-is-a-business-glossary) |
 | 2026-11-13 | Tech Policy Press | [You’ve Changed. Shouldn’t Your Algorithm?](https://techpolicy.press/youve-changed-shouldnt-your-algorithm) |
-| 2026-11-13 | CDO Magazine | [Artificial Intelligence Agentic AI Trends That Matter Most for CDOs](https://www.cdomagazine.tech/aiml/agentic-ai-trends-that-matter-most-for-cdos) |
-| 2026-11-13 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: JPMorganChase, Scotiabank, and World of Books](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-jpmorganchase-scotiabank-and-world-of-books) |
-| 2026-11-13 | CDO Magazine | [Artificial Intelligence US Investigators Put Auditability at the Center of AI Adoption](https://www.cdomagazine.tech/aiml/us-investigators-put-auditability-at-the-center-of-ai-adoption) |
-| 2026-11-13 | CDO Magazine | [US Federal News Bureau Air Force Moves From AI Policy to Mission-Specific Deployment](https://www.cdomagazine.tech/us-federal-news-bureau/air-force-moves-from-ai-policy-to-mission-specific-deployment) |
-| 2026-11-13 | Alation Blog | [November 13, 2026 What A2UI 1.0 Means for AI Answers You Can Trust An executive forwards your weekly report back with one question: where did this number come from? Now the answer is one… Read More](https://www.alation.com/blog/a2ui-traceable-ai-answers/) |
-| 2026-11-13 | Euractiv | [Microsoft outage renews calls for European tech sovereignty](https://www.rapporteur.com/news/microsoft-outage-renews-calls-for-european-tech-sovereignty/) |
 
 ### Low priority sources
 
@@ -48,15 +40,11 @@ Last run: **2026-11-15T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | Google Cloud Blog — Data Analytics | [New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) |
 | 2026-11-13 | Monte Carlo Blog | [Fixing the AI Platform Team’s Blind Spot: A Common-Thread Approach to Context Across Teams for Trusted AI Deployment](https://montecarlo.ai/blog-fixing-the-ai-platform-teams-blind-spot-a-common-thread-approach-to-context-across-teams-for-trusted-ai-deployment) |
 | 2026-11-13 | Computer Weekly — IT security | [Mid-sized businesses can't leave quantum readiness to their suppliers](https://www.computerweekly.com/opinion/Mid-sized-businesses-cant-leave-quantum-readiness-to-their-suppliers) |
-| 2026-11-13 | The Record (Recorded Future News) | [TSMC confirms employee data breach tied to cloud service provider](https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider) |
-| 2026-11-13 | The Record (Recorded Future News) | [Ransomware attack on Belarusian cloud firm disrupts businesses for days](https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack) |
-| 2026-11-13 | The Record (Recorded Future News) | [Record number of cyber incidents reported to UK privacy regulator](https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator) |
 | 2026-11-13 | Computer Weekly — IT security | [Italian court rejects data from police hacking of Sky ECC cryptophone network](https://www.computerweekly.com/news/366654798/Italian-court-rejects-data-from-police-hacking-of-Sky-ECC-cryptophone-network) |
-| 2026-11-13 | Computer Weekly — IT security | [Microsoft outage: Impact shows risk of M365 bundle lock-in](https://www.computerweekly.com/news/366654819/Microsoft-outage-Impact-shows-risk-of-M365-bundle-lock-in) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 123× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 124× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
