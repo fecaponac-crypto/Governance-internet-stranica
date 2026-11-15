@@ -1,7 +1,7 @@
 Data Governance Signal — week 8 Nov – 14 Nov 2026
 
-Visits:      130  (-72% on the week before: 470)
-Page views:  180  (-62% on the week before: 480)
+Visits:      121  (-74% on the week before: 470)
+Page views:  154  (-68% on the week before: 480)
 
 Most read:
     46  /
@@ -18,10 +18,11 @@ Countries:
      3  HK
 
 Where visitors came from:
-   110  (direct)
-    50  datagovernancesignal.com
+   106  (direct)
+    33  datagovernancesignal.com
     10  www.google.com
-    10  www.linkedin.com
+     2  go.bsky.app
+     1  bing.com
 
 Published this week: 32 stories
   - Australia plans mandatory frontier AI security duties and a new AI safety regulator
