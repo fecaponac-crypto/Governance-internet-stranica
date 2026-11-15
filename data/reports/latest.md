@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-15T00:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-15T03:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (46)
+## New items, last 48 hours (45)
 
 ### High priority sources
 
@@ -61,13 +61,12 @@ Last run: **2026-11-15T00:17:23Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-13 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: #01 Auf einen Kaffee mit IF … Tobias Keber](https://www.baden-wuerttemberg.datenschutz.de/zum-nachschauen-01-auf-einen-kaffee-mit-if-tobias-keber/) |
 | 2026-11-13 | Computer Weekly — IT security | [Microsoft outage: Impact shows risk of M365 bundle lock-in](https://www.computerweekly.com/news/366654819/Microsoft-outage-Impact-shows-risk-of-M365-bundle-lock-in) |
 | 2026-11-13 | Computer Weekly — IT security | [Global Microsoft outage leaves users open to phishing attacks](https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks) |
-| 2026-11-12 | LfDI Baden-Württemberg (Germany) | [Leitung der Registratur](https://www.baden-wuerttemberg.datenschutz.de/leitung-der-registratur/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [New York City Becomes the Latest City to Ban Surveillance Pricing](https://epic.org/new-york-city-becomes-the-latest-city-to-ban-surveillance-pricing/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [EPIC Testifies in New York State and the City of Boston Urging for ALPR Guardrails and Greater Transparency](https://epic.org/epic-testifies-in-new-york-state-and-the-city-of-boston-urging-for-alpr-guardrails-and-greater-transparency/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 117× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 118× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
