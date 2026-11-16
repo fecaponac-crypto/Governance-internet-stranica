@@ -7,8 +7,8 @@ Most read:
     48  /
      5  /opinion/
      5  /enforcement/
-     4  /news/pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead/
      4  /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/
+     4  /institutions/edpb/
 
 Countries:
     90  US

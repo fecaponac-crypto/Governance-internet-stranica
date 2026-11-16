@@ -1,6 +1,6 @@
 # Drafts report
 
-Last run: **2026-11-16T06:17:36Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-16T06:34:39Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$17.14** of $25 budget (383 calls)
 
@@ -10,8 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
-- (1) Generic newsletter issue with no specific news content or governance angle.
 - (1) Generic thought-leadership headline with no concrete, actionable content shown in the excerpt.
+- (1) Generic newsletter issue with no specific news content or governance angle.
 - (1) Government cloud resilience story with no concrete data governance consequence for practitioners beyond general interest; not core coverage.
 - (4) Same story as existing article on Garante's €805 million Meta fine over Android photo gallery access.
 - (1) General AI policy commentary on US AI leadership; no concrete data governance consequence.
