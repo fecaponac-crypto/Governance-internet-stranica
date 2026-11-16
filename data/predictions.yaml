@@ -93,7 +93,12 @@
   made: 2026-11-02
   due: 2026-11-15
   confidence: 75
-  status: open
+  status: void
+  resolved: 2026-11-16
+  evidence:
+    title: 'LiteLLM: What we are changing after October 21'
+    url: https://docs.litellm.ai/blog/security-changes-after-oct-21-2026
+  note: LiteLLM published the post on 30 October 2026, before this prediction was made on 2 November, so it cannot count as a call.
 - id: 2026-11-02-2
   claim: The FTC has not published a final enforcement policy statement on personalised pricing.
   by: Data Governance Signal
@@ -225,15 +230,4 @@
     url: https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
   made: 2026-11-16
   due: 2027-11-12
-  status: open
-- id: 2026-11-16-5
-  claim: Chile's data protection law will take effect on 15 October 2027 instead of 1 December 2026, with the agency's board members appointed at least nine months earlier.
-  by: Juan Pablo González
-  role: Director of New Technologies and AI, AZ (IAPP contributor)
-  quote: la entrada en vigor de la normativa sería el 15 de octubre de 2027, mientras que la designación de los consejeros se tendría que realizar, a más tardar, nueve meses antes de esa fecha.
-  source:
-    title: 'El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?'
-    url: https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-
-  made: 2026-11-16
-  due: 2026-12-01
   status: open
