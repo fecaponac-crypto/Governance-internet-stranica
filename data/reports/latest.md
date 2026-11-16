@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-16T18:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-16T19:38:12Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (30)
+## New items, last 48 hours (37)
 
 ### High priority sources
 
@@ -14,6 +14,10 @@ Last run: **2026-11-16T18:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | CDO Magazine | [US Federal News Bureau White House AI Task Force Urges Liability Protections for Cyber Incident Reporting at Critical Infrastructure Firms](https://www.cdomagazine.tech/us-federal-news-bureau/white-house-ai-task-force-urges-liability-protections-for-cyber-incident-reporting-at-critical-infrastructure-firms) |
+| 2026-11-16 | CDO Magazine | [US Federal News Bureau FAA Takes AI Airspace System Nationwide, Raising Data Governance and Oversight Issues](https://www.cdomagazine.tech/us-federal-news-bureau/faa-takes-ai-airspace-system-nationwide-raising-data-governance-and-oversight-issues) |
+| 2026-11-16 | CDO Magazine | [US Federal News Bureau Fed Warns of AI Infrastructure Debt, Securities Trading and Agent Risks: What CDOs Need to Know](https://www.cdomagazine.tech/us-federal-news-bureau/fed-warns-of-ai-infrastructure-debt-securities-trading-and-agent-risks-what-cdos-need-to-know) |
+| 2026-11-16 | CDO Magazine | [Community Beyond Smarter AI: Chicago Executives Explore the Human Judgment That Still Matters](https://www.cdomagazine.tech/community/beyond-smarter-ai-chicago-executives-explore-the-human-judgment-that-still-matters) |
 | 2026-11-16 | CDO Magazine | [Artificial Intelligence How Can Leaders Prove Generative AI Is Paying Off? Novelis’ Richard Leaton Explains](https://www.cdomagazine.tech/aiml/how-can-leaders-prove-generative-ai-is-paying-off-novelis-richard-leaton-explains) |
 | 2026-11-16 | Alation Blog | [November 16, 2026 What Is Data Intelligence? Functions, Benefits, & Use Cases Data intelligence helps people find and trust data. As AI agents start using that data too, here’s what it takes to… Read More](https://www.alation.com/blog/what-is-data-intelligence/) |
 | 2026-11-16 | Ataccama Blog | [The 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/analyst-research/the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms-november) |
@@ -34,6 +38,9 @@ Last run: **2026-11-16T18:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | Monte Carlo Blog | [What Is AI Accountability? Who Answers When Agents Fail](https://montecarlo.ai/blog-ai-accountability) |
+| 2026-11-16 | Monte Carlo Blog | [How to Improve AI Security Posture Management (AI-SPM) Once Agents Go Live](https://montecarlo.ai/blog-ai-security-posture-management) |
+| 2026-11-16 | MIT Technology Review | [The open-source movement wants Jensen Huang back](https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/) |
 | 2026-11-16 | Monte Carlo Blog | [The Biggest Risk to Your AI Isn’t in the Chat Box, and Your LLM Firewall Can’t See It](https://montecarlo.ai/blog-llm-firewall) |
 | 2026-11-16 | The Record (Recorded Future News) | [Italian regulator fines Meta $886 million for violating data privacy law](https://therecord.media/italian-regulator-fines-meta-886-million-privacy) |
 | 2026-11-16 | Precisely Blog | [From messy addresses to optimized delivery routes with Precisely AI Studio](https://www.precisely.com/blog/engineering/from-messy-addresses-to-optimized-delivery-routes-with-precisely-ai-studio/) |
@@ -51,7 +58,7 @@ Last run: **2026-11-16T18:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 135× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 136× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

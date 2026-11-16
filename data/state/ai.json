@@ -39,6 +39,18 @@
    "relevant": false,
    "same_story_as": "norway-s-datatilsynet-fines-microsoft-owned-xandr-nok-92-million-over"
   },
+  "012b898937bb570c": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "ai-industry",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "FAA nationwide AI airspace system raises data governance and oversight issues; a public-sector AI deployment with a governance angle, but low detail and limited practitioner action.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "013155490862be2d": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -2285,6 +2297,19 @@
    "relevant": false,
    "same_story_as": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a"
   },
+  "4b5598ec7b150684": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Fed warnings on AI infrastructure debt, securities trading and agent risks, framed for CDOs; regulator commentary with governance relevance for agent risk.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4b871bccd80942ea": {
    "at": "2026-11-16T12:17:41Z",
    "categories": [
@@ -2767,6 +2792,17 @@
    "primary_found": true,
    "reason": "Threat intelligence on an AI-assisted attack campaign against 200+ organisations; concrete security posture relevance, though sourced secondhand from CrowdStrike findings.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "58d3557f0cbc3941": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event coverage of a community discussion about human judgment; generic thought leadership without a concrete data governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "593e9a2e76251ac3": {
@@ -3656,6 +3692,17 @@
    "primary_found": false,
    "reason": "CNIL sanctions against local authorities for cybersecurity failings are concrete enforcement with security lessons for public bodies.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "7a5fe18be0cbadb8": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog opinion on AI accountability; generic thought leadership from a vendor without concrete actionable guidance.",
+   "relevant": false,
    "same_story_as": null
   },
   "7a7d937ee4e60cdb": {
@@ -4551,6 +4598,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Report-style commentary on connected car privacy; general awareness piece without a specific new regulation, decision or guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9ccf8665576aaeb3": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Corporate and open-source news about Nvidia leadership petition; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7479,6 +7537,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fa8036138820be11": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog explainer on AI-SPM; generic vendor marketing and how-to content without new news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fabc947f2b060d7b": {
    "at": "2026-11-06T15:18:26Z",
    "categories": [
@@ -7654,6 +7723,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ffb99e03dfe63bd9": {
+   "at": "2026-11-16T19:38:26Z",
+   "categories": [
+    "security",
+    "regulation"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "white-house-ai-task-force-urges-liability-limits-for-firms-that-volunt",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/123",
+   "primary_found": false,
+   "reason": "White House AI task force urging liability protections for cyber incident reporting at critical infrastructure firms touches incident reporting and data security obligations; policy proposal with practical governance implications, though details are thin from the title alone.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "inbox-c3ab45be3c67f524": {
    "at": "2026-11-02T19:18:35Z",
    "categories": [],
@@ -7675,8 +7761,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 408,
-   "usd": 18.4859
+   "calls": 415,
+   "usd": 18.8801
   }
  }
 }
