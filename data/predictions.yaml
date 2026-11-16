@@ -93,7 +93,12 @@
   made: 2026-11-02
   due: 2026-11-15
   confidence: 75
-  status: open
+  status: void
+  resolved: 2026-11-16
+  evidence:
+    title: 'LiteLLM: What we are changing after October 21'
+    url: https://docs.litellm.ai/blog/security-changes-after-oct-21-2026
+  note: LiteLLM published the post on 30 October 2026, before this prediction was made on 2 November, so it cannot count as a call.
 - id: 2026-11-02-2
   claim: The FTC has not published a final enforcement policy statement on personalised pricing.
   by: Data Governance Signal
@@ -181,4 +186,48 @@
     url: https://www.cnil.fr/fr/rejeu-de-session-recommandation
   made: 2026-11-09
   due: 2027-03-31
+  status: open
+- id: 2026-11-16-1
+  claim: Chile's bill postponing Law 21.719 (Boletín 18.623-07) is published as law in the Diario Oficial before 1 December 2026.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent lives on the device, and Rome says Dublin does not get the case'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-16/
+  made: 2026-11-16
+  due: 2026-12-01
+  confidence: 60
+  status: open
+- id: 2026-11-16-2
+  claim: Meta publicly states, or is credibly reported, by 15 January 2027 that it is appealing or otherwise legally challenging the Garante's €805 million decision.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent lives on the device, and Rome says Dublin does not get the case'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-16/
+  made: 2026-11-16
+  due: 2027-01-15
+  confidence: 65
+  status: open
+- id: 2026-11-16-3
+  claim: By 31 March 2027, at least one of Atlan, Alation, Collibra or Informatica publicly announces a migration programme or tooling aimed specifically at Microsoft Purview Data Governance customers.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent lives on the device, and Rome says Dublin does not get the case'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-16/
+  made: 2026-11-16
+  due: 2027-03-31
+  confidence: 70
+  status: open
+- id: 2026-11-16-4
+  claim: Microsoft will end support for Purview Data Governance on 12 November 2027.
+  by: Microsoft
+  role: Technology vendor
+  quote: Support for Purview Data Governance will end Nov. 12, 2027.
+  source:
+    title: A next step in the evolution of the Microsoft Data Governance strategy
+    url: https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
+  made: 2026-11-16
+  due: 2027-11-12
   status: open
