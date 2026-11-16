@@ -1,14 +1,14 @@
 Data Governance Signal — week 9 Nov – 15 Nov 2026
 
-Visits:      118  (-75% on the week before: 480)
-Page views:  151  (-69% on the week before: 490)
+Visits:      120  (-75% on the week before: 480)
+Page views:  170  (-65% on the week before: 490)
 
 Most read:
     48  /
      5  /opinion/
      5  /enforcement/
-     4  /news/pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead/
      4  /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/
+     4  /institutions/edpb/
 
 Countries:
     90  US
