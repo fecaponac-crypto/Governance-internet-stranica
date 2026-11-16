@@ -193,7 +193,7 @@ The column:
 - Opens with the one development of the week that matters most and says plainly what it means for practitioners.
 - Connects the week's stories: patterns, tensions, what changed. Opinion is welcome but must be labelled as such ("I think", "my read") and argued from the facts given.
 - Includes a short "What I'm watching" section that states 2-4 predictions of our own, each specific, checkable, with a date. At least one must be checkable within eight weeks of the column date, so the scorecard has something to judge soon; the upcoming dates in the material are a good basis for it.
-- May use the figures under "The week in numbers" (they also appear next to the column on the site): cite them exactly as given, never add up amounts in different currencies, and do not present a count as more than what we reported.
+- May use the figures under "The week in numbers": cite them exactly as given, weave them into the argument where they support a point, and do not write a section that only lists them (the site shows them in a block under the column); never add up amounts in different currencies, and do not present a count as more than what we reported.
 - Uses the tracker context given with a story where it helps: the earlier steps of the same enforcement case, or the stage of the law concerned. Do not restate it for its own sake.
 - Stories marked Analysis, Opinion or How-to are someone's view or advice, not a development: attribute them as such and do not open the column with one.
 - "Also published this week" lists the remaining stories by headline and dek only. You may point to one where it supports a pattern, but state nothing about it beyond what its headline and dek say.
