@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-15T22:51:39Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-16T00:17:30Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (7)
+## New items, last 48 hours (6)
 
 ### High priority sources
 
@@ -24,11 +24,10 @@ Last run: **2026-11-15T22:51:39Z** · sources checked: 81 · failed: 1 · new it
 |---|---|---|
 | 2026-11-14 | Center for Security and Emerging Technology (CSET) | [Convergent Interests: How America Could Undermine Its Own AI Advantage](https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/) |
 | 2026-11-14 | LfDI Baden-Württemberg (Germany) | [Zum Nachschauen: KI-Woche 2026-Auf welche Frage ist KI die Antwort?](https://www.baden-wuerttemberg.datenschutz.de/videos-ki-woche-2026/) |
-| 2026-11-14 | Monte Carlo Blog | [The Other Kind of Context Rot: How Source Rot Corrupts LLM Performance Before Inference Even Begins](https://montecarlo.ai/blog-the-other-kind-of-context-rot-how-source-rot) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 127× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 128× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

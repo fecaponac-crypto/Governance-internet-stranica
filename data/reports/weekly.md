@@ -1,30 +1,30 @@
-Data Governance Signal — week 8 Nov – 14 Nov 2026
+Data Governance Signal — week 9 Nov – 15 Nov 2026
 
-Visits:      121  (-74% on the week before: 470)
-Page views:  154  (-68% on the week before: 480)
+Visits:      118  (-75% on the week before: 480)
+Page views:  151  (-69% on the week before: 490)
 
 Most read:
-    46  /
+    48  /
      5  /opinion/
      5  /enforcement/
-     5  /institutions/edpb/
-     4  /news/pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead/
+     4  /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/
+     4  /institutions/edpb/
 
 Countries:
-    91  US
+    90  US
     20  HR
      6  CN
      4  CA
-     3  HK
+     4  DE
 
 Where visitors came from:
-   106  (direct)
+   104  (direct)
     33  datagovernancesignal.com
     10  www.google.com
      2  go.bsky.app
      1  bing.com
 
-Published this week: 32 stories
+Published this week: 31 stories
   - Australia plans mandatory frontier AI security duties and a new AI safety regulator
   - AWS sets out pattern to score SageMaker catalogue assets against governance rules using metadata export
   - CalPrivacy advances CCPA amendments requiring opt-out signals to be honoured before tracking cookies fire
@@ -40,7 +40,7 @@ Published this week: 32 stories
   - FDA asks for input on getting patient-level real-world data behind drug and biologic submissions
   - Five more states join FTC lawsuit alleging Hims & Hers shared health data with ad platforms
   - Gartner survey: 71% of organisations expect to deploy agentic AI within a year, but 21% have governance in place
-  … and 17 more
+  … and 16 more
 
 Figures are Cloudflare Web Analytics estimates (sampled, bots excluded).
 Month so far: https://github.com/fecaponac-crypto/Governance-internet-stranica/blob/claude/data-intelligence-portal-plan-v46ux0/data/reports/traffic.md
