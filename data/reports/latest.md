@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-16T15:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 9
+Last run: **2026-11-16T18:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (28)
+## New items, last 48 hours (30)
 
 ### High priority sources
 
@@ -14,6 +14,7 @@ Last run: **2026-11-16T15:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | CDO Magazine | [Artificial Intelligence How Can Leaders Prove Generative AI Is Paying Off? Novelis’ Richard Leaton Explains](https://www.cdomagazine.tech/aiml/how-can-leaders-prove-generative-ai-is-paying-off-novelis-richard-leaton-explains) |
 | 2026-11-16 | Alation Blog | [November 16, 2026 What Is Data Intelligence? Functions, Benefits, & Use Cases Data intelligence helps people find and trust data. As AI agents start using that data too, here’s what it takes to… Read More](https://www.alation.com/blog/what-is-data-intelligence/) |
 | 2026-11-16 | Ataccama Blog | [The 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/analyst-research/the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms-november) |
 | 2026-11-16 | Euractiv | [Commission and Kenya strike deal on personal data](https://www.rapporteur.com/news/commission-and-kenya-strike-deal-on-personal-data/) |
@@ -25,7 +26,6 @@ Last run: **2026-11-16T15:17:31Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | POLITICO Europe — Technology | [Estonia has a plan for Russian occupation: Run its government from the cloud](https://www.politico.eu/article/estonias-digital-preppers-have-a-doomsday-backup-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-16 | Collibra Blog | [AI-powered lineage for Python scripts](https://www.collibra.com/blog/ai-powered-lineage-for-python-scripts) |
 | 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
-| 2026-11-14 | Euractiv | [Italy fines Meta €805mn over photo privacy: authority](https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/) |
 | 2026-11-13 | European Data Protection Supervisor (EDPS) | [Data Protection Day 2027: Protecting the vulnerable](https://www.edps.europa.eu/press-publications/press-news/news/2026/data-protection-day-2027-protecting-vulnerable) |
 | 2026-11-13 | DATAVERSITY | [How to Turn Data Governance into a Transformation Accelerator](https://www.dataversity.net/articles/how-to-turn-data-governance-into-a-transformation-accelerator/) |
 | 2026-11-12 | CNIL (France) | [Ordre du jour de la séance plénière du 12 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-12-novembre-2026) |
@@ -34,6 +34,9 @@ Last run: **2026-11-16T15:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | Monte Carlo Blog | [The Biggest Risk to Your AI Isn’t in the Chat Box, and Your LLM Firewall Can’t See It](https://montecarlo.ai/blog-llm-firewall) |
+| 2026-11-16 | The Record (Recorded Future News) | [Italian regulator fines Meta $886 million for violating data privacy law](https://therecord.media/italian-regulator-fines-meta-886-million-privacy) |
+| 2026-11-16 | Precisely Blog | [From messy addresses to optimized delivery routes with Precisely AI Studio](https://www.precisely.com/blog/engineering/from-messy-addresses-to-optimized-delivery-routes-with-precisely-ai-studio/) |
 | 2026-11-16 | European Digital Rights (EDRi) | [1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken people’s rights?](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/) |
 | 2026-11-16 | dbt Labs Blog | [Healthcare AI starts with data you can trust](https://www.getdbt.com/blog/healthcare-ai-starts-with-trusted-data) |
 | 2026-11-16 | Center for Data Innovation | [Congress Has Two Very Different Bipartisan Paths on AI](https://datainnovation.org/2026/11/congress-has-two-very-different-bipartisan-paths-on-ai/) |
@@ -45,11 +48,10 @@ Last run: **2026-11-16T15:17:31Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | AlgorithmWatch | [KI & Wahlen](https://algorithmwatch.org/de/dossier-ki-wahlen/) |
 | 2026-11-16 | Data Engineering Weekly | [Data Engineering Weekly #296](https://www.dataengineeringweekly.com/p/data-engineering-weekly-296) |
 | 2026-11-16 | Computer Weekly — IT security | [UK councils lead on email anti-spoofing but lock into Microsoft](https://www.computerweekly.com/news/366654774/UK-councils-lead-on-email-anti-spoofing-but-lock-into-Microsoft) |
-| 2026-11-14 | Center for Security and Emerging Technology (CSET) | [Convergent Interests: How America Could Undermine Its Own AI Advantage](https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 134× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 135× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

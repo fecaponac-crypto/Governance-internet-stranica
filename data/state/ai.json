@@ -330,6 +330,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0c4370c1340a189a": {
+   "at": "2026-11-16T18:17:45Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing for an LLM firewall product; not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0c49eb4fc30298f0": {
    "at": "2026-10-29T12:18:34Z",
    "categories": [
@@ -1252,6 +1263,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "279c8e677d695578": {
+   "at": "2026-11-16T18:17:45Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview-style piece on proving GenAI ROI; generic thought leadership without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "27b0e129b332e7c9": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -1520,6 +1542,17 @@
    "importance": 2,
    "reason": "IBM survey on enterprise AI sovereignty confidence versus proof touches data governance and sovereignty, but it is survey-based and from a lower-reliability outlet, so modest importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "324fa791aaa5872f": {
+   "at": "2026-11-16T18:17:45Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product marketing for address correction tool; not a launch of note or practitioner guidance.",
+   "relevant": false,
    "same_story_as": null
   },
   "32592c3b6ffb701d": {
@@ -2240,6 +2273,17 @@
    "reason": "Court ruling on Sky ECC evidence is criminal procedure rather than data governance; marginal angle, low reliability source.",
    "relevant": false,
    "same_story_as": null
+  },
+  "4b4b8357bb6643a1": {
+   "at": "2026-11-16T18:17:45Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 5,
+   "reason": "Same Garante fine on Meta over Facebook app access to Android photo galleries already covered as an existing article (EUR 805m).",
+   "relevant": false,
+   "same_story_as": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a"
   },
   "4b871bccd80942ea": {
    "at": "2026-11-16T12:17:41Z",
@@ -7631,8 +7675,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 407,
-   "usd": 18.485
+   "calls": 408,
+   "usd": 18.4859
   }
  }
 }
