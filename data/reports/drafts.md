@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-16T03:17:39Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-16T06:17:36Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$16.87** of $25 budget (381 calls)
+AI spend this month: **$17.14** of $25 budget (383 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic newsletter issue with no specific news content or governance angle.
+- (1) Generic thought-leadership headline with no concrete, actionable content shown in the excerpt.
 - (1) Government cloud resilience story with no concrete data governance consequence for practitioners beyond general interest; not core coverage.
 - (4) Same story as existing article on Garante's €805 million Meta fine over Android photo gallery access.
 - (1) General AI policy commentary on US AI leadership; no concrete data governance consequence.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (3) Same story as existing article on NYC Council passing surveillance pricing ban.
 - (1) Ozone science news without data governance angle.
 - (1) Political press remarks on AI and Ukraine; no concrete data governance consequence.
-- (2) Criminal enforcement on North Korean IT worker fraud; limited data governance relevance and dated.
-- (2) Court ruling on Sky ECC evidence is criminal procedure rather than data governance; marginal angle, low reliability source.

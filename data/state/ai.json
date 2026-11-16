@@ -1806,6 +1806,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3efde079763e6d6e": {
+   "at": "2026-11-16T06:17:36Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership headline with no concrete, actionable content shown in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3fa6d42c9228487d": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -4546,6 +4557,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Company interview on supply-chain AI platform; not a governance story.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a6e938dcd58a33e4": {
+   "at": "2026-11-16T06:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic newsletter issue with no specific news content or governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7343,8 +7363,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 382,
-   "usd": 17.1413
+   "calls": 383,
+   "usd": 17.142
   }
  }
 }
