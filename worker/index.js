@@ -155,7 +155,8 @@ export async function recordFeedback(request, env) {
   if (vote) counts[vote] += 1;
   if (reason) counts.reasons[reason] = (counts.reasons[reason] ?? 0) + 1;
   // Read-modify-write: two simultaneous votes on one page may count once; fine at this scale.
-  await env.SOURCES.put(key, JSON.stringify(counts));
+  // The counts also travel as key metadata, so the weekly summary can read them from the key list alone.
+  await env.SOURCES.put(key, JSON.stringify(counts), { metadata: counts });
   return json({ ok: true });
 }
 
@@ -170,7 +171,7 @@ export async function readFeedback(request, env) {
   let cursor;
   do {
     const list = await env.SOURCES.list({ prefix, cursor });
-    for (const { name } of list.keys) pages[name.slice(prefix.length)] = await env.SOURCES.get(name, 'json');
+    for (const { name, metadata } of list.keys) pages[name.slice(prefix.length)] = metadata ?? (await env.SOURCES.get(name, 'json'));
     cursor = list.list_complete ? undefined : list.cursor;
   } while (cursor);
   return json({ month, pages });
@@ -210,7 +211,14 @@ const REASON_LABELS = {
  * "Was this useful?" answers from KV for the current month (and the previous one during the
  * first week of a month, so the weekly email never misses days), as plain text.
  */
+// A Worker invocation may make only a limited number of subrequests (50 on the free plan), and the Monday run
+// also starts a workflow and sends the email. Counters written before counts were kept as key metadata need
+// two or three subrequests each, so only this many of them are read per run; the rest are counted, not listed.
+const LEGACY_FEEDBACK_KEYS_PER_RUN = 10;
+
 export async function feedbackSummary(env, now = new Date()) {
+  let legacyLeft = LEGACY_FEEDBACK_KEYS_PER_RUN;
+  let unread = 0;
   const months = [now.toISOString().slice(0, 7)];
   if (now.getUTCDate() <= 7) months.push(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - 1, 1)).toISOString().slice(0, 7));
   const lines = [];
@@ -221,14 +229,25 @@ export async function feedbackSummary(env, now = new Date()) {
     let cursor;
     do {
       const list = await env.SOURCES.list({ prefix, cursor });
-      for (const { name } of list.keys) {
+      for (const { name, metadata } of list.keys) {
         const page = name.slice(prefix.length);
+        if (metadata) {
+          pages.push({ page, ...metadata }); // the page was checked when the answer was recorded
+          continue;
+        }
+        if (legacyLeft <= 0) {
+          unread += 1;
+          continue;
+        }
+        legacyLeft -= 1;
         if (!(await pageExists(env, page, SITE_URL))) {
           ignored += 1;
           if (env.SOURCES.delete) await env.SOURCES.delete(name); // test traffic and probes for pages we never published
           continue;
         }
-        pages.push({ page, ...(await env.SOURCES.get(name, 'json')) });
+        const counts = await env.SOURCES.get(name, 'json');
+        pages.push({ page, ...counts });
+        if (counts) await env.SOURCES.put(name, JSON.stringify(counts), { metadata: counts }); // next time it costs nothing
       }
       cursor = list.list_complete ? undefined : list.cursor;
     } while (cursor);
@@ -245,6 +264,7 @@ export async function feedbackSummary(env, now = new Date()) {
     if (ignored) lines.push(`  (removed answers recorded for ${ignored} addresses that are not published pages)`);
     lines.push('');
   }
+  if (unread) lines.push(`  (${unread} older counters not read in this run; they are read ${LEGACY_FEEDBACK_KEYS_PER_RUN} at a time)`, '');
   return lines.join('\n');
 }
 
@@ -255,7 +275,8 @@ export async function sendWeeklyReport(env, makeMessage) {
   if (!res.ok) throw new Error(`weekly report not found: ${res.status}`);
   let text = await res.text();
   // Insert the answers before the closing notes (the pipeline cannot read them without a token).
-  const feedback = env.SOURCES ? await feedbackSummary(env) : '';
+  // The answers are an extra: if reading them fails, the traffic report still goes out.
+  const feedback = env.SOURCES ? await feedbackSummary(env).catch((err) => `'Was this useful?' answers could not be read: ${err.message}\n`) : '';
   const notes = text.indexOf('Figures are Cloudflare');
   if (feedback) text = notes >= 0 ? `${text.slice(0, notes)}${feedback}\n${text.slice(notes)}` : `${text}\n${feedback}`;
   if (!makeMessage) {

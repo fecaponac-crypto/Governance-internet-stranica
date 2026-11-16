@@ -6,12 +6,21 @@ import worker, { notFound, extractLinks, htmlToText, dispatchWorkflow, CRON_JOBS
 
 function memoryKV() {
   const store = new Map();
+  const meta = new Map();
   return {
     store,
     get: async (k, type) => (store.has(k) ? (type === 'json' ? JSON.parse(store.get(k)) : store.get(k)) : null),
-    put: async (k, v) => void store.set(k, v),
-    delete: async (k) => void store.delete(k),
-    list: async ({ prefix }) => ({ keys: [...store.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name })), list_complete: true }),
+    meta,
+    put: async (k, v, opts) => {
+      store.set(k, v);
+      if (opts?.metadata) meta.set(k, opts.metadata);
+      else meta.delete(k);
+    },
+    delete: async (k) => void (store.delete(k), meta.delete(k)),
+    list: async ({ prefix }) => ({
+      keys: [...store.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name, ...(meta.has(name) ? { metadata: meta.get(name) } : {}) })),
+      list_complete: true,
+    }),
   };
 }
 const post = (body, origin = 'https://x.test') =>
@@ -249,4 +258,29 @@ test('feedback: only published pages, only from the site, rate limited', async (
   assert.doesNotMatch(text, /evil-test-slug/);
   assert.match(text, /removed answers recorded for 1 addresses/);
   assert.equal(env.SOURCES.store.has(`feedback:${month}:/news/evil-test-slug/`), false);
+});
+
+test('the weekly feedback summary stays within the subrequest limit', async () => {
+  const { feedbackSummary } = await import('./index.js');
+  let subrequests = 0;
+  const kv = memoryKV();
+  const counted = (fn) => async (...args) => ((subrequests += 1), fn(...args));
+  const env = {
+    SOURCES: { ...kv, get: counted(kv.get), put: counted(kv.put), delete: counted(kv.delete), list: counted(kv.list) },
+    ASSETS: { fetch: async () => ((subrequests += 1), new Response('', { status: 200 })) },
+  };
+  const month = new Date().toISOString().slice(0, 7);
+  for (let i = 0; i < 60; i += 1) await kv.put(`feedback:${month}:/news/old-${i}/`, JSON.stringify({ yes: 1, no: 0, reasons: {} }));
+  for (let i = 0; i < 40; i += 1) {
+    const counts = { yes: 2, no: 1, reasons: {} };
+    await kv.put(`feedback:${month}:/news/new-${i}/`, JSON.stringify(counts), { metadata: counts });
+  }
+  const text = await feedbackSummary(env);
+  assert.ok(subrequests <= 35, `used ${subrequests} subrequests`);
+  assert.match(text, /90 yes, 40 no/); // 40 with metadata and the 10 older ones read in this run
+  assert.match(text, /50 older counters not read in this run/);
+  assert.equal(kv.meta.size, 50); // the ones read now carry their counts as metadata
+  subrequests = 0;
+  await feedbackSummary(env);
+  assert.equal(kv.meta.size, 60);
 });
