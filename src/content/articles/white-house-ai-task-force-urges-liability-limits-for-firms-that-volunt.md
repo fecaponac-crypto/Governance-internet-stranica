@@ -1,7 +1,7 @@
 ---
 title: "White House AI task force urges liability limits for firms that voluntarily report cyber incidents"
 date: 2026-11-16
-dek: "The recommendations call for at least 12 months of regulatory flexibility for good-faith reporters and less duplication between federal agencies, as AI-enabled attacks raise risks to critical infrastructure."
+dek: "Agencies should ease enforcement for at least 12 months against firms that report incidents in good faith, the task force said, arguing that past standards for regulatory action may be outdated as AI raises attack capabilities."
 whyItMatters: "If agencies adopt these recommendations, voluntary disclosure becomes less risky. Organisations will then need incident records that are accurate, timestamped and already cleared for sharing. Security, data, legal and compliance teams should agree in advance who owns incident data and who can approve its release. AI governance leads should also decide whether AI-related incidents, such as misuse of agents, are captured as a separate category in incident logs."
 categories: [security, ai-governance, regulation]
 institutions: []
@@ -13,6 +13,9 @@ status:
   stage: "Published"
   detail: "Recommendations only; not binding and not a finalised reporting framework"
 sources:
+  - name: "Cybersecurity Dive"
+    title: "White House task force says companies deserve liability relief for AI-fueled cyberattacks"
+    url: "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
   - name: "CDO Magazine"
     title: "White House AI Task Force Urges Liability Protections for Cyber Incident Reporting at Critical Infrastructure Firms"
     url: "https://www.cdomagazine.tech/us-federal-news-bureau/white-house-ai-task-force-urges-liability-protections-for-cyber-incident-reporting-at-critical-infrastructure-firms"
@@ -22,10 +25,10 @@ card:
   caption: "Minimum period of regulatory flexibility proposed for good-faith incident reporters"
 ---
 
-A White House AI task force, referred to as the Super Intelligence Force, has urged federal agencies to limit regulatory liability for companies that **voluntarily report cybersecurity vulnerabilities and incidents in good faith**, according to a Cybersecurity Dive report cited by CDO Magazine. The recommendations followed its second meeting on 12 November.
+The Trump administration's AI task force has urged federal agencies to "implement limitations on regulatory liability for **good-faith voluntary reporting** of cybersecurity vulnerabilities and incidents", according to Cybersecurity Dive, which quotes the task force's statement after its second meeting on 12 November. The relief should apply where it is "lawful, practical, and consistent with the interests of the American people" and last **at least 12 months**, "with the possibility of extension".
 
-The task force said this flexibility should last **at least 12 months** and could be extended. It also called for clearer reporting requirements with less duplication between agencies. It suggested that existing security standards may not reflect risks from advancing AI capabilities, including attacks involving AI agents. Officials discussed a voluntary channel for reporting AI-related incidents, with the government analysing the disclosures and sharing findings with industry.
+The task force said that "organizations that only a short time ago had reasonable protections in place are now more vulnerable" to AI-enabled attacks, so "prior standards for taking regulatory action against organizations in response to cyber incidents may be outdated." It said it supports CISA's forthcoming incident-reporting rule, provided it sets "clear and practical reporting requirements that minimize duplication."
 
-The group backed long-term reauthorisation of the 2015 Cybersecurity Information Sharing Act, which is due to expire in December 2026. The recommendations are not binding and do not amount to a finalised reporting framework.
+According to the report, officials also discussed a process for companies to voluntarily report AI-related incidents, with the government analysing them and sharing information back with industry. The task force repeated the administration's support for a long-term reauthorisation of the 2015 Cybersecurity Information Sharing Act, which CDO Magazine says expires in December 2026. The recommendations are not binding.
 
-*Editor's note: This article relies on a secondary news report that itself cites Cybersecurity Dive; the task force's own document was not available to us.*
+*Editor's note: This article relies on news reports quoting the task force's statement; we could not find the statement itself on an official site.*
