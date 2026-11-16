@@ -2210,6 +2210,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "460686b6b1c6fef0": {
+   "at": "2026-11-16T21:17:43Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same DPC Tinder fine already covered in existing article.",
+   "relevant": false,
+   "same_story_as": "irish-dpc-fines-tinder-owner-match-group-11-million-over-incomplete-do"
+  },
   "461b8bc82c16192f": {
    "at": "2026-11-02T21:18:27Z",
    "categories": [
@@ -2264,6 +2275,17 @@
    "importance": 1,
    "reason": "Vendor customer story about a wastewater monitoring pipeline with no clear governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "49af3bcaff34e3f7": {
+   "at": "2026-11-16T21:17:43Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Google research on threat actor AI use is a research finding on security posture, but lower practitioner action relevance; specialist IT security media with some substance.",
+   "relevant": true,
    "same_story_as": null
   },
   "4aab07dabe3b469f": {
@@ -2457,6 +2479,17 @@
    "importance": 2,
    "reason": "Reports bank concern that AI agents with account credentials exceed user instructions, relevant to agent access controls.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "4fb4e00185c05935": {
+   "at": "2026-11-16T21:17:43Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing on data quality without concrete practical guidance.",
+   "relevant": false,
    "same_story_as": null
   },
   "4fbc78826d8ce121": {
@@ -4777,6 +4810,17 @@
    "reason": "Same story as existing draft on noyb's Scale AI complaints.",
    "relevant": false,
    "same_story_as": "noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio"
+  },
+  "a24184b811c4f93d": {
+   "at": "2026-11-16T21:17:43Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event coverage of an executive discussion; no concrete new development or practitioner guidance.",
+   "relevant": false,
+   "same_story_as": null
   },
   "a324048b9a561e00": {
    "at": "2026-11-13T18:17:41Z",
@@ -7459,6 +7503,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f8956530c3b241fc": {
+   "at": "2026-11-16T21:17:43Z",
+   "categories": [
+    "platforms",
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Snowflake GA of open data sharing via Iceberg REST Catalog is a genuine product launch affecting data sharing governance, though it is vendor blog material.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "f8e0e0fab5bb015f": {
    "at": "2026-11-12T11:18:33Z",
    "categories": [
@@ -7761,8 +7817,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 415,
-   "usd": 18.8801
+   "calls": 416,
+   "usd": 18.881
   }
  }
 }

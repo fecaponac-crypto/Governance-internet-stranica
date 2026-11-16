@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-16T19:38:12Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-16T21:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 5
 
-## New items, last 48 hours (37)
+## New items, last 48 hours (42)
 
 ### High priority sources
 
@@ -14,6 +14,8 @@ Last run: **2026-11-16T19:38:12Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | CDO Magazine | [Community When AI Agents Start Making Decisions, Who Owns the Outcome? New York Executives Explore the Next Challenge](https://www.cdomagazine.tech/community/when-ai-agents-start-making-decisions-who-owns-the-outcome-new-york-executives-explore-the-next-challenge) |
+| 2026-11-16 | Snowflake Blog | [Open Data Sharing: Share Live Data Beyond Snowflake](https://www.snowflake.com/content/snowflake-site/global/en/blog/open-data-sharing-iceberg-rest-catalog) |
 | 2026-11-16 | CDO Magazine | [US Federal News Bureau White House AI Task Force Urges Liability Protections for Cyber Incident Reporting at Critical Infrastructure Firms](https://www.cdomagazine.tech/us-federal-news-bureau/white-house-ai-task-force-urges-liability-protections-for-cyber-incident-reporting-at-critical-infrastructure-firms) |
 | 2026-11-16 | CDO Magazine | [US Federal News Bureau FAA Takes AI Airspace System Nationwide, Raising Data Governance and Oversight Issues](https://www.cdomagazine.tech/us-federal-news-bureau/faa-takes-ai-airspace-system-nationwide-raising-data-governance-and-oversight-issues) |
 | 2026-11-16 | CDO Magazine | [US Federal News Bureau Fed Warns of AI Infrastructure Debt, Securities Trading and Agent Risks: What CDOs Need to Know](https://www.cdomagazine.tech/us-federal-news-bureau/fed-warns-of-ai-infrastructure-debt-securities-trading-and-agent-risks-what-cdos-need-to-know) |
@@ -30,6 +32,7 @@ Last run: **2026-11-16T19:38:12Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | POLITICO Europe — Technology | [Estonia has a plan for Russian occupation: Run its government from the cloud](https://www.politico.eu/article/estonias-digital-preppers-have-a-doomsday-backup-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-16 | Collibra Blog | [AI-powered lineage for Python scripts](https://www.collibra.com/blog/ai-powered-lineage-for-python-scripts) |
 | 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
+| 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
 | 2026-11-13 | European Data Protection Supervisor (EDPS) | [Data Protection Day 2027: Protecting the vulnerable](https://www.edps.europa.eu/press-publications/press-news/news/2026/data-protection-day-2027-protecting-vulnerable) |
 | 2026-11-13 | DATAVERSITY | [How to Turn Data Governance into a Transformation Accelerator](https://www.dataversity.net/articles/how-to-turn-data-governance-into-a-transformation-accelerator/) |
 | 2026-11-12 | CNIL (France) | [Ordre du jour de la séance plénière du 12 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-12-novembre-2026) |
@@ -38,12 +41,14 @@ Last run: **2026-11-16T19:38:12Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | The Record (Recorded Future News) | [Match fined $10 million for alleged Tinder privacy violations](https://therecord.media/ireland-tinder-privacy-fine) |
 | 2026-11-16 | Monte Carlo Blog | [What Is AI Accountability? Who Answers When Agents Fail](https://montecarlo.ai/blog-ai-accountability) |
 | 2026-11-16 | Monte Carlo Blog | [How to Improve AI Security Posture Management (AI-SPM) Once Agents Go Live](https://montecarlo.ai/blog-ai-security-posture-management) |
 | 2026-11-16 | MIT Technology Review | [The open-source movement wants Jensen Huang back](https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/) |
 | 2026-11-16 | Monte Carlo Blog | [The Biggest Risk to Your AI Isn’t in the Chat Box, and Your LLM Firewall Can’t See It](https://montecarlo.ai/blog-llm-firewall) |
 | 2026-11-16 | The Record (Recorded Future News) | [Italian regulator fines Meta $886 million for violating data privacy law](https://therecord.media/italian-regulator-fines-meta-886-million-privacy) |
 | 2026-11-16 | Precisely Blog | [From messy addresses to optimized delivery routes with Precisely AI Studio](https://www.precisely.com/blog/engineering/from-messy-addresses-to-optimized-delivery-routes-with-precisely-ai-studio/) |
+| 2026-11-16 | Computer Weekly — IT security | [Threat actor use of AI becoming routine, warns Google](https://www.computerweekly.com/news/366654805/Threat-actor-use-of-AI-becoming-routine-warns-Google) |
 | 2026-11-16 | European Digital Rights (EDRi) | [1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken people’s rights?](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/) |
 | 2026-11-16 | dbt Labs Blog | [Healthcare AI starts with data you can trust](https://www.getdbt.com/blog/healthcare-ai-starts-with-trusted-data) |
 | 2026-11-16 | Center for Data Innovation | [Congress Has Two Very Different Bipartisan Paths on AI](https://datainnovation.org/2026/11/congress-has-two-very-different-bipartisan-paths-on-ai/) |
@@ -58,7 +63,7 @@ Last run: **2026-11-16T19:38:12Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 136× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 137× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
