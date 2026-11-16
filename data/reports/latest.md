@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-16T00:17:30Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-16T03:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (6)
+## New items, last 48 hours (7)
 
 ### High priority sources
 
@@ -15,6 +15,7 @@ Last run: **2026-11-16T00:17:30Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-16 | POLITICO Europe — Technology | [Estonia has a plan for Russian occupation: Run its government from the cloud](https://www.politico.eu/article/estonias-digital-preppers-have-a-doomsday-backup-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-14 | Euractiv | [Italy fines Meta €805mn over photo privacy: authority](https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/) |
 | 2026-11-14 | POLITICO Europe — Technology | [Italy hits Meta with €805m fine over privacy law violation](https://www.politico.eu/article/italy-hits-meta-with-e805m-fine-over-privacy-law-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 
@@ -27,7 +28,7 @@ Last run: **2026-11-16T00:17:30Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 128× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 129× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

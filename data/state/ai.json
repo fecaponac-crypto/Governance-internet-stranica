@@ -3477,6 +3477,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7c00fde86c67d50c": {
+   "at": "2026-11-16T03:17:39Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Government cloud resilience story with no concrete data governance consequence for practitioners beyond general interest; not core coverage.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7c589889d44ad8c5": {
    "at": "2026-11-05T12:18:37Z",
    "categories": [
@@ -7334,8 +7343,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 380,
-   "usd": 16.8737
+   "calls": 381,
+   "usd": 16.8744
   }
  }
 }
