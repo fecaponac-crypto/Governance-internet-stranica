@@ -301,6 +301,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "0ab7d7b15551c6c5": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Email security adoption report; not data governance focused.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0c098d5b895afe7b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -468,6 +477,23 @@
    "importance": 1,
    "reason": "Placeholder lorem ipsum excerpt with no usable content.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "12727fe052cdc861": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "edpb-adopts-final-guidelines-on-legitimate-interest-as-a-legal-basis-u",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/119",
+   "primary_found": false,
+   "reason": "EDPB next coordinated action on automated decision-making in recruitment is a regulator enforcement-priority development with practical implications for AI-driven HR decisions.",
+   "relevant": true,
    "same_story_as": null
   },
   "12c9bcf07c13b533": {
@@ -1803,6 +1829,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic thought-leadership piece on employee AI use with no concrete practitioner guidance or new development; low value.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3ef3a61c284281ef": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Freedom of information debate about critical infrastructure exemptions; not a data governance practice story.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3165,6 +3200,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "71be46aefba9b5cb": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "algorithmwatch-and-36-groups-urge-limits-on-germany-s-draft-law-for-ai",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/120",
+   "primary_found": false,
+   "reason": "Civil society appeal on a German draft law expanding AI in asylum and visa decisions; pending legislation affecting data-driven decisions about people.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "71ccf06bd393c1ec": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -4227,6 +4279,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9a14bf12cb7e1715": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup with no single substantive story.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9a94a53174789115": {
    "at": "2026-11-10T09:19:14Z",
    "categories": [
@@ -5266,6 +5327,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "bdcfef81dd621eef": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event and awareness-day promotion.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "be020a3bd47cf33d": {
    "at": "2026-11-03T00:18:23Z",
    "categories": [
@@ -5331,6 +5401,15 @@
    "importance": 2,
    "reason": "Partnership bringing Snowflake AI Data Cloud natively to OCI is a platform/market development; modest governance angle.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "bf5866a6bf59b530": {
+   "at": "2026-11-16T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Plenary agenda listing without substantive content in the excerpt.",
+   "relevant": false,
    "same_story_as": null
   },
   "bf65784fd277bccf": {
@@ -7363,8 +7442,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 383,
-   "usd": 17.142
+   "calls": 394,
+   "usd": 17.6692
   }
  }
 }
