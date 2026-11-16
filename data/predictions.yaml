@@ -182,3 +182,58 @@
   made: 2026-11-09
   due: 2027-03-31
   status: open
+- id: 2026-11-16-1
+  claim: Chile's bill postponing Law 21.719 (Boletín 18.623-07) is published as law in the Diario Oficial before 1 December 2026.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent lives on the device, and Rome says Dublin does not get the case'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-16/
+  made: 2026-11-16
+  due: 2026-12-01
+  confidence: 60
+  status: open
+- id: 2026-11-16-2
+  claim: Meta publicly states, or is credibly reported, by 15 January 2027 that it is appealing or otherwise legally challenging the Garante's €805 million decision.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent lives on the device, and Rome says Dublin does not get the case'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-16/
+  made: 2026-11-16
+  due: 2027-01-15
+  confidence: 65
+  status: open
+- id: 2026-11-16-3
+  claim: By 31 March 2027, at least one of Atlan, Alation, Collibra or Informatica publicly announces a migration programme or tooling aimed specifically at Microsoft Purview Data Governance customers.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Consent lives on the device, and Rome says Dublin does not get the case'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-16/
+  made: 2026-11-16
+  due: 2027-03-31
+  confidence: 70
+  status: open
+- id: 2026-11-16-4
+  claim: Microsoft will end support for Purview Data Governance on 12 November 2027.
+  by: Microsoft
+  role: Technology vendor
+  quote: Support for Purview Data Governance will end Nov. 12, 2027.
+  source:
+    title: A next step in the evolution of the Microsoft Data Governance strategy
+    url: https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
+  made: 2026-11-16
+  due: 2027-11-12
+  status: open
+- id: 2026-11-16-5
+  claim: Chile's data protection law will take effect on 15 October 2027 instead of 1 December 2026, with the agency's board members appointed at least nine months earlier.
+  by: Juan Pablo González
+  role: Director of New Technologies and AI, AZ (IAPP contributor)
+  quote: la entrada en vigor de la normativa sería el 15 de octubre de 2027, mientras que la designación de los consejeros se tendría que realizar, a más tardar, nueve meses antes de esa fecha.
+  source:
+    title: 'El probable cambio de fecha de entrada en vigor de la Ley de Datos Personales en Chile: ¿y ahora qué se hace?'
+    url: https://iapp.org/news/a/el-probable-cambio-de-fecha-de-entrada-en-vigor-de-la-ley-de-datos-personales-en-chile-y-ahora-qu-se-hace-
+  made: 2026-11-16
+  due: 2026-12-01
+  status: open
