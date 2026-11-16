@@ -1221,6 +1221,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "2615303b3f67a63c": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic vendor explainer and marketing, not news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "26348865d55eb03c": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -1745,6 +1756,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3baee4a2ec2f1a3e": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "AEPD closes TikTok proceedings after prosecutor referral; modest enforcement news.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3bc165cef8a8a623": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -1869,6 +1891,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic thought-leadership headline with no concrete, actionable content shown in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3f83e03141c2c056": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing blog without concrete news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2819,6 +2852,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5e7617fb41aa94bc": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor announcement of analyst recognition; award-style news without substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5e7a4f7d9a8a4bb1": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -2921,6 +2965,17 @@
    "importance": 1,
    "reason": "Product feature for dashboards in dbt repo; limited governance relevance, vendor product content.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6649600e6ef0ece3": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor product feature on Python lineage; a genuine capability but largely vendor blog.",
+   "relevant": true,
    "same_story_as": null
   },
   "664d75246fac6669": {
@@ -3231,6 +3286,23 @@
    "importance": 1,
    "reason": "Geopolitical espionage commentary without a concrete data governance consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "70ca56478f2cad3d": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 20,
+   "decision": "drafted",
+   "draft": "ico-says-ai-drafted-subject-access-requests-are-valid-and-must-be-hand",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/122",
+   "primary_found": true,
+   "reason": "UK ICO guidance on AI-assisted subject access requests gives practical obligations for handling DSARs.",
+   "relevant": true,
    "same_story_as": null
   },
   "70f87f6bfcb3fc1f": {
@@ -3699,6 +3771,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor integration announcement from a cloud provider blog; it is marketing-style product integration with limited governance consequence, not a genuine launch with governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7ff857081a7cd6bb": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing blog for MCP governance product without a genuine launch announcement.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5389,6 +5472,24 @@
    "relevant": false,
    "same_story_as": null
   },
+  "bdd87e31f260bff1": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "regulation",
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "edri-says-1-840-digital-omnibus-amendments-leave-parliament-choosing-b",
+   "flagged": 1,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/121",
+   "primary_found": false,
+   "reason": "Pending Digital Omnibus on Data is a major EU file under Parliament consideration affecting GDPR and ePrivacy; civil society analysis of amendments is pushback on a pending law.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "be020a3bd47cf33d": {
    "at": "2026-11-03T00:18:23Z",
    "categories": [
@@ -6707,6 +6808,19 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e56748189ae13ff4": {
+   "at": "2026-11-16T15:17:47Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "EU-Kenya data adequacy agreement progress affects cross-border transfer governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e568d6577220e0a9": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -7517,8 +7631,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 395,
-   "usd": 17.6702
+   "calls": 407,
+   "usd": 18.485
   }
  }
 }

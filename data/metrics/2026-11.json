@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-16T12:17:48Z",
+ "updated": "2026-11-16T15:20:17Z",
  "portal": {
   "published_total": 103,
   "published_this_month": 60,
@@ -13,15 +13,15 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 401,
-  "runs": 174,
-  "runs_with_failed_sources": 148,
+  "items_collected": 410,
+  "runs": 175,
+  "runs_with_failed_sources": 149,
   "triage_decisions": {
-   "drafted": 68,
-   "skipped": 323,
-   "failed": 11
+   "drafted": 70,
+   "skipped": 329,
+   "failed": 12
   },
-  "ai_spend_usd": 17.6702,
+  "ai_spend_usd": 18.485,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -33,7 +33,7 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 690,
+  "page_views": 710,
   "visits": 630,
   "bots_excluded": true,
   "by_day": [
@@ -94,7 +94,7 @@
    },
    {
     "date": "2026-11-16",
-    "page_views": 30,
+    "page_views": 50,
     "visits": 30
    }
   ],
@@ -105,7 +105,7 @@
    },
    {
     "requestPath": "/",
-    "page_views": 80
+    "page_views": 90
    },
    {
     "requestPath": "/category/privacy/",
@@ -124,15 +124,15 @@
     "page_views": 20
    },
    {
-    "requestPath": "/category/ai-governance/",
-    "page_views": 20
-   },
-   {
     "requestPath": "/monday-signal/",
     "page_views": 20
    },
    {
     "requestPath": "/opinion/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/category/ai-governance/",
     "page_views": 20
    },
    {
@@ -146,16 +146,16 @@
     "page_views": 380
    },
    {
+    "countryName": "HR",
+    "page_views": 50
+   },
+   {
     "countryName": "CN",
     "page_views": 40
    },
    {
     "countryName": "GB",
     "page_views": 40
-   },
-   {
-    "countryName": "HR",
-    "page_views": 30
    },
    {
     "countryName": "AR",
@@ -189,7 +189,7 @@
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 60
+    "page_views": 80
    },
    {
     "refererHost": "www.google.com",
