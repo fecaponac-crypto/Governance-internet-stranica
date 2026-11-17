@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-17T03:55:45Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-17T06:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (46)
+## New items, last 48 hours (48)
 
 ### High priority sources
 
@@ -14,6 +14,8 @@ Last run: **2026-11-17T03:55:45Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | CDO Magazine | [Artificial Intelligence IBM Study Finds AI Leaders Lack Control Over Investment Decisions and Governance](https://www.cdomagazine.tech/aiml/ibm-study-finds-ai-leaders-lack-control-over-investment-decisions-and-governance) |
+| 2026-11-17 | Euractiv | [EDA pitches strategic enablers ‘opportunities’ for the bloc](https://www.rapporteur.com/news/eda-pitches-strategic-enablers-opportunities-for-the-bloc/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence OpenAI Releases AI Image Classifier and Safety Tools to Help Detect Child Abuse Material](https://www.cdomagazine.tech/aiml/openai-releases-ai-image-classifier-and-safety-tools-to-help-detect-child-abuse-material) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence NVIDIA Launches Open Science AI Models and 50,000-Question Chemistry Dataset for Research Agents](https://www.cdomagazine.tech/aiml/nvidia-launches-open-science-ai-models-and-50000-question-chemistry-dataset-for-research-agents) |
 | 2026-11-16 | Snowflake Blog | [Snowflake CoCo: Built to Scale Enterprise AI with Trust](https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations) |
@@ -67,7 +69,7 @@ Last run: **2026-11-17T03:55:45Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 140× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 141× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

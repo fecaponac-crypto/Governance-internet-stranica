@@ -8,7 +8,7 @@ Most read:
      7  /news/italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a/
      5  /opinion/
      5  /enforcement/
-     4  /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/
+     4  /institutions/edpb/
 
 Countries:
     82  US

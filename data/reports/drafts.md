@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-17T03:56:16Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-17T06:17:35Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$18.88** of $35 budget (417 calls)
+AI spend this month: **$18.88** of $35 budget (418 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (2) IBM study on AI leaders' lack of control over investment and governance decisions; survey research with a governance angle, though excerpt is absent and detail is limited.
+- (1) EU defence agency strategic enablers story has no data, privacy or AI governance angle.
 - (1) Vendor blog promoting a product GA with marketing framing; not a genuine governance-relevant launch analysis.
 - (1) Child safety image classifier release is AI industry news with no clear data governance angle for practitioners; generic tool launch outside core coverage.
 - (1) Research model and chemistry dataset release has no concrete data governance consequence.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (1) Event coverage of a community discussion about human judgment; generic thought leadership without a concrete data governance consequence.
 - (2) Vendor blog opinion on AI accountability; generic thought leadership from a vendor without concrete actionable guidance.
 - (1) Corporate and open-source news about Nvidia leadership petition; no data governance angle.
-- (2) Vendor blog explainer on AI-SPM; generic vendor marketing and how-to content without new news.
-- (1) Vendor blog marketing for an LLM firewall product; not a genuine launch or research finding.

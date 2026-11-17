@@ -1788,6 +1788,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "39fb61182a0c7312": {
+   "at": "2026-11-17T06:17:35Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "EU defence agency strategic enablers story has no data, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3a76f249765a6e17": {
    "at": "2026-11-10T00:18:34Z",
    "categories": [
@@ -5105,6 +5114,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ab188578ccfd55ff": {
+   "at": "2026-11-17T06:17:35Z",
+   "categories": [
+    "strategy",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IBM study on AI leaders' lack of control over investment and governance decisions; survey research with a governance angle, though excerpt is absent and detail is limited.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ab4091a7e20510a1": {
    "at": "2026-10-26T09:18:09Z",
    "categories": [],
@@ -7861,8 +7882,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 417,
-   "usd": 18.8818
+   "calls": 418,
+   "usd": 18.8825
   }
  }
 }
