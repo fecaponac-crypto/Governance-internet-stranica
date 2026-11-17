@@ -80,6 +80,19 @@
    "relevant": true,
    "same_story_as": null
   },
+  "019c38508747d604": {
+   "at": "2026-11-17T21:17:41Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "UK ICO report on data protection expectations for LLM and agentic AI in online advertising; regulator guidance with practical implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "01caa11db6e10890": {
    "at": "2026-11-03T12:19:15Z",
    "categories": [],
@@ -1622,6 +1635,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "30161171a4e9399c": {
+   "at": "2026-11-17T21:17:41Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "California AG CCPA enforcement settlement with Lyft over opt-out mechanism; concrete enforcement with practical consequence for opt-out design.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3085371d8f724b4a": {
    "at": "2026-10-29T10:01:47Z",
    "categories": [
@@ -1841,6 +1866,19 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/114",
    "primary_found": false,
    "reason": "Irish DPC €11M GDPR fine on Tinder for deficient data access tool is a significant enforcement action with practical lessons on subject access requests.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "3910748ba894887e": {
+   "at": "2026-11-17T21:17:41Z",
+   "categories": [
+    "security",
+    "ai-industry"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "Google threat report on state actors using autonomous multi-agent offensive AI frameworks; notable for security teams but not a governance-specific development.",
    "relevant": true,
    "same_story_as": null
   },
@@ -8294,8 +8332,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 443,
-   "usd": 19.9441
+   "calls": 447,
+   "usd": 19.9465
   }
  }
 }

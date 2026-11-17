@@ -1,14 +1,14 @@
 Data Governance Signal — week 10 Nov – 16 Nov 2026
 
-Visits:      130  (-72% on the week before: 470)
-Page views:  200  (-58% on the week before: 480)
+Visits:      113  (-76% on the week before: 470)
+Page views:  147  (-69% on the week before: 480)
 
 Most read:
-    40  /
-    20  /review/2026-11/
-    20  /opinion/
-    10  /monday-signal/
-    10  /news/ibero-american-data-protection-network-adopts-ai-standards-on-inferred/
+    44  /
+     7  /news/italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a/
+     5  /opinion/
+     5  /enforcement/
+     4  /news/new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da/
 
 Countries:
     82  US
@@ -18,9 +18,11 @@ Countries:
      3  AT
 
 Where visitors came from:
-   110  (direct)
-    70  datagovernancesignal.com
-    20  www.google.com
+    99  (direct)
+    34  datagovernancesignal.com
+    10  www.google.com
+     1  go.bsky.app
+     1  www.doubao.com
 
 Published this week: 32 stories
   - AlgorithmWatch and 36 groups urge limits on Germany's draft law for AI in asylum and visa decisions

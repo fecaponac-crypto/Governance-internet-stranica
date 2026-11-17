@@ -1,14 +1,16 @@
 # Inflow report
 
-Last run: **2026-11-17T18:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 10
+Last run: **2026-11-17T21:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (83)
+## New items, last 48 hours (86)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
+| 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
+| 2026-11-17 | Hunton Privacy & Information Security Law Blog | [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) |
 | 2026-11-17 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-698/23 P EDPS v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260165en.pdf) |
 | 2026-11-17 | The EU AI Act Newsletter (Future of Life Institute) | [Why Has California Led the Way on AI Regulation? (with Irene Liu)](https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on) |
 | 2026-11-16 | European Commission — Press Corner | [Autumn 2026 Economic Forecast shows continued growth amid higher inflation](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438) |
@@ -65,6 +67,7 @@ Last run: **2026-11-17T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | The Record (Recorded Future News) | [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) |
 | 2026-11-17 | The Record (Recorded Future News) | [California fines Hertz $1.5 million for breaking state data privacy law](https://therecord.media/california-fines-hertz-state-data-privacy-law) |
 | 2026-11-17 | Stibo Systems Blog | [How to raise the trust ceiling of AI autonomy](https://www.stibosystems.com/blog/how-to-raise-the-trust-ceiling-of-ai-autonomy) |
 | 2026-11-17 | dbt Labs Blog | [What's new in dbt: November 2026](https://www.getdbt.com/blog/whats-new-in-dbt-november-2026) |
@@ -104,7 +107,7 @@ Last run: **2026-11-17T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 146× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 147× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
