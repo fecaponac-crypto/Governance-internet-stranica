@@ -172,6 +172,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "05c38c7bfb15f440": {
+   "at": "2026-11-17T00:17:34Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting a product GA with marketing framing; not a genuine governance-relevant launch analysis.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "05eb2464d17f285e": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -831,6 +842,17 @@
    "importance": 2,
    "reason": "Data quality cost framing; generic opinion with limited practitioner guidance, rated 2.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "1a9556a0959b09fe": {
+   "at": "2026-11-17T00:17:34Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Child safety image classifier release is AI industry news with no clear data governance angle for practitioners; generic tool launch outside core coverage.",
+   "relevant": false,
    "same_story_as": null
   },
   "1a99fc2f00fedf66": {
@@ -5135,6 +5157,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ae678d5987e08422": {
+   "at": "2026-11-17T00:17:34Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Research model and chemistry dataset release has no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ae7dc6568a87554f": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -7367,6 +7400,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f3910db97d073a06": {
+   "at": "2026-11-17T00:17:34Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Market opinion on AI bubble and cyber stocks; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f39d4264ef97e86a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -7817,8 +7861,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 416,
-   "usd": 18.881
+   "calls": 417,
+   "usd": 18.8818
   }
  }
 }

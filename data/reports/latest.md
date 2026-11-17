@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-16T21:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 5
+Last run: **2026-11-17T00:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (42)
+## New items, last 48 hours (46)
 
 ### High priority sources
 
@@ -14,6 +14,9 @@ Last run: **2026-11-16T21:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | CDO Magazine | [Artificial Intelligence OpenAI Releases AI Image Classifier and Safety Tools to Help Detect Child Abuse Material](https://www.cdomagazine.tech/aiml/openai-releases-ai-image-classifier-and-safety-tools-to-help-detect-child-abuse-material) |
+| 2026-11-17 | CDO Magazine | [Artificial Intelligence NVIDIA Launches Open Science AI Models and 50,000-Question Chemistry Dataset for Research Agents](https://www.cdomagazine.tech/aiml/nvidia-launches-open-science-ai-models-and-50000-question-chemistry-dataset-for-research-agents) |
+| 2026-11-16 | Snowflake Blog | [Snowflake CoCo: Built to Scale Enterprise AI with Trust](https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations) |
 | 2026-11-16 | CDO Magazine | [Community When AI Agents Start Making Decisions, Who Owns the Outcome? New York Executives Explore the Next Challenge](https://www.cdomagazine.tech/community/when-ai-agents-start-making-decisions-who-owns-the-outcome-new-york-executives-explore-the-next-challenge) |
 | 2026-11-16 | Snowflake Blog | [Open Data Sharing: Share Live Data Beyond Snowflake](https://www.snowflake.com/content/snowflake-site/global/en/blog/open-data-sharing-iceberg-rest-catalog) |
 | 2026-11-16 | CDO Magazine | [US Federal News Bureau White House AI Task Force Urges Liability Protections for Cyber Incident Reporting at Critical Infrastructure Firms](https://www.cdomagazine.tech/us-federal-news-bureau/white-house-ai-task-force-urges-liability-protections-for-cyber-incident-reporting-at-critical-infrastructure-firms) |
@@ -48,6 +51,7 @@ Last run: **2026-11-16T21:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | Monte Carlo Blog | [The Biggest Risk to Your AI Isn’t in the Chat Box, and Your LLM Firewall Can’t See It](https://montecarlo.ai/blog-llm-firewall) |
 | 2026-11-16 | The Record (Recorded Future News) | [Italian regulator fines Meta $886 million for violating data privacy law](https://therecord.media/italian-regulator-fines-meta-886-million-privacy) |
 | 2026-11-16 | Precisely Blog | [From messy addresses to optimized delivery routes with Precisely AI Studio](https://www.precisely.com/blog/engineering/from-messy-addresses-to-optimized-delivery-routes-with-precisely-ai-studio/) |
+| 2026-11-16 | Computer Weekly — IT security | [The big cyber short, or dot AI bubble?](https://www.computerweekly.com/opinion/The-big-cyber-short-or-dot-AI-bubble) |
 | 2026-11-16 | Computer Weekly — IT security | [Threat actor use of AI becoming routine, warns Google](https://www.computerweekly.com/news/366654805/Threat-actor-use-of-AI-becoming-routine-warns-Google) |
 | 2026-11-16 | European Digital Rights (EDRi) | [1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken people’s rights?](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/) |
 | 2026-11-16 | dbt Labs Blog | [Healthcare AI starts with data you can trust](https://www.getdbt.com/blog/healthcare-ai-starts-with-trusted-data) |
@@ -63,7 +67,7 @@ Last run: **2026-11-16T21:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 137× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 138× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
