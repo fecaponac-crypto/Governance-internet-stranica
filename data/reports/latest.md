@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-17T12:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 8
+Last run: **2026-11-17T15:17:31Z** · sources checked: 81 · failed: 2 · new items this run: 10
 
-## New items, last 48 hours (59)
+## New items, last 48 hours (69)
 
 ### High priority sources
 
@@ -17,8 +17,12 @@ Last run: **2026-11-17T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | CDO Magazine | [Opinion & Analysis Can Your Data Systems Keep Your Privacy Promises?](https://www.cdomagazine.tech/opinion-analysis/can-your-data-systems-keep-your-privacy-promises) |
+| 2026-11-17 | Euractiv | [Data centre sabotage risks land in EU’s sovereign cloud law](https://www.rapporteur.com/news/data-centre-sabotage-risks-land-in-eus-sovereign-cloud-law/) |
+| 2026-11-17 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Anmäl intresse till innovationssandlådan senast måndag 23/11](https://www.imy.se/nyheter/anmal-intresse-till-innovationssandladan-senast-mandag-2311/) |
 | 2026-11-17 | Datatilsynet (Norway) | [Reklame mot barn er sjelden tilfeldig](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/reklame-mot-barn-er-sjelden-tilfeldig/) |
 | 2026-11-17 | CDO Magazine | [Leadership Moves Seth Farrington, U.S. Army DEVCOM Aviation & Missile Center CDAO, Joins CDO Magazine Global Board](https://www.cdomagazine.tech/leadership-moves/seth-farrington-u-s-army-devcom-aviation-missile-center-cdao-joins-cdo-magazine-global-board) |
+| 2026-11-17 | CNIL (France) | [La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026](https://www.cnil.fr/fr/38-sanctions-simplifiees) |
 | 2026-11-17 | POLITICO Europe — Technology | [Irish regulator stops X training AI with data gathered by agents](https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-17 | DATAVERSITY | [Designing Multi-Tiered AI Governance Education](https://www.dataversity.net/articles/designing-multi-tiered-ai-governance-education/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence IBM Study Finds AI Leaders Lack Control Over Investment Decisions and Governance](https://www.cdomagazine.tech/aiml/ibm-study-finds-ai-leaders-lack-control-over-investment-decisions-and-governance) |
@@ -53,6 +57,12 @@ Last run: **2026-11-17T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | Gaia-X | [Data Transfer Agent (DTA) – The open-source software component enabling the implementation of the harmonised European standard EN 18235 on Trusted Data Transactions (TDT)](https://gaia-x.eu/data-transfer-agent-dta-the-open-source-software-component-enabling-the-implementation-of-the-harmonised-european-standard-en-18235-on-trusted-data-transactions-tdt/) |
+| 2026-11-17 | AlgorithmWatch | [AI and Elections](https://algorithmwatch.org/en/ai-and-elections/) |
+| 2026-11-17 | AlgorithmWatch | [Gemeinsame Stellungnahme zum Digitalen Medien-Staatsvertrag (DMStV)](https://algorithmwatch.org/de/stellungnahme-dmstv/) |
+| 2026-11-17 | Precisely Blog | [What’s new in IBM i cyber resilience: recovering clean data](https://www.precisely.com/blog/cat-ibm-security/whats-new-in-ibm-i-cyber-resilience-recovering-clean-data/) |
+| 2026-11-17 | European Digital Rights (EDRi) | [Brussels Campaign Exchange on ‘Building Movements, Building Power’](https://edri.org/take-action/events/brussels-campaign-exchange-on-building-movements-building-power/) |
+| 2026-11-17 | European Digital Rights (EDRi) | [Digital Borders Exposed: an online launch by Protect Not Surveil](https://edri.org/take-action/events/digital-borders-exposed-an-online-launch-by-protect-not-surveil/) |
 | 2026-11-17 | InformationWeek | [AI governance's authority gap: Why titles aren't solving the accountability problem](https://www.informationweek.com/data-governance/ai-governance-s-authority-gap-why-titles-aren-t-solving-the-accountability-problem) |
 | 2026-11-17 | Stibo Systems Blog | [What is the difference between CPG and FMCG?](https://www.stibosystems.com/blog/what-is-the-difference-between-cpg-and-fmcg) |
 | 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
@@ -80,7 +90,8 @@ Last run: **2026-11-17T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 143× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 144× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **ISO — News** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.iso.org', port=443): Read timed out. (read timeout=25)`
 
 ## Check manually (weekly)
 

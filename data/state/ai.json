@@ -970,6 +970,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1edbefda5ea152eb": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for an advocacy meetup.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1f2e9df832f88829": {
    "at": "2026-11-05T12:18:37Z",
    "categories": [],
@@ -1106,6 +1115,17 @@
    "importance": 2,
    "reason": "Covers Greece's national AI Act implementation framework; relevant to governance but with no excerpt, so rated modest importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "21ca0ec5e4bcd909": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Online campaign launch exposing surveillance infrastructure; advocacy rather than governance news.",
+   "relevant": false,
    "same_story_as": null
   },
   "21fb4848b3a9d475": {
@@ -2528,6 +2548,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "4f5c50bcdabffd16": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "Joint civil society statement on a German draft state treaty regulating platforms and AI services; pending legislative consultation affecting platform obligations.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4fb4e00185c05935": {
    "at": "2026-11-16T21:17:43Z",
    "categories": [
@@ -3147,6 +3179,19 @@
    "error": "source not readable: HTTP 403",
    "importance": 3,
    "reason": "Parliament co-rapporteurs proposing data security tiers inside the Cloud and AI Development Act is a legislative process step affecting cloud data governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "669dbde67759660d": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "regulation",
+    "security"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Pending EU sovereign cloud law debate on data centre sabotage risks; legislative process step affecting cloud data obligations.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4935,6 +4980,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a311bc5bab1c2d8b": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "CNIL enforcement summary of 38 simplified-procedure sanctions on cookies, security and prospecting; notable enforcement activity.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "a324048b9a561e00": {
    "at": "2026-11-13T18:17:41Z",
    "categories": [
@@ -5169,6 +5226,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "aa1fbe6a063cfce6": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Research on chatbot election information; no data governance angle for practitioners.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "aa517f865e57b338": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -5349,6 +5417,17 @@
    "primary_found": true,
    "reason": "EDPB coordinated enforcement action on automated decision-making in recruitment is a regulator enforcement focus with practical implications for HR data governance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "b1e13078289432af": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product marketing on IBM i recovery; not a genuine launch or research finding.",
+   "relevant": false,
    "same_story_as": null
   },
   "b1f10fddc8cf8df2": {
@@ -5894,6 +5973,18 @@
    "importance": 1,
    "reason": "Generic newsletter issue with no specific governance story in the excerpt; cannot be judged relevant from title and excerpt alone.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "bfcf4025a79fca2c": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "regulation",
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Open-source implementation of harmonised European standard EN 18235 on trusted data transactions for data spaces; practical governance tooling, though a project announcement.",
+   "relevant": true,
    "same_story_as": null
   },
   "c000445cd74bf122": {
@@ -7636,6 +7727,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f695bc7797375ebf": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion column on privacy promises without new concrete development; generic thought-leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f722e4fbc3155f58": {
    "at": "2026-10-27T06:18:52Z",
    "categories": [
@@ -7836,6 +7938,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fb253256d0331d01": {
+   "at": "2026-11-17T15:18:29Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Call for expressions of interest for a regulator sandbox; event-style announcement, low practitioner impact.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fb9389653ce80578": {
    "at": "2026-11-11T17:10:58Z",
    "categories": [
@@ -8021,8 +8134,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 435,
-   "usd": 19.7975
+   "calls": 438,
+   "usd": 19.7997
   }
  }
 }

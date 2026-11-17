@@ -4,18 +4,18 @@ Visits:      130  (-72% on the week before: 470)
 Page views:  200  (-58% on the week before: 480)
 
 Most read:
-    40  /
-    20  /opinion/
-    20  /review/2026-11/
-    10  /monday-signal/
-    10  /news/ibero-american-data-protection-network-adopts-ai-standards-on-inferred/
+    44  /
+     7  /news/italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a/
+     5  /opinion/
+     5  /enforcement/
+     4  /institutions/edpb/
 
 Countries:
-    82  US
-    20  HR
-     8  CN
-     4  DE
-     3  AT
+    90  US
+    50  HR
+    10  CN
+    10  DK
+    10  NG
 
 Where visitors came from:
    110  (direct)
