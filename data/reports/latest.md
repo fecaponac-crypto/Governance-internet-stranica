@@ -1,19 +1,22 @@
 # Inflow report
 
-Last run: **2026-11-17T06:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-17T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (48)
+## New items, last 48 hours (51)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-698/23 P EDPS v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260165en.pdf) |
+| 2026-11-17 | The EU AI Act Newsletter (Future of Life Institute) | [Why Has California Led the Way on AI Regulation? (with Irene Liu)](https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on) |
 | 2026-11-16 | Hunton Privacy & Information Security Law Blog | [UK ICO Issues Guidance on AI-Assisted Data Subject Access Requests](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-issues-guidance-on-ai-assisted-data-subject-access-requests) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | DATAVERSITY | [Designing Multi-Tiered AI Governance Education](https://www.dataversity.net/articles/designing-multi-tiered-ai-governance-education/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence IBM Study Finds AI Leaders Lack Control Over Investment Decisions and Governance](https://www.cdomagazine.tech/aiml/ibm-study-finds-ai-leaders-lack-control-over-investment-decisions-and-governance) |
 | 2026-11-17 | Euractiv | [EDA pitches strategic enablers ‘opportunities’ for the bloc](https://www.rapporteur.com/news/eda-pitches-strategic-enablers-opportunities-for-the-bloc/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence OpenAI Releases AI Image Classifier and Safety Tools to Help Detect Child Abuse Material](https://www.cdomagazine.tech/aiml/openai-releases-ai-image-classifier-and-safety-tools-to-help-detect-child-abuse-material) |
@@ -69,7 +72,7 @@ Last run: **2026-11-17T06:17:23Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 141× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 142× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

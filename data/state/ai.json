@@ -4097,6 +4097,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "86146ace8a0797f2": {
+   "at": "2026-11-17T09:17:38Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 10,
+   "decision": "drafted",
+   "draft": "eu-court-of-justice-confirms-edps-cannot-challenge-europol-transitiona",
+   "flagged": 1,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/124",
+   "primary_found": false,
+   "reason": "CJEU judgment on EDPS action against Parliament and Council over Europol personal data processing; a landmark ruling on data protection limits for law enforcement with practical implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "871f2eeb80490f2d": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -5076,6 +5093,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "a9f34746b6292f0d": {
+   "at": "2026-11-17T09:17:38Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Podcast episode promotion with no concrete news; not actionable for practitioners.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "aa517f865e57b338": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [],
@@ -6046,6 +6074,17 @@
    "primary_found": false,
    "reason": "Pennsylvania AI Deceptive Advertising Act sets disclosure duties for synthetic content, a concrete new state obligation affecting how organisations govern AI-generated content.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "cab5dffc8f320a6e": {
+   "at": "2026-11-17T09:17:38Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic education piece with no concrete governance guidance or news; excerpt contains no substance.",
+   "relevant": false,
    "same_story_as": null
   },
   "cb3818f8655d2aa6": {
@@ -7882,8 +7921,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 418,
-   "usd": 18.8825
+   "calls": 424,
+   "usd": 19.2907
   }
  }
 }
