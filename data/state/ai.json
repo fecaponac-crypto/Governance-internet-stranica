@@ -1056,6 +1056,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "208f613d0e391a04": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic vendor thought-leadership on AI autonomy.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2097511f7f1d1e9e": {
    "at": "2026-11-10T14:57:08Z",
    "categories": [
@@ -1290,6 +1301,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "25e3d9d7530b4f26": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "metadata",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Catalog interoperability between Unity Catalog and Google Cloud; governance-relevant platform announcement, but vendor-blog level.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "2604802e1527c0a1": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [
@@ -1353,6 +1376,18 @@
    "importance": 1,
    "reason": "US surveillance law debate; not a governance practice development for practitioners in this framing.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "27b4a70b368e431d": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Overview of global youth social media restrictions; background policy context with some privacy angle, not a specific new decision.",
+   "relevant": true,
    "same_story_as": null
   },
   "27e8c037d07b997f": {
@@ -2333,6 +2368,17 @@
    "importance": 3,
    "reason": "EDPS urging GDPR changes to align kids' age limits and address duplicated age assurance is regulator pushback on pending EU law affecting data obligations.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "47891174c123572e": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing piece on healthcare data for a CMS rule; not a news development.",
+   "relevant": false,
    "same_story_as": null
   },
   "48634f70a817bbb9": {
@@ -3914,6 +3960,19 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7aaeb5f4a57fd1b6": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "UK regulators ask government to address personal AI agents; policy call with governance implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "7abea47610836fb9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -3998,6 +4057,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7d763c7b66089d05": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor award/recognition announcement, not a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7db36a1ac8f411e2": {
    "at": "2026-11-12T11:18:33Z",
    "categories": [
@@ -4007,6 +4077,18 @@
    "importance": 1,
    "reason": "Vendor blog on cost of Snowflake Cortex agents; vendor marketing without governance substance.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "7e0cfef95a8a90ca": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 3,
+   "reason": "California privacy regulator fine on Hertz under state privacy law; enforcement with practical consequences for data practices.",
+   "relevant": true,
    "same_story_as": null
   },
   "7e117e5687b46b40": {
@@ -4833,6 +4915,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Corporate and open-source news about Nvidia leadership petition; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9d02716378a33948": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Product release notes for dbt with no clear governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5918,6 +6011,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "be5129d783362658": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor recognition in Gartner Magic Quadrant; award-style marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "beb6c472a0ad53d7": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -6911,6 +7015,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog (DataHub) with generic how-to/thought-leadership on automated catalogues; vendor marketing, not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "db48a04f58b93431": {
+   "at": "2026-11-17T18:17:58Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor recognition in Gartner Magic Quadrant; award-style marketing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8179,8 +8294,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 439,
-   "usd": 19.8006
+   "calls": 443,
+   "usd": 19.9441
   }
  }
 }

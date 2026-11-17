@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-17T16:04:26Z** · sources checked: 81 · failed: 1 · new items this run: 4
+Last run: **2026-11-17T18:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 10
 
-## New items, last 48 hours (73)
+## New items, last 48 hours (83)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
 | 2026-11-17 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-698/23 P EDPS v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260165en.pdf) |
 | 2026-11-17 | The EU AI Act Newsletter (Future of Life Institute) | [Why Has California Led the Way on AI Regulation? (with Irene Liu)](https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on) |
 | 2026-11-16 | European Commission — Press Corner | [Autumn 2026 Economic Forecast shows continued growth amid higher inflation](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438) |
@@ -17,6 +18,9 @@ Last run: **2026-11-17T16:04:26Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | Informatica Blog | [Gartner® names Salesforce (Informatica) a 3x Leader in Data and Analytics Governance Platforms Generative AI for Data Management](https://www.informatica.com/blogs/salesforce-informatica-recognized-as-a-leader-in-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms.html) |
+| 2026-11-17 | Databricks Blog | [Advancing Catalog Interoperability with Unity Catalog and Google Cloud’s Borderless Lakehouse](https://www.databricks.com/blog/advancing-catalog-interoperability-unity-catalog-and-google-clouds-borderless-lakehouse) |
+| 2026-11-17 | Ataccama Blog | [Ataccama named the only Visionary in the 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/news/ataccama-named-the-only-visionary-in-the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms) |
 | 2026-11-17 | Alation Blog | [November 17, 2026 Alation Named a Leader in the 2026 Gartner® Magic Quadrant™ for D&A Governance Platforms Gartner says, “Through 2028, 80% of S&P 1,200 organizations will relaunch a modern D&A governance program, based around… Read More](https://www.alation.com/blog/gartner-magic-quadrant-governance-leader/) |
 | 2026-11-17 | CDO Magazine | [Opinion & Analysis Can Your Data Systems Keep Your Privacy Promises?](https://www.cdomagazine.tech/opinion-analysis/can-your-data-systems-keep-your-privacy-promises) |
 | 2026-11-17 | Euractiv | [Digital ministers to discuss AI safety at December meeting](https://www.rapporteur.com/news/digital-ministers-to-discuss-ai-safety-at-december-meeting/) |
@@ -32,6 +36,7 @@ Last run: **2026-11-17T16:04:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence OpenAI Releases AI Image Classifier and Safety Tools to Help Detect Child Abuse Material](https://www.cdomagazine.tech/aiml/openai-releases-ai-image-classifier-and-safety-tools-to-help-detect-child-abuse-material) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence NVIDIA Launches Open Science AI Models and 50,000-Question Chemistry Dataset for Research Agents](https://www.cdomagazine.tech/aiml/nvidia-launches-open-science-ai-models-and-50000-question-chemistry-dataset-for-research-agents) |
 | 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
+| 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
 | 2026-11-16 | Snowflake Blog | [Snowflake CoCo: Built to Scale Enterprise AI with Trust](https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations) |
 | 2026-11-16 | CDO Magazine | [Community When AI Agents Start Making Decisions, Who Owns the Outcome? New York Executives Explore the Next Challenge](https://www.cdomagazine.tech/community/when-ai-agents-start-making-decisions-who-owns-the-outcome-new-york-executives-explore-the-next-challenge) |
 | 2026-11-16 | Snowflake Blog | [Open Data Sharing: Share Live Data Beyond Snowflake](https://www.snowflake.com/content/snowflake-site/global/en/blog/open-data-sharing-iceberg-rest-catalog) |
@@ -60,14 +65,19 @@ Last run: **2026-11-17T16:04:26Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | The Record (Recorded Future News) | [California fines Hertz $1.5 million for breaking state data privacy law](https://therecord.media/california-fines-hertz-state-data-privacy-law) |
+| 2026-11-17 | Stibo Systems Blog | [How to raise the trust ceiling of AI autonomy](https://www.stibosystems.com/blog/how-to-raise-the-trust-ceiling-of-ai-autonomy) |
+| 2026-11-17 | dbt Labs Blog | [What's new in dbt: November 2026](https://www.getdbt.com/blog/whats-new-in-dbt-november-2026) |
 | 2026-11-17 | Gaia-X | [Data Transfer Agent (DTA) – The open-source software component enabling the implementation of the harmonised European standard EN 18235 on Trusted Data Transactions (TDT)](https://gaia-x.eu/data-transfer-agent-dta-the-open-source-software-component-enabling-the-implementation-of-the-harmonised-european-standard-en-18235-on-trusted-data-transactions-tdt/) |
 | 2026-11-17 | AlgorithmWatch | [AI and Elections](https://algorithmwatch.org/en/ai-and-elections/) |
 | 2026-11-17 | AlgorithmWatch | [Gemeinsame Stellungnahme zum Digitalen Medien-Staatsvertrag (DMStV)](https://algorithmwatch.org/de/stellungnahme-dmstv/) |
+| 2026-11-17 | Profisee Blog | [Data Management in Healthcare: Preparing for CMS-0057-F](https://profisee.com/blog/data-management-healthcare-cms-0057-f/) |
 | 2026-11-17 | Precisely Blog | [What’s new in IBM i cyber resilience: recovering clean data](https://www.precisely.com/blog/cat-ibm-security/whats-new-in-ibm-i-cyber-resilience-recovering-clean-data/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Brussels Campaign Exchange on ‘Building Movements, Building Power’](https://edri.org/take-action/events/brussels-campaign-exchange-on-building-movements-building-power/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Digital Borders Exposed: an online launch by Protect Not Surveil](https://edri.org/take-action/events/digital-borders-exposed-an-online-launch-by-protect-not-surveil/) |
 | 2026-11-17 | InformationWeek | [AI governance's authority gap: Why titles aren't solving the accountability problem](https://www.informationweek.com/data-governance/ai-governance-s-authority-gap-why-titles-aren-t-solving-the-accountability-problem) |
 | 2026-11-17 | Stibo Systems Blog | [What is the difference between CPG and FMCG?](https://www.stibosystems.com/blog/what-is-the-difference-between-cpg-and-fmcg) |
+| 2026-11-17 | Computer Weekly — IT security | [UK regulators call for tight control of personal AI agents](https://www.computerweekly.com/news/366654742/UK-regulators-call-for-tight-control-of-personal-AI-agents) |
 | 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
 | 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
@@ -94,7 +104,7 @@ Last run: **2026-11-17T16:04:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 145× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 146× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
