@@ -15,7 +15,10 @@ status:
 sources:
   - name: "POLITICO Europe"
     title: "X stops training AI with agents' data after Ireland intervened"
-    url: "https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    url: "https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/"
+  - name: "RPC"
+    title: "X suspends personal data training of AI chatbot Grok following Irish DPC pressure"
+    url: "https://www.rpclegal.com/snapshots/data-protection/autumn-2024/x-suspends-training-of-ai-chatbot-grok-following-irish-dpc-pressure/"
 related: [noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio, norway-s-datatilsynet-warns-ai-agents-left-running-after-staff-move-on]
 card:
   figure: "Suspended"
@@ -26,6 +29,8 @@ Ireland's Data Protection Commission (DPC) has secured a suspension of X's use o
 
 The agent began gathering this data in late October, POLITICO reported. Commissioner Dale Sunderland told the outlet that the DPC had raised "significant concerns" about the processing in recent weeks. "We asked them to suspend the processing, and they've confirmed to us today that they've done that," he said on Monday.
 
-The report does not set out the legal basis under examination, the categories of data involved, or whether the DPC will take further steps. Nor does it say whether the suspension is temporary or permanent. **No fine or formal order has been reported.**
+The report does not set out the legal basis under examination, the categories of data involved, or whether the DPC will take further steps. Nor does it say whether the suspension is temporary or permanent. **No fine or formal order has been reported**, and the DPC had not published a statement on its website at the time of writing.
+
+It is the second time the DPC has stopped X training AI on European data. In 2024 X agreed to suspend training Grok on EU users' posts after the DPC took it to the Irish High Court; that matter concerned users' own posts, while this one concerns data collected by an agent.
 
 *Editor's note: This article relies solely on a secondary news report by POLITICO, including the regulator's comments given to that outlet.*
