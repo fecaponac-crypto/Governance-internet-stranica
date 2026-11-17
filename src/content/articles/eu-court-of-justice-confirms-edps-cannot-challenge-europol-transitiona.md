@@ -1,7 +1,7 @@
 ---
 title: "EU Court of Justice confirms EDPS cannot challenge Europol transitional data provisions"
 date: 2026-11-17
-dek: "The Court dismissed the EDPS appeal, finding that rules letting Europol keep processing uncategorised data did not alter the supervisor's powers or independence, so he lacked standing."
+dek: "The Court dismissed the EDPS appeal, finding that rules letting Europol keep processing uncategorised data did not alter the supervisor's powers or independence, so it lacked standing."
 whyItMatters: "The ruling limits how far the EDPS can use the courts to defend its own supervisory decisions when the legislature later changes the underlying processing rules. Teams at EU institutions and agencies should note that an EDPS order can be overtaken by legislative change without the supervisor being able to contest it directly. It also shows that categorisation, minimisation and storage-limitation duties can be reshaped by transitional rules, so retention schedules should be checked against the current legal text, not only past regulator orders."
 categories: [privacy, regulation]
 institutions: [cjeu]
@@ -23,7 +23,7 @@ card:
   caption: "EDPS appeal against Europol data retention provisions dismissed as unfounded"
 ---
 
-The Court of Justice has dismissed the European Data Protection Supervisor's appeal in **Case C-698/23 P**, confirming a 2023 General Court order that his action against Parliament and Council was inadmissible.
+The Court of Justice has dismissed the European Data Protection Supervisor's appeal in **Case C-698/23 P**, confirming a 2023 General Court order that its action against Parliament and Council was inadmissible.
 
 In January 2022 the EDPS ordered Europol to categorise stored personal data within six or twelve months or erase it. On 8 June 2022 Parliament and Council added transitional provisions (Articles 74a and 74b of the Europol Regulation, as amended by Regulation (EU) 2022/991) allowing continued processing of data from ongoing criminal investigations under certain conditions. The EDPS argued this retroactively legalised the practice, in effect annulled its decision and undermined its independence.
 
