@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-17T15:17:31Z** · sources checked: 81 · failed: 2 · new items this run: 10
+Last run: **2026-11-17T16:04:26Z** · sources checked: 81 · failed: 1 · new items this run: 4
 
-## New items, last 48 hours (69)
+## New items, last 48 hours (73)
 
 ### High priority sources
 
@@ -17,7 +17,9 @@ Last run: **2026-11-17T15:17:31Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | Alation Blog | [November 17, 2026 Alation Named a Leader in the 2026 Gartner® Magic Quadrant™ for D&A Governance Platforms Gartner says, “Through 2028, 80% of S&P 1,200 organizations will relaunch a modern D&A governance program, based around… Read More](https://www.alation.com/blog/gartner-magic-quadrant-governance-leader/) |
 | 2026-11-17 | CDO Magazine | [Opinion & Analysis Can Your Data Systems Keep Your Privacy Promises?](https://www.cdomagazine.tech/opinion-analysis/can-your-data-systems-keep-your-privacy-promises) |
+| 2026-11-17 | Euractiv | [Digital ministers to discuss AI safety at December meeting](https://www.rapporteur.com/news/digital-ministers-to-discuss-ai-safety-at-december-meeting/) |
 | 2026-11-17 | Euractiv | [Data centre sabotage risks land in EU’s sovereign cloud law](https://www.rapporteur.com/news/data-centre-sabotage-risks-land-in-eus-sovereign-cloud-law/) |
 | 2026-11-17 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Anmäl intresse till innovationssandlådan senast måndag 23/11](https://www.imy.se/nyheter/anmal-intresse-till-innovationssandladan-senast-mandag-2311/) |
 | 2026-11-17 | Datatilsynet (Norway) | [Reklame mot barn er sjelden tilfeldig](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/reklame-mot-barn-er-sjelden-tilfeldig/) |
@@ -29,6 +31,7 @@ Last run: **2026-11-17T15:17:31Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-17 | Euractiv | [EDA pitches strategic enablers ‘opportunities’ for the bloc](https://www.rapporteur.com/news/eda-pitches-strategic-enablers-opportunities-for-the-bloc/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence OpenAI Releases AI Image Classifier and Safety Tools to Help Detect Child Abuse Material](https://www.cdomagazine.tech/aiml/openai-releases-ai-image-classifier-and-safety-tools-to-help-detect-child-abuse-material) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence NVIDIA Launches Open Science AI Models and 50,000-Question Chemistry Dataset for Research Agents](https://www.cdomagazine.tech/aiml/nvidia-launches-open-science-ai-models-and-50000-question-chemistry-dataset-for-research-agents) |
+| 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
 | 2026-11-16 | Snowflake Blog | [Snowflake CoCo: Built to Scale Enterprise AI with Trust](https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations) |
 | 2026-11-16 | CDO Magazine | [Community When AI Agents Start Making Decisions, Who Owns the Outcome? New York Executives Explore the Next Challenge](https://www.cdomagazine.tech/community/when-ai-agents-start-making-decisions-who-owns-the-outcome-new-york-executives-explore-the-next-challenge) |
 | 2026-11-16 | Snowflake Blog | [Open Data Sharing: Share Live Data Beyond Snowflake](https://www.snowflake.com/content/snowflake-site/global/en/blog/open-data-sharing-iceberg-rest-catalog) |
@@ -65,6 +68,7 @@ Last run: **2026-11-17T15:17:31Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-17 | European Digital Rights (EDRi) | [Digital Borders Exposed: an online launch by Protect Not Surveil](https://edri.org/take-action/events/digital-borders-exposed-an-online-launch-by-protect-not-surveil/) |
 | 2026-11-17 | InformationWeek | [AI governance's authority gap: Why titles aren't solving the accountability problem](https://www.informationweek.com/data-governance/ai-governance-s-authority-gap-why-titles-aren-t-solving-the-accountability-problem) |
 | 2026-11-17 | Stibo Systems Blog | [What is the difference between CPG and FMCG?](https://www.stibosystems.com/blog/what-is-the-difference-between-cpg-and-fmcg) |
+| 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
 | 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
 | 2026-11-16 | The Record (Recorded Future News) | [Match fined $10 million for alleged Tinder privacy violations](https://therecord.media/ireland-tinder-privacy-fine) |
@@ -90,8 +94,7 @@ Last run: **2026-11-17T15:17:31Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 144× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **ISO — News** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.iso.org', port=443): Read timed out. (read timeout=25)`
+- **European Data Protection Board (EDPB)** — failed 145× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

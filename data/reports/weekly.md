@@ -1,7 +1,7 @@
 Data Governance Signal — week 10 Nov – 16 Nov 2026
 
-Visits:      130  (-72% on the week before: 470)
-Page views:  200  (-58% on the week before: 480)
+Visits:      113  (-76% on the week before: 470)
+Page views:  147  (-69% on the week before: 480)
 
 Most read:
     44  /
@@ -11,16 +11,18 @@ Most read:
      4  /institutions/edpb/
 
 Countries:
-    90  US
-    50  HR
-    10  CN
-    10  DK
-    10  NG
+    82  US
+    20  HR
+     8  CN
+     4  DE
+     3  AT
 
 Where visitors came from:
-   110  (direct)
-    70  datagovernancesignal.com
-    20  www.google.com
+    99  (direct)
+    34  datagovernancesignal.com
+    10  www.google.com
+     1  go.bsky.app
+     1  www.doubao.com
 
 Published this week: 32 stories
   - AlgorithmWatch and 36 groups urge limits on Germany's draft law for AI in asylum and visa decisions

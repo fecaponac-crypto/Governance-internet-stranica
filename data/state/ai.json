@@ -1355,6 +1355,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "27e8c037d07b997f": {
+   "at": "2026-11-17T16:04:38Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic CISO thought-leadership with no concrete new development or data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "28418ea3b8c087a5": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -2335,6 +2346,17 @@
    "relevant": false,
    "same_story_as": "item:4e7c56ddf0b255ae"
   },
+  "4866c4e0599e4ee8": {
+   "at": "2026-11-17T16:04:38Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Catalog vendor product feature (derived attributes) with some practical metadata relevance, but largely vendor marketing.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "48d0396a9d17c295": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -2932,6 +2954,17 @@
    "primary_found": true,
    "reason": "CPPA staff proposed amendments to CCPA regulations on opt-out preference signals, a pending regulatory change affecting organisations' consent and data-use obligations.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "598c039fab9d8f8f": {
+   "at": "2026-11-17T16:04:38Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting analyst recognition; award/marketing style, not a genuine launch or research finding.",
+   "relevant": false,
    "same_story_as": null
   },
   "5ad46b5b03756ecf": {
@@ -6432,6 +6465,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "cfdd45131b6d6ed3": {
+   "at": "2026-11-17T16:04:38Z",
+   "categories": [
+    "ai-industry",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Government ministers consulting on AI safety testing and cooperation; policy process with limited direct data governance impact so far.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cfe5e5e738ff67f0": {
    "at": "2026-10-29T06:18:32Z",
    "categories": [
@@ -8134,8 +8179,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 438,
-   "usd": 19.7997
+   "calls": 439,
+   "usd": 19.8006
   }
  }
 }
