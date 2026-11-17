@@ -247,6 +247,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "076203df7e4ebf02": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "norway-s-datatilsynet-links-children-s-online-advertising-to-profiling",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/126",
+   "primary_found": false,
+   "reason": "Norwegian DPA publication on advertising aimed at children; a privacy/children's data angle with possible practical implications, though the excerpt is absent and title is terse.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "07644c9c56cc583b": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -3225,6 +3241,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "68cf3da7a3f2482f": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 7,
+   "decision": "drafted",
+   "draft": "x-suspends-training-ai-on-data-collected-by-its-grok-agent-after-irish",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/125",
+   "primary_found": false,
+   "reason": "Irish DPC action halting X's AI training on personal data gathered by agents; significant enforcement affecting data use for AI.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "694525516dd0ef68": {
    "at": "2026-10-29T12:18:34Z",
    "categories": [],
@@ -3373,6 +3406,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "6fa34e8cb579289b": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [
+    "ai-governance",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Opinion piece on AI governance accountability gaps; generic commentary, at most worth knowing.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "6fe41e60da9e9081": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [
@@ -3418,6 +3463,17 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/105",
    "primary_found": true,
    "reason": "FDA request for input on patient-level data access for real-world evidence affects how health data is governed and documented; regulatory consultation, but excerpt is absent so kept at moderate importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "7097a7f314a140b7": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "AlgorithmWatch research on Google AI Overviews and election content; research with limited direct governance angle.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4094,6 +4150,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Practitioner tutorial on building a context layer; how-to content with limited governance news value.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "849ad488b000e50e": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic definitional vendor blog post with no governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6433,6 +6498,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d2a6771fd3499d05": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Appointment/board announcement; hiring-style leadership news, not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d2e9b967064aea9c": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [
@@ -6850,6 +6924,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "dfb97fa1a4f2ee86": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General macroeconomic forecast without data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e06abf0dd7f84f25": {
    "at": "2026-10-28T05:45:52Z",
    "categories": [],
@@ -7123,6 +7206,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Ransomware attack on cloud provider disrupting customers; useful third-party risk example.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "e7aca04467871a7d": {
+   "at": "2026-11-17T12:17:37Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "edri-warns-digital-networks-act-and-satellite-rules-could-let-commissi",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/127",
+   "primary_found": false,
+   "reason": "Civil society open letter on pending EU legislative files adding satellite communications surveillance powers; organised pushback on pending law.",
    "relevant": true,
    "same_story_as": null
   },
@@ -7921,8 +8021,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 424,
-   "usd": 19.2907
+   "calls": 435,
+   "usd": 19.7975
   }
  }
 }

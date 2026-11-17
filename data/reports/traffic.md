@@ -1,6 +1,6 @@
 # Traffic — 2026-11
 
-Updated 2026-11-17T09:19:00Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-17T12:19:30Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
 **630 visits · 710 page views** this month (bots excluded)
 
@@ -28,11 +28,11 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/privacy/ — 80
 - /category/security/ — 60
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
+- /review/2026-11/ — 20
 - /institutions/edpb/ — 20
 - /monday-signal/ — 20
 - /opinion/ — 20
 - /category/ai-governance/ — 20
-- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
 
 ## Countries
 

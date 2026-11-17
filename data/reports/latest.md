@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-17T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-17T12:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 8
 
-## New items, last 48 hours (51)
+## New items, last 48 hours (59)
 
 ### High priority sources
 
@@ -10,12 +10,16 @@ Last run: **2026-11-17T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 |---|---|---|
 | 2026-11-17 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-698/23 P EDPS v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260165en.pdf) |
 | 2026-11-17 | The EU AI Act Newsletter (Future of Life Institute) | [Why Has California Led the Way on AI Regulation? (with Irene Liu)](https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on) |
+| 2026-11-16 | European Commission — Press Corner | [Autumn 2026 Economic Forecast shows continued growth amid higher inflation](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438) |
 | 2026-11-16 | Hunton Privacy & Information Security Law Blog | [UK ICO Issues Guidance on AI-Assisted Data Subject Access Requests](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-issues-guidance-on-ai-assisted-data-subject-access-requests) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | Datatilsynet (Norway) | [Reklame mot barn er sjelden tilfeldig](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/reklame-mot-barn-er-sjelden-tilfeldig/) |
+| 2026-11-17 | CDO Magazine | [Leadership Moves Seth Farrington, U.S. Army DEVCOM Aviation & Missile Center CDAO, Joins CDO Magazine Global Board](https://www.cdomagazine.tech/leadership-moves/seth-farrington-u-s-army-devcom-aviation-missile-center-cdao-joins-cdo-magazine-global-board) |
+| 2026-11-17 | POLITICO Europe — Technology | [Irish regulator stops X training AI with data gathered by agents](https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-17 | DATAVERSITY | [Designing Multi-Tiered AI Governance Education](https://www.dataversity.net/articles/designing-multi-tiered-ai-governance-education/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence IBM Study Finds AI Leaders Lack Control Over Investment Decisions and Governance](https://www.cdomagazine.tech/aiml/ibm-study-finds-ai-leaders-lack-control-over-investment-decisions-and-governance) |
 | 2026-11-17 | Euractiv | [EDA pitches strategic enablers ‘opportunities’ for the bloc](https://www.rapporteur.com/news/eda-pitches-strategic-enablers-opportunities-for-the-bloc/) |
@@ -49,6 +53,10 @@ Last run: **2026-11-17T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | InformationWeek | [AI governance's authority gap: Why titles aren't solving the accountability problem](https://www.informationweek.com/data-governance/ai-governance-s-authority-gap-why-titles-aren-t-solving-the-accountability-problem) |
+| 2026-11-17 | Stibo Systems Blog | [What is the difference between CPG and FMCG?](https://www.stibosystems.com/blog/what-is-the-difference-between-cpg-and-fmcg) |
+| 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
+| 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
 | 2026-11-16 | The Record (Recorded Future News) | [Match fined $10 million for alleged Tinder privacy violations](https://therecord.media/ireland-tinder-privacy-fine) |
 | 2026-11-16 | Monte Carlo Blog | [What Is AI Accountability? Who Answers When Agents Fail](https://montecarlo.ai/blog-ai-accountability) |
 | 2026-11-16 | Monte Carlo Blog | [How to Improve AI Security Posture Management (AI-SPM) Once Agents Go Live](https://montecarlo.ai/blog-ai-security-posture-management) |
@@ -72,7 +80,7 @@ Last run: **2026-11-17T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 142× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 143× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
