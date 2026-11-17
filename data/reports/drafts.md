@@ -1,6 +1,6 @@
 # Drafts report
 
-Last run: **2026-11-17T00:17:34Z** · candidates 4 · scored 4 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-17T03:17:41Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$18.88** of $35 budget (417 calls)
 
@@ -10,9 +10,9 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Vendor blog promoting a product GA with marketing framing; not a genuine governance-relevant launch analysis.
 - (1) Child safety image classifier release is AI industry news with no clear data governance angle for practitioners; generic tool launch outside core coverage.
 - (1) Research model and chemistry dataset release has no concrete data governance consequence.
-- (1) Vendor blog promoting a product GA with marketing framing; not a genuine governance-relevant launch analysis.
 - (1) Market opinion on AI bubble and cyber stocks; no data governance angle.
 - (4) Same DPC Tinder fine already covered in existing article.
 - (2) Google research on threat actor AI use is a research finding on security posture, but lower practitioner action relevance; specialist IT security media with some substance.
