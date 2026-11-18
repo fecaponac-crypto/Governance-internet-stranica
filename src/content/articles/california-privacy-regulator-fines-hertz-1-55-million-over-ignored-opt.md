@@ -20,7 +20,7 @@ enforcement:
   case: cppa-hertz-opt-out-signals
   action: "Fine"
   authority: "California Privacy Protection Agency (CalPrivacy) Board"
-  parties: "The Hertz Corporation ($1.55m fine and practice changes); CC Filson Co. (separate decision: $217,987 fine and order to stop device-based sales/sharing to adtech firms)"
+  parties: "The Hertz Corporation"
   framework: "US state"
   jurisdiction: "California"
   amount: 1550000
@@ -45,4 +45,4 @@ The California Privacy Protection Agency (CalPrivacy) Board has issued a decisio
 
 The decision requires quarterly testing of CCPA request methods, an inventory of tracking technologies with review before new ones go live on Hertz, Thrifty and Dollar sites and apps, and opt-out testing across staging and production, browsers, devices and all tag management containers. Published request metrics must show how many opt-outs came from preference signals.
 
-In a separate decision, CC Filson Co. must stop **device-based sales and sharing to adtech companies within 30 days** until it certifies compliance, and pay $217,987.
+In a separate decision, outdoor clothing retailer CC Filson Co. must stop **device-based sales and sharing to adtech companies within 30 days** until it certifies compliance with obligations including audits, tests and training, and pay $217,987. CalPrivacy said the amount reflects confidential financial information showing Filson could not pay a multi-million dollar fine.
