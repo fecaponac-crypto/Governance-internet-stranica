@@ -6,7 +6,7 @@ Page views:  138  (-72% on the week before: 490)
 Most read:
     40  /
      8  /news/italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a/
-     4  /review/2026-11/
+     4  /news/fda-asks-for-input-on-getting-patient-level-real-world-data-behind-dru/
      4  /news/pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead/
      4  /enforcement/
 

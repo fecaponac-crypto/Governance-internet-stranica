@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-18T03:17:38Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-18T06:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (88)
+## New items, last 48 hours (89)
 
 ### High priority sources
 
@@ -20,7 +20,10 @@ Last run: **2026-11-18T03:17:38Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | CDO Magazine | [Artificial Intelligence NASCIO Survey Finds Gaps in AI Governance, Data Readiness Across State Governments](https://www.cdomagazine.tech/aiml/nascio-survey-finds-gaps-in-ai-governance-data-readiness-across-state-governments) |
+| 2026-11-18 | CDO Magazine | [US Federal News Bureau FBI Warns AI-Powered Hacking Tool Can Breach Networks in Under Three Hours](https://www.cdomagazine.tech/us-federal-news-bureau/fbi-warns-ai-powered-hacking-tool-can-breach-networks-in-under-three-hours) |
 | 2026-11-18 | Forrester Blogs | [DORA: Avoid The Compliance-As-A-Strategy Approach](https://www.forrester.com/blogs/dora-avoid-the-compliance-as-a-strategy-approach/) |
+| 2026-11-18 | Euractiv | [Key cloud lawmaker mulls deleting highest sovereignty tier](https://www.rapporteur.com/news/key-cloud-lawmaker-mulls-deleting-highest-sovereignty-tier/) |
 | 2026-11-18 | Databricks Blog | [How we raised Databricks cluster rate limits by 7.5×](https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75) |
 | 2026-11-17 | Informatica Blog | [Gartner® names Salesforce (Informatica) a 3x Leader in Data and Analytics Governance Platforms Generative AI for Data Management](https://www.informatica.com/blogs/salesforce-informatica-recognized-as-a-leader-in-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms.html) |
 | 2026-11-17 | Databricks Blog | [Advancing Catalog Interoperability with Unity Catalog and Google Cloud’s Borderless Lakehouse](https://www.databricks.com/blog/advancing-catalog-interoperability-unity-catalog-and-google-clouds-borderless-lakehouse) |
@@ -61,7 +64,6 @@ Last run: **2026-11-18T03:17:38Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
 | 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
 | 2026-11-13 | European Data Protection Supervisor (EDPS) | [Data Protection Day 2027: Protecting the vulnerable](https://www.edps.europa.eu/press-publications/press-news/news/2026/data-protection-day-2027-protecting-vulnerable) |
-| 2026-11-13 | DATAVERSITY | [How to Turn Data Governance into a Transformation Accelerator](https://www.dataversity.net/articles/how-to-turn-data-governance-into-a-transformation-accelerator/) |
 | 2026-11-12 | CNIL (France) | [Ordre du jour de la séance plénière du 12 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-12-novembre-2026) |
 
 ### Low priority sources
@@ -104,12 +106,11 @@ Last run: **2026-11-18T03:17:38Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | AlgorithmWatch | [KI in der Migrationsverwaltung: AlgorithmWatch und 36 weitere Organisationen fordern mehr Schutz von Betroffenen](https://algorithmwatch.org/de/kimvg-appell/) |
 | 2026-11-16 | LfDI Baden-Württemberg (Germany) | [Kritische Infrastrukturen schützen – Informationsfreiheit bewahren](https://www.baden-wuerttemberg.datenschutz.de/kritische-infrastrukturen-schuetzen-informationsfreiheit-bewahren/) |
 | 2026-11-16 | AlgorithmWatch | [KI & Wahlen](https://algorithmwatch.org/de/dossier-ki-wahlen/) |
-| 2026-11-16 | Data Engineering Weekly | [Data Engineering Weekly #296](https://www.dataengineeringweekly.com/p/data-engineering-weekly-296) |
 | 2026-11-16 | Computer Weekly — IT security | [UK councils lead on email anti-spoofing but lock into Microsoft](https://www.computerweekly.com/news/366654774/UK-councils-lead-on-email-anti-spoofing-but-lock-into-Microsoft) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 150× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 151× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
