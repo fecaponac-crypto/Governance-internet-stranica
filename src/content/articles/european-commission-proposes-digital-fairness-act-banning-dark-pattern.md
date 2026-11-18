@@ -12,7 +12,7 @@ type: "Regulation"
 region: "EU"
 status:
   stage: "Proposal"
-  detail: "Parliament and Council have yet to negotiate and adopt the text"
+  detail: "Parliament and Council have yet to negotiate; would apply 12 months after entry into force"
 whatToCheck:
   - "Identify where GDPR special-category data, inferred vulnerabilities or minor status feed audience segments used for personalised advertising."
   - "Review whether personalised or dynamic pricing models could produce less favourable prices for minors or consumers in vulnerable situations, and whether you could document this."
@@ -36,3 +36,5 @@ The European Commission published its proposal for a **Digital Fairness Act** (C
 The preferred policy option includes a general ban on business-to-consumer dark patterns. It would also prohibit personalised advertising aimed at minors or based on GDPR special categories of data or on consumer vulnerabilities, and ban personalised pricing for minors or vulnerable consumers where it leads to worse outcomes. Other measures include a fairness-by-design duty, an eased burden of proof in technologically complex cases, a right to a human in customer service and easier cancellation of subscriptions.
 
 The proposal puts the yearly cut in consumer detriment at EUR 13.7 billion, counting financial losses and time lost; the Commission's announcement, as reported by IAPP, cites EUR 10.3 billion a year in consumer savings. It puts yearly recurrent business costs at **EUR 678 million** after adjusting for overlaps. The proposal now goes to Parliament and Council. According to IAPP, a parallel revision of the consumer enforcement regulation would allow fines of up to 6% in large-scale cases.
+
+The proposal would **apply 12 months after entry into force** (Article 40; the period is still in square brackets in the draft). It would also move the ePrivacy Directive's protection against unsolicited direct marketing by phone, email and SMS into the new regulation (Article 28), let consumers set the parameters of automated systems used to conclude contracts on their behalf, and reduce information requirements for contracts that are fully automated on both sides.
