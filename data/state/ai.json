@@ -320,6 +320,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "08d9825a8f89f9fb": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "california-governor-proposes-mandatory-ai-safety-standards-third-party",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/142",
+   "primary_found": true,
+   "reason": "California proposal for mandatory AI safety standards and oversight is a pending legislative development affecting AI governance obligations, though details are sparse.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "08ef67ca3f27cb1a": {
    "at": "2026-11-12T09:17:32Z",
    "categories": [
@@ -659,6 +676,18 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/97",
    "primary_found": true,
    "reason": "CalPrivacy proposed amendments on opt-out preference signals are a pending regulatory step changing obligations on cookies and tracking consent.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "1336631baf90a7a0": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Congressional call for a national defensive AI cyber effort; policy signal with limited concrete governance consequence.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4893,6 +4922,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "92e1662dae09e1a1": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion/event-style travelogue about a Google sovereignty event; no concrete governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "92ede85f8df3f0d3": {
    "at": "2026-11-09T19:51:22Z",
    "categories": [],
@@ -4908,6 +4948,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "COVID State aid case; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "932d6cca7e89aa62": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor educational explainer on embeddings; generic content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5087,6 +5138,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "97e46803c1c80e69": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor explainer on AI agents; generic content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "988d247e95095392": {
    "at": "2026-10-27T12:18:17Z",
    "categories": [
@@ -5192,6 +5254,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Customer success story on analytics scaling; limited governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9bd550bcf95d03d1": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on AI governance models; generic marketing content without concrete news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5989,6 +6062,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b47222dd3aabb8fe": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor explainer on context engineering; generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b4a4ecd888916d2a": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -6191,6 +6275,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor marketing and analyst recognition announcement, not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "b9e5b84fd60f4e96": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor explainer on AI guardrails; generic thought leadership.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8366,6 +8461,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f308b05469732502": {
+   "at": "2026-11-18T20:35:55Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor educational explainer on AI hallucinations; generic and vendor marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f3910db97d073a06": {
    "at": "2026-11-17T00:17:34Z",
    "categories": [
@@ -8858,8 +8964,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 529,
-   "usd": 24.2778
+   "calls": 535,
+   "usd": 24.5663
   }
  }
 }

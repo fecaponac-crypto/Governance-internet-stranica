@@ -1,40 +1,40 @@
 {
  "month": "2026-11",
- "updated": "2026-11-18T18:19:28Z",
+ "updated": "2026-11-18T20:36:58Z",
  "portal": {
-  "published_total": 120,
-  "published_this_month": 77,
+  "published_total": 122,
+  "published_this_month": 79,
   "published_this_month_by_importance": {
-   "3": 46,
-   "2": 13,
+   "3": 47,
    "4": 17,
+   "2": 14,
    "5": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 512,
-  "runs": 198,
-  "runs_with_failed_sources": 172,
+  "items_collected": 521,
+  "runs": 199,
+  "runs_with_failed_sources": 173,
   "triage_decisions": {
-   "drafted": 89,
-   "skipped": 409,
+   "drafted": 90,
+   "skipped": 417,
    "failed": 15
   },
-  "ai_spend_usd": 24.2778,
+  "ai_spend_usd": 24.5663,
   "sources_active": 81,
-  "sources_failing_now": 3
+  "sources_failing_now": 4
  },
  "editor": {
-  "drafts_published": 78,
+  "drafts_published": 80,
   "drafts_rejected": 5
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 710,
-  "visits": 630,
+  "page_views": 730,
+  "visits": 650,
   "bots_excluded": true,
   "by_day": [
    {
@@ -96,6 +96,11 @@
     "date": "2026-11-16",
     "page_views": 50,
     "visits": 30
+   },
+   {
+    "date": "2026-11-18",
+    "page_views": 20,
+    "visits": 20
    }
   ],
   "top_pages": [
@@ -124,7 +129,11 @@
     "page_views": 20
    },
    {
-    "requestPath": "/monday-signal/",
+    "requestPath": "/category/ai-governance/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 20
    },
    {
@@ -132,18 +141,14 @@
     "page_views": 20
    },
    {
-    "requestPath": "/category/ai-governance/",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "requestPath": "/review/2026-11/",
     "page_views": 20
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 380
+    "page_views": 400
    },
    {
     "countryName": "HR",
@@ -185,7 +190,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 590
+    "page_views": 600
    },
    {
     "refererHost": "datagovernancesignal.com",
@@ -197,6 +202,10 @@
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",
+    "page_views": 10
+   },
+   {
+    "refererHost": "www.facebook.com",
     "page_views": 10
    },
    {
