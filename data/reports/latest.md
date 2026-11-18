@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-18T00:59:00Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-18T03:17:38Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (87)
+## New items, last 48 hours (88)
 
 ### High priority sources
 
@@ -20,6 +20,8 @@ Last run: **2026-11-18T00:59:00Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | Forrester Blogs | [DORA: Avoid The Compliance-As-A-Strategy Approach](https://www.forrester.com/blogs/dora-avoid-the-compliance-as-a-strategy-approach/) |
+| 2026-11-18 | Databricks Blog | [How we raised Databricks cluster rate limits by 7.5×](https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75) |
 | 2026-11-17 | Informatica Blog | [Gartner® names Salesforce (Informatica) a 3x Leader in Data and Analytics Governance Platforms Generative AI for Data Management](https://www.informatica.com/blogs/salesforce-informatica-recognized-as-a-leader-in-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms.html) |
 | 2026-11-17 | Databricks Blog | [Advancing Catalog Interoperability with Unity Catalog and Google Cloud’s Borderless Lakehouse](https://www.databricks.com/blog/advancing-catalog-interoperability-unity-catalog-and-google-clouds-borderless-lakehouse) |
 | 2026-11-17 | Ataccama Blog | [Ataccama named the only Visionary in the 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/news/ataccama-named-the-only-visionary-in-the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms) |
@@ -55,7 +57,6 @@ Last run: **2026-11-18T00:59:00Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | Ataccama Blog | [The seven-decision framework for AI readiness: An ebook with Deloitte and AWS](https://www.ataccama.com/ebook/the-seven-decision-framework-for-ai-readiness-an-ebook-with-deloitte-and-aws) |
 | 2026-11-16 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Automatiserat beslutsfattande i fokus för EDPB:s kommande samordnade åtgärd](https://www.imy.se/nyheter/automatiserat-beslutsfattande-i-fokus-for-edpbs-kommande-samordnade-atgard/) |
 | 2026-11-16 | Euractiv | [THE HACK: What if drones hit data centres?](https://www.rapporteur.com/news/the-hack-what-if-drones-hit-data-centres/) |
-| 2026-11-16 | POLITICO Europe — Technology | [Estonia has a plan for Russian occupation: Run its government from the cloud](https://www.politico.eu/article/estonias-digital-preppers-have-a-doomsday-backup-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-16 | Collibra Blog | [AI-powered lineage for Python scripts](https://www.collibra.com/blog/ai-powered-lineage-for-python-scripts) |
 | 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
 | 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
@@ -108,7 +109,7 @@ Last run: **2026-11-18T00:59:00Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 149× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 150× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

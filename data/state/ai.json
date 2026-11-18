@@ -4480,6 +4480,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "8dcf68538a472e85": {
+   "at": "2026-11-18T03:18:13Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic Forrester blog opinion on DORA compliance mindset; no new development and no concrete actionable guidance beyond general commentary.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "8decd58a67871a20": {
    "at": "2026-11-09T15:19:19Z",
    "categories": [
@@ -4488,6 +4499,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor technical how-to on GPU training; no governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "8ed0b790dcd08a64": {
+   "at": "2026-11-18T03:18:13Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Engineering blog about cluster rate limits; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8344,8 +8366,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 448,
-   "usd": 19.9472
+   "calls": 449,
+   "usd": 19.9479
   }
  }
 }
