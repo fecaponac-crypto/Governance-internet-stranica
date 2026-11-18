@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-18T20:35:39Z** · sources checked: 81 · failed: 4 · new items this run: 9
+Last run: **2026-11-18T21:17:30Z** · sources checked: 81 · failed: 3 · new items this run: 1
 
-## New items, last 48 hours (100)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -26,6 +26,7 @@ Last run: **2026-11-18T20:35:39Z** · sources checked: 81 · failed: 4 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | Forrester Blogs | [AI ROI: Move From Minutes Saved To Value Created](https://www.forrester.com/blogs/ai-roi-move-from-minutes-saved-to-value-created/) |
 | 2026-11-18 | CDO Magazine | [US Federal News Bureau California Proposes Mandatory AI Safety Standards, Independent Oversight and Emergency Shutdown Authority](https://www.cdomagazine.tech/us-federal-news-bureau/california-proposes-mandatory-ai-safety-standards-independent-oversight-and-emergency-shutdown-authority) |
 | 2026-11-18 | CDO Magazine | [Data Management Agentic AI Moves the Control From People to Data: Cencora’s Jig Patel on Building Data Trust](https://www.cdomagazine.tech/data-management/agentic-ai-moves-the-control-from-people-to-data-cencoras-jig-patel-on-building-data-trust) |
 | 2026-11-18 | Alation Blog | [November 18, 2026 What Is Data Curation? Why Is It Important? Manual curation can’t keep up with growing data, and AI agents need context humans never documented. Here’s how teams… Read More](https://www.alation.com/blog/what-is-data-curation/) |
@@ -65,9 +66,6 @@ Last run: **2026-11-18T20:35:39Z** · sources checked: 81 · failed: 4 · new it
 | 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
 | 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
 | 2026-11-16 | Snowflake Blog | [Snowflake CoCo: Built to Scale Enterprise AI with Trust](https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations) |
-| 2026-11-16 | CDO Magazine | [Community When AI Agents Start Making Decisions, Who Owns the Outcome? New York Executives Explore the Next Challenge](https://www.cdomagazine.tech/community/when-ai-agents-start-making-decisions-who-owns-the-outcome-new-york-executives-explore-the-next-challenge) |
-| 2026-11-16 | Snowflake Blog | [Open Data Sharing: Share Live Data Beyond Snowflake](https://www.snowflake.com/content/snowflake-site/global/en/blog/open-data-sharing-iceberg-rest-catalog) |
-| 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
 
 ### Low priority sources
 
@@ -115,16 +113,13 @@ Last run: **2026-11-18T20:35:39Z** · sources checked: 81 · failed: 4 · new it
 | 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
 | 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
-| 2026-11-16 | The Record (Recorded Future News) | [Match fined $10 million for alleged Tinder privacy violations](https://therecord.media/ireland-tinder-privacy-fine) |
 | 2026-11-16 | Computer Weekly — IT security | [The big cyber short, or dot AI bubble?](https://www.computerweekly.com/opinion/The-big-cyber-short-or-dot-AI-bubble) |
-| 2026-11-16 | Computer Weekly — IT security | [Threat actor use of AI becoming routine, warns Google](https://www.computerweekly.com/news/366654805/Threat-actor-use-of-AI-becoming-routine-warns-Google) |
 
 ## Source problems
 
-- **CNIL (France)** — failed 2× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Banking Authority (EBA)** — failed 2× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://www.eba.europa.eu/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 158× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 3× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Banking Authority (EBA)** — failed 3× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://www.eba.europa.eu/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 159× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

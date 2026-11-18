@@ -4822,6 +4822,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "8fb5f0767c9091e4": {
+   "at": "2026-11-18T21:17:47Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on AI ROI from a vendor analyst blog; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "8fb84d05ca376f8e": {
    "at": "2026-11-11T21:17:32Z",
    "categories": [
@@ -8964,8 +8975,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 535,
-   "usd": 24.5663
+   "calls": 536,
+   "usd": 24.567
   }
  }
 }
