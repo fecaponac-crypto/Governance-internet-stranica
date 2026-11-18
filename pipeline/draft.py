@@ -750,7 +750,9 @@ def write_schema(category_ids: list[str], types: list[str], slugs: list[str], re
                     "additionalProperties": False,
                 },
             },
-            "related": {"type": "array", "items": s(enum=slugs) if slugs else s()},
+            # Plain strings, checked against the existing slugs afterwards: an enum of every published slug made the
+            # schema too large to compile once the site had about 110 articles (17 Nov 2026).
+            "related": {"type": "array", "items": s()},
             "review_notes": s(),
         },
         "required": [
@@ -881,7 +883,7 @@ def write_draft(client, state, item: dict, sources: list[dict], categories, type
     user, schema = write_context(item, sources, categories, types, existing)
     d = call_json(client, state, model=WRITER_MODEL, system=WRITE_SYSTEM, user=user, schema=schema,
                   effort="medium", max_tokens=16000)
-    return finish_draft(d, item, sources)
+    return finish_draft(d, item, sources, {a["slug"] for a in existing})
 
 
 REVISE_SYSTEM = WRITE_SYSTEM + """
@@ -906,12 +908,15 @@ def revise_draft(client, state, d: dict, flagged: list[dict], item: dict, source
              f"Claims the fact check flagged:\n{issues}")
     revised = call_json(client, state, model=WRITER_MODEL, system=REVISE_SYSTEM, user=user, schema=schema,
                         effort="medium", max_tokens=16000)
-    return finish_draft(revised, item, sources)
+    return finish_draft(revised, item, sources, {a["slug"] for a in existing})
 
 
-def finish_draft(d: dict, item: dict, sources: list[dict]) -> dict:
+def finish_draft(d: dict, item: dict, sources: list[dict], known_slugs: set[str] | None = None) -> dict:
     """Attach source URLs to the cited references and apply the field rules."""
     d["_enforcement_raw"] = dict(d.get("enforcement") or {})
+    if known_slugs is not None:  # related stories must be ones we have published
+        d["related"] = list(dict.fromkeys(r.strip().strip("/").removeprefix("news/") for r in d.get("related") or []
+                                          if r.strip().strip("/").removeprefix("news/") in known_slugs))
     cited = {}
     for s in d["sources"]:
         if 1 <= s["ref"] <= len(sources):

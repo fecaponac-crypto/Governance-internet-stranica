@@ -611,3 +611,18 @@ class InboxTest(RunTest):
             self.assertEqual(str(front["date"]), "2026-10-30")
             client, summary = self.run_with([])
             self.assertEqual(client.writer_calls, 0)
+
+
+class RelatedSlugsTest(unittest.TestCase):
+    def test_schema_stays_small_and_related_is_checked_afterwards(self):
+        slugs = [f"story-number-{i}-with-a-long-slug-like-the-real-ones-on-the-site" for i in range(500)]
+        schema = draft.write_schema(["privacy"], ["Guidance"], slugs, [1], ["ico"], ["Published"],
+                                    actions=["Fine"], frameworks=["GDPR"], laws=["eu-gdpr"], law_stages=["Applies"])
+        self.assertNotIn("enum", schema["properties"]["related"]["items"])
+        self.assertLess(len(json.dumps(schema)), 8000)
+        d = {"sources": [{"ref": 1, "name": "ICO", "title": "T", "is_primary": True}], "importance": 3, "what_to_check": [],
+             "deadlines": [], "status_detail": "", "enforcement": None, "legislation": [], "legislation_update": None,
+             "related": ["story-number-3-with-a-long-slug-like-the-real-ones-on-the-site", "/news/story-number-4-with-a-long-slug-like-the-real-ones-on-the-site/",
+                         "invented-slug"]}
+        out = draft.finish_draft(d, {"source_name": "ICO", "title": "T"}, [{"url": "https://ico.org.uk/x"}], set(slugs))
+        self.assertEqual(out["related"], [slugs[3], slugs[4]])
