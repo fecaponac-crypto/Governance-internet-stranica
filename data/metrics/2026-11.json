@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-18T00:17:38Z",
+ "updated": "2026-11-18T00:59:12Z",
  "portal": {
   "published_total": 110,
   "published_this_month": 67,
@@ -14,8 +14,8 @@
  },
  "pipeline": {
   "items_collected": 471,
-  "runs": 189,
-  "runs_with_failed_sources": 163,
+  "runs": 190,
+  "runs_with_failed_sources": 164,
   "triage_decisions": {
    "drafted": 75,
    "skipped": 376,
@@ -120,10 +120,6 @@
     "page_views": 30
    },
    {
-    "requestPath": "/review/2026-11/",
-    "page_views": 20
-   },
-   {
     "requestPath": "/institutions/edpb/",
     "page_views": 20
    },
@@ -137,6 +133,10 @@
    },
    {
     "requestPath": "/category/ai-governance/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 20
    }
   ],
