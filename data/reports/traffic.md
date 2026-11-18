@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-18T12:17:51Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-18T14:15:58Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**630 visits · 710 page views** this month (bots excluded)
+**400 visits · 500 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -36,21 +36,10 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Countries
 
-- US — 380
-- HR — 50
-- CN — 40
-- GB — 40
-- AR — 20
-- HK — 20
-- AU — 20
-- DK — 20
-- IT — 10
-- PH — 10
+- US — 400
+- HR — 100
 
 ## Referrers
 
-- (direct) — 590
-- datagovernancesignal.com — 80
-- www.google.com — 20
-- teams.public.onecdn.static.microsoft — 10
-- www.linkedin.com — 10
+- (direct) — 400
+- datagovernancesignal.com — 100

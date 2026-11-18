@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-18T12:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-18T14:08:16Z** · sources checked: 81 · failed: 2 · new items this run: 5
 
-## New items, last 48 hours (89)
+## New items, last 48 hours (94)
 
 ### High priority sources
 
@@ -22,8 +22,12 @@ Last run: **2026-11-18T12:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | CDO Magazine | [Artificial Intelligence Beyond AI Copilots: Building Decision-Ready Intelligence in Banking](https://www.cdomagazine.tech/aiml/beyond-ai-copilots-building-decision-ready-intelligence-in-banking) |
+| 2026-11-18 | SiliconANGLE — Big Data | [Tesorai raises $5.3M to feed starving AI models with biological data and accelerate drug discovery](https://siliconangle.com/2026/11/18/tesorai-raises-5-3m-to-feed-starving-ai-models-with-biological-data-and-accelerate-drug-discovery/) |
+| 2026-11-18 | Privacy World (Squire Patton Boggs) | [The Digital Fairness Act: Redesigning the rules of engagement for digital services](https://www.privacyworld.blog/2026/11/the-digital-fairness-act-redesigning-the-rules-of-engagement-for-digital-services/) |
 | 2026-11-18 | CDO Magazine | [Leadership Moves Sunlife Taps Jason Garay as Chief Data and Analytics Officer](https://www.cdomagazine.tech/leadership-moves/sunlife-taps-jason-garay-as-chief-data-and-analytics-officer) |
 | 2026-11-18 | CNIL (France) | [Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros](https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros) |
+| 2026-11-18 | CNIL (France) | [Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle](https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses) |
 | 2026-11-18 | SiliconANGLE — Big Data | [Exclusive: Wherobots AI agents automate complex spatial data engineering](https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/) |
 | 2026-11-18 | DATAVERSITY | [Building a Modern Data Architecture for Analytics and AI](https://www.dataversity.net/articles/the-importance-of-a-modern-data-architecture/) |
 | 2026-11-18 | Euractiv | [THE HACK: How many cloud sovereignty tiers?](https://www.rapporteur.com/news/the-hack-how-many-cloud-sovereignty-tiers/) |
@@ -71,6 +75,7 @@ Last run: **2026-11-18T12:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | Precisely Blog | [The modifiable areal unit problem in GIS: same data, different answer](https://www.precisely.com/blog/cat-location-intelligence/the-modifiable-areal-unit-problem-in-gis-same-data-different-answer/) |
 | 2026-11-18 | InformationWeek | [Strengthen a privacy checklist with failure-path testing](https://www.informationweek.com/data-privacy/strengthen-a-privacy-checklist-with-failure-path-testing) |
 | 2026-11-18 | European Digital Rights (EDRi) | [Participate in the Public Consultation on the European Commission’s KIDS Act Proposal](https://edri.org/our-work/participate-in-the-public-consultation-on-the-european-commissions-kids-act-proposal/) |
 | 2026-11-18 | Computer Weekly — IT security | [Data security, compliance top expected connectivity challenges in 2027](https://www.computerweekly.com/news/366654825/Data-security-compliance-top-expected-connectivity-challenges-in-2027) |
@@ -110,7 +115,8 @@ Last run: **2026-11-18T12:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 154× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **California Privacy Protection Agency (CalPrivacy)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://cppa.ca.gov/announcements/`
+- **European Data Protection Board (EDPB)** — failed 155× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -1090,6 +1090,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2034b9dfe1ff0797": {
+   "at": "2026-11-18T14:08:30Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic GIS methodology explainer without governance relevance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "208f613d0e391a04": {
    "at": "2026-11-17T18:17:58Z",
    "categories": [
@@ -1533,6 +1544,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2b20b6c3d48752b6": {
+   "at": "2026-11-18T14:08:30Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Small funding round for a biological data AI startup; little governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2b2cdd12d29a58e8": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [
@@ -1895,8 +1917,13 @@
     "security",
     "ai-industry"
    ],
-   "decision": "selected",
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "google-reports-attackers-using-multi-agent-ai-frameworks-and-stolen-ll",
+   "flagged": 1,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/133",
+   "primary_found": true,
    "reason": "Google threat report on state actors using autonomous multi-agent offensive AI frameworks; notable for security teams but not a governance-specific development.",
    "relevant": true,
    "same_story_as": null
@@ -2386,8 +2413,13 @@
     "ai-governance",
     "strategy"
    ],
-   "decision": "selected",
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "nascio-survey-97-of-state-ai-officers-have-ai-policies-but-only-44-can",
+   "flagged": 0,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/132",
+   "primary_found": true,
    "reason": "NASCIO survey on state government AI governance and data readiness gaps; practitioner-relevant benchmark data.",
    "relevant": true,
    "same_story_as": null
@@ -2908,8 +2940,13 @@
     "regulation",
     "privacy"
    ],
-   "decision": "selected",
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "edri-urges-submissions-criticising-age-verification-in-commission-s-pr",
+   "flagged": 2,
    "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/130",
+   "primary_found": false,
    "reason": "Public consultation on the Commission's KIDS Act proposal, a pending EU regulation affecting obligations for online services and data on minors; a formal consultation step qualifies.",
    "relevant": true,
    "same_story_as": null
@@ -3307,8 +3344,13 @@
     "privacy",
     "security"
    ],
-   "decision": "selected",
+   "claims": 22,
+   "decision": "drafted",
+   "draft": "cnil-fines-unnamed-company-5-million-for-storing-customer-passwords-in",
+   "flagged": 1,
    "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/129",
+   "primary_found": false,
    "reason": "CNIL fine of EUR 5 million for storing client passwords in clear text and excessive retention; concrete enforcement on security and retention duties.",
    "relevant": true,
    "same_story_as": null
@@ -3466,6 +3508,22 @@
    "importance": 1,
    "reason": "Vendor blog with survey-style trends; marketing content not a genuine launch or research.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "684f2b3c4a29206e": {
+   "at": "2026-11-18T14:08:30Z",
+   "categories": [
+    "regulation"
+   ],
+   "claims": 21,
+   "decision": "drafted",
+   "draft": "commission-proposes-digital-fairness-act-to-ban-profiling-based-ads-to",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/128",
+   "primary_found": true,
+   "reason": "Commission adoption of the Digital Fairness Act proposal, a major EU file changing obligations for digital services; law-firm analysis of a new development, so the news itself is relevant.",
+   "relevant": true,
    "same_story_as": null
   },
   "6896d2b4a123ec14": {
@@ -3647,8 +3705,13 @@
     "regulation",
     "privacy"
    ],
-   "decision": "selected",
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "european-commission-proposes-digital-fairness-act-with-curbs-on-profil",
+   "flagged": 0,
    "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/131",
+   "primary_found": true,
    "reason": "Commission proposal for the Digital Fairness Act updating EU consumer law for digital services, a legislative step changing obligations on data-driven practices.",
    "relevant": true,
    "same_story_as": null
@@ -5834,6 +5897,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b563bf2e7c4a0fa0": {
+   "at": "2026-11-18T14:08:30Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on AI in banking without a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b571f4ddeea989a7": {
    "at": "2026-10-30T22:23:55Z",
    "categories": [
@@ -7516,6 +7590,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e2731c1f7634fc56": {
+   "at": "2026-11-18T14:08:30Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "CNIL and VYV survey on youth use of conversational AI for intimate matters; research from a regulator with some practical relevance but limited actionability.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e2d37355f3b0f073": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -8545,8 +8631,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 458,
-   "usd": 20.0513
+   "calls": 495,
+   "usd": 22.4091
   }
  }
 }
