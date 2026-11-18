@@ -2885,6 +2885,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "53cccf6ded924b94": {
+   "at": "2026-11-18T09:18:25Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic architecture article with no concrete governance news; excerpt is only a stub.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "53fdaf1a50633250": {
    "at": "2026-11-10T14:57:08Z",
    "categories": [
@@ -3258,6 +3269,19 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/98",
    "primary_found": false,
    "reason": "FTC enforcement action over sharing sensitive health data with advertisers; concrete privacy enforcement with states joining.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "64c2e0d61a25f189": {
+   "at": "2026-11-18T09:18:25Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 4,
+   "reason": "CNIL fine of EUR 5 million for storing client passwords in clear text and excessive retention; concrete enforcement on security and retention duties.",
    "relevant": true,
    "same_story_as": null
   },
@@ -3802,6 +3826,17 @@
    "importance": 2,
    "reason": "Generic opinion on centralised versus decentralised AI governance models; some operating-model value but no concrete guidance visible.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "7604b3529de79a89": {
+   "at": "2026-11-18T09:18:25Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic explainer on cloud computing, not news and no governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "764e0a3e7bee0ea8": {
@@ -5549,6 +5584,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ae09641b88c8e8fc": {
+   "at": "2026-11-18T09:18:25Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter teaser listing topics without substantive detail.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ae678d5987e08422": {
    "at": "2026-11-17T00:17:34Z",
    "categories": [
@@ -6253,6 +6299,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Security threat analysis about AI helping attackers reach OT systems; it has a security angle but the excerpt is general commentary rather than a specific governance development, so it is borderline and not included.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c13d57d8b0bdbf53": {
+   "at": "2026-11-18T09:18:25Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Duplicate of item 3; generic explainer on cloud computing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8402,8 +8459,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 451,
-   "usd": 19.9489
+   "calls": 453,
+   "usd": 19.9505
   }
  }
 }

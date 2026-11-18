@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-18T06:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-18T09:17:26Z** · sources checked: 81 · failed: 3 · new items this run: 5
 
-## New items, last 48 hours (89)
+## New items, last 48 hours (94)
 
 ### High priority sources
 
@@ -20,6 +20,9 @@ Last run: **2026-11-18T06:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | CNIL (France) | [Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros](https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros) |
+| 2026-11-18 | DATAVERSITY | [Building a Modern Data Architecture for Analytics and AI](https://www.dataversity.net/articles/the-importance-of-a-modern-data-architecture/) |
+| 2026-11-18 | Euractiv | [THE HACK: How many cloud sovereignty tiers?](https://www.rapporteur.com/news/the-hack-how-many-cloud-sovereignty-tiers/) |
 | 2026-11-18 | CDO Magazine | [Artificial Intelligence NASCIO Survey Finds Gaps in AI Governance, Data Readiness Across State Governments](https://www.cdomagazine.tech/aiml/nascio-survey-finds-gaps-in-ai-governance-data-readiness-across-state-governments) |
 | 2026-11-18 | CDO Magazine | [US Federal News Bureau FBI Warns AI-Powered Hacking Tool Can Breach Networks in Under Three Hours](https://www.cdomagazine.tech/us-federal-news-bureau/fbi-warns-ai-powered-hacking-tool-can-breach-networks-in-under-three-hours) |
 | 2026-11-18 | Forrester Blogs | [DORA: Avoid The Compliance-As-A-Strategy Approach](https://www.forrester.com/blogs/dora-avoid-the-compliance-as-a-strategy-approach/) |
@@ -70,6 +73,8 @@ Last run: **2026-11-18T06:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/what-is-cloud-computing--test) |
+| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing--test) |
 | 2026-11-17 | Computer Weekly — IT security | [UK government warned that lax AI safety undermines GDP boost](https://www.computerweekly.com/news/366654649/UK-government-warned-that-lax-AI-safety-undermines-GDP-boost) |
 | 2026-11-17 | The Record (Recorded Future News) | [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) |
 | 2026-11-17 | The Record (Recorded Future News) | [California fines Hertz $1.5 million for breaking state data privacy law](https://therecord.media/california-fines-hertz-state-data-privacy-law) |
@@ -110,7 +115,9 @@ Last run: **2026-11-18T06:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 151× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
+- **European Data Protection Board (EDPB)** — failed 152× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

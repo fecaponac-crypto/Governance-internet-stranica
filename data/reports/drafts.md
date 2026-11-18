@@ -1,16 +1,19 @@
 # Drafts report
 
-Last run: **2026-11-18T06:17:39Z** · candidates 3 · scored 3 · selected 2 · drafted 0 · failed 2 · queued for next run 0
+Last run: **2026-11-18T09:18:25Z** · candidates 5 · scored 5 · selected 1 · drafted 0 · failed 1 · queued for next run 0
 
-AI spend this month: **$19.95** of $35 budget (451 calls)
+AI spend this month: **$19.95** of $35 budget (453 calls)
 
 ## This run
 
-- ❌ [Artificial Intelligence NASCIO Survey Finds Gaps in AI Governance, Data Readiness Across State Governments](https://www.cdomagazine.tech/aiml/nascio-survey-finds-gaps-in-ai-governance-data-readiness-across-state-governments) — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ
-- ❌ [Key cloud lawmaker mulls deleting highest sovereignty tier](https://www.rapporteur.com/news/key-cloud-lawmaker-mulls-deleting-highest-sovereignty-tier/) — source not readable: HTTP 403
+- ❌ [Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros](https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros) — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ
 
 ## Recently skipped by triage
 
+- (1) Generic architecture article with no concrete governance news; excerpt is only a stub.
+- (1) Newsletter teaser listing topics without substantive detail.
+- (1) Generic explainer on cloud computing, not news and no governance angle.
+- (1) Duplicate of item 3; generic explainer on cloud computing.
 - (2) FBI warning on AI-powered hacking tool is security threat news with no direct data governance consequence.
 - (1) Generic Forrester blog opinion on DORA compliance mindset; no new development and no concrete actionable guidance beyond general commentary.
 - (1) Engineering blog about cluster rate limits; no data governance angle.
@@ -22,7 +25,3 @@ AI spend this month: **$19.95** of $35 budget (451 calls)
 - (1) Vendor award/recognition announcement, not a launch or research finding.
 - (1) Product release notes for dbt with no clear governance angle.
 - (1) Vendor recognition in Gartner Magic Quadrant; award-style marketing.
-- (1) Vendor recognition in Gartner Magic Quadrant; award-style marketing.
-- (1) Generic CISO thought-leadership with no concrete new development or data governance consequence.
-- (2) Catalog vendor product feature (derived attributes) with some practical metadata relevance, but largely vendor marketing.
-- (1) Vendor blog promoting analyst recognition; award/marketing style, not a genuine launch or research finding.

@@ -1,28 +1,26 @@
 Data Governance Signal — week 11 Nov – 17 Nov 2026
 
-Visits:      112  (-76% on the week before: 460)
-Page views:  138  (-72% on the week before: 490)
+Visits:      110  (-76% on the week before: 460)
+Page views:  160  (-67% on the week before: 490)
 
 Most read:
     40  /
-     8  /news/italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a/
-     4  /news/fda-asks-for-input-on-getting-patient-level-real-world-data-behind-dru/
-     4  /news/pennsylvania-enacts-ai-advertising-law-requiring-disclosure-of-mislead/
-     4  /enforcement/
+    20  /review/2026-11/
+    10  /monday-signal/
+    10  /news/ibero-american-data-protection-network-adopts-ai-standards-on-inferred/
+    10  /news/fda-asks-for-input-on-getting-patient-level-real-world-data-behind-dru/
 
 Countries:
-    83  US
-    12  HR
-     9  CN
-     3  DE
-     3  AT
+    90  US
+    30  HR
+    10  CN
+    10  DK
+    10  NG
 
 Where visitors came from:
-    98  (direct)
-    26  datagovernancesignal.com
-    10  www.google.com
-     1  go.bsky.app
-     1  www.doubao.com
+    90  (direct)
+    50  datagovernancesignal.com
+    20  www.google.com
 
 Published this week: 28 stories
   - AlgorithmWatch and 36 groups urge limits on Germany's draft law for AI in asylum and visa decisions
