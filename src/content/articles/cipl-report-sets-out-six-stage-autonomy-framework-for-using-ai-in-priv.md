@@ -11,7 +11,7 @@ type: "Research"
 region: "Global"
 status:
   stage: "Published"
-  detail: "first report of a project with further workshops planned in 2027"
+  detail: "First report of CIPL's AI for Compliance project"
 sources:
   - name: "Centre for Information Policy Leadership"
     title: "AI for Compliance: Accountability and Trust in Data and Digital Governance"
@@ -26,8 +26,8 @@ card:
   caption: "CIPL's autonomy framework for AI in compliance, from human execution to full automation"
 ---
 
-The Centre for Information Policy Leadership (CIPL) at Hunton published **"AI for Compliance: Advancing Accountability and Trust in Data and Digital Governance"** on 18 November 2026, the first report from a new global project on using AI-powered tools to meet privacy and data governance obligations. It draws on two workshops co-hosted with Meta's TTC Labs, independent research and interviews with member companies.
+The Centre for Information Policy Leadership (CIPL) at Hunton published **"AI for Compliance: Advancing Accountability and Trust in Data and Digital Governance"** on 17 November 2026, the first report from a new global project on using AI-powered tools to meet privacy and data governance obligations. It draws on two workshops co-hosted with Meta's TTC Labs, independent research and interviews with member companies.
 
-The report proposes a **six-stage autonomy framework**, from human execution to full automation, and advises starting with low-risk, high-volume tasks, widening automation as governance, data quality and AI literacy mature. Examples include DSARs, records of processing, risk assessments and vendor diligence. It flags automation bias, model drift, limited explainability and tension between audit trails and legal privilege.
+The report sets out **six stages of automation**, from stage 0 (human execution) through AI assistance, AI proposals, AI with guardrails and AI running most of a task to stage 5 (full automation, with humans designing, training and auditing the system), and advises starting with low-risk, high-volume tasks, widening automation as governance, data quality and AI literacy mature. Examples include DSARs, records of processing, risk assessments and vendor diligence. It flags automation bias, model drift, limited explainability and tension between audit trails and legal privilege.
 
-CIPL urges regulators to issue guidance on transparency, explainability and human oversight and to use sandboxes. Further workshops are planned for 2027.
+CIPL urges regulators to issue guidance on transparency, explainability and human oversight and to use sandboxes. It concludes that the future of compliance is "a human–AI partnership model, not full automation."
