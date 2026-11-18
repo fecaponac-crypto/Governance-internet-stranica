@@ -16,6 +16,18 @@ whatToCheck:
   - "Confirm that no customer-facing system stores passwords or security-question answers in plain text."
   - "Check whether any staff share logins to customer databases or the tools used to query them, and replace these with individual accounts."
   - "Compare actual data held, including contact-form and connection logs, against your documented retention periods and verify that deletion or purge jobs run."
+legislation: [eu-gdpr]
+enforcement:
+  case: cnil-plain-text-passwords-san-2026-016
+  action: "Fine"
+  authority: "CNIL"
+  parties: "Unnamed company (not named by the CNIL)"
+  framework: "GDPR"
+  jurisdiction: "France"
+  amount: 5000000
+  currency: "EUR"
+  law: "GDPR Article 32 (security) and Article 5(1)(e) (storage limitation)"
+  date: 2026-11-12
 sources:
   - name: "CNIL"
     title: "Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros"
@@ -27,7 +39,7 @@ card:
   caption: "CNIL fine for plain-text passwords, shared logins and excessive data retention"
 ---
 
-France's CNIL has imposed a **€5 million fine** on a company it did not name. An inspection, prompted by an alert about how the firm stored customer passwords and answers to security questions, found breaches of the GDPR. The restricted committee, the CNIL body that issues sanctions, said the amount reflected the seriousness of the failings, the number of people affected and the company's financial capacity.
+France's CNIL has imposed a **€5 million fine** on a company it did not name (deliberation SAN-2026-016 of 12 November 2026, announced on 18 November). An inspection, prompted by an alert about how the firm stored customer passwords and answers to security questions, found breaches of the GDPR. The restricted committee, the CNIL body that issues sanctions, said the amount reflected the seriousness of the failings, the number of people affected and the company's financial capacity.
 
 Under Article 32, it found **customer account passwords were stored in plain text** and that staff shared logins to customer databases and the tool used to access them, which prevents effective traceability of access.
 
