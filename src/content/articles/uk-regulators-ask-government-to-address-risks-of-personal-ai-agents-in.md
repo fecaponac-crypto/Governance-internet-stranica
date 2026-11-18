@@ -22,10 +22,10 @@ card:
   caption: "CMA, FCA, ICO and Ofcom wrote jointly to ministers on personal AI agents"
 ---
 
-The Competition and Markets Authority, Financial Conduct Authority, Information Commissioner's Office and Ofcom, acting together as the **Digital Regulation Coordination Forum (DRCF)**, have written to UK ministers setting out concerns about personal AI agents, according to Computer Weekly.
+The Competition and Markets Authority, Financial Conduct Authority, Information Commissioner's Office and Ofcom, acting together as the **Digital Regulation Cooperation Forum (DRCF)**, wrote jointly on 16 November to the Chancellor, the Secretaries of State for Digital, Culture, Media and Sport and for Business and Trade, and the AI minister, setting out concerns about personal AI agents, according to Computer Weekly and law firm commentary.
 
 The letter acknowledges that agents could help consumers deal with digital services and save money, but says firms must understand their legal obligations, assess risks and put safeguards in place before launch. The regulators want users to retain agency, receive clear information on agent-specific risks, and for agents not to undermine the operational resilience of systems they interact with. Regulated financial firms and telecoms providers were urged to engage with their regulators.
 
 The letter follows a DRCF joint statement on 30 October which said **existing competition, consumer, data protection, online safety, financial services and cyber security rules already apply** to personal agents.
 
-*Editor's note: This article relies solely on a secondary news report; the DRCF letter itself was not reviewed.*
+*Editor's note: The DRCF and Computer Weekly sites could not be read automatically; this article relies on secondary reports of the letter, which itself was not reviewed.*
