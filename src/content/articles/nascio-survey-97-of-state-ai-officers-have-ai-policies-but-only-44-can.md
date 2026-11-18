@@ -2,7 +2,7 @@
 title: "NASCIO survey: 97% of state AI officers have AI policies, but only 44% can set enterprise standards alone"
 date: 2026-11-18
 dek: "NASCIO's first survey of state AI officers, covering 33 states and territories, finds progress on AI oversight structures, but many officials lack the resources and authority needed to manage AI across agencies."
-whyItMatters: "The survey shows AI oversight in state government running through shared decision rights, with CDOs most often leading data governance while AI officers are most likely to hold primary responsibility for use-case approval and risk assessment. Public-sector data teams should check whether their AI inventory and use-case intake are linked to data ownership, quality and access records, since data readiness ranks among the top barriers to production. Where ownership of AI privacy, security and data governance is shared, documenting who decides what helps avoid gaps as agentic AI expands."
+whyItMatters: "The survey shows state AI programmes building policies and review processes faster than the authority, budgets and staff to enforce them, with data quality and readiness among the obstacles to moving AI into use. Public-sector data teams should check whether their AI use-case intake is linked to data ownership, quality and access records, and whether it is clear who in the organisation can set and enforce AI standards, since NASCIO recommends giving AI leaders that authority explicitly."
 categories: [ai-governance, strategy, data-quality]
 institutions: []
 whoShouldCare: ["CDO", "AI governance lead", "Data stewards", "Chief privacy officer"]
@@ -26,8 +26,12 @@ card:
   caption: "of state AI officers can independently set enterprise AI policies and standards"
 ---
 
-The National Association of State Chief Information Officers (NASCIO) published its inaugural **2026 State AI Officer Survey** on 17 November, drawing on responses from 33 US states and territories.
+The National Association of State Chief Information Officers (NASCIO) published its first **2026 State AI Officer Survey** on 17 November, drawing on responses from AI officials in 33 US states and territories.
 
-Nearly all respondents (97%) have AI policies, rules or guidance; 83% run a use-case intake process, 70% keep an inventory of agency AI applications and 75% use the NIST AI Risk Management Framework. Authority is thinner: **44% can independently set enterprise AI policies and standards**, 16% share that power and 28% can only advise. Just over half (53%) can enforce compliance.
+Nearly all respondents (97%) said their state has AI policies, rules or guidance; 83% run a process for agencies to submit AI use cases for review, and about 75% use the NIST AI Risk Management Framework. Authority is thinner: although 72% have jurisdiction over all executive branch agencies, only **44% can independently set enterprise AI policies and standards**, and 16% share that power with another body. Just over half can enforce compliance.
 
-Resources are the main constraint. Some 56% lack a dedicated AI budget and 75% cite lack of staff as a top challenge. Funding was the most common single barrier to moving pilots into production, followed by data readiness, security or privacy concerns and workforce skills. Across nine governance functions, 28% to 50% reported shared ownership; chief data officers most often lead data governance.
+Resources are the main constraint. Some 56% of state AI programmes lack a dedicated budget and 75% cite insufficient staffing as a top challenge. Staffing was the most commonly cited challenge, followed by rapidly changing technology, funding, cybersecurity or privacy concerns, and data quality or readiness.
+
+NASCIO says the role has spread quickly: fewer than 20% of states had a chief AI officer or equivalent in 2023, while by 2026 at least 46 states had someone tasked with directing AI, 25 of them with AI in their title. It recommends clearly defined authority for AI leaders, dedicated staff and funding, closer work with privacy and cybersecurity teams, and more employee training.
+
+*Editor's note: NASCIO's survey page could not be read automatically; the figures were checked against CDO Magazine's report of the survey.*
