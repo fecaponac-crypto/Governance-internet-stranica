@@ -492,6 +492,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "0fd679f657f94bca": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer; vendor marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0fecb9dc346a1f07": {
    "at": "2026-11-03T00:18:23Z",
    "categories": [
@@ -594,6 +605,22 @@
    "reason": "Croatian-language report of EDPB selecting 2027 coordinated enforcement topic, duplicating existing draft story.",
    "relevant": true,
    "same_story_as": "edpb-picks-automated-decision-making-in-recruitment-as-2027-coordinate"
+  },
+  "1300053bd36bc1d0": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "cipl-report-sets-out-six-stage-autonomy-framework-for-using-ai-in-priv",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/140",
+   "primary_found": true,
+   "reason": "CIPL report on using AI tools to improve compliance and accountability in data governance; significant research from a credible policy body.",
+   "relevant": true,
+   "same_story_as": null
   },
   "13067dac8ba153f3": {
    "at": "2026-10-28T15:18:34Z",
@@ -974,6 +1001,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Hiring/leadership appointment news with no governance substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "1da6764bf5122c75": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer; vendor marketing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2534,6 +2572,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "494b2ca83142c229": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Job posting.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "49af3bcaff34e3f7": {
    "at": "2026-11-16T21:17:43Z",
    "categories": [
@@ -2625,6 +2674,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Awareness tip about parenting week; no governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "4c5a63e44a738d47": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog thought-leadership on data quality; vendor marketing without new facts.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4190,8 +4250,13 @@
     "ai-governance",
     "regulation"
    ],
-   "decision": "selected",
+   "claims": 13,
+   "decision": "drafted",
+   "draft": "uk-regulators-ask-government-to-address-risks-of-personal-ai-agents-in",
+   "flagged": 1,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/141",
+   "primary_found": false,
    "reason": "UK regulators ask government to address personal AI agents; policy call with governance implications.",
    "relevant": true,
    "same_story_as": null
@@ -4947,6 +5012,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "96111808951c976e": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Cyber-espionage threat research without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9624b27e2eaaa382": {
    "at": "2026-11-05T06:52:15Z",
    "categories": [],
@@ -5338,6 +5414,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Overview of Italy's combined AI, privacy and cybersecurity approach; relevant analysis but no specific new decision in excerpt.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "a212e8cd90ce6cab": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Google product update on Open Knowledge Format v0.3 for agent context; a specification release with governance-relevant provenance and trust signals, modest importance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -6484,6 +6571,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c17a0307e7b0b859": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Executive interview on data trust; generic opinion without concrete actionable guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c1cd2fcf2fbe4333": {
    "at": "2026-11-05T09:18:28Z",
    "categories": [],
@@ -6531,6 +6629,17 @@
    "importance": 2,
    "reason": "Encoding business context beside dbt models for a text-to-SQL agent is a practical context-for-AI pattern.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "c2b5203bab3bb453": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing content.",
+   "relevant": false,
    "same_story_as": null
   },
   "c36817af9a4b18e2": {
@@ -6634,6 +6743,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c79eec845597e382": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion piece; no concrete development or guidance visible.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c7ea2105a5d428b2": {
    "at": "2026-11-18T15:17:36Z",
    "categories": [],
@@ -6694,6 +6814,17 @@
    "importance": 2,
    "reason": "Analysis of AI incident reporting as a governance tool; relevant opinion with some practitioner value but generic.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "c9fdfb66ed6cb863": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership with no governance angle clear from title.",
+   "relevant": false,
    "same_story_as": null
   },
   "ca08b7e033c97944": {
@@ -7341,6 +7472,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "da00e0775e6d7e3d": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "da2f7b391bf66c7d": {
    "at": "2026-11-12T09:17:32Z",
    "categories": [
@@ -7622,6 +7764,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor technical how-to on CDC ingestion; not governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e1aa350a77667a40": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion/interview piece with no concrete new development.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7984,6 +8137,17 @@
    "primary_found": false,
    "reason": "Italian Garante fines Meta EUR 805 million, a major enforcement action with broad impact; not already covered in existing articles.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "eb8929526ea89042": {
+   "at": "2026-11-18T18:17:57Z",
+   "categories": [
+    "analytics"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer on LLM monitoring; vendor marketing.",
+   "relevant": false,
    "same_story_as": null
   },
   "ebf4a5e3d175c636": {
@@ -8694,8 +8858,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 520,
-   "usd": 23.8345
+   "calls": 529,
+   "usd": 24.2778
   }
  }
 }

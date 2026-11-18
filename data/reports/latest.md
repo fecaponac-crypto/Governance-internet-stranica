@@ -1,14 +1,18 @@
 # Inflow report
 
-Last run: **2026-11-18T15:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-18T18:17:21Z** · sources checked: 81 · failed: 3 · new items this run: 14
 
-## New items, last 48 hours (97)
+## New items, last 48 hours (102)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | IAPP — International Association of Privacy Professionals | [Global DPAs: 'Our job is to do our job' amid innovation-driven digital landscape](https://iapp.org/news/a/global-dpas-our-job-is-to-do-our-job-amid-innovation-driven-digital-landscape) |
+| 2026-11-18 | IAPP — International Association of Privacy Professionals | [World models for lawyers](https://iapp.org/news/a/world-models-for-lawyers) |
+| 2026-11-18 | IAPP — International Association of Privacy Professionals | [Resilient by design: When AI changes faster than its controls](https://iapp.org/news/a/resilient-by-design-when-ai-changes-faster-than-its-controls) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [NIMC Act 2026: Transforming Nigeria's digital identity ecosystem](https://iapp.org/news/a/nimc-act-2026-transforming-nigerias-digital-identity-ecosystem) |
+| 2026-11-18 | Hunton Privacy & Information Security Law Blog | [CIPL Publishes Report on How AI-Powered Tools Can Improve Compliance Outcomes and Bolster Accountability](https://www.hunton.com/privacy-and-cybersecurity-law-blog/cipl-publishes-report-on-how-ai-powered-tools-can-improve-compliance-outcomes-and-bolster-accountability) |
 | 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
 | 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
@@ -17,12 +21,13 @@ Last run: **2026-11-18T15:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-17 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-698/23 P EDPS v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260165en.pdf) |
 | 2026-11-17 | The EU AI Act Newsletter (Future of Life Institute) | [Why Has California Led the Way on AI Regulation? (with Irene Liu)](https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on) |
 | 2026-11-16 | European Commission — Press Corner | [Autumn 2026 Economic Forecast shows continued growth amid higher inflation](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438) |
-| 2026-11-16 | Hunton Privacy & Information Security Law Blog | [UK ICO Issues Guidance on AI-Assisted Data Subject Access Requests](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-issues-guidance-on-ai-assisted-data-subject-access-requests) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | CDO Magazine | [Data Management Agentic AI Moves the Control From People to Data: Cencora’s Jig Patel on Building Data Trust](https://www.cdomagazine.tech/data-management/agentic-ai-moves-the-control-from-people-to-data-cencoras-jig-patel-on-building-data-trust) |
+| 2026-11-18 | Alation Blog | [November 18, 2026 What Is Data Curation? Why Is It Important? Manual curation can’t keep up with growing data, and AI agents need context humans never documented. Here’s how teams… Read More](https://www.alation.com/blog/what-is-data-curation/) |
 | 2026-11-18 | OneTrust Blog | [Understanding Consent Manager Registration and CMP Requirements Under India's DPDPA Consent & Preferences](https://www.onetrust.com/blog/understanding-consent-manager-registration-and-cmp-requirements-under-indias-dpdpa/) |
 | 2026-11-18 | DAMA International | [🏆 The 2026 DAMA Chapter Award Winners](https://dama.org/2026/11/18/the-2026-dama-chapter-award-winners/) |
 | 2026-11-18 | CDO Magazine | [Artificial Intelligence Beyond AI Copilots: Building Decision-Ready Intelligence in Banking](https://www.cdomagazine.tech/aiml/beyond-ai-copilots-building-decision-ready-intelligence-in-banking) |
@@ -66,18 +71,20 @@ Last run: **2026-11-18T15:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | CDO Magazine | [US Federal News Bureau Fed Warns of AI Infrastructure Debt, Securities Trading and Agent Risks: What CDOs Need to Know](https://www.cdomagazine.tech/us-federal-news-bureau/fed-warns-of-ai-infrastructure-debt-securities-trading-and-agent-risks-what-cdos-need-to-know) |
 | 2026-11-16 | CDO Magazine | [Community Beyond Smarter AI: Chicago Executives Explore the Human Judgment That Still Matters](https://www.cdomagazine.tech/community/beyond-smarter-ai-chicago-executives-explore-the-human-judgment-that-still-matters) |
 | 2026-11-16 | CDO Magazine | [Artificial Intelligence How Can Leaders Prove Generative AI Is Paying Off? Novelis’ Richard Leaton Explains](https://www.cdomagazine.tech/aiml/how-can-leaders-prove-generative-ai-is-paying-off-novelis-richard-leaton-explains) |
-| 2026-11-16 | Alation Blog | [November 16, 2026 What Is Data Intelligence? Functions, Benefits, & Use Cases Data intelligence helps people find and trust data. As AI agents start using that data too, here’s what it takes to… Read More](https://www.alation.com/blog/what-is-data-intelligence/) |
-| 2026-11-16 | Ataccama Blog | [The 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/analyst-research/the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms-november) |
-| 2026-11-16 | Euractiv | [Commission and Kenya strike deal on personal data](https://www.rapporteur.com/news/commission-and-kenya-strike-deal-on-personal-data/) |
-| 2026-11-16 | AEPD — Spanish Data Protection Agency | [La AEPD archiva sus actuaciones sobre TikTok tras la denuncia del Ministerio Fiscal ante el juzgado](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-archiva-sus-actuaciones-sobre-tiktok-tras--ministerio-fiscal) |
-| 2026-11-16 | Collibra Blog | [AI-powered lineage for Python scripts](https://www.collibra.com/blog/ai-powered-lineage-for-python-scripts) |
-| 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
 | 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | Monte Carlo Blog | [What Is LLM Monitoring? What to Track Once Your Model Is Live](https://montecarlo.ai/blog-llm-monitoring) |
+| 2026-11-18 | Semarchy Blog | [AI Data Engineering: How to Build Data That Agents Can Trust](https://semarchy.com/blog/ai-data-engineering/) |
+| 2026-11-18 | Monte Carlo Blog | [What Is Agent Tracing? How to See Every Step an Agent Takes](https://montecarlo.ai/blog-agent-tracing) |
+| 2026-11-18 | Google Cloud Blog — Data Analytics | [What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills](https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/) |
+| 2026-11-18 | AlgorithmWatch | [Job Opening: Operations Manager*in (Office, Events, Projektmanagement)](https://algorithmwatch.org/de/job-opening-operations-managerin/) |
+| 2026-11-18 | Precisely Blog | [Why data quality for AI is now a board-level issue](https://www.precisely.com/blog/ai-ready-data/why-data-quality-for-ai-is-now-a-board-level-issue/) |
+| 2026-11-18 | DataHub Blog (open source metadata platform) | [Context Infrastructure for AI Agents: What It Takes to Keep Context True](https://datahub.com/blog/context-infrastructure-for-ai-agents/) |
+| 2026-11-18 | The Record (Recorded Future News) | [Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says](https://therecord.media/russia-cyber-espionage-google) |
 | 2026-11-18 | Precisely Blog | [The modifiable areal unit problem in GIS: same data, different answer](https://www.precisely.com/blog/cat-location-intelligence/the-modifiable-areal-unit-problem-in-gis-same-data-different-answer/) |
 | 2026-11-18 | InformationWeek | [Strengthen a privacy checklist with failure-path testing](https://www.informationweek.com/data-privacy/strengthen-a-privacy-checklist-with-failure-path-testing) |
 | 2026-11-18 | European Digital Rights (EDRi) | [Participate in the Public Consultation on the European Commission’s KIDS Act Proposal](https://edri.org/our-work/participate-in-the-public-consultation-on-the-european-commissions-kids-act-proposal/) |
@@ -113,12 +120,12 @@ Last run: **2026-11-18T15:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-16 | Precisely Blog | [From messy addresses to optimized delivery routes with Precisely AI Studio](https://www.precisely.com/blog/engineering/from-messy-addresses-to-optimized-delivery-routes-with-precisely-ai-studio/) |
 | 2026-11-16 | Computer Weekly — IT security | [The big cyber short, or dot AI bubble?](https://www.computerweekly.com/opinion/The-big-cyber-short-or-dot-AI-bubble) |
 | 2026-11-16 | Computer Weekly — IT security | [Threat actor use of AI becoming routine, warns Google](https://www.computerweekly.com/news/366654805/Threat-actor-use-of-AI-becoming-routine-warns-Google) |
-| 2026-11-16 | European Digital Rights (EDRi) | [1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken people’s rights?](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/) |
-| 2026-11-16 | dbt Labs Blog | [Healthcare AI starts with data you can trust](https://www.getdbt.com/blog/healthcare-ai-starts-with-trusted-data) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 156× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Banking Authority (EBA)** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://www.eba.europa.eu/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 157× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
