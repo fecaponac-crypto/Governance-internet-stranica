@@ -3529,6 +3529,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "6a3afdd5d40595f3": {
+   "at": "2026-11-18T12:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic how-to/thought-leadership on privacy checklists with no concrete new development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "6a4a0065d42d41fd": {
    "at": "2026-11-10T00:18:34Z",
    "categories": [
@@ -4564,6 +4573,15 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Vendor partnership case study; rebuild speed claims are marketing-style without a clear governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "8bec3a1e4b471753": {
+   "at": "2026-11-18T12:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Leadership appointment news; hiring/people moves are not relevant.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8305,6 +8323,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fa80c21473fdc803": {
+   "at": "2026-11-18T12:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Thesis prize award announcement; award news is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fabc947f2b060d7b": {
    "at": "2026-11-06T15:18:26Z",
    "categories": [
@@ -8529,8 +8556,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 457,
-   "usd": 20.0505
+   "calls": 458,
+   "usd": 20.0513
   }
  }
 }

@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-18T11:46:39Z** · sources checked: 81 · failed: 3 · new items this run: 6
+Last run: **2026-11-18T12:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (93)
+## New items, last 48 hours (89)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
 | 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
@@ -21,6 +22,7 @@ Last run: **2026-11-18T11:46:39Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | CDO Magazine | [Leadership Moves Sunlife Taps Jason Garay as Chief Data and Analytics Officer](https://www.cdomagazine.tech/leadership-moves/sunlife-taps-jason-garay-as-chief-data-and-analytics-officer) |
 | 2026-11-18 | CNIL (France) | [Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros](https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros) |
 | 2026-11-18 | SiliconANGLE — Big Data | [Exclusive: Wherobots AI agents automate complex spatial data engineering](https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/) |
 | 2026-11-18 | DATAVERSITY | [Building a Modern Data Architecture for Analytics and AI](https://www.dataversity.net/articles/the-importance-of-a-modern-data-architecture/) |
@@ -60,9 +62,7 @@ Last run: **2026-11-18T11:46:39Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-16 | Alation Blog | [November 16, 2026 What Is Data Intelligence? Functions, Benefits, & Use Cases Data intelligence helps people find and trust data. As AI agents start using that data too, here’s what it takes to… Read More](https://www.alation.com/blog/what-is-data-intelligence/) |
 | 2026-11-16 | Ataccama Blog | [The 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/analyst-research/the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms-november) |
 | 2026-11-16 | Euractiv | [Commission and Kenya strike deal on personal data](https://www.rapporteur.com/news/commission-and-kenya-strike-deal-on-personal-data/) |
-| 2026-11-16 | CDO Magazine | [Leadership Moves EnerSys Names Navi Grewal Chief Digital, AI, and Information Officer](https://www.cdomagazine.tech/leadership-moves/enersys-names-navi-grewal-chief-digital-ai-and-information-officer) |
 | 2026-11-16 | AEPD — Spanish Data Protection Agency | [La AEPD archiva sus actuaciones sobre TikTok tras la denuncia del Ministerio Fiscal ante el juzgado](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-archiva-sus-actuaciones-sobre-tiktok-tras--ministerio-fiscal) |
-| 2026-11-16 | Ataccama Blog | [The seven-decision framework for AI readiness: An ebook with Deloitte and AWS](https://www.ataccama.com/ebook/the-seven-decision-framework-for-ai-readiness-an-ebook-with-deloitte-and-aws) |
 | 2026-11-16 | Collibra Blog | [AI-powered lineage for Python scripts](https://www.collibra.com/blog/ai-powered-lineage-for-python-scripts) |
 | 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
 | 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
@@ -71,6 +71,7 @@ Last run: **2026-11-18T11:46:39Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | InformationWeek | [Strengthen a privacy checklist with failure-path testing](https://www.informationweek.com/data-privacy/strengthen-a-privacy-checklist-with-failure-path-testing) |
 | 2026-11-18 | European Digital Rights (EDRi) | [Participate in the Public Consultation on the European Commission’s KIDS Act Proposal](https://edri.org/our-work/participate-in-the-public-consultation-on-the-european-commissions-kids-act-proposal/) |
 | 2026-11-18 | Computer Weekly — IT security | [Data security, compliance top expected connectivity challenges in 2027](https://www.computerweekly.com/news/366654825/Data-security-compliance-top-expected-connectivity-challenges-in-2027) |
 | 2026-11-18 | Computer Weekly — IT security | [The cyber threats to businesses from ‘Grand Theft Auto VI’](https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI) |
@@ -106,17 +107,10 @@ Last run: **2026-11-18T11:46:39Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-16 | Computer Weekly — IT security | [Threat actor use of AI becoming routine, warns Google](https://www.computerweekly.com/news/366654805/Threat-actor-use-of-AI-becoming-routine-warns-Google) |
 | 2026-11-16 | European Digital Rights (EDRi) | [1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken people’s rights?](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/) |
 | 2026-11-16 | dbt Labs Blog | [Healthcare AI starts with data you can trust](https://www.getdbt.com/blog/healthcare-ai-starts-with-trusted-data) |
-| 2026-11-16 | Center for Data Innovation | [Congress Has Two Very Different Bipartisan Paths on AI](https://datainnovation.org/2026/11/congress-has-two-very-different-bipartisan-paths-on-ai/) |
-| 2026-11-16 | Modern Data 101 | [How the Company Brain Talks to Your Second Brain: The Lighthouse and the Tide](https://moderndata101.substack.com/p/company-brain-and-second-brain) |
-| 2026-11-16 | Stibo Systems Blog | [When AI agents depend on master data, MDM becomes everyone’s business](https://www.stibosystems.com/blog/when-ai-agents-depend-on-master-data-mdm-becomes-everyones-business) |
-| 2026-11-16 | AlgorithmWatch | [Online child protection: Don’t exclude young people; fix the platforms](https://algorithmwatch.org/en/online-child-protection-dont-exclude-young-people-fix-the-platforms/) |
-| 2026-11-16 | AlgorithmWatch | [KI & Wahlen](https://algorithmwatch.org/de/dossier-ki-wahlen/) |
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
-- **European Data Protection Board (EDPB)** — failed 153× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 154× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
