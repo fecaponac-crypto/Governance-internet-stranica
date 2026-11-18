@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-18T09:17:26Z** · sources checked: 81 · failed: 3 · new items this run: 5
+Last run: **2026-11-18T11:46:39Z** · sources checked: 81 · failed: 3 · new items this run: 6
 
-## New items, last 48 hours (94)
+## New items, last 48 hours (93)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) |
@@ -21,6 +22,7 @@ Last run: **2026-11-18T09:17:26Z** · sources checked: 81 · failed: 3 · new it
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-18 | CNIL (France) | [Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros](https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros) |
+| 2026-11-18 | SiliconANGLE — Big Data | [Exclusive: Wherobots AI agents automate complex spatial data engineering](https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/) |
 | 2026-11-18 | DATAVERSITY | [Building a Modern Data Architecture for Analytics and AI](https://www.dataversity.net/articles/the-importance-of-a-modern-data-architecture/) |
 | 2026-11-18 | Euractiv | [THE HACK: How many cloud sovereignty tiers?](https://www.rapporteur.com/news/the-hack-how-many-cloud-sovereignty-tiers/) |
 | 2026-11-18 | CDO Magazine | [Artificial Intelligence NASCIO Survey Finds Gaps in AI Governance, Data Readiness Across State Governments](https://www.cdomagazine.tech/aiml/nascio-survey-finds-gaps-in-ai-governance-data-readiness-across-state-governments) |
@@ -61,20 +63,20 @@ Last run: **2026-11-18T09:17:26Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-16 | CDO Magazine | [Leadership Moves EnerSys Names Navi Grewal Chief Digital, AI, and Information Officer](https://www.cdomagazine.tech/leadership-moves/enersys-names-navi-grewal-chief-digital-ai-and-information-officer) |
 | 2026-11-16 | AEPD — Spanish Data Protection Agency | [La AEPD archiva sus actuaciones sobre TikTok tras la denuncia del Ministerio Fiscal ante el juzgado](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-archiva-sus-actuaciones-sobre-tiktok-tras--ministerio-fiscal) |
 | 2026-11-16 | Ataccama Blog | [The seven-decision framework for AI readiness: An ebook with Deloitte and AWS](https://www.ataccama.com/ebook/the-seven-decision-framework-for-ai-readiness-an-ebook-with-deloitte-and-aws) |
-| 2026-11-16 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Automatiserat beslutsfattande i fokus för EDPB:s kommande samordnade åtgärd](https://www.imy.se/nyheter/automatiserat-beslutsfattande-i-fokus-for-edpbs-kommande-samordnade-atgard/) |
-| 2026-11-16 | Euractiv | [THE HACK: What if drones hit data centres?](https://www.rapporteur.com/news/the-hack-what-if-drones-hit-data-centres/) |
 | 2026-11-16 | Collibra Blog | [AI-powered lineage for Python scripts](https://www.collibra.com/blog/ai-powered-lineage-for-python-scripts) |
 | 2026-11-16 | Collibra Blog | [Gain control of your MCP ecosystem with AI Command Center](https://www.collibra.com/blog/gain-control-of-your-mcp-ecosystem-with-ai-command-center) |
 | 2026-11-16 | Collibra Blog | [Manufacturing bet big on AI and data quality.](https://www.collibra.com/blog/manufacturing-bet-big-on-ai-and-data-quality) |
-| 2026-11-13 | European Data Protection Supervisor (EDPS) | [Data Protection Day 2027: Protecting the vulnerable](https://www.edps.europa.eu/press-publications/press-news/news/2026/data-protection-day-2027-protecting-vulnerable) |
-| 2026-11-12 | CNIL (France) | [Ordre du jour de la séance plénière du 12 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-12-novembre-2026) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | European Digital Rights (EDRi) | [Participate in the Public Consultation on the European Commission’s KIDS Act Proposal](https://edri.org/our-work/participate-in-the-public-consultation-on-the-european-commissions-kids-act-proposal/) |
+| 2026-11-18 | Computer Weekly — IT security | [Data security, compliance top expected connectivity challenges in 2027](https://www.computerweekly.com/news/366654825/Data-security-compliance-top-expected-connectivity-challenges-in-2027) |
+| 2026-11-18 | Computer Weekly — IT security | [The cyber threats to businesses from ‘Grand Theft Auto VI’](https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/what-is-cloud-computing--test) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing--test) |
+| 2026-11-18 | The Record (Recorded Future News) | [CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500](https://therecord.media/cisa-issues-java4shell-alert) |
 | 2026-11-17 | Computer Weekly — IT security | [UK government warned that lax AI safety undermines GDP boost](https://www.computerweekly.com/news/366654649/UK-government-warned-that-lax-AI-safety-undermines-GDP-boost) |
 | 2026-11-17 | The Record (Recorded Future News) | [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) |
 | 2026-11-17 | The Record (Recorded Future News) | [California fines Hertz $1.5 million for breaking state data privacy law](https://therecord.media/california-fines-hertz-state-data-privacy-law) |
@@ -108,16 +110,13 @@ Last run: **2026-11-18T09:17:26Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-16 | Modern Data 101 | [How the Company Brain Talks to Your Second Brain: The Lighthouse and the Tide](https://moderndata101.substack.com/p/company-brain-and-second-brain) |
 | 2026-11-16 | Stibo Systems Blog | [When AI agents depend on master data, MDM becomes everyone’s business](https://www.stibosystems.com/blog/when-ai-agents-depend-on-master-data-mdm-becomes-everyones-business) |
 | 2026-11-16 | AlgorithmWatch | [Online child protection: Don’t exclude young people; fix the platforms](https://algorithmwatch.org/en/online-child-protection-dont-exclude-young-people-fix-the-platforms/) |
-| 2026-11-16 | AlgorithmWatch | [KI in der Migrationsverwaltung: AlgorithmWatch und 36 weitere Organisationen fordern mehr Schutz von Betroffenen](https://algorithmwatch.org/de/kimvg-appell/) |
-| 2026-11-16 | LfDI Baden-Württemberg (Germany) | [Kritische Infrastrukturen schützen – Informationsfreiheit bewahren](https://www.baden-wuerttemberg.datenschutz.de/kritische-infrastrukturen-schuetzen-informationsfreiheit-bewahren/) |
 | 2026-11-16 | AlgorithmWatch | [KI & Wahlen](https://algorithmwatch.org/de/dossier-ki-wahlen/) |
-| 2026-11-16 | Computer Weekly — IT security | [UK councils lead on email anti-spoofing but lock into Microsoft](https://www.computerweekly.com/news/366654774/UK-councils-lead-on-email-anti-spoofing-but-lock-into-Microsoft) |
 
 ## Source problems
 
-- **Council of the EU — Press releases** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.consilium.europa.eu', port=443): Read timed out. (read timeout=25)`
-- **European Data Protection Board (EDPB)** — failed 152× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
+- **European Data Protection Board (EDPB)** — failed 153× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

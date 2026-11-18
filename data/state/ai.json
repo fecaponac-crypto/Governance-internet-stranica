@@ -822,6 +822,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "184437d9f0b89a12": {
+   "at": "2026-11-18T11:46:57Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product launch of an AI agent for spatial pipelines; governance angle is weak and it reads as vendor marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "1953a7e71d6a04df": {
    "at": "2026-11-12T12:17:47Z",
    "categories": [
@@ -2250,6 +2261,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "41cfe706bae6acc1": {
+   "at": "2026-11-18T11:46:57Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General gaming threat commentary without a concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4268bd1909e6926e": {
    "at": "2026-11-02T06:18:24Z",
    "categories": [],
@@ -2883,6 +2905,19 @@
    "importance": 1,
    "reason": "Wildlife crossing map; no data governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "539baa70c0329832": {
+   "at": "2026-11-18T11:46:57Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 4,
+   "reason": "Public consultation on the Commission's KIDS Act proposal, a pending EU regulation affecting obligations for online services and data on minors; a formal consultation step qualifies.",
+   "relevant": true,
    "same_story_as": null
   },
   "53cccf6ded924b94": {
@@ -3602,6 +3637,19 @@
    "importance": 1,
    "reason": "Vendor blog (Precisely) with customer testimonials and product-oriented guidance; vendor marketing not relevant.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6f66b1a9fecce7f4": {
+   "at": "2026-11-18T11:46:57Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ",
+   "importance": 4,
+   "reason": "Commission proposal for the Digital Fairness Act updating EU consumer law for digital services, a legislative step changing obligations on data-driven practices.",
+   "relevant": true,
    "same_story_as": null
   },
   "6f8048015f2c0ca3": {
@@ -6362,6 +6410,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "c36817af9a4b18e2": {
+   "at": "2026-11-18T11:46:57Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Software vulnerability alert; security news without a direct data governance angle beyond general patching.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c37e1b21a6c67d15": {
    "at": "2026-11-11T17:10:58Z",
    "categories": [],
@@ -6503,6 +6562,17 @@
    "importance": 2,
    "reason": "Analysis of AI incident reporting as a governance tool; relevant opinion with some practitioner value but generic.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "ca08b7e033c97944": {
+   "at": "2026-11-18T11:46:57Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Connectivity survey on networking challenges; limited data governance angle and mostly survey marketing.",
+   "relevant": false,
    "same_story_as": null
   },
   "ca6ba7d80995771b": {
@@ -8459,8 +8529,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 453,
-   "usd": 19.9505
+   "calls": 457,
+   "usd": 20.0505
   }
  }
 }
