@@ -97,8 +97,13 @@
     "privacy",
     "ai-governance"
    ],
-   "decision": "selected",
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "ico-says-llms-and-agentic-ai-add-no-new-data-protection-rules-for-onli",
+   "flagged": 0,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/138",
+   "primary_found": true,
    "reason": "UK ICO report on data protection expectations for LLM and agentic AI in online advertising; regulator guidance with practical implications.",
    "relevant": true,
    "same_story_as": null
@@ -1683,8 +1688,13 @@
    "categories": [
     "privacy"
    ],
-   "decision": "selected",
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "california-attorney-general-settles-with-lyft-for-1-8-million-over-mis",
+   "flagged": 0,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/137",
+   "primary_found": true,
    "reason": "California AG CCPA enforcement settlement with Lyft over opt-out mechanism; concrete enforcement with practical consequence for opt-out design.",
    "relevant": true,
    "same_story_as": null
@@ -2733,8 +2743,13 @@
    "categories": [
     "regulation"
    ],
-   "decision": "selected",
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "algorithmwatch-and-partners-urge-german-states-to-regulate-how-feeds-a",
+   "flagged": 1,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/136",
+   "primary_found": false,
    "reason": "Joint civil society statement on a German draft state treaty regulating platforms and AI services; pending legislative consultation affecting platform obligations.",
    "relevant": true,
    "same_story_as": null
@@ -4292,8 +4307,13 @@
    "categories": [
     "privacy"
    ],
-   "decision": "selected",
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "california-privacy-regulator-fines-hertz-1-55-million-over-ignored-opt",
+   "flagged": 0,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/135",
+   "primary_found": true,
    "reason": "California privacy regulator fine on Hertz under state privacy law; enforcement with practical consequences for data practices.",
    "relevant": true,
    "same_story_as": null
@@ -5349,8 +5369,13 @@
    "categories": [
     "privacy"
    ],
-   "decision": "selected",
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "cnil-issues-38-simplified-sanctions-since-june-2026-over-cookies-secur",
+   "flagged": 0,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/139",
+   "primary_found": false,
    "reason": "CNIL enforcement summary of 38 simplified-procedure sanctions on cookies, security and prospecting; notable enforcement activity.",
    "relevant": true,
    "same_story_as": null
@@ -6091,6 +6116,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ba204796ad3a83b4": {
+   "at": "2026-11-18T15:17:36Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "nigeria-s-nimc-act-2026-mandates-identity-database-integration-writes",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/134",
+   "primary_found": true,
+   "reason": "Nigerian NIMC Act 2026 reshapes national digital identity data governance; a notable legislative development with data protection implications, though details are limited to the title.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "baa1624aa596617a": {
    "at": "2026-11-13T12:18:35Z",
    "categories": [
@@ -6589,6 +6631,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Geopolitical AI competition analysis with no direct data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c7ea2105a5d428b2": {
+   "at": "2026-11-18T15:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Award announcement for DAMA chapters, which is not relevant under the rules.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7456,6 +7507,18 @@
    "importance": 1,
    "reason": "Explainer/thought-leadership from a vendor blog; not a launch or research.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "de4c042e152e2460": {
+   "at": "2026-11-18T15:17:36Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical explainer on India's DPDPA consent manager registration and CMP requirements; vendor blog but gives usable regulatory guidance, so rated low.",
+   "relevant": true,
    "same_story_as": null
   },
   "decf42c69ac71ab0": {
@@ -8631,8 +8694,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 495,
-   "usd": 22.4091
+   "calls": 520,
+   "usd": 23.8345
   }
  }
 }

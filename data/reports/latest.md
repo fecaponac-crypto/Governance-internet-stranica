@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-18T14:08:16Z** · sources checked: 81 · failed: 2 · new items this run: 5
+Last run: **2026-11-18T15:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (94)
+## New items, last 48 hours (97)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | IAPP — International Association of Privacy Professionals | [NIMC Act 2026: Transforming Nigeria's digital identity ecosystem](https://iapp.org/news/a/nimc-act-2026-transforming-nigerias-digital-identity-ecosystem) |
 | 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
 | 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
@@ -22,6 +23,8 @@ Last run: **2026-11-18T14:08:16Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | OneTrust Blog | [Understanding Consent Manager Registration and CMP Requirements Under India's DPDPA Consent & Preferences](https://www.onetrust.com/blog/understanding-consent-manager-registration-and-cmp-requirements-under-indias-dpdpa/) |
+| 2026-11-18 | DAMA International | [🏆 The 2026 DAMA Chapter Award Winners](https://dama.org/2026/11/18/the-2026-dama-chapter-award-winners/) |
 | 2026-11-18 | CDO Magazine | [Artificial Intelligence Beyond AI Copilots: Building Decision-Ready Intelligence in Banking](https://www.cdomagazine.tech/aiml/beyond-ai-copilots-building-decision-ready-intelligence-in-banking) |
 | 2026-11-18 | SiliconANGLE — Big Data | [Tesorai raises $5.3M to feed starving AI models with biological data and accelerate drug discovery](https://siliconangle.com/2026/11/18/tesorai-raises-5-3m-to-feed-starving-ai-models-with-biological-data-and-accelerate-drug-discovery/) |
 | 2026-11-18 | Privacy World (Squire Patton Boggs) | [The Digital Fairness Act: Redesigning the rules of engagement for digital services](https://www.privacyworld.blog/2026/11/the-digital-fairness-act-redesigning-the-rules-of-engagement-for-digital-services/) |
@@ -115,8 +118,7 @@ Last run: **2026-11-18T14:08:16Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **California Privacy Protection Agency (CalPrivacy)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://cppa.ca.gov/announcements/`
-- **European Data Protection Board (EDPB)** — failed 155× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 156× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

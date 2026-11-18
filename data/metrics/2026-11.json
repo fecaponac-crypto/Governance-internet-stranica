@@ -1,41 +1,41 @@
 {
  "month": "2026-11",
- "updated": "2026-11-18T14:15:58Z",
+ "updated": "2026-11-18T15:22:23Z",
  "portal": {
-  "published_total": 110,
-  "published_this_month": 67,
+  "published_total": 114,
+  "published_this_month": 71,
   "published_this_month_by_importance": {
-   "3": 39,
+   "3": 42,
    "2": 12,
-   "4": 15,
+   "4": 16,
    "5": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 495,
-  "runs": 196,
-  "runs_with_failed_sources": 170,
+  "items_collected": 498,
+  "runs": 197,
+  "runs_with_failed_sources": 171,
   "triage_decisions": {
-   "drafted": 81,
-   "skipped": 394,
-   "selected": 6,
-   "failed": 15
+   "drafted": 87,
+   "skipped": 396,
+   "failed": 15,
+   "selected": 1
   },
-  "ai_spend_usd": 22.4091,
+  "ai_spend_usd": 23.8345,
   "sources_active": 81,
-  "sources_failing_now": 2
+  "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 68,
-  "drafts_rejected": 3
+  "drafts_published": 72,
+  "drafts_rejected": 5
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 500,
-  "visits": 400,
+  "page_views": 710,
+  "visits": 630,
   "bots_excluded": true,
   "by_day": [
    {
@@ -121,10 +121,6 @@
     "page_views": 30
    },
    {
-    "requestPath": "/review/2026-11/",
-    "page_views": 20
-   },
-   {
     "requestPath": "/institutions/edpb/",
     "page_views": 20
    },
@@ -139,26 +135,74 @@
    {
     "requestPath": "/category/ai-governance/",
     "page_views": 20
+   },
+   {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 20
    }
   ],
   "countries": [
    {
     "countryName": "US",
-    "page_views": 400
+    "page_views": 380
    },
    {
     "countryName": "HR",
-    "page_views": 100
+    "page_views": 50
+   },
+   {
+    "countryName": "CN",
+    "page_views": 40
+   },
+   {
+    "countryName": "GB",
+    "page_views": 40
+   },
+   {
+    "countryName": "AR",
+    "page_views": 20
+   },
+   {
+    "countryName": "HK",
+    "page_views": 20
+   },
+   {
+    "countryName": "AU",
+    "page_views": 20
+   },
+   {
+    "countryName": "DK",
+    "page_views": 20
+   },
+   {
+    "countryName": "IT",
+    "page_views": 10
+   },
+   {
+    "countryName": "PH",
+    "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 400
+    "page_views": 590
    },
    {
     "refererHost": "datagovernancesignal.com",
-    "page_views": 100
+    "page_views": 80
+   },
+   {
+    "refererHost": "www.google.com",
+    "page_views": 20
+   },
+   {
+    "refererHost": "teams.public.onecdn.static.microsoft",
+    "page_views": 10
+   },
+   {
+    "refererHost": "www.linkedin.com",
+    "page_views": 10
    }
   ]
  },
