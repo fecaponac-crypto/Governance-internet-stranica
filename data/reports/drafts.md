@@ -1,17 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-17T21:17:41Z** · candidates 3 · scored 3 · selected 3 · drafted 0 · failed 3 · queued for next run 0
+Last run: **2026-11-18T00:17:35Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$19.95** of $35 budget (447 calls)
+AI spend this month: **$19.95** of $35 budget (448 calls)
 
 ## This run
 
-- ❌ [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ
-- ❌ [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ
-- ❌ [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Schema is too complex for compilation. Try reducing the number of tools or simplifying tool schemas.'}, 'requ
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (2) UK parliamentary committee report urging stronger AI safety controls; a policy development with some governance relevance but no binding change yet, so worth knowing rather than urgent.
 - (1) Generic vendor thought-leadership on AI autonomy.
 - (2) Catalog interoperability between Unity Catalog and Google Cloud; governance-relevant platform announcement, but vendor-blog level.
 - (2) Overview of global youth social media restrictions; background policy context with some privacy angle, not a specific new decision.
@@ -26,4 +25,3 @@ AI spend this month: **$19.95** of $35 budget (447 calls)
 - (2) Government ministers consulting on AI safety testing and cooperation; policy process with limited direct data governance impact so far.
 - (1) Event promotion for an advocacy meetup.
 - (1) Online campaign launch exposing surveillance infrastructure; advocacy rather than governance news.
-- (1) Research on chatbot election information; no data governance angle for practitioners.

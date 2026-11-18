@@ -6820,6 +6820,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d4180ecb372f732d": {
+   "at": "2026-11-18T00:17:35Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "UK parliamentary committee report urging stronger AI safety controls; a policy development with some governance relevance but no binding change yet, so worth knowing rather than urgent.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d423927e6188a38a": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [
@@ -8332,8 +8344,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 447,
-   "usd": 19.9465
+   "calls": 448,
+   "usd": 19.9472
   }
  }
 }

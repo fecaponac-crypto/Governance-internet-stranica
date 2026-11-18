@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-17T21:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-18T00:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (86)
+## New items, last 48 hours (87)
 
 ### High priority sources
 
@@ -67,6 +67,7 @@ Last run: **2026-11-17T21:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-17 | Computer Weekly — IT security | [UK government warned that lax AI safety undermines GDP boost](https://www.computerweekly.com/news/366654649/UK-government-warned-that-lax-AI-safety-undermines-GDP-boost) |
 | 2026-11-17 | The Record (Recorded Future News) | [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) |
 | 2026-11-17 | The Record (Recorded Future News) | [California fines Hertz $1.5 million for breaking state data privacy law](https://therecord.media/california-fines-hertz-state-data-privacy-law) |
 | 2026-11-17 | Stibo Systems Blog | [How to raise the trust ceiling of AI autonomy](https://www.stibosystems.com/blog/how-to-raise-the-trust-ceiling-of-ai-autonomy) |
@@ -107,7 +108,7 @@ Last run: **2026-11-17T21:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 147× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 148× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
