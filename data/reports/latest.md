@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-19T11:43:58Z** · sources checked: 81 · failed: 2 · new items this run: 11
+Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new items this run: 2
 
-## New items, last 48 hours (119)
+## New items, last 48 hours (121)
 
 ### High priority sources
 
@@ -31,6 +31,7 @@ Last run: **2026-11-19T11:43:58Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | CDO Magazine | [Leadership Moves Ralph Lauren Appoints Renga Rajan Balasubramanian as VP, Head of AI Engineering, Data & Platforms](https://www.cdomagazine.tech/leadership-moves/ralph-lauren-appoints-renga-rajan-balasubramanian-as-vp-head-of-ai-engineering-data-platforms) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence BRIDGE AI Act Would Bring Private-Sector AI Expertise Into CISA](https://www.cdomagazine.tech/aiml/bridge-ai-act-would-bring-private-sector-ai-expertise-into-cisa) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence New York Attorney General Creates Dedicated Unit to Enforce AI Safety Laws](https://www.cdomagazine.tech/aiml/new-york-attorney-general-creates-dedicated-unit-to-enforce-ai-safety-laws) |
 | 2026-11-19 | AEPD — Spanish Data Protection Agency | [La AEPD publica ‘El estatuto del delegado de protección de datos’, con orientaciones sobre independencia, garantías organizativas y conflictos de intereses](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-el-estatuto-del-delegado-proteccion-datos-independencia-garantias) |
@@ -77,6 +78,7 @@ Last run: **2026-11-19T11:43:58Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | InformationWeek | [AI has rewritten the cybersecurity risk equation](https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation) |
 | 2026-11-19 | International Data Spaces Association | [Australia and data spaces: ready foundations, big plans and a bridge to Europe](https://internationaldataspaces.org/australia-and-data-spaces-ready-foundations-big-plans-and-a-bridge-to-europe/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [EDRi-gram, 19 November 2026](https://edri.org/our-work/edri-gram-19-november-2026/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [New report documents authoritarian use of technology across the globe](https://edri.org/our-work/new-report-documents-authoritarian-use-of-technology-across-the-globe/) |
@@ -140,8 +142,9 @@ Last run: **2026-11-19T11:43:58Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **CNIL (France)** — failed 9× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 165× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 10× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 166× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Google Cloud Blog — Data Analytics** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://cloudblog.withgoogle.com/products/data-analytics/rss/`
 
 ## Check manually (weekly)
 

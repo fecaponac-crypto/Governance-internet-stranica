@@ -4790,6 +4790,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "83338fccbf673502": {
+   "at": "2026-11-19T12:18:06Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring/leadership appointment news, not governance substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "834cc2a4b571ea6b": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -6693,6 +6702,15 @@
    "importance": 2,
    "reason": "Arctic Wolf research on spam-then-Teams social engineering attacks, relevant to employee access security.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "bd6155ea97818cdd": {
+   "at": "2026-11-19T12:18:06Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion on AI-driven cyber risk with no concrete governance development; stays at background level and is not actionable news.",
+   "relevant": false,
    "same_story_as": null
   },
   "bd9366fffa3a6e75": {
@@ -9343,8 +9361,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 564,
-   "usd": 25.91
+   "calls": 565,
+   "usd": 25.9107
   }
  }
 }

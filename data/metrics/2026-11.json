@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-19T11:44:19Z",
+ "updated": "2026-11-19T12:18:09Z",
  "portal": {
   "published_total": 129,
   "published_this_month": 86,
@@ -13,17 +13,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 554,
-  "runs": 206,
-  "runs_with_failed_sources": 180,
+  "items_collected": 556,
+  "runs": 207,
+  "runs_with_failed_sources": 181,
   "triage_decisions": {
    "drafted": 96,
-   "skipped": 442,
+   "skipped": 444,
    "failed": 17
   },
-  "ai_spend_usd": 25.91,
+  "ai_spend_usd": 25.9107,
   "sources_active": 81,
-  "sources_failing_now": 2
+  "sources_failing_now": 3
  },
  "editor": {
   "drafts_published": 87,
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 740,
-  "visits": 660,
+  "page_views": 770,
+  "visits": 690,
   "bots_excluded": true,
   "by_day": [
    {
@@ -104,8 +104,8 @@
    },
    {
     "date": "2026-11-19",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 40,
+    "visits": 40
    }
   ],
   "top_pages": [
@@ -126,6 +126,10 @@
     "page_views": 60
    },
    {
+    "requestPath": "/review/2026-11/",
+    "page_views": 50
+   },
+   {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
     "page_views": 30
    },
@@ -144,10 +148,6 @@
    {
     "requestPath": "/opinion/",
     "page_views": 20
-   },
-   {
-    "requestPath": "/monday-signal/",
-    "page_views": 20
    }
   ],
   "countries": [
@@ -161,6 +161,10 @@
    },
    {
     "countryName": "CN",
+    "page_views": 40
+   },
+   {
+    "countryName": "SE",
     "page_views": 40
    },
    {
@@ -186,16 +190,12 @@
    {
     "countryName": "CA",
     "page_views": 20
-   },
-   {
-    "countryName": "SG",
-    "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 610
+    "page_views": 640
    },
    {
     "refererHost": "datagovernancesignal.com",
