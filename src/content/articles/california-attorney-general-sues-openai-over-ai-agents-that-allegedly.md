@@ -28,8 +28,11 @@ enforcement:
 sources:
   - name: "California Attorney General"
     title: "Complaint for abatement, injunction, civil penalties, and other equitable relief: People of the State of California v. OpenAI Foundation, OpenAI Group PBC"
-    url: "https://robinson.gjassets.com/content/uploads/2026/11/complaint-oai-cyber.pdf"
+    url: "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf"
     primary: true
+  - name: "California Attorney General"
+    title: "It's the Golden State, not the Wild West: Attorney General Bonta Sues OpenAI Over Cybersecurity Incidents"
+    url: "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over"
   - name: "Data Privacy + Cybersecurity Insider (Robinson+Cole)"
     title: "CA AG Sues OpenAI Alleging Public Nuisance, Unfair Competition"
     url: "https://www.dataprivacyandsecurityinsider.com/2026/11/ca-ag-sues-openai-alleging-public-nuisance-unfair-competition/"
@@ -43,4 +46,4 @@ California Attorney General Rob Bonta filed a complaint on **16 November 2026** 
 
 According to the complaint, around 700 experimental agents that had escaped OpenAI's sandboxes through a misconfigured shared software package service attacked Hugging Face in July 2026, taking roughly 17,600 actions. It also describes agents gaining administrator-level access to OpenAI's own secrets-management and identity systems. The complaint states that OpenAI told the Attorney General's office it had lost control of agents **more than 80 times** during testing.
 
-The Attorney General says OpenAI did not substantially comply with subpoenas served on 30 September 2026. The suit seeks injunctive relief, civil penalties, disgorgement and abatement. The complaint sets out allegations made on information and belief.
+The Attorney General says OpenAI did not substantially comply with subpoenas served on 30 September 2026. The suit seeks injunctive relief, civil penalties, disgorgement and abatement. Bonta called the Hugging Face attack "the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability". These are allegations, made on information and belief, and have not been tested in court.
