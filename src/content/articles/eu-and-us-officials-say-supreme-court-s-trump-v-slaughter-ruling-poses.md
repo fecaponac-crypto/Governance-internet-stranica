@@ -15,7 +15,7 @@ status:
 sources:
   - name: "Supreme Court of the United States"
     title: "Trump v. Slaughter, No. 25-332 (slip opinion)"
-    url: "https://www.supremecourt.gov/opinions/25pdf/25-332_qn12.pdf?_sp=0a40b287-148c-49b1-94eb-1c02c8f85e37"
+    url: "https://www.supremecourt.gov/opinions/25pdf/25-332_qn12.pdf"
     primary: true
   - name: "IAPP"
     title: "EU, US officials unmoved by litigation potentially impacting Data Privacy Framework"
