@@ -1577,6 +1577,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "27049e4c7071800e": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor glossary explainer on tool calling.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "279c8e677d695578": {
    "at": "2026-11-16T18:17:45Z",
    "categories": [
@@ -1828,6 +1837,17 @@
    "primary_found": true,
    "reason": "Commission draft Digital Fairness Act is a legislative proposal changing consumer data and design obligations; major file, rated 4.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "2dd4130355f10bfe": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Law-firm explainer on app store age verification laws; reading of rules but not a new development beyond explanation.",
+   "relevant": false,
    "same_story_as": null
   },
   "2dd992c3e6237281": {
@@ -2544,6 +2564,15 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Vendor blog post promoting Alation customer case; marketing rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "438cb58032c55a56": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview opinion on human oversight; generic thought leadership without concrete new guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3394,6 +3423,32 @@
    "relevant": true,
    "same_story_as": null
   },
+  "588de5bb0295ba92": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "eu-and-us-officials-say-supreme-court-s-trump-v-slaughter-ruling-poses",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/152",
+   "primary_found": true,
+   "reason": "EU-US Data Privacy Framework litigation affects cross-border transfer obligations; officials' stance is a concrete regulatory development.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "58cbad5251efe05c": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing for consent management product.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "58d3557f0cbc3941": {
    "at": "2026-11-16T19:38:26Z",
    "categories": [
@@ -3648,6 +3703,15 @@
    "primary_found": false,
    "reason": "FTC enforcement action over sharing sensitive health data with advertisers; concrete privacy enforcement with states joining.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "620f0aea8cc952df": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cybercrime arrests without data governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "630d3a731f817a46": {
@@ -4899,6 +4963,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "83d1b9737998a876": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "regulation"
+   ],
+   "claims": 22,
+   "decision": "drafted",
+   "draft": "digital-omnibus-gdpr-reforms-likely-to-miss-february-2027-target-says",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/151",
+   "primary_found": true,
+   "reason": "Digital Omnibus is a major pending EU file reshaping GDPR and AI obligations; possible delays matter to planning.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "8405a7d8907c6612": {
    "at": "2026-11-09T21:18:27Z",
    "categories": [],
@@ -4998,6 +5078,22 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Human-checked AI-assisted dbt staging at scale touches on governed AI-assisted data modelling; modest practitioner interest.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "8a4541083c44b364": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "cert-eu-warns-of-artex-ai-pentest-framework-as-commission-hr-system-at",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/153",
+   "primary_found": true,
+   "reason": "Cyber incident at European Commission possibly linked to AI pentest tool; security posture relevance for AI tooling.",
    "relevant": true,
    "same_story_as": null
   },
@@ -5776,6 +5872,15 @@
    "reason": "Same story as POLITICO item 3 about the Tinder €11M DPC fine; the POLITICO item is the detailed coverage, so this one is a duplicate.",
    "relevant": false,
    "same_story_as": "item:38f3c3afca9dfb8b"
+  },
+  "a100cc0ef008b8b6": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor glossary explainer on LLMs.",
+   "relevant": false,
+   "same_story_as": null
   },
   "a10d19f89773c9ee": {
    "at": "2026-10-28T12:59:23Z",
@@ -6562,6 +6667,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b89f88b972fae726": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "security",
+    "privacy"
+   ],
+   "claims": 15,
+   "decision": "drafted",
+   "draft": "tfl-breach-exposes-data-of-about-265-000-oyster-photocard-holders-incl",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/154",
+   "primary_found": false,
+   "reason": "Personal data breach affecting about 265,000 TfL passengers; concrete breach with privacy consequences.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b8c543841209921a": {
    "at": "2026-10-29T18:18:27Z",
    "categories": [
@@ -6667,6 +6789,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ba380c45cb6fb5af": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor glossary explainer on AI models.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ba425b3fc1127472": {
    "at": "2026-11-19T11:44:11Z",
    "categories": [],
@@ -6760,6 +6891,15 @@
    "importance": 2,
    "reason": "EDPS reflections on AI Act transparency obligations from a regulator meeting; practical regulator commentary, low importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "bcd65aabfbde197b": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor explainer on vector databases; no governance news.",
+   "relevant": false,
    "same_story_as": null
   },
   "bce2338b5376d58d": {
@@ -7035,6 +7175,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Advocacy commentary on Swedish surveillance policy; opinion rather than a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c0b2110866740c07": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Political nomination news without data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7420,6 +7569,19 @@
    "error": "source not readable: HTTP 403",
    "importance": 3,
    "reason": "New EU consumer-harm rules with fines up to 6% of turnover affect platform obligations; notable but details limited from excerpt alone.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "cd671e5dee7c4100": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "regulation",
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Asia-Pacific regulatory notes covering PIPL anniversary and Hong Kong AI requirements; practical but roundup-style.",
    "relevant": true,
    "same_story_as": null
   },
@@ -8494,6 +8656,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e5832443f7a4219c": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor educational glossary post.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e609a8f9a639a351": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -8787,6 +8958,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ee9d8d0b877cb0b3": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "claims": 18,
+   "decision": "drafted",
+   "draft": "investigatory-powers-tribunal-rules-home-office-cannot-keep-secret-its",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/155",
+   "primary_found": true,
+   "reason": "Court confirmation of secret UK surveillance order affecting encrypted data access; notable for data protection.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ef7eb222c66a1bc1": {
    "at": "2026-10-30T21:18:30Z",
    "categories": [
@@ -9024,6 +9212,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Technical driver engineering post; not governance-relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f60c93d192ad00cf": {
+   "at": "2026-11-19T18:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consultancy thought leadership on pharma labs; no governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9461,8 +9658,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 577,
-   "usd": 26.644
+   "calls": 610,
+   "usd": 28.9402
   }
  }
 }

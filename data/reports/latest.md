@@ -1,13 +1,16 @@
 # Inflow report
 
-Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 8
+Last run: **2026-11-19T18:17:35Z** · sources checked: 81 · failed: 3 · new items this run: 17
 
-## New items, last 48 hours (121)
+## New items, last 48 hours (114)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | IAPP — International Association of Privacy Professionals | [EU, US officials unmoved by litigation potentially impacting Data Privacy Framework](https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework) |
+| 2026-11-19 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: China marks PIPL's 5th anniversary, Hong Kong clarifies AI requirements](https://iapp.org/news/a/notes-from-the-asia-pacific-region-china-marks-pipls-5th-anniversary-hong-kong-clarifies-ai-requirements) |
+| 2026-11-19 | IAPP — International Association of Privacy Professionals | [One year on, Digital Omnibus may face delays](https://iapp.org/news/a/one-year-on-digital-omnibus-may-face-delays) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [Fraud data sharing under the new PSR: When a DPIA becomes the ticket of entry](https://iapp.org/news/a/fraud-data-sharing-under-the-new-psr-when-a-dpia-becomes-the-ticket-of-entry) |
 | 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [EDPB publiceert definitieve guidelines over gerechtvaardigd belang](https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Formal sitting of the Court of Justice](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260170en.pdf) |
@@ -24,7 +27,6 @@ Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | Hunton Privacy & Information Security Law Blog | [CIPL Publishes Report on How AI-Powered Tools Can Improve Compliance Outcomes and Bolster Accountability](https://www.hunton.com/privacy-and-cybersecurity-law-blog/cipl-publishes-report-on-how-ai-powered-tools-can-improve-compliance-outcomes-and-bolster-accountability) |
 | 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
 | 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
-| 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) |
 
@@ -32,6 +34,9 @@ Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | CDO Magazine | [AI Governance Approval Is an Event, but Judgment Is a Capability: Dr. Yodit Ayalew on Human Oversight in AI Governance](https://www.cdomagazine.tech/ai-governance/approval-is-an-event-but-judgment-is-a-capability-dr-yodit-ayalew-on-human-oversight-in-ai-governance) |
+| 2026-11-19 | OneTrust Blog | [How to Keep Permissioned Data Usable Across Marketing, Data, and AI Consent & Preferences](https://www.onetrust.com/blog/how-to-keep-permissioned-data-usable-across-marketing-data-and-ai/) |
+| 2026-11-19 | Privacy World (Squire Patton Boggs) | [App Store Age Verification Laws: Your Questions, Answered (Updated)](https://www.privacyworld.blog/2026/11/app-store-age-verification-laws-your-questions-answered-updated/) |
 | 2026-11-19 | Council of the EU — Press releases | [Equipping Europeans for the age of AI: Council approves conclusions](https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/) |
 | 2026-11-19 | CDO Magazine | [Leadership Moves Ralph Lauren Appoints Renga Rajan Balasubramanian as VP, Head of AI Engineering, Data & Platforms](https://www.cdomagazine.tech/leadership-moves/ralph-lauren-appoints-renga-rajan-balasubramanian-as-vp-head-of-ai-engineering-data-platforms) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence BRIDGE AI Act Would Bring Private-Sector AI Expertise Into CISA](https://www.cdomagazine.tech/aiml/bridge-ai-act-would-bring-private-sector-ai-expertise-into-cisa) |
@@ -62,34 +67,34 @@ Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | Forrester Blogs | [DORA: Avoid The Compliance-As-A-Strategy Approach](https://www.forrester.com/blogs/dora-avoid-the-compliance-as-a-strategy-approach/) |
 | 2026-11-18 | Euractiv | [Key cloud lawmaker mulls deleting highest sovereignty tier](https://www.rapporteur.com/news/key-cloud-lawmaker-mulls-deleting-highest-sovereignty-tier/) |
 | 2026-11-18 | Databricks Blog | [How we raised Databricks cluster rate limits by 7.5×](https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75) |
-| 2026-11-17 | Informatica Blog | [Gartner® names Salesforce (Informatica) a 3x Leader in Data and Analytics Governance Platforms Generative AI for Data Management](https://www.informatica.com/blogs/salesforce-informatica-recognized-as-a-leader-in-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms.html) |
-| 2026-11-17 | Databricks Blog | [Advancing Catalog Interoperability with Unity Catalog and Google Cloud’s Borderless Lakehouse](https://www.databricks.com/blog/advancing-catalog-interoperability-unity-catalog-and-google-clouds-borderless-lakehouse) |
-| 2026-11-17 | Ataccama Blog | [Ataccama named the only Visionary in the 2026 Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.ataccama.com/news/ataccama-named-the-only-visionary-in-the-2026-gartner-magic-quadrant-for-data-and-analytics-governance-platforms) |
-| 2026-11-17 | Alation Blog | [November 17, 2026 Alation Named a Leader in the 2026 Gartner® Magic Quadrant™ for D&A Governance Platforms Gartner says, “Through 2028, 80% of S&P 1,200 organizations will relaunch a modern D&A governance program, based around… Read More](https://www.alation.com/blog/gartner-magic-quadrant-governance-leader/) |
-| 2026-11-17 | CDO Magazine | [Opinion & Analysis Can Your Data Systems Keep Your Privacy Promises?](https://www.cdomagazine.tech/opinion-analysis/can-your-data-systems-keep-your-privacy-promises) |
-| 2026-11-17 | Euractiv | [Digital ministers to discuss AI safety at December meeting](https://www.rapporteur.com/news/digital-ministers-to-discuss-ai-safety-at-december-meeting/) |
-| 2026-11-17 | Euractiv | [Data centre sabotage risks land in EU’s sovereign cloud law](https://www.rapporteur.com/news/data-centre-sabotage-risks-land-in-eus-sovereign-cloud-law/) |
-| 2026-11-17 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Anmäl intresse till innovationssandlådan senast måndag 23/11](https://www.imy.se/nyheter/anmal-intresse-till-innovationssandladan-senast-mandag-2311/) |
-| 2026-11-17 | CNIL (France) | [La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026](https://www.cnil.fr/fr/38-sanctions-simplifiees) |
-| 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
-| 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Monte Carlo Blog | [What Is a Schema Change? Types, Risks, and How to Catch Them](https://montecarlo.ai/blog-what-is-a-schema-change) |
+| 2026-11-19 | Monte Carlo Blog | [What Is a Vector Database? How It Works and Why AI Needs One](https://montecarlo.ai/blog-what-is-a-vector-database) |
+| 2026-11-19 | The Record (Recorded Future News) | [CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack](https://therecord.media/cisa-losapio-nomination-trump) |
+| 2026-11-19 | Monte Carlo Blog | [What Is Tool Calling? How LLMs and AI Agents Take Action](https://montecarlo.ai/blog-what-is-tool-calling) |
+| 2026-11-19 | Monte Carlo Blog | [What Is an AI Model? Types, Examples, and How They Work](https://montecarlo.ai/blog-what-is-an-ai-model) |
+| 2026-11-19 | Monte Carlo Blog | [What Is an LLM? Large Language Models Explained](https://montecarlo.ai/blog-what-is-an-llm-large-language-models-explained) |
 | 2026-11-19 | Center for Security and Emerging Technology (CSET) | [Biodata Matters for the Genesis Mission](https://cset.georgetown.edu/article/biodata-matters-for-the-genesis-mission/) |
 | 2026-11-19 | Precisely Blog | [Governed AI in customer communications: Precisely EngageOne™ named a Leader by Aspire](https://www.precisely.com/blog/cat-customer-engagement/governed-ai-in-customer-communications-precisely-engageone-named-a-leader-by-aspire/) |
 | 2026-11-19 | Modern Data 101 | [Why the Enterprise AI Advantage Will Come From Orchestration, Not Just Models](https://moderndata101.substack.com/p/orchestration-the-enterprise-ai-advantage) |
 | 2026-11-19 | OECD.AI — Policy Observatory blog | [From dialogue to delivery: making AI governance work in Southeast Asia](https://wp.oecd.ai/from-dialogue-to-delivery-making-ai-governance-work-in-southeast-asia/) |
+| 2026-11-19 | Computer Weekly — IT security | [AI red team tool Artex likely behind cyber attack on EU body](https://www.computerweekly.com/news/366654974/AI-red-team-tool-Artex-likely-behind-cyber-attack-on-EU-body) |
+| 2026-11-19 | Computer Weekly — IT security | [Over 250,000 Londoners affected by latest TfL breach](https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach) |
+| 2026-11-19 | Computer Weekly — IT security | [Ukrainian police arrest former members of Conti ransomware group](https://www.computerweekly.com/news/366654831/Ukrainian-police-arrest-former-members-of-Conti-ransomware-group) |
 | 2026-11-19 | InformationWeek | [AI has rewritten the cybersecurity risk equation](https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation) |
 | 2026-11-19 | International Data Spaces Association | [Australia and data spaces: ready foundations, big plans and a bridge to Europe](https://internationaldataspaces.org/australia-and-data-spaces-ready-foundations-big-plans-and-a-bridge-to-europe/) |
+| 2026-11-19 | Computer Weekly — IT security | [UK court confirms existence of government surveillance order against Apple](https://www.computerweekly.com/news/366654729/UK-court-confirms-existence-of-government-surveillance-order-against-Apple) |
 | 2026-11-19 | European Digital Rights (EDRi) | [EDRi-gram, 19 November 2026](https://edri.org/our-work/edri-gram-19-november-2026/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [New report documents authoritarian use of technology across the globe](https://edri.org/our-work/new-report-documents-authoritarian-use-of-technology-across-the-globe/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [EU transforms Frontex into a high-tech deportation command centre](https://edri.org/our-work/eu-transforms-frontex-into-a-high-tech-deportation-command-centre/) |
 | 2026-11-19 | Semarchy Blog | [Data Product Lifecycle: 8 Stages and How to Manage Them](https://semarchy.com/blog/data-product-lifecycle/) |
 | 2026-11-19 | Semarchy Blog | [Data Product Examples: 7 Types with Practical Use Cases](https://semarchy.com/blog/data-product-examples/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [One year later, a broad coalition tells EU lawmakers: do not simplify away people’s rights with the Digital Omnibus](https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/) |
+| 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
 | 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
 | 2026-11-18 | Monte Carlo Blog | [What Is an AI Hallucination? Causes, Examples, and Fixes](https://montecarlo.ai/blog-ai-hallucination) |
@@ -119,18 +124,6 @@ Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | The Record (Recorded Future News) | [CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500](https://therecord.media/cisa-issues-java4shell-alert) |
 | 2026-11-17 | Computer Weekly — IT security | [UK government warned that lax AI safety undermines GDP boost](https://www.computerweekly.com/news/366654649/UK-government-warned-that-lax-AI-safety-undermines-GDP-boost) |
 | 2026-11-17 | The Record (Recorded Future News) | [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) |
-| 2026-11-17 | The Record (Recorded Future News) | [California fines Hertz $1.5 million for breaking state data privacy law](https://therecord.media/california-fines-hertz-state-data-privacy-law) |
-| 2026-11-17 | Stibo Systems Blog | [How to raise the trust ceiling of AI autonomy](https://www.stibosystems.com/blog/how-to-raise-the-trust-ceiling-of-ai-autonomy) |
-| 2026-11-17 | dbt Labs Blog | [What's new in dbt: November 2026](https://www.getdbt.com/blog/whats-new-in-dbt-november-2026) |
-| 2026-11-17 | Gaia-X | [Data Transfer Agent (DTA) – The open-source software component enabling the implementation of the harmonised European standard EN 18235 on Trusted Data Transactions (TDT)](https://gaia-x.eu/data-transfer-agent-dta-the-open-source-software-component-enabling-the-implementation-of-the-harmonised-european-standard-en-18235-on-trusted-data-transactions-tdt/) |
-| 2026-11-17 | AlgorithmWatch | [AI and Elections](https://algorithmwatch.org/en/ai-and-elections/) |
-| 2026-11-17 | AlgorithmWatch | [Gemeinsame Stellungnahme zum Digitalen Medien-Staatsvertrag (DMStV)](https://algorithmwatch.org/de/stellungnahme-dmstv/) |
-| 2026-11-17 | Profisee Blog | [Data Management in Healthcare: Preparing for CMS-0057-F](https://profisee.com/blog/data-management-healthcare-cms-0057-f/) |
-| 2026-11-17 | Precisely Blog | [What’s new in IBM i cyber resilience: recovering clean data](https://www.precisely.com/blog/cat-ibm-security/whats-new-in-ibm-i-cyber-resilience-recovering-clean-data/) |
-| 2026-11-17 | European Digital Rights (EDRi) | [Brussels Campaign Exchange on ‘Building Movements, Building Power’](https://edri.org/take-action/events/brussels-campaign-exchange-on-building-movements-building-power/) |
-| 2026-11-17 | European Digital Rights (EDRi) | [Digital Borders Exposed: an online launch by Protect Not Surveil](https://edri.org/take-action/events/digital-borders-exposed-an-online-launch-by-protect-not-surveil/) |
-| 2026-11-17 | Computer Weekly — IT security | [UK regulators call for tight control of personal AI agents](https://www.computerweekly.com/news/366654742/UK-regulators-call-for-tight-control-of-personal-AI-agents) |
-| 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [Now is Not the Time to Limit Cyber Liability and State Enforcement](https://epic.org/now-is-not-the-time-to-limit-cyber-liability-and-state-enforcement/) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [EPIC Joins Group Urging New Jersey Court to Reject Data Center Developer’s First Amendment Claim](https://epic.org/epic-joins-group-urging-new-jersey-court-to-reject-data-center-developers-first-amendment-claim/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [The New York Times: New York City Will Ban Companies From Setting Variable Prices](https://epic.org/the-new-york-times-new-york-city-will-ban-companies-from-setting-variable-prices/) |
@@ -142,7 +135,9 @@ Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 167× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
+- **European Data Protection Board (EDPB)** — failed 168× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

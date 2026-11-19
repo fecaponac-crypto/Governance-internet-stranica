@@ -1,28 +1,31 @@
 # Drafts report
 
-Last run: **2026-11-19T15:17:44Z** · candidates 8 · scored 8 · selected 2 · drafted 2 · failed 0 · queued for next run 0
+Last run: **2026-11-19T18:17:45Z** · candidates 17 · scored 17 · selected 5 · drafted 5 · failed 0 · queued for next run 0
 
-AI spend this month: **$26.64** of $45 budget (577 calls)
+AI spend this month: **$28.94** of $45 budget (610 calls)
 
 ## This run
 
-- ⚠️ 2 claims to check (✏️ 6 corrected automatically) **EDPB adopts final guidelines on legitimate interest, with a flowchart for the three-step test** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/149
-- ⚠️ 1 claims to check (✏️ 2 corrected automatically) **Law firm associate says EU's new PSR gives DPIAs an unusual role in fraud data sharing between payment providers** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/150
+- ✅ (✏️ 3 corrected automatically) **Digital Omnibus GDPR reforms likely to miss February 2027 target, says MEP adviser** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/151
+- ⚠️ 1 claims to check **EU and US officials say Supreme Court's Trump v. Slaughter ruling poses no threat to Data Privacy Framework** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/152
+- ⚠️ 1 claims to check (✏️ 2 corrected automatically) **CERT-EU warns of ARTEX AI pentest framework as Commission HR system attack is investigated** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/153
+- ⚠️ 1 claims to check (✏️ 2 corrected automatically) **TfL breach exposes data of about 265,000 Oyster photocard holders, including security questions** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/154
+- ⚠️ 1 claims to check **Investigatory Powers Tribunal rules Home Office cannot keep secret its technical capability notice on Apple** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/155
 
 ## Recently skipped by triage
 
-- (1) Policy analysis on biodata for a US science initiative; weak link to practitioner data governance.
-- (1) Vendor analyst recognition and marketing; not a genuine launch or research finding.
-- (1) Podcast promotion and generic thought leadership.
-- (1) Council conclusions on AI skills education; no concrete data governance obligation.
+- (2) Asia-Pacific regulatory notes covering PIPL anniversary and Hong Kong AI requirements; practical but roundup-style.
+- (1) Interview opinion on human oversight; generic thought leadership without concrete new guidance.
+- (1) Vendor blog marketing for consent management product.
+- (2) Law-firm explainer on app store age verification laws; reading of rules but not a new development beyond explanation.
+- (1) Vendor educational glossary post.
+- (1) Vendor explainer on vector databases; no governance news.
+- (1) Political nomination news without data governance angle.
+- (1) Vendor glossary explainer on tool calling.
+- (1) Vendor glossary explainer on AI models.
+- (1) Vendor glossary explainer on LLMs.
+- (1) Cybercrime arrests without data governance angle.
+- (1) Consultancy thought leadership on pharma labs; no governance angle.
 - (2) General regional AI governance commentary without concrete consequences for data governance.
-- (2) Vendor blog comparing CMMC and NIS2 with marketing framing; not news.
-- (1) Hiring/leadership appointment news, not governance substance.
-- (1) Generic opinion on AI-driven cyber risk with no concrete governance development; stays at background level and is not actionable news.
-- (1) Formal court sitting ceremony; no governance angle.
-- (2) Advocacy push on Section 702 renewal timing; no concrete change in obligations yet.
-- (1) Data center zoning litigation; no data governance angle.
-- (4) Covered by existing article on NYC surveillance pricing ban; this duplicate report is not relevant.
-- (2) General feature on government surveillance dragnets; no concrete new development.
-- (2) Roundup of voting cases; the voter list litigation is already covered by the existing article.
-- (2) Commentary quoting an advocate on smart glasses privacy; no new regulatory development.
+- (1) Council conclusions on AI skills education; no concrete data governance obligation.
+- (1) Policy analysis on biodata for a US science initiative; weak link to practitioner data governance.
