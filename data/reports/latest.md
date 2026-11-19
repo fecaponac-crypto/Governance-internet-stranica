@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-19T09:17:36Z** · sources checked: 81 · failed: 2 · new items this run: 15
+Last run: **2026-11-19T11:43:58Z** · sources checked: 81 · failed: 2 · new items this run: 11
 
-## New items, last 48 hours (108)
+## New items, last 48 hours (119)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Court of Justice of the EU — Press releases | [Formal sitting of the Court of Justice](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260170en.pdf) |
+| 2026-11-19 | Garante per la protezione dei dati personali (Italy) | [L’Autorità Garante Privacy italiana eletta nel Comitato direttivo della Global Privacy Assembly](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10322146) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Laila Medina in Case C-643/25 Verbraucherzentrale Bundesverband (‘Free’ digital service)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260169en.pdf) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-663/24 Streamz and Others](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260168en.pdf) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-683/24 Spielerschutz Sigma](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260167en.pdf) |
@@ -75,6 +77,7 @@ Last run: **2026-11-19T09:17:36Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | International Data Spaces Association | [Australia and data spaces: ready foundations, big plans and a bridge to Europe](https://internationaldataspaces.org/australia-and-data-spaces-ready-foundations-big-plans-and-a-bridge-to-europe/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [EDRi-gram, 19 November 2026](https://edri.org/our-work/edri-gram-19-november-2026/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [New report documents authoritarian use of technology across the globe](https://edri.org/our-work/new-report-documents-authoritarian-use-of-technology-across-the-globe/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [EU transforms Frontex into a high-tech deportation command centre](https://edri.org/our-work/eu-transforms-frontex-into-a-high-tech-deportation-command-centre/) |
@@ -126,11 +129,19 @@ Last run: **2026-11-19T09:17:36Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
 | 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
+| 2026-11-13 | EPIC — Electronic Privacy Information Center | [Now is Not the Time to Limit Cyber Liability and State Enforcement](https://epic.org/now-is-not-the-time-to-limit-cyber-liability-and-state-enforcement/) |
+| 2026-11-13 | EPIC — Electronic Privacy Information Center | [EPIC Joins Group Urging New Jersey Court to Reject Data Center Developer’s First Amendment Claim](https://epic.org/epic-joins-group-urging-new-jersey-court-to-reject-data-center-developers-first-amendment-claim/) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [The New York Times: New York City Will Ban Companies From Setting Variable Prices](https://epic.org/the-new-york-times-new-york-city-will-ban-companies-from-setting-variable-prices/) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [SSBCrack News: New York City Council Approves Ban on Surveillance Pricing](https://epic.org/ssbcrack-news-new-york-city-council-approves-ban-on-surveillance-pricing/) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [VitalLaw: Congress Should Wait Until 2027 to Renew Surveillance Law, Privacy Groups Say](https://epic.org/vitallaw-congress-should-wait-until-2027-to-renew-surveillance-law-privacy-groups-say/) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [Gizmodo: How You Could End Up in a Government Surveillance Database and Never Know It](https://epic.org/gizmodo-how-you-could-end-up-in-a-government-surveillance-database-and-never-know-it/) |
+| 2026-11-12 | EPIC — Electronic Privacy Information Center | [Reuters: Warby Parker bets on Google AI glasses for growth, but privacy fears still loom](https://epic.org/reuters-warby-parker-bets-on-google-ai-glasses-for-growth-but-privacy-fears-still-loom/) |
+| 2026-11-11 | EPIC — Electronic Privacy Information Center | [Democracy Docket: The midterms are over, but Trump’s legal assault on voting continues. Here’s where those cases stand](https://epic.org/democracy-docket-the-midterms-are-over-but-trumps-legal-assault-on-voting-continues-heres-where-those-cases-stand/) |
 
 ## Source problems
 
-- **CNIL (France)** — failed 8× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 164× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 9× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 165× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

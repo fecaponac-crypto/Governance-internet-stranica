@@ -295,6 +295,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0724ff4c21f2be04": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Formal court sitting ceremony; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "07396a2fd0118a83": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -1747,6 +1756,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2d97a0c084b0a8f9": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy push on Section 702 renewal timing; no concrete change in obligations yet.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2daace7dc9fe1f63": {
    "at": "2026-11-13T21:17:47Z",
    "categories": [
@@ -2563,6 +2584,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4522b98a8a0e72a3": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Data center zoning litigation; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "453a1abae7e899e1": {
    "at": "2026-11-18T06:17:39Z",
    "categories": [
@@ -2670,6 +2700,18 @@
    "reason": "Catalog vendor product feature (derived attributes) with some practical metadata relevance, but largely vendor marketing.",
    "relevant": true,
    "same_story_as": null
+  },
+  "4897bb1832dbfa94": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Covered by existing article on NYC surveillance pricing ban; this duplicate report is not relevant.",
+   "relevant": true,
+   "same_story_as": "new-york-city-council-passes-ban-on-surveillance-pricing-using-persona"
   },
   "48d0396a9d17c295": {
    "at": "2026-10-27T00:18:07Z",
@@ -3860,6 +3902,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6d8b3372ffad1f61": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "General feature on government surveillance dragnets; no concrete new development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "6ded4aa1cdcfc264": {
    "at": "2026-11-11T15:17:41Z",
    "categories": [
@@ -4276,6 +4329,17 @@
    "reason": "Climate risk visualisation platform launch; no data governance angle.",
    "relevant": false,
    "same_story_as": null
+  },
+  "77f517bba1cbc7c2": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Roundup of voting cases; the voter list litigation is already covered by the existing article.",
+   "relevant": false,
+   "same_story_as": "us-court-halts-dhs-and-doj-transmission-of-likely-noncitizen-voter-lis"
   },
   "780bd042ef20aa5b": {
    "at": "2026-11-12T00:17:44Z",
@@ -6122,6 +6186,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b0769e790abbf970": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Commentary quoting an advocate on smart glasses privacy; no new regulatory development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b0996e3d36b9fc49": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [
@@ -6503,6 +6578,15 @@
    "primary_found": true,
    "reason": "Nigerian NIMC Act 2026 reshapes national digital identity data governance; a notable legislative development with data protection implications, though details are limited to the title.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "ba425b3fc1127472": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Election of a regulator to a body's committee; organisational news without concrete governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "baa1624aa596617a": {
@@ -6989,6 +7073,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Conference notes/interview profile without a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c51792aef0645564": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy commentary on a Senate proposal limiting AI liability; the underlying bill is not clearly described in the excerpt, so it is treated as opinion rather than a usable legislative step.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7760,6 +7855,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d98b904a1e20df93": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same NYC surveillance pricing story as existing article.",
+   "relevant": false,
+   "same_story_as": "new-york-city-council-passes-ban-on-surveillance-pricing-using-persona"
+  },
   "d9b58dd148687cd3": {
    "at": "2026-11-11T15:17:41Z",
    "categories": [
@@ -8529,6 +8635,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ed007af36f8d8165": {
+   "at": "2026-11-19T11:44:11Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Opinion-style trip report on data spaces; no concrete new development or actionable guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ede4c5cea90f0ed1": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -9226,8 +9343,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 563,
-   "usd": 25.9087
+   "calls": 564,
+   "usd": 25.91
   }
  }
 }
