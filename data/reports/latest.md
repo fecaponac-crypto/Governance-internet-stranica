@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-19T00:17:26Z** · sources checked: 81 · failed: 2 · new items this run: 3
+Last run: **2026-11-19T02:36:14Z** · sources checked: 81 · failed: 3 · new items this run: 0
 
 ## New items, last 48 hours (95)
 
@@ -116,8 +116,9 @@ Last run: **2026-11-19T00:17:26Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **CNIL (France)** — failed 4× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 160× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 5× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 161× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Google Cloud Blog — Data Analytics** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://cloudblog.withgoogle.com/products/data-analytics/rss/`
 
 ## Check manually (weekly)
 
