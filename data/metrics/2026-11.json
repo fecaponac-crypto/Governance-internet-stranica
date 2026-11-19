@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-19T03:17:50Z",
+ "updated": "2026-11-19T06:18:39Z",
  "portal": {
   "published_total": 123,
   "published_this_month": 80,
@@ -13,17 +13,17 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 525,
-  "runs": 203,
-  "runs_with_failed_sources": 177,
+  "items_collected": 528,
+  "runs": 204,
+  "runs_with_failed_sources": 178,
   "triage_decisions": {
-   "drafted": 90,
+   "drafted": 92,
    "skipped": 421,
-   "failed": 15
+   "failed": 16
   },
-  "ai_spend_usd": 24.5678,
+  "ai_spend_usd": 24.7824,
   "sources_active": 81,
-  "sources_failing_now": 3
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 81,
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 730,
-  "visits": 650,
+  "page_views": 740,
+  "visits": 660,
   "bots_excluded": true,
   "by_day": [
    {
@@ -101,6 +101,11 @@
     "date": "2026-11-18",
     "page_views": 20,
     "visits": 20
+   },
+   {
+    "date": "2026-11-19",
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
@@ -110,7 +115,7 @@
    },
    {
     "requestPath": "/",
-    "page_views": 90
+    "page_views": 100
    },
    {
     "requestPath": "/category/privacy/",
@@ -141,7 +146,7 @@
     "page_views": 20
    },
    {
-    "requestPath": "/review/2026-11/",
+    "requestPath": "/monday-signal/",
     "page_views": 20
    }
   ],
@@ -179,18 +184,18 @@
     "page_views": 20
    },
    {
-    "countryName": "IT",
-    "page_views": 10
+    "countryName": "CA",
+    "page_views": 20
    },
    {
-    "countryName": "PH",
+    "countryName": "SG",
     "page_views": 10
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 600
+    "page_views": 610
    },
    {
     "refererHost": "datagovernancesignal.com",

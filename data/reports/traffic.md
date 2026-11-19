@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-19T03:17:50Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-19T06:18:39Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**650 visits · 730 page views** this month (bots excluded)
+**660 visits · 740 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -21,11 +21,12 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-14 | 30 | 50 |
 | 2026-11-16 | 30 | 50 |
 | 2026-11-18 | 20 | 20 |
+| 2026-11-19 | 10 | 10 |
 
 ## Top pages
 
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/ — 120
-- / — 90
+- / — 100
 - /category/privacy/ — 80
 - /category/security/ — 60
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
@@ -33,7 +34,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/ai-governance/ — 20
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
 - /opinion/ — 20
-- /review/2026-11/ — 20
+- /monday-signal/ — 20
 
 ## Countries
 
@@ -45,12 +46,12 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - HK — 20
 - AU — 20
 - DK — 20
-- IT — 10
-- PH — 10
+- CA — 20
+- SG — 10
 
 ## Referrers
 
-- (direct) — 600
+- (direct) — 610
 - datagovernancesignal.com — 80
 - www.google.com — 20
 - teams.public.onecdn.static.microsoft — 10

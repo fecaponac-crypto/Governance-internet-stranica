@@ -1,12 +1,14 @@
 # Drafts report
 
-Last run: **2026-11-19T03:17:49Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-19T06:17:40Z** · candidates 3 · scored 3 · selected 3 · drafted 2 · failed 1 · queued for next run 0
 
-AI spend this month: **$24.57** of $35 budget (537 calls)
+AI spend this month: **$24.78** of $35 budget (543 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **Coalition of 100 urges EU lawmakers to reject Digital Omnibus changes that weaken GDPR rights** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/143
+- ✅ **Dutch AP advises consumers not to buy AI camera glasses after testing six models** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/144
+- ❌ [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) — source not readable: HTTP 403
 
 ## Recently skipped by triage
 

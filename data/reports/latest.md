@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-19T03:17:30Z** · sources checked: 81 · failed: 3 · new items this run: 0
+Last run: **2026-11-19T06:17:24Z** · sources checked: 81 · failed: 2 · new items this run: 3
 
-## New items, last 48 hours (95)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [AP raadt aankoop AI-camerabrillen af: ernstige risico’s voor gebruikers en omstanders](https://autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [Global DPAs: 'Our job is to do our job' amid innovation-driven digital landscape](https://iapp.org/news/a/global-dpas-our-job-is-to-do-our-job-amid-innovation-driven-digital-landscape) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [World models for lawyers](https://iapp.org/news/a/world-models-for-lawyers) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [Resilient by design: When AI changes faster than its controls](https://iapp.org/news/a/resilient-by-design-when-ai-changes-faster-than-its-controls) |
@@ -26,6 +27,7 @@ Last run: **2026-11-19T03:17:30Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Euractiv | [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) |
 | 2026-11-18 | Forrester Blogs | [AI ROI: Move From Minutes Saved To Value Created](https://www.forrester.com/blogs/ai-roi-move-from-minutes-saved-to-value-created/) |
 | 2026-11-18 | CDO Magazine | [US Federal News Bureau California Proposes Mandatory AI Safety Standards, Independent Oversight and Emergency Shutdown Authority](https://www.cdomagazine.tech/us-federal-news-bureau/california-proposes-mandatory-ai-safety-standards-independent-oversight-and-emergency-shutdown-authority) |
 | 2026-11-18 | CDO Magazine | [Data Management Agentic AI Moves the Control From People to Data: Cencora’s Jig Patel on Building Data Trust](https://www.cdomagazine.tech/data-management/agentic-ai-moves-the-control-from-people-to-data-cencoras-jig-patel-on-building-data-trust) |
@@ -59,8 +61,6 @@ Last run: **2026-11-19T03:17:30Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-17 | CNIL (France) | [La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026](https://www.cnil.fr/fr/38-sanctions-simplifiees) |
 | 2026-11-17 | POLITICO Europe — Technology | [Irish regulator stops X training AI with data gathered by agents](https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-17 | DATAVERSITY | [Designing Multi-Tiered AI Governance Education](https://www.dataversity.net/articles/designing-multi-tiered-ai-governance-education/) |
-| 2026-11-17 | CDO Magazine | [Artificial Intelligence IBM Study Finds AI Leaders Lack Control Over Investment Decisions and Governance](https://www.cdomagazine.tech/aiml/ibm-study-finds-ai-leaders-lack-control-over-investment-decisions-and-governance) |
-| 2026-11-17 | Euractiv | [EDA pitches strategic enablers ‘opportunities’ for the bloc](https://www.rapporteur.com/news/eda-pitches-strategic-enablers-opportunities-for-the-bloc/) |
 | 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
 | 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
 
@@ -68,6 +68,7 @@ Last run: **2026-11-19T03:17:30Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | European Digital Rights (EDRi) | [One year later, a broad coalition tells EU lawmakers: do not simplify away people’s rights with the Digital Omnibus](https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/) |
 | 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
 | 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
 | 2026-11-18 | Monte Carlo Blog | [What Is an AI Hallucination? Causes, Examples, and Fixes](https://montecarlo.ai/blog-ai-hallucination) |
@@ -116,9 +117,8 @@ Last run: **2026-11-19T03:17:30Z** · sources checked: 81 · failed: 3 · new it
 
 ## Source problems
 
-- **CNIL (France)** — failed 6× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 162× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Google Cloud Blog — Data Analytics** — failed 2× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://cloudblog.withgoogle.com/products/data-analytics/rss/`
+- **CNIL (France)** — failed 7× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 163× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

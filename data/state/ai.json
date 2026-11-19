@@ -160,6 +160,23 @@
    "relevant": false,
    "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
   },
+  "04ddf2e8ebf77369": {
+   "at": "2026-11-19T06:17:40Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "coalition-of-100-urges-eu-lawmakers-to-reject-digital-omnibus-changes",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/143",
+   "primary_found": false,
+   "reason": "Coalition of 100 civil society organisations opposing Digital Omnibus GDPR/ePrivacy changes; pending major EU file with organised pushback.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "054dac34e8988ed7": {
    "at": "2026-11-04T15:19:16Z",
    "categories": [
@@ -6640,6 +6657,19 @@
    "relevant": false,
    "same_story_as": null
   },
+  "bfce0b34e5cba38f": {
+   "at": "2026-11-19T06:17:40Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Commissioner signals openness to further privacy rule cuts in the Digital Omnibus; relevant legislative process signal.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "bfcf4025a79fca2c": {
    "at": "2026-11-17T15:18:29Z",
    "categories": [
@@ -7865,6 +7895,22 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e10de946084425f9": {
+   "at": "2026-11-19T06:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/144",
+   "primary_found": false,
+   "reason": "Dutch DPA regulator study and advice against AI camera glasses over bystander privacy; concrete regulator guidance on personal data.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e1135bc2083df783": {
    "at": "2026-11-05T15:18:33Z",
    "categories": [
@@ -9009,8 +9055,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 537,
-   "usd": 24.5678
+   "calls": 543,
+   "usd": 24.7824
   }
  }
 }
