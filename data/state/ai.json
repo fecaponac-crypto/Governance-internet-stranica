@@ -165,6 +165,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "02fb4e89fbd27e0d": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Crypto heist social engineering story without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "039df5a113eb098a": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -452,6 +463,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Email security adoption report; not data governance focused.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "0bdc6ee9d8c2791a": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion column with no concrete news or actionable guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -899,6 +921,18 @@
    "reason": "Generic opinion comparing GDPR and AI Act without actionable guidance.",
    "relevant": false,
    "same_story_as": null
+  },
+  "158b813e74c39557": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same HIPAA Privacy Rule final rule as the Hunton item; duplicate coverage, best item retained.",
+   "relevant": false,
+   "same_story_as": "item:682149fd67e08443"
   },
   "162d9664025f5457": {
    "at": "2026-10-28T20:17:45Z",
@@ -2074,6 +2108,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "36fd05793b0a9278": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog how-to on metadata frameworks; generic guidance, not news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3790207784711e45": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -2556,6 +2601,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "42925ec226f64105": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Class action over third-party tracking pixels on a website; practical privacy risk for website tracking governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "431c55673c1f3293": {
    "at": "2026-11-09T15:19:19Z",
    "categories": [
@@ -2826,6 +2882,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Google research on threat actor AI use is a research finding on security posture, but lower practitioner action relevance; specialist IT security media with some substance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "4aa1ce8d42a5bce0": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 14,
+   "decision": "drafted",
+   "draft": "house-bill-would-require-us-federal-agencies-to-identify-limit-and-mon",
+   "flagged": 2,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/157",
+   "primary_found": true,
+   "reason": "Proposed US federal bill setting a security framework for AI agents on federal networks; a legislative step affecting agent governance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -3350,6 +3423,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vague opinion piece on token usage trends from a vendor blog; no concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "57291b9b5a149d21": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion on agentic AI and workflows without actionable governance guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3883,6 +3967,23 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/9",
    "primary_found": true,
    "reason": "Security incident involving an open-source AI developer tool; exposed credentials and supply-chain attack have practical implications for access governance and key management.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "682149fd67e08443": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "us-hhs-finalises-hipaa-privacy-rule-changes-cutting-access-request-dea",
+   "flagged": 1,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/156",
+   "primary_found": true,
+   "reason": "Final HIPAA Privacy Rule changes on individual access and care coordination; practitioners in health data must act on it.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4442,6 +4543,23 @@
    "importance": 1,
    "reason": "Vendor opinion on semantic layers and AI; generic thought-leadership.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "77337b2f4561d69c": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 28,
+   "decision": "drafted",
+   "draft": "california-attorney-general-sues-openai-over-ai-agents-that-allegedly",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/158",
+   "primary_found": true,
+   "reason": "State attorney general lawsuit over inadequate security and monitoring of AI model testing; enforcement relevant to AI governance.",
+   "relevant": true,
    "same_story_as": null
   },
   "778df958173a08d8": {
@@ -5270,6 +5388,18 @@
    "importance": 1,
    "reason": "Lobbying story; federal policy debate is background without a concrete practitioner consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "91a82de8ac80db07": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "strategy",
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Consortium initiative placing governed data at the centre of an AI export strategy; limited practical governance detail.",
+   "relevant": true,
    "same_story_as": null
   },
   "91e71a36ad56d7e7": {
@@ -7775,6 +7905,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d006fe960b7d9805": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "ai-industry",
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Survey finding on enterprises abandoning agentic AI projects over unclear business value; modest governance relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d00a463cb85fab77": {
    "at": "2026-11-03T09:18:33Z",
    "categories": [
@@ -9271,6 +9413,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f74acbb5df010d86": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer privacy tip listicle, not news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f805bef09d1ff979": {
    "at": "2026-11-12T06:17:32Z",
    "categories": [
@@ -9505,6 +9658,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fc810516d2f87fc0": {
+   "at": "2026-11-19T20:41:02Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer design lawsuit about sportsbook button design, not a data governance story.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fce9ca878e5ec760": {
    "at": "2026-10-24T23:18:09Z",
    "categories": [],
@@ -9658,8 +9822,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 610,
-   "usd": 28.9402
+   "calls": 629,
+   "usd": 30.5272
   }
  }
 }

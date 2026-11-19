@@ -1,17 +1,19 @@
 # Inflow report
 
-Last run: **2026-11-19T18:17:35Z** · sources checked: 81 · failed: 3 · new items this run: 17
+Last run: **2026-11-19T20:40:30Z** · sources checked: 81 · failed: 1 · new items this run: 13
 
-## New items, last 48 hours (114)
+## New items, last 48 hours (127)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Don't plan for the future, define it](https://iapp.org/news/a/a-view-from-brussels-don-t-plan-for-the-future-define-it) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [EU, US officials unmoved by litigation potentially impacting Data Privacy Framework](https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: China marks PIPL's 5th anniversary, Hong Kong clarifies AI requirements](https://iapp.org/news/a/notes-from-the-asia-pacific-region-china-marks-pipls-5th-anniversary-hong-kong-clarifies-ai-requirements) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [One year on, Digital Omnibus may face delays](https://iapp.org/news/a/one-year-on-digital-omnibus-may-face-delays) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [Fraud data sharing under the new PSR: When a DPIA becomes the ticket of entry](https://iapp.org/news/a/fraud-data-sharing-under-the-new-psr-when-a-dpia-becomes-the-ticket-of-entry) |
+| 2026-11-19 | Hunton Privacy & Information Security Law Blog | [HHS Finalizes HIPAA Privacy Rule Changes to Support Care Coordination and Individual Access](https://www.hunton.com/privacy-and-cybersecurity-law-blog/hhs-finalizes-hipaa-privacy-rule-changes-to-support-care-coordination-and-individual-access) |
 | 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [EDPB publiceert definitieve guidelines over gerechtvaardigd belang](https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Formal sitting of the Court of Justice](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260170en.pdf) |
 | 2026-11-19 | Garante per la protezione dei dati personali (Italy) | [L’Autorità Garante Privacy italiana eletta nel Comitato direttivo della Global Privacy Assembly](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10322146) |
@@ -34,6 +36,9 @@ Last run: **2026-11-19T18:17:35Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | CDO Magazine | [Artificial Intelligence SnapLogic Survey Finds Enterprises Abandon Agentic AI Projects Over Unclear Business Value](https://www.cdomagazine.tech/aiml/snaplogic-survey-finds-enterprises-abandon-agentic-ai-projects-over-unclear-business-value) |
+| 2026-11-19 | CDO Magazine | [US Federal News Bureau AI INSIGHT Act Would Establish Security Framework for AI Agents on Federal Networks](https://www.cdomagazine.tech/us-federal-news-bureau/ai-insight-act-would-establish-security-framework-for-ai-agents-on-federal-networks) |
+| 2026-11-19 | CDO Magazine | [US Federal News Bureau Salesforce-Led Consortium Puts Governed Data at Center of AI Export Strategy](https://www.cdomagazine.tech/us-federal-news-bureau/salesforce-led-consortium-puts-governed-data-at-center-of-ai-export-strategy) |
 | 2026-11-19 | CDO Magazine | [AI Governance Approval Is an Event, but Judgment Is a Capability: Dr. Yodit Ayalew on Human Oversight in AI Governance](https://www.cdomagazine.tech/ai-governance/approval-is-an-event-but-judgment-is-a-capability-dr-yodit-ayalew-on-human-oversight-in-ai-governance) |
 | 2026-11-19 | OneTrust Blog | [How to Keep Permissioned Data Usable Across Marketing, Data, and AI Consent & Preferences](https://www.onetrust.com/blog/how-to-keep-permissioned-data-usable-across-marketing-data-and-ai/) |
 | 2026-11-19 | Privacy World (Squire Patton Boggs) | [App Store Age Verification Laws: Your Questions, Answered (Updated)](https://www.privacyworld.blog/2026/11/app-store-age-verification-laws-your-questions-answered-updated/) |
@@ -72,6 +77,14 @@ Last run: **2026-11-19T18:17:35Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | DataHub Blog (open source metadata platform) | [Metadata Management Framework: How to Build One That Stays Current](https://datahub.com/blog/metadata-management-framework/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [N. Korean Hackers Use Deepfake Video Calls in $400M FaceStealer Heist](https://www.dataprivacyandsecurityinsider.com/2026/11/n-korean-hackers-use-deepfake-video-calls-in-400m-facestealer-heist/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [DraftKings and Dark Patterns: A Bad Bet on Button Design](https://www.dataprivacyandsecurityinsider.com/2026/11/draftkings-and-dark-patterns-a-bad-bet-on-button-design/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Lessons from the Polymarket Pixel Lawsuit](https://www.dataprivacyandsecurityinsider.com/2026/11/lessons-from-the-polymarket-pixel-lawsuit/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [HHS Issues Long-Awaited HIPAA Privacy Rule Updates to Enhance Coordination of Care and Individual Access to Health Information](https://www.dataprivacyandsecurityinsider.com/2026/11/hhs-issues-long-awaited-hipaa-privacy-rule-updates-to-enhance-coordination-of-care-and-individual-access-to-health-information/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [CA AG Sues OpenAI Alleging Public Nuisance + Unfair Competition](https://www.dataprivacyandsecurityinsider.com/2026/11/ca-ag-sues-openai-alleging-public-nuisance-unfair-competition/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [When AI Agents Cross Silos, Businesses Must Rethink How Work Gets Done](https://www.dataprivacyandsecurityinsider.com/2026/11/when-ai-agents-cross-silos-businesses-must-rethink-how-work-gets-done/) |
+| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #517 – Identifying Smart Glasses that May be Recording You](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-517-identifying-smart-glasses-that-may-be-recording-you/) |
 | 2026-11-19 | Monte Carlo Blog | [What Is a Schema Change? Types, Risks, and How to Catch Them](https://montecarlo.ai/blog-what-is-a-schema-change) |
 | 2026-11-19 | Monte Carlo Blog | [What Is a Vector Database? How It Works and Why AI Needs One](https://montecarlo.ai/blog-what-is-a-vector-database) |
 | 2026-11-19 | The Record (Recorded Future News) | [CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack](https://therecord.media/cisa-losapio-nomination-trump) |
@@ -135,9 +148,7 @@ Last run: **2026-11-19T18:17:35Z** · sources checked: 81 · failed: 3 · new it
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
-- **European Data Protection Board (EDPB)** — failed 168× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 169× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
