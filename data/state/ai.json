@@ -3228,6 +3228,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "59182ecd68ab8e72": {
+   "at": "2026-11-19T00:17:58Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General news on US tech outages and resilience discussion; no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "593e9a2e76251ac3": {
    "at": "2026-11-04T03:18:32Z",
    "categories": [
@@ -3718,6 +3729,17 @@
    "primary_found": true,
    "reason": "GAO finding on Pentagon AI oversight office capacity; government AI governance oversight, though reported via a secondary commentary piece.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "6b581bff6df75314": {
+   "at": "2026-11-19T00:17:58Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on software engineering verification; no concrete data governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "6b843fb0a88b5193": {
@@ -6033,6 +6055,18 @@
    "reason": "Covers the New York chatbot law already in the existing articles, alongside California's law.",
    "relevant": false,
    "same_story_as": "new-york-enacts-youth-chatbot-safety-law-with-age-assurance-and-age-da"
+  },
+  "b37743d658cb049a": {
+   "at": "2026-11-19T00:17:58Z",
+   "categories": [
+    "platforms",
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical guide pairing Redshift system table history with Datadog data observability and S3 Tables for lineage and data quality; vendor-adjacent but gives usable architecture guidance from a major platform blog.",
+   "relevant": true,
+   "same_story_as": null
   },
   "b42b9d4c805ec477": {
    "at": "2026-11-13T15:17:40Z",
@@ -8975,8 +9009,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 536,
-   "usd": 24.567
+   "calls": 537,
+   "usd": 24.5678
   }
  }
 }

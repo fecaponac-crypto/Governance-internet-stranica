@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-18T21:17:30Z** · sources checked: 81 · failed: 3 · new items this run: 1
+Last run: **2026-11-19T00:17:26Z** · sources checked: 81 · failed: 2 · new items this run: 3
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (95)
 
 ### High priority sources
 
@@ -61,16 +61,15 @@ Last run: **2026-11-18T21:17:30Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-17 | DATAVERSITY | [Designing Multi-Tiered AI Governance Education](https://www.dataversity.net/articles/designing-multi-tiered-ai-governance-education/) |
 | 2026-11-17 | CDO Magazine | [Artificial Intelligence IBM Study Finds AI Leaders Lack Control Over Investment Decisions and Governance](https://www.cdomagazine.tech/aiml/ibm-study-finds-ai-leaders-lack-control-over-investment-decisions-and-governance) |
 | 2026-11-17 | Euractiv | [EDA pitches strategic enablers ‘opportunities’ for the bloc](https://www.rapporteur.com/news/eda-pitches-strategic-enablers-opportunities-for-the-bloc/) |
-| 2026-11-17 | CDO Magazine | [Artificial Intelligence OpenAI Releases AI Image Classifier and Safety Tools to Help Detect Child Abuse Material](https://www.cdomagazine.tech/aiml/openai-releases-ai-image-classifier-and-safety-tools-to-help-detect-child-abuse-material) |
-| 2026-11-17 | CDO Magazine | [Artificial Intelligence NVIDIA Launches Open Science AI Models and 50,000-Question Chemistry Dataset for Research Agents](https://www.cdomagazine.tech/aiml/nvidia-launches-open-science-ai-models-and-50000-question-chemistry-dataset-for-research-agents) |
 | 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
 | 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
-| 2026-11-16 | Snowflake Blog | [Snowflake CoCo: Built to Scale Enterprise AI with Trust](https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
+| 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
 | 2026-11-18 | Monte Carlo Blog | [What Is an AI Hallucination? Causes, Examples, and Fixes](https://montecarlo.ai/blog-ai-hallucination) |
 | 2026-11-18 | Monte Carlo Blog | [What Are AI Guardrails? Types, Examples, and Limits](https://montecarlo.ai/blog-ai-guardrails) |
 | 2026-11-18 | Precisely Blog | [AI Governance Models: Frameworks, Structures, and Best Practices for Enterprises](https://www.precisely.com/blog/cat-data-governance/ai-governance-models/) |
@@ -83,6 +82,7 @@ Last run: **2026-11-18T21:17:30Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-18 | Monte Carlo Blog | [What Is Agent Tracing? How to See Every Step an Agent Takes](https://montecarlo.ai/blog-agent-tracing) |
 | 2026-11-18 | Google Cloud Blog — Data Analytics | [What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills](https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/) |
 | 2026-11-18 | AlgorithmWatch | [Job Opening: Operations Manager*in (Office, Events, Projektmanagement)](https://algorithmwatch.org/de/job-opening-operations-managerin/) |
+| 2026-11-18 | Computer Weekly — IT security | [US tech outages spark conversation on resilience in the age of AI](https://www.computerweekly.com/news/366654898/US-tech-outages-spark-conversation-on-resilience-in-the-age-of-AI) |
 | 2026-11-18 | Precisely Blog | [Why data quality for AI is now a board-level issue](https://www.precisely.com/blog/ai-ready-data/why-data-quality-for-ai-is-now-a-board-level-issue/) |
 | 2026-11-18 | DataHub Blog (open source metadata platform) | [Context Infrastructure for AI Agents: What It Takes to Keep Context True](https://datahub.com/blog/context-infrastructure-for-ai-agents/) |
 | 2026-11-18 | The Record (Recorded Future News) | [Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says](https://therecord.media/russia-cyber-espionage-google) |
@@ -113,13 +113,11 @@ Last run: **2026-11-18T21:17:30Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
 | 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
-| 2026-11-16 | Computer Weekly — IT security | [The big cyber short, or dot AI bubble?](https://www.computerweekly.com/opinion/The-big-cyber-short-or-dot-AI-bubble) |
 
 ## Source problems
 
-- **CNIL (France)** — failed 3× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Banking Authority (EBA)** — failed 3× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://www.eba.europa.eu/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 159× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 4× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 160× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
