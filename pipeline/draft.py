@@ -188,11 +188,17 @@ def existing_articles() -> list[dict]:
         meta = yaml.safe_load(front)
         e = meta.get("enforcement") or {}
         out.append({"slug": path.stem, "title": meta["title"], "date": str(meta["date"]),
+                    "institutions": meta.get("institutions") or [], "legislation": meta.get("legislation") or [],
                     "case": f"{e.get('action')}|{e.get('date')}|{str(e.get('authority', ''))[:25].lower()}" if e else None})
     return out
 
 
 SAME_STORY_TITLE = 0.45  # title overlap above which a new draft repeats a story we have (largest unrelated pair: 0.32)
+# A lower overlap is enough when both stories are about the same tracked law or institution and close in time
+# (missed on 18-19 Nov 2026: two Digital Fairness Act drafts at 0.24 and 0.44, the EDPB guidelines again at 0.40;
+# the closest unrelated pair on a shared law or institution was 0.19).
+SAME_TOPIC_TITLE = 0.22
+SAME_TOPIC_DAYS = 21
 
 
 def already_covered_key(d: dict) -> str | None:
@@ -206,8 +212,18 @@ def already_covered(d: dict, others: list[dict]) -> dict | None:
 
     mine = title_tokens(d["title"])
     case = already_covered_key(d)
+    topics = set(d.get("institutions") or []) | set(d.get("legislation") or [])
+    today = date.today()
     for o in others:
-        if (case and o.get("case") == case) or jaccard(mine, title_tokens(o["title"])) >= SAME_STORY_TITLE:
+        overlap = jaccard(mine, title_tokens(o["title"]))
+        if (case and o.get("case") == case) or overlap >= SAME_STORY_TITLE:
+            return o
+        shared = topics & (set(o.get("institutions") or []) | set(o.get("legislation") or []))
+        try:
+            recent = abs((today - date.fromisoformat(str(o.get("date") or today.isoformat())[:10])).days) <= SAME_TOPIC_DAYS
+        except ValueError:
+            recent = True
+        if shared and recent and overlap >= SAME_TOPIC_TITLE:
             return o
     return None
 
@@ -1428,7 +1444,9 @@ def run(args) -> dict:
                 else:
                     pr = open_pull_request(slug, markdown, d, item, check, record, base)
                     record.update(decision="drafted", draft=slug, pr=pr)
-                drafted_now.append({"slug": slug, "title": d["title"], "case": already_covered_key(d)})
+                drafted_now.append({"slug": slug, "title": d["title"], "case": already_covered_key(d),
+                                    "institutions": d.get("institutions") or [], "legislation": d.get("legislation") or [],
+                                    "date": date.today().isoformat()})
                 summary["drafted"] += 1
                 mark = ("ℹ️ not fact-checked" if check.get("skipped") else
                         "✅" if not check["flagged"] else f"⚠️ {len(check['flagged'])} claims to check")

@@ -626,3 +626,27 @@ class RelatedSlugsTest(unittest.TestCase):
                          "invented-slug"]}
         out = draft.finish_draft(d, {"source_name": "ICO", "title": "T"}, [{"url": "https://ico.org.uk/x"}], set(slugs))
         self.assertEqual(out["related"], [slugs[3], slugs[4]])
+
+
+class SameTopicDuplicateTest(unittest.TestCase):
+    def test_lower_overlap_counts_when_law_or_institution_is_shared_and_recent(self):
+        today = draft.date.today().isoformat()
+        dfa = {"slug": "dfa", "title": "European Commission proposes Digital Fairness Act banning dark patterns and sensitive-data ad targeting",
+               "date": today, "institutions": ["european-commission"], "legislation": ["eu-digital-fairness-act"], "case": None}
+        edpb = {"slug": "li", "title": "EDPB adopts final guidelines on legitimate interest as a legal basis under GDPR Article 6(1)(f)",
+                "date": today, "institutions": ["edpb"], "legislation": ["eu-gdpr"], "case": None}
+        new_dfa = {"title": "Commission proposes Digital Fairness Act to ban profiling-based ads to minors and replace consumer directive",
+                   "institutions": ["european-commission"], "legislation": ["eu-digital-fairness-act"], "enforcement": None}
+        self.assertEqual(draft.already_covered(new_dfa, [dfa, edpb])["slug"], "dfa")
+        new_li = {"title": "EDPB adopts final guidelines on legitimate interest, with a flowchart for the three-step test",
+                  "institutions": ["edpb"], "legislation": ["eu-gdpr"], "enforcement": None}
+        self.assertEqual(draft.already_covered(new_li, [dfa, edpb])["slug"], "li")
+        # Same law, but a different story and little title overlap: kept.
+        kids = {"slug": "kids", "title": "Italy's Garante backs age checks under proposed EU Kids Act but calls for minimal data collection",
+                "date": today, "institutions": [], "legislation": ["eu-kids-act"], "case": None}
+        edri = {"title": "EDRi urges submissions criticising age verification in Commission's proposed Kids Act",
+                "institutions": [], "legislation": ["eu-kids-act"], "enforcement": None}
+        self.assertIsNone(draft.already_covered(edri, [kids]))
+        # Same topic long ago: only the strict title rule applies.
+        old = {**dfa, "date": "2025-01-01"}
+        self.assertIsNone(draft.already_covered(new_dfa, [old]))
