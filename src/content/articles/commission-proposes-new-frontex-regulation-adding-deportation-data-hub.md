@@ -1,5 +1,5 @@
 ---
-title: "Commission proposes new Frontex regulation adding deportation data hub and social media monitoring"
+title: "EDRi says Commission's Frontex proposal would turn the agency into a deportation and surveillance data hub"
 date: 2026-11-19
 dek: "According to EDRi, the 27 October proposal would nearly double Frontex's budget and extend its processing of biometric, health and online data, including transfers to third countries."
 whyItMatters: "The proposal would widen large-scale processing of special-category data (biometrics, health, physical and mental state) by an EU agency, with transfers to third countries and routine Europol access. Organisations that operate platforms, or supply surveillance and analytics technology to Frontex, should follow how purpose limitation, data-sharing safeguards and EDPS oversight are defined as the text moves through Parliament and Council. Platforms should also note that Frontex intends to act as a DSA trusted flagger."
@@ -7,6 +7,10 @@ categories: [regulation, privacy, ai-governance]
 institutions: [european-commission]
 whoShouldCare: ["DPO", "Legal & compliance", "Trust and safety leads", "AI governance lead"]
 importance: 3
+format: "Opinion"
+byline:
+  name: "European Digital Rights (EDRi)"
+  role: "a digital rights advocacy network"
 type: "Regulation"
 region: "EU"
 status:
@@ -22,7 +26,7 @@ card:
   caption: "Proposed Frontex budget for 2028–2034, according to EDRi"
 ---
 
-On **27 October 2026 the European Commission tabled a proposal for a new Regulation on Frontex**, the EU border agency. According to European Digital Rights (EDRi), it refocuses the mandate on deportations and surveillance, with a budget of **nearly €12 billion for 2028–2034**.
+European Digital Rights (EDRi) has published its analysis of the **new Frontex Regulation the European Commission proposed on 27 October 2026**. According to EDRi, the proposal refocuses the mandate on deportations and surveillance, with a budget of **nearly €12 billion for 2028–2034**.
 
 EDRi says the agency would collect and analyse Member State data to "predict" deportation needs through a new Deportation Coordination Centre. A companion proposal would digitalise deportation case management, with Frontex shaping the design of EU and national systems that exchange biometric, travel and health data, including with third countries. An "Online Monitoring and Response Centre" would watch social media, and Frontex would seek trusted flagger status under the Digital Services Act. Europol could routinely consult Frontex personal data.
 
