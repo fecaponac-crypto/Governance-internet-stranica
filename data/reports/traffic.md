@@ -1,6 +1,6 @@
 # Traffic — 2026-11
 
-Updated 2026-11-19T06:18:39Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-19T09:21:25Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
 **660 visits · 740 page views** this month (bots excluded)
 
@@ -34,7 +34,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/ai-governance/ — 20
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
 - /opinion/ — 20
-- /monday-signal/ — 20
+- /review/2026-11/ — 20
 
 ## Countries
 

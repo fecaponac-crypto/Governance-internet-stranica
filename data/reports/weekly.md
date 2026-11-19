@@ -14,8 +14,8 @@ Countries:
     92  US
     15  HR
     10  CN
-     4  DE
      4  SE
+     4  DE
 
 Where visitors came from:
    103  (direct)

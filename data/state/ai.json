@@ -128,6 +128,32 @@
    "relevant": false,
    "same_story_as": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a"
   },
+  "022e6e8961b34272": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup without a single concrete development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "02b4f2519fee04a1": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "commission-proposes-new-frontex-regulation-adding-deportation-data-hub",
+   "flagged": 2,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/148",
+   "primary_found": false,
+   "reason": "Commission proposal for a new Frontex regulation expanding surveillance and data powers is a legislative step with data protection implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "02ccca99cf715b6e": {
    "at": "2026-11-05T15:18:33Z",
    "categories": [
@@ -382,6 +408,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic opinion column with no concrete governance guidance visible in the excerpt; stays at background level at most.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "096ee479bbba36b5": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Human rights report on authoritarian technology is not framed around organisational data governance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -845,6 +880,15 @@
    "importance": 2,
    "reason": "Class action over ALPR tracking disclosures; privacy litigation risk.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "14d8db07b215ebb1": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion comparing GDPR and AI Act without actionable guidance.",
+   "relevant": false,
    "same_story_as": null
   },
   "162d9664025f5457": {
@@ -1898,6 +1942,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "34121b18d19a4981": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Press publisher remuneration case has no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "34d462d00c444040": {
    "at": "2026-11-13T15:17:40Z",
    "categories": [
@@ -2109,6 +2162,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer story on pipeline monitoring; practical but not a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3bcd2659012e6a12": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Title alone gives too little concrete detail on data or AI governance consequences for practitioners.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3383,6 +3445,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "5d9db4eee5be8d47": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Gaming legislation preliminary ruling has no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5e09c4604479547f": {
    "at": "2026-11-11T12:17:55Z",
    "categories": [
@@ -3822,6 +3893,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6ecd87922cfca947": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog listicle on data product types with no news content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "6f34ae51d61c60e8": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -4092,6 +4172,19 @@
    "importance": 1,
    "reason": "Generic explainer on cloud computing, not news and no governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "76283c129a288415": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Signals that further privacy rule cuts in the pending Digital Omnibus are not ruled out, a pending EU legislative development.",
+   "relevant": true,
    "same_story_as": null
   },
   "764e0a3e7bee0ea8": {
@@ -4670,6 +4763,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Practitioner tutorial on building a context layer; how-to content with limited governance news value.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "84712506160fc38c": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview opinion on sovereign cloud criteria with no concrete data governance consequence in the excerpt.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5463,6 +5565,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9f03be4d257e0ca1": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [
+    "privacy",
+    "strategy"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "spain-s-aepd-sets-out-dpo-independence-guidance-flagging-conflicts-wit",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/147",
+   "primary_found": false,
+   "reason": "AEPD regulator guidance on DPO independence, safeguards and conflicts of interest, practically useful for DPOs and governance teams.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "9f5d52cb571c1532": {
    "at": "2026-11-02T18:18:48Z",
    "categories": [
@@ -5562,6 +5681,15 @@
    "reason": "Same story as existing draft on noyb's Scale AI complaints.",
    "relevant": false,
    "same_story_as": "noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio"
+  },
+  "a237163b0b0d03e9": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Medicinal product labelling ruling has no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
   },
   "a24184b811c4f93d": {
    "at": "2026-11-16T21:17:43Z",
@@ -7216,6 +7344,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "cf892bba6326adc0": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 11,
+   "decision": "drafted",
+   "draft": "new-york-attorney-general-creates-asset-unit-to-enforce-ai-laws-starti",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/146",
+   "primary_found": true,
+   "reason": "New York Attorney General creating a dedicated unit to enforce AI safety laws is an enforcement development affecting AI governance obligations.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cfa6ae58746884f3": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -8367,6 +8512,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ecccb841445f4097": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "cjeu-advocate-general-says-facebook-cannot-be-called-free-when-users-p",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/145",
+   "primary_found": false,
+   "reason": "CJEU Advocate General opinion that a service paid for with personal data is not free, bearing on consent and data-as-payment practices under EU consumer and data law.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ede4c5cea90f0ed1": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -8831,6 +8993,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fab842f132648c32": {
+   "at": "2026-11-19T09:17:49Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog how-to on data product lifecycle with no new development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fabc947f2b060d7b": {
    "at": "2026-11-06T15:18:26Z",
    "categories": [
@@ -9055,8 +9226,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 543,
-   "usd": 24.7824
+   "calls": 563,
+   "usd": 25.9087
   }
  }
 }

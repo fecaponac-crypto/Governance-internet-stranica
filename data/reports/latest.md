@@ -1,13 +1,17 @@
 # Inflow report
 
-Last run: **2026-11-19T06:17:24Z** · sources checked: 81 · failed: 2 · new items this run: 3
+Last run: **2026-11-19T09:17:36Z** · sources checked: 81 · failed: 2 · new items this run: 15
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (108)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Laila Medina in Case C-643/25 Verbraucherzentrale Bundesverband (‘Free’ digital service)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260169en.pdf) |
+| 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-663/24 Streamz and Others](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260168en.pdf) |
+| 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-683/24 Spielerschutz Sigma](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260167en.pdf) |
+| 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-354/25 [Waisrinter]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260166en.pdf) |
 | 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [AP raadt aankoop AI-camerabrillen af: ernstige risico’s voor gebruikers en omstanders](https://autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [Global DPAs: 'Our job is to do our job' amid innovation-driven digital landscape](https://iapp.org/news/a/global-dpas-our-job-is-to-do-our-job-amid-innovation-driven-digital-landscape) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [World models for lawyers](https://iapp.org/news/a/world-models-for-lawyers) |
@@ -19,14 +23,18 @@ Last run: **2026-11-19T06:17:24Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) |
-| 2026-11-17 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Case C-698/23 P EDPS v Parliament and Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260165en.pdf) |
-| 2026-11-17 | The EU AI Act Newsletter (Future of Life Institute) | [Why Has California Led the Way on AI Regulation? (with Irene Liu)](https://artificialintelligenceact.substack.com/p/why-has-california-led-the-way-on) |
 | 2026-11-16 | European Commission — Press Corner | [Autumn 2026 Economic Forecast shows continued growth amid higher inflation](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | CDO Magazine | [Artificial Intelligence BRIDGE AI Act Would Bring Private-Sector AI Expertise Into CISA](https://www.cdomagazine.tech/aiml/bridge-ai-act-would-bring-private-sector-ai-expertise-into-cisa) |
+| 2026-11-19 | CDO Magazine | [Artificial Intelligence New York Attorney General Creates Dedicated Unit to Enforce AI Safety Laws](https://www.cdomagazine.tech/aiml/new-york-attorney-general-creates-dedicated-unit-to-enforce-ai-safety-laws) |
+| 2026-11-19 | AEPD — Spanish Data Protection Agency | [La AEPD publica ‘El estatuto del delegado de protección de datos’, con orientaciones sobre independencia, garantías organizativas y conflictos de intereses](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-el-estatuto-del-delegado-proteccion-datos-independencia-garantias) |
+| 2026-11-19 | DATAVERSITY | [GDPR Déjà Vu: Don’t Repeat the Same Mistakes with the AI Act](https://www.dataversity.net/articles/gdpr-deja-vu-dont-repeat-the-same-mistakes-with-the-ai-act/) |
+| 2026-11-19 | Euractiv | [THE HACK: Further privacy rule cuts not ruled out](https://www.rapporteur.com/news/the-hack-further-privacy-rule-cuts-not-ruled-out/) |
+| 2026-11-19 | Euractiv | [INTERVIEW: French cloud CEO slams ‘dishonest’ EU sovereign criteria](https://www.rapporteur.com/news/french-cloud-ceo-slams-dishonest-eu-sovereign-criteria/) |
 | 2026-11-19 | Euractiv | [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) |
 | 2026-11-18 | Forrester Blogs | [AI ROI: Move From Minutes Saved To Value Created](https://www.forrester.com/blogs/ai-roi-move-from-minutes-saved-to-value-created/) |
 | 2026-11-18 | CDO Magazine | [US Federal News Bureau California Proposes Mandatory AI Safety Standards, Independent Oversight and Emergency Shutdown Authority](https://www.cdomagazine.tech/us-federal-news-bureau/california-proposes-mandatory-ai-safety-standards-independent-oversight-and-emergency-shutdown-authority) |
@@ -60,7 +68,6 @@ Last run: **2026-11-19T06:17:24Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-17 | CDO Magazine | [Leadership Moves Seth Farrington, U.S. Army DEVCOM Aviation & Missile Center CDAO, Joins CDO Magazine Global Board](https://www.cdomagazine.tech/leadership-moves/seth-farrington-u-s-army-devcom-aviation-missile-center-cdao-joins-cdo-magazine-global-board) |
 | 2026-11-17 | CNIL (France) | [La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026](https://www.cnil.fr/fr/38-sanctions-simplifiees) |
 | 2026-11-17 | POLITICO Europe — Technology | [Irish regulator stops X training AI with data gathered by agents](https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
-| 2026-11-17 | DATAVERSITY | [Designing Multi-Tiered AI Governance Education](https://www.dataversity.net/articles/designing-multi-tiered-ai-governance-education/) |
 | 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
 | 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
 
@@ -68,6 +75,11 @@ Last run: **2026-11-19T06:17:24Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | European Digital Rights (EDRi) | [EDRi-gram, 19 November 2026](https://edri.org/our-work/edri-gram-19-november-2026/) |
+| 2026-11-19 | European Digital Rights (EDRi) | [New report documents authoritarian use of technology across the globe](https://edri.org/our-work/new-report-documents-authoritarian-use-of-technology-across-the-globe/) |
+| 2026-11-19 | European Digital Rights (EDRi) | [EU transforms Frontex into a high-tech deportation command centre](https://edri.org/our-work/eu-transforms-frontex-into-a-high-tech-deportation-command-centre/) |
+| 2026-11-19 | Semarchy Blog | [Data Product Lifecycle: 8 Stages and How to Manage Them](https://semarchy.com/blog/data-product-lifecycle/) |
+| 2026-11-19 | Semarchy Blog | [Data Product Examples: 7 Types with Practical Use Cases](https://semarchy.com/blog/data-product-examples/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [One year later, a broad coalition tells EU lawmakers: do not simplify away people’s rights with the Digital Omnibus](https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/) |
 | 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
 | 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
@@ -117,8 +129,8 @@ Last run: **2026-11-19T06:17:24Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **CNIL (France)** — failed 7× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 163× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **CNIL (France)** — failed 8× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
+- **European Data Protection Board (EDPB)** — failed 164× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
