@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-19T20:40:30Z** · sources checked: 81 · failed: 1 · new items this run: 13
+Last run: **2026-11-19T21:17:33Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (127)
+## New items, last 48 hours (125)
 
 ### High priority sources
 
@@ -29,8 +29,6 @@ Last run: **2026-11-19T20:40:30Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | Hunton Privacy & Information Security Law Blog | [CIPL Publishes Report on How AI-Powered Tools Can Improve Compliance Outcomes and Bolster Accountability](https://www.hunton.com/privacy-and-cybersecurity-law-blog/cipl-publishes-report-on-how-ai-powered-tools-can-improve-compliance-outcomes-and-bolster-accountability) |
 | 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
 | 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
-| 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
-| 2026-11-17 | Hunton Privacy & Information Security Law Blog | [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) |
 
 ### Medium priority sources
 
@@ -78,6 +76,7 @@ Last run: **2026-11-19T20:40:30Z** · sources checked: 81 · failed: 1 · new it
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-19 | DataHub Blog (open source metadata platform) | [Metadata Management Framework: How to Build One That Stays Current](https://datahub.com/blog/metadata-management-framework/) |
+| 2026-11-19 | Center for Security and Emerging Technology (CSET) | [The Data Is the Target](https://cset.georgetown.edu/article/the-data-is-the-target/) |
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [N. Korean Hackers Use Deepfake Video Calls in $400M FaceStealer Heist](https://www.dataprivacyandsecurityinsider.com/2026/11/n-korean-hackers-use-deepfake-video-calls-in-400m-facestealer-heist/) |
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [DraftKings and Dark Patterns: A Bad Bet on Button Design](https://www.dataprivacyandsecurityinsider.com/2026/11/draftkings-and-dark-patterns-a-bad-bet-on-button-design/) |
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Lessons from the Polymarket Pixel Lawsuit](https://www.dataprivacyandsecurityinsider.com/2026/11/lessons-from-the-polymarket-pixel-lawsuit/) |
@@ -136,7 +135,6 @@ Last run: **2026-11-19T20:40:30Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing--test) |
 | 2026-11-18 | The Record (Recorded Future News) | [CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500](https://therecord.media/cisa-issues-java4shell-alert) |
 | 2026-11-17 | Computer Weekly — IT security | [UK government warned that lax AI safety undermines GDP boost](https://www.computerweekly.com/news/366654649/UK-government-warned-that-lax-AI-safety-undermines-GDP-boost) |
-| 2026-11-17 | The Record (Recorded Future News) | [Chinese state group developing automated attack tool for cyber espionage, Google says](https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [Now is Not the Time to Limit Cyber Liability and State Enforcement](https://epic.org/now-is-not-the-time-to-limit-cyber-liability-and-state-enforcement/) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [EPIC Joins Group Urging New Jersey Court to Reject Data Center Developer’s First Amendment Claim](https://epic.org/epic-joins-group-urging-new-jersey-court-to-reject-data-center-developers-first-amendment-claim/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [The New York Times: New York City Will Ban Companies From Setting Variable Prices](https://epic.org/the-new-york-times-new-york-city-will-ban-companies-from-setting-variable-prices/) |
@@ -148,7 +146,7 @@ Last run: **2026-11-19T20:40:30Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 169× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 170× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

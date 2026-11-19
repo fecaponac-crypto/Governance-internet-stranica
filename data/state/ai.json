@@ -8968,6 +8968,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ea1a27d5dc27c15c": {
+   "at": "2026-11-19T21:17:50Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Op-ed on military AI and data manipulation; opinion piece with no concrete governance development or practitioner guidance for data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ea2d5a0cba6ad367": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -9822,8 +9833,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 629,
-   "usd": 30.5272
+   "calls": 630,
+   "usd": 30.5279
   }
  }
 }
