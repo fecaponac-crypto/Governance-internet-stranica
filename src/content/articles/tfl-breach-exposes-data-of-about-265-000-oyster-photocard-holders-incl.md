@@ -13,6 +13,9 @@ status:
   stage: "Announced"
   detail: "Breach confirmed by TfL and reported to the ICO; photocard system offline"
 sources:
+  - name: "BBC News"
+    title: "Oyster photocard holders' personal data accessed in TfL breach"
+    url: "https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o"
   - name: "Computer Weekly"
     title: "Over 250,000 Londoners affected by latest TfL breach"
     url: "https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach"
@@ -22,10 +25,10 @@ card:
   caption: "Approximate number of Oyster photocard users whose personal data was exposed"
 ---
 
-Transport for London (TfL) has disclosed a data breach affecting **approximately 265,000 Oyster photocard users**, according to Computer Weekly. Photocards go to groups including children and students, over-60s, military veterans and apprentices.
+Transport for London (TfL) has disclosed a data breach affecting **approximately 265,000 Oyster photocard users**, according to TfL statements reported by the BBC and Computer Weekly. Photocards go to groups including children and students, over-60s, military veterans and apprentices.
 
-The exposed data is understood to include names, email and home addresses, phone numbers, birthdates and **security questions**. Photos, passwords, financial details and journey data were not included, and TfL said no children's data was affected. TfL technology strategy and revenue director Shashi Verma told the BBC the breach came to light on 16 November, when users received unexpected emails asking them to validate their accounts.
+The exposed data includes names, email and home addresses, phone numbers, dates of birth and **security questions and answers**. Photos, passwords, financial details and journey data were not included, and TfL said no data about any child was compromised. TfL technology strategy and revenue director Shashi Verma told the BBC the breach came to light on 16 November, when users received unexpected emails asking them to validate their accounts.
 
-TfL has taken the photocard system offline, reported the incident to the Information Commissioner's Office and contacted affected users. Verma said the system had undergone security testing within the past 12 months. Users are advised to change login details and security questions, including on other services where they were reused.
+TfL has taken the photocard system offline, reported the incident to the Information Commissioner's Office and contacted affected users. Verma said the system had been "tested quite thoroughly last year". Users are advised to change login details and security questions, including on other services where they were reused.
 
-*Editor's note: This article relies on a single secondary news report rather than TfL's own statement.*
+*Editor's note: TfL's own website could not be read automatically; this article relies on TfL's statements as reported by the BBC and Computer Weekly.*
