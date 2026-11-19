@@ -1075,6 +1075,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "1b18c8522f68d4a4": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "edpb-adopts-final-guidelines-on-legitimate-interest-with-a-flowchart-f",
+   "flagged": 2,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/149",
+   "primary_found": true,
+   "reason": "Final EDPB guidelines on legitimate interest under GDPR directly affect how organisations rely on this lawful basis.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1c3952feedf91c8f": {
    "at": "2026-10-30T15:18:31Z",
    "categories": [
@@ -1532,6 +1549,23 @@
    "importance": 1,
    "reason": "Sector sizing study without a governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "2671b79e4aaa0fb4": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 6,
+   "decision": "drafted",
+   "draft": "law-firm-associate-says-eu-s-new-psr-gives-dpias-an-unusual-role-in-fr",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/150",
+   "primary_found": true,
+   "reason": "Practical privacy angle on fraud data sharing under the UK PSR and DPIA requirements; specialist media with actionable guidance.",
+   "relevant": true,
    "same_story_as": null
   },
   "269bfaa8d114d30f": {
@@ -2387,6 +2421,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "40d03372bb63816a": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "General regional AI governance commentary without concrete consequences for data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "40d35a8a77e631ca": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -2730,6 +2775,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Job posting.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "498eb7fe37c428f8": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Council conclusions on AI skills education; no concrete data governance obligation.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3538,6 +3594,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5fe5b665aaa80682": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Policy analysis on biodata for a US science initiative; weak link to practitioner data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "604faec434131ac6": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [],
@@ -3581,6 +3648,17 @@
    "primary_found": false,
    "reason": "FTC enforcement action over sharing sensitive health data with advertisers; concrete privacy enforcement with states joining.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "630d3a731f817a46": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog comparing CMMC and NIS2 with marketing framing; not news.",
+   "relevant": false,
    "same_story_as": null
   },
   "64c2e0d61a25f189": {
@@ -6786,6 +6864,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "be3b33c2ccdfeb65": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor analyst recognition and marketing; not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "be5129d783362658": {
    "at": "2026-11-17T18:17:58Z",
    "categories": [
@@ -8476,6 +8565,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e7c51712133c959d": {
+   "at": "2026-11-19T15:17:44Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Podcast promotion and generic thought leadership.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e7d97d948e8ddff1": {
    "at": "2026-11-10T03:18:36Z",
    "categories": [],
@@ -9361,8 +9461,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 565,
-   "usd": 25.9107
+   "calls": 577,
+   "usd": 26.644
   }
  }
 }

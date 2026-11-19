@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new items this run: 2
+Last run: **2026-11-19T15:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 8
 
 ## New items, last 48 hours (121)
 
@@ -8,6 +8,8 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | IAPP — International Association of Privacy Professionals | [Fraud data sharing under the new PSR: When a DPIA becomes the ticket of entry](https://iapp.org/news/a/fraud-data-sharing-under-the-new-psr-when-a-dpia-becomes-the-ticket-of-entry) |
+| 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [EDPB publiceert definitieve guidelines over gerechtvaardigd belang](https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Formal sitting of the Court of Justice](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260170en.pdf) |
 | 2026-11-19 | Garante per la protezione dei dati personali (Italy) | [L’Autorità Garante Privacy italiana eletta nel Comitato direttivo della Global Privacy Assembly](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10322146) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Laila Medina in Case C-643/25 Verbraucherzentrale Bundesverband (‘Free’ digital service)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260169en.pdf) |
@@ -25,12 +27,12 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-17 | IAPP — International Association of Privacy Professionals | [A closer look at the global rush toward youth social media restrictions](https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [California AG Announces $1.8 Million Settlement with Lyft for CCPA Violations](https://www.hunton.com/privacy-and-cybersecurity-law-blog/california-ag-announces-1-8-million-settlement-with-lyft-for-ccpa-violations) |
 | 2026-11-17 | Hunton Privacy & Information Security Law Blog | [UK ICO Publishes Report on Data Protection Expectations for AI-Enabled Online Advertising](https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-report-on-data-protection-expectations-for-ai-enabled-online-advertising) |
-| 2026-11-16 | European Commission — Press Corner | [Autumn 2026 Economic Forecast shows continued growth amid higher inflation](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Council of the EU — Press releases | [Equipping Europeans for the age of AI: Council approves conclusions](https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/) |
 | 2026-11-19 | CDO Magazine | [Leadership Moves Ralph Lauren Appoints Renga Rajan Balasubramanian as VP, Head of AI Engineering, Data & Platforms](https://www.cdomagazine.tech/leadership-moves/ralph-lauren-appoints-renga-rajan-balasubramanian-as-vp-head-of-ai-engineering-data-platforms) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence BRIDGE AI Act Would Bring Private-Sector AI Expertise Into CISA](https://www.cdomagazine.tech/aiml/bridge-ai-act-would-bring-private-sector-ai-expertise-into-cisa) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence New York Attorney General Creates Dedicated Unit to Enforce AI Safety Laws](https://www.cdomagazine.tech/aiml/new-york-attorney-general-creates-dedicated-unit-to-enforce-ai-safety-laws) |
@@ -39,6 +41,7 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-19 | Euractiv | [THE HACK: Further privacy rule cuts not ruled out](https://www.rapporteur.com/news/the-hack-further-privacy-rule-cuts-not-ruled-out/) |
 | 2026-11-19 | Euractiv | [INTERVIEW: French cloud CEO slams ‘dishonest’ EU sovereign criteria](https://www.rapporteur.com/news/french-cloud-ceo-slams-dishonest-eu-sovereign-criteria/) |
 | 2026-11-19 | Euractiv | [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) |
+| 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
 | 2026-11-18 | Forrester Blogs | [AI ROI: Move From Minutes Saved To Value Created](https://www.forrester.com/blogs/ai-roi-move-from-minutes-saved-to-value-created/) |
 | 2026-11-18 | CDO Magazine | [US Federal News Bureau California Proposes Mandatory AI Safety Standards, Independent Oversight and Emergency Shutdown Authority](https://www.cdomagazine.tech/us-federal-news-bureau/california-proposes-mandatory-ai-safety-standards-independent-oversight-and-emergency-shutdown-authority) |
 | 2026-11-18 | CDO Magazine | [Data Management Agentic AI Moves the Control From People to Data: Cencora’s Jig Patel on Building Data Trust](https://www.cdomagazine.tech/data-management/agentic-ai-moves-the-control-from-people-to-data-cencoras-jig-patel-on-building-data-trust) |
@@ -67,10 +70,7 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-17 | Euractiv | [Digital ministers to discuss AI safety at December meeting](https://www.rapporteur.com/news/digital-ministers-to-discuss-ai-safety-at-december-meeting/) |
 | 2026-11-17 | Euractiv | [Data centre sabotage risks land in EU’s sovereign cloud law](https://www.rapporteur.com/news/data-centre-sabotage-risks-land-in-eus-sovereign-cloud-law/) |
 | 2026-11-17 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Anmäl intresse till innovationssandlådan senast måndag 23/11](https://www.imy.se/nyheter/anmal-intresse-till-innovationssandladan-senast-mandag-2311/) |
-| 2026-11-17 | Datatilsynet (Norway) | [Reklame mot barn er sjelden tilfeldig](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/reklame-mot-barn-er-sjelden-tilfeldig/) |
-| 2026-11-17 | CDO Magazine | [Leadership Moves Seth Farrington, U.S. Army DEVCOM Aviation & Missile Center CDAO, Joins CDO Magazine Global Board](https://www.cdomagazine.tech/leadership-moves/seth-farrington-u-s-army-devcom-aviation-missile-center-cdao-joins-cdo-magazine-global-board) |
 | 2026-11-17 | CNIL (France) | [La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026](https://www.cnil.fr/fr/38-sanctions-simplifiees) |
-| 2026-11-17 | POLITICO Europe — Technology | [Irish regulator stops X training AI with data gathered by agents](https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-17 | Collibra Blog | [The answer is three relations away. Derived attributes put it where you need it.](https://www.collibra.com/blog/the-answer-is-three-relations-away) |
 | 2026-11-17 | Collibra Blog | [Collibra recognized as a Leader for the third consecutive year in the Gartner® Magic Quadrant™ for Data and Analytics Governance Platforms](https://www.collibra.com/blog/collibra-recognized-as-a-leader-for-the-third-consecutive-year-in-the-gartner-magic-quadrant) |
 
@@ -78,6 +78,10 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | Center for Security and Emerging Technology (CSET) | [Biodata Matters for the Genesis Mission](https://cset.georgetown.edu/article/biodata-matters-for-the-genesis-mission/) |
+| 2026-11-19 | Precisely Blog | [Governed AI in customer communications: Precisely EngageOne™ named a Leader by Aspire](https://www.precisely.com/blog/cat-customer-engagement/governed-ai-in-customer-communications-precisely-engageone-named-a-leader-by-aspire/) |
+| 2026-11-19 | Modern Data 101 | [Why the Enterprise AI Advantage Will Come From Orchestration, Not Just Models](https://moderndata101.substack.com/p/orchestration-the-enterprise-ai-advantage) |
+| 2026-11-19 | OECD.AI — Policy Observatory blog | [From dialogue to delivery: making AI governance work in Southeast Asia](https://wp.oecd.ai/from-dialogue-to-delivery-making-ai-governance-work-in-southeast-asia/) |
 | 2026-11-19 | InformationWeek | [AI has rewritten the cybersecurity risk equation](https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation) |
 | 2026-11-19 | International Data Spaces Association | [Australia and data spaces: ready foundations, big plans and a bridge to Europe](https://internationaldataspaces.org/australia-and-data-spaces-ready-foundations-big-plans-and-a-bridge-to-europe/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [EDRi-gram, 19 November 2026](https://edri.org/our-work/edri-gram-19-november-2026/) |
@@ -125,12 +129,8 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 | 2026-11-17 | Precisely Blog | [What’s new in IBM i cyber resilience: recovering clean data](https://www.precisely.com/blog/cat-ibm-security/whats-new-in-ibm-i-cyber-resilience-recovering-clean-data/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Brussels Campaign Exchange on ‘Building Movements, Building Power’](https://edri.org/take-action/events/brussels-campaign-exchange-on-building-movements-building-power/) |
 | 2026-11-17 | European Digital Rights (EDRi) | [Digital Borders Exposed: an online launch by Protect Not Surveil](https://edri.org/take-action/events/digital-borders-exposed-an-online-launch-by-protect-not-surveil/) |
-| 2026-11-17 | InformationWeek | [AI governance's authority gap: Why titles aren't solving the accountability problem](https://www.informationweek.com/data-governance/ai-governance-s-authority-gap-why-titles-aren-t-solving-the-accountability-problem) |
-| 2026-11-17 | Stibo Systems Blog | [What is the difference between CPG and FMCG?](https://www.stibosystems.com/blog/what-is-the-difference-between-cpg-and-fmcg) |
 | 2026-11-17 | Computer Weekly — IT security | [UK regulators call for tight control of personal AI agents](https://www.computerweekly.com/news/366654742/UK-regulators-call-for-tight-control-of-personal-AI-agents) |
 | 2026-11-17 | Computer Weekly — IT security | [Beyond the AI apocalypse: What CISOs need to do now](https://www.computerweekly.com/opinion/Beyond-the-AI-apocalypse-What-CISOs-need-to-do-now) |
-| 2026-11-17 | AlgorithmWatch | [Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?](https://algorithmwatch.org/en/google-ai-overviews-state-elections/) |
-| 2026-11-17 | European Digital Rights (EDRi) | [Open Letter: EDRi warns of EU’s undemocratic attempt to introduce surveillance in satellite-based communications](https://edri.org/our-work/open-letter-edri-warns-of-eus-undemocratic-attempt-to-introduce-surveillance-in-satellite-based-communications/) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [Now is Not the Time to Limit Cyber Liability and State Enforcement](https://epic.org/now-is-not-the-time-to-limit-cyber-liability-and-state-enforcement/) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [EPIC Joins Group Urging New Jersey Court to Reject Data Center Developer’s First Amendment Claim](https://epic.org/epic-joins-group-urging-new-jersey-court-to-reject-data-center-developers-first-amendment-claim/) |
 | 2026-11-12 | EPIC — Electronic Privacy Information Center | [The New York Times: New York City Will Ban Companies From Setting Variable Prices](https://epic.org/the-new-york-times-new-york-city-will-ban-companies-from-setting-variable-prices/) |
@@ -142,9 +142,7 @@ Last run: **2026-11-19T12:17:24Z** · sources checked: 81 · failed: 3 · new it
 
 ## Source problems
 
-- **CNIL (France)** — failed 10× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.cnil.fr/en/rss.xml`
-- **European Data Protection Board (EDPB)** — failed 166× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **Google Cloud Blog — Data Analytics** — failed 1× in a row: `HTTPError: 500 Server Error: Internal Server Error for url: https://cloudblog.withgoogle.com/products/data-analytics/rss/`
+- **European Data Protection Board (EDPB)** — failed 167× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

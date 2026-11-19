@@ -1,15 +1,22 @@
 # Drafts report
 
-Last run: **2026-11-19T12:18:06Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-19T15:17:44Z** · candidates 8 · scored 8 · selected 2 · drafted 2 · failed 0 · queued for next run 0
 
-AI spend this month: **$25.91** of $45 budget (565 calls)
+AI spend this month: **$26.64** of $45 budget (577 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 2 claims to check (✏️ 6 corrected automatically) **EDPB adopts final guidelines on legitimate interest, with a flowchart for the three-step test** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/149
+- ⚠️ 1 claims to check (✏️ 2 corrected automatically) **Law firm associate says EU's new PSR gives DPIAs an unusual role in fraud data sharing between payment providers** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/150
 
 ## Recently skipped by triage
 
+- (1) Policy analysis on biodata for a US science initiative; weak link to practitioner data governance.
+- (1) Vendor analyst recognition and marketing; not a genuine launch or research finding.
+- (1) Podcast promotion and generic thought leadership.
+- (1) Council conclusions on AI skills education; no concrete data governance obligation.
+- (2) General regional AI governance commentary without concrete consequences for data governance.
+- (2) Vendor blog comparing CMMC and NIS2 with marketing framing; not news.
 - (1) Hiring/leadership appointment news, not governance substance.
 - (1) Generic opinion on AI-driven cyber risk with no concrete governance development; stays at background level and is not actionable news.
 - (1) Formal court sitting ceremony; no governance angle.
@@ -19,9 +26,3 @@ _No drafts this run._
 - (2) General feature on government surveillance dragnets; no concrete new development.
 - (2) Roundup of voting cases; the voter list litigation is already covered by the existing article.
 - (2) Commentary quoting an advocate on smart glasses privacy; no new regulatory development.
-- (1) Election of a regulator to a body's committee; organisational news without concrete governance consequence.
-- (2) Advocacy commentary on a Senate proposal limiting AI liability; the underlying bill is not clearly described in the excerpt, so it is treated as opinion rather than a usable legislative step.
-- (3) Same NYC surveillance pricing story as existing article.
-- (2) Opinion-style trip report on data spaces; no concrete new development or actionable guidance.
-- (1) Newsletter roundup without a single concrete development.
-- (1) Human rights report on authoritarian technology is not framed around organisational data governance.
