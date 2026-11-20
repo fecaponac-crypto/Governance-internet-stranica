@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T20:24:49Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-20T21:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (127)
+## New items, last 48 hours (119)
 
 ### High priority sources
 
@@ -32,6 +32,7 @@ Last run: **2026-11-20T20:24:49Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | Privacy World (Squire Patton Boggs) | [Buyer Beware: Virginia Positioned as the New Privacy Litigation Battleground](https://www.privacyworld.blog/2026/11/buyer-beware-virginia-positioned-as-the-new-privacy-litigation-battleground/) |
 | 2026-11-20 | OneTrust Blog | [Protecting AI ROI: From Pilot Results to Lasting Value AI Governance](https://www.onetrust.com/blog/protecting-ai-roi-from-pilot-results-to-lasting-value/) |
 | 2026-11-20 | Forrester Blogs | [Your Cloud Operations Aren’t Ready For AI](https://www.forrester.com/blogs/your-cloud-operations-arent-ready-for-ai/) |
 | 2026-11-20 | CDO Magazine | [Community AI Has the Data. Does It Understand the Business? Columbus Executives Examine the Context Challenge](https://www.cdomagazine.tech/community/ai-has-the-data-does-it-understand-the-business-columbus-executives-examine-the-context-challenge) |
@@ -61,7 +62,6 @@ Last run: **2026-11-20T20:24:49Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Euractiv | [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) |
 | 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
 | 2026-11-18 | Forrester Blogs | [AI ROI: Move From Minutes Saved To Value Created](https://www.forrester.com/blogs/ai-roi-move-from-minutes-saved-to-value-created/) |
-| 2026-11-18 | CDO Magazine | [US Federal News Bureau California Proposes Mandatory AI Safety Standards, Independent Oversight and Emergency Shutdown Authority](https://www.cdomagazine.tech/us-federal-news-bureau/california-proposes-mandatory-ai-safety-standards-independent-oversight-and-emergency-shutdown-authority) |
 
 ### Low priority sources
 
@@ -125,15 +125,7 @@ Last run: **2026-11-20T20:24:49Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
 | 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
-| 2026-11-18 | Monte Carlo Blog | [What Is an AI Hallucination? Causes, Examples, and Fixes](https://montecarlo.ai/blog-ai-hallucination) |
-| 2026-11-18 | Monte Carlo Blog | [What Are AI Guardrails? Types, Examples, and Limits](https://montecarlo.ai/blog-ai-guardrails) |
-| 2026-11-18 | Precisely Blog | [AI Governance Models: Frameworks, Structures, and Best Practices for Enterprises](https://www.precisely.com/blog/cat-data-governance/ai-governance-models/) |
-| 2026-11-18 | The Record (Recorded Future News) | [Lawmakers call on White House to develop defensive AI cyber systems](https://therecord.media/ai-cyber-white-house) |
-| 2026-11-18 | Monte Carlo Blog | [What Is an Embedding? How AI Turns Meaning Into Numbers](https://montecarlo.ai/blog-embedding) |
-| 2026-11-18 | Monte Carlo Blog | [What Is Context Engineering? Giving AI Agents the Right Information](https://montecarlo.ai/blog-context-engineering) |
-| 2026-11-18 | Monte Carlo Blog | [What Is an AI Agent? How Agents Work and Why They Fail](https://montecarlo.ai/blog-ai-agent) |
 | 2026-11-18 | Computer Weekly — IT security | [US tech outages spark conversation on resilience in the age of AI](https://www.computerweekly.com/news/366654898/US-tech-outages-spark-conversation-on-resilience-in-the-age-of-AI) |
-| 2026-11-18 | Computer Weekly — IT security | [I am the passenger: In Brussels at Google’s data sovereignty event](https://www.computerweekly.com/opinion/I-am-the-passenger-In-Brussels-at-Googles-data-sovereignty-event) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
@@ -148,7 +140,7 @@ Last run: **2026-11-20T20:24:49Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 180× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 181× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
