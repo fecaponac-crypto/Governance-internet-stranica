@@ -1246,6 +1246,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1f35059bc05c99aa": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "global-privacy-assembly-adopts-resolution-setting-11-data-protection-p",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/165",
+   "primary_found": false,
+   "reason": "CNIL explains a Global Privacy Assembly resolution with eleven principles on AI in education; regulator guidance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1f532bbcfed63841": {
    "at": "2026-11-12T06:17:32Z",
    "categories": [
@@ -1405,6 +1422,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Covers Greece's national AI Act implementation framework; relevant to governance but with no excerpt, so rated modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "21916f9c74e03ccf": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 17,
+   "decision": "drafted",
+   "draft": "calprivacy-proposes-delete-act-audit-rules-and-tighter-drop-deletion-p",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/164",
+   "primary_found": true,
+   "reason": "Formal public comment period on proposed California Delete Act data broker rules and audit requirements.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2120,12 +2154,34 @@
    "relevant": false,
    "same_story_as": null
   },
+  "339e27bff1aec8ea": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing thought leadership on agentic data quality.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "34121b18d19a4981": {
    "at": "2026-11-19T09:17:49Z",
    "categories": [],
    "decision": "skipped",
    "importance": 1,
    "reason": "Press publisher remuneration case has no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "347053b5b61d6f50": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor product feature blog without a genuine launch or governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -3866,6 +3922,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5f4506dc3ec38b93": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing on communications management.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5fe5b665aaa80682": {
    "at": "2026-11-19T15:17:44Z",
    "categories": [
@@ -4723,6 +4790,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "77db819f805583c0": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor-adjacent migration guide on the Purview retirement already covered in existing article.",
+   "relevant": false,
+   "same_story_as": "microsoft-to-retire-purview-data-governance-ending-support-on-12-novem"
+  },
   "77e28038bcde9b77": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -5055,6 +5133,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "7ec62e10e14728c3": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Product how-to on testing data agents; no governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7f860703c4bd17e7": {
    "at": "2026-11-06T15:18:26Z",
    "categories": [
@@ -5305,6 +5394,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "86db41def98691de": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor how-to on Airflow pipeline debugging.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "871f2eeb80490f2d": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -5452,6 +5552,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor technical how-to on GPU training; no governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "8e3fe7a3306c8c07": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic EBA alert on bank resilience; no concrete data governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6399,6 +6510,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "a7c069141e9e2a8d": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer case study promoting a vendor tool.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a7d6c4ecfb0f1c1e": {
    "at": "2026-11-04T09:18:36Z",
    "categories": [],
@@ -6625,6 +6747,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Research model and chemistry dataset release has no concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "ae7900ce6e923367": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor listicle comparing catalog tools; not news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -7765,6 +7898,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c9622e674698fc4a": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog with generic thought leadership on AI ROI.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c9c39e0d72549637": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -7952,6 +8096,18 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/48",
    "primary_found": false,
    "reason": "DOJ raises privacy concerns over a possible sale of Character.AI chat data in bankruptcy, a concrete consequence for handling personal data from AI chats.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "ce7b43548dfe3253": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "regulation",
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Commentary on California and Colorado ADMT rules from a specialist privacy outlet; some practical value but mostly analysis.",
    "relevant": true,
    "same_story_as": null
   },
@@ -9180,6 +9336,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ea2d2759bc88b66e": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "global-privacy-assembly-urges-organisations-to-deploy-privacy-enhancin",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/166",
+   "primary_found": true,
+   "reason": "Global Privacy Assembly adopted five resolutions including two on AI; regulator-level outcome with practical implications.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ea2d5a0cba6ad367": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -9408,6 +9581,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Demo of architecture; no governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f0fa325f946c1a3a": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic analyst blog on cloud operations for AI.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9879,6 +10063,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fb94d11dba609310": {
+   "at": "2026-11-20T18:17:39Z",
+   "categories": [
+    "security",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "FCA cyber guidance for financial services; security angle but low-reliability source and limited data governance detail.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "fc65a85b88cac19f": {
    "at": "2026-11-14T10:30:12Z",
    "categories": [],
@@ -10079,8 +10275,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 648,
-   "usd": 31.1401
+   "calls": 658,
+   "usd": 31.6596
   }
  }
 }
