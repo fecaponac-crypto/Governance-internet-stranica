@@ -3010,6 +3010,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "495d2bf2a39c47ce": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog post on agent observability, marketing-style how-to without a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "498eb7fe37c428f8": {
    "at": "2026-11-19T15:17:44Z",
    "categories": [
@@ -3606,6 +3615,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "5637b95d16faefb9": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview about AI agents in renewable energy operations, not governance-focused.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "56a5e736cd67eee0": {
    "at": "2026-11-05T23:40:09Z",
    "categories": [],
@@ -3678,6 +3696,15 @@
    "primary_found": false,
    "reason": "Analysis of the Commission's EU KIDS Act proposal covering age assurance and data protection duties; a major pending file with data obligations. Not a duplicate of the Italian Garante article, which covers a different angle.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "583b7a1c74131e15": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "METR capability research is AI evaluation news with no clear data governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "58682110862662d2": {
@@ -5933,6 +5960,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9799943faece3e58": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Offshore wind dataset release has no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "97e46803c1c80e69": {
    "at": "2026-11-18T20:35:55Z",
    "categories": [
@@ -7065,6 +7101,15 @@
    "relevant": false,
    "same_story_as": "anthropic-embeds-independent-evaluators"
   },
+  "b71fdb4155c486cb": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Weekly roundup with no specific governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b73822c394906d1e": {
    "at": "2026-10-27T21:18:11Z",
    "categories": [],
@@ -8025,6 +8070,15 @@
    "importance": 3,
    "reason": "New EU consumer-harm rules with fines up to 6% of turnover affect platform obligations; notable but details limited from excerpt alone.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "ccbbe79e2e194b10": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Computer vision research on colour interpretation has no governance angle.",
+   "relevant": false,
    "same_story_as": null
   },
   "cd671e5dee7c4100": {
@@ -9476,6 +9530,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "edfeced150c6a6c3": {
+   "at": "2026-11-20T20:25:04Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cyberattack recovery at a retailer is short and lacks a data governance or privacy angle in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ee9ca87322f34d8f": {
    "at": "2026-11-03T12:19:15Z",
    "categories": [],
@@ -10275,8 +10338,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 658,
-   "usd": 31.6596
+   "calls": 659,
+   "usd": 31.6606
   }
  }
 }

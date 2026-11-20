@@ -1,40 +1,40 @@
 {
  "month": "2026-11",
- "updated": "2026-11-20T18:19:37Z",
+ "updated": "2026-11-20T20:25:09Z",
  "portal": {
-  "published_total": 142,
-  "published_this_month": 99,
+  "published_total": 145,
+  "published_this_month": 102,
   "published_this_month_by_importance": {
    "2": 15,
-   "3": 64,
-   "4": 19,
+   "3": 66,
+   "4": 20,
    "5": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 632,
-  "runs": 220,
-  "runs_with_failed_sources": 194,
+  "items_collected": 639,
+  "runs": 221,
+  "runs_with_failed_sources": 195,
   "triage_decisions": {
    "drafted": 114,
-   "skipped": 502,
+   "skipped": 509,
    "failed": 17
   },
-  "ai_spend_usd": 31.6596,
+  "ai_spend_usd": 31.6606,
   "sources_active": 81,
   "sources_failing_now": 1
  },
  "editor": {
-  "drafts_published": 100,
+  "drafts_published": 103,
   "drafts_rejected": 5
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 840,
-  "visits": 740,
+  "page_views": 850,
+  "visits": 750,
   "bots_excluded": true,
   "by_day": [
    {
@@ -109,8 +109,8 @@
    },
    {
     "date": "2026-11-20",
-    "page_views": 60,
-    "visits": 50
+    "page_views": 70,
+    "visits": 60
    }
   ],
   "top_pages": [
@@ -139,19 +139,19 @@
     "page_views": 30
    },
    {
-    "requestPath": "/institutions/edpb/",
+    "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
     "page_views": 20
    },
    {
-    "requestPath": "/opinion/",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
     "page_views": 20
    },
    {
     "requestPath": "/monday-signal/2026-11-16/",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/institutions/edpb/",
     "page_views": 20
    }
   ],
@@ -166,7 +166,7 @@
    },
    {
     "countryName": "CN",
-    "page_views": 40
+    "page_views": 50
    },
    {
     "countryName": "SE",
@@ -209,6 +209,10 @@
    {
     "refererHost": "www.google.com",
     "page_views": 20
+   },
+   {
+    "refererHost": "m.baidu.com",
+    "page_views": 10
    },
    {
     "refererHost": "teams.public.onecdn.static.microsoft",

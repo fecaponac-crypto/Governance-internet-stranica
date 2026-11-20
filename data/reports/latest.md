@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T18:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 16
+Last run: **2026-11-20T20:24:49Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (120)
+## New items, last 48 hours (127)
 
 ### High priority sources
 
@@ -67,6 +67,13 @@ Last run: **2026-11-20T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | Center for Data Innovation | [Studying Offshore Wind Farms](https://datainnovation.org/2026/11/studying-offshore-wind-farms/) |
+| 2026-11-20 | Center for Data Innovation | [Revealing Hidden Colors](https://datainnovation.org/2026/11/revealing-hidden-colors/) |
+| 2026-11-20 | The Record (Recorded Future News) | [Container Store restores systems after cyberattack](https://therecord.media/container-store-restores-systems-cyberattack) |
+| 2026-11-20 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-582/) |
+| 2026-11-20 | Center for Data Innovation | [5 Q’s with Nicolas Gutierrez, Chief Operating Officer of Invertix](https://datainnovation.org/2026/11/5-qs-with-nicolas-gutierrez-chief-operating-officer-of-invertix/) |
+| 2026-11-20 | Monte Carlo Blog | [Agent Observability Example: Tracing One Bad Answer to Its Root Cause](https://montecarlo.ai/blog-agent-observability-example) |
+| 2026-11-20 | MIT Technology Review | [The most misunderstood graph in AI just got a major update](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/) |
 | 2026-11-20 | DataHub Blog (open source metadata platform) | [The Best Data Catalog Tools in 2026: Ranked on Metadata People and Agents Can Trust](https://datahub.com/blog/best-data-catalog/) |
 | 2026-11-20 | Monte Carlo Blog | [Agentic Data Quality: Why Your Data Needs It Twice](https://montecarlo.ai/blog-agentic-data-quality) |
 | 2026-11-20 | Google Cloud Blog — Data Analytics | [Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents](https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/) |
@@ -141,7 +148,7 @@ Last run: **2026-11-20T18:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 179× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 180× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

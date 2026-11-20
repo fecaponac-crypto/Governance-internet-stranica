@@ -15,7 +15,7 @@ Countries:
     14  SE
     14  HR
     10  CN
-     2  IT
+     2  NG
 
 Where visitors came from:
     68  (direct)
