@@ -1,15 +1,21 @@
 # Drafts report
 
-Last run: **2026-11-20T09:17:47Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-20T11:44:38Z** · candidates 7 · scored 7 · selected 3 · drafted 3 · failed 0 · queued for next run 0
 
-AI spend this month: **$30.53** of $45 budget (634 calls)
+AI spend this month: **$30.93** of $45 budget (642 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **CNIL seeks feedback from senders and vendors on its email tracking pixel recommendation** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/159
+- ℹ️ not fact-checked **Politico: 2022 US report on telecom network threats released after EPIC records lawsuit** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/160
+- ℹ️ not fact-checked **EPIC obtains CISA-commissioned 2022 report on SS7 and Diameter weaknesses in US telecom networks** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/161
 
 ## Recently skipped by triage
 
+- (1) Senate hold on CISA nominee is political process news, not a governance development in itself; overlaps with item 1 story.
+- (2) Advocacy press release about acquiring the SS7 report; same underlying story as the CISA report release.
+- (2) Duplicate of item 3; same story as the CISA report release.
+- (2) Investigative piece on data brokers endangering stalking victims; privacy practice angle but secondary media coverage with no new regulatory fact.
 - (1) Generic explainer on cloud computing with no data governance angle; test-titled placeholder.
 - (1) Healthcare cancer care story; no data governance angle beyond a passing cyberattack statistic.
 - (1) Social media algorithm and child safety story; no clear data governance, privacy enforcement or AI governance angle from the excerpt.
@@ -21,7 +27,3 @@ _No drafts this run._
 - (1) Opinion column with no concrete news or actionable guidance.
 - (4) Same HIPAA Privacy Rule final rule as the Hunton item; duplicate coverage, best item retained.
 - (1) Vendor blog how-to on metadata frameworks; generic guidance, not news.
-- (2) Class action over third-party tracking pixels on a website; practical privacy risk for website tracking governance.
-- (1) Generic opinion on agentic AI and workflows without actionable governance guidance.
-- (2) Consortium initiative placing governed data at the centre of an AI export strategy; limited practical governance detail.
-- (2) Survey finding on enterprises abandoning agentic AI projects over unclear business value; modest governance relevance.

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-20T11:44:25Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (120)
+## New items, last 48 hours (127)
 
 ### High priority sources
 
@@ -35,6 +35,7 @@ Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | CNIL (France) | [Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation](https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience) |
 | 2026-11-20 | Euractiv | [Crises force a rethink of cancer care, experts warn](https://www.rapporteur.com/news/crises-force-a-rethink-of-cancer-care-experts-warn/) |
 | 2026-11-20 | Euractiv | [The EU is turning up the heat on social media ‘rabbit holes’](https://www.rapporteur.com/news/the-eu-is-turning-up-the-heat-on-social-media-rabbit-holes/) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence SnapLogic Survey Finds Enterprises Abandon Agentic AI Projects Over Unclear Business Value](https://www.cdomagazine.tech/aiml/snaplogic-survey-finds-enterprises-abandon-agentic-ai-projects-over-unclear-business-value) |
@@ -70,6 +71,8 @@ Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-19 | EPIC — Electronic Privacy Information Center | [Politico: US knew of ‘perilous’ telco vulnerabilities years before Salt Typhoon hacks](https://epic.org/politico-us-knew-of-perilous-telco-vulnerabilities-years-before-salt-typhoon-hacks/) |
+| 2026-11-19 | EPIC — Electronic Privacy Information Center | [Nextgov/FCW: Wyden, Tillis plan holds on Trump’s CISA nominee after Jan. 6 remarks](https://epic.org/nextgov-fcw-wyden-tillis-plan-holds-on-trumps-cisa-nominee-after-jan-6-remarks/) |
 | 2026-11-19 | DataHub Blog (open source metadata platform) | [Metadata Management Framework: How to Build One That Stays Current](https://datahub.com/blog/metadata-management-framework/) |
 | 2026-11-19 | Center for Security and Emerging Technology (CSET) | [The Data Is the Target](https://cset.georgetown.edu/article/the-data-is-the-target/) |
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [N. Korean Hackers Use Deepfake Video Calls in $400M FaceStealer Heist](https://www.dataprivacyandsecurityinsider.com/2026/11/n-korean-hackers-use-deepfake-video-calls-in-400m-facestealer-heist/) |
@@ -79,6 +82,9 @@ Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [CA AG Sues OpenAI Alleging Public Nuisance + Unfair Competition](https://www.dataprivacyandsecurityinsider.com/2026/11/ca-ag-sues-openai-alleging-public-nuisance-unfair-competition/) |
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [When AI Agents Cross Silos, Businesses Must Rethink How Work Gets Done](https://www.dataprivacyandsecurityinsider.com/2026/11/when-ai-agents-cross-silos-businesses-must-rethink-how-work-gets-done/) |
 | 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #517 – Identifying Smart Glasses that May be Recording You](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-517-identifying-smart-glasses-that-may-be-recording-you/) |
+| 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle-2/) |
+| 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle/) |
+| 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
 | 2026-11-19 | Monte Carlo Blog | [What Is a Schema Change? Types, Risks, and How to Catch Them](https://montecarlo.ai/blog-what-is-a-schema-change) |
 | 2026-11-19 | Monte Carlo Blog | [What Is a Vector Database? How It Works and Why AI Needs One](https://montecarlo.ai/blog-what-is-a-vector-database) |
 | 2026-11-19 | The Record (Recorded Future News) | [CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack](https://therecord.media/cisa-losapio-nomination-trump) |
@@ -104,6 +110,7 @@ Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
 | 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
+| 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 | 2026-11-18 | Monte Carlo Blog | [What Is an AI Hallucination? Causes, Examples, and Fixes](https://montecarlo.ai/blog-ai-hallucination) |
 | 2026-11-18 | Monte Carlo Blog | [What Are AI Guardrails? Types, Examples, and Limits](https://montecarlo.ai/blog-ai-guardrails) |
 | 2026-11-18 | Precisely Blog | [AI Governance Models: Frameworks, Structures, and Best Practices for Enterprises](https://www.precisely.com/blog/cat-data-governance/ai-governance-models/) |
@@ -141,7 +148,7 @@ Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 175× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 176× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

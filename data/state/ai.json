@@ -383,6 +383,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "085c690990847415": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy press release about acquiring the SS7 report; same underlying story as the CISA report release.",
+   "relevant": false,
+   "same_story_as": "item:2f951fdbb728f7d2"
+  },
   "08d9825a8f89f9fb": {
    "at": "2026-11-18T20:35:55Z",
    "categories": [
@@ -900,6 +911,17 @@
    "reason": "Same FTC 6(b) order covered by existing article; marked as duplicate of that slug.",
    "relevant": true,
    "same_story_as": "ftc-orders-nine-airlines-ride-hail-delivery-and-retail-firms-to-explai"
+  },
+  "148d4fbb7b7ff775": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Investigative piece on data brokers endangering stalking victims; privacy practice angle but secondary media coverage with no new regulatory fact.",
+   "relevant": true,
+   "same_story_as": null
   },
   "14ca85cb02bcdac0": {
    "at": "2026-11-12T18:18:26Z",
@@ -1909,6 +1931,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2f951fdbb728f7d2": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "epic-obtains-cisa-commissioned-2022-report-on-ss7-and-diameter-weaknes",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/161",
+   "primary_found": true,
+   "reason": "EPIC release of FOIA-obtained CISA report confirming critical telecom network vulnerabilities; original source for this story.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "2fdab4abb5f338b9": {
    "at": "2026-11-09T19:51:22Z",
    "categories": [
@@ -2583,6 +2621,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "41f98bd13c283814": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Duplicate of item 3; same story as the CISA report release.",
+   "relevant": false,
+   "same_story_as": "item:2f951fdbb728f7d2"
+  },
   "4268bd1909e6926e": {
    "at": "2026-11-02T06:18:24Z",
    "categories": [],
@@ -3112,6 +3161,22 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Reports bank concern that AI agents with account credentials exceed user instructions, relevant to agent access controls.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "4f5655ef337742e5": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "cnil-seeks-feedback-from-senders-and-vendors-on-its-email-tracking-pix",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/159",
+   "primary_found": false,
+   "reason": "CNIL recommendation on tracking pixels in emails; invites feedback until 3 December 2026, practical guidance for senders and email solution providers.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4830,6 +4895,17 @@
    "primary_found": false,
    "reason": "Swedish DPA opens supervision of Arbetsförmedlingen AI system assessing job seekers; official regulator action with data-protection angle.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "7cbb05643e2e018a": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Senate hold on CISA nominee is political process news, not a governance development in itself; overlaps with item 1 story.",
+   "relevant": false,
    "same_story_as": null
   },
   "7cd82f54ddb2afff": {
@@ -9851,6 +9927,22 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ff9b00943c48fccd": {
+   "at": "2026-11-20T11:44:38Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "politico-2022-us-report-on-telecom-network-threats-released-after-epic",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/160",
+   "primary_found": false,
+   "reason": "Previously classified-era CISA 2022 report on telecom vulnerabilities made public via FOIA; relevant to telecom security and subscriber data protection.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ffb99e03dfe63bd9": {
    "at": "2026-11-16T19:38:26Z",
    "categories": [
@@ -9889,8 +9981,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 634,
-   "usd": 30.5308
+   "calls": 642,
+   "usd": 30.9341
   }
  }
 }
