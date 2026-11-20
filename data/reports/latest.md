@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T11:44:25Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-20T12:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (127)
+## New items, last 48 hours (122)
 
 ### High priority sources
 
@@ -29,12 +29,12 @@ Last run: **2026-11-20T11:44:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [NIMC Act 2026: Transforming Nigeria's digital identity ecosystem](https://iapp.org/news/a/nimc-act-2026-transforming-nigerias-digital-identity-ecosystem) |
 | 2026-11-18 | Hunton Privacy & Information Security Law Blog | [CIPL Publishes Report on How AI-Powered Tools Can Improve Compliance Outcomes and Bolster Accountability](https://www.hunton.com/privacy-and-cybersecurity-law-blog/cipl-publishes-report-on-how-ai-powered-tools-can-improve-compliance-outcomes-and-bolster-accountability) |
 | 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
-| 2026-11-18 | Inside Privacy (Covington & Burling) | [The EU Digital Fairness Act Proposal: European Commission Proposes Major Update of EU Consumer Law](https://www.insideprivacy.com/consumer-protection/the-eu-digital-fairness-act-proposal-european-commission-proposes-major-update-of-eu-consumer-law/) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | CDO Magazine | [Leadership Moves Payal Thakur Joins Supreme Court of Ohio as Chief Information Officer](https://www.cdomagazine.tech/leadership-moves/payal-thakur-joins-supreme-court-of-ohio-as-chief-information-officer) |
 | 2026-11-20 | CNIL (France) | [Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation](https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience) |
 | 2026-11-20 | Euractiv | [Crises force a rethink of cancer care, experts warn](https://www.rapporteur.com/news/crises-force-a-rethink-of-cancer-care-experts-warn/) |
 | 2026-11-20 | Euractiv | [The EU is turning up the heat on social media ‘rabbit holes’](https://www.rapporteur.com/news/the-eu-is-turning-up-the-heat-on-social-media-rabbit-holes/) |
@@ -65,7 +65,6 @@ Last run: **2026-11-20T11:44:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | Privacy World (Squire Patton Boggs) | [The Digital Fairness Act: Redesigning the rules of engagement for digital services](https://www.privacyworld.blog/2026/11/the-digital-fairness-act-redesigning-the-rules-of-engagement-for-digital-services/) |
 | 2026-11-18 | CDO Magazine | [Leadership Moves Sunlife Taps Jason Garay as Chief Data and Analytics Officer](https://www.cdomagazine.tech/leadership-moves/sunlife-taps-jason-garay-as-chief-data-and-analytics-officer) |
 | 2026-11-18 | CNIL (France) | [Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle](https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses) |
-| 2026-11-18 | SiliconANGLE — Big Data | [Exclusive: Wherobots AI agents automate complex spatial data engineering](https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/) |
 
 ### Low priority sources
 
@@ -130,10 +129,6 @@ Last run: **2026-11-20T11:44:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | Precisely Blog | [The modifiable areal unit problem in GIS: same data, different answer](https://www.precisely.com/blog/cat-location-intelligence/the-modifiable-areal-unit-problem-in-gis-same-data-different-answer/) |
 | 2026-11-18 | Computer Weekly — IT security | [I am the passenger: In Brussels at Google’s data sovereignty event](https://www.computerweekly.com/opinion/I-am-the-passenger-In-Brussels-at-Googles-data-sovereignty-event) |
 | 2026-11-18 | InformationWeek | [Strengthen a privacy checklist with failure-path testing](https://www.informationweek.com/data-privacy/strengthen-a-privacy-checklist-with-failure-path-testing) |
-| 2026-11-18 | European Digital Rights (EDRi) | [Participate in the Public Consultation on the European Commission’s KIDS Act Proposal](https://edri.org/our-work/participate-in-the-public-consultation-on-the-european-commissions-kids-act-proposal/) |
-| 2026-11-18 | Computer Weekly — IT security | [Data security, compliance top expected connectivity challenges in 2027](https://www.computerweekly.com/news/366654825/Data-security-compliance-top-expected-connectivity-challenges-in-2027) |
-| 2026-11-18 | Computer Weekly — IT security | [The cyber threats to businesses from ‘Grand Theft Auto VI’](https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI) |
-| 2026-11-18 | The Record (Recorded Future News) | [CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500](https://therecord.media/cisa-issues-java4shell-alert) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
@@ -148,7 +143,7 @@ Last run: **2026-11-20T11:44:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 176× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 177× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

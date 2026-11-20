@@ -214,6 +214,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "0529c2632f7f970d": {
+   "at": "2026-11-20T12:17:58Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring/appointment news without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "054dac34e8988ed7": {
    "at": "2026-11-04T15:19:16Z",
    "categories": [
@@ -9981,8 +9990,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 642,
-   "usd": 30.9341
+   "calls": 643,
+   "usd": 30.9348
   }
  }
 }
