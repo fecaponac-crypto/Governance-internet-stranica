@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T02:21:22Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-20T03:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (127)
+## New items, last 48 hours (129)
 
 ### High priority sources
 
@@ -35,6 +35,8 @@ Last run: **2026-11-20T02:21:22Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | Euractiv | [Crises force a rethink of cancer care, experts warn](https://www.rapporteur.com/news/crises-force-a-rethink-of-cancer-care-experts-warn/) |
+| 2026-11-20 | Euractiv | [The EU is turning up the heat on social media ‘rabbit holes’](https://www.rapporteur.com/news/the-eu-is-turning-up-the-heat-on-social-media-rabbit-holes/) |
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence SnapLogic Survey Finds Enterprises Abandon Agentic AI Projects Over Unclear Business Value](https://www.cdomagazine.tech/aiml/snaplogic-survey-finds-enterprises-abandon-agentic-ai-projects-over-unclear-business-value) |
 | 2026-11-19 | CDO Magazine | [US Federal News Bureau AI INSIGHT Act Would Establish Security Framework for AI Agents on Federal Networks](https://www.cdomagazine.tech/us-federal-news-bureau/ai-insight-act-would-establish-security-framework-for-ai-agents-on-federal-networks) |
 | 2026-11-19 | CDO Magazine | [US Federal News Bureau Salesforce-Led Consortium Puts Governed Data at Center of AI Export Strategy](https://www.cdomagazine.tech/us-federal-news-bureau/salesforce-led-consortium-puts-governed-data-at-center-of-ai-export-strategy) |
@@ -148,7 +150,7 @@ Last run: **2026-11-20T02:21:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 172× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 173× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

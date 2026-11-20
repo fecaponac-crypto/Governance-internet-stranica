@@ -6528,6 +6528,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b01f8526dc73d1e3": {
+   "at": "2026-11-20T03:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Healthcare cancer care story; no data governance angle beyond a passing cyberattack statistic.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "b0769e790abbf970": {
    "at": "2026-11-19T11:44:11Z",
    "categories": [
@@ -7952,6 +7961,15 @@
    "primary_found": false,
    "reason": "Digital Omnibus is a major pending GDPR change; noyb analysis of Parliament amendments shows legislative process positions, though it is advocacy ranking from a complainant organisation.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "d030bfe2470fb1b8": {
+   "at": "2026-11-20T03:17:45Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Social media algorithm and child safety story; no clear data governance, privacy enforcement or AI governance angle from the excerpt.",
+   "relevant": false,
    "same_story_as": null
   },
   "d037ed9023380d4f": {
@@ -9862,8 +9880,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 632,
-   "usd": 30.5294
+   "calls": 633,
+   "usd": 30.5301
   }
  }
 }
