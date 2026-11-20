@@ -335,8 +335,8 @@ Na `/enforcement/` iznad tablice stoji blok „The tracker in numbers”: sluča
 ## 10a-1. Standard točnosti (odluka 25. 10. 2026.)
 
 - Za sekundarne vijesti automatski se traži i čita **primarni izvor** (web ili PDF) i citira se prvi.
-- **Provjera činjenica** (svaka tvrdnja prema izvorima) za vijesti **važnosti 3–5** (od 3. 11. 2026.; prije 4–5); za važnost 1–2 urednik dobiva napomenu da sam provjeri ključne činjenice.
-- Mjesečni limit AI troška je **45 $** (12 $, pa 25 $ od 7. 11., 35 $ od 16. 11. i 45 $ od 19. 11. 2026.; stvarni trošak ~30–35 $ mjesečno uz oko 30 vijesti tjedno uz provjeru za važnost 3, provjeru svježine i automatske ispravke); kad se dosegne, odabrane vijesti čekaju sljedeći mjesec.
+- **Provjera činjenica** (svaka tvrdnja prema izvorima) za vijesti **važnosti 4–5** (od 20. 11. 2026. ponovno; od 3. do 19. 11. bila je 3–5). Nacrte važnosti 3 i niže pri pregledu pulla ručno provjerava Claude prema izvorima; PR nosi napomenu da automatska provjera nije pokrenuta.
+- Mjesečni limit AI troška je **45 $** (12 $, pa 25 $ od 7. 11., 35 $ od 16. 11. i 45 $ od 19. 11. 2026.; stvarni trošak ~30–35 $ mjesečno uz oko 30 vijesti tjedno uz provjeru svježine i automatske ispravke); kad se dosegne, odabrane vijesti čekaju sljedeći mjesec.
 - **Modeli (5. 11. 2026.):** trijaža Haiku 5.5, pisanje i automatska ispravka Opus 5.5, provjera činjenica i provjera svježine Sonnet 5.5 (upola jeftiniji od Opusa; odluka urednika radi troška).
 
 ## 10b. Pilot (od 24. 10. 2026., 1–2 tjedna) i priprema lansiranja
