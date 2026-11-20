@@ -4279,6 +4279,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6fe8778b03aef9f6": {
+   "at": "2026-11-20T02:21:53Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Same story as the existing article on HHS finalising HIPAA Privacy Rule changes and the shortened access-request deadline.",
+   "relevant": false,
+   "same_story_as": "us-hhs-finalises-hipaa-privacy-rule-changes-cutting-access-request-dea"
+  },
   "7026e8e99dff8471": {
    "at": "2026-11-04T12:18:37Z",
    "categories": [],
@@ -9851,8 +9862,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 631,
-   "usd": 30.5286
+   "calls": 632,
+   "usd": 30.5294
   }
  }
 }

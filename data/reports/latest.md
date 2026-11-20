@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-20T00:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-20T02:21:22Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (126)
+## New items, last 48 hours (127)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | Inside Privacy (Covington & Burling) | [HHS Finalizes Changes to the HIPAA Privacy Rule](https://www.insideprivacy.com/health-privacy/hhs-finalizes-changes-to-the-hipaa-privacy-rule/) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Don't plan for the future, define it](https://iapp.org/news/a/a-view-from-brussels-don-t-plan-for-the-future-define-it) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [EU, US officials unmoved by litigation potentially impacting Data Privacy Framework](https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: China marks PIPL's 5th anniversary, Hong Kong clarifies AI requirements](https://iapp.org/news/a/notes-from-the-asia-pacific-region-china-marks-pipls-5th-anniversary-hong-kong-clarifies-ai-requirements) |
@@ -147,7 +148,7 @@ Last run: **2026-11-20T00:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 171× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 172× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

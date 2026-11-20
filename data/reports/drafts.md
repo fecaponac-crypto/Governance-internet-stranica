@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-20T00:17:43Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-20T02:21:53Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$30.53** of $45 budget (631 calls)
+AI spend this month: **$30.53** of $45 budget (632 calls)
 
 ## This run
 
@@ -10,8 +10,9 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
-- (1) Media interview on chip export investigation with no data governance angle.
+- (3) Same story as the existing article on HHS finalising HIPAA Privacy Rule changes and the shortened access-request deadline.
 - (1) Semiconductor export controls story with no data governance, privacy or AI governance angle.
+- (1) Media interview on chip export investigation with no data governance angle.
 - (1) Op-ed on military AI and data manipulation; opinion piece with no concrete governance development or practitioner guidance for data governance.
 - (1) Crypto heist social engineering story without a data governance angle.
 - (1) Opinion column with no concrete news or actionable guidance.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Consumer privacy tip listicle, not news.
 - (1) Consumer design lawsuit about sportsbook button design, not a data governance story.
 - (1) Vendor glossary explainer on tool calling.
-- (2) Law-firm explainer on app store age verification laws; reading of rules but not a new development beyond explanation.
