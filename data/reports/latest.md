@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T06:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-20T09:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (124)
+## New items, last 48 hours (120)
 
 ### High priority sources
 
@@ -63,11 +63,8 @@ Last run: **2026-11-20T06:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | SiliconANGLE — Big Data | [Tesorai raises $5.3M to feed starving AI models with biological data and accelerate drug discovery](https://siliconangle.com/2026/11/18/tesorai-raises-5-3m-to-feed-starving-ai-models-with-biological-data-and-accelerate-drug-discovery/) |
 | 2026-11-18 | Privacy World (Squire Patton Boggs) | [The Digital Fairness Act: Redesigning the rules of engagement for digital services](https://www.privacyworld.blog/2026/11/the-digital-fairness-act-redesigning-the-rules-of-engagement-for-digital-services/) |
 | 2026-11-18 | CDO Magazine | [Leadership Moves Sunlife Taps Jason Garay as Chief Data and Analytics Officer](https://www.cdomagazine.tech/leadership-moves/sunlife-taps-jason-garay-as-chief-data-and-analytics-officer) |
-| 2026-11-18 | CNIL (France) | [Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros](https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros) |
 | 2026-11-18 | CNIL (France) | [Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle](https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses) |
 | 2026-11-18 | SiliconANGLE — Big Data | [Exclusive: Wherobots AI agents automate complex spatial data engineering](https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/) |
-| 2026-11-18 | DATAVERSITY | [Building a Modern Data Architecture for Analytics and AI](https://www.dataversity.net/articles/the-importance-of-a-modern-data-architecture/) |
-| 2026-11-18 | Euractiv | [THE HACK: How many cloud sovereignty tiers?](https://www.rapporteur.com/news/the-hack-how-many-cloud-sovereignty-tiers/) |
 
 ### Low priority sources
 
@@ -129,9 +126,8 @@ Last run: **2026-11-20T06:17:29Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | European Digital Rights (EDRi) | [Participate in the Public Consultation on the European Commission’s KIDS Act Proposal](https://edri.org/our-work/participate-in-the-public-consultation-on-the-european-commissions-kids-act-proposal/) |
 | 2026-11-18 | Computer Weekly — IT security | [Data security, compliance top expected connectivity challenges in 2027](https://www.computerweekly.com/news/366654825/Data-security-compliance-top-expected-connectivity-challenges-in-2027) |
 | 2026-11-18 | Computer Weekly — IT security | [The cyber threats to businesses from ‘Grand Theft Auto VI’](https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI) |
-| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/what-is-cloud-computing--test) |
-| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing--test) |
 | 2026-11-18 | The Record (Recorded Future News) | [CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500](https://therecord.media/cisa-issues-java4shell-alert) |
+| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
 | 2026-11-13 | EPIC — Electronic Privacy Information Center | [Now is Not the Time to Limit Cyber Liability and State Enforcement](https://epic.org/now-is-not-the-time-to-limit-cyber-liability-and-state-enforcement/) |
@@ -145,7 +141,7 @@ Last run: **2026-11-20T06:17:29Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 174× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 175× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

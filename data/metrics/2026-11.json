@@ -1,27 +1,27 @@
 {
  "month": "2026-11",
- "updated": "2026-11-20T06:17:44Z",
+ "updated": "2026-11-20T09:17:51Z",
  "portal": {
   "published_total": 138,
   "published_this_month": 95,
   "published_this_month_by_importance": {
-   "2": 15,
    "3": 60,
+   "2": 15,
    "4": 19,
    "5": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 600,
-  "runs": 215,
-  "runs_with_failed_sources": 189,
+  "items_collected": 601,
+  "runs": 216,
+  "runs_with_failed_sources": 190,
   "triage_decisions": {
    "drafted": 106,
-   "skipped": 478,
+   "skipped": 479,
    "failed": 17
   },
-  "ai_spend_usd": 30.5301,
+  "ai_spend_usd": 30.5308,
   "sources_active": 81,
   "sources_failing_now": 1
  },
@@ -143,11 +143,11 @@
     "page_views": 20
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/opinion/",
     "page_views": 20
    },
    {
-    "requestPath": "/opinion/",
+    "requestPath": "/category/ai-governance/",
     "page_views": 20
    },
    {

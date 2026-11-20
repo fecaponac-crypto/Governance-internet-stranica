@@ -301,3 +301,4 @@
 {"run": "2026-11-20T02:21:22Z", "seconds": 30, "sources": 81, "failed": 1, "fetched": 8014, "too_old": 6908, "known": 1103, "filtered": 2, "new": 1, "baseline": 0}
 {"run": "2026-11-20T03:17:31Z", "seconds": 12, "sources": 81, "failed": 1, "fetched": 8014, "too_old": 6909, "known": 1097, "filtered": 6, "new": 2, "baseline": 0}
 {"run": "2026-11-20T06:17:29Z", "seconds": 12, "sources": 81, "failed": 1, "fetched": 8014, "too_old": 6909, "known": 1104, "filtered": 1, "new": 0, "baseline": 0}
+{"run": "2026-11-20T09:17:29Z", "seconds": 17, "sources": 81, "failed": 1, "fetched": 8015, "too_old": 6911, "known": 1095, "filtered": 8, "new": 1, "baseline": 0}

@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-20T06:17:42Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-20T09:17:47Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$30.53** of $45 budget (633 calls)
+AI spend this month: **$30.53** of $45 budget (634 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Generic explainer on cloud computing with no data governance angle; test-titled placeholder.
 - (1) Healthcare cancer care story; no data governance angle beyond a passing cyberattack statistic.
 - (1) Social media algorithm and child safety story; no clear data governance, privacy enforcement or AI governance angle from the excerpt.
 - (3) Same story as the existing article on HHS finalising HIPAA Privacy Rule changes and the shortened access-request deadline.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Generic opinion on agentic AI and workflows without actionable governance guidance.
 - (2) Consortium initiative placing governed data at the centre of an AI export strategy; limited practical governance detail.
 - (2) Survey finding on enterprises abandoning agentic AI projects over unclear business value; modest governance relevance.
-- (1) Consumer privacy tip listicle, not news.

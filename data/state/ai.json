@@ -9415,6 +9415,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f61e2cfd61424fd9": {
+   "at": "2026-11-20T09:17:47Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic explainer on cloud computing with no data governance angle; test-titled placeholder.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f68b4dee705a01f8": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -9880,8 +9889,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 633,
-   "usd": 30.5301
+   "calls": 634,
+   "usd": 30.5308
   }
  }
 }
