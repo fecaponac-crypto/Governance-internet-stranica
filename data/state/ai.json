@@ -2957,6 +2957,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4bf077820ef21a31": {
+   "at": "2026-11-20T00:17:43Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Semiconductor export controls story with no data governance, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4c1302a07aad978a": {
    "at": "2026-11-03T09:18:33Z",
    "categories": [
@@ -9503,6 +9512,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "f942467fa11cc6e9": {
+   "at": "2026-11-20T00:17:43Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Media interview on chip export investigation with no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f98e64db3340979f": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [
@@ -9833,8 +9851,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 630,
-   "usd": 30.5279
+   "calls": 631,
+   "usd": 30.5286
   }
  }
 }
