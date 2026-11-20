@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-20T12:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-20T15:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (122)
+## New items, last 48 hours (118)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | IAPP — International Association of Privacy Professionals | [UK lawmakers question Big Tech representatives on OSA compliance work](https://iapp.org/news/a/uk-lawmakers-question-big-tech-representatives-on-osa-compliance-work) |
+| 2026-11-20 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Who gets to decide what is true about you?](https://iapp.org/news/a/notes-from-the-iapp-canada-who-gets-to-decide-what-is-true-about-you) |
 | 2026-11-20 | Inside Privacy (Covington & Burling) | [HHS Finalizes Changes to the HIPAA Privacy Rule](https://www.insideprivacy.com/health-privacy/hhs-finalizes-changes-to-the-hipaa-privacy-rule/) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Don't plan for the future, define it](https://iapp.org/news/a/a-view-from-brussels-don-t-plan-for-the-future-define-it) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [EU, US officials unmoved by litigation potentially impacting Data Privacy Framework](https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework) |
@@ -26,14 +28,16 @@ Last run: **2026-11-20T12:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [Global DPAs: 'Our job is to do our job' amid innovation-driven digital landscape](https://iapp.org/news/a/global-dpas-our-job-is-to-do-our-job-amid-innovation-driven-digital-landscape) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [World models for lawyers](https://iapp.org/news/a/world-models-for-lawyers) |
 | 2026-11-18 | IAPP — International Association of Privacy Professionals | [Resilient by design: When AI changes faster than its controls](https://iapp.org/news/a/resilient-by-design-when-ai-changes-faster-than-its-controls) |
-| 2026-11-18 | IAPP — International Association of Privacy Professionals | [NIMC Act 2026: Transforming Nigeria's digital identity ecosystem](https://iapp.org/news/a/nimc-act-2026-transforming-nigerias-digital-identity-ecosystem) |
 | 2026-11-18 | Hunton Privacy & Information Security Law Blog | [CIPL Publishes Report on How AI-Powered Tools Can Improve Compliance Outcomes and Bolster Accountability](https://www.hunton.com/privacy-and-cybersecurity-law-blog/cipl-publishes-report-on-how-ai-powered-tools-can-improve-compliance-outcomes-and-bolster-accountability) |
-| 2026-11-18 | Autoriteit Persoonsgegevens (Netherlands) | [Cornélie Koguciuk wint AP-scriptieprijs 2026](https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | CDO Magazine | [Community AI Has the Data. Does It Understand the Business? Columbus Executives Examine the Context Challenge](https://www.cdomagazine.tech/community/ai-has-the-data-does-it-understand-the-business-columbus-executives-examine-the-context-challenge) |
+| 2026-11-20 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Ralph Lauren, Sun Life, and EnerSys](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-ralph-lauren-sun-life-and-enersys) |
+| 2026-11-20 | Alation Blog | [November 20, 2026 Plan for Fifty Rulebooks: What The Midterms Mean For Enterprise AI Governance Voters want a share of AI’s gains, and states want someone accountable. Here’s why provenance and governed data will… Read More](https://www.alation.com/blog/state-ai-regulation-data-ai-governance/) |
+| 2026-11-20 | Future of Privacy Forum | [New FPF Infographic Examines Key Privacy Concerns and Barriers to AgeTech Adoption Among Older Adults](https://fpf.org/press-releases/new-fpf-infographic-examines-key-privacy-concerns-and-barriers-to-agetech-adoption-among-older-adults/) |
 | 2026-11-20 | CDO Magazine | [Leadership Moves Payal Thakur Joins Supreme Court of Ohio as Chief Information Officer](https://www.cdomagazine.tech/leadership-moves/payal-thakur-joins-supreme-court-of-ohio-as-chief-information-officer) |
 | 2026-11-20 | CNIL (France) | [Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation](https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience) |
 | 2026-11-20 | Euractiv | [Crises force a rethink of cancer care, experts warn](https://www.rapporteur.com/news/crises-force-a-rethink-of-cancer-care-experts-warn/) |
@@ -58,18 +62,12 @@ Last run: **2026-11-20T12:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | CDO Magazine | [US Federal News Bureau California Proposes Mandatory AI Safety Standards, Independent Oversight and Emergency Shutdown Authority](https://www.cdomagazine.tech/us-federal-news-bureau/california-proposes-mandatory-ai-safety-standards-independent-oversight-and-emergency-shutdown-authority) |
 | 2026-11-18 | CDO Magazine | [Data Management Agentic AI Moves the Control From People to Data: Cencora’s Jig Patel on Building Data Trust](https://www.cdomagazine.tech/data-management/agentic-ai-moves-the-control-from-people-to-data-cencoras-jig-patel-on-building-data-trust) |
 | 2026-11-18 | Alation Blog | [November 18, 2026 What Is Data Curation? Why Is It Important? Manual curation can’t keep up with growing data, and AI agents need context humans never documented. Here’s how teams… Read More](https://www.alation.com/blog/what-is-data-curation/) |
-| 2026-11-18 | OneTrust Blog | [Understanding Consent Manager Registration and CMP Requirements Under India's DPDPA Consent & Preferences](https://www.onetrust.com/blog/understanding-consent-manager-registration-and-cmp-requirements-under-indias-dpdpa/) |
-| 2026-11-18 | DAMA International | [🏆 The 2026 DAMA Chapter Award Winners](https://dama.org/2026/11/18/the-2026-dama-chapter-award-winners/) |
-| 2026-11-18 | CDO Magazine | [Artificial Intelligence Beyond AI Copilots: Building Decision-Ready Intelligence in Banking](https://www.cdomagazine.tech/aiml/beyond-ai-copilots-building-decision-ready-intelligence-in-banking) |
-| 2026-11-18 | SiliconANGLE — Big Data | [Tesorai raises $5.3M to feed starving AI models with biological data and accelerate drug discovery](https://siliconangle.com/2026/11/18/tesorai-raises-5-3m-to-feed-starving-ai-models-with-biological-data-and-accelerate-drug-discovery/) |
-| 2026-11-18 | Privacy World (Squire Patton Boggs) | [The Digital Fairness Act: Redesigning the rules of engagement for digital services](https://www.privacyworld.blog/2026/11/the-digital-fairness-act-redesigning-the-rules-of-engagement-for-digital-services/) |
-| 2026-11-18 | CDO Magazine | [Leadership Moves Sunlife Taps Jason Garay as Chief Data and Analytics Officer](https://www.cdomagazine.tech/leadership-moves/sunlife-taps-jason-garay-as-chief-data-and-analytics-officer) |
-| 2026-11-18 | CNIL (France) | [Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle](https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | The Record (Recorded Future News) | [Dozens of credit unions hit by supplier breach that went unnoticed for six weeks](https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [Politico: US knew of ‘perilous’ telco vulnerabilities years before Salt Typhoon hacks](https://epic.org/politico-us-knew-of-perilous-telco-vulnerabilities-years-before-salt-typhoon-hacks/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [Nextgov/FCW: Wyden, Tillis plan holds on Trump’s CISA nominee after Jan. 6 remarks](https://epic.org/nextgov-fcw-wyden-tillis-plan-holds-on-trumps-cisa-nominee-after-jan-6-remarks/) |
 | 2026-11-19 | DataHub Blog (open source metadata platform) | [Metadata Management Framework: How to Build One That Stays Current](https://datahub.com/blog/metadata-management-framework/) |
@@ -126,9 +124,7 @@ Last run: **2026-11-20T12:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | Precisely Blog | [Why data quality for AI is now a board-level issue](https://www.precisely.com/blog/ai-ready-data/why-data-quality-for-ai-is-now-a-board-level-issue/) |
 | 2026-11-18 | DataHub Blog (open source metadata platform) | [Context Infrastructure for AI Agents: What It Takes to Keep Context True](https://datahub.com/blog/context-infrastructure-for-ai-agents/) |
 | 2026-11-18 | The Record (Recorded Future News) | [Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says](https://therecord.media/russia-cyber-espionage-google) |
-| 2026-11-18 | Precisely Blog | [The modifiable areal unit problem in GIS: same data, different answer](https://www.precisely.com/blog/cat-location-intelligence/the-modifiable-areal-unit-problem-in-gis-same-data-different-answer/) |
 | 2026-11-18 | Computer Weekly — IT security | [I am the passenger: In Brussels at Google’s data sovereignty event](https://www.computerweekly.com/opinion/I-am-the-passenger-In-Brussels-at-Googles-data-sovereignty-event) |
-| 2026-11-18 | InformationWeek | [Strengthen a privacy checklist with failure-path testing](https://www.informationweek.com/data-privacy/strengthen-a-privacy-checklist-with-failure-path-testing) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
@@ -143,7 +139,7 @@ Last run: **2026-11-20T12:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 177× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 178× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

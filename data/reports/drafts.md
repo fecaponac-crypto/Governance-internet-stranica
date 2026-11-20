@@ -1,15 +1,21 @@
 # Drafts report
 
-Last run: **2026-11-20T12:17:58Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-20T15:17:44Z** · candidates 7 · scored 7 · selected 2 · drafted 2 · failed 0 · queued for next run 0
 
-AI spend this month: **$30.93** of $45 budget (643 calls)
+AI spend this month: **$31.14** of $45 budget (648 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **Supplier breach at Wellington IT exposes payee details of members of more than 40 Irish credit unions** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/162
+- ℹ️ not fact-checked **House of Lords committee questions Google, Meta and Roblox on Online Safety Act compliance** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/163
 
 ## Recently skipped by triage
 
+- (1) Conference notes with no concrete governance development in the title or excerpt.
+- (1) Executive panel commentary on context challenges; generic thought leadership without concrete guidance.
+- (1) Hiring and leadership moves news, not relevant to governance practice.
+- (1) Vendor blog commentary on midterms and AI governance; generic marketing-style opinion.
+- (1) Advocacy infographic release with no regulatory or enforcement development.
 - (1) Hiring/appointment news without a data governance angle.
 - (2) Advocacy press release about acquiring the SS7 report; same underlying story as the CISA report release.
 - (2) Investigative piece on data brokers endangering stalking victims; privacy practice angle but secondary media coverage with no new regulatory fact.
@@ -20,8 +26,3 @@ _No drafts this run._
 - (1) Social media algorithm and child safety story; no clear data governance, privacy enforcement or AI governance angle from the excerpt.
 - (3) Same story as the existing article on HHS finalising HIPAA Privacy Rule changes and the shortened access-request deadline.
 - (1) Semiconductor export controls story with no data governance, privacy or AI governance angle.
-- (1) Media interview on chip export investigation with no data governance angle.
-- (1) Op-ed on military AI and data manipulation; opinion piece with no concrete governance development or practitioner guidance for data governance.
-- (1) Crypto heist social engineering story without a data governance angle.
-- (1) Opinion column with no concrete news or actionable guidance.
-- (4) Same HIPAA Privacy Rule final rule as the Hunton item; duplicate coverage, best item retained.

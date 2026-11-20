@@ -1292,6 +1292,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "200a3ce7a9e1a850": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Advocacy infographic release with no regulatory or enforcement development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "200bd2a0a7acb8c0": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [
@@ -1425,6 +1436,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Espionage and export-control story about an individual with no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "22b228f83af591e8": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog commentary on midterms and AI governance; generic marketing-style opinion.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2641,6 +2663,17 @@
    "relevant": false,
    "same_story_as": "item:2f951fdbb728f7d2"
   },
+  "4263a7b764999ced": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring and leadership moves news, not relevant to governance practice.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "4268bd1909e6926e": {
    "at": "2026-11-02T06:18:24Z",
    "categories": [],
@@ -2940,6 +2973,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Google research on threat actor AI use is a research finding on security posture, but lower practitioner action relevance; specialist IT security media with some substance.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "4a7b5a6955d7aeea": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "house-of-lords-committee-questions-google-meta-and-roblox-on-online-sa",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/163",
+   "primary_found": true,
+   "reason": "UK parliamentary scrutiny of Big Tech compliance with the Online Safety Act; regulatory oversight with some data relevance, but limited governance detail in the title.",
    "relevant": true,
    "same_story_as": null
   },
@@ -7473,6 +7523,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c21f2f095f9f04c9": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "security",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "supplier-breach-at-wellington-it-exposes-payee-details-of-members-of-m",
+   "flagged": 0,
+   "importance": 4,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/162",
+   "primary_found": true,
+   "reason": "Supplier breach affecting dozens of credit unions with DPC breach notifications; concrete processor oversight lesson for practitioners.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "c292043bc86ef8fd": {
    "at": "2026-11-02T22:44:52Z",
    "categories": [
@@ -8865,6 +8932,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e4707adc5def635c": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conference notes with no concrete governance development in the title or excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e4d9869d423dfd36": {
    "at": "2026-11-13T18:17:41Z",
    "categories": [],
@@ -9279,6 +9357,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Personnel nomination for CISA without a data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f00ef0bbbc4255f2": {
+   "at": "2026-11-20T15:17:44Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive panel commentary on context challenges; generic thought leadership without concrete guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9990,8 +10079,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 643,
-   "usd": 30.9348
+   "calls": 648,
+   "usd": 31.1401
   }
  }
 }
