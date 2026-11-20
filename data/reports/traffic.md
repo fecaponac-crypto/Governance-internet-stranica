@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-20T03:17:48Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-20T06:17:44Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**690 visits · 780 page views** this month (bots excluded)
+**720 visits · 820 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -22,6 +22,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-16 | 30 | 50 |
 | 2026-11-18 | 20 | 20 |
 | 2026-11-19 | 40 | 50 |
+| 2026-11-20 | 30 | 40 |
 
 ## Top pages
 
@@ -33,12 +34,12 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
 - /institutions/edpb/ — 20
 - /category/ai-governance/ — 20
-- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
 - /opinion/ — 20
+- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
 
 ## Countries
 
-- US — 400
+- US — 440
 - HR — 60
 - CN — 40
 - SE — 40
@@ -51,8 +52,8 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 640
-- datagovernancesignal.com — 90
+- (direct) — 670
+- datagovernancesignal.com — 100
 - www.google.com — 20
 - teams.public.onecdn.static.microsoft — 10
 - www.facebook.com — 10

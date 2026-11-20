@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T03:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-20T06:17:29Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (129)
+## New items, last 48 hours (124)
 
 ### High priority sources
 
@@ -68,11 +68,6 @@ Last run: **2026-11-20T03:17:31Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-18 | SiliconANGLE — Big Data | [Exclusive: Wherobots AI agents automate complex spatial data engineering](https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/) |
 | 2026-11-18 | DATAVERSITY | [Building a Modern Data Architecture for Analytics and AI](https://www.dataversity.net/articles/the-importance-of-a-modern-data-architecture/) |
 | 2026-11-18 | Euractiv | [THE HACK: How many cloud sovereignty tiers?](https://www.rapporteur.com/news/the-hack-how-many-cloud-sovereignty-tiers/) |
-| 2026-11-18 | CDO Magazine | [Artificial Intelligence NASCIO Survey Finds Gaps in AI Governance, Data Readiness Across State Governments](https://www.cdomagazine.tech/aiml/nascio-survey-finds-gaps-in-ai-governance-data-readiness-across-state-governments) |
-| 2026-11-18 | CDO Magazine | [US Federal News Bureau FBI Warns AI-Powered Hacking Tool Can Breach Networks in Under Three Hours](https://www.cdomagazine.tech/us-federal-news-bureau/fbi-warns-ai-powered-hacking-tool-can-breach-networks-in-under-three-hours) |
-| 2026-11-18 | Forrester Blogs | [DORA: Avoid The Compliance-As-A-Strategy Approach](https://www.forrester.com/blogs/dora-avoid-the-compliance-as-a-strategy-approach/) |
-| 2026-11-18 | Euractiv | [Key cloud lawmaker mulls deleting highest sovereignty tier](https://www.rapporteur.com/news/key-cloud-lawmaker-mulls-deleting-highest-sovereignty-tier/) |
-| 2026-11-18 | Databricks Blog | [How we raised Databricks cluster rate limits by 7.5×](https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75) |
 
 ### Low priority sources
 
@@ -150,7 +145,7 @@ Last run: **2026-11-20T03:17:31Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 173× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 174× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
