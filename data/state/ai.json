@@ -9658,6 +9658,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f0b8696c25c4c4a7": {
+   "at": "2026-11-21T00:17:45Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cyber incident at a state legislature; no data governance angle beyond a general outage and no details on data affected.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f0fa325f946c1a3a": {
    "at": "2026-11-20T18:17:39Z",
    "categories": [
@@ -10349,8 +10360,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 660,
-   "usd": 31.6613
+   "calls": 661,
+   "usd": 31.662
   }
  }
 }

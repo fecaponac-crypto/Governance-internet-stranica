@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-20T21:17:23Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-21T00:17:31Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (119)
+## New items, last 48 hours (116)
 
 ### High priority sources
 
@@ -61,12 +61,12 @@ Last run: **2026-11-20T21:17:23Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Euractiv | [INTERVIEW: French cloud CEO slams ‘dishonest’ EU sovereign criteria](https://www.rapporteur.com/news/french-cloud-ceo-slams-dishonest-eu-sovereign-criteria/) |
 | 2026-11-19 | Euractiv | [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) |
 | 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
-| 2026-11-18 | Forrester Blogs | [AI ROI: Move From Minutes Saved To Value Created](https://www.forrester.com/blogs/ai-roi-move-from-minutes-saved-to-value-created/) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-20 | The Record (Recorded Future News) | [West Virginia Legislature hit with cyber incident affecting IT systems](https://therecord.media/west-virginia-legislature-cyberattack) |
 | 2026-11-20 | Center for Data Innovation | [Studying Offshore Wind Farms](https://datainnovation.org/2026/11/studying-offshore-wind-farms/) |
 | 2026-11-20 | Center for Data Innovation | [Revealing Hidden Colors](https://datainnovation.org/2026/11/revealing-hidden-colors/) |
 | 2026-11-20 | The Record (Recorded Future News) | [Container Store restores systems after cyberattack](https://therecord.media/container-store-restores-systems-cyberattack) |
@@ -122,10 +122,7 @@ Last run: **2026-11-20T21:17:23Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Semarchy Blog | [Data Product Examples: 7 Types with Practical Use Cases](https://semarchy.com/blog/data-product-examples/) |
 | 2026-11-19 | European Digital Rights (EDRi) | [One year later, a broad coalition tells EU lawmakers: do not simplify away people’s rights with the Digital Omnibus](https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/) |
 | 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
-| 2026-11-18 | AWS Big Data Blog | [Long-term Amazon Redshift observability with Datadog and Amazon S3 Tables](https://aws.amazon.com/blogs/big-data/long-term-amazon-redshift-observability-with-datadog-and-amazon-s3-tables/) |
-| 2026-11-18 | Data Engineering Weekly | [Thoughts on Verification Engineering in the Agentic SDLC](https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
-| 2026-11-18 | Computer Weekly — IT security | [US tech outages spark conversation on resilience in the age of AI](https://www.computerweekly.com/news/366654898/US-tech-outages-spark-conversation-on-resilience-in-the-age-of-AI) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
@@ -140,7 +137,7 @@ Last run: **2026-11-20T21:17:23Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 181× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 182× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
