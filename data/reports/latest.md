@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T19:19:15Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T21:17:28Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (62)
+## New items, last 48 hours (49)
 
 ### High priority sources
 
@@ -13,8 +13,6 @@ Last run: **2026-11-21T19:19:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Who gets to decide what is true about you?](https://iapp.org/news/a/notes-from-the-iapp-canada-who-gets-to-decide-what-is-true-about-you) |
 | 2026-11-20 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Opens Public Comment Period on Proposed Data Broker Updates and DROP Audit Requirements](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-opens-public-comment-period-on-proposed-data-broker-updates-and-drop-audit-requirements) |
 | 2026-11-20 | Inside Privacy (Covington & Burling) | [HHS Finalizes Changes to the HIPAA Privacy Rule](https://www.insideprivacy.com/health-privacy/hhs-finalizes-changes-to-the-hipaa-privacy-rule/) |
-| 2026-11-19 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Don't plan for the future, define it](https://iapp.org/news/a/a-view-from-brussels-don-t-plan-for-the-future-define-it) |
-| 2026-11-19 | Hunton Privacy & Information Security Law Blog | [HHS Finalizes HIPAA Privacy Rule Changes to Support Care Coordination and Individual Access](https://www.hunton.com/privacy-and-cybersecurity-law-blog/hhs-finalizes-hipaa-privacy-rule-changes-to-support-care-coordination-and-individual-access) |
 
 ### Medium priority sources
 
@@ -35,9 +33,6 @@ Last run: **2026-11-21T19:19:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | CNIL (France) | [48e Assemblée mondiale pour la protection de la vie privée (GPA)](https://www.cnil.fr/fr/48e-gpa) |
 | 2026-11-20 | Euractiv | [Crises force a rethink of cancer care, experts warn](https://www.rapporteur.com/news/crises-force-a-rethink-of-cancer-care-experts-warn/) |
 | 2026-11-20 | Euractiv | [The EU is turning up the heat on social media ‘rabbit holes’](https://www.rapporteur.com/news/the-eu-is-turning-up-the-heat-on-social-media-rabbit-holes/) |
-| 2026-11-19 | CDO Magazine | [Artificial Intelligence SnapLogic Survey Finds Enterprises Abandon Agentic AI Projects Over Unclear Business Value](https://www.cdomagazine.tech/aiml/snaplogic-survey-finds-enterprises-abandon-agentic-ai-projects-over-unclear-business-value) |
-| 2026-11-19 | CDO Magazine | [US Federal News Bureau AI INSIGHT Act Would Establish Security Framework for AI Agents on Federal Networks](https://www.cdomagazine.tech/us-federal-news-bureau/ai-insight-act-would-establish-security-framework-for-ai-agents-on-federal-networks) |
-| 2026-11-19 | CDO Magazine | [US Federal News Bureau Salesforce-Led Consortium Puts Governed Data at Center of AI Export Strategy](https://www.cdomagazine.tech/us-federal-news-bureau/salesforce-led-consortium-puts-governed-data-at-center-of-ai-export-strategy) |
 
 ### Low priority sources
 
@@ -64,15 +59,7 @@ Last run: **2026-11-21T19:19:15Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | Computer Weekly — IT security | [FCA lines up new cyber guidance for UK financial services sector](https://www.computerweekly.com/news/366655173/FCA-lines-up-new-cyber-guidance-for-UK-financial-services-sector) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [Politico: US knew of ‘perilous’ telco vulnerabilities years before Salt Typhoon hacks](https://epic.org/politico-us-knew-of-perilous-telco-vulnerabilities-years-before-salt-typhoon-hacks/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [Nextgov/FCW: Wyden, Tillis plan holds on Trump’s CISA nominee after Jan. 6 remarks](https://epic.org/nextgov-fcw-wyden-tillis-plan-holds-on-trumps-cisa-nominee-after-jan-6-remarks/) |
-| 2026-11-19 | DataHub Blog (open source metadata platform) | [Metadata Management Framework: How to Build One That Stays Current](https://datahub.com/blog/metadata-management-framework/) |
 | 2026-11-19 | Center for Security and Emerging Technology (CSET) | [The Data Is the Target](https://cset.georgetown.edu/article/the-data-is-the-target/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [N. Korean Hackers Use Deepfake Video Calls in $400M FaceStealer Heist](https://www.dataprivacyandsecurityinsider.com/2026/11/n-korean-hackers-use-deepfake-video-calls-in-400m-facestealer-heist/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [DraftKings and Dark Patterns: A Bad Bet on Button Design](https://www.dataprivacyandsecurityinsider.com/2026/11/draftkings-and-dark-patterns-a-bad-bet-on-button-design/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Lessons from the Polymarket Pixel Lawsuit](https://www.dataprivacyandsecurityinsider.com/2026/11/lessons-from-the-polymarket-pixel-lawsuit/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [HHS Issues Long-Awaited HIPAA Privacy Rule Updates to Enhance Coordination of Care and Individual Access to Health Information](https://www.dataprivacyandsecurityinsider.com/2026/11/hhs-issues-long-awaited-hipaa-privacy-rule-updates-to-enhance-coordination-of-care-and-individual-access-to-health-information/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [CA AG Sues OpenAI Alleging Public Nuisance + Unfair Competition](https://www.dataprivacyandsecurityinsider.com/2026/11/ca-ag-sues-openai-alleging-public-nuisance-unfair-competition/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [When AI Agents Cross Silos, Businesses Must Rethink How Work Gets Done](https://www.dataprivacyandsecurityinsider.com/2026/11/when-ai-agents-cross-silos-businesses-must-rethink-how-work-gets-done/) |
-| 2026-11-19 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #517 – Identifying Smart Glasses that May be Recording You](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-517-identifying-smart-glasses-that-may-be-recording-you/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle-2/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
@@ -83,7 +70,7 @@ Last run: **2026-11-21T19:19:15Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 191× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 192× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
