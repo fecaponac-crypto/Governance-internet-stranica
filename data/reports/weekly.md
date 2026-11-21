@@ -1,7 +1,7 @@
 Data Governance Signal — week 14 Nov – 20 Nov 2026
 
-Visits:      114  (+14% on the week before: 100)
-Page views:  143  (+10% on the week before: 130)
+Visits:      114  (+63% on the week before: 70)
+Page views:  143  (+59% on the week before: 90)
 
 Most read:
     25  /

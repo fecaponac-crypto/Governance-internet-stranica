@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T18:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (87)
+## New items, last 48 hours (79)
 
 ### High priority sources
 
@@ -17,9 +17,7 @@ Last run: **2026-11-21T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [EU, US officials unmoved by litigation potentially impacting Data Privacy Framework](https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: China marks PIPL's 5th anniversary, Hong Kong clarifies AI requirements](https://iapp.org/news/a/notes-from-the-asia-pacific-region-china-marks-pipls-5th-anniversary-hong-kong-clarifies-ai-requirements) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [One year on, Digital Omnibus may face delays](https://iapp.org/news/a/one-year-on-digital-omnibus-may-face-delays) |
-| 2026-11-19 | IAPP — International Association of Privacy Professionals | [Fraud data sharing under the new PSR: When a DPIA becomes the ticket of entry](https://iapp.org/news/a/fraud-data-sharing-under-the-new-psr-when-a-dpia-becomes-the-ticket-of-entry) |
 | 2026-11-19 | Hunton Privacy & Information Security Law Blog | [HHS Finalizes HIPAA Privacy Rule Changes to Support Care Coordination and Individual Access](https://www.hunton.com/privacy-and-cybersecurity-law-blog/hhs-finalizes-hipaa-privacy-rule-changes-to-support-care-coordination-and-individual-access) |
-| 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [EDPB publiceert definitieve guidelines over gerechtvaardigd belang](https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang) |
 
 ### Medium priority sources
 
@@ -46,8 +44,6 @@ Last run: **2026-11-21T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | CDO Magazine | [AI Governance Approval Is an Event, but Judgment Is a Capability: Dr. Yodit Ayalew on Human Oversight in AI Governance](https://www.cdomagazine.tech/ai-governance/approval-is-an-event-but-judgment-is-a-capability-dr-yodit-ayalew-on-human-oversight-in-ai-governance) |
 | 2026-11-19 | OneTrust Blog | [How to Keep Permissioned Data Usable Across Marketing, Data, and AI Consent & Preferences](https://www.onetrust.com/blog/how-to-keep-permissioned-data-usable-across-marketing-data-and-ai/) |
 | 2026-11-19 | Privacy World (Squire Patton Boggs) | [App Store Age Verification Laws: Your Questions, Answered (Updated)](https://www.privacyworld.blog/2026/11/app-store-age-verification-laws-your-questions-answered-updated/) |
-| 2026-11-19 | Council of the EU — Press releases | [Equipping Europeans for the age of AI: Council approves conclusions](https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/) |
-| 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
 
 ### Low priority sources
 
@@ -92,10 +88,6 @@ Last run: **2026-11-21T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Monte Carlo Blog | [What Is Tool Calling? How LLMs and AI Agents Take Action](https://montecarlo.ai/blog-what-is-tool-calling) |
 | 2026-11-19 | Monte Carlo Blog | [What Is an AI Model? Types, Examples, and How They Work](https://montecarlo.ai/blog-what-is-an-ai-model) |
 | 2026-11-19 | Monte Carlo Blog | [What Is an LLM? Large Language Models Explained](https://montecarlo.ai/blog-what-is-an-llm-large-language-models-explained) |
-| 2026-11-19 | Center for Security and Emerging Technology (CSET) | [Biodata Matters for the Genesis Mission](https://cset.georgetown.edu/article/biodata-matters-for-the-genesis-mission/) |
-| 2026-11-19 | Precisely Blog | [Governed AI in customer communications: Precisely EngageOne™ named a Leader by Aspire](https://www.precisely.com/blog/cat-customer-engagement/governed-ai-in-customer-communications-precisely-engageone-named-a-leader-by-aspire/) |
-| 2026-11-19 | Modern Data 101 | [Why the Enterprise AI Advantage Will Come From Orchestration, Not Just Models](https://moderndata101.substack.com/p/orchestration-the-enterprise-ai-advantage) |
-| 2026-11-19 | OECD.AI — Policy Observatory blog | [From dialogue to delivery: making AI governance work in Southeast Asia](https://wp.oecd.ai/from-dialogue-to-delivery-making-ai-governance-work-in-southeast-asia/) |
 | 2026-11-19 | Computer Weekly — IT security | [AI red team tool Artex likely behind cyber attack on EU body](https://www.computerweekly.com/news/366654974/AI-red-team-tool-Artex-likely-behind-cyber-attack-on-EU-body) |
 | 2026-11-19 | Computer Weekly — IT security | [Over 250,000 Londoners affected by latest TfL breach](https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach) |
 | 2026-11-19 | Computer Weekly — IT security | [Ukrainian police arrest former members of Conti ransomware group](https://www.computerweekly.com/news/366654831/Ukrainian-police-arrest-former-members-of-Conti-ransomware-group) |
@@ -108,7 +100,7 @@ Last run: **2026-11-21T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 189× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 190× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
