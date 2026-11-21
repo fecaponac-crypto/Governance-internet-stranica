@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T09:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T11:08:01Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (115)
+## New items, last 48 hours (100)
 
 ### High priority sources
 
@@ -22,10 +22,6 @@ Last run: **2026-11-21T09:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [EDPB publiceert definitieve guidelines over gerechtvaardigd belang](https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Formal sitting of the Court of Justice](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260170en.pdf) |
 | 2026-11-19 | Garante per la protezione dei dati personali (Italy) | [L’Autorità Garante Privacy italiana eletta nel Comitato direttivo della Global Privacy Assembly](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10322146) |
-| 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Laila Medina in Case C-643/25 Verbraucherzentrale Bundesverband (‘Free’ digital service)](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260169en.pdf) |
-| 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-663/24 Streamz and Others](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260168en.pdf) |
-| 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-683/24 Spielerschutz Sigma](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260167en.pdf) |
-| 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-354/25 [Waisrinter]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260166en.pdf) |
 
 ### Medium priority sources
 
@@ -54,12 +50,6 @@ Last run: **2026-11-21T09:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Privacy World (Squire Patton Boggs) | [App Store Age Verification Laws: Your Questions, Answered (Updated)](https://www.privacyworld.blog/2026/11/app-store-age-verification-laws-your-questions-answered-updated/) |
 | 2026-11-19 | Council of the EU — Press releases | [Equipping Europeans for the age of AI: Council approves conclusions](https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/) |
 | 2026-11-19 | CDO Magazine | [Leadership Moves Ralph Lauren Appoints Renga Rajan Balasubramanian as VP, Head of AI Engineering, Data & Platforms](https://www.cdomagazine.tech/leadership-moves/ralph-lauren-appoints-renga-rajan-balasubramanian-as-vp-head-of-ai-engineering-data-platforms) |
-| 2026-11-19 | CDO Magazine | [Artificial Intelligence BRIDGE AI Act Would Bring Private-Sector AI Expertise Into CISA](https://www.cdomagazine.tech/aiml/bridge-ai-act-would-bring-private-sector-ai-expertise-into-cisa) |
-| 2026-11-19 | CDO Magazine | [Artificial Intelligence New York Attorney General Creates Dedicated Unit to Enforce AI Safety Laws](https://www.cdomagazine.tech/aiml/new-york-attorney-general-creates-dedicated-unit-to-enforce-ai-safety-laws) |
-| 2026-11-19 | AEPD — Spanish Data Protection Agency | [La AEPD publica ‘El estatuto del delegado de protección de datos’, con orientaciones sobre independencia, garantías organizativas y conflictos de intereses](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-el-estatuto-del-delegado-proteccion-datos-independencia-garantias) |
-| 2026-11-19 | DATAVERSITY | [GDPR Déjà Vu: Don’t Repeat the Same Mistakes with the AI Act](https://www.dataversity.net/articles/gdpr-deja-vu-dont-repeat-the-same-mistakes-with-the-ai-act/) |
-| 2026-11-19 | Euractiv | [THE HACK: Further privacy rule cuts not ruled out](https://www.rapporteur.com/news/the-hack-further-privacy-rule-cuts-not-ruled-out/) |
-| 2026-11-19 | Euractiv | [INTERVIEW: French cloud CEO slams ‘dishonest’ EU sovereign criteria](https://www.rapporteur.com/news/french-cloud-ceo-slams-dishonest-eu-sovereign-criteria/) |
 | 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
 
 ### Low priority sources
@@ -115,11 +105,6 @@ Last run: **2026-11-21T09:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | InformationWeek | [AI has rewritten the cybersecurity risk equation](https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation) |
 | 2026-11-19 | International Data Spaces Association | [Australia and data spaces: ready foundations, big plans and a bridge to Europe](https://internationaldataspaces.org/australia-and-data-spaces-ready-foundations-big-plans-and-a-bridge-to-europe/) |
 | 2026-11-19 | Computer Weekly — IT security | [UK court confirms existence of government surveillance order against Apple](https://www.computerweekly.com/news/366654729/UK-court-confirms-existence-of-government-surveillance-order-against-Apple) |
-| 2026-11-19 | European Digital Rights (EDRi) | [EDRi-gram, 19 November 2026](https://edri.org/our-work/edri-gram-19-november-2026/) |
-| 2026-11-19 | European Digital Rights (EDRi) | [New report documents authoritarian use of technology across the globe](https://edri.org/our-work/new-report-documents-authoritarian-use-of-technology-across-the-globe/) |
-| 2026-11-19 | European Digital Rights (EDRi) | [EU transforms Frontex into a high-tech deportation command centre](https://edri.org/our-work/eu-transforms-frontex-into-a-high-tech-deportation-command-centre/) |
-| 2026-11-19 | Semarchy Blog | [Data Product Lifecycle: 8 Stages and How to Manage Them](https://semarchy.com/blog/data-product-lifecycle/) |
-| 2026-11-19 | Semarchy Blog | [Data Product Examples: 7 Types with Practical Use Cases](https://semarchy.com/blog/data-product-examples/) |
 | 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
@@ -136,7 +121,7 @@ Last run: **2026-11-21T09:17:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 186× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 187× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
