@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T11:08:01Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T12:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (100)
+## New items, last 48 hours (89)
 
 ### High priority sources
 
@@ -20,8 +20,6 @@ Last run: **2026-11-21T11:08:01Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [Fraud data sharing under the new PSR: When a DPIA becomes the ticket of entry](https://iapp.org/news/a/fraud-data-sharing-under-the-new-psr-when-a-dpia-becomes-the-ticket-of-entry) |
 | 2026-11-19 | Hunton Privacy & Information Security Law Blog | [HHS Finalizes HIPAA Privacy Rule Changes to Support Care Coordination and Individual Access](https://www.hunton.com/privacy-and-cybersecurity-law-blog/hhs-finalizes-hipaa-privacy-rule-changes-to-support-care-coordination-and-individual-access) |
 | 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [EDPB publiceert definitieve guidelines over gerechtvaardigd belang](https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang) |
-| 2026-11-19 | Court of Justice of the EU — Press releases | [Formal sitting of the Court of Justice](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260170en.pdf) |
-| 2026-11-19 | Garante per la protezione dei dati personali (Italy) | [L’Autorità Garante Privacy italiana eletta nel Comitato direttivo della Global Privacy Assembly](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10322146) |
 
 ### Medium priority sources
 
@@ -103,25 +101,16 @@ Last run: **2026-11-21T11:08:01Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Computer Weekly — IT security | [Over 250,000 Londoners affected by latest TfL breach](https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach) |
 | 2026-11-19 | Computer Weekly — IT security | [Ukrainian police arrest former members of Conti ransomware group](https://www.computerweekly.com/news/366654831/Ukrainian-police-arrest-former-members-of-Conti-ransomware-group) |
 | 2026-11-19 | InformationWeek | [AI has rewritten the cybersecurity risk equation](https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation) |
-| 2026-11-19 | International Data Spaces Association | [Australia and data spaces: ready foundations, big plans and a bridge to Europe](https://internationaldataspaces.org/australia-and-data-spaces-ready-foundations-big-plans-and-a-bridge-to-europe/) |
 | 2026-11-19 | Computer Weekly — IT security | [UK court confirms existence of government surveillance order against Apple](https://www.computerweekly.com/news/366654729/UK-court-confirms-existence-of-government-surveillance-order-against-Apple) |
 | 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
-| 2026-11-13 | EPIC — Electronic Privacy Information Center | [Now is Not the Time to Limit Cyber Liability and State Enforcement](https://epic.org/now-is-not-the-time-to-limit-cyber-liability-and-state-enforcement/) |
-| 2026-11-13 | EPIC — Electronic Privacy Information Center | [EPIC Joins Group Urging New Jersey Court to Reject Data Center Developer’s First Amendment Claim](https://epic.org/epic-joins-group-urging-new-jersey-court-to-reject-data-center-developers-first-amendment-claim/) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [The New York Times: New York City Will Ban Companies From Setting Variable Prices](https://epic.org/the-new-york-times-new-york-city-will-ban-companies-from-setting-variable-prices/) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [SSBCrack News: New York City Council Approves Ban on Surveillance Pricing](https://epic.org/ssbcrack-news-new-york-city-council-approves-ban-on-surveillance-pricing/) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [VitalLaw: Congress Should Wait Until 2027 to Renew Surveillance Law, Privacy Groups Say](https://epic.org/vitallaw-congress-should-wait-until-2027-to-renew-surveillance-law-privacy-groups-say/) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [Gizmodo: How You Could End Up in a Government Surveillance Database and Never Know It](https://epic.org/gizmodo-how-you-could-end-up-in-a-government-surveillance-database-and-never-know-it/) |
-| 2026-11-12 | EPIC — Electronic Privacy Information Center | [Reuters: Warby Parker bets on Google AI glasses for growth, but privacy fears still loom](https://epic.org/reuters-warby-parker-bets-on-google-ai-glasses-for-growth-but-privacy-fears-still-loom/) |
-| 2026-11-11 | EPIC — Electronic Privacy Information Center | [Democracy Docket: The midterms are over, but Trump’s legal assault on voting continues. Here’s where those cases stand](https://epic.org/democracy-docket-the-midterms-are-over-but-trumps-legal-assault-on-voting-continues-heres-where-those-cases-stand/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 187× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 188× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
