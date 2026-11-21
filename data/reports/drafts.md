@@ -1,13 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-21T06:17:42Z** · candidates 2 · scored 2 · selected 2 · drafted 2 · failed 0 · queued for next run 0
+Last run: **2026-11-21T09:17:34Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$31.93** of $45 budget (667 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Microsoft and more than 40 organisations launch initiative to develop open AI transparency standards** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/167
-- ℹ️ not fact-checked **GAO sets out 16 policy options on AI and cybersecurity, flagging data quality and governance gaps** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/168
+_No drafts this run._
 
 ## Recently skipped by triage
 

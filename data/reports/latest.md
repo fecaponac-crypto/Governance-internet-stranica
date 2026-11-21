@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-21T06:17:32Z** · sources checked: 81 · failed: 2 · new items this run: 2
+Last run: **2026-11-21T09:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (115)
 
@@ -136,8 +136,7 @@ Last run: **2026-11-21T06:17:32Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
-- **European Data Protection Board (EDPB)** — failed 185× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 186× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
