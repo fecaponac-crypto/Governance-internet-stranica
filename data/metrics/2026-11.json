@@ -1,29 +1,29 @@
 {
  "month": "2026-11",
- "updated": "2026-11-21T03:17:39Z",
+ "updated": "2026-11-21T06:18:38Z",
  "portal": {
   "published_total": 145,
   "published_this_month": 102,
   "published_this_month_by_importance": {
-   "2": 15,
    "3": 66,
+   "2": 15,
    "4": 20,
    "5": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 641,
-  "runs": 225,
-  "runs_with_failed_sources": 199,
+  "items_collected": 643,
+  "runs": 226,
+  "runs_with_failed_sources": 200,
   "triage_decisions": {
-   "drafted": 114,
+   "drafted": 116,
    "skipped": 511,
    "failed": 17
   },
-  "ai_spend_usd": 31.662,
+  "ai_spend_usd": 31.9264,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 103,
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 860,
-  "visits": 760,
+  "page_views": 870,
+  "visits": 770,
   "bots_excluded": true,
   "by_day": [
    {
@@ -111,6 +111,11 @@
     "date": "2026-11-20",
     "page_views": 80,
     "visits": 70
+   },
+   {
+    "date": "2026-11-21",
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
@@ -139,15 +144,15 @@
     "page_views": 30
    },
    {
+    "requestPath": "/institutions/edpb/",
+    "page_views": 20
+   },
+   {
     "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
     "page_views": 20
    },
    {
     "requestPath": "/category/ai-governance/",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/institutions/edpb/",
     "page_views": 20
    },
    {
@@ -158,7 +163,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 460
+    "page_views": 470
    },
    {
     "countryName": "HR",
@@ -200,7 +205,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 700
+    "page_views": 710
    },
    {
     "refererHost": "datagovernancesignal.com",

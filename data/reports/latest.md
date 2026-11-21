@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T03:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T06:17:32Z** · sources checked: 81 · failed: 2 · new items this run: 2
 
-## New items, last 48 hours (116)
+## New items, last 48 hours (115)
 
 ### High priority sources
 
@@ -26,12 +26,13 @@ Last run: **2026-11-21T03:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Opinion of the Advocate General at the Court Maciej Szpunar in Case C-663/24 Streamz and Others](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260168en.pdf) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-683/24 Spielerschutz Sigma](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260167en.pdf) |
 | 2026-11-19 | Court of Justice of the EU — Press releases | [Judgment of the Court in Case C-354/25 [Waisrinter]](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260166en.pdf) |
-| 2026-11-19 | Autoriteit Persoonsgegevens (Netherlands) | [AP raadt aankoop AI-camerabrillen af: ernstige risico’s voor gebruikers en omstanders](https://autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-21 | CDO Magazine | [Artificial Intelligence Microsoft Joins 40-Plus Organizations to Develop AI Transparency Standards](https://www.cdomagazine.tech/aiml/microsoft-joins-40-plus-organizations-to-develop-ai-transparency-standards) |
+| 2026-11-21 | CDO Magazine | [US Federal News Bureau GAO Identifies Data and Governance Gaps as AI Reshapes Cybersecurity](https://www.cdomagazine.tech/us-federal-news-bureau/gao-identifies-data-and-governance-gaps-as-ai-reshapes-cybersecurity) |
 | 2026-11-20 | Privacy World (Squire Patton Boggs) | [Buyer Beware: Virginia Positioned as the New Privacy Litigation Battleground](https://www.privacyworld.blog/2026/11/buyer-beware-virginia-positioned-as-the-new-privacy-litigation-battleground/) |
 | 2026-11-20 | OneTrust Blog | [Protecting AI ROI: From Pilot Results to Lasting Value AI Governance](https://www.onetrust.com/blog/protecting-ai-roi-from-pilot-results-to-lasting-value/) |
 | 2026-11-20 | Forrester Blogs | [Your Cloud Operations Aren’t Ready For AI](https://www.forrester.com/blogs/your-cloud-operations-arent-ready-for-ai/) |
@@ -59,7 +60,6 @@ Last run: **2026-11-21T03:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | DATAVERSITY | [GDPR Déjà Vu: Don’t Repeat the Same Mistakes with the AI Act](https://www.dataversity.net/articles/gdpr-deja-vu-dont-repeat-the-same-mistakes-with-the-ai-act/) |
 | 2026-11-19 | Euractiv | [THE HACK: Further privacy rule cuts not ruled out](https://www.rapporteur.com/news/the-hack-further-privacy-rule-cuts-not-ruled-out/) |
 | 2026-11-19 | Euractiv | [INTERVIEW: French cloud CEO slams ‘dishonest’ EU sovereign criteria](https://www.rapporteur.com/news/french-cloud-ceo-slams-dishonest-eu-sovereign-criteria/) |
-| 2026-11-19 | Euractiv | [INTERVIEW: Commission isn’t closing door to further privacy rule cuts](https://www.rapporteur.com/news/interview-commission-isnt-closing-door-to-further-privacy-rule-cuts/) |
 | 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
 
 ### Low priority sources
@@ -120,7 +120,6 @@ Last run: **2026-11-21T03:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | European Digital Rights (EDRi) | [EU transforms Frontex into a high-tech deportation command centre](https://edri.org/our-work/eu-transforms-frontex-into-a-high-tech-deportation-command-centre/) |
 | 2026-11-19 | Semarchy Blog | [Data Product Lifecycle: 8 Stages and How to Manage Them](https://semarchy.com/blog/data-product-lifecycle/) |
 | 2026-11-19 | Semarchy Blog | [Data Product Examples: 7 Types with Practical Use Cases](https://semarchy.com/blog/data-product-examples/) |
-| 2026-11-19 | European Digital Rights (EDRi) | [One year later, a broad coalition tells EU lawmakers: do not simplify away people’s rights with the Digital Omnibus](https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/) |
 | 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
@@ -137,7 +136,8 @@ Last run: **2026-11-21T03:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 184× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
+- **European Data Protection Board (EDPB)** — failed 185× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

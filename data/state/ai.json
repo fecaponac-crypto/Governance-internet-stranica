@@ -6852,6 +6852,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "b021855b716a5b9d": {
+   "at": "2026-11-21T06:17:42Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "microsoft-and-more-than-40-organisations-launch-initiative-to-develop",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/167",
+   "primary_found": true,
+   "reason": "Microsoft joining 40+ organisations on AI transparency standards is a standards development with governance relevance, though title-only evidence is thin.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b0769e790abbf970": {
    "at": "2026-11-19T11:44:11Z",
    "categories": [
@@ -7778,6 +7794,23 @@
    "importance": 1,
    "reason": "Vendor blog marketing content.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "c2c414f0ee247713": {
+   "at": "2026-11-21T06:17:42Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "gao-sets-out-16-policy-options-on-ai-and-cybersecurity-flagging-data-q",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/168",
+   "primary_found": true,
+   "reason": "GAO identifying data and governance gaps in AI-driven cybersecurity is a government oversight finding with practical governance implications.",
+   "relevant": true,
    "same_story_as": null
   },
   "c36817af9a4b18e2": {
@@ -10360,8 +10393,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 661,
-   "usd": 31.662
+   "calls": 667,
+   "usd": 31.9264
   }
  }
 }
