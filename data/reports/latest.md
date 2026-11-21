@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T18:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T19:19:15Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (79)
+## New items, last 48 hours (62)
 
 ### High priority sources
 
@@ -14,9 +14,6 @@ Last run: **2026-11-21T18:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Opens Public Comment Period on Proposed Data Broker Updates and DROP Audit Requirements](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-opens-public-comment-period-on-proposed-data-broker-updates-and-drop-audit-requirements) |
 | 2026-11-20 | Inside Privacy (Covington & Burling) | [HHS Finalizes Changes to the HIPAA Privacy Rule](https://www.insideprivacy.com/health-privacy/hhs-finalizes-changes-to-the-hipaa-privacy-rule/) |
 | 2026-11-19 | IAPP — International Association of Privacy Professionals | [A view from Brussels: Don't plan for the future, define it](https://iapp.org/news/a/a-view-from-brussels-don-t-plan-for-the-future-define-it) |
-| 2026-11-19 | IAPP — International Association of Privacy Professionals | [EU, US officials unmoved by litigation potentially impacting Data Privacy Framework](https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework) |
-| 2026-11-19 | IAPP — International Association of Privacy Professionals | [Notes from the Asia-Pacific region: China marks PIPL's 5th anniversary, Hong Kong clarifies AI requirements](https://iapp.org/news/a/notes-from-the-asia-pacific-region-china-marks-pipls-5th-anniversary-hong-kong-clarifies-ai-requirements) |
-| 2026-11-19 | IAPP — International Association of Privacy Professionals | [One year on, Digital Omnibus may face delays](https://iapp.org/news/a/one-year-on-digital-omnibus-may-face-delays) |
 | 2026-11-19 | Hunton Privacy & Information Security Law Blog | [HHS Finalizes HIPAA Privacy Rule Changes to Support Care Coordination and Individual Access](https://www.hunton.com/privacy-and-cybersecurity-law-blog/hhs-finalizes-hipaa-privacy-rule-changes-to-support-care-coordination-and-individual-access) |
 
 ### Medium priority sources
@@ -41,9 +38,6 @@ Last run: **2026-11-21T18:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | CDO Magazine | [Artificial Intelligence SnapLogic Survey Finds Enterprises Abandon Agentic AI Projects Over Unclear Business Value](https://www.cdomagazine.tech/aiml/snaplogic-survey-finds-enterprises-abandon-agentic-ai-projects-over-unclear-business-value) |
 | 2026-11-19 | CDO Magazine | [US Federal News Bureau AI INSIGHT Act Would Establish Security Framework for AI Agents on Federal Networks](https://www.cdomagazine.tech/us-federal-news-bureau/ai-insight-act-would-establish-security-framework-for-ai-agents-on-federal-networks) |
 | 2026-11-19 | CDO Magazine | [US Federal News Bureau Salesforce-Led Consortium Puts Governed Data at Center of AI Export Strategy](https://www.cdomagazine.tech/us-federal-news-bureau/salesforce-led-consortium-puts-governed-data-at-center-of-ai-export-strategy) |
-| 2026-11-19 | CDO Magazine | [AI Governance Approval Is an Event, but Judgment Is a Capability: Dr. Yodit Ayalew on Human Oversight in AI Governance](https://www.cdomagazine.tech/ai-governance/approval-is-an-event-but-judgment-is-a-capability-dr-yodit-ayalew-on-human-oversight-in-ai-governance) |
-| 2026-11-19 | OneTrust Blog | [How to Keep Permissioned Data Usable Across Marketing, Data, and AI Consent & Preferences](https://www.onetrust.com/blog/how-to-keep-permissioned-data-usable-across-marketing-data-and-ai/) |
-| 2026-11-19 | Privacy World (Squire Patton Boggs) | [App Store Age Verification Laws: Your Questions, Answered (Updated)](https://www.privacyworld.blog/2026/11/app-store-age-verification-laws-your-questions-answered-updated/) |
 
 ### Low priority sources
 
@@ -82,17 +76,6 @@ Last run: **2026-11-21T18:17:22Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle-2/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
-| 2026-11-19 | Monte Carlo Blog | [What Is a Schema Change? Types, Risks, and How to Catch Them](https://montecarlo.ai/blog-what-is-a-schema-change) |
-| 2026-11-19 | Monte Carlo Blog | [What Is a Vector Database? How It Works and Why AI Needs One](https://montecarlo.ai/blog-what-is-a-vector-database) |
-| 2026-11-19 | The Record (Recorded Future News) | [CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack](https://therecord.media/cisa-losapio-nomination-trump) |
-| 2026-11-19 | Monte Carlo Blog | [What Is Tool Calling? How LLMs and AI Agents Take Action](https://montecarlo.ai/blog-what-is-tool-calling) |
-| 2026-11-19 | Monte Carlo Blog | [What Is an AI Model? Types, Examples, and How They Work](https://montecarlo.ai/blog-what-is-an-ai-model) |
-| 2026-11-19 | Monte Carlo Blog | [What Is an LLM? Large Language Models Explained](https://montecarlo.ai/blog-what-is-an-llm-large-language-models-explained) |
-| 2026-11-19 | Computer Weekly — IT security | [AI red team tool Artex likely behind cyber attack on EU body](https://www.computerweekly.com/news/366654974/AI-red-team-tool-Artex-likely-behind-cyber-attack-on-EU-body) |
-| 2026-11-19 | Computer Weekly — IT security | [Over 250,000 Londoners affected by latest TfL breach](https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach) |
-| 2026-11-19 | Computer Weekly — IT security | [Ukrainian police arrest former members of Conti ransomware group](https://www.computerweekly.com/news/366654831/Ukrainian-police-arrest-former-members-of-Conti-ransomware-group) |
-| 2026-11-19 | Computer Weekly — IT security | [UK court confirms existence of government surveillance order against Apple](https://www.computerweekly.com/news/366654729/UK-court-confirms-existence-of-government-surveillance-order-against-Apple) |
-| 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 | 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
@@ -100,7 +83,7 @@ Last run: **2026-11-21T18:17:22Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 190× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 191× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
