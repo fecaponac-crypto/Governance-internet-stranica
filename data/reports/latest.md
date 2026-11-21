@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T12:17:24Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (89)
+## New items, last 48 hours (87)
 
 ### High priority sources
 
@@ -47,7 +47,6 @@ Last run: **2026-11-21T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | OneTrust Blog | [How to Keep Permissioned Data Usable Across Marketing, Data, and AI Consent & Preferences](https://www.onetrust.com/blog/how-to-keep-permissioned-data-usable-across-marketing-data-and-ai/) |
 | 2026-11-19 | Privacy World (Squire Patton Boggs) | [App Store Age Verification Laws: Your Questions, Answered (Updated)](https://www.privacyworld.blog/2026/11/app-store-age-verification-laws-your-questions-answered-updated/) |
 | 2026-11-19 | Council of the EU — Press releases | [Equipping Europeans for the age of AI: Council approves conclusions](https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/) |
-| 2026-11-19 | CDO Magazine | [Leadership Moves Ralph Lauren Appoints Renga Rajan Balasubramanian as VP, Head of AI Engineering, Data & Platforms](https://www.cdomagazine.tech/leadership-moves/ralph-lauren-appoints-renga-rajan-balasubramanian-as-vp-head-of-ai-engineering-data-platforms) |
 | 2026-11-19 | Collibra Blog | [CMMC vs. NIS2: Two paths to the same secure data destination](https://www.collibra.com/blog/cmmc-vs-nis2-two-paths-to-the-same-secure-data-destination) |
 
 ### Low priority sources
@@ -100,7 +99,6 @@ Last run: **2026-11-21T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | Computer Weekly — IT security | [AI red team tool Artex likely behind cyber attack on EU body](https://www.computerweekly.com/news/366654974/AI-red-team-tool-Artex-likely-behind-cyber-attack-on-EU-body) |
 | 2026-11-19 | Computer Weekly — IT security | [Over 250,000 Londoners affected by latest TfL breach](https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach) |
 | 2026-11-19 | Computer Weekly — IT security | [Ukrainian police arrest former members of Conti ransomware group](https://www.computerweekly.com/news/366654831/Ukrainian-police-arrest-former-members-of-Conti-ransomware-group) |
-| 2026-11-19 | InformationWeek | [AI has rewritten the cybersecurity risk equation](https://www.informationweek.com/machine-learning-ai/ai-has-rewritten-the-cybersecurity-risk-equation) |
 | 2026-11-19 | Computer Weekly — IT security | [UK court confirms existence of government surveillance order against Apple](https://www.computerweekly.com/news/366654729/UK-court-confirms-existence-of-government-surveillance-order-against-Apple) |
 | 2026-11-19 | McKinsey Insights | [Building pharma’s laboratory of the future](https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
@@ -110,7 +108,7 @@ Last run: **2026-11-21T12:17:24Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 188× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 189× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
