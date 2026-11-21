@@ -30,4 +30,4 @@ The US Government Accountability Office (GAO) has published a report, *AI and Cy
 
 GAO reports that there are **no widely accepted criteria for evaluating generative AI's offensive or defensive capabilities**. Experts it consulted named data privacy and quality, outdated governance frameworks, fragmented regulation and insufficient data sharing as challenges.
 
-GAO sets out four policy goals and **16 policy options**, which it describes as a non-exhaustive menu for legislators, agencies, standards bodies and industry, not as requirements. According to CDO Magazine, the options include agent identity management research, output validation and human authorisation for consequential AI-initiated security actions.
+GAO sets out four policy goals and **16 policy options**, which it describes as a non-exhaustive menu for legislators, agencies, standards bodies and industry, not as requirements. According to CDO Magazine, the options include stronger AI testing, agent identity management and human authorisation for consequential AI-driven security actions. GAO published the report on 20 November 2026.
