@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-21T02:19:39Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-21T03:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
 ## New items, last 48 hours (116)
 
@@ -137,7 +137,7 @@ Last run: **2026-11-21T02:19:39Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 183× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 184× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
