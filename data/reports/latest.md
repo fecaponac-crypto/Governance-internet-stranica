@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-22T00:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-22T01:22:05Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (48)
+## New items, last 48 hours (46)
 
 ### High priority sources
 
@@ -64,12 +64,10 @@ Last run: **2026-11-22T00:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
-| 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Georgetown’s Jacob Feldgoise on U.S. agencies’ investigation into Megaspeed](https://cset.georgetown.edu/article/georgetowns-jacob-feldgoise-on-u-s-agencies-investigation-into-megaspeed/) |
-| 2026-11-17 | Center for Security and Emerging Technology (CSET) | [Dutch resist ‘unacceptable’ US bid to tighten semiconductor export controls](https://cset.georgetown.edu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls/) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 193× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 194× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
