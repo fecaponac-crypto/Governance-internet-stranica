@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-22T11:29:18Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-22T12:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (42)
+## New items, last 48 hours (34)
 
 ### High priority sources
 
@@ -26,8 +26,6 @@ Last run: **2026-11-22T11:29:18Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-20 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Ralph Lauren, Sun Life, and EnerSys](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-ralph-lauren-sun-life-and-enersys) |
 | 2026-11-20 | Alation Blog | [November 20, 2026 Plan for Fifty Rulebooks: What The Midterms Mean For Enterprise AI Governance Voters want a share of AI’s gains, and states want someone accountable. Here’s why provenance and governed data will… Read More](https://www.alation.com/blog/state-ai-regulation-data-ai-governance/) |
 | 2026-11-20 | Future of Privacy Forum | [New FPF Infographic Examines Key Privacy Concerns and Barriers to AgeTech Adoption Among Older Adults](https://fpf.org/press-releases/new-fpf-infographic-examines-key-privacy-concerns-and-barriers-to-agetech-adoption-among-older-adults/) |
-| 2026-11-20 | CDO Magazine | [Leadership Moves Payal Thakur Joins Supreme Court of Ohio as Chief Information Officer](https://www.cdomagazine.tech/leadership-moves/payal-thakur-joins-supreme-court-of-ohio-as-chief-information-officer) |
-| 2026-11-20 | CNIL (France) | [Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation](https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience) |
 | 2026-11-20 | CNIL (France) | [IA et éducation : une résolution mondiale pour la protection des données](https://www.cnil.fr/fr/gpa-ia-education) |
 | 2026-11-20 | CNIL (France) | [48e Assemblée mondiale pour la protection de la vie privée (GPA)](https://www.cnil.fr/fr/48e-gpa) |
 
@@ -54,17 +52,10 @@ Last run: **2026-11-22T11:29:18Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-20 | Precisely Blog | [When email goes down, regulated communications can’t wait](https://www.precisely.com/blog/cat-customer-engagement/when-email-goes-down-regulated-communications-cant-wait/) |
 | 2026-11-20 | The Record (Recorded Future News) | [Dozens of credit unions hit by supplier breach that went unnoticed for six weeks](https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach) |
 | 2026-11-20 | Computer Weekly — IT security | [FCA lines up new cyber guidance for UK financial services sector](https://www.computerweekly.com/news/366655173/FCA-lines-up-new-cyber-guidance-for-UK-financial-services-sector) |
-| 2026-11-19 | EPIC — Electronic Privacy Information Center | [Politico: US knew of ‘perilous’ telco vulnerabilities years before Salt Typhoon hacks](https://epic.org/politico-us-knew-of-perilous-telco-vulnerabilities-years-before-salt-typhoon-hacks/) |
-| 2026-11-19 | EPIC — Electronic Privacy Information Center | [Nextgov/FCW: Wyden, Tillis plan holds on Trump’s CISA nominee after Jan. 6 remarks](https://epic.org/nextgov-fcw-wyden-tillis-plan-holds-on-trumps-cisa-nominee-after-jan-6-remarks/) |
-| 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle-2/) |
-| 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle/) |
-| 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
-| 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
 
 ## Source problems
 
-- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.aepd.es/noticias/feed.xml`
-- **European Data Protection Board (EDPB)** — failed 198× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 199× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
