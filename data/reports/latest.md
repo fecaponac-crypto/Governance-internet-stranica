@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-22T09:17:29Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-22T11:29:18Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (43)
+## New items, last 48 hours (42)
 
 ### High priority sources
 
@@ -60,12 +60,11 @@ Last run: **2026-11-22T09:17:29Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
 | 2026-11-18 | EPIC — Electronic Privacy Information Center | [DAME Magazine: How Data Brokers Are Putting Stalking Victims in Danger](https://epic.org/dame-magazine-how-data-brokers-are-putting-stalking-victims-in-danger/) |
-| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test](https://www.mckinsey.com/our-people/what-is-cloud-computing-for-product-testing-only---hidden-from-search) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 197× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
-- **European Data Protection Supervisor (EDPS)** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.edps.europa.eu/feed/news_en`
+- **AEPD — Spanish Data Protection Agency** — failed 1× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.aepd.es/noticias/feed.xml`
+- **European Data Protection Board (EDPB)** — failed 198× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
