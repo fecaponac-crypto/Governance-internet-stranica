@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-21T21:17:28Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-22T00:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (49)
+## New items, last 48 hours (48)
 
 ### High priority sources
 
@@ -59,7 +59,6 @@ Last run: **2026-11-21T21:17:28Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | Computer Weekly — IT security | [FCA lines up new cyber guidance for UK financial services sector](https://www.computerweekly.com/news/366655173/FCA-lines-up-new-cyber-guidance-for-UK-financial-services-sector) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [Politico: US knew of ‘perilous’ telco vulnerabilities years before Salt Typhoon hacks](https://epic.org/politico-us-knew-of-perilous-telco-vulnerabilities-years-before-salt-typhoon-hacks/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [Nextgov/FCW: Wyden, Tillis plan holds on Trump’s CISA nominee after Jan. 6 remarks](https://epic.org/nextgov-fcw-wyden-tillis-plan-holds-on-trumps-cisa-nominee-after-jan-6-remarks/) |
-| 2026-11-19 | Center for Security and Emerging Technology (CSET) | [The Data Is the Target](https://cset.georgetown.edu/article/the-data-is-the-target/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle-2/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [PRESS RELEASE: EPIC acquires Signaling System Seven (SS7) security assessment report after two-year FOIA battle](https://epic.org/press-release-epic-acquires-signaling-system-seven-ss7-security-assessment-report-after-two-year-foia-battle/) |
 | 2026-11-19 | EPIC — Electronic Privacy Information Center | [CISA Report Obtained by EPIC Confirms Critical Vulnerabilities in U.S. Telecommunication Networks](https://epic.org/cisa-report-obtained-by-epic-confirms-critical-vulnerabilities-in-u-s-telecommunication-networks/) |
@@ -70,7 +69,7 @@ Last run: **2026-11-21T21:17:28Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 192× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 193× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
