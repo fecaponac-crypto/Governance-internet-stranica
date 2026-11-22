@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-22T01:22:05Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-22T03:17:30Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (46)
+## New items, last 48 hours (45)
 
 ### High priority sources
 
@@ -12,7 +12,6 @@ Last run: **2026-11-22T01:22:05Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | IAPP — International Association of Privacy Professionals | [UK lawmakers question Big Tech representatives on OSA compliance work](https://iapp.org/news/a/uk-lawmakers-question-big-tech-representatives-on-osa-compliance-work) |
 | 2026-11-20 | IAPP — International Association of Privacy Professionals | [Notes from the IAPP Canada: Who gets to decide what is true about you?](https://iapp.org/news/a/notes-from-the-iapp-canada-who-gets-to-decide-what-is-true-about-you) |
 | 2026-11-20 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Opens Public Comment Period on Proposed Data Broker Updates and DROP Audit Requirements](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-opens-public-comment-period-on-proposed-data-broker-updates-and-drop-audit-requirements) |
-| 2026-11-20 | Inside Privacy (Covington & Burling) | [HHS Finalizes Changes to the HIPAA Privacy Rule](https://www.insideprivacy.com/health-privacy/hhs-finalizes-changes-to-the-hipaa-privacy-rule/) |
 
 ### Medium priority sources
 
@@ -67,7 +66,7 @@ Last run: **2026-11-22T01:22:05Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 194× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 195× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

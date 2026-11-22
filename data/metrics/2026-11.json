@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-22T01:22:17Z",
+ "updated": "2026-11-22T03:17:45Z",
  "portal": {
   "published_total": 147,
   "published_this_month": 104,
@@ -14,8 +14,8 @@
  },
  "pipeline": {
   "items_collected": 643,
-  "runs": 235,
-  "runs_with_failed_sources": 209,
+  "runs": 236,
+  "runs_with_failed_sources": 210,
   "triage_decisions": {
    "drafted": 116,
    "skipped": 511,
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 880,
-  "visits": 780,
+  "page_views": 890,
+  "visits": 790,
   "bots_excluded": true,
   "by_day": [
    {
@@ -116,6 +116,11 @@
     "date": "2026-11-21",
     "page_views": 20,
     "visits": 20
+   },
+   {
+    "date": "2026-11-22",
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
@@ -182,15 +187,11 @@
     "page_views": 40
    },
    {
-    "countryName": "HK",
-    "page_views": 20
-   },
-   {
     "countryName": "BR",
     "page_views": 20
    },
    {
-    "countryName": "AR",
+    "countryName": "HK",
     "page_views": 20
    },
    {
@@ -200,12 +201,16 @@
    {
     "countryName": "DK",
     "page_views": 20
+   },
+   {
+    "countryName": "CA",
+    "page_views": 20
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 720
+    "page_views": 730
    },
    {
     "refererHost": "datagovernancesignal.com",
