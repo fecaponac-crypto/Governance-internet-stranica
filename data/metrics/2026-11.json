@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-22T03:17:45Z",
+ "updated": "2026-11-22T06:17:39Z",
  "portal": {
   "published_total": 147,
   "published_this_month": 104,
@@ -14,8 +14,8 @@
  },
  "pipeline": {
   "items_collected": 643,
-  "runs": 236,
-  "runs_with_failed_sources": 210,
+  "runs": 237,
+  "runs_with_failed_sources": 211,
   "triage_decisions": {
    "drafted": 116,
    "skipped": 511,
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 890,
-  "visits": 790,
+  "page_views": 900,
+  "visits": 800,
   "bots_excluded": true,
   "by_day": [
    {
@@ -119,8 +119,8 @@
    },
    {
     "date": "2026-11-22",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 20,
+    "visits": 20
    }
   ],
   "top_pages": [
@@ -149,11 +149,11 @@
     "page_views": 30
    },
    {
-    "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
-    "page_views": 20
+    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
+    "page_views": 30
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
     "page_views": 20
    },
    {
@@ -161,7 +161,7 @@
     "page_views": 20
    },
    {
-    "requestPath": "/opinion/",
+    "requestPath": "/category/ai-governance/",
     "page_views": 20
    }
   ],
@@ -179,15 +179,19 @@
     "page_views": 60
    },
    {
-    "countryName": "SE",
-    "page_views": 40
-   },
-   {
     "countryName": "GB",
     "page_views": 40
    },
    {
-    "countryName": "BR",
+    "countryName": "SE",
+    "page_views": 40
+   },
+   {
+    "countryName": "AU",
+    "page_views": 20
+   },
+   {
+    "countryName": "CA",
     "page_views": 20
    },
    {
@@ -195,22 +199,18 @@
     "page_views": 20
    },
    {
-    "countryName": "AU",
+    "countryName": "BR",
     "page_views": 20
    },
    {
     "countryName": "DK",
-    "page_views": 20
-   },
-   {
-    "countryName": "CA",
     "page_views": 20
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 730
+    "page_views": 740
    },
    {
     "refererHost": "datagovernancesignal.com",

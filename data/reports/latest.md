@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-22T03:17:30Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-22T06:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (45)
+## New items, last 48 hours (43)
 
 ### High priority sources
 
@@ -30,8 +30,6 @@ Last run: **2026-11-22T03:17:30Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-20 | CNIL (France) | [Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation](https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience) |
 | 2026-11-20 | CNIL (France) | [IA et éducation : une résolution mondiale pour la protection des données](https://www.cnil.fr/fr/gpa-ia-education) |
 | 2026-11-20 | CNIL (France) | [48e Assemblée mondiale pour la protection de la vie privée (GPA)](https://www.cnil.fr/fr/48e-gpa) |
-| 2026-11-20 | Euractiv | [Crises force a rethink of cancer care, experts warn](https://www.rapporteur.com/news/crises-force-a-rethink-of-cancer-care-experts-warn/) |
-| 2026-11-20 | Euractiv | [The EU is turning up the heat on social media ‘rabbit holes’](https://www.rapporteur.com/news/the-eu-is-turning-up-the-heat-on-social-media-rabbit-holes/) |
 
 ### Low priority sources
 
@@ -66,7 +64,7 @@ Last run: **2026-11-22T03:17:30Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 195× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 196× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
