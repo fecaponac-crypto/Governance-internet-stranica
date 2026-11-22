@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-22T06:17:39Z",
+ "updated": "2026-11-22T09:17:46Z",
  "portal": {
   "published_total": 147,
   "published_this_month": 104,
@@ -14,8 +14,8 @@
  },
  "pipeline": {
   "items_collected": 643,
-  "runs": 237,
-  "runs_with_failed_sources": 211,
+  "runs": 238,
+  "runs_with_failed_sources": 212,
   "triage_decisions": {
    "drafted": 116,
    "skipped": 511,
@@ -23,7 +23,7 @@
   },
   "ai_spend_usd": 31.9264,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 105,
@@ -33,8 +33,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 900,
-  "visits": 800,
+  "page_views": 910,
+  "visits": 810,
   "bots_excluded": true,
   "by_day": [
    {
@@ -119,8 +119,8 @@
    },
    {
     "date": "2026-11-22",
-    "page_views": 20,
-    "visits": 20
+    "page_views": 30,
+    "visits": 30
    }
   ],
   "top_pages": [
@@ -145,11 +145,11 @@
     "page_views": 50
    },
    {
-    "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
-    "page_views": 30
+    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
+    "page_views": 40
    },
    {
-    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
+    "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
     "page_views": 30
    },
    {
@@ -199,18 +199,18 @@
     "page_views": 20
    },
    {
-    "countryName": "BR",
+    "countryName": "CL",
     "page_views": 20
    },
    {
-    "countryName": "DK",
+    "countryName": "BR",
     "page_views": 20
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 740
+    "page_views": 750
    },
    {
     "refererHost": "datagovernancesignal.com",
