@@ -9305,6 +9305,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e714003212bdaa48": {
+   "at": "2026-11-22T19:44:08Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog with generic KPI thought-leadership; not a genuine launch, acquisition or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e71bf5215ff136bd": {
    "at": "2026-11-13T15:17:40Z",
    "categories": [
@@ -10393,8 +10402,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 667,
-   "usd": 31.9264
+   "calls": 668,
+   "usd": 31.9271
   }
  }
 }

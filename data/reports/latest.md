@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-22T18:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-22T19:43:53Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (11)
+## New items, last 48 hours (12)
 
 ### Medium priority sources
 
@@ -16,6 +16,7 @@ Last run: **2026-11-22T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-22 | Monte Carlo Blog | [Mind the Seams: KPIs for the AI Platform Team](https://montecarlo.ai/kpis-for-the-ai-platform-team) |
 | 2026-11-20 | The Record (Recorded Future News) | [West Virginia Legislature hit with cyber incident affecting IT systems](https://therecord.media/west-virginia-legislature-cyberattack) |
 | 2026-11-20 | Center for Data Innovation | [Studying Offshore Wind Farms](https://datainnovation.org/2026/11/studying-offshore-wind-farms/) |
 | 2026-11-20 | Center for Data Innovation | [Revealing Hidden Colors](https://datainnovation.org/2026/11/revealing-hidden-colors/) |
@@ -27,7 +28,7 @@ Last run: **2026-11-22T18:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 201× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 202× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 

@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-22T18:17:39Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-22T19:44:08Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$31.93** of $45 budget (667 calls)
+AI spend this month: **$31.93** of $45 budget (668 calls)
 
 ## This run
 
@@ -10,6 +10,7 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Vendor blog with generic KPI thought-leadership; not a genuine launch, acquisition or research finding.
 - (1) Cyber incident at a state legislature; no data governance angle beyond a general outage and no details on data affected.
 - (1) Law-firm analysis of Virginia privacy litigation trends; no new discrete development and not actionable news beyond commentary.
 - (1) Vendor blog post on agent observability, marketing-style how-to without a launch or research finding.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Vendor marketing on communications management.
 - (1) Vendor-adjacent migration guide on the Purview retirement already covered in existing article.
 - (1) Product how-to on testing data agents; no governance news.
-- (1) Vendor how-to on Airflow pipeline debugging.
