@@ -1,27 +1,27 @@
-Data Governance Signal — week 15 Nov – 21 Nov 2026
+Data Governance Signal — week 16 Nov – 22 Nov 2026
 
-Visits:      137  (+5% on the week before: 130)
-Page views:  156  (-13% on the week before: 180)
+Visits:      159  (+32% on the week before: 120)
+Page views:  178  (+5% on the week before: 170)
 
 Most read:
-    22  /
-    11  /news/x-suspends-training-ai-on-data-collected-by-its-grok-agent-after-irish/
+    19  /
+    17  /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/
+    12  /news/x-suspends-training-ai-on-data-collected-by-its-grok-agent-after-irish/
     11  /review/2026-11/
-     9  /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/
-     7  /news/
+    11  /news/gao-sets-out-16-policy-options-on-ai-and-cybersecurity-flagging-data-q/
 
 Countries:
-    70  US
-    14  CN
+    75  US
+    15  CN
     14  SE
      8  HR
-     5  AE
+     6  DE
 
 Where visitors came from:
-   124  (direct)
+   145  (direct)
     19  datagovernancesignal.com
      5  www.facebook.com
-     3  www.google.com
+     4  www.google.com
      2  m.baidu.com
 
 Published this week: 46 stories
