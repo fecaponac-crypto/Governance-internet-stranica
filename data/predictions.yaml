@@ -231,3 +231,47 @@
   made: 2026-11-16
   due: 2027-11-12
   status: open
+- id: 2026-11-23-1
+  claim: CalPrivacy will not announce an extension of the 6 January 2027 written comment deadline for its proposed Delete Act audit and DROP amendment regulations before that date.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agents are privileged users now, and regulators want evidence, not policies'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-23/
+  made: 2026-11-23
+  due: 2027-01-06
+  confidence: 80
+  status: open
+- id: 2026-11-23-2
+  claim: No court will have granted a preliminary injunction or other injunctive relief against OpenAI in People of the State of California v. OpenAI Foundation by 18 January 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agents are privileged users now, and regulators want evidence, not policies'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-23/
+  made: 2026-11-23
+  due: 2027-01-18
+  confidence: 80
+  status: open
+- id: 2026-11-23-3
+  claim: A bill granting the state authority to order an emergency shutdown of AI models, as recommended by Governor Newsom's office, will be introduced in the California Legislature by 31 March 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agents are privileged users now, and regulators want evidence, not policies'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-23/
+  made: 2026-11-23
+  due: 2027-03-31
+  confidence: 60
+  status: open
+- id: 2026-11-23-4
+  claim: The European Parliament and Council will not have reached political agreement on the GDPR changes in the Digital Omnibus by 28 February 2027.
+  by: Data Governance Signal
+  ours: true
+  source:
+    title: 'The Monday Signal: Agents are privileged users now, and regulators want evidence, not policies'
+    url: https://datagovernancesignal.com/monday-signal/2026-11-23/
+  made: 2026-11-23
+  due: 2027-02-28
+  confidence: 75
+  status: open
