@@ -26,6 +26,6 @@ card:
 
 At its plenary, the European Data Protection Board (EDPB) adopted a statement on 13 November 2026 on using other models of contractual clauses for onward transfers of personal data. It welcomed recent updates to the European Commission's FAQs on the EU Standard Contractual Clauses (SCCs).
 
-The updated FAQs recognise that **the Model Contractual Clauses of the Council of Europe (CoE MCC) and of the Ibero-American Data Protection Network (RIPD MCC)** may also be used for onward transfers of personal data first received under the EU SCCs. According to the EDPB, the two bodies cooperated closely on the matter.
+The updated FAQs recognise that **the Model Contractual Clauses of the Council of Europe (CoE MCC) and of the Ibero-American Data Protection Network (RIPD MCC)** may also be used for onward transfers of personal data first received under the EU SCCs. According to the EDPB, it worked closely with the Commission on the change.
 
 The Board said that, under the conditions set out in the Commission's FAQs, these clauses can provide a level of protection appropriate to that guaranteed by EU data protection law. **The statement also gives practical guidance** to organisations that want to rely on the MCCs, subject to those conditions.
