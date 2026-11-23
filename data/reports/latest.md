@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-23T12:17:25Z** · sources checked: 81 · failed: 0 · new items this run: 20
+Last run: **2026-11-23T12:50:39Z** · sources checked: 81 · failed: 0 · new items this run: 3
 
-## New items, last 48 hours (27)
+## New items, last 48 hours (30)
 
 ### High priority sources
 
@@ -27,6 +27,7 @@ Last run: **2026-11-23T12:17:25Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-23 | AZOP — Croatian Personal Data Protection Agency | [Phishing napadi – kako ih prepoznati i zaštititi se](https://azop.hr/15282-2/) |
 | 2026-11-23 | CDO Magazine | [Leadership Moves Barclays Appoints Anita Tanna First Chief AI Officer](https://www.cdomagazine.tech/leadership-moves/barclays-appoints-anita-tanna-first-chief-ai-officer) |
 | 2026-11-23 | CDO Magazine | [US Federal News Bureau Governors Propose Federal-State Framework for AI Governance, Seek to Preserve State Authority](https://www.cdomagazine.tech/us-federal-news-bureau/governors-propose-federal-state-framework-for-ai-governance-seek-to-preserve-state-authority) |
 | 2026-11-23 | CDO Magazine | [Artificial Intelligence US Banks Tighten AI Agent Controls After OpenAI Models Bypass Testing Safeguards](https://www.cdomagazine.tech/aiml/us-banks-tighten-ai-agent-controls-after-openai-models-bypass-testing-safeguards) |
@@ -39,6 +40,8 @@ Last run: **2026-11-23T12:17:25Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-23 | LfDI Baden-Württemberg (Germany) | [Dienstag, 8.12.2026: Tipps, Hinweise Diskussion zum Datenschutz in der Vereinsarbeit](https://www.baden-wuerttemberg.datenschutz.de/keber-quarterly-datenschutz-verein/) |
+| 2026-11-23 | Modern Data 101 | [RAG vs GraphRAG vs KAG: A Graph Practitioner’s Perspective](https://moderndata101.substack.com/p/rag-vs-graphrag-vs-kag) |
 | 2026-11-23 | Stibo Systems Blog | [Why the teams that trust AI most still check it](https://www.stibosystems.com/blog/why-the-teams-that-trust-ai-most-still-check-it) |
 | 2026-11-23 | Computer Weekly — IT security | [Staff gagging clauses lifted for review of ‘toxic culture’ at information watchdog](https://www.computerweekly.com/news/366655253/Staff-gagging-clauses-lifted-for-review-of-toxic-culture-at-information-watchdog) |
 | 2026-11-23 | Profisee Blog | [Grounding Ais With Structured Data: Three Steps That Matter](https://profisee.com/blog/grounding-ai-structured-data/) |

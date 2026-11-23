@@ -1002,6 +1002,17 @@
    "relevant": false,
    "same_story_as": "item:682149fd67e08443"
   },
+  "15c10a2030dc1760": {
+   "at": "2026-11-23T12:50:52Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic consumer phishing awareness piece without a governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "162d9664025f5457": {
    "at": "2026-10-28T20:17:45Z",
    "categories": [
@@ -2674,6 +2685,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor marketing blog without concrete news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3f913d1892e2b3cd": {
+   "at": "2026-11-23T12:50:52Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for a webinar on association data protection; not news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -10508,6 +10530,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fc6a95bcbc44a7b3": {
+   "at": "2026-11-23T12:50:52Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Technical explainer on RAG architectures; generic thought-leadership with no governance news or actionable governance guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fc7118093b0de300": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -10711,8 +10744,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 686,
-   "usd": 33.1058
+   "calls": 687,
+   "usd": 33.1066
   }
  }
 }
