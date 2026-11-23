@@ -2233,6 +2233,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "36b56e462f171b40": {
+   "at": "2026-11-23T06:17:34Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing with generic how-to content; not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "36fd05793b0a9278": {
    "at": "2026-11-19T20:41:02Z",
    "categories": [
@@ -2705,6 +2716,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "General gaming threat commentary without a concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "41d4ad8c2794d41e": {
+   "at": "2026-11-23T06:17:34Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic newsletter issue with no specific news item or governance angle identified from title and excerpt.",
    "relevant": false,
    "same_story_as": null
   },
@@ -10402,8 +10424,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 669,
-   "usd": 32.2131
+   "calls": 670,
+   "usd": 32.2138
   }
  }
 }

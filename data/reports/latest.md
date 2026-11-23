@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-23T03:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-23T06:17:22Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (3)
+## New items, last 48 hours (5)
 
 ### Medium priority sources
 
@@ -15,11 +15,13 @@ Last run: **2026-11-23T03:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-23 | Profisee Blog | [Grounding Ais With Structured Data: Three Steps That Matter](https://profisee.com/blog/grounding-ai-structured-data/) |
+| 2026-11-23 | Data Engineering Weekly | [Data Engineering Weekly #297](https://www.dataengineeringweekly.com/p/data-engineering-weekly-297) |
 | 2026-11-22 | Monte Carlo Blog | [Mind the Seams: KPIs for the AI Platform Team](https://montecarlo.ai/kpis-for-the-ai-platform-team) |
 
 ## Source problems
 
-- **European Data Protection Board (EDPB)** — failed 206× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
+- **European Data Protection Board (EDPB)** — failed 207× in a row: `HTTPError: 503 Server Error: Service Unavailable for url: https://www.edpb.europa.eu/feed/news_en`
 
 ## Check manually (weekly)
 
