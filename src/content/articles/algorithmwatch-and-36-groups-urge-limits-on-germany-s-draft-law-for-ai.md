@@ -17,6 +17,9 @@ deadlines:
     what: "Bundestag interior committee hearing on the draft AI Migration Administration Act (KIMVG)"
 sources:
   - name: "AlgorithmWatch"
+    title: "Statement zum Innenausschuss: AlgorithmWatch warnt vor Fiasko bei KI-Migrationsverwaltungsgesetz"
+    url: "https://algorithmwatch.org/de/statement-zum-innenausschuss-algorithmwatch-warnt-vor-fiasko-bei-ki-migrationsverwaltungsgesetz/"
+  - name: "AlgorithmWatch"
     title: "KI in der Migrationsverwaltung: AlgorithmWatch und 36 weitere Organisationen fordern mehr Schutz von Betroffenen"
     url: "https://algorithmwatch.org/de/kimvg-appell/"
     primary: true
@@ -32,4 +35,6 @@ According to AlgorithmWatch, the bill would let migration authorities develop, t
 
 The groups want anonymisation of personal data as the legal default, a ban on blanket use of entire asylum files and central foreigners' register data for AI training and automated analysis, stricter conditions for internet matching and statutory rules for selecting external AI vendors. They also call for a fundamental rights impact assessment before deployment and during operation, involving the data protection authority, documentation of AI influence on individual cases and effective routes to challenge decisions.
 
-*Editor's note: This article relies solely on a press release from AlgorithmWatch, an advocacy organisation that backs the appeal.*
+**Update, 23 November:** On the day of the committee hearing, AlgorithmWatch said the bill would let a barely limited circle of authorities build their own AI systems with this data, citing **225 diplomatic missions, 585 municipal immigration offices** and all police units, with no distinction between tourist visas and asylum claims. It also criticised the planned automated matching of application details against publicly available internet data, such as social media, as error-prone and vulnerable to falsified data.
+
+*Editor's note: This article relies solely on press releases from AlgorithmWatch, an advocacy organisation that backs the appeal.*
