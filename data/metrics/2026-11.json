@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-23T09:18:02Z",
+ "updated": "2026-11-23T12:20:20Z",
  "portal": {
   "published_total": 147,
   "published_this_month": 104,
@@ -13,17 +13,18 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 650,
-  "runs": 249,
+  "items_collected": 670,
+  "runs": 250,
   "runs_with_failed_sources": 223,
   "triage_decisions": {
-   "drafted": 117,
-   "skipped": 516,
-   "failed": 18
+   "drafted": 119,
+   "skipped": 531,
+   "failed": 20,
+   "duplicate": 1
   },
-  "ai_spend_usd": 32.3075,
+  "ai_spend_usd": 33.1058,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 0
  },
  "editor": {
   "drafts_published": 105,
@@ -33,8 +34,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 920,
-  "visits": 820,
+  "page_views": 940,
+  "visits": 840,
   "bots_excluded": true,
   "by_day": [
    {
@@ -124,8 +125,8 @@
    },
    {
     "date": "2026-11-23",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 30,
+    "visits": 30
    }
   ],
   "top_pages": [
@@ -158,7 +159,7 @@
     "page_views": 30
    },
    {
-    "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
+    "requestPath": "/opinion/",
     "page_views": 20
    },
    {
@@ -173,7 +174,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 480
+    "page_views": 500
    },
    {
     "countryName": "CN",
@@ -215,7 +216,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 760
+    "page_views": 780
    },
    {
     "refererHost": "datagovernancesignal.com",

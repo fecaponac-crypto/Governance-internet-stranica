@@ -1,28 +1,31 @@
 # Drafts report
 
-Last run: **2026-11-23T09:17:34Z** · candidates 4 · scored 4 · selected 2 · drafted 1 · failed 1 · queued for next run 0
+Last run: **2026-11-23T12:17:36Z** · candidates 20 · scored 20 · selected 5 · drafted 2 · failed 2 · queued for next run 0
 
-AI spend this month: **$32.31** of $45 budget (673 calls)
+AI spend this month: **$33.11** of $45 budget (686 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **AlgorithmWatch warns Germany's draft AI migration administration law lacks data protection safeguards** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/170
-- ❌ [New Opinion: EU-Interpol cooperation requires effective safeguards](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-interpol-cooperation-requires-effective-safeguards) — source not readable: only 0 characters readable
+- ℹ️ not fact-checked **US governors propose splitting AI oversight, leaving federal government development risks and states deployment** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/171
+- ❌ [Artificial Intelligence US Banks Tighten AI Agent Controls After OpenAI Models Bypass Testing Safeguards](https://www.cdomagazine.tech/aiml/us-banks-tighten-ai-agent-controls-after-openai-models-bypass-testing-safeguards) — card_caption longer than 90 characters
+- ℹ️ not fact-checked **EDPB backs Council of Europe and Ibero-American model clauses for onward transfers under EU SCCs** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/172
+- ❌ [EDPB letter to the European Commission on the need for a legal basis for cross-regulatory exchange of information](https://www.edpb.europa.eu/documents/edpb-correspondence/edpb-letter-to-the-european-commission-on-the-need-for-a-legal-basis_en) — source not readable: only 0 characters readable
+- ↩️ Not drafted, already covered: [EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action](https://www.edpb.europa.eu/news/edpb-adopts-statement-on-review-of-the-republic-of-korea-adequacy-processor-bcr_en) repeats `edpb-picks-automated-decision-making-in-recruitment-as-2027-coordinate`
 
 ## Recently skipped by triage
 
-- (1) Vendor blog post on AI checking, generic thought leadership without concrete guidance.
-- (1) Generic playbook piece with no substantive excerpt; cannot verify concrete guidance from title and excerpt alone.
-- (1) Vendor blog marketing with generic how-to content; not a genuine launch or research finding.
-- (1) Generic newsletter issue with no specific news item or governance angle identified from title and excerpt.
-- (1) Vendor blog with generic KPI thought-leadership; not a genuine launch, acquisition or research finding.
-- (1) Cyber incident at a state legislature; no data governance angle beyond a general outage and no details on data affected.
-- (1) Law-firm analysis of Virginia privacy litigation trends; no new discrete development and not actionable news beyond commentary.
-- (1) Vendor blog post on agent observability, marketing-style how-to without a launch or research finding.
-- (1) Interview about AI agents in renewable energy operations, not governance-focused.
-- (2) METR capability research is AI evaluation news with no clear data governance consequence.
-- (1) Offshore wind dataset release has no data governance angle.
-- (1) Weekly roundup with no specific governance development.
-- (1) Computer vision research on colour interpretation has no governance angle.
-- (1) Cyberattack recovery at a retailer is short and lacks a data governance or privacy angle in the excerpt.
-- (1) Vendor marketing thought leadership on agentic data quality.
+- (1) Executive appointment news with no governance practice angle.
+- (1) Macroeconomic news without a data governance angle.
+- (1) Consumer shopping scam advice rather than data governance news.
+- (1) Internal regulator staff and culture review with no data governance consequence for organisations.
+- (2) Same story as the existing article on the Norwegian individual fine.
+- (2) EDPB meeting outcomes and 2027 priorities for adequacy-country authorities, useful context for transfer compliance.
+- (2) Norwegian DPA fine for publishing personal data without lawful basis, a concrete enforcement decision.
+- (2) Italian DPA fine over employee access rights and corporate email handling, relevant to DSAR practice.
+- (5) Same story as the existing article on the Garante's Meta fine.
+- (2) Italian DPA fine for exposing patient health data, showing security-by-design enforcement.
+- (2) Italian DPA fine for unlawful telemarketing and failure to handle a data subject request.
+- (4) Same story as the existing article on the Irish DPC Tinder fine.
+- (2) EDPB opinion on processor BCRs, a transfer-mechanism decision relevant to processor compliance.
+- (3) Duplicate of the EDPB statement on other model clauses reported in item 14.
+- (3) Duplicate of the EDPB statement on the Korea adequacy review reported in item 16.

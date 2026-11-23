@@ -572,6 +572,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "0d07b8e34d86880c": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Norwegian DPA fine for publishing personal data without lawful basis, a concrete enforcement decision.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "0d53d6bc43eb0f3a": {
    "at": "2026-11-12T18:18:26Z",
    "categories": [],
@@ -579,6 +590,19 @@
    "importance": 1,
    "reason": "Vendor blog on CMMC cybersecurity frameworks; marketing-style explainer without a concrete data governance development.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "0da2d5c6c152d44e": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "duplicate",
+   "importance": 3,
+   "of": "edpb-picks-automated-decision-making-in-recruitment-as-2027-coordinate",
+   "reason": "EDPB statement on Korea adequacy review and processor BCR recommendations, with the 2027 enforcement topic; best source for this story.",
+   "relevant": true,
    "same_story_as": null
   },
   "0da6cf00fb542a34": {
@@ -1322,6 +1346,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1feac3189040dfb4": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Duplicate of the EDPB statement on other model clauses reported in item 14.",
+   "relevant": false,
+   "same_story_as": "item:7f0ead0ade7349d8"
+  },
   "200a3ce7a9e1a850": {
    "at": "2026-11-20T15:17:44Z",
    "categories": [
@@ -1883,6 +1919,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "2a10a7abe38d8393": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPB meeting outcomes and 2027 priorities for adequacy-country authorities, useful context for transfer compliance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "2aeef20a7ae4c479": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -2098,6 +2146,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "3086ce4d3db4b4de": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 5,
+   "reason": "Same story as the existing article on the Garante's Meta fine.",
+   "relevant": false,
+   "same_story_as": "italy-s-garante-fines-meta-805-million-over-facebook-app-s-access-to-a"
+  },
   "310173fdff214cac": {
    "at": "2026-11-10T14:57:08Z",
    "categories": [],
@@ -2194,6 +2253,23 @@
    "importance": 1,
    "reason": "Newsletter commentary on a political appointment; not a governance development in substance.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "339b17753e8ac2ca": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "us-governors-propose-splitting-ai-oversight-leaving-federal-government",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/171",
+   "primary_found": true,
+   "reason": "Policy proposal for a federal-state AI governance framework that would shape obligations for AI oversight.",
+   "relevant": true,
    "same_story_as": null
   },
   "339e27bff1aec8ea": {
@@ -3352,6 +3428,19 @@
    "relevant": true,
    "same_story_as": null
   },
+  "4f3389bbbdc1be9f": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "source not readable: only 0 characters readable",
+   "importance": 3,
+   "reason": "EDPB letter seeking a legal basis for cross-regulatory information exchange, affecting how regulators share organisations' data.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "4f5655ef337742e5": {
    "at": "2026-11-20T11:44:38Z",
    "categories": [
@@ -3821,6 +3910,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event coverage of a community discussion about human judgment; generic thought leadership without a concrete data governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5909e25cdc1beeb4": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Macroeconomic news without a data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4406,6 +4504,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6b7c50e8391a2d87": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Same story as the existing article on the Norwegian individual fine.",
+   "relevant": false,
+   "same_story_as": "norway-s-datatilsynet-fines-individual-nok-10-000-for-private-credit-c"
+  },
   "6b843fb0a88b5193": {
    "at": "2026-11-10T14:57:08Z",
    "categories": [
@@ -4415,6 +4524,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "IAPP regional note on AI governance moving into practice in Latin America; practical but general.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "6b9e325fbf5d49d1": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Italian DPA fine over employee access rights and corporate email handling, relevant to DSAR practice.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4433,6 +4553,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Newsletter roundup promotion; the AI Act transparency mention is too thin to warrant a standalone item.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "6d476ce282a22ba6": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment news with no governance practice angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4456,6 +4585,19 @@
    "importance": 1,
    "reason": "Vendor blog on token costs; marketing rather than a genuine launch or research finding.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6dfe85c7311959ef": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Banks tightening AI agent controls after testing bypass is practical AI governance practice, though related to the supervisors story already covered.",
+   "relevant": true,
    "same_story_as": null
   },
   "6e405fffb2f24425": {
@@ -5235,6 +5377,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7f0ead0ade7349d8": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "edpb-backs-council-of-europe-and-ibero-american-model-clauses-for-onwa",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/172",
+   "primary_found": false,
+   "reason": "EDPB statement on onward transfer contractual clauses, directly actionable for transfer compliance; best source for this story.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "7f860703c4bd17e7": {
    "at": "2026-11-06T15:18:26Z",
    "categories": [
@@ -5443,6 +5602,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "83d3a8a09e20a545": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Italian DPA fine for unlawful telemarketing and failure to handle a data subject request.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "8405a7d8907c6612": {
    "at": "2026-11-09T21:18:27Z",
    "categories": [],
@@ -5477,6 +5647,18 @@
    "importance": 1,
    "reason": "Generic definitional vendor blog post with no governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "8613331f1c2c84c9": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Italian DPA fine for exposing patient health data, showing security-by-design enforcement.",
+   "relevant": true,
    "same_story_as": null
   },
   "86146ace8a0797f2": {
@@ -5582,6 +5764,15 @@
    "importance": 2,
    "reason": "Covers AI companies restricting employee access to AI tools due to cost and risk, a practical governance angle, though title-only detail is thin and the source is a lower-reliability trade outlet.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "8ae8dcb289818922": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Consumer shopping scam advice rather than data governance news.",
+   "relevant": false,
    "same_story_as": null
   },
   "8b3fe9a8326f50af": {
@@ -6569,6 +6760,17 @@
    "importance": 1,
    "reason": "Generic newsletter issue with no specific news content or governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "a758c5227e6b5256": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPB opinion on processor BCRs, a transfer-mechanism decision relevant to processor compliance.",
+   "relevant": true,
    "same_story_as": null
   },
   "a75ac214a1ae2c56": {
@@ -8597,6 +8799,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d400d7b04326bfff": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Internal regulator staff and culture review with no data governance consequence for organisations.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d4180ecb372f732d": {
    "at": "2026-11-18T00:17:35Z",
    "categories": [
@@ -8855,6 +9066,17 @@
    "reason": "Vendor blog promoting a product integration rather than a genuine launch or research finding; marketing content.",
    "relevant": false,
    "same_story_as": null
+  },
+  "dac5c9b0d71f3159": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same story as the existing article on the Irish DPC Tinder fine.",
+   "relevant": false,
+   "same_story_as": "irish-dpc-fines-tinder-owner-match-group-11-million-over-incomplete-do"
   },
   "db19cd20b90a786e": {
    "at": "2026-11-06T12:18:30Z",
@@ -10308,6 +10530,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fcb37b844331eed7": {
+   "at": "2026-11-23T12:17:36Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 3,
+   "reason": "Duplicate of the EDPB statement on the Korea adequacy review reported in item 16.",
+   "relevant": false,
+   "same_story_as": "item:0da2d5c6c152d44e"
+  },
   "fce9ca878e5ec760": {
    "at": "2026-10-24T23:18:09Z",
    "categories": [],
@@ -10477,8 +10711,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 673,
-   "usd": 32.3075
+   "calls": 686,
+   "usd": 33.1058
   }
  }
 }
