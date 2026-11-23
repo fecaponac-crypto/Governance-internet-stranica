@@ -1,15 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-23T06:17:34Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-23T09:17:34Z** · candidates 4 · scored 4 · selected 2 · drafted 1 · failed 1 · queued for next run 0
 
-AI spend this month: **$32.21** of $45 budget (670 calls)
+AI spend this month: **$32.31** of $45 budget (673 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **AlgorithmWatch warns Germany's draft AI migration administration law lacks data protection safeguards** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/170
+- ❌ [New Opinion: EU-Interpol cooperation requires effective safeguards](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-interpol-cooperation-requires-effective-safeguards) — source not readable: only 0 characters readable
 
 ## Recently skipped by triage
 
+- (1) Vendor blog post on AI checking, generic thought leadership without concrete guidance.
+- (1) Generic playbook piece with no substantive excerpt; cannot verify concrete guidance from title and excerpt alone.
 - (1) Vendor blog marketing with generic how-to content; not a genuine launch or research finding.
 - (1) Generic newsletter issue with no specific news item or governance angle identified from title and excerpt.
 - (1) Vendor blog with generic KPI thought-leadership; not a genuine launch, acquisition or research finding.
@@ -23,5 +26,3 @@ _No drafts this run._
 - (1) Computer vision research on colour interpretation has no governance angle.
 - (1) Cyberattack recovery at a retailer is short and lacks a data governance or privacy angle in the excerpt.
 - (1) Vendor marketing thought leadership on agentic data quality.
-- (1) Vendor product feature blog without a genuine launch or governance angle.
-- (1) Vendor marketing on communications management.
