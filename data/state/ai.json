@@ -499,6 +499,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0b3e4fe439350b54": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor interview/thought-leadership piece without a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0bdc6ee9d8c2791a": {
    "at": "2026-11-19T20:41:02Z",
    "categories": [
@@ -1647,6 +1658,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "250e2089ec38462d": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "OECD.AI early analysis of HAIP 2.0 AI risk reporting; practical insight on AI risk management reporting.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "258395ff0aad7cd7": {
    "at": "2026-11-09T21:18:27Z",
    "categories": [
@@ -2753,6 +2775,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "40811a469961d923": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event summary promoting a summit; no concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "40877a351171fc49": {
    "at": "2026-11-04T12:18:37Z",
    "categories": [],
@@ -2898,6 +2931,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic newsletter with no specific governance story; excerpt provides no substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "426ccefd0f6b8da3": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Competition award announcement.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4082,6 +4126,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "5ce31e898f9b9954": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Blog post on a collaboration with an institute; no concrete regulatory consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5d9db4eee5be8d47": {
    "at": "2026-11-19T09:17:49Z",
    "categories": [],
@@ -4462,6 +4517,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "69a38a5e333cba48": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 4,
+   "reason": "Same story as existing article on Microsoft retiring Purview Data Governance.",
+   "relevant": false,
+   "same_story_as": "microsoft-to-retire-purview-data-governance-ending-support-on-12-novem"
+  },
   "69b724dc9dfee599": {
    "at": "2026-11-13T11:03:03Z",
    "categories": [
@@ -4688,6 +4754,17 @@
    "primary_found": true,
    "reason": "Commission proposal for the Digital Fairness Act updating EU consumer law for digital services, a legislative step changing obligations on data-driven practices.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "6f7dc1d92ccdc2ec": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor marketing blog on retail data peaks.",
+   "relevant": false,
    "same_story_as": null
   },
   "6f8048015f2c0ca3": {
@@ -5659,6 +5736,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Interview opinion on sovereign cloud criteria with no concrete data governance consequence in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "84882c9c83b07c67": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Analysis of AI in cyber attacks; not governance-focused news for data practitioners.",
    "relevant": false,
    "same_story_as": null
   },
@@ -10584,6 +10672,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "fd0a8902a0d64a6f": {
+   "at": "2026-11-23T15:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "School competition announcement; event promotion.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fd1bf9f5f6bbd467": {
    "at": "2026-11-08T15:18:32Z",
    "categories": [
@@ -10744,8 +10843,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 687,
-   "usd": 33.1066
+   "calls": 688,
+   "usd": 33.1077
   }
  }
 }

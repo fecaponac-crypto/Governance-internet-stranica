@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-23T12:50:39Z** · sources checked: 81 · failed: 0 · new items this run: 3
+Last run: **2026-11-23T15:17:27Z** · sources checked: 81 · failed: 0 · new items this run: 9
 
-## New items, last 48 hours (30)
+## New items, last 48 hours (39)
 
 ### High priority sources
 
@@ -27,19 +27,28 @@ Last run: **2026-11-23T12:50:39Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-23 | CDO Magazine | [Artificial Intelligence The AI Model Isn’t the Problem: TigerGraph’s Rajeev Shrivastava on Connected Enterprise Context](https://www.cdomagazine.tech/aiml/the-ai-model-isnt-the-problem-tigergraphs-rajeev-shrivastava-on-connected-enterprise-context) |
+| 2026-11-23 | European Data Protection Supervisor (EDPS) | [Blog post on our collaboration with Oxford’s Institute for Ethics in AI](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-our-collaboration-oxfords-institute-ethics-ai) |
 | 2026-11-23 | AZOP — Croatian Personal Data Protection Agency | [Phishing napadi – kako ih prepoznati i zaštititi se](https://azop.hr/15282-2/) |
 | 2026-11-23 | CDO Magazine | [Leadership Moves Barclays Appoints Anita Tanna First Chief AI Officer](https://www.cdomagazine.tech/leadership-moves/barclays-appoints-anita-tanna-first-chief-ai-officer) |
 | 2026-11-23 | CDO Magazine | [US Federal News Bureau Governors Propose Federal-State Framework for AI Governance, Seek to Preserve State Authority](https://www.cdomagazine.tech/us-federal-news-bureau/governors-propose-federal-state-framework-for-ai-governance-seek-to-preserve-state-authority) |
 | 2026-11-23 | CDO Magazine | [Artificial Intelligence US Banks Tighten AI Agent Controls After OpenAI Models Bypass Testing Safeguards](https://www.cdomagazine.tech/aiml/us-banks-tighten-ai-agent-controls-after-openai-models-bypass-testing-safeguards) |
+| 2026-11-23 | CNIL (France) | [Trophées des classes 2027 - Ensemble, tous protégés sur Internet !](https://www.cnil.fr/fr/trophees-des-classes-2027) |
+| 2026-11-23 | CNIL (France) | [Découvrez les lauréats du concours Trophées des classes 2026 « Comment je protège ma vie privée en ligne ? »](https://www.cnil.fr/fr/trophees-des-classes-2026-laureats) |
 | 2026-11-23 | Euractiv | [France risks economic recession as Le Pen presidency looms](https://www.rapporteur.com/news/france-risks-economic-recession-as-le-pen-presidency-looms/) |
 | 2026-11-23 | AZOP — Croatian Personal Data Protection Agency | [Dobar popust ili internetska prijevara? Savjeti za sigurnu kupovinu uoči Black Friday-a](https://azop.hr/dobar-popust-ili-internetska-prijevara-savjeti-za-sigurnu-kupovinu-uoci-black-friday-a/) |
 | 2026-11-23 | DATAVERSITY | [Demystifying AI Sovereignty: A 5-Step Playbook for the Enterprise](https://www.dataversity.net/articles/demystifying-ai-sovereignty-a-5-step-playbook-for-the-enterprise/) |
+| 2026-11-23 | Collibra Blog | [Microsoft Purview Data Governance is retiring: What it means and how to plan the transition](https://www.collibra.com/blog/purview-data-governance-is-retiring-what-it-means-and-how-to-plan-the-transition) |
 | 2026-11-20 | European Data Protection Supervisor (EDPS) | [New Opinion: EU-Interpol cooperation requires effective safeguards](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-interpol-cooperation-requires-effective-safeguards) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-23 | Center for Security and Emerging Technology (CSET) | [Judge the Cyber Apocalypse by the Data, Not the Headlines](https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/) |
+| 2026-11-23 | Precisely Blog | [Holiday foot traffic peaks twice: what it means for retail data](https://www.precisely.com/blog/cat-location-intelligence/holiday-foot-traffic-peaks-twice-what-it-means-for-retail-data/) |
+| 2026-11-23 | Gaia-X | [Gaia-X Summit 2026 Accelerates Europe’s Transition to Smart Data Ecosystems and Trusted AI – on a sovereign basis](https://gaia-x.eu/gaia-x-summit-2026-accelerates-europes-transition-to-smart-data-ecosystems-and-trusted-ai-on-a-sovereign-basis/) |
+| 2026-11-23 | OECD.AI — Policy Observatory blog | [Inside AI risk management: early insights from the HAIP 2.0 reporting framework](https://wp.oecd.ai/inside-ai-risk-management-early-insights-from-the-haip-2-0-reporting-framework/) |
 | 2026-11-23 | LfDI Baden-Württemberg (Germany) | [Dienstag, 8.12.2026: Tipps, Hinweise Diskussion zum Datenschutz in der Vereinsarbeit](https://www.baden-wuerttemberg.datenschutz.de/keber-quarterly-datenschutz-verein/) |
 | 2026-11-23 | Modern Data 101 | [RAG vs GraphRAG vs KAG: A Graph Practitioner’s Perspective](https://moderndata101.substack.com/p/rag-vs-graphrag-vs-kag) |
 | 2026-11-23 | Stibo Systems Blog | [Why the teams that trust AI most still check it](https://www.stibosystems.com/blog/why-the-teams-that-trust-ai-most-still-check-it) |
