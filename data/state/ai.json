@@ -2030,6 +2030,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "2c86257ea4c7af31": {
+   "at": "2026-11-24T12:17:44Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Guest lecture promotion at a university; event news, not governance developments.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "2cfeb177251efcf4": {
    "at": "2026-11-06T12:18:30Z",
    "categories": [
@@ -5373,6 +5384,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7a8492fd8a90e3c9": {
+   "at": "2026-11-24T12:17:44Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment announcement; personnel news without governance substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7aaeb5f4a57fd1b6": {
    "at": "2026-11-17T18:17:58Z",
    "categories": [
@@ -7591,6 +7613,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "b5db97ec631a8be9": {
+   "at": "2026-11-24T12:17:44Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analyst retrospective on data and AI trends; some practitioner value but generic opinion, low importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "b60d36aa8ae62307": {
    "at": "2026-10-29T09:18:31Z",
    "categories": [],
@@ -8565,6 +8598,19 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ca2cf8c02b21d871": {
+   "at": "2026-11-24T12:17:44Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Irish DPC in talks with Meta over EU launch of Muse AI agent; regulator oversight of a new AI agent with data protection implications, though details are limited.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ca6ba7d80995771b": {
    "at": "2026-11-05T18:18:35Z",
    "categories": [
@@ -8665,6 +8711,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Computer vision research on colour interpretation has no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "cd4cc1b98df9dfc0": {
+   "at": "2026-11-24T12:17:44Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Commentary on Nvidia leadership and AI sovereignty; no concrete data governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -11073,8 +11130,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 699,
-   "usd": 33.5929
+   "calls": 700,
+   "usd": 33.5938
   }
  }
 }

@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-24T11:12:45Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-24T12:17:48Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**850 visits · 950 page views** this month (bots excluded)
+**860 visits · 960 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -26,7 +26,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-21 | 20 | 20 |
 | 2026-11-22 | 30 | 30 |
 | 2026-11-23 | 30 | 30 |
-| 2026-11-24 | 10 | 10 |
+| 2026-11-24 | 20 | 20 |
 
 ## Top pages
 
@@ -35,7 +35,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /category/privacy/ — 80
 - /category/security/ — 60
 - /review/2026-11/ — 50
-- /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/ — 40
+- /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/ — 50
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
 - /opinion/ — 20
 - /news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/ — 20
@@ -43,7 +43,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Countries
 
-- US — 500
+- US — 510
 - CN — 60
 - HR — 60
 - GB — 40
@@ -56,7 +56,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 790
+- (direct) — 800
 - datagovernancesignal.com — 100
 - www.google.com — 20
 - m.baidu.com — 10

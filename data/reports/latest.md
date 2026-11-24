@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-24T11:10:27Z** · sources checked: 81 · failed: 0 · new items this run: 21
+Last run: **2026-11-24T12:17:29Z** · sources checked: 81 · failed: 0 · new items this run: 5
 
-## New items, last 48 hours (60)
+## New items, last 48 hours (65)
 
 ### High priority sources
 
@@ -30,6 +30,9 @@ Last run: **2026-11-24T11:10:27Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | CDO Magazine | [Leadership Moves Philip Morris International U.S. Names Meet Patel Vice President of Data and Advanced Analytics](https://www.cdomagazine.tech/leadership-moves/philip-morris-international-u-s-names-meet-patel-vice-president-of-data-and-advanced-analytics) |
+| 2026-11-24 | AZOP — Croatian Personal Data Protection Agency | [Gostujuće predavanje na VERN-u: „Kako AI mijenja odnose s javnošću“](https://azop.hr/gostujuce-predavanje-na-vern-u-kako-ai-mijenja-odnose-s-javnoscu/) |
+| 2026-11-24 | Euractiv | [Irish privacy regulator in talks with Meta over EU launch of Muse](https://www.rapporteur.com/news/irish-privacy-regulator-in-talks-with-meta-over-eu-launch-of-muse/) |
 | 2026-11-24 | CDO Magazine | [Community From AI Ambition to Business Impact: Data and AI Leaders Confront the Realities of Scale at CDO Magazine’s Cincinnati Leadership Summit](https://www.cdomagazine.tech/community/from-ai-ambition-to-business-impact-data-and-ai-leaders-confront-the-realities-of-scale-at-cdo-magazines-cincinnati-leadership-summit) |
 | 2026-11-24 | Alation Blog | [November 23, 2026 AI in Supply Chain Management: What it Is and How to Implement it Safely Learn how AI in the supply chain delivers value today, and how to expand agent autonomy safely as trusted data proves… Read More](https://www.alation.com/blog/ai-in-supply-chain-management-what-it-is-and-how-to-implement-it-safely/) |
 | 2026-11-24 | Ataccama Blog | [FWRD 2026 recap: What data & AI leaders learned in 2026, and what they expect in 2027](https://www.ataccama.com/blog/fwrd-2026-recap-what-data-ai-leaders-learned-in-2026-and-what-they-expect-in-2027) |
@@ -55,6 +58,7 @@ Last run: **2026-11-24T11:10:27Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | Computer Weekly — IT security | [Huang’s Trump-backed return raises AI sovereignty concerns](https://www.computerweekly.com/news/366655453/Huangs-Trump-backed-return-raises-AI-sovereignty-concerns) |
 | 2026-11-24 | The Record (Recorded Future News) | [LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data](https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident) |
 | 2026-11-23 | DataGalaxy | [AI use case prioritization framework: how to prioritize AI projects that pay off](https://www.datagalaxy.com/en/blog/ai-use-case-prioritization-framework/) |
 | 2026-11-23 | The Record (Recorded Future News) | [Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents](https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems) |
@@ -76,6 +80,7 @@ Last run: **2026-11-24T11:10:27Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Profisee Blog | [Grounding Ais With Structured Data: Three Steps That Matter](https://profisee.com/blog/grounding-ai-structured-data/) |
 | 2026-11-23 | AlgorithmWatch | [Statement zum Innenausschuss: AlgorithmWatch warnt vor Fiasko bei KI-Migrationsverwaltungsgesetz](https://algorithmwatch.org/de/statement-zum-innenausschuss-algorithmwatch-warnt-vor-fiasko-bei-ki-migrationsverwaltungsgesetz/) |
 | 2026-11-23 | Data Engineering Weekly | [Data Engineering Weekly #297](https://www.dataengineeringweekly.com/p/data-engineering-weekly-297) |
+| 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
 | 2026-11-22 | Monte Carlo Blog | [Mind the Seams: KPIs for the AI Platform Team](https://montecarlo.ai/kpis-for-the-ai-platform-team) |
 | 2026-11-13 | Center for Security and Emerging Technology (CSET) | [How Nvidia’s Scandal Will Reverberate Across Washington](https://cset.georgetown.edu/article/how-nvidias-scandal-will-reverberate-across-washington/) |
 

@@ -1,41 +1,41 @@
 {
  "month": "2026-11",
- "updated": "2026-11-24T11:12:45Z",
+ "updated": "2026-11-24T12:17:48Z",
  "portal": {
-  "published_total": 149,
-  "published_this_month": 106,
+  "published_total": 153,
+  "published_this_month": 110,
   "published_this_month_by_importance": {
-   "2": 15,
-   "3": 70,
+   "2": 16,
+   "3": 73,
    "4": 20,
    "5": 1
   },
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 703,
-  "runs": 253,
+  "items_collected": 708,
+  "runs": 254,
   "runs_with_failed_sources": 223,
   "triage_decisions": {
    "drafted": 123,
-   "skipped": 559,
-   "failed": 21,
+   "skipped": 563,
+   "failed": 22,
    "duplicate": 1
   },
-  "ai_spend_usd": 33.5929,
+  "ai_spend_usd": 33.5938,
   "sources_active": 81,
   "sources_failing_now": 0
  },
  "editor": {
-  "drafts_published": 107,
+  "drafts_published": 111,
   "drafts_rejected": 5
  },
  "newsletter": {
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 950,
-  "visits": 850,
+  "page_views": 960,
+  "visits": 860,
   "bots_excluded": true,
   "by_day": [
    {
@@ -130,8 +130,8 @@
    },
    {
     "date": "2026-11-24",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 20,
+    "visits": 20
    }
   ],
   "top_pages": [
@@ -157,7 +157,7 @@
    },
    {
     "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
-    "page_views": 40
+    "page_views": 50
    },
    {
     "requestPath": "/news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/",
@@ -179,7 +179,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 500
+    "page_views": 510
    },
    {
     "countryName": "CN",
@@ -221,7 +221,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 790
+    "page_views": 800
    },
    {
     "refererHost": "datagovernancesignal.com",
