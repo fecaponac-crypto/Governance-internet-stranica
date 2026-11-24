@@ -26,6 +26,6 @@ McDonald's Japan said on Friday that an unauthorised third party had gained acce
 
 The company said the internal IDs could not identify customers on their own, and that names, email addresses, phone numbers, home addresses and credit card details were not affected. It has not disclosed the number of affected customers, the timing of the intrusion or the attacker, and it remains unclear whether data was stolen.
 
-McDonald's Japan said it was working to invalidate the authentication credentials used in the attack, had detected no misuse of its services and had **reported the incident to Japan's data protection authorities**. The Record noted no indication of a link to earlier attacks on Japan's food and retail sectors.
+McDonald's Japan said it was working to invalidate the authentication credentials used in the attack, had detected no misuse of its services and had **reported the incident to Japan's data protection authorities**. It said customers did not need to change their passwords. The breach follows other cyber incidents that have hit Japan's food and retail sectors in recent months.
 
 *Editor's note: This article relies on a single secondary news report summarising the company's disclosure.*
