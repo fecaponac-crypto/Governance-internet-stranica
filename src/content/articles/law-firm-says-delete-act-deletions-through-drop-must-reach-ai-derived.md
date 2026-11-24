@@ -35,4 +35,4 @@ Attorneys at Glancy Prongay Wolke & Rotter, writing for the IAPP, argue that the
 
 The authors note that brokers use AI and machine learning to score, rank and categorise consumers from scraped data. In their reading, the Act's definition of personal information covers **inferences used to build consumer profiles**, so deleting raw records is not enough.
 
-CalPrivacy says all brokers in DROP should have completed their first download and upload cycle by November 2026. The firm expects a wave of complex litigation over AI-derived data.
+The firm expects a wave of complex litigation over AI-derived data. Separately, CalPrivacy has [proposed rules](/news/calprivacy-proposes-delete-act-audit-rules-and-tighter-drop-deletion-p/) that would shorten the DROP cycle to 30 days and require matching across all of a broker's records.
