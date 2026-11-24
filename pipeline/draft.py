@@ -289,6 +289,25 @@ KEY_MESSAGE = ("The Anthropic API key was rejected — create a new key at conso
                "as the ANTHROPIC_API_KEY repository secret on GitHub (Settings → Secrets and variables → Actions)")
 
 
+# The current key (created 24 Nov 2026) expires on 31 Mar 2027 at 13:00 CEST; update this date with each new key.
+API_KEY_EXPIRES = os.environ.get("ANTHROPIC_KEY_EXPIRES", "2027-03-31")
+KEY_WARN_DAYS = 7
+
+
+def key_expiry_warning(today: date | None = None) -> str | None:
+    """A banner for the drafts report in the week before the API key expires."""
+    try:
+        expires = date.fromisoformat(API_KEY_EXPIRES)
+    except ValueError:
+        return None
+    left = (expires - (today or date.today())).days
+    if left > KEY_WARN_DAYS:
+        return None
+    when = "today" if left == 0 else "has expired" if left < 0 else f"in {left} day{'s' if left != 1 else ''}"
+    return (f"> ⏳ **The Anthropic API key expires {when} ({API_KEY_EXPIRES}).** Create a new key at console.anthropic.com → API keys, "
+            "save it as the ANTHROPIC_API_KEY secret, and update API_KEY_EXPIRES in pipeline/draft.py.")
+
+
 def is_key_error(e: Exception) -> bool:
     """401 'invalid x-api-key': the key was revoked, expired or mistyped (seen 23 Nov 2026)."""
     return isinstance(e, anthropic.AuthenticationError)
@@ -1523,6 +1542,7 @@ def write_report(state: dict, summary: dict, log: list[str]) -> None:
         *([f"> 🚨 **{KEY_MESSAGE}.** No stories are being scored or drafted since {state['api_key_invalid_since']}; "
            "collected items wait and are processed automatically once the new key is saved.", ""]
           if state.get("api_key_invalid_since") else []),
+        *([key_expiry_warning(), ""] if key_expiry_warning() else []),
         f"Last run: **{summary['run']}** · candidates {summary['candidates']} · scored {summary['scored']} · "
         f"selected {summary['selected']} · drafted {summary['drafted']} · failed {summary['failed']} · "
         f"queued for next run {summary['queued']}"

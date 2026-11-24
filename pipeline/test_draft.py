@@ -1,4 +1,5 @@
 import json
+from datetime import date
 import shutil
 import tempfile
 import unittest
@@ -661,3 +662,12 @@ class KeyErrorTest(unittest.TestCase):
         self.assertTrue(summary["key_invalid"])
         self.assertFalse(summary["credits_out"])
         self.assertIsNone(draft.blocked(ValueError("other"), {"credits_out": False, "key_invalid": False}))
+
+
+class KeyExpiryTest(unittest.TestCase):
+    def test_warning_only_in_the_last_week(self):
+        with mock.patch.object(draft, "API_KEY_EXPIRES", "2027-03-31"):
+            self.assertIsNone(draft.key_expiry_warning(date(2027, 3, 1)))
+            self.assertIn("in 1 day", draft.key_expiry_warning(date(2027, 3, 30)))
+            self.assertIn("in 7 days", draft.key_expiry_warning(date(2027, 3, 24)))
+            self.assertIn("has expired", draft.key_expiry_warning(date(2027, 4, 2)))
