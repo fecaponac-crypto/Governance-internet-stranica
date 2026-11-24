@@ -2915,6 +2915,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "40cfc1c2a2e4f4de": {
+   "at": "2026-11-24T21:17:40Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer on Palantir myths; marketing-style content without a concrete governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "40d03372bb63816a": {
    "at": "2026-11-19T15:17:44Z",
    "categories": [
@@ -4725,6 +4734,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "69423546c83a438d": {
+   "at": "2026-11-24T21:17:40Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor certification announcement, essentially marketing.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "694525516dd0ef68": {
    "at": "2026-10-29T12:18:34Z",
    "categories": [],
@@ -6157,6 +6175,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Human-checked AI-assisted dbt staging at scale touches on governed AI-assisted data modelling; modest practitioner interest.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "8a279dc693833480": {
+   "at": "2026-11-24T21:17:40Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "calprivacy-executive-director-tom-kemp-to-step-down-as-agency-pursues",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/182",
+   "primary_found": true,
+   "reason": "Leadership change at California Privacy Protection Agency that runs the Delete Act DROP platform; notable for privacy regulators' direction.",
    "relevant": true,
    "same_story_as": null
   },
@@ -8993,6 +9028,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "cd9896544ed1e3e6": {
+   "at": "2026-11-24T21:17:40Z",
+   "categories": [
+    "ai-industry",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Congressional scrutiny of FAA AI rollout seeking validation data and safety measures; governance angle but a minor oversight development.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cdf518fbc65a59fa": {
    "at": "2026-11-04T18:18:33Z",
    "categories": [
@@ -11403,6 +11450,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ff8c4388280a062e": {
+   "at": "2026-11-24T21:17:40Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "University uses AI to review transcripts with human admissions decisions retained; practical AI governance example, modest importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ff9b00943c48fccd": {
    "at": "2026-11-20T11:44:38Z",
    "categories": [
@@ -11457,8 +11515,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 720,
-   "usd": 34.5921
+   "calls": 723,
+   "usd": 34.6919
   }
  }
 }

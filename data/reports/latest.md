@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-24T18:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 13
+Last run: **2026-11-24T21:17:28Z** · sources checked: 81 · failed: 0 · new items this run: 5
 
-## New items, last 48 hours (92)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
@@ -34,6 +34,9 @@ Last run: **2026-11-24T18:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | CDO Magazine | [US Federal News Bureau House Democrats Question FAA’s Nationwide AI Rollout, Seek Validation Data and Safety Measures](https://www.cdomagazine.tech/us-federal-news-bureau/house-democrats-question-faas-nationwide-ai-rollout-seek-validation-data-and-safety-measures) |
+| 2026-11-24 | CDO Magazine | [Artificial Intelligence Syracuse University Uses AI to Review Undergraduate Transcripts, Retains Human Admissions Decisions](https://www.cdomagazine.tech/aiml/syracuse-university-uses-ai-to-review-undergraduate-transcripts-retains-human-admissions-decisions) |
+| 2026-11-24 | OneTrust Blog | [OneTrust Achieves ENS High Certification in Spain Technology Risk & Compliance](https://www.onetrust.com/blog/onetrust-achieves-ens-high-certification-in-spain/) |
 | 2026-11-24 | CDO Magazine | [Artificial Intelligence Richard Leaton of Novelis on Scaling Manufacturing AI Through Consistent Technology Decisions](https://www.cdomagazine.tech/aiml/richard-leaton-of-novelis-on-scaling-manufacturing-ai-through-consistent-technology-decisions) |
 | 2026-11-24 | CDO Magazine | [Artificial Intelligence Nvidia Adds Compliance Oversight as Board Reinstates Jensen Huang](https://www.cdomagazine.tech/aiml/nvidia-adds-compliance-oversight-as-board-reinstates-jensen-huang) |
 | 2026-11-24 | OneTrust Blog | [PPCDA Readiness: A Practical Guide to Consent, Assessments, and Automated Decisions Privacy Automation](https://www.onetrust.com/blog/ppcda-readiness-a-practical-guide-to-consent-assessments-and-automated-decisions/) |
@@ -76,6 +79,8 @@ Last run: **2026-11-24T18:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | Palantir Blog | [Zrozumieć Palantir: fakty i mity](https://blog.palantir.com/zrozumie%C4%87-palantir-fakty-i-mity-afa49bcfb8ab?source=rss----3c87dc14372f---4) |
+| 2026-11-24 | The Record (Recorded Future News) | [California privacy agency director Kemp to leave after two-year tenure](https://therecord.media/california-privacy-agency-kemp) |
 | 2026-11-24 | Precisely Blog | [Data Quality Is Not a Diet. It’s a Lifestyle.](https://www.precisely.com/blog/cat-data-quality/data-quality-is-not-a-diet-its-a-lifestyle/) |
 | 2026-11-24 | Center for Data Innovation | [5 Q’s with Bin Li, Co-founder and CTO of Canos](https://datainnovation.org/2026/11/5-qs-with-bin-li-co-founder-and-cto-of-canos/) |
 | 2026-11-24 | DataHub Blog (open source metadata platform) | [Data Catalog Tools in 2026: What the Landscape Looks Like (and How to Evaluate It)](https://datahub.com/blog/data-catalog-tools/) |
@@ -107,13 +112,12 @@ Last run: **2026-11-24T18:17:25Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-23 | AlgorithmWatch | [Statement zum Innenausschuss: AlgorithmWatch warnt vor Fiasko bei KI-Migrationsverwaltungsgesetz](https://algorithmwatch.org/de/statement-zum-innenausschuss-algorithmwatch-warnt-vor-fiasko-bei-ki-migrationsverwaltungsgesetz/) |
 | 2026-11-23 | Data Engineering Weekly | [Data Engineering Weekly #297](https://www.dataengineeringweekly.com/p/data-engineering-weekly-297) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
-| 2026-11-22 | Monte Carlo Blog | [Mind the Seams: KPIs for the AI Platform Team](https://montecarlo.ai/kpis-for-the-ai-platform-team) |
 | 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
 | 2026-11-13 | Center for Security and Emerging Technology (CSET) | [How Nvidia’s Scandal Will Reverberate Across Washington](https://cset.georgetown.edu/article/how-nvidias-scandal-will-reverberate-across-washington/) |
 
 ## Source problems
 
-- **ISO — News** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.iso.org', port=443): Read timed out. (read timeout=25)`
+_None._
 
 ## Check manually (weekly)
 
