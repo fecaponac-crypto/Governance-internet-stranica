@@ -650,3 +650,14 @@ class SameTopicDuplicateTest(unittest.TestCase):
         # Same topic long ago: only the strict title rule applies.
         old = {**dfa, "date": "2025-01-01"}
         self.assertIsNone(draft.already_covered(new_dfa, [old]))
+
+
+class KeyErrorTest(unittest.TestCase):
+    def test_rejected_key_blocks_the_run_without_crashing(self):
+        e = draft.anthropic.AuthenticationError.__new__(draft.anthropic.AuthenticationError)
+        Exception.__init__(e, "Error code: 401 - invalid x-api-key")
+        summary = {"credits_out": False, "key_invalid": False}
+        self.assertEqual(draft.blocked(e, summary), draft.KEY_MESSAGE)
+        self.assertTrue(summary["key_invalid"])
+        self.assertFalse(summary["credits_out"])
+        self.assertIsNone(draft.blocked(ValueError("other"), {"credits_out": False, "key_invalid": False}))

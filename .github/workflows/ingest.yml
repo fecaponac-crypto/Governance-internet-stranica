@@ -88,13 +88,19 @@ jobs:
           exit 1
 
       # A red run makes GitHub notify the owner; the commit above keeps the report and queue.
-      - name: Alert when the Anthropic API credits are used up
+      - name: Alert when the Anthropic API credits are used up or the key is rejected
         run: |
           python - <<'PY'
           import json, sys
-          since = json.load(open("data/state/ai.json")).get("credits_out_since")
+          state = json.load(open("data/state/ai.json"))
+          since = state.get("credits_out_since")
           if since:
               print(f"::error title=Anthropic API credits used up::No stories drafted since {since}. "
                     "Top up at console.anthropic.com -> Settings -> Billing; waiting items are drafted automatically afterwards.")
+          key_since = state.get("api_key_invalid_since")
+          if key_since:
+              print(f"::error title=Anthropic API key rejected::No stories drafted since {key_since}. "
+                    "Create a new key at console.anthropic.com -> API keys and save it as the ANTHROPIC_API_KEY secret.")
+          if since or key_since:
               sys.exit(1)
           PY

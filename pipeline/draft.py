@@ -285,6 +285,26 @@ def is_credit_error(e: Exception) -> bool:
     return isinstance(e, anthropic.APIStatusError) and "credit balance" in str(e).lower()
 
 
+KEY_MESSAGE = ("The Anthropic API key was rejected — create a new key at console.anthropic.com → API keys and save it "
+               "as the ANTHROPIC_API_KEY repository secret on GitHub (Settings → Secrets and variables → Actions)")
+
+
+def is_key_error(e: Exception) -> bool:
+    """401 'invalid x-api-key': the key was revoked, expired or mistyped (seen 23 Nov 2026)."""
+    return isinstance(e, anthropic.AuthenticationError)
+
+
+def blocked(e: Exception, summary: dict) -> str | None:
+    """Mark the run as blocked when the API cannot be used at all; returns the message to show, else None."""
+    if is_credit_error(e):
+        summary["credits_out"] = True
+        return CREDITS_MESSAGE
+    if is_key_error(e):
+        summary["key_invalid"] = True
+        return KEY_MESSAGE
+    return None
+
+
 def call_json(client: anthropic.Anthropic, state: dict, *, model: str, system: str, user: str, schema: dict,
               effort: str, max_tokens: int) -> dict:
     params = dict(
@@ -1339,7 +1359,7 @@ def run(args) -> dict:
     taken = {a["slug"] for a in existing + pending}
     client = anthropic.Anthropic()
     summary = {"run": now, "candidates": 0, "scored": 0, "duplicates": 0, "selected": 0, "drafted": 0, "failed": 0,
-               "queued": 0, "budget_stop": False, "credits_out": False}
+               "queued": 0, "budget_stop": False, "credits_out": False, "key_invalid": False}
     log: list[str] = []
 
     candidates = load_candidates(state)
@@ -1354,9 +1374,9 @@ def run(args) -> dict:
         try:
             scores = score_items(client, state, to_score, categories, existing + pending)
         except anthropic.APIStatusError as e:
-            if not is_credit_error(e):
+            if not blocked(e, summary):
                 raise
-            summary["credits_out"] = True  # items stay unscored and are retried after the top-up
+            # items stay unscored and are retried once the credits or the key are fixed
     elif to_score:
         summary["budget_stop"] = True
 
@@ -1384,7 +1404,7 @@ def run(args) -> dict:
             git("fetch", "-q", "origin", base)
         drafted_now: list[dict] = []
         for item, record in queue[:MAX_DRAFTS_PER_RUN]:
-            if summary["credits_out"]:
+            if summary["credits_out"] or summary["key_invalid"]:
                 break
             if over_budget(state):
                 summary["budget_stop"] = True  # the rest stays queued
@@ -1467,9 +1487,9 @@ def run(args) -> dict:
                            f"{fresh['what_happened'] or 'a later development'} {fresh['url']} · add the newer source to "
                            "data/inbox.yaml to draft the current story")
             except (ModelError, anthropic.APIError, subprocess.CalledProcessError, json.JSONDecodeError) as e:
-                if is_credit_error(e):
-                    summary["credits_out"] = True  # the item stays selected and is drafted after the top-up
-                    log.append(f"- 🚨 [{item['title']}]({item['url']}) — waiting: {CREDITS_MESSAGE}")
+                message = blocked(e, summary)
+                if message:  # the item stays selected and is drafted once the credits or the key are fixed
+                    log.append(f"- 🚨 [{item['title']}]({item['url']}) — waiting: {message}")
                     break
                 detail = e.stderr.strip()[:200] if isinstance(e, subprocess.CalledProcessError) else str(e)[:200]
                 record.update(decision="failed", error=detail)
@@ -1479,8 +1499,11 @@ def run(args) -> dict:
 
     if summary["credits_out"]:
         state.setdefault("credits_out_since", now)
-    elif summary["scored"] or summary["drafted"]:
+    if summary["key_invalid"]:
+        state.setdefault("api_key_invalid_since", now)
+    if not (summary["credits_out"] or summary["key_invalid"]) and (summary["scored"] or summary["drafted"]):
         state.pop("credits_out_since", None)
+        state.pop("api_key_invalid_since", None)
     save_state(state)
     write_report(state, summary, log)
     return summary
@@ -1497,6 +1520,9 @@ def write_report(state: dict, summary: dict, log: list[str]) -> None:
         "",
         *([f"> 🚨 **{CREDITS_MESSAGE}.** No stories are being scored or drafted since {state['credits_out_since']}; "
            "waiting items are processed automatically after the top-up.", ""] if state.get("credits_out_since") else []),
+        *([f"> 🚨 **{KEY_MESSAGE}.** No stories are being scored or drafted since {state['api_key_invalid_since']}; "
+           "collected items wait and are processed automatically once the new key is saved.", ""]
+          if state.get("api_key_invalid_since") else []),
         f"Last run: **{summary['run']}** · candidates {summary['candidates']} · scored {summary['scored']} · "
         f"selected {summary['selected']} · drafted {summary['drafted']} · failed {summary['failed']} · "
         f"queued for next run {summary['queued']}"
