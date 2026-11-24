@@ -1,19 +1,19 @@
 # Drafts report
 
-Last run: **2026-11-24T21:17:40Z** · candidates 5 · scored 5 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-24T23:55:16Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$34.69** of $45 budget (723 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **CalPrivacy executive director Tom Kemp to step down as agency pursues new opt-out signal rules** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/182
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Vendor blog explainer on Palantir myths; marketing-style content without a concrete governance development.
+- (1) Vendor certification announcement, essentially marketing.
 - (2) Congressional scrutiny of FAA AI rollout seeking validation data and safety measures; governance angle but a minor oversight development.
 - (2) University uses AI to review transcripts with human admissions decisions retained; practical AI governance example, modest importance.
-- (1) Vendor certification announcement, essentially marketing.
-- (1) Vendor blog explainer on Palantir myths; marketing-style content without a concrete governance development.
 - (1) Chip export and geopolitics commentary; no direct data governance angle.
 - (2) Vendor product feature announcement for observability in a catalog; minor product update, not a significant launch.
 - (1) Company interview on blood-based cancer tests; no data governance angle.
