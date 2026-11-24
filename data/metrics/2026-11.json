@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-24T12:17:48Z",
+ "updated": "2026-11-24T13:48:26Z",
  "portal": {
   "published_total": 153,
   "published_this_month": 110,
@@ -13,16 +13,16 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 708,
-  "runs": 254,
+  "items_collected": 714,
+  "runs": 255,
   "runs_with_failed_sources": 223,
   "triage_decisions": {
-   "drafted": 123,
-   "skipped": 563,
+   "drafted": 125,
+   "skipped": 567,
    "failed": 22,
    "duplicate": 1
   },
-  "ai_spend_usd": 33.5938,
+  "ai_spend_usd": 33.8262,
   "sources_active": 81,
   "sources_failing_now": 0
  },
@@ -34,8 +34,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 960,
-  "visits": 860,
+  "page_views": 970,
+  "visits": 870,
   "bots_excluded": true,
   "by_day": [
    {
@@ -130,8 +130,8 @@
    },
    {
     "date": "2026-11-24",
-    "page_views": 20,
-    "visits": 20
+    "page_views": 30,
+    "visits": 30
    }
   ],
   "top_pages": [
@@ -148,15 +148,15 @@
     "page_views": 80
    },
    {
+    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
+    "page_views": 60
+   },
+   {
     "requestPath": "/category/security/",
     "page_views": 60
    },
    {
     "requestPath": "/review/2026-11/",
-    "page_views": 50
-   },
-   {
-    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
     "page_views": 50
    },
    {
@@ -179,7 +179,7 @@
   "countries": [
    {
     "countryName": "US",
-    "page_views": 510
+    "page_views": 520
    },
    {
     "countryName": "CN",
@@ -221,7 +221,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 800
+    "page_views": 810
    },
    {
     "refererHost": "datagovernancesignal.com",

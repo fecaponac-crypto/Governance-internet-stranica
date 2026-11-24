@@ -1,19 +1,24 @@
 # Drafts report
 
-Last run: **2026-11-24T12:17:44Z** · candidates 5 · scored 5 · selected 1 · drafted 0 · failed 1 · queued for next run 0
+Last run: **2026-11-24T13:47:32Z** · candidates 6 · scored 6 · selected 2 · drafted 2 · failed 0 · queued for next run 0
 
-AI spend this month: **$33.59** of $45 budget (700 calls)
+AI spend this month: **$33.83** of $45 budget (706 calls)
 
 ## This run
 
-- ❌ [Irish privacy regulator in talks with Meta over EU launch of Muse](https://www.rapporteur.com/news/irish-privacy-regulator-in-talks-with-meta-over-eu-launch-of-muse/) — source not readable: HTTP 403
+- ℹ️ not fact-checked **McDonald's Japan discloses breach of app database exposing purchase histories and device location data** — importance 2 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/177
+- ℹ️ not fact-checked **CNIL publishes guide on GDPR roles in parcel delivery, saying carriers are usually controllers** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/178
 
 ## Recently skipped by triage
 
-- (1) Executive appointment announcement; personnel news without governance substance.
+- (1) Generic thought-leadership on AI pricing; no concrete governance consequence.
+- (1) Event promotion for AEPD conference day; not news with a governance consequence.
+- (2) Cybersecurity M&A outside data governance focus; no data governance angle beyond security market news.
+- (2) Funding round for AI agent data-workload platform; a notable market development for data platforms, low-tier reliability source.
 - (1) Guest lecture promotion at a university; event news, not governance developments.
-- (2) Commentary on Nvidia leadership and AI sovereignty; no concrete data governance consequence.
+- (1) Executive appointment announcement; personnel news without governance substance.
 - (2) Analyst retrospective on data and AI trends; some practitioner value but generic opinion, low importance.
+- (2) Commentary on Nvidia leadership and AI sovereignty; no concrete data governance consequence.
 - (1) Digital sovereignty opinion from a CIO; no concrete governance consequence.
 - (2) Analyst commentary on AI governance execution; generic opinion with limited actionable detail.
 - (1) Philosophy of AI consciousness; no data governance angle.
@@ -21,7 +26,3 @@ AI spend this month: **$33.59** of $45 budget (700 calls)
 - (1) Opinion op-ed on US export controls and a chip-company scandal; no concrete data governance angle.
 - (2) Signal blocking screenshots to protect data from AI agents; relevant to data protection but a single company's response.
 - (1) Thought-leadership essay without a concrete governance angle.
-- (1) Dataset showcase without governance implications.
-- (1) Dataset showcase without governance implications.
-- (1) Cyber espionage opinion without data governance angle.
-- (1) Event coverage of a leadership summit; not news.

@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-24T12:17:29Z** · sources checked: 81 · failed: 0 · new items this run: 5
+Last run: **2026-11-24T13:47:02Z** · sources checked: 81 · failed: 0 · new items this run: 6
 
-## New items, last 48 hours (65)
+## New items, last 48 hours (71)
 
 ### High priority sources
 
@@ -30,7 +30,12 @@ Last run: **2026-11-24T12:17:29Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | CDO Magazine | [AI Governance Token Economics: The Pricing Shift Reshaping Enterprise AI](https://www.cdomagazine.tech/ai-governance/token-economics-the-pricing-shift-reshaping-enterprise-ai) |
+| 2026-11-24 | AEPD — Spanish Data Protection Agency | [La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-celebra-primera-jornada-con-espacio-propio-jornadas-stic) |
+| 2026-11-24 | Forrester Blogs | [CrowdStrike And Zscaler: The Pre-Black Friday $43 Billion Deal](https://www.forrester.com/blogs/crowdstrike-and-zscaler-the-pre-black-friday-43-billion-deal/) |
+| 2026-11-24 | SiliconANGLE — Big Data | [Zipher lands $53M to put AI agents, not data engineers, in charge of data workloads](https://siliconangle.com/2026/11/24/zipher-lands-53m-to-put-ai-agents-not-data-engineers-in-charge-of-data-workloads/) |
 | 2026-11-24 | CDO Magazine | [Leadership Moves Philip Morris International U.S. Names Meet Patel Vice President of Data and Advanced Analytics](https://www.cdomagazine.tech/leadership-moves/philip-morris-international-u-s-names-meet-patel-vice-president-of-data-and-advanced-analytics) |
+| 2026-11-24 | CNIL (France) | [Acteurs du secteur de la livraison : comment définir les responsabilités au regard du RGPD ?](https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites) |
 | 2026-11-24 | AZOP — Croatian Personal Data Protection Agency | [Gostujuće predavanje na VERN-u: „Kako AI mijenja odnose s javnošću“](https://azop.hr/gostujuce-predavanje-na-vern-u-kako-ai-mijenja-odnose-s-javnoscu/) |
 | 2026-11-24 | Euractiv | [Irish privacy regulator in talks with Meta over EU launch of Muse](https://www.rapporteur.com/news/irish-privacy-regulator-in-talks-with-meta-over-eu-launch-of-muse/) |
 | 2026-11-24 | CDO Magazine | [Community From AI Ambition to Business Impact: Data and AI Leaders Confront the Realities of Scale at CDO Magazine’s Cincinnati Leadership Summit](https://www.cdomagazine.tech/community/from-ai-ambition-to-business-impact-data-and-ai-leaders-confront-the-realities-of-scale-at-cdo-magazines-cincinnati-leadership-summit) |
@@ -58,6 +63,7 @@ Last run: **2026-11-24T12:17:29Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | The Record (Recorded Future News) | [McDonald’s Japan discloses breach exposing customer purchase and location data](https://therecord.media/japan-mcdonalds-cyberattack-breach) |
 | 2026-11-24 | Computer Weekly — IT security | [Huang’s Trump-backed return raises AI sovereignty concerns](https://www.computerweekly.com/news/366655453/Huangs-Trump-backed-return-raises-AI-sovereignty-concerns) |
 | 2026-11-24 | The Record (Recorded Future News) | [LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data](https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident) |
 | 2026-11-23 | DataGalaxy | [AI use case prioritization framework: how to prioritize AI projects that pay off](https://www.datagalaxy.com/en/blog/ai-use-case-prioritization-framework/) |

@@ -1085,6 +1085,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "17faeada10e472c5": {
+   "at": "2026-11-24T13:47:32Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "mcdonald-s-japan-discloses-breach-of-app-database-exposing-purchase-hi",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/177",
+   "primary_found": false,
+   "reason": "Breach exposing purchase histories and location data is a concrete privacy and security incident affecting customers.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "184437d9f0b89a12": {
    "at": "2026-11-18T11:46:57Z",
    "categories": [
@@ -1223,6 +1239,17 @@
    "primary_found": true,
    "reason": "Final EDPB guidelines on legitimate interest under GDPR directly affect how organisations rely on this lawful basis.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "1c10603758d4c845": {
+   "at": "2026-11-24T13:47:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event promotion for AEPD conference day; not news with a governance consequence.",
+   "relevant": false,
    "same_story_as": null
   },
   "1c3952feedf91c8f": {
@@ -4348,6 +4375,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "6370de3d078e7c76": {
+   "at": "2026-11-24T13:47:32Z",
+   "categories": [
+    "market",
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Funding round for AI agent data-workload platform; a notable market development for data platforms, low-tier reliability source.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "64c2e0d61a25f189": {
    "at": "2026-11-18T09:18:25Z",
    "categories": [
@@ -4739,6 +4778,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Executive appointment news with no governance practice angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "6d55afd6e4bf286a": {
+   "at": "2026-11-24T13:47:32Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on AI pricing; no concrete governance consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5461,6 +5511,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7c2ce112df11950c": {
+   "at": "2026-11-24T13:47:32Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Cybersecurity M&A outside data governance focus; no data governance angle beyond security market news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7c589889d44ad8c5": {
    "at": "2026-11-05T12:18:37Z",
    "categories": [
@@ -5763,6 +5824,22 @@
    "error": "card_caption longer than 90 characters",
    "importance": 3,
    "reason": "Practical guidance on governing catalogue asset readiness for AI with steward workflows; vendor blog but usable approach.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "82f415591be803c8": {
+   "at": "2026-11-24T13:47:32Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "cnil-publishes-guide-on-gdpr-roles-in-parcel-delivery-saying-carriers",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/178",
+   "primary_found": false,
+   "reason": "CNIL guidance on controller versus processor roles in delivery services gives practical GDPR responsibility guidance.",
    "relevant": true,
    "same_story_as": null
   },
@@ -11130,8 +11207,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 700,
-   "usd": 33.5938
+   "calls": 706,
+   "usd": 33.8262
   }
  }
 }
