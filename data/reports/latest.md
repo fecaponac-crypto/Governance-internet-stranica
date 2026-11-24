@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new items this run: 8
+Last run: **2026-11-24T18:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 13
 
-## New items, last 48 hours (79)
+## New items, last 48 hours (92)
 
 ### High priority sources
 
@@ -10,6 +10,8 @@ Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new it
 |---|---|---|
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
 | 2026-11-24 | Inside Privacy (Covington & Burling) | [California Regulators Focus on CCPA Opt-Out Compliance](https://www.insideprivacy.com/state-privacy/california-regulators-focus-on-ccpa-opt-out-compliance/) |
+| 2026-11-24 | Hunton Privacy & Information Security Law Blog | [Advocate General Issues Opinion on Dynamic IP Addresses and GDPR Compensation Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/advocate-general-issues-opinion-on-dynamic-ip-addresses-and-gdpr-compensation-claims) |
+| 2026-11-24 | Autoriteit Persoonsgegevens (Netherlands) | [AP neemt deel aan online rondetafel over AVG-gedragscodes](https://autoriteitpersoonsgegevens.nl/actueel/ap-neemt-deel-aan-online-rondetafel-over-avg-gedragscodes) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [McGrath unpacks European Commission's stance on digital rulebook updates](https://iapp.org/news/a/mcgrath-unpacks-european-commissions-stance-on-digital-rulebook-updates) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Thought for the week: Human beings, not human doings: Flourishing in the age of AI](https://iapp.org/news/a/thought-for-the-week-human-beings-not-human-doings-flourishing-in-the-age-of-ai) |
 | 2026-11-24 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #115: Global Rules After the Midterms](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global) |
@@ -32,6 +34,10 @@ Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | CDO Magazine | [Artificial Intelligence Richard Leaton of Novelis on Scaling Manufacturing AI Through Consistent Technology Decisions](https://www.cdomagazine.tech/aiml/richard-leaton-of-novelis-on-scaling-manufacturing-ai-through-consistent-technology-decisions) |
+| 2026-11-24 | CDO Magazine | [Artificial Intelligence Nvidia Adds Compliance Oversight as Board Reinstates Jensen Huang](https://www.cdomagazine.tech/aiml/nvidia-adds-compliance-oversight-as-board-reinstates-jensen-huang) |
+| 2026-11-24 | OneTrust Blog | [PPCDA Readiness: A Practical Guide to Consent, Assessments, and Automated Decisions Privacy Automation](https://www.onetrust.com/blog/ppcda-readiness-a-practical-guide-to-consent-assessments-and-automated-decisions/) |
+| 2026-11-24 | OneTrust Blog | [Shadow AI Is Everywhere. Detection Is the First Step Toward Governance AI Governance](https://www.onetrust.com/blog/shadow-ai-is-everywhere-detection-is-the-first-step-toward-governance/) |
 | 2026-11-24 | Alation Blog | [November 24, 2026 Why Metadata Management Alone Can’t Fix Wrong AI Answers Perfectly governed data can still produce wrong AI answers. Learn how metadata teams can close the loop. Read More](https://www.alation.com/blog/metadata-management-for-ai-wrong-answers/) |
 | 2026-11-24 | Forrester Blogs | [KubeCon North America 2026 — “Cloud-Native Without Limits”](https://www.forrester.com/blogs/kubecon-north-america-2026-cloud-native-without-limits/) |
 | 2026-11-24 | POLITICO Europe — Technology | [Snowden on steroids: AI agents in phones trigger surveillance fears](https://www.politico.eu/article/ai-agents-phone-privacy-surveillance-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
@@ -46,6 +52,8 @@ Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | CDO Magazine | [Community From AI Ambition to Business Impact: Data and AI Leaders Confront the Realities of Scale at CDO Magazine’s Cincinnati Leadership Summit](https://www.cdomagazine.tech/community/from-ai-ambition-to-business-impact-data-and-ai-leaders-confront-the-realities-of-scale-at-cdo-magazines-cincinnati-leadership-summit) |
 | 2026-11-24 | Alation Blog | [November 23, 2026 AI in Supply Chain Management: What it Is and How to Implement it Safely Learn how AI in the supply chain delivers value today, and how to expand agent autonomy safely as trusted data proves… Read More](https://www.alation.com/blog/ai-in-supply-chain-management-what-it-is-and-how-to-implement-it-safely/) |
 | 2026-11-24 | Ataccama Blog | [FWRD 2026 recap: What data & AI leaders learned in 2026, and what they expect in 2027](https://www.ataccama.com/blog/fwrd-2026-recap-what-data-ai-leaders-learned-in-2026-and-what-they-expect-in-2027) |
+| 2026-11-24 | European Data Protection Supervisor (EDPS) | [59th EDPS-DPO meeting - Blogpost](https://www.edps.europa.eu/press-publications/press-news/news/2026/59th-edps-dpo-meeting-blogpost) |
+| 2026-11-24 | Snowflake Blog | [Iceberg Observability in Snowflake Horizon Catalog](https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog) |
 | 2026-11-24 | Databricks Blog | [Sharing catalog metadata across data platforms, engines, and agents](https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents) |
 | 2026-11-23 | Forrester Blogs | [Govern AI For The Future You Can’t Predict](https://www.forrester.com/blogs/govern-ai-for-the-future-you-cant-predict/) |
 | 2026-11-23 | CDO Magazine | [Artificial Intelligence The AI Model Isn’t the Problem: TigerGraph’s Rajeev Shrivastava on Connected Enterprise Context](https://www.cdomagazine.tech/aiml/the-ai-model-isnt-the-problem-tigergraphs-rajeev-shrivastava-on-connected-enterprise-context) |
@@ -68,6 +76,10 @@ Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | Precisely Blog | [Data Quality Is Not a Diet. It’s a Lifestyle.](https://www.precisely.com/blog/cat-data-quality/data-quality-is-not-a-diet-its-a-lifestyle/) |
+| 2026-11-24 | Center for Data Innovation | [5 Q’s with Bin Li, Co-founder and CTO of Canos](https://datainnovation.org/2026/11/5-qs-with-bin-li-co-founder-and-cto-of-canos/) |
+| 2026-11-24 | DataHub Blog (open source metadata platform) | [Data Catalog Tools in 2026: What the Landscape Looks Like (and How to Evaluate It)](https://datahub.com/blog/data-catalog-tools/) |
+| 2026-11-24 | MIT Technology Review | [Raising the stakes for enterprise networks with AI modernization](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) |
 | 2026-11-24 | The Record (Recorded Future News) | [UK cyber agency seeing ‘marked rise’ in AI-driven attacks](https://therecord.media/cyberattacks-uk-artificial-intelligence) |
 | 2026-11-24 | The Record (Recorded Future News) | [McDonald’s Japan discloses breach exposing customer purchase and location data](https://therecord.media/japan-mcdonalds-cyberattack-breach) |
 | 2026-11-24 | Computer Weekly — IT security | [Amazon CTO Werner Vogels: Computing to converge with biology](https://www.computerweekly.com/news/366655113/Amazon-CTO-Werner-Vogels-Computing-to-converge-with-biology) |
@@ -96,11 +108,12 @@ Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Data Engineering Weekly | [Data Engineering Weekly #297](https://www.dataengineeringweekly.com/p/data-engineering-weekly-297) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
 | 2026-11-22 | Monte Carlo Blog | [Mind the Seams: KPIs for the AI Platform Team](https://montecarlo.ai/kpis-for-the-ai-platform-team) |
+| 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
 | 2026-11-13 | Center for Security and Emerging Technology (CSET) | [How Nvidia’s Scandal Will Reverberate Across Washington](https://cset.georgetown.edu/article/how-nvidias-scandal-will-reverberate-across-washington/) |
 
 ## Source problems
 
-_None._
+- **ISO — News** — failed 1× in a row: `ReadTimeout: HTTPSConnectionPool(host='www.iso.org', port=443): Read timed out. (read timeout=25)`
 
 ## Check manually (weekly)
 

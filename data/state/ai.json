@@ -508,6 +508,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0ace32e399cccd3f": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Chip export and geopolitics commentary; no direct data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0b3e4fe439350b54": {
    "at": "2026-11-23T15:17:40Z",
    "categories": [
@@ -2777,6 +2788,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3e8dc5b86d2d343c": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor product feature announcement for observability in a catalog; minor product update, not a significant launch.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3ef3a61c284281ef": {
    "at": "2026-11-16T09:17:49Z",
    "categories": [],
@@ -3672,6 +3694,28 @@
    "relevant": false,
    "same_story_as": null
   },
+  "4fdaede47782a0dc": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Company interview on blood-based cancer tests; no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5014ed0d0a402d2c": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Event participation announcement about a round table on GDPR codes of conduct; event promotion.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5014ff0b146ff2cb": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [
@@ -4158,6 +4202,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog promoting analyst recognition; award/marketing style, not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "5a07c5ebe9cc0af1": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog on shadow AI detection; generic vendor thought-leadership.",
    "relevant": false,
    "same_story_as": null
   },
@@ -5440,6 +5495,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "799d0991f6a47c88": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog on catalog tool landscape; it is a how-to style vendor piece rather than news, though close to the metadata topic.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7a11eabd2cfef4de": {
    "at": "2026-11-09T09:18:38Z",
    "categories": [
@@ -6591,6 +6657,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "971497c567c6cc68": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "advocate-general-says-dynamic-ip-addresses-can-be-personal-data-but-de",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/181",
+   "primary_found": false,
+   "reason": "Advocate General opinion in CJEU case C-654/25 on dynamic IP addresses as personal data and GDPR compensation; significant court development with practical consequences.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "972c08c416af73de": {
    "at": "2026-10-27T15:18:25Z",
    "categories": [
@@ -6753,6 +6835,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog on AI governance models; generic marketing content without concrete news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "9becfb1562494870": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Corporate board news about Nvidia; no data governance angle in title or excerpt.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6979,6 +7072,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Explainer and promotional content accompanying the Ataccama launch; generic thought-leadership rather than news, and duplicates the same product announcement.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a1954c7a4413f404": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Sponsored-style piece on enterprise network infrastructure; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9965,6 +10069,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e434dbb8388554d3": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor product blog and marketing-style guide on consent and assessments; not genuine news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e447c2de7d90e5c8": {
    "at": "2026-11-12T15:18:06Z",
    "categories": [
@@ -10436,6 +10551,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ef32a4516f6ddada": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive interview on manufacturing AI technology decisions; generic thought-leadership without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ef7eb222c66a1bc1": {
    "at": "2026-10-30T21:18:30Z",
    "categories": [
@@ -10643,6 +10769,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor event recap, marketing-oriented.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f2de9380d9db2135": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog opinion on data quality programmes; generic and promotional, no concrete actionable guidance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -11174,6 +11311,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fe6f44e4421af102": {
+   "at": "2026-11-24T18:17:58Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Meeting blogpost from EDPS announcing a DPO meeting; event report with no substantive regulatory content.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fe8d75cae56f7a7d": {
    "at": "2026-11-24T11:10:42Z",
    "categories": [],
@@ -11309,8 +11457,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 716,
-   "usd": 34.3402
+   "calls": 720,
+   "usd": 34.5921
   }
  }
 }
