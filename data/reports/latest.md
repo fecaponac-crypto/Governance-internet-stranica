@@ -1,13 +1,15 @@
 # Inflow report
 
-Last run: **2026-11-24T13:47:02Z** · sources checked: 81 · failed: 0 · new items this run: 6
+Last run: **2026-11-24T15:17:27Z** · sources checked: 81 · failed: 0 · new items this run: 8
 
-## New items, last 48 hours (71)
+## New items, last 48 hours (79)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
+| 2026-11-24 | Inside Privacy (Covington & Burling) | [California Regulators Focus on CCPA Opt-Out Compliance](https://www.insideprivacy.com/state-privacy/california-regulators-focus-on-ccpa-opt-out-compliance/) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [McGrath unpacks European Commission's stance on digital rulebook updates](https://iapp.org/news/a/mcgrath-unpacks-european-commissions-stance-on-digital-rulebook-updates) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Thought for the week: Human beings, not human doings: Flourishing in the age of AI](https://iapp.org/news/a/thought-for-the-week-human-beings-not-human-doings-flourishing-in-the-age-of-ai) |
 | 2026-11-24 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #115: Global Rules After the Midterms](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global) |
@@ -30,6 +32,9 @@ Last run: **2026-11-24T13:47:02Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | Alation Blog | [November 24, 2026 Why Metadata Management Alone Can’t Fix Wrong AI Answers Perfectly governed data can still produce wrong AI answers. Learn how metadata teams can close the loop. Read More](https://www.alation.com/blog/metadata-management-for-ai-wrong-answers/) |
+| 2026-11-24 | Forrester Blogs | [KubeCon North America 2026 — “Cloud-Native Without Limits”](https://www.forrester.com/blogs/kubecon-north-america-2026-cloud-native-without-limits/) |
+| 2026-11-24 | POLITICO Europe — Technology | [Snowden on steroids: AI agents in phones trigger surveillance fears](https://www.politico.eu/article/ai-agents-phone-privacy-surveillance-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-24 | CDO Magazine | [AI Governance Token Economics: The Pricing Shift Reshaping Enterprise AI](https://www.cdomagazine.tech/ai-governance/token-economics-the-pricing-shift-reshaping-enterprise-ai) |
 | 2026-11-24 | AEPD — Spanish Data Protection Agency | [La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-celebra-primera-jornada-con-espacio-propio-jornadas-stic) |
 | 2026-11-24 | Forrester Blogs | [CrowdStrike And Zscaler: The Pre-Black Friday $43 Billion Deal](https://www.forrester.com/blogs/crowdstrike-and-zscaler-the-pre-black-friday-43-billion-deal/) |
@@ -63,7 +68,10 @@ Last run: **2026-11-24T13:47:02Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-24 | The Record (Recorded Future News) | [UK cyber agency seeing ‘marked rise’ in AI-driven attacks](https://therecord.media/cyberattacks-uk-artificial-intelligence) |
 | 2026-11-24 | The Record (Recorded Future News) | [McDonald’s Japan discloses breach exposing customer purchase and location data](https://therecord.media/japan-mcdonalds-cyberattack-breach) |
+| 2026-11-24 | Computer Weekly — IT security | [Amazon CTO Werner Vogels: Computing to converge with biology](https://www.computerweekly.com/news/366655113/Amazon-CTO-Werner-Vogels-Computing-to-converge-with-biology) |
+| 2026-11-24 | Computer Weekly — IT security | [Third-party support: Risks and opportunities](https://www.computerweekly.com/news/366655495/Third-party-support-Risks-and-opportunities) |
 | 2026-11-24 | Computer Weekly — IT security | [Huang’s Trump-backed return raises AI sovereignty concerns](https://www.computerweekly.com/news/366655453/Huangs-Trump-backed-return-raises-AI-sovereignty-concerns) |
 | 2026-11-24 | The Record (Recorded Future News) | [LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data](https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident) |
 | 2026-11-23 | DataGalaxy | [AI use case prioritization framework: how to prioritize AI projects that pay off](https://www.datagalaxy.com/en/blog/ai-use-case-prioritization-framework/) |

@@ -702,6 +702,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1094e4600644c403": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic IT support commentary without data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "111b66d97ab01eca": {
    "at": "2026-11-09T12:18:30Z",
    "categories": [],
@@ -1632,6 +1643,17 @@
    "importance": 2,
    "reason": "Interview on business context layer for AI and data management at MetLife; practical governance perspective, though mostly an interview.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "23351aba5dec9dc6": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog teaser with no concrete facts; marketing content.",
+   "relevant": false,
    "same_story_as": null
   },
   "235df9b1fe377349": {
@@ -4000,6 +4022,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "58073f09c38966dc": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Commentary on privacy concerns from AI agents in phones; limited concrete development, worth knowing.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "582fdebcfe6e6a3c": {
    "at": "2026-11-06T16:47:30Z",
    "categories": [
@@ -5049,6 +5083,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "715c683cbc238dd4": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "General opinion interview without governance-specific substance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "71be46aefba9b5cb": {
    "at": "2026-11-16T09:17:49Z",
    "categories": [
@@ -5478,6 +5523,18 @@
    "importance": 1,
    "reason": "EU court judgment on Russian maritime register sanctions; no data governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "7b118a5d5c17a624": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "duplicate",
+   "importance": 3,
+   "of": "california-privacy-regulator-fines-hertz-1-55-million-over-ignored-opt",
+   "reason": "Covers a CCPA opt-out enforcement settlement with Lyft, actionable for compliance teams.",
+   "relevant": true,
    "same_story_as": null
   },
   "7b541a87643652cd": {
@@ -6255,6 +6312,23 @@
    "importance": 1,
    "reason": "Lobbying story; federal policy debate is background without a concrete practitioner consequence.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "9163ef3e85643d85": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "law-firm-says-delete-act-deletions-through-drop-must-reach-ai-derived",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/179",
+   "primary_found": true,
+   "reason": "Practical compliance guidance on DROP (California data broker deletion platform) obligations from a professional privacy body; actionable for practitioners.",
+   "relevant": true,
    "same_story_as": null
   },
   "91a82de8ac80db07": {
@@ -10243,6 +10317,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "eb9b494849efd394": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conference recap with no governance-specific news.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "ebf4a5e3d175c636": {
    "at": "2026-11-03T18:19:30Z",
    "categories": [
@@ -10453,6 +10538,23 @@
    "importance": 1,
    "reason": "Generic analyst blog on cloud operations for AI.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "f11098c507607eb0": {
+   "at": "2026-11-24T15:17:40Z",
+   "categories": [
+    "security",
+    "ai-governance"
+   ],
+   "claims": 19,
+   "decision": "drafted",
+   "draft": "uk-ncsc-reports-marked-rise-in-ai-assisted-attacks-using-repurposed-re",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/180",
+   "primary_found": true,
+   "reason": "UK NCSC reports rising AI-assisted cyberattacks; relevant to security posture and AI risk.",
+   "relevant": true,
    "same_story_as": null
   },
   "f1280b003fab5afa": {
@@ -11207,8 +11309,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 706,
-   "usd": 33.8262
+   "calls": 716,
+   "usd": 34.3402
   }
  }
 }
