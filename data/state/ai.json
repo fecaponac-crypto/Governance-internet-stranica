@@ -396,6 +396,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "08224082fe9a85d1": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Digital sovereignty opinion from a CIO; no concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "084484653dbf1094": {
    "at": "2026-10-29T15:18:28Z",
    "categories": [],
@@ -1266,6 +1275,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1e2d59bf1e7f222c": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Analyst commentary on AI governance execution; generic opinion with limited actionable detail.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1eaaafd11cb234ee": {
    "at": "2026-11-12T06:17:32Z",
    "categories": [
@@ -1293,6 +1313,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event promotion for an advocacy meetup.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "1ee9f5994a817a2b": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Philosophy of AI consciousness; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2517,6 +2546,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3a0de95766ace1f5": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog marketing for a product use case.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "3a76f249765a6e17": {
    "at": "2026-11-10T00:18:34Z",
    "categories": [
@@ -2974,6 +3012,19 @@
    "importance": 2,
    "reason": "Vendor blog post promoting Alation customer case; marketing rather than a launch or research finding.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "436c0918b5e0e2da": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Newsletter covering EU AI Act enforcement and Commission questioning frontier labs on safety incidents.",
+   "relevant": true,
    "same_story_as": null
   },
   "438cb58032c55a56": {
@@ -3843,6 +3894,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "56625d4024ebb797": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Opinion op-ed on US export controls and a chip-company scandal; no concrete data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "56a5e736cd67eee0": {
    "at": "2026-11-05T23:40:09Z",
    "categories": [],
@@ -4389,6 +4451,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "670f8cdb3eabf4e5": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "laliga-confirms-hacker-extracted-fans-personal-data-from-shared-digita",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/175",
+   "primary_found": true,
+   "reason": "Breach exposing fans' personal data at LaLiga; a notable personal data breach.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "6710c577cbb051eb": {
    "at": "2026-10-26T18:18:09Z",
    "categories": [
@@ -4717,6 +4795,18 @@
    "importance": 1,
    "reason": "Vendor blog listicle on data product types with no news content.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "6edcda57ebaecc84": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "ai-industry",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Signal blocking screenshots to protect data from AI agents; relevant to data protection but a single company's response.",
+   "relevant": true,
    "same_story_as": null
   },
   "6f34ae51d61c60e8": {
@@ -5876,6 +5966,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "8a8c1a01fdd389d5": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Thought-leadership essay without a concrete governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "8ae8dcb289818922": {
    "at": "2026-11-23T12:17:36Z",
    "categories": [],
@@ -6200,6 +6299,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Robocall policy comment on telecom rules, not data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "94520e176eaa3da9": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Dataset showcase without governance implications.",
    "relevant": false,
    "same_story_as": null
   },
@@ -6820,6 +6928,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a53e25c34fef68f7": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "metadata"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "databricks-adds-iceberg-catalog-labels-to-share-ownership-and-classifi",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/174",
+   "primary_found": false,
+   "reason": "Catalog labels for sharing catalog metadata across platforms; a genuine metadata capability launch from a vendor.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "a62ff74ec57f7af6": {
    "at": "2026-11-05T21:18:38Z",
    "categories": [
@@ -7355,6 +7479,15 @@
    "importance": 2,
    "reason": "Conference notes on connected vehicle consent versus accountability; commentary with some practitioner relevance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "b43ba75ab176e345": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Dataset showcase without governance implications.",
+   "relevant": false,
    "same_story_as": null
   },
   "b43cb2cdb7c156ad": {
@@ -8200,6 +8333,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c37344e95ebfb163": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "commissioner-mcgrath-says-eu-digital-rule-simplification-does-not-mean",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/173",
+   "primary_found": false,
+   "reason": "Commission stance on digital rulebook updates; regulatory policy with possible data law impact, interview-based, moderate importance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "c37e1b21a6c67d15": {
    "at": "2026-11-11T17:10:58Z",
    "categories": [],
@@ -8227,6 +8376,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Podcast on AI and cybersecurity training; generic thought leadership without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c4afe5c4055ec813": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Cyber espionage opinion without data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8444,6 +8602,15 @@
    "importance": 2,
    "reason": "Generic DATAVERSITY piece on continuous reconciliation as a governance control; excerpt gives little concrete guidance, so low importance.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "cb53a5f044ef54a2": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event coverage of a leadership summit; not news.",
+   "relevant": false,
    "same_story_as": null
   },
   "cb551d6ff5e1441a": {
@@ -8806,6 +8973,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor customer productivity story promoting dbt tooling; marketing rather than a launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d1d3915e5322fdb3": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Customer case study from a cloud vendor.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9839,6 +10015,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "e9f8673006259a04": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "cnil-publishes-inspection-charter-setting-out-rights-and-duties-of-org",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/176",
+   "primary_found": false,
+   "reason": "CNIL published a charter explaining how its inspections are conducted; practical guidance for organisations on enforcement.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ea1a27d5dc27c15c": {
    "at": "2026-11-19T21:17:50Z",
    "categories": [
@@ -10209,6 +10401,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f2c68fc33fdbc84e": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor event recap, marketing-oriented.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f2e3cf7064fbae44": {
    "at": "2026-11-14T00:17:34Z",
    "categories": [
@@ -10374,6 +10575,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "f77b50598745033e": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Appointment of an AEPD official to Convention 108 bureau; institutional news with little practical consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "f805bef09d1ff979": {
    "at": "2026-11-12T06:17:32Z",
    "categories": [
@@ -10448,6 +10660,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Media interview on chip export investigation with no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f973567a4ed7e873": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "How-to framework article without specialist news value.",
    "relevant": false,
    "same_story_as": null
   },
@@ -10717,6 +10938,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fe8d75cae56f7a7d": {
+   "at": "2026-11-24T11:10:42Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog opinion on agent memory corruption.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fe909fccac8332c4": {
    "at": "2026-10-29T03:18:57Z",
    "categories": [
@@ -10843,8 +11073,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 688,
-   "usd": 33.1077
+   "calls": 699,
+   "usd": 33.5929
   }
  }
 }

@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-23T15:17:46Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-24T11:12:45Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**840 visits · 940 page views** this month (bots excluded)
+**850 visits · 950 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -26,6 +26,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-21 | 20 | 20 |
 | 2026-11-22 | 30 | 30 |
 | 2026-11-23 | 30 | 30 |
+| 2026-11-24 | 10 | 10 |
 
 ## Top pages
 
@@ -37,8 +38,8 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 - /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/ — 40
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
 - /opinion/ — 20
+- /news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/ — 20
 - /institutions/edpb/ — 20
-- /category/ai-governance/ — 20
 
 ## Countries
 
@@ -55,7 +56,7 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
 ## Referrers
 
-- (direct) — 780
+- (direct) — 790
 - datagovernancesignal.com — 100
 - www.google.com — 20
 - m.baidu.com — 10

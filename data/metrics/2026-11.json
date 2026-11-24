@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-23T15:17:46Z",
+ "updated": "2026-11-24T11:12:45Z",
  "portal": {
   "published_total": 149,
   "published_this_month": 106,
@@ -13,16 +13,16 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 682,
-  "runs": 252,
+  "items_collected": 703,
+  "runs": 253,
   "runs_with_failed_sources": 223,
   "triage_decisions": {
-   "drafted": 119,
-   "skipped": 543,
-   "failed": 20,
+   "drafted": 123,
+   "skipped": 559,
+   "failed": 21,
    "duplicate": 1
   },
-  "ai_spend_usd": 33.1077,
+  "ai_spend_usd": 33.5929,
   "sources_active": 81,
   "sources_failing_now": 0
  },
@@ -34,8 +34,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 940,
-  "visits": 840,
+  "page_views": 950,
+  "visits": 850,
   "bots_excluded": true,
   "by_day": [
    {
@@ -127,6 +127,11 @@
     "date": "2026-11-23",
     "page_views": 30,
     "visits": 30
+   },
+   {
+    "date": "2026-11-24",
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
@@ -163,11 +168,11 @@
     "page_views": 20
    },
    {
-    "requestPath": "/institutions/edpb/",
+    "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
     "page_views": 20
    },
    {
-    "requestPath": "/category/ai-governance/",
+    "requestPath": "/institutions/edpb/",
     "page_views": 20
    }
   ],
@@ -216,7 +221,7 @@
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 780
+    "page_views": 790
    },
    {
     "refererHost": "datagovernancesignal.com",
