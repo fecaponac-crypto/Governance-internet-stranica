@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-25T03:17:22Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-25T06:17:33Z** · sources checked: 81 · failed: 0 · new items this run: 0
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (94)
 
 ### High priority sources
 
@@ -108,9 +108,7 @@ Last run: **2026-11-25T03:17:22Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Computer Weekly — IT security | [Nation-state APTs don't need new tricks; the old ones still work](https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work) |
 | 2026-11-23 | Stibo Systems Blog | [Why the teams that trust AI most still check it](https://www.stibosystems.com/blog/why-the-teams-that-trust-ai-most-still-check-it) |
 | 2026-11-23 | Computer Weekly — IT security | [Staff gagging clauses lifted for review of ‘toxic culture’ at information watchdog](https://www.computerweekly.com/news/366655253/Staff-gagging-clauses-lifted-for-review-of-toxic-culture-at-information-watchdog) |
-| 2026-11-23 | Profisee Blog | [Grounding Ais With Structured Data: Three Steps That Matter](https://profisee.com/blog/grounding-ai-structured-data/) |
 | 2026-11-23 | AlgorithmWatch | [Statement zum Innenausschuss: AlgorithmWatch warnt vor Fiasko bei KI-Migrationsverwaltungsgesetz](https://algorithmwatch.org/de/statement-zum-innenausschuss-algorithmwatch-warnt-vor-fiasko-bei-ki-migrationsverwaltungsgesetz/) |
-| 2026-11-23 | Data Engineering Weekly | [Data Engineering Weekly #297](https://www.dataengineeringweekly.com/p/data-engineering-weekly-297) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
 | 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
 | 2026-11-13 | Center for Security and Emerging Technology (CSET) | [How Nvidia’s Scandal Will Reverberate Across Washington](https://cset.georgetown.edu/article/how-nvidias-scandal-will-reverberate-across-washington/) |
