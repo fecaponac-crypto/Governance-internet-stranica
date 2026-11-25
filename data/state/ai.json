@@ -2535,6 +2535,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3796d2a93a3b08de": {
+   "at": "2026-11-25T12:17:37Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment announcement; hiring news is not relevant.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "38579abb46719dc0": {
    "at": "2026-11-02T22:44:52Z",
    "categories": [
@@ -3214,6 +3225,22 @@
    "importance": 1,
    "reason": "COVID State aid case between airline and Ryanair; no data governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "44ee8f3c74836845": {
+   "at": "2026-11-25T12:17:37Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "fincen-takes-some-systems-offline-after-unauthorised-access-in-cyberse",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/184",
+   "primary_found": false,
+   "reason": "Unauthorized access to systems at a US Treasury bureau is a notable security incident with some governance relevance, though details are limited in the excerpt.",
+   "relevant": true,
    "same_story_as": null
   },
   "452283bda43f7a07": {
@@ -11584,8 +11611,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 728,
-   "usd": 34.8884
+   "calls": 732,
+   "usd": 35.1012
   }
  }
 }

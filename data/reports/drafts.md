@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-25T09:17:43Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-25T12:17:37Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$34.89** of $45 budget (728 calls)
+AI spend this month: **$35.10** of $45 budget (732 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **FinCEN takes some systems offline after unauthorised access in cybersecurity incident** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/184
 
 ## Recently skipped by triage
 
+- (1) Executive appointment announcement; hiring news is not relevant.
 - (1) EU General Court judgment on European citizens' initiative on animal cages; no data, privacy or AI governance angle.
 - (1) Generic thought-leadership piece on AI-ready data with no concrete governance guidance or news; not relevant.
 - (1) Event report on the Global Privacy Assembly with no concrete new obligation or decision described.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Company interview on blood-based cancer tests; no data governance angle.
 - (2) Event participation announcement about a round table on GDPR codes of conduct; event promotion.
 - (2) Vendor blog on shadow AI detection; generic vendor thought-leadership.
-- (2) Vendor blog on catalog tool landscape; it is a how-to style vendor piece rather than news, though close to the metadata topic.
