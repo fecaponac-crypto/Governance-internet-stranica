@@ -26,6 +26,6 @@ The US Treasury's Financial Crimes Enforcement Network (FinCEN) is **investigati
 
 FinCEN said it had taken some systems offline as a precaution. The E-Filing website remained operational, but some services might be temporarily unavailable. **FinCEN said it is extending deadlines for filers affected by the outages** and urged financial institutions to use a hotline if they need to send suspicious activity reports to law enforcement.
 
-Treasury and FinCEN did not respond to The Record's requests for comment, and no group has claimed responsibility. The report notes several other US federal agencies have suffered breaches this year.
+Treasury and FinCEN did not respond to The Record's requests for comment, and no group has claimed responsibility. The Record notes that Chinese state-backed groups were accused of breaching the Treasury Department in 2024 and 2025, and that the CIA and at least two other intelligence agencies reportedly suffered breaches of unclassified information on the same day.
 
 *Editor's note: This article relies on a single secondary news report, which quotes FinCEN's website notice.*
