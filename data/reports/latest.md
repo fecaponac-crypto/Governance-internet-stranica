@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-25T06:17:33Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-25T08:39:31Z** · sources checked: 81 · failed: 0 · new items this run: 4
 
-## New items, last 48 hours (94)
+## New items, last 48 hours (98)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
 | 2026-11-24 | Inside Privacy (Covington & Burling) | [California Regulators Focus on CCPA Opt-Out Compliance](https://www.insideprivacy.com/state-privacy/california-regulators-focus-on-ccpa-opt-out-compliance/) |
 | 2026-11-24 | Hunton Privacy & Information Security Law Blog | [Advocate General Issues Opinion on Dynamic IP Addresses and GDPR Compensation Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/advocate-general-issues-opinion-on-dynamic-ip-addresses-and-gdpr-compensation-claims) |
@@ -34,6 +35,9 @@ Last run: **2026-11-25T06:17:33Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | DATAVERSITY | [Data Speaks for Itself: Information Quality – The Foundation of Reliable Agentic AI](https://www.dataversity.net/articles/data-speaks-for-itself-information-quality-the-foundation-of-reliable-agentic-ai/) |
+| 2026-11-25 | AZOP — Croatian Personal Data Protection Agency | [48. Svjetska konferencija za zaštitu podataka](https://azop.hr/48-svjetska-konferencija-za-zastitu-podataka/) |
+| 2026-11-25 | Ataccama Blog | [TDWI Blueprint Report: Governing Emerging and Diverse Data in the Age of AI](https://www.ataccama.com/analyst-research/tdwi-blueprint-governing-emerging-and-diverse-data) |
 | 2026-11-24 | CDO Magazine | [US Federal News Bureau House Democrats Question FAA’s Nationwide AI Rollout, Seek Validation Data and Safety Measures](https://www.cdomagazine.tech/us-federal-news-bureau/house-democrats-question-faas-nationwide-ai-rollout-seek-validation-data-and-safety-measures) |
 | 2026-11-24 | CDO Magazine | [Artificial Intelligence Syracuse University Uses AI to Review Undergraduate Transcripts, Retains Human Admissions Decisions](https://www.cdomagazine.tech/aiml/syracuse-university-uses-ai-to-review-undergraduate-transcripts-retains-human-admissions-decisions) |
 | 2026-11-24 | OneTrust Blog | [OneTrust Achieves ENS High Certification in Spain Technology Risk & Compliance](https://www.onetrust.com/blog/onetrust-achieves-ens-high-certification-in-spain/) |

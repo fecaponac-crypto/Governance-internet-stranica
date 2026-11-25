@@ -4462,6 +4462,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "62bd1fc97f736046": {
+   "at": "2026-11-25T08:39:46Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event report on the Global Privacy Assembly with no concrete new obligation or decision described.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "630d3a731f817a46": {
    "at": "2026-11-19T15:17:44Z",
    "categories": [
@@ -7632,6 +7643,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "aebb92750bf4d374": {
+   "at": "2026-11-25T08:39:46Z",
+   "categories": [
+    "data-quality",
+    "metadata"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "tdwi-survey-finds-unstructured-data-is-the-top-governance-challenge-fo",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/183",
+   "primary_found": true,
+   "reason": "TDWI research survey (179 organisations) on governing unstructured and diverse data for AI; a significant research finding relevant to governance practice, though published via a vendor blog.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "afb4f815f132baa4": {
    "at": "2026-10-29T00:18:36Z",
    "categories": [
@@ -8731,6 +8759,18 @@
    "importance": 2,
    "reason": "Advocacy commentary on a Senate proposal limiting AI liability; the underlying bill is not clearly described in the excerpt, so it is treated as opinion rather than a usable legislative step.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "c5216d85172d2e7a": {
+   "at": "2026-11-25T08:39:46Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Dutch DPA urges municipalities to alert threatened people to the option of a shielded address, given the risk of address exposure in data breaches; practical privacy guidance with a concrete consequence.",
+   "relevant": true,
    "same_story_as": null
   },
   "c5cb5b8b5a387939": {
@@ -10332,6 +10372,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e86e6bcc34c46582": {
+   "at": "2026-11-25T08:39:46Z",
+   "categories": [
+    "data-quality"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership post with no concrete guidance or news; only a feed stub excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "e89d9c2ca015e4e8": {
    "at": "2026-11-13T15:17:40Z",
    "categories": [
@@ -11515,8 +11566,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 723,
-   "usd": 34.6919
+   "calls": 727,
+   "usd": 34.8877
   }
  }
 }
