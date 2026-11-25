@@ -4820,6 +4820,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "681abf2fa1faa7d9": {
+   "at": "2026-11-25T19:19:34Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Threat actor use of an AI pentest framework is a security story with limited data governance angle; excerpt is truncated and it is not clearly tied to governed data; no existing article covers it, but it is peripheral and low-substance from the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "682149fd67e08443": {
    "at": "2026-11-19T20:41:02Z",
    "categories": [
@@ -11863,8 +11874,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 745,
-   "usd": 35.8142
+   "calls": 746,
+   "usd": 35.8149
   }
  }
 }

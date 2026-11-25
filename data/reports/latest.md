@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-25T18:17:25Z** · sources checked: 81 · failed: 0 · new items this run: 12
+Last run: **2026-11-25T19:19:24Z** · sources checked: 81 · failed: 1 · new items this run: 1
 
-## New items, last 48 hours (87)
+## New items, last 48 hours (88)
 
 ### High priority sources
 
@@ -80,6 +80,7 @@ Last run: **2026-11-25T18:17:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-25 | Autorité de protection des données (Belgium) | [Données de 1,2 million de Flamands volées : soyez vigilants](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/25/donnees-de-12-million-de-flamands-volees-soyez-vigilants) |
 | 2026-11-25 | DataHub Blog (open source metadata platform) | [Context Layer for Data Engineering Teams: What You Own and How to Run It](https://datahub.com/blog/context-layer-for-data-engineering-teams/) |
 | 2026-11-25 | The Record (Recorded Future News) | [Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital](https://therecord.media/guadeloupe-ransomware-hospital-cyber) |
+| 2026-11-25 | Computer Weekly — IT security | [Threat actor use of Artex hacking framework surges](https://www.computerweekly.com/news/366655399/Threat-actor-use-of-Artex-hacking-framework-surges) |
 | 2026-11-25 | The Record (Recorded Future News) | [Treasury's FinCEN takes systems offline after cybersecurity incident](https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident) |
 | 2026-11-24 | Palantir Blog | [Zrozumieć Palantir: fakty i mity](https://blog.palantir.com/zrozumie%C4%87-palantir-fakty-i-mity-afa49bcfb8ab?source=rss----3c87dc14372f---4) |
 | 2026-11-24 | The Record (Recorded Future News) | [California privacy agency director Kemp to leave after two-year tenure](https://therecord.media/california-privacy-agency-kemp) |
@@ -108,7 +109,7 @@ Last run: **2026-11-25T18:17:25Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
 
 ## Check manually (weekly)
 
