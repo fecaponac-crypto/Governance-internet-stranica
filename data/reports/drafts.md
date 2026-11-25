@@ -1,8 +1,8 @@
 # Drafts report
 
-Last run: **2026-11-25T19:19:34Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-25T21:17:45Z** · candidates 2 · scored 2 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$35.81** of $45 budget (746 calls)
+AI spend this month: **$35.82** of $45 budget (747 calls)
 
 ## This run
 
@@ -10,6 +10,8 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Survey of Saudi IT decision-makers on ERP as AI platform; vendor-sponsored survey with no clear governance consequence and thin detail.
+- (1) Headline about FinCEN systems offline after a cyber incident; excerpt absent and the item is brief, so no concrete governance detail to act on, though it touches security. Treated as not sufficiently substantive.
 - (1) Threat actor use of an AI pentest framework is a security story with limited data governance angle; excerpt is truncated and it is not clearly tied to governed data; no existing article covers it, but it is peripheral and low-substance from the excerpt.
 - (1) Partner content on research funding policy; no governance angle.
 - (1) Event/retrospective on freedom of information; not a data governance development.
@@ -23,5 +25,3 @@ _No drafts this run._
 - (2) IAPP article on tracking AI use against GDPR obligations; practical framing but likely generic advice.
 - (1) Vendor blog promoting its own context layer concept; vendor marketing.
 - (2) IAPP piece on AI governance lessons from outages; specialist media with some practical angle but largely opinion.
-- (1) Generic opinion on liability versus technical visibility for AI errors; nothing practitioners can directly apply.
-- (1) Generic thought-leadership on an AI governance layer without concrete new facts.

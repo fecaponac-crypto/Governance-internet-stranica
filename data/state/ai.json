@@ -7605,6 +7605,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a889c79fa5a92675": {
+   "at": "2026-11-25T21:17:45Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Survey of Saudi IT decision-makers on ERP as AI platform; vendor-sponsored survey with no clear governance consequence and thin detail.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a912434846b45192": {
    "at": "2026-10-28T12:18:28Z",
    "categories": [
@@ -8767,6 +8778,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Duplicate of item 3; generic explainer on cloud computing.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "c177f4f17626c6bb": {
+   "at": "2026-11-25T21:17:45Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Headline about FinCEN systems offline after a cyber incident; excerpt absent and the item is brief, so no concrete governance detail to act on, though it touches security. Treated as not sufficiently substantive.",
    "relevant": false,
    "same_story_as": null
   },
@@ -11874,8 +11896,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 746,
-   "usd": 35.8149
+   "calls": 747,
+   "usd": 35.8157
   }
  }
 }

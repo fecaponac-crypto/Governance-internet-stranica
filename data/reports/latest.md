@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-25T19:19:24Z** · sources checked: 81 · failed: 1 · new items this run: 1
+Last run: **2026-11-25T21:17:33Z** · sources checked: 81 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (88)
+## New items, last 48 hours (90)
 
 ### High priority sources
 
@@ -27,6 +27,8 @@ Last run: **2026-11-25T19:19:24Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | CDO Magazine | [Artificial Intelligence SAP Survey Finds ERP Systems Are the Primary AI Platform for 63% of Surveyed Saudi IT Decision-Makers](https://www.cdomagazine.tech/aiml/sap-survey-finds-erp-systems-are-the-primary-ai-platform-for-63-of-surveyed-saudi-it-decision-makers) |
+| 2026-11-25 | CDO Magazine | [US Federal News Bureau FinCEN Takes Systems Offline After Cyber Incident Affects Limited Part of Agency Systems](https://www.cdomagazine.tech/us-federal-news-bureau/fincen-takes-systems-offline-after-cyber-incident-affects-limited-part-of-agency-systems) |
 | 2026-11-25 | CDO Magazine | [Leadership Measure What Matters: Moving Data Leadership From Service to Value With Cencora SVP Jig Patel](https://www.cdomagazine.tech/leadership/measure-what-matters-moving-data-leadership-from-service-to-value-with-cencora-svp-jig-patel) |
 | 2026-11-25 | CDO Magazine | [Artificial Intelligence Agentic AI in the Enterprise: What Leaders Need to Know Now](https://www.cdomagazine.tech/aiml/agentic-ai-in-the-enterprise-what-leaders-need-to-know-now) |
 | 2026-11-25 | Euractiv | [MEPs back an exposome moonshot, now national capitals must decide [Partner Content]](https://www.rapporteur.com/news/meps-back-an-exposome-moonshot-now-national-capitals-must-decide/) |
@@ -109,7 +111,7 @@ Last run: **2026-11-25T19:19:24Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
+_None._
 
 ## Check manually (weekly)
 
