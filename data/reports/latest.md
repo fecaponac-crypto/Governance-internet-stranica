@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-25T15:17:22Z** · sources checked: 81 · failed: 0 · new items this run: 9
+Last run: **2026-11-25T18:17:25Z** · sources checked: 81 · failed: 0 · new items this run: 12
 
-## New items, last 48 hours (84)
+## New items, last 48 hours (87)
 
 ### High priority sources
 
@@ -21,11 +21,15 @@ Last run: **2026-11-25T15:17:22Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [McGrath unpacks European Commission's stance on digital rulebook updates](https://iapp.org/news/a/mcgrath-unpacks-european-commissions-stance-on-digital-rulebook-updates) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Thought for the week: Human beings, not human doings: Flourishing in the age of AI](https://iapp.org/news/a/thought-for-the-week-human-beings-not-human-doings-flourishing-in-the-age-of-ai) |
 | 2026-11-24 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #115: Global Rules After the Midterms](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global) |
+| 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | CDO Magazine | [Leadership Measure What Matters: Moving Data Leadership From Service to Value With Cencora SVP Jig Patel](https://www.cdomagazine.tech/leadership/measure-what-matters-moving-data-leadership-from-service-to-value-with-cencora-svp-jig-patel) |
+| 2026-11-25 | CDO Magazine | [Artificial Intelligence Agentic AI in the Enterprise: What Leaders Need to Know Now](https://www.cdomagazine.tech/aiml/agentic-ai-in-the-enterprise-what-leaders-need-to-know-now) |
+| 2026-11-25 | Euractiv | [MEPs back an exposome moonshot, now national capitals must decide [Partner Content]](https://www.rapporteur.com/news/meps-back-an-exposome-moonshot-now-national-capitals-must-decide/) |
 | 2026-11-25 | CDO Magazine | [AI Governance Layer 0: The Missing Layer in AI Governance](https://www.cdomagazine.tech/ai-governance/layer-0-the-missing-layer-in-ai-governance) |
 | 2026-11-25 | Alation Blog | [November 25, 2026 Describe Once, Render Anywhere: How We Built Intelligent Feeds on A2UI and MCP Apps Learn how our engineers built Intelligent Feeds on A2UI, for engineers who want to do the same: the catalog, the… Read More](https://www.alation.com/blog/a2ui-mcp-apps-component-catalog/) |
 | 2026-11-25 | CDO Magazine | [Leadership Moves Wawanesa Insurance Names Yelena Kropivnitskaya as VP of Data & Analytics](https://www.cdomagazine.tech/leadership-moves/wawanesa-insurance-names-yelena-kropivnitskaya-as-vp-of-data-analytics) |
@@ -58,18 +62,21 @@ Last run: **2026-11-25T15:17:22Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | Snowflake Blog | [Iceberg Observability in Snowflake Horizon Catalog](https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog) |
 | 2026-11-24 | Databricks Blog | [Sharing catalog metadata across data platforms, engines, and agents](https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents) |
 | 2026-11-23 | Forrester Blogs | [Govern AI For The Future You Can’t Predict](https://www.forrester.com/blogs/govern-ai-for-the-future-you-cant-predict/) |
-| 2026-11-23 | CDO Magazine | [Artificial Intelligence The AI Model Isn’t the Problem: TigerGraph’s Rajeev Shrivastava on Connected Enterprise Context](https://www.cdomagazine.tech/aiml/the-ai-model-isnt-the-problem-tigergraphs-rajeev-shrivastava-on-connected-enterprise-context) |
-| 2026-11-23 | European Data Protection Supervisor (EDPS) | [Blog post on our collaboration with Oxford’s Institute for Ethics in AI](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-our-collaboration-oxfords-institute-ethics-ai) |
-| 2026-11-23 | CNIL (France) | [Trophées des classes 2027 - Ensemble, tous protégés sur Internet !](https://www.cnil.fr/fr/trophees-des-classes-2027) |
-| 2026-11-23 | CNIL (France) | [Découvrez les lauréats du concours Trophées des classes 2026 « Comment je protège ma vie privée en ligne ? »](https://www.cnil.fr/fr/trophees-des-classes-2026-laureats) |
 | 2026-11-23 | CNIL (France) | [Contrôles de la CNIL : une charte pour tout comprendre](https://www.cnil.fr/fr/controles-de-la-cnil-une-charte-pour-tout-comprendre) |
-| 2026-11-23 | Collibra Blog | [Microsoft Purview Data Governance is retiring: What it means and how to plan the transition](https://www.collibra.com/blog/purview-data-governance-is-retiring-what-it-means-and-how-to-plan-the-transition) |
 | 2026-11-20 | AEPD — Spanish Data Protection Agency | [El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/adjunto-de-aepd-francisco-perez-bes-elegido-miembro-mesa-convenio-108) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Ransomware Group n0n Claims it Hit Financial Industry with AI Agents](https://www.dataprivacyandsecurityinsider.com/2026/11/ransomware-group-n0n-claims-it-hit-financial-industry-with-ai-agents/) |
+| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The Doctor Is In … and So Is the AI](https://www.dataprivacyandsecurityinsider.com/2026/11/the-doctor-is-in-and-so-is-the-ai/) |
+| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Indiana Social Media Law Faces First Amendment Challenge](https://www.dataprivacyandsecurityinsider.com/2026/11/indiana-social-media-law-faces-first-amendment-challenge/) |
+| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [AI Toys Face Growing Scrutiny Over Child Safety](https://www.dataprivacyandsecurityinsider.com/2026/11/ai-toys-face-growing-scrutiny-over-child-safety/) |
+| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #518 – Rhode Island Sues TikTok for Harm to Children](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-518-rhode-island-sues-tiktok-for-harm-to-children/) |
+| 2026-11-25 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-583/) |
+| 2026-11-25 | LfDI Baden-Württemberg (Germany) | [Kaffee Glühwein und Informationsfreiheit (3) – Infofreiheit im Austausch: Rückblick auf ein turbulentes Informationsfreiheitsjahr 2026](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-3-infofreiheit-im-austausch-rueckblick-auf-ein-turbulentes-informationsfreiheitsjahr-2026/) |
+| 2026-11-25 | Stibo Systems Blog | [Why AI needs multidomain MDM to understand your business](https://www.stibosystems.com/blog/why-ai-needs-multidomain-mdm-to-understand-your-business) |
 | 2026-11-25 | Autorité de protection des données (Belgium) | [Données de 1,2 million de Flamands volées : soyez vigilants](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/25/donnees-de-12-million-de-flamands-volees-soyez-vigilants) |
 | 2026-11-25 | DataHub Blog (open source metadata platform) | [Context Layer for Data Engineering Teams: What You Own and How to Run It](https://datahub.com/blog/context-layer-for-data-engineering-teams/) |
 | 2026-11-25 | The Record (Recorded Future News) | [Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital](https://therecord.media/guadeloupe-ransomware-hospital-cyber) |
@@ -93,10 +100,6 @@ Last run: **2026-11-25T15:17:22Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Center for Data Innovation | [Tracking Housing Projects](https://datainnovation.org/2026/11/tracking-housing-projects/) |
 | 2026-11-23 | Center for Data Innovation | [Mapping Tourism Interests](https://datainnovation.org/2026/11/mapping-tourism-interests/) |
 | 2026-11-23 | Google Cloud Blog — Data Analytics | [How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI](https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/) |
-| 2026-11-23 | Center for Security and Emerging Technology (CSET) | [Judge the Cyber Apocalypse by the Data, Not the Headlines](https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/) |
-| 2026-11-23 | Precisely Blog | [Holiday foot traffic peaks twice: what it means for retail data](https://www.precisely.com/blog/cat-location-intelligence/holiday-foot-traffic-peaks-twice-what-it-means-for-retail-data/) |
-| 2026-11-23 | Gaia-X | [Gaia-X Summit 2026 Accelerates Europe’s Transition to Smart Data Ecosystems and Trusted AI – on a sovereign basis](https://gaia-x.eu/gaia-x-summit-2026-accelerates-europes-transition-to-smart-data-ecosystems-and-trusted-ai-on-a-sovereign-basis/) |
-| 2026-11-23 | OECD.AI — Policy Observatory blog | [Inside AI risk management: early insights from the HAIP 2.0 reporting framework](https://wp.oecd.ai/inside-ai-risk-management-early-insights-from-the-haip-2-0-reporting-framework/) |
 | 2026-11-23 | Computer Weekly — IT security | [Digital sovereignty not smart, says The Hague CIO](https://www.computerweekly.com/feature/Digital-sovereignty-not-smart-says-The-Hague-CIO) |
 | 2026-11-23 | Computer Weekly — IT security | [Nation-state APTs don't need new tricks; the old ones still work](https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |

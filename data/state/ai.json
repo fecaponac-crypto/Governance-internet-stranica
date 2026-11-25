@@ -661,6 +661,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "0dcaae7a753bf844": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "duplicate",
+   "importance": 3,
+   "of": "california-privacy-regulator-fines-hertz-1-55-million-over-ignored-opt",
+   "reason": "CalPrivacy CCPA fine over opt-out and online tracking, practical enforcement lesson for tracking governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "0e9f0808ec1fdad8": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -1088,6 +1100,23 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/28",
    "primary_found": false,
    "reason": "State law on youth AI chatbot safety signed; concrete compliance obligations for AI providers, though US state-level scope.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "1642eb682c93c86a": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "class-action-alleges-ohio-children-s-hospital-sent-paediatric-visit-re",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/186",
+   "primary_found": false,
+   "reason": "Class action over AI documentation tool sending pediatric visit recordings to vendor without consent; concrete consent and vendor data-sharing practice issue.",
    "relevant": true,
    "same_story_as": null
   },
@@ -2073,6 +2102,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "29d3c29d07de4ded": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Partner content on research funding policy; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "29e95692607d8ce4": {
    "at": "2026-10-27T18:18:03Z",
    "categories": [],
@@ -2816,6 +2856,17 @@
    "primary_found": true,
    "reason": "UK Investigatory Powers Commissioner report on government bodies failing surveillance safeguards; regulator oversight with governance consequences.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "3e01c7a58dab90d4": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event/retrospective on freedom of information; not a data governance development.",
+   "relevant": false,
    "same_story_as": null
   },
   "3e1659f779ef610b": {
@@ -5818,6 +5869,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "7d17797a13fe66f4": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Ransomware claim against financial firms; security news but excerpt lacks clear governance consequence and is an unverified group claim, low priority.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "7d17d1cb2c6be6b8": {
    "at": "2026-10-27T00:18:07Z",
    "categories": [],
@@ -7693,6 +7755,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ace04120ee932599": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Advocacy open letter on AI toys; child safety focus with limited data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "adb5f0ac1636b4a6": {
    "at": "2026-10-28T18:18:33Z",
    "categories": [
@@ -8101,6 +8174,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Weekly roundup with no specific governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "b72cbc2651e7c422": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Interview/thought-leadership piece with no concrete news consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9429,6 +9513,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d02721df4c53685a": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic executive primer on agentic AI with no specific development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d030bfe2470fb1b8": {
    "at": "2026-11-20T03:17:45Z",
    "categories": [],
@@ -9545,6 +9640,17 @@
    "primary_found": false,
    "reason": "Swedish DPA (IMY) order requiring police to fix inadequate signage about camera surveillance at Gothenburg central station; concrete transparency obligation for surveillance operators.",
    "relevant": true,
+   "same_story_as": null
+  },
+  "d286e801168ebd62": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "State AG lawsuit against TikTok mainly about design harms; a newsletter-style tip with limited data governance content.",
+   "relevant": false,
    "same_story_as": null
   },
   "d28e38fddb0e9adf": {
@@ -9755,6 +9861,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Opinion piece on Pentagon AI reliance and bad data; generic commentary, and the GAO Pentagon responsible AI office story already covers the Pentagon governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "d87786d159ac8142": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Weekly news roundup with no single actionable development.",
    "relevant": false,
    "same_story_as": null
   },
@@ -10741,6 +10858,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "ed0db67cf2a8ed80": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "netchoice-sues-indiana-over-social-media-age-verification-and-parental",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/187",
+   "primary_found": true,
+   "reason": "NetChoice challenge to Indiana age verification and parental consent law affecting platform data practices.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ede4c5cea90f0ed1": {
    "at": "2026-10-24T16:54:01Z",
    "categories": [
@@ -11195,6 +11329,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Appointment of an AEPD official to Convention 108 bureau; institutional news with little practical consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f77f5757265ea55f": {
+   "at": "2026-11-25T18:17:38Z",
+   "categories": [
+    "mdm"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog promoting its event and perspective; vendor marketing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -11718,8 +11863,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 735,
-   "usd": 35.1993
+   "calls": 745,
+   "usd": 35.8142
   }
  }
 }
