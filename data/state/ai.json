@@ -360,6 +360,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "075a69008a78154f": {
+   "at": "2026-11-25T09:17:43Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "EU General Court judgment on European citizens' initiative on animal cages; no data, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "076203df7e4ebf02": {
    "at": "2026-11-17T12:17:37Z",
    "categories": [
@@ -1052,6 +1061,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Generic consumer phishing awareness piece without a governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "15f087fe83db2a7d": {
+   "at": "2026-11-25T09:17:43Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership piece on AI-ready data with no concrete governance guidance or news; not relevant.",
    "relevant": false,
    "same_story_as": null
   },
@@ -11566,8 +11584,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 727,
-   "usd": 34.8877
+   "calls": 728,
+   "usd": 34.8884
   }
  }
 }

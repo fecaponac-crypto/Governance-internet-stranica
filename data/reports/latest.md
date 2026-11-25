@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-25T08:39:31Z** · sources checked: 81 · failed: 0 · new items this run: 4
+Last run: **2026-11-25T09:17:31Z** · sources checked: 81 · failed: 0 · new items this run: 2
 
-## New items, last 48 hours (98)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
 | 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
 | 2026-11-24 | Inside Privacy (Covington & Burling) | [California Regulators Focus on CCPA Opt-Out Compliance](https://www.insideprivacy.com/state-privacy/california-regulators-focus-on-ccpa-opt-out-compliance/) |
@@ -35,6 +36,7 @@ Last run: **2026-11-25T08:39:31Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | DATAVERSITY | [Eyes on Data: The Roadmap to AI Optimization – Why AI-Ready Data Must Come First](https://www.dataversity.net/articles/eyes-on-data-the-roadmap-to-ai-optimization-why-ai-ready-data-must-come-first/) |
 | 2026-11-25 | DATAVERSITY | [Data Speaks for Itself: Information Quality – The Foundation of Reliable Agentic AI](https://www.dataversity.net/articles/data-speaks-for-itself-information-quality-the-foundation-of-reliable-agentic-ai/) |
 | 2026-11-25 | AZOP — Croatian Personal Data Protection Agency | [48. Svjetska konferencija za zaštitu podataka](https://azop.hr/48-svjetska-konferencija-za-zastitu-podataka/) |
 | 2026-11-25 | Ataccama Blog | [TDWI Blueprint Report: Governing Emerging and Diverse Data in the Age of AI](https://www.ataccama.com/analyst-research/tdwi-blueprint-governing-emerging-and-diverse-data) |
@@ -74,10 +76,8 @@ Last run: **2026-11-25T08:39:31Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | CNIL (France) | [Contrôles de la CNIL : une charte pour tout comprendre](https://www.cnil.fr/fr/controles-de-la-cnil-une-charte-pour-tout-comprendre) |
 | 2026-11-23 | Euractiv | [France risks economic recession as Le Pen presidency looms](https://www.rapporteur.com/news/france-risks-economic-recession-as-le-pen-presidency-looms/) |
 | 2026-11-23 | AZOP — Croatian Personal Data Protection Agency | [Dobar popust ili internetska prijevara? Savjeti za sigurnu kupovinu uoči Black Friday-a](https://azop.hr/dobar-popust-ili-internetska-prijevara-savjeti-za-sigurnu-kupovinu-uoci-black-friday-a/) |
-| 2026-11-23 | DATAVERSITY | [Demystifying AI Sovereignty: A 5-Step Playbook for the Enterprise](https://www.dataversity.net/articles/demystifying-ai-sovereignty-a-5-step-playbook-for-the-enterprise/) |
 | 2026-11-23 | Collibra Blog | [Microsoft Purview Data Governance is retiring: What it means and how to plan the transition](https://www.collibra.com/blog/purview-data-governance-is-retiring-what-it-means-and-how-to-plan-the-transition) |
 | 2026-11-20 | AEPD — Spanish Data Protection Agency | [El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/adjunto-de-aepd-francisco-perez-bes-elegido-miembro-mesa-convenio-108) |
-| 2026-11-20 | European Data Protection Supervisor (EDPS) | [New Opinion: EU-Interpol cooperation requires effective safeguards](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-opinion-eu-interpol-cooperation-requires-effective-safeguards) |
 
 ### Low priority sources
 
@@ -110,9 +110,7 @@ Last run: **2026-11-25T08:39:31Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Modern Data 101 | [RAG vs GraphRAG vs KAG: A Graph Practitioner’s Perspective](https://moderndata101.substack.com/p/rag-vs-graphrag-vs-kag) |
 | 2026-11-23 | Computer Weekly — IT security | [Digital sovereignty not smart, says The Hague CIO](https://www.computerweekly.com/feature/Digital-sovereignty-not-smart-says-The-Hague-CIO) |
 | 2026-11-23 | Computer Weekly — IT security | [Nation-state APTs don't need new tricks; the old ones still work](https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work) |
-| 2026-11-23 | Stibo Systems Blog | [Why the teams that trust AI most still check it](https://www.stibosystems.com/blog/why-the-teams-that-trust-ai-most-still-check-it) |
 | 2026-11-23 | Computer Weekly — IT security | [Staff gagging clauses lifted for review of ‘toxic culture’ at information watchdog](https://www.computerweekly.com/news/366655253/Staff-gagging-clauses-lifted-for-review-of-toxic-culture-at-information-watchdog) |
-| 2026-11-23 | AlgorithmWatch | [Statement zum Innenausschuss: AlgorithmWatch warnt vor Fiasko bei KI-Migrationsverwaltungsgesetz](https://algorithmwatch.org/de/statement-zum-innenausschuss-algorithmwatch-warnt-vor-fiasko-bei-ki-migrationsverwaltungsgesetz/) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
 | 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
 | 2026-11-13 | Center for Security and Emerging Technology (CSET) | [How Nvidia’s Scandal Will Reverberate Across Washington](https://cset.georgetown.edu/article/how-nvidias-scandal-will-reverberate-across-washington/) |
