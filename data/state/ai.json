@@ -1247,6 +1247,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "1aa7a856da9bcdf7": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP article on tracking AI use against GDPR obligations; practical framing but likely generic advice.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1acd7e50e6aaaf8f": {
    "at": "2026-11-05T17:26:42Z",
    "categories": [
@@ -1617,6 +1629,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Online campaign launch exposing surveillance infrastructure; advocacy rather than governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "21ee8e4802bb2798": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting its own context layer concept; vendor marketing.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2921,6 +2944,17 @@
    "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/44",
    "primary_found": true,
    "reason": "Inspector General finding of improperly exposed controlled unclassified information in cloud storage is a concrete data security and access governance failure.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "40737e5320b53cac": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP piece on AI governance lessons from outages; specialist media with some practical angle but largely opinion.",
    "relevant": true,
    "same_story_as": null
   },
@@ -4352,6 +4386,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "5c0a26fbc26ca41a": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "security",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "belgian-dpa-warns-of-scams-after-press-reports-theft-of-data-on-up-to",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/185",
+   "primary_found": false,
+   "reason": "Belgian DPA alert on theft of personal data of 1.2 million Flemish residents; concrete breach with practical vigilance guidance, though no existing article covers it.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "5c7174c45ad1d8f3": {
    "at": "2026-11-10T21:17:48Z",
    "categories": [
@@ -5144,6 +5195,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Vendor blog on setting up Collibra MCP on Snowflake is how-to marketing rather than a genuine launch or acquisition.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "7069a86e2dcb5188": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic opinion on liability versus technical visibility for AI errors; nothing practitioners can directly apply.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8718,6 +8780,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "c315ec0e685c30d6": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership on an AI governance layer without concrete new facts.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c36817af9a4b18e2": {
    "at": "2026-11-18T11:46:57Z",
    "categories": [
@@ -9411,6 +9484,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d137e779e5fef130": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog on product engineering for feeds; vendor marketing/how-to, not a launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d1c1850c89f7dcf9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -9941,6 +10025,18 @@
    "importance": 1,
    "reason": "Cyberattack news on a government; no clear data governance practice angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "ddc2320a91de16ee": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "IAPP proposal on certifying AI connectors for privacy teams; opinion with limited concrete guidance.",
+   "relevant": true,
    "same_story_as": null
   },
   "dde1eee8bbb72261": {
@@ -11216,6 +11312,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "fa1f50764b02803d": {
+   "at": "2026-11-25T15:17:34Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Ransomware attack on a hospital is a security story without a data governance or privacy angle beyond general cyber impact.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "fa2dab71478788df": {
    "at": "2026-10-28T15:18:34Z",
    "categories": [
@@ -11611,8 +11718,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 732,
-   "usd": 35.1012
+   "calls": 735,
+   "usd": 35.1993
   }
  }
 }

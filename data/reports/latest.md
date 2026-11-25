@@ -1,13 +1,17 @@
 # Inflow report
 
-Last run: **2026-11-25T12:17:26Z** · sources checked: 81 · failed: 0 · new items this run: 2
+Last run: **2026-11-25T15:17:22Z** · sources checked: 81 · failed: 0 · new items this run: 9
 
-## New items, last 48 hours (78)
+## New items, last 48 hours (84)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | IAPP — International Association of Privacy Professionals | [When nobody checks the work: What recent system outages mean for AI governance](https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance) |
+| 2026-11-25 | IAPP — International Association of Privacy Professionals | [Closing the AI connector blind spot: A certification model for privacy teams](https://iapp.org/news/a/closing-the-ai-connector-blind-spot-a-certification-model-for-privacy-teams) |
+| 2026-11-25 | IAPP — International Association of Privacy Professionals | [Who is responsible when the AI is wrong? Why legal duty does not equal technical visibility](https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility) |
+| 2026-11-25 | IAPP — International Association of Privacy Professionals | [How to track AI use and meet GDPR obligations effectively](https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively) |
 | 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
 | 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
@@ -22,6 +26,8 @@ Last run: **2026-11-25T12:17:26Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | CDO Magazine | [AI Governance Layer 0: The Missing Layer in AI Governance](https://www.cdomagazine.tech/ai-governance/layer-0-the-missing-layer-in-ai-governance) |
+| 2026-11-25 | Alation Blog | [November 25, 2026 Describe Once, Render Anywhere: How We Built Intelligent Feeds on A2UI and MCP Apps Learn how our engineers built Intelligent Feeds on A2UI, for engineers who want to do the same: the catalog, the… Read More](https://www.alation.com/blog/a2ui-mcp-apps-component-catalog/) |
 | 2026-11-25 | CDO Magazine | [Leadership Moves Wawanesa Insurance Names Yelena Kropivnitskaya as VP of Data & Analytics](https://www.cdomagazine.tech/leadership-moves/wawanesa-insurance-names-yelena-kropivnitskaya-as-vp-of-data-analytics) |
 | 2026-11-25 | DATAVERSITY | [Eyes on Data: The Roadmap to AI Optimization – Why AI-Ready Data Must Come First](https://www.dataversity.net/articles/eyes-on-data-the-roadmap-to-ai-optimization-why-ai-ready-data-must-come-first/) |
 | 2026-11-25 | DATAVERSITY | [Data Speaks for Itself: Information Quality – The Foundation of Reliable Agentic AI](https://www.dataversity.net/articles/data-speaks-for-itself-information-quality-the-foundation-of-reliable-agentic-ai/) |
@@ -54,7 +60,6 @@ Last run: **2026-11-25T12:17:26Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Forrester Blogs | [Govern AI For The Future You Can’t Predict](https://www.forrester.com/blogs/govern-ai-for-the-future-you-cant-predict/) |
 | 2026-11-23 | CDO Magazine | [Artificial Intelligence The AI Model Isn’t the Problem: TigerGraph’s Rajeev Shrivastava on Connected Enterprise Context](https://www.cdomagazine.tech/aiml/the-ai-model-isnt-the-problem-tigergraphs-rajeev-shrivastava-on-connected-enterprise-context) |
 | 2026-11-23 | European Data Protection Supervisor (EDPS) | [Blog post on our collaboration with Oxford’s Institute for Ethics in AI](https://www.edps.europa.eu/press-publications/press-news/news/2026/blog-post-our-collaboration-oxfords-institute-ethics-ai) |
-| 2026-11-23 | AZOP — Croatian Personal Data Protection Agency | [Phishing napadi – kako ih prepoznati i zaštititi se](https://azop.hr/15282-2/) |
 | 2026-11-23 | CNIL (France) | [Trophées des classes 2027 - Ensemble, tous protégés sur Internet !](https://www.cnil.fr/fr/trophees-des-classes-2027) |
 | 2026-11-23 | CNIL (France) | [Découvrez les lauréats du concours Trophées des classes 2026 « Comment je protège ma vie privée en ligne ? »](https://www.cnil.fr/fr/trophees-des-classes-2026-laureats) |
 | 2026-11-23 | CNIL (France) | [Contrôles de la CNIL : une charte pour tout comprendre](https://www.cnil.fr/fr/controles-de-la-cnil-une-charte-pour-tout-comprendre) |
@@ -65,6 +70,9 @@ Last run: **2026-11-25T12:17:26Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-25 | Autorité de protection des données (Belgium) | [Données de 1,2 million de Flamands volées : soyez vigilants](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/25/donnees-de-12-million-de-flamands-volees-soyez-vigilants) |
+| 2026-11-25 | DataHub Blog (open source metadata platform) | [Context Layer for Data Engineering Teams: What You Own and How to Run It](https://datahub.com/blog/context-layer-for-data-engineering-teams/) |
+| 2026-11-25 | The Record (Recorded Future News) | [Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital](https://therecord.media/guadeloupe-ransomware-hospital-cyber) |
 | 2026-11-25 | The Record (Recorded Future News) | [Treasury's FinCEN takes systems offline after cybersecurity incident](https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident) |
 | 2026-11-24 | Palantir Blog | [Zrozumieć Palantir: fakty i mity](https://blog.palantir.com/zrozumie%C4%87-palantir-fakty-i-mity-afa49bcfb8ab?source=rss----3c87dc14372f---4) |
 | 2026-11-24 | The Record (Recorded Future News) | [California privacy agency director Kemp to leave after two-year tenure](https://therecord.media/california-privacy-agency-kemp) |
@@ -89,8 +97,6 @@ Last run: **2026-11-25T12:17:26Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-23 | Precisely Blog | [Holiday foot traffic peaks twice: what it means for retail data](https://www.precisely.com/blog/cat-location-intelligence/holiday-foot-traffic-peaks-twice-what-it-means-for-retail-data/) |
 | 2026-11-23 | Gaia-X | [Gaia-X Summit 2026 Accelerates Europe’s Transition to Smart Data Ecosystems and Trusted AI – on a sovereign basis](https://gaia-x.eu/gaia-x-summit-2026-accelerates-europes-transition-to-smart-data-ecosystems-and-trusted-ai-on-a-sovereign-basis/) |
 | 2026-11-23 | OECD.AI — Policy Observatory blog | [Inside AI risk management: early insights from the HAIP 2.0 reporting framework](https://wp.oecd.ai/inside-ai-risk-management-early-insights-from-the-haip-2-0-reporting-framework/) |
-| 2026-11-23 | LfDI Baden-Württemberg (Germany) | [Dienstag, 8.12.2026: Tipps, Hinweise Diskussion zum Datenschutz in der Vereinsarbeit](https://www.baden-wuerttemberg.datenschutz.de/keber-quarterly-datenschutz-verein/) |
-| 2026-11-23 | Modern Data 101 | [RAG vs GraphRAG vs KAG: A Graph Practitioner’s Perspective](https://moderndata101.substack.com/p/rag-vs-graphrag-vs-kag) |
 | 2026-11-23 | Computer Weekly — IT security | [Digital sovereignty not smart, says The Hague CIO](https://www.computerweekly.com/feature/Digital-sovereignty-not-smart-says-The-Hague-CIO) |
 | 2026-11-23 | Computer Weekly — IT security | [Nation-state APTs don't need new tricks; the old ones still work](https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
