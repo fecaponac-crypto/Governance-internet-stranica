@@ -1192,6 +1192,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "196b947bd931aa34": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "EDPB opinion on Belgian BCRs, a routine approval procedure with limited broad impact.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "1987bdbb36334531": {
    "at": "2026-11-04T17:17:13Z",
    "categories": [
@@ -1746,6 +1758,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "235f50ddede8787e": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "german-dpas-publish-third-version-of-technical-requirements-for-hospit",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/190",
+   "primary_found": true,
+   "reason": "DSK guidance on hospital information systems, practical for health data governance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "236ae36d87060e39": {
    "at": "2026-11-03T15:18:34Z",
    "categories": [
@@ -2182,6 +2211,18 @@
    "relevant": true,
    "same_story_as": null
   },
+  "2c4df62449f0a3dd": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Updated DSK short paper on third-country transfers, useful but routine update.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "2c86257ea4c7af31": {
    "at": "2026-11-24T12:17:44Z",
    "categories": [
@@ -2388,6 +2429,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "No data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "3132498aedbb411c": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "CNIL plenary agenda only, no decision content.",
    "relevant": false,
    "same_story_as": null
   },
@@ -2803,6 +2855,17 @@
    "reason": "Vendor product feature announcement for automated Snowpipe setup is marketing-style with no clear governance angle.",
    "relevant": false,
    "same_story_as": null
+  },
+  "3c2b62976fdadb75": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "market"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Same Purview retirement story already covered; vendor marketing angle.",
+   "relevant": false,
+   "same_story_as": "microsoft-to-retire-purview-data-governance-ending-support-on-12-novem"
   },
   "3c9057e116d97096": {
    "at": "2026-11-10T14:57:08Z",
@@ -3734,6 +3797,19 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "OECD research on AI adoption gaps between large and small firms; background context for governance operating models with little practical action.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "4e5d5e71bc30c16e": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "decision": "duplicate",
+   "importance": 3,
+   "of": "german-dpas-bar-credit-checks-before-customers-pick-a-payment-method-a",
+   "reason": "DSK decision on scope of new section 37a BDSG for scoring, concrete regulator interpretation.",
    "relevant": true,
    "same_story_as": null
   },
@@ -5334,6 +5410,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "70740fd7758efd84": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event-style report on a conference visit with no concrete governance consequence.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "70968fb6869c13aa": {
    "at": "2026-11-12T06:17:32Z",
    "categories": [
@@ -6669,6 +6756,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "912fbe92d84fe001": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "ai-governance"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic thought-leadership piece on agentic AI with no concrete news or guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "9163ef3e85643d85": {
    "at": "2026-11-24T15:17:40Z",
    "categories": [
@@ -7067,6 +7165,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "99f02896c3308e1c": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "security",
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Press release from German DSK conference on cybersecurity; limited detail in excerpt.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "9a14bf12cb7e1715": {
    "at": "2026-11-16T09:17:49Z",
    "categories": [],
@@ -7105,6 +7215,23 @@
    "importance": 1,
    "reason": "Generic listicle of CIO stories on resilience; no concrete data governance angle.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "9b86b4284bcde3f7": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "german-dpas-bar-credit-checks-before-customers-pick-a-payment-method-a",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/189",
+   "primary_found": false,
+   "reason": "German DSK resolutions on scoring/credit checks and hospital information systems guidance, concrete regulator guidance.",
+   "relevant": true,
    "same_story_as": null
   },
   "9bcb10a9534553de": {
@@ -7437,6 +7564,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Event coverage of an executive discussion; no concrete new development or practitioner guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a2fdbddfba95b03a": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "platforms"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Conceptual architecture opinion without concrete news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8072,6 +8210,19 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Practical guide pairing Redshift system table history with Datadog data observability and S3 Tables for lineage and data quality; vendor-adjacent but gives usable architecture guidance from a major platform blog.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "b423521157e931b4": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "privacy",
+    "ai-governance"
+   ],
+   "decision": "duplicate",
+   "importance": 3,
+   "of": "ico-says-ai-drafted-subject-access-requests-are-valid-and-must-be-hand",
+   "reason": "ICO guidance on handling DSARs generated by AI is regulator guidance with practical consequences for data subject access processes.",
    "relevant": true,
    "same_story_as": null
   },
@@ -9138,6 +9289,23 @@
    "importance": 1,
    "reason": "Award announcement for DAMA chapters, which is not relevant under the rules.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "c80918348cbd614c": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "regulation",
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "german-state-data-protection-authorities-comment-on-revised-draft-of-f",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/191",
+   "primary_found": false,
+   "reason": "DSK statement on German draft law for research data use, a pending legislative process affecting data obligations.",
+   "relevant": true,
    "same_story_as": null
   },
   "c8119697bec3a13b": {
@@ -11938,6 +12106,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ff3b8c7f2714ce93": {
+   "at": "2026-11-26T15:17:38Z",
+   "categories": [
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "DSK conference press release on data protection for cybersecurity, mostly general statement.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "ff8c4388280a062e": {
    "at": "2026-11-24T21:17:40Z",
    "categories": [
@@ -12003,8 +12182,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 754,
-   "usd": 36.0197
+   "calls": 769,
+   "usd": 36.9711
   }
  }
 }

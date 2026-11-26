@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-26T12:17:44Z",
+ "updated": "2026-11-26T15:20:48Z",
  "portal": {
   "published_total": 165,
   "published_this_month": 122,
@@ -13,16 +13,16 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 782,
-  "runs": 276,
+  "items_collected": 796,
+  "runs": 277,
   "runs_with_failed_sources": 225,
   "triage_decisions": {
-   "drafted": 135,
-   "skipped": 623,
+   "drafted": 138,
+   "skipped": 632,
    "failed": 22,
-   "duplicate": 3
+   "duplicate": 5
   },
-  "ai_spend_usd": 36.0197,
+  "ai_spend_usd": 36.9711,
   "sources_active": 81,
   "sources_failing_now": 0
  },
@@ -39,104 +39,34 @@
   "bots_excluded": true,
   "by_day": [
    {
-    "date": "2026-11-02",
-    "page_views": 30,
-    "visits": 30
-   },
-   {
-    "date": "2026-11-03",
-    "page_views": 30,
-    "visits": 30
-   },
-   {
-    "date": "2026-11-04",
-    "page_views": 10,
-    "visits": 10
-   },
-   {
     "date": "2026-11-05",
-    "page_views": 340,
-    "visits": 330
-   },
-   {
-    "date": "2026-11-06",
-    "page_views": 70,
-    "visits": 70
-   },
-   {
-    "date": "2026-11-08",
-    "page_views": 10,
-    "visits": 10
-   },
-   {
-    "date": "2026-11-09",
-    "page_views": 20,
-    "visits": 20
+    "page_views": 400,
+    "visits": 400
    },
    {
     "date": "2026-11-10",
-    "page_views": 40,
-    "visits": 20
-   },
-   {
-    "date": "2026-11-12",
-    "page_views": 40,
-    "visits": 40
-   },
-   {
-    "date": "2026-11-13",
-    "page_views": 20,
-    "visits": 10
-   },
-   {
-    "date": "2026-11-14",
-    "page_views": 50,
-    "visits": 30
-   },
-   {
-    "date": "2026-11-16",
-    "page_views": 50,
-    "visits": 30
+    "page_views": 100,
+    "visits": 0
    },
    {
     "date": "2026-11-18",
-    "page_views": 20,
-    "visits": 20
-   },
-   {
-    "date": "2026-11-19",
-    "page_views": 50,
-    "visits": 40
-   },
-   {
-    "date": "2026-11-20",
-    "page_views": 80,
-    "visits": 70
-   },
-   {
-    "date": "2026-11-21",
-    "page_views": 20,
-    "visits": 20
-   },
-   {
-    "date": "2026-11-22",
-    "page_views": 30,
-    "visits": 30
+    "page_views": 100,
+    "visits": 100
    },
    {
     "date": "2026-11-23",
-    "page_views": 30,
-    "visits": 30
+    "page_views": 100,
+    "visits": 100
    },
    {
     "date": "2026-11-24",
-    "page_views": 30,
-    "visits": 30
+    "page_views": 100,
+    "visits": 100
    },
    {
     "date": "2026-11-26",
-    "page_views": 10,
-    "visits": 10
+    "page_views": 100,
+    "visits": 100
    }
   ],
   "top_pages": [
