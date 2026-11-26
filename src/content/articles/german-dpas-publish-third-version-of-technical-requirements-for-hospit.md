@@ -12,7 +12,7 @@ type: "Guidance"
 region: "Germany"
 status:
   stage: "Published"
-  detail: "Part 2, version 3; supersedes earlier editions of the 2014 guidance"
+  detail: "Part 2, version 3, dated 26 November 2026"
 sources:
   - name: "Datenschutzkonferenz (DSK)"
     title: "Orientierungshilfen – 26. November 2026: Orientierungshilfe Krankenhausinformationssysteme (OH KIS)"
