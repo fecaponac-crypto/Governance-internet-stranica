@@ -234,6 +234,14 @@ class RulesTest(unittest.TestCase):
         self.assertIn("card_figure longer than 22 characters", draft.validate({**DRAFT, "card_figure": "x" * 30}))
         self.assertEqual(draft.validate(DRAFT), [])
 
+    def test_length_issues_name_the_rule_and_current_values(self):
+        long = {**DRAFT, "card_caption": "y" * 95}
+        issues = draft.length_issues(long, draft.validate(long))
+        self.assertEqual(len(issues), 1)
+        self.assertEqual(issues[0]["claim"], "card_caption longer than 90 characters")
+        self.assertIn("y" * 95, issues[0]["evidence"])
+        self.assertTrue({"verdict", "claim", "source", "evidence"} <= issues[0].keys())
+
     def test_status_stages_read_from_site(self):
         stages = draft.status_vocabulary()
         self.assertIn("In negotiation", stages)

@@ -5162,8 +5162,7 @@
    "categories": [
     "privacy"
    ],
-   "decision": "failed",
-   "error": "card_caption longer than 90 characters",
+   "decision": "selected",
    "importance": 3,
    "reason": "Hellenic DPA fine on Teleperformance for transparency and data subject rights breaches; concrete enforcement with practical lessons.",
    "relevant": true,

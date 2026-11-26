@@ -251,6 +251,7 @@ Okvirne skupine izvora:
 ## 10a-8. Automatska ispravka provjere činjenica (3. 11. 2026.)
 
 - Kad provjera činjenica označi tvrdnje (partly / unsupported), pisac jednom prepravlja nacrt prema dokazima iz provjere (doda ograničenje, ispravi pripisivanje ili izbaci tvrdnju), a ispravljeni nacrt se ponovno provjerava. Zadržava se ispravljena verzija samo ako ima manje označenih tvrdnji.
+- Ako nacrt prekrši pravilo duljine (npr. opis kartice dulji od 90 znakova ili broj na kartici dulji od 22), pisac ga jednom skraćuje umjesto da se nacrt odbaci (od 26. 11. 2026.); tek ako i ispravljena verzija krši pravilo, nacrt se bilježi kao neuspio.
 - PR prikazuje što je ispravljeno (✏️, sklopivi popis) i samo preostale tvrdnje za urednika (⚠️). Trošak: ~2 dodatna poziva po označenom nacrtu.
 - Razlog: urednik često nema vremena čitati upozorenja; 3. 11. su dvije neprovjerene tvrdnje objavljene i naknadno ispravljene.
 

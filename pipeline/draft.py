@@ -1152,6 +1152,14 @@ def validate(d: dict) -> list[str]:
     return problems
 
 
+def length_issues(d: dict, problems: list[str]) -> list[dict]:
+    """Turn validation problems into the flagged-claim shape revise_draft expects."""
+    current = {"card_figure": d["card_figure"], "card_caption": d["card_caption"]}
+    return [{"verdict": "rule broken", "claim": p, "source": "editorial rules",
+             "evidence": f"Fix only this and keep every fact. Current values: {json.dumps(current, ensure_ascii=False)}"}
+            for p in problems]
+
+
 def to_markdown(d: dict, item: dict) -> str:
     q = lambda v: json.dumps(v, ensure_ascii=False)
     lines = [
@@ -1455,6 +1463,11 @@ def run(args) -> dict:
                         item, sources = updated
                         d = write_draft(client, state, item, sources, categories, types, existing)
                 problems = validate(d)
+                if problems and not over_budget(state):
+                    # One repair pass for a draft that breaks a length rule, instead of throwing it away.
+                    d = revise_draft(client, state, d, length_issues(d, problems), item, sources, categories, types,
+                                     existing)
+                    problems = validate(d)
                 if problems:
                     raise ModelError("; ".join(problems))
                 covered = already_covered(d, existing + pending + drafted_now)
