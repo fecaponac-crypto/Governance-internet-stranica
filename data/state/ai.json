@@ -9865,6 +9865,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d1baa174808f5c2e": {
+   "at": "2026-11-26T16:57:48Z",
+   "categories": [
+    "privacy"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "karon-monaghan-kc-to-lead-independent-review-of-culture-and-governance",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/192",
+   "primary_found": true,
+   "reason": "Independent review of the UK ICO regulator amid culture claims; relevant to privacy regulator governance and enforcement credibility, though no direct practitioner action.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d1c1850c89f7dcf9": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [],
@@ -12182,8 +12198,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 769,
-   "usd": 36.9711
+   "calls": 772,
+   "usd": 37.0837
   }
  }
 }

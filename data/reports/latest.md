@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-26T15:17:25Z** · sources checked: 81 · failed: 0 · new items this run: 14
+Last run: **2026-11-26T16:57:16Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (82)
+## New items, last 48 hours (75)
 
 ### High priority sources
 
@@ -18,8 +18,6 @@ Last run: **2026-11-26T15:17:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
 | 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
 | 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
-| 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
-| 2026-11-24 | Inside Privacy (Covington & Burling) | [California Regulators Focus on CCPA Opt-Out Compliance](https://www.insideprivacy.com/state-privacy/california-regulators-focus-on-ccpa-opt-out-compliance/) |
 | 2026-11-24 | Hunton Privacy & Information Security Law Blog | [Advocate General Issues Opinion on Dynamic IP Addresses and GDPR Compensation Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/advocate-general-issues-opinion-on-dynamic-ip-addresses-and-gdpr-compensation-claims) |
 | 2026-11-24 | Autoriteit Persoonsgegevens (Netherlands) | [AP neemt deel aan online rondetafel over AVG-gedragscodes](https://autoriteitpersoonsgegevens.nl/actueel/ap-neemt-deel-aan-online-rondetafel-over-avg-gedragscodes) |
 | 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
@@ -62,9 +60,6 @@ Last run: **2026-11-26T15:17:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | CDO Magazine | [Artificial Intelligence Nvidia Adds Compliance Oversight as Board Reinstates Jensen Huang](https://www.cdomagazine.tech/aiml/nvidia-adds-compliance-oversight-as-board-reinstates-jensen-huang) |
 | 2026-11-24 | OneTrust Blog | [PPCDA Readiness: A Practical Guide to Consent, Assessments, and Automated Decisions Privacy Automation](https://www.onetrust.com/blog/ppcda-readiness-a-practical-guide-to-consent-assessments-and-automated-decisions/) |
 | 2026-11-24 | OneTrust Blog | [Shadow AI Is Everywhere. Detection Is the First Step Toward Governance AI Governance](https://www.onetrust.com/blog/shadow-ai-is-everywhere-detection-is-the-first-step-toward-governance/) |
-| 2026-11-24 | Alation Blog | [November 24, 2026 Why Metadata Management Alone Can’t Fix Wrong AI Answers Perfectly governed data can still produce wrong AI answers. Learn how metadata teams can close the loop. Read More](https://www.alation.com/blog/metadata-management-for-ai-wrong-answers/) |
-| 2026-11-24 | Forrester Blogs | [KubeCon North America 2026 — “Cloud-Native Without Limits”](https://www.forrester.com/blogs/kubecon-north-america-2026-cloud-native-without-limits/) |
-| 2026-11-24 | POLITICO Europe — Technology | [Snowden on steroids: AI agents in phones trigger surveillance fears](https://www.politico.eu/article/ai-agents-phone-privacy-surveillance-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) |
 | 2026-11-24 | European Data Protection Supervisor (EDPS) | [59th EDPS-DPO meeting - Blogpost](https://www.edps.europa.eu/press-publications/press-news/news/2026/59th-edps-dpo-meeting-blogpost) |
 | 2026-11-24 | Snowflake Blog | [Iceberg Observability in Snowflake Horizon Catalog](https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog) |
 
@@ -76,6 +71,7 @@ Last run: **2026-11-26T15:17:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Deutsch-europäische Zusammenarbeit – Datenschutz einfach umsetzen und wirksam kontrollieren](https://www.baden-wuerttemberg.datenschutz.de/112dsk-edsa-austausch-pm/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Mit Datenschutz bessere Cybersicherheit erreichen](https://www.baden-wuerttemberg.datenschutz.de/112dsk-datenschutz-datensicherheit/) |
 | 2026-11-26 | Modern Data 101 | [Latent Harness Model: From Data Platform to Agent Harness](https://moderndata101.substack.com/p/the-latent-harness-model) |
+| 2026-11-26 | Computer Weekly — IT security | [Independent review into ICO amid claims of ‘toxic culture’ at data protection watchdog](https://www.computerweekly.com/news/366655461/Independent-review-into-ICO-amid-claims-of-toxic-culture-at-data-protection-watchdog) |
 | 2026-11-26 | Stibo Systems Blog | [Our three takeaways from the 2026 Gartner® Magic Quadrant™ for your PIM evaluation](https://www.stibosystems.com/blog/our-three-takeaways-from-the-2026-gartner-magic-quadrant-for-your-pim-evaluation) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Ransomware Group n0n Claims it Hit Financial Industry with AI Agents](https://www.dataprivacyandsecurityinsider.com/2026/11/ransomware-group-n0n-claims-it-hit-financial-industry-with-ai-agents/) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The Doctor Is In … and So Is the AI](https://www.dataprivacyandsecurityinsider.com/2026/11/the-doctor-is-in-and-so-is-the-ai/) |
@@ -96,9 +92,6 @@ Last run: **2026-11-26T15:17:25Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | Center for Data Innovation | [5 Q’s with Bin Li, Co-founder and CTO of Canos](https://datainnovation.org/2026/11/5-qs-with-bin-li-co-founder-and-cto-of-canos/) |
 | 2026-11-24 | DataHub Blog (open source metadata platform) | [Data Catalog Tools in 2026: What the Landscape Looks Like (and How to Evaluate It)](https://datahub.com/blog/data-catalog-tools/) |
 | 2026-11-24 | MIT Technology Review | [Raising the stakes for enterprise networks with AI modernization](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) |
-| 2026-11-24 | The Record (Recorded Future News) | [UK cyber agency seeing ‘marked rise’ in AI-driven attacks](https://therecord.media/cyberattacks-uk-artificial-intelligence) |
-| 2026-11-24 | Computer Weekly — IT security | [Amazon CTO Werner Vogels: Computing to converge with biology](https://www.computerweekly.com/news/366655113/Amazon-CTO-Werner-Vogels-Computing-to-converge-with-biology) |
-| 2026-11-24 | Computer Weekly — IT security | [Third-party support: Risks and opportunities](https://www.computerweekly.com/news/366655495/Third-party-support-Risks-and-opportunities) |
 | 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
 
 ## Source problems
