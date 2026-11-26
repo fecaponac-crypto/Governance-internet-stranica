@@ -24,7 +24,7 @@ sources:
 related: []
 card:
   figure: "50 years"
-  caption: "Maximum retention in the revised draft, up from 10; Länder DPAs call the basis inadequate"
+  caption: "Maximum retention in the revised draft, up from 10; state DPAs call the basis inadequate"
 ---
 
 Germany's independent state (Länder) data protection authorities published a statement dated **25 November 2026** on the research ministry's revised draft Research Data Act (Forschungsdatengesetz, FDG) of 11 November 2026.
