@@ -2000,6 +2000,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "27c5647be3b6828e": {
+   "at": "2026-11-26T09:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Swedish DPA report finding digitising ICU diaries is compatible with GDPR; concrete practical guidance for health data digitisation.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "27e8c037d07b997f": {
    "at": "2026-11-17T16:04:38Z",
    "categories": [
@@ -5143,6 +5154,18 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Signal blocking screenshots to protect data from AI agents; relevant to data protection but a single company's response.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "6f2603c79f91a76c": {
+   "at": "2026-11-26T09:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "failed",
+   "error": "card_caption longer than 90 characters",
+   "importance": 3,
+   "reason": "Hellenic DPA fine on Teleperformance for transparency and data subject rights breaches; concrete enforcement with practical lessons.",
    "relevant": true,
    "same_story_as": null
   },
@@ -9077,6 +9100,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "c8119697bec3a13b": {
+   "at": "2026-11-26T09:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Research priorities declaration; not a regulatory or practical governance development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "c8630dc9887e875b": {
    "at": "2026-11-13T18:17:41Z",
    "categories": [],
@@ -9840,6 +9874,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "d6a902f6498606c4": {
+   "at": "2026-11-26T09:17:36Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "CJEU judgment on Amazon group classification; competition/labour-law angle without clear data governance relevance.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d6e804764748674b": {
    "at": "2026-11-06T21:18:32Z",
    "categories": [
@@ -10242,6 +10287,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Interview with a sports analytics company CEO; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "df886ca2c54053d4": {
+   "at": "2026-11-26T09:17:36Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "CJEU Advocate General opinion on bar associations' challenge to Council AML rules; not a data governance angle sufficiently clear from excerpt.",
    "relevant": false,
    "same_story_as": null
   },
@@ -10860,6 +10916,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Customer story about an unusual pipeline use case with no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "ec5dbd7361458a81": {
+   "at": "2026-11-26T09:17:36Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Newsletter roundup with no single concrete development; generic update.",
    "relevant": false,
    "same_story_as": null
   },
@@ -11896,8 +11963,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 747,
-   "usd": 35.8157
+   "calls": 750,
+   "usd": 35.9187
   }
  }
 }

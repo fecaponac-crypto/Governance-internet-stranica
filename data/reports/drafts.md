@@ -1,15 +1,20 @@
 # Drafts report
 
-Last run: **2026-11-26T06:17:52Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-26T09:17:36Z** · candidates 6 · scored 6 · selected 1 · drafted 0 · failed 1 · queued for next run 0
 
-AI spend this month: **$35.82** of $45 budget (747 calls)
+AI spend this month: **$35.92** of $45 budget (750 calls)
 
 ## This run
 
-_No drafts this run._
+- ❌ [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) — card_caption longer than 90 characters
 
 ## Recently skipped by triage
 
+- (1) CJEU Advocate General opinion on bar associations' challenge to Council AML rules; not a data governance angle sufficiently clear from excerpt.
+- (1) CJEU judgment on Amazon group classification; competition/labour-law angle without clear data governance relevance.
+- (1) Newsletter roundup with no single concrete development; generic update.
+- (1) Research priorities declaration; not a regulatory or practical governance development.
+- (2) Swedish DPA report finding digitising ICU diaries is compatible with GDPR; concrete practical guidance for health data digitisation.
 - (1) Survey of Saudi IT decision-makers on ERP as AI platform; vendor-sponsored survey with no clear governance consequence and thin detail.
 - (1) Headline about FinCEN systems offline after a cyber incident; excerpt absent and the item is brief, so no concrete governance detail to act on, though it touches security. Treated as not sufficiently substantive.
 - (1) Threat actor use of an AI pentest framework is a security story with limited data governance angle; excerpt is truncated and it is not clearly tied to governed data; no existing article covers it, but it is peripheral and low-substance from the excerpt.
@@ -20,8 +25,3 @@ _No drafts this run._
 - (1) Interview/thought-leadership piece with no concrete news consequence.
 - (1) Generic executive primer on agentic AI with no specific development.
 - (2) State AG lawsuit against TikTok mainly about design harms; a newsletter-style tip with limited data governance content.
-- (1) Weekly news roundup with no single actionable development.
-- (2) Vendor blog promoting its event and perspective; vendor marketing.
-- (2) IAPP article on tracking AI use against GDPR obligations; practical framing but likely generic advice.
-- (1) Vendor blog promoting its own context layer concept; vendor marketing.
-- (2) IAPP piece on AI governance lessons from outages; specialist media with some practical angle but largely opinion.

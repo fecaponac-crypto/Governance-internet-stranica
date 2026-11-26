@@ -1,17 +1,20 @@
 # Inflow report
 
-Last run: **2026-11-26T06:17:20Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-26T09:17:24Z** · sources checked: 81 · failed: 0 · new items this run: 6
 
-## New items, last 48 hours (90)
+## New items, last 48 hours (96)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | Court of Justice of the EU — Press releases | [Opinions of the Advocate General at the Court Laila Medina in Cases C-865/24 P Ordre néerlandais des avocats du barreau de Bruxelles and Others v Council and C-866/24 P Ordre des avocats à la cour de Paris and Others v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260173en.pdf) |
+| 2026-11-26 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Joined Cases C-535/25 Amazon Italia Logistica, C-536/25 Amazon Italia Services, and C-537/25 Amazon Italia Transport](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260172en.pdf) |
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [When nobody checks the work: What recent system outages mean for AI governance](https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance) |
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [Closing the AI connector blind spot: A certification model for privacy teams](https://iapp.org/news/a/closing-the-ai-connector-blind-spot-a-certification-model-for-privacy-teams) |
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [Who is responsible when the AI is wrong? Why legal duty does not equal technical visibility](https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility) |
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [How to track AI use and meet GDPR obligations effectively](https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively) |
+| 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
 | 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
 | 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
 | 2026-11-24 | IAPP — International Association of Privacy Professionals | [Navigating DROP compliance after 1 Aug.](https://iapp.org/news/a/navigating-drop-compliance-after-1-aug) |
@@ -27,6 +30,9 @@ Last run: **2026-11-26T06:17:20Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | European Data Protection Supervisor (EDPS) | [New EDPS Newsletter out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-edps-newsletter-out-now) |
+| 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-y-su-red-de-grupos-de-investigacion-suscriben-declaracion-privacidad) |
+| 2026-11-26 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: Digitalisering av IVA-dagbok har stöd i GDPR](https://www.imy.se/nyheter/ny-rapport-digitalisering-av-iva-dagbok/) |
 | 2026-11-25 | CDO Magazine | [Artificial Intelligence SAP Survey Finds ERP Systems Are the Primary AI Platform for 63% of Surveyed Saudi IT Decision-Makers](https://www.cdomagazine.tech/aiml/sap-survey-finds-erp-systems-are-the-primary-ai-platform-for-63-of-surveyed-saudi-it-decision-makers) |
 | 2026-11-25 | CDO Magazine | [US Federal News Bureau FinCEN Takes Systems Offline After Cyber Incident Affects Limited Part of Agency Systems](https://www.cdomagazine.tech/us-federal-news-bureau/fincen-takes-systems-offline-after-cyber-incident-affects-limited-part-of-agency-systems) |
 | 2026-11-25 | CDO Magazine | [Leadership Measure What Matters: Moving Data Leadership From Service to Value With Cencora SVP Jig Patel](https://www.cdomagazine.tech/leadership/measure-what-matters-moving-data-leadership-from-service-to-value-with-cencora-svp-jig-patel) |
