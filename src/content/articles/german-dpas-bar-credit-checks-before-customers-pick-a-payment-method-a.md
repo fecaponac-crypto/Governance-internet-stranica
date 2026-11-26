@@ -30,6 +30,6 @@ card:
 
 Germany's federal and state data protection authorities (DSK) adopted several resolutions at their 112th conference, held from 24 to 26 November 2026.
 
-The DSK said credit checks are in principle lawful only **after a customer has chosen a payment method carrying default risk**, such as invoice or instalments. Checking creditworthiness in advance to decide which payment options to show is in principle unlawful, including where shops, marketplaces or booking portals use external payment providers. Credit reference agencies should design products to avoid such queries.
+The DSK said credit checks are in principle lawful only **after a customer has chosen a payment method carrying default risk**, such as invoice or instalments. Checking creditworthiness in advance to decide which payment options to show is in principle unlawful, including where shops, marketplaces or booking portals use external payment providers. Credit reference agencies must design their products so that unlawful queries are avoided as far as possible.
 
 On **§ 37a BDSG, in force since 20 November 2026**, the DSK said it provides an exception for automated decisions under Article 22 GDPR but no independent legal basis for processing. Its criteria should feed into legitimate-interest balancing and necessity tests for other scoring. The DSK also updated its guidance on hospital information systems, tightening access-rights requirements and addressing cloud use.
