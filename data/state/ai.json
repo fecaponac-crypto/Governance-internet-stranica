@@ -1846,6 +1846,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "2502ad880e0e628c": {
+   "at": "2026-11-26T18:17:38Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor-style how-to piece on choosing a platform; generic vendor marketing with no concrete news and no new development.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "250e2089ec38462d": {
    "at": "2026-11-23T15:17:40Z",
    "categories": [
@@ -12198,8 +12209,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 772,
-   "usd": 37.0837
+   "calls": 773,
+   "usd": 37.0844
   }
  }
 }

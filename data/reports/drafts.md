@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-26T16:57:48Z** · candidates 1 · scored 1 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-26T18:17:38Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$37.08** of $45 budget (772 calls)
+AI spend this month: **$37.08** of $45 budget (773 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Karon Monaghan KC to lead independent review of culture and governance at UK Information Commission** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/192
+_No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Vendor-style how-to piece on choosing a platform; generic vendor marketing with no concrete news and no new development.
 - (2) EDPB opinion on Belgian BCRs, a routine approval procedure with limited broad impact.
 - (2) Updated DSK short paper on third-country transfers, useful but routine update.
 - (1) CNIL plenary agenda only, no decision content.
@@ -24,4 +25,3 @@ AI spend this month: **$37.08** of $45 budget (772 calls)
 - (1) Ceremony for new European Chief Prosecutor; no data governance angle.
 - (1) Award announcement for AEPD; excluded category.
 - (2) Swedish DPA report finding digitising ICU diaries is compatible with GDPR; concrete practical guidance for health data digitisation.
-- (1) Research priorities declaration; not a regulatory or practical governance development.

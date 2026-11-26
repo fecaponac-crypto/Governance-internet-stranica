@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-26T16:57:16Z** · sources checked: 81 · failed: 0 · new items this run: 1
+Last run: **2026-11-26T18:17:26Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (75)
+## New items, last 48 hours (63)
 
 ### High priority sources
 
@@ -18,8 +18,6 @@ Last run: **2026-11-26T16:57:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
 | 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
 | 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
-| 2026-11-24 | Hunton Privacy & Information Security Law Blog | [Advocate General Issues Opinion on Dynamic IP Addresses and GDPR Compensation Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/advocate-general-issues-opinion-on-dynamic-ip-addresses-and-gdpr-compensation-claims) |
-| 2026-11-24 | Autoriteit Persoonsgegevens (Netherlands) | [AP neemt deel aan online rondetafel over AVG-gedragscodes](https://autoriteitpersoonsgegevens.nl/actueel/ap-neemt-deel-aan-online-rondetafel-over-avg-gedragscodes) |
 | 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
 
@@ -56,17 +54,12 @@ Last run: **2026-11-26T16:57:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | CDO Magazine | [US Federal News Bureau House Democrats Question FAA’s Nationwide AI Rollout, Seek Validation Data and Safety Measures](https://www.cdomagazine.tech/us-federal-news-bureau/house-democrats-question-faas-nationwide-ai-rollout-seek-validation-data-and-safety-measures) |
 | 2026-11-24 | CDO Magazine | [Artificial Intelligence Syracuse University Uses AI to Review Undergraduate Transcripts, Retains Human Admissions Decisions](https://www.cdomagazine.tech/aiml/syracuse-university-uses-ai-to-review-undergraduate-transcripts-retains-human-admissions-decisions) |
 | 2026-11-24 | OneTrust Blog | [OneTrust Achieves ENS High Certification in Spain Technology Risk & Compliance](https://www.onetrust.com/blog/onetrust-achieves-ens-high-certification-in-spain/) |
-| 2026-11-24 | CDO Magazine | [Artificial Intelligence Richard Leaton of Novelis on Scaling Manufacturing AI Through Consistent Technology Decisions](https://www.cdomagazine.tech/aiml/richard-leaton-of-novelis-on-scaling-manufacturing-ai-through-consistent-technology-decisions) |
-| 2026-11-24 | CDO Magazine | [Artificial Intelligence Nvidia Adds Compliance Oversight as Board Reinstates Jensen Huang](https://www.cdomagazine.tech/aiml/nvidia-adds-compliance-oversight-as-board-reinstates-jensen-huang) |
-| 2026-11-24 | OneTrust Blog | [PPCDA Readiness: A Practical Guide to Consent, Assessments, and Automated Decisions Privacy Automation](https://www.onetrust.com/blog/ppcda-readiness-a-practical-guide-to-consent-assessments-and-automated-decisions/) |
-| 2026-11-24 | OneTrust Blog | [Shadow AI Is Everywhere. Detection Is the First Step Toward Governance AI Governance](https://www.onetrust.com/blog/shadow-ai-is-everywhere-detection-is-the-first-step-toward-governance/) |
-| 2026-11-24 | European Data Protection Supervisor (EDPS) | [59th EDPS-DPO meeting - Blogpost](https://www.edps.europa.eu/press-publications/press-news/news/2026/59th-edps-dpo-meeting-blogpost) |
-| 2026-11-24 | Snowflake Blog | [Iceberg Observability in Snowflake Horizon Catalog](https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | DataGalaxy | [Which platforms show the real business value of a data program?](https://www.datagalaxy.com/en/blog/business-value-of-a-data-program/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Beschluss zur Bonitätsprüfung und Hilfestellung zum Umgang mit Patientendaten](https://www.baden-wuerttemberg.datenschutz.de/112dsk-bonitaet-scoring-krankenhaussysteme-pm/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Deutsch-europäische Zusammenarbeit – Datenschutz einfach umsetzen und wirksam kontrollieren](https://www.baden-wuerttemberg.datenschutz.de/112dsk-edsa-austausch-pm/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Mit Datenschutz bessere Cybersicherheit erreichen](https://www.baden-wuerttemberg.datenschutz.de/112dsk-datenschutz-datensicherheit/) |
@@ -88,11 +81,6 @@ Last run: **2026-11-26T16:57:16Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-25 | The Record (Recorded Future News) | [Treasury's FinCEN takes systems offline after cybersecurity incident](https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident) |
 | 2026-11-24 | Palantir Blog | [Zrozumieć Palantir: fakty i mity](https://blog.palantir.com/zrozumie%C4%87-palantir-fakty-i-mity-afa49bcfb8ab?source=rss----3c87dc14372f---4) |
 | 2026-11-24 | The Record (Recorded Future News) | [California privacy agency director Kemp to leave after two-year tenure](https://therecord.media/california-privacy-agency-kemp) |
-| 2026-11-24 | Precisely Blog | [Data Quality Is Not a Diet. It’s a Lifestyle.](https://www.precisely.com/blog/cat-data-quality/data-quality-is-not-a-diet-its-a-lifestyle/) |
-| 2026-11-24 | Center for Data Innovation | [5 Q’s with Bin Li, Co-founder and CTO of Canos](https://datainnovation.org/2026/11/5-qs-with-bin-li-co-founder-and-cto-of-canos/) |
-| 2026-11-24 | DataHub Blog (open source metadata platform) | [Data Catalog Tools in 2026: What the Landscape Looks Like (and How to Evaluate It)](https://datahub.com/blog/data-catalog-tools/) |
-| 2026-11-24 | MIT Technology Review | [Raising the stakes for enterprise networks with AI modernization](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) |
-| 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
 
 ## Source problems
 
