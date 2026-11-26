@@ -1,13 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-26T09:17:24Z** · sources checked: 81 · failed: 0 · new items this run: 6
+Last run: **2026-11-26T11:47:51Z** · sources checked: 81 · failed: 0 · new items this run: 3
 
-## New items, last 48 hours (96)
+## New items, last 48 hours (78)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | Court of Justice of the EU — Press releases | [Solemn undertaking ceremony at the Court of Justice of the European Union](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260174en.pdf) |
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Opinions of the Advocate General at the Court Laila Medina in Cases C-865/24 P Ordre néerlandais des avocats du barreau de Bruxelles and Others v Council and C-866/24 P Ordre des avocats à la cour de Paris and Others v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260173en.pdf) |
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Joined Cases C-535/25 Amazon Italia Logistica, C-536/25 Amazon Italia Services, and C-537/25 Amazon Italia Transport](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260172en.pdf) |
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [When nobody checks the work: What recent system outages mean for AI governance](https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance) |
@@ -21,15 +22,13 @@ Last run: **2026-11-26T09:17:24Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | Inside Privacy (Covington & Burling) | [California Regulators Focus on CCPA Opt-Out Compliance](https://www.insideprivacy.com/state-privacy/california-regulators-focus-on-ccpa-opt-out-compliance/) |
 | 2026-11-24 | Hunton Privacy & Information Security Law Blog | [Advocate General Issues Opinion on Dynamic IP Addresses and GDPR Compensation Claims](https://www.hunton.com/privacy-and-cybersecurity-law-blog/advocate-general-issues-opinion-on-dynamic-ip-addresses-and-gdpr-compensation-claims) |
 | 2026-11-24 | Autoriteit Persoonsgegevens (Netherlands) | [AP neemt deel aan online rondetafel over AVG-gedragscodes](https://autoriteitpersoonsgegevens.nl/actueel/ap-neemt-deel-aan-online-rondetafel-over-avg-gedragscodes) |
-| 2026-11-24 | IAPP — International Association of Privacy Professionals | [McGrath unpacks European Commission's stance on digital rulebook updates](https://iapp.org/news/a/mcgrath-unpacks-european-commissions-stance-on-digital-rulebook-updates) |
-| 2026-11-24 | IAPP — International Association of Privacy Professionals | [Thought for the week: Human beings, not human doings: Flourishing in the age of AI](https://iapp.org/news/a/thought-for-the-week-human-beings-not-human-doings-flourishing-in-the-age-of-ai) |
-| 2026-11-24 | The EU AI Act Newsletter (Future of Life Institute) | [The EU AI Act Newsletter #115: Global Rules After the Midterms](https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global) |
 | 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 
 ### Medium priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-galardonada-con-premio-por-la-labor-en-ciberdefensa) |
 | 2026-11-26 | European Data Protection Supervisor (EDPS) | [New EDPS Newsletter out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-edps-newsletter-out-now) |
 | 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-y-su-red-de-grupos-de-investigacion-suscriben-declaracion-privacidad) |
 | 2026-11-26 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: Digitalisering av IVA-dagbok har stöd i GDPR](https://www.imy.se/nyheter/ny-rapport-digitalisering-av-iva-dagbok/) |
@@ -63,20 +62,14 @@ Last run: **2026-11-26T09:17:24Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | CNIL (France) | [Acteurs du secteur de la livraison : comment définir les responsabilités au regard du RGPD ?](https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites) |
 | 2026-11-24 | AZOP — Croatian Personal Data Protection Agency | [Gostujuće predavanje na VERN-u: „Kako AI mijenja odnose s javnošću“](https://azop.hr/gostujuce-predavanje-na-vern-u-kako-ai-mijenja-odnose-s-javnoscu/) |
 | 2026-11-24 | Euractiv | [Irish privacy regulator in talks with Meta over EU launch of Muse](https://www.rapporteur.com/news/irish-privacy-regulator-in-talks-with-meta-over-eu-launch-of-muse/) |
-| 2026-11-24 | CDO Magazine | [Community From AI Ambition to Business Impact: Data and AI Leaders Confront the Realities of Scale at CDO Magazine’s Cincinnati Leadership Summit](https://www.cdomagazine.tech/community/from-ai-ambition-to-business-impact-data-and-ai-leaders-confront-the-realities-of-scale-at-cdo-magazines-cincinnati-leadership-summit) |
-| 2026-11-24 | Alation Blog | [November 23, 2026 AI in Supply Chain Management: What it Is and How to Implement it Safely Learn how AI in the supply chain delivers value today, and how to expand agent autonomy safely as trusted data proves… Read More](https://www.alation.com/blog/ai-in-supply-chain-management-what-it-is-and-how-to-implement-it-safely/) |
-| 2026-11-24 | Ataccama Blog | [FWRD 2026 recap: What data & AI leaders learned in 2026, and what they expect in 2027](https://www.ataccama.com/blog/fwrd-2026-recap-what-data-ai-leaders-learned-in-2026-and-what-they-expect-in-2027) |
 | 2026-11-24 | European Data Protection Supervisor (EDPS) | [59th EDPS-DPO meeting - Blogpost](https://www.edps.europa.eu/press-publications/press-news/news/2026/59th-edps-dpo-meeting-blogpost) |
 | 2026-11-24 | Snowflake Blog | [Iceberg Observability in Snowflake Horizon Catalog](https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog) |
-| 2026-11-24 | Databricks Blog | [Sharing catalog metadata across data platforms, engines, and agents](https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents) |
-| 2026-11-23 | Forrester Blogs | [Govern AI For The Future You Can’t Predict](https://www.forrester.com/blogs/govern-ai-for-the-future-you-cant-predict/) |
-| 2026-11-23 | CNIL (France) | [Contrôles de la CNIL : une charte pour tout comprendre](https://www.cnil.fr/fr/controles-de-la-cnil-une-charte-pour-tout-comprendre) |
-| 2026-11-20 | AEPD — Spanish Data Protection Agency | [El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/adjunto-de-aepd-francisco-perez-bes-elegido-miembro-mesa-convenio-108) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | Stibo Systems Blog | [Our three takeaways from the 2026 Gartner® Magic Quadrant™ for your PIM evaluation](https://www.stibosystems.com/blog/our-three-takeaways-from-the-2026-gartner-magic-quadrant-for-your-pim-evaluation) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Ransomware Group n0n Claims it Hit Financial Industry with AI Agents](https://www.dataprivacyandsecurityinsider.com/2026/11/ransomware-group-n0n-claims-it-hit-financial-industry-with-ai-agents/) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The Doctor Is In … and So Is the AI](https://www.dataprivacyandsecurityinsider.com/2026/11/the-doctor-is-in-and-so-is-the-ai/) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Indiana Social Media Law Faces First Amendment Challenge](https://www.dataprivacyandsecurityinsider.com/2026/11/indiana-social-media-law-faces-first-amendment-challenge/) |
@@ -101,19 +94,8 @@ Last run: **2026-11-26T09:17:24Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-24 | Computer Weekly — IT security | [Amazon CTO Werner Vogels: Computing to converge with biology](https://www.computerweekly.com/news/366655113/Amazon-CTO-Werner-Vogels-Computing-to-converge-with-biology) |
 | 2026-11-24 | Computer Weekly — IT security | [Third-party support: Risks and opportunities](https://www.computerweekly.com/news/366655495/Third-party-support-Risks-and-opportunities) |
 | 2026-11-24 | Computer Weekly — IT security | [Huang’s Trump-backed return raises AI sovereignty concerns](https://www.computerweekly.com/news/366655453/Huangs-Trump-backed-return-raises-AI-sovereignty-concerns) |
-| 2026-11-24 | The Record (Recorded Future News) | [LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data](https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident) |
-| 2026-11-23 | DataGalaxy | [AI use case prioritization framework: how to prioritize AI projects that pay off](https://www.datagalaxy.com/en/blog/ai-use-case-prioritization-framework/) |
-| 2026-11-23 | The Record (Recorded Future News) | [Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents](https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems) |
-| 2026-11-23 | Monte Carlo Blog | [A copy of a copy of a copy: how agents corrupt their own memory](https://montecarlo.ai/how-agents-corrupt-their-own-memory) |
-| 2026-11-23 | MIT Technology Review | [A legendary philosopher isn’t buying Anthropic’s consciousness argument](https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/) |
-| 2026-11-23 | Center for Data Innovation | [Tracking Housing Projects](https://datainnovation.org/2026/11/tracking-housing-projects/) |
-| 2026-11-23 | Center for Data Innovation | [Mapping Tourism Interests](https://datainnovation.org/2026/11/mapping-tourism-interests/) |
-| 2026-11-23 | Google Cloud Blog — Data Analytics | [How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI](https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/) |
-| 2026-11-23 | Computer Weekly — IT security | [Digital sovereignty not smart, says The Hague CIO](https://www.computerweekly.com/feature/Digital-sovereignty-not-smart-says-The-Hague-CIO) |
-| 2026-11-23 | Computer Weekly — IT security | [Nation-state APTs don't need new tricks; the old ones still work](https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work) |
 | 2026-11-23 | Eckerson Group | [The 2026 Scorecard: How Six Data and AI Trends Played Out](https://www.eckerson.com/articles/the-2026-scorecard-how-six-data-and-ai-trends-played-out?feed=true) |
 | 2026-11-21 | Center for Security and Emerging Technology (CSET) | [Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions](https://cset.georgetown.edu/article/data-centers-full-of-u-s-chips-are-serving-chinese-ai-models-undermining-trumps-tech-ambitions/) |
-| 2026-11-13 | Center for Security and Emerging Technology (CSET) | [How Nvidia’s Scandal Will Reverberate Across Washington](https://cset.georgetown.edu/article/how-nvidias-scandal-will-reverberate-across-washington/) |
 
 ## Source problems
 

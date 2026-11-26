@@ -4448,6 +4448,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "5beb549952c16245": {
+   "at": "2026-11-26T11:48:05Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog promoting analyst research takeaways; vendor marketing, not a genuine launch or research finding.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "5c0a26fbc26ca41a": {
    "at": "2026-11-25T15:17:34Z",
    "categories": [
@@ -4563,6 +4572,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Policy analysis on biodata for a US science initiative; weak link to practitioner data governance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "6036c3f0ecc98cd6": {
+   "at": "2026-11-26T11:48:05Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Ceremony for new European Chief Prosecutor; no data governance angle.",
    "relevant": false,
    "same_story_as": null
   },
@@ -4897,6 +4915,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "68ad98f503de0bc4": {
+   "at": "2026-11-26T11:48:05Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Award announcement for AEPD; excluded category.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "68cf3da7a3f2482f": {
    "at": "2026-11-17T12:17:37Z",
    "categories": [
@@ -5162,8 +5189,13 @@
    "categories": [
     "privacy"
    ],
-   "decision": "selected",
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "greek-dpa-fines-teleperformance-greece-100-000-over-a-former-employee",
+   "flagged": 0,
    "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/188",
+   "primary_found": true,
    "reason": "Hellenic DPA fine on Teleperformance for transparency and data subject rights breaches; concrete enforcement with practical lessons.",
    "relevant": true,
    "same_story_as": null
@@ -11962,8 +11994,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 750,
-   "usd": 35.9187
+   "calls": 753,
+   "usd": 36.019
   }
  }
 }
