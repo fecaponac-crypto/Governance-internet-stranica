@@ -1,12 +1,12 @@
 ---
-title: "German state data protection authorities comment on revised draft of federal Research Data Act"
+title: "German state DPAs say revised Research Data Act draft still needs work as it widens to health and social data"
 date: 2026-11-26
-dek: "The Länder supervisory authorities published a statement on the research ministry's draft Forschungsdatengesetz dated 11 November 2026, their second intervention on the bill this year."
-whyItMatters: "The FDG is intended to govern how data can be reused for research in Germany, so research institutions and organisations that supply data for research should follow how it develops. Data protection and research governance teams should read the Länder authorities' statement, compare it with the DSK's February comments on the December 2025 draft, and note any concerns that could change the final rules. These could affect access conditions, safeguards or documentation requirements for research data."
+dek: "The Länder supervisory authorities welcome the planned German Centre for Microdata and a criminal research-secrecy rule, but object to retention of up to 50 years and to linking records via the tax ID."
+whyItMatters: "The FDG would give researchers regulated access to linked personal data held across German registers, now including European Health Data Space health data and social data. Research institutions and data-holding bodies should note where the authorities want changes: retention limits, a DPIA before records are combined, an independent multidisciplinary body reviewing access requests, clear allocation of controller responsibility and how GDPR Article 13/14 information duties are met. These points could shape the conditions and documentation that data users will face."
 categories: [regulation, privacy, strategy]
 institutions: [german-dpas]
 whoShouldCare: ["DPO", "Legal & compliance", "Research data managers", "CDO"]
-importance: 2
+importance: 3
 type: "Regulation"
 region: "Germany"
 status:
@@ -14,17 +14,21 @@ status:
   detail: "Ministry draft dated 11 November 2026; not yet adopted"
 sources:
   - name: "Datenschutzkonferenz (DSK)"
-    title: "Stellungnahmen – Stellungnahme der unabhängigen Datenschutzaufsichtsbehörden der Länder zum Referentenentwurf FDG (Stand 11.11.2026)"
+    title: "Stellungnahme der unabhängigen Datenschutzaufsichtsbehörden der Länder vom 25.11.2026 zum Referentenentwurf FDG (Stand 11.11.2026)"
+    url: "https://www.datenschutzkonferenz-online.de/media/st/20261126_Stellungnahme_Datenschutzbehoerden-der-Laender_Forschungsdatengesetz-Referentenentwurf.pdf"
+    primary: true
+  - name: "Datenschutzkonferenz (DSK)"
+    title: "Stellungnahmen – overview page"
     url: "https://www.datenschutzkonferenz-online.de/stellungnahmen.html#25112026-stellungnahme-der-unabhaengigen-datenschutzaufsichtsbehoerden-der-laender_stand-11112026"
     primary: true
 related: []
 card:
-  figure: "FDG"
-  caption: "German state DPAs comment on the draft Research Data Act of 11 November 2026"
+  figure: "50 years"
+  caption: "Maximum retention in the revised draft, up from 10; Länder DPAs call the basis inadequate"
 ---
 
-The independent data protection supervisory authorities of the German Länder published a statement on **25 November 2026** on a ministerial draft (Referentenentwurf) of the Research Data Act (Forschungsdatengesetz, FDG). The draft comes from the Federal Ministry for Research, Technology and Space and is dated **11 November 2026**. Its full title describes a law to improve the use of data for research purposes and to amend existing legislation.
+Germany's independent state (Länder) data protection authorities published a statement dated **25 November 2026** on the research ministry's revised draft Research Data Act (Forschungsdatengesetz, FDG) of 11 November 2026.
 
-This is not the first time the authorities have commented on the bill. On 12 February 2026, the conference of federal and state data protection authorities (DSK) published a statement on an earlier version of the draft, dated 22 December 2025.
+They welcome the planned German Centre for Microdata (DZM) as regulated infrastructure for research access, a research-secrecy rule backed by criminal penalties, a dedicated data protection cockpit and an unconditional right to object. The draft takes up three points from the DSK's February 2026 statement, including staff separation between the DZM's trust centre and research unit.
 
-The statement listing does not summarise the authorities' positions, and the draft has not yet been adopted.
+But the authorities say the draft **still needs revision**, especially as the data to be linked now extends to European Health Data Space health data and social data, often special-category data under Article 9 GDPR. Unresolved concerns include retention of **up to 50 years** (previously 10), using cross-sector identifiers such as the tax ID to combine records, the lack of a mandatory DPIA for linkage and of an independent multidisciplinary access body, and unclear controller responsibility. Given the short consultation window, they commented only on Article 1 of the bill.
