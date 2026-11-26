@@ -22,7 +22,7 @@ sources:
     title: "Pressemitteilung der DSK: 112. Datenschutzkonferenz vom 24.-26.11.2026"
     url: "https://www.baden-wuerttemberg.datenschutz.de/112dsk-bonitaet-scoring-krankenhaussysteme-pm/"
     primary: true
-related: []
+related: [german-dpas-publish-third-version-of-technical-requirements-for-hospit]
 card:
   figure: "§ 37a BDSG"
   caption: "New German scoring rule, in force since 20 Nov 2026, is not a legal basis, says DSK"
