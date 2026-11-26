@@ -26,8 +26,10 @@ card:
   caption: "When Karon Monaghan KC hopes to report on the Information Commission review"
 ---
 
-Barrister **Karon Monaghan KC** has been appointed to lead an independent review of culture, accountability and governance at the Information Commission, the UK's data protection regulator. According to Computer Weekly, the review follows former Information Commissioner John Edwards' resignation after an internal investigation into his conduct. Staff have also complained of a wider toxic workplace culture.
+Barrister **Karon Monaghan KC** has been appointed to lead an independent review of culture, accountability and governance at the Information Commission, the UK's data protection regulator. The review follows former Information Commissioner John Edwards' resignation in June 2026, after a workplace investigation into his conduct found a case to answer. According to Computer Weekly, staff have also complained of a wider toxic workplace culture.
 
 In a statement on GOV.UK, Monaghan said participation will be voluntary and confidential. She added that the Commission has confirmed it will not use confidentiality clauses in settlement agreements to stop people taking part. Computer Weekly reports that Freedom of Information disclosures show the Commission signed 16 non-disclosure agreements since January 2020, at a cost of £354,000.
 
 Monaghan will start by reviewing documents from the Commission and the Department for Digital, Culture, Media and Sport. She expects to begin interviews in the new year and hopes to report in **the first quarter of 2027**. According to Computer Weekly, the review has no power to discipline staff or determine misconduct.
+
+*Editor's note: The figures on non-disclosure agreements come from Computer Weekly's reporting of Freedom of Information disclosures; we could not check them against the disclosures themselves.*
