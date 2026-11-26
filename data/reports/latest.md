@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-26T11:47:51Z** · sources checked: 81 · failed: 0 · new items this run: 3
+Last run: **2026-11-26T12:17:26Z** · sources checked: 81 · failed: 0 · new items this run: 1
 
-## New items, last 48 hours (78)
+## New items, last 48 hours (79)
 
 ### High priority sources
 
@@ -28,6 +28,7 @@ Last run: **2026-11-26T11:47:51Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-26 | CDO Magazine | [Leadership Moves New Balance Appoints Nava Cretu-Kessel Director of Global Data Products](https://www.cdomagazine.tech/leadership-moves/new-balance-appoints-nava-cretu-kessel-director-of-global-data-products) |
 | 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-galardonada-con-premio-por-la-labor-en-ciberdefensa) |
 | 2026-11-26 | European Data Protection Supervisor (EDPS) | [New EDPS Newsletter out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-edps-newsletter-out-now) |
 | 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-y-su-red-de-grupos-de-investigacion-suscriben-declaracion-privacidad) |

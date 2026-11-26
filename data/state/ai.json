@@ -4751,6 +4751,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "66620c7ab3e8d9f7": {
+   "at": "2026-11-26T12:17:40Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Hiring/appointment news, not relevant to portal coverage.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "669dbde67759660d": {
    "at": "2026-11-17T15:18:29Z",
    "categories": [
@@ -11994,8 +12003,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 753,
-   "usd": 36.019
+   "calls": 754,
+   "usd": 36.0197
   }
  }
 }

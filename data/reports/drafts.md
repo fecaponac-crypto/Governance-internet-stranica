@@ -1,17 +1,18 @@
 # Drafts report
 
-Last run: **2026-11-26T11:48:05Z** · candidates 3 · scored 3 · selected 0 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-26T12:17:40Z** · candidates 1 · scored 1 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
-AI spend this month: **$36.02** of $45 budget (753 calls)
+AI spend this month: **$36.02** of $45 budget (754 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Greek DPA fines Teleperformance Greece €100,000 over a former employee's access request and erased data** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/188
+_No drafts this run._
 
 ## Recently skipped by triage
 
-- (1) Ceremony for new European Chief Prosecutor; no data governance angle.
+- (1) Hiring/appointment news, not relevant to portal coverage.
 - (1) Vendor blog promoting analyst research takeaways; vendor marketing, not a genuine launch or research finding.
+- (1) Ceremony for new European Chief Prosecutor; no data governance angle.
 - (1) Award announcement for AEPD; excluded category.
 - (2) Swedish DPA report finding digitising ICU diaries is compatible with GDPR; concrete practical guidance for health data digitisation.
 - (1) Research priorities declaration; not a regulatory or practical governance development.
@@ -24,4 +25,3 @@ AI spend this month: **$36.02** of $45 budget (753 calls)
 - (1) Partner content on research funding policy; no governance angle.
 - (1) Event/retrospective on freedom of information; not a data governance development.
 - (2) Ransomware claim against financial firms; security news but excerpt lacks clear governance consequence and is an unverified group claim, low priority.
-- (2) Advocacy open letter on AI toys; child safety focus with limited data governance angle.
