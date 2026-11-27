@@ -1,15 +1,21 @@
 # Drafts report
 
-Last run: **2026-11-27T09:17:41Z** · candidates 2 · scored 2 · selected 1 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-27T12:17:45Z** · candidates 7 · scored 7 · selected 4 · drafted 3 · failed 1 · queued for next run 0
 
-AI spend this month: **$37.28** of $45 budget (779 calls)
+AI spend this month: **$38.02** of $45 budget (789 calls)
 
 ## This run
 
-- ↩️ Not drafted, already covered: [IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS](https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil) repeats `cnil-sets-out-gdpr-duties-for-internal-research-by-health-professional`
+- ❌ [Commission asked to improve transparency of bloc’s standards-writing](https://www.rapporteur.com/news/commission-asked-to-improve-transparency-of-blocs-standards-writing/) — source not readable: HTTP 403
+- ℹ️ not fact-checked **NetChoice sues to block Vermont Age-Appropriate Design Code and New York SAFE for Kids Act** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/194
+- ℹ️ not fact-checked **EPIC sues ODNI to obtain FISC opinion that recertified Section 702 surveillance** — importance 2 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/195
+- ℹ️ not fact-checked **EPIC urges US State Department to withdraw plan to share passport records for voter eligibility checks** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/196
 
 ## Recently skipped by triage
 
+- (1) Executive appointment announcement; hiring/people news without governance substance.
+- (2) Internal appointment of a Croatian agency official to a Council of Europe committee vice-chair role; no concrete obligation change.
+- (1) Event meeting promotion with a blog link; no concrete news consequence.
 - (1) Brief Belgian DPA explainer on using emails as evidence with no excerpt; too thin to judge as substantive news.
 - (2) Department of War adopting AI-aided classification and declassification management touches information governance and AI use in handling sensitive data; modest practitioner interest.
 - (1) Vendor-style how-to piece on choosing a platform; generic vendor marketing with no concrete news and no new development.
@@ -22,6 +28,3 @@ AI spend this month: **$37.28** of $45 budget (779 calls)
 - (2) Press release from German DSK conference on cybersecurity; limited detail in excerpt.
 - (1) Conceptual architecture opinion without concrete news.
 - (2) DSK conference press release on data protection for cybersecurity, mostly general statement.
-- (1) Hiring/appointment news, not relevant to portal coverage.
-- (1) Vendor blog promoting analyst research takeaways; vendor marketing, not a genuine launch or research finding.
-- (1) Ceremony for new European Chief Prosecutor; no data governance angle.

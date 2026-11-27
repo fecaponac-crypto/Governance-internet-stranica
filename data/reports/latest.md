@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 2
+Last run: **2026-11-27T12:17:32Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (58)
+## New items, last 48 hours (61)
 
 ### High priority sources
 
@@ -16,7 +16,6 @@ Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [Who is responsible when the AI is wrong? Why legal duty does not equal technical visibility](https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility) |
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [How to track AI use and meet GDPR obligations effectively](https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively) |
 | 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
-| 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
 | 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
 
@@ -24,7 +23,10 @@ Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | CDO Magazine | [Leadership Moves Schreiber Foods Names Blair Tritt Vice President of Data, AI & Venturing](https://www.cdomagazine.tech/leadership-moves/schreiber-foods-names-blair-tritt-vice-president-of-data-ai-venturing) |
 | 2026-11-27 | CNIL (France) | [IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS](https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil) |
+| 2026-11-27 | Euractiv | [Commission asked to improve transparency of bloc’s standards-writing](https://www.rapporteur.com/news/commission-asked-to-improve-transparency-of-blocs-standards-writing/) |
+| 2026-11-27 | AZOP — Croatian Personal Data Protection Agency | [Predstavnica Agencije izabrana za prvu potpredsjednicu Odbora Konvencije 108 Vijeća Europe](https://azop.hr/predstavnica-agencije-izabrana-za-prvu-potpredsjednicu-odbora-konvencije-108-vijeca-europe/) |
 | 2026-11-27 | CDO Magazine | [US Federal News Bureau Department of War Adopts AI-Aided System for Classification and Declassification Management](https://www.cdomagazine.tech/us-federal-news-bureau/department-of-war-adopts-ai-aided-system-for-classification-and-declassification-management) |
 | 2026-11-27 | CDO Magazine | [Artificial Intelligence Survey Finds Federal Agencies Lack Visibility Into AI Use and Data Access](https://www.cdomagazine.tech/aiml/survey-finds-federal-agencies-lack-visibility-into-ai-use-and-data-access) |
 | 2026-11-26 | CDO Magazine | [AI Governance Why Enterprise Agentic AI Needs Evidence and Accountability](https://www.cdomagazine.tech/ai-governance/why-enterprise-agentic-ai-needs-evidence-and-accountability) |
@@ -48,8 +50,7 @@ Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-25 | Euractiv | [MEPs back an exposome moonshot, now national capitals must decide [Partner Content]](https://www.rapporteur.com/news/meps-back-an-exposome-moonshot-now-national-capitals-must-decide/) |
 | 2026-11-25 | CDO Magazine | [AI Governance Layer 0: The Missing Layer in AI Governance](https://www.cdomagazine.tech/ai-governance/layer-0-the-missing-layer-in-ai-governance) |
 | 2026-11-25 | Alation Blog | [November 25, 2026 Describe Once, Render Anywhere: How We Built Intelligent Feeds on A2UI and MCP Apps Learn how our engineers built Intelligent Feeds on A2UI, for engineers who want to do the same: the catalog, the… Read More](https://www.alation.com/blog/a2ui-mcp-apps-component-catalog/) |
-| 2026-11-25 | CDO Magazine | [Leadership Moves Wawanesa Insurance Names Yelena Kropivnitskaya as VP of Data & Analytics](https://www.cdomagazine.tech/leadership-moves/wawanesa-insurance-names-yelena-kropivnitskaya-as-vp-of-data-analytics) |
-| 2026-11-25 | DATAVERSITY | [Eyes on Data: The Roadmap to AI Optimization – Why AI-Ready Data Must Come First](https://www.dataversity.net/articles/eyes-on-data-the-roadmap-to-ai-optimization-why-ai-ready-data-must-come-first/) |
+| 2026-11-24 | European Data Protection Supervisor (EDPS) | ['Shaping the future of data protection: EDPS and DPOs meet in Amsterdam'](https://www.edps.europa.eu/press-publications/press-news/news/2026/shaping-future-data-protection-edps-and-dpos-meet-amsterdam) |
 
 ### Low priority sources
 
@@ -63,6 +64,7 @@ Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | Modern Data 101 | [Latent Harness Model: From Data Platform to Agent Harness](https://moderndata101.substack.com/p/the-latent-harness-model) |
 | 2026-11-26 | Computer Weekly — IT security | [Independent review into ICO amid claims of ‘toxic culture’ at data protection watchdog](https://www.computerweekly.com/news/366655461/Independent-review-into-ICO-amid-claims-of-toxic-culture-at-data-protection-watchdog) |
 | 2026-11-26 | Stibo Systems Blog | [Our three takeaways from the 2026 Gartner® Magic Quadrant™ for your PIM evaluation](https://www.stibosystems.com/blog/our-three-takeaways-from-the-2026-gartner-magic-quadrant-for-your-pim-evaluation) |
+| 2026-11-25 | EPIC — Electronic Privacy Information Center | [NetChoice Destined to Lose New Lawsuits Against Vermont Age-Appropriate Design Code, New York SAFE for Kids](https://epic.org/netchoice-destined-to-lose-new-lawsuits-against-vermont-age-appropriate-design-code-new-york-safe-for-kids/) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Ransomware Group n0n Claims it Hit Financial Industry with AI Agents](https://www.dataprivacyandsecurityinsider.com/2026/11/ransomware-group-n0n-claims-it-hit-financial-industry-with-ai-agents/) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The Doctor Is In … and So Is the AI](https://www.dataprivacyandsecurityinsider.com/2026/11/the-doctor-is-in-and-so-is-the-ai/) |
 | 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Indiana Social Media Law Faces First Amendment Challenge](https://www.dataprivacyandsecurityinsider.com/2026/11/indiana-social-media-law-faces-first-amendment-challenge/) |
@@ -72,14 +74,15 @@ Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-25 | LfDI Baden-Württemberg (Germany) | [Kaffee Glühwein und Informationsfreiheit (3) – Infofreiheit im Austausch: Rückblick auf ein turbulentes Informationsfreiheitsjahr 2026](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-3-infofreiheit-im-austausch-rueckblick-auf-ein-turbulentes-informationsfreiheitsjahr-2026/) |
 | 2026-11-25 | Stibo Systems Blog | [Why AI needs multidomain MDM to understand your business](https://www.stibosystems.com/blog/why-ai-needs-multidomain-mdm-to-understand-your-business) |
 | 2026-11-25 | Autorité de protection des données (Belgium) | [Données de 1,2 million de Flamands volées : soyez vigilants](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/25/donnees-de-12-million-de-flamands-volees-soyez-vigilants) |
+| 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Sues ODNI for FISC Opinion Describing “Major Compliance Problems” With Section 702](https://epic.org/epic-sues-odni-for-fisc-opinion-describing-major-compliance-problems-with-section-702/) |
 | 2026-11-25 | DataHub Blog (open source metadata platform) | [Context Layer for Data Engineering Teams: What You Own and How to Run It](https://datahub.com/blog/context-layer-for-data-engineering-teams/) |
+| 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Calls on State Department to Abandon Plans to Repurpose Passport Data for Voter Verification](https://epic.org/epic-calls-on-state-department-to-abandon-plans-to-repurpose-passport-data-for-voter-verification/) |
 | 2026-11-25 | The Record (Recorded Future News) | [Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital](https://therecord.media/guadeloupe-ransomware-hospital-cyber) |
 | 2026-11-25 | Computer Weekly — IT security | [Threat actor use of Artex hacking framework surges](https://www.computerweekly.com/news/366655399/Threat-actor-use-of-Artex-hacking-framework-surges) |
-| 2026-11-25 | The Record (Recorded Future News) | [Treasury's FinCEN takes systems offline after cybersecurity incident](https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident) |
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **ISO — News** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 

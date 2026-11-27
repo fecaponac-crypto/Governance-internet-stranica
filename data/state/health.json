@@ -4,8 +4,8 @@
   "last_fetched": 25,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T11:47:51Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 17
  },
  "alation": {
@@ -13,8 +13,8 @@
   "last_fetched": 9,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T15:17:22Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 28
  },
  "algorithmwatch": {
@@ -22,17 +22,17 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-23T09:17:23Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 15
  },
  "apd-be": {
   "consecutive_failures": 0,
   "last_fetched": 2,
-  "last_item_count": 1,
+  "last_item_count": 0,
   "last_new_item": "2026-11-27T09:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 7
  },
  "ataccama": {
@@ -40,8 +40,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T15:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 24
  },
  "aws-big-data": {
@@ -49,36 +49,35 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T00:17:26Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 12
  },
  "azop": {
-  "consecutive_failures": 1,
-  "last_error": "ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag",
+  "consecutive_failures": 0,
   "last_fetched": 10,
-  "last_item_count": 0,
-  "last_new_item": "2026-11-25T08:39:31Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T06:17:26Z",
-  "total_items": 15
+  "last_item_count": 1,
+  "last_new_item": "2026-11-27T12:17:32Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
+  "total_items": 16
  },
  "cdo-magazine": {
   "consecutive_failures": 0,
-  "last_fetched": 24,
-  "last_item_count": 0,
-  "last_new_item": "2026-11-27T00:17:33Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
-  "total_items": 167
+  "last_fetched": 23,
+  "last_item_count": 1,
+  "last_new_item": "2026-11-27T12:17:32Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
+  "total_items": 168
  },
  "center-data-innovation": {
   "consecutive_failures": 0,
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 43
  },
  "cjeu": {
@@ -86,17 +85,17 @@
   "last_fetched": 40,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T11:47:51Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 59
  },
  "cnil": {
   "consecutive_failures": 0,
   "last_fetched": 20,
-  "last_item_count": 1,
+  "last_item_count": 0,
   "last_new_item": "2026-11-27T09:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 32
  },
  "collibra": {
@@ -104,8 +103,8 @@
   "last_fetched": 477,
   "last_item_count": 0,
   "last_new_item": "2026-11-23T15:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 23
  },
  "computerweekly-security": {
@@ -113,8 +112,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T16:57:16Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 67
  },
  "council-eu-press": {
@@ -122,8 +121,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T15:17:29Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  },
  "cppa": {
@@ -131,8 +130,8 @@
   "last_fetched": 40,
   "last_item_count": 0,
   "last_new_item": "2026-10-25T18:18:02Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 40
  },
  "cset": {
@@ -140,8 +139,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 26
  },
  "dama": {
@@ -149,8 +148,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-18T15:17:24Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  },
  "data-engineering-weekly": {
@@ -158,8 +157,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-23T06:17:22Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 14
  },
  "data-privacy-security-insider": {
@@ -167,8 +166,8 @@
   "last_fetched": 15,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 46
  },
  "data-protection-report": {
@@ -176,8 +175,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-10-25T16:25:32Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 4
  },
  "databricks": {
@@ -185,8 +184,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T11:10:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 8
  },
  "datagalaxy": {
@@ -194,8 +193,8 @@
   "last_fetched": 6,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T18:17:26Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 10
  },
  "datahub": {
@@ -203,8 +202,8 @@
   "last_fetched": 12,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T15:17:22Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 25
  },
  "datatilsynet-no": {
@@ -212,8 +211,8 @@
   "last_fetched": 40,
   "last_item_count": 0,
   "last_new_item": "2026-11-17T12:17:24Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 46
  },
  "dataversity": {
@@ -221,8 +220,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T09:17:31Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 29
  },
  "dbt-labs": {
@@ -230,8 +229,8 @@
   "last_fetched": 25,
   "last_item_count": 0,
   "last_new_item": "2026-11-17T18:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 70
  },
  "dla-piper-privacy": {
@@ -239,8 +238,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T15:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  },
  "dsk": {
@@ -248,8 +247,8 @@
   "last_fetched": 6,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T15:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  },
  "dutch-ap": {
@@ -257,8 +256,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T08:39:31Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 12
  },
  "eba": {
@@ -266,8 +265,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-20T18:17:26Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 1
  },
  "ec-presscorner": {
@@ -275,16 +274,16 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-17T12:17:24Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 4
  },
  "ecb-supervision": {
   "consecutive_failures": 0,
   "last_fetched": 15,
   "last_item_count": 0,
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 0
  },
  "eckerson": {
@@ -292,8 +291,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T12:17:29Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 3
  },
  "edpb": {
@@ -301,34 +300,34 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T15:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 29
  },
  "edps": {
   "consecutive_failures": 0,
   "last_fetched": 10,
-  "last_item_count": 0,
-  "last_new_item": "2026-11-26T09:17:24Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
-  "total_items": 17
+  "last_item_count": 1,
+  "last_new_item": "2026-11-27T12:17:32Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
+  "total_items": 18
  },
  "edri": {
   "consecutive_failures": 0,
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T09:17:36Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 24
  },
  "eiopa": {
   "consecutive_failures": 0,
   "last_fetched": 30,
   "last_item_count": 0,
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 0
  },
  "enisa": {
@@ -336,44 +335,44 @@
   "last_fetched": 4,
   "last_item_count": 0,
   "last_new_item": "2026-11-10T18:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  },
  "epic": {
   "consecutive_failures": 0,
   "last_fetched": 10,
-  "last_item_count": 0,
-  "last_new_item": "2026-11-20T11:44:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
-  "total_items": 65
+  "last_item_count": 3,
+  "last_new_item": "2026-11-27T12:17:32Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
+  "total_items": 68
  },
  "eu-ai-act-newsletter": {
   "consecutive_failures": 0,
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T11:10:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 7
  },
  "euractiv": {
   "consecutive_failures": 0,
   "last_fetched": 100,
-  "last_item_count": 0,
-  "last_new_item": "2026-11-25T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
-  "total_items": 33
+  "last_item_count": 1,
+  "last_new_item": "2026-11-27T12:17:32Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
+  "total_items": 34
  },
  "europarl-press": {
   "consecutive_failures": 0,
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-12T12:17:32Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 2
  },
  "forrester": {
@@ -381,8 +380,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T15:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 14
  },
  "fpf": {
@@ -390,8 +389,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-20T15:17:31Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 11
  },
  "ftc": {
@@ -399,8 +398,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-11T00:17:31Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 2
  },
  "gaia-x": {
@@ -408,8 +407,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-23T15:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 6
  },
  "garante": {
@@ -417,8 +416,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T11:43:58Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 16
  },
  "google-cloud-data": {
@@ -426,8 +425,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T11:10:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 34
  },
  "hunton-privacy": {
@@ -435,8 +434,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 24
  },
  "iapp": {
@@ -444,8 +443,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T15:17:22Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 77
  },
  "idsa": {
@@ -453,8 +452,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T11:43:58Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 7
  },
  "imy": {
@@ -462,8 +461,8 @@
   "last_fetched": 238,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T09:17:24Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 20
  },
  "informatica": {
@@ -471,8 +470,8 @@
   "last_fetched": 4,
   "last_item_count": 0,
   "last_new_item": "2026-11-17T18:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 7
  },
  "informationweek": {
@@ -480,8 +479,8 @@
   "last_fetched": 50,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T12:17:24Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 10
  },
  "inside-privacy": {
@@ -489,8 +488,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T15:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 14
  },
  "irish-dpc": {
@@ -498,15 +497,16 @@
   "last_fetched": 5,
   "last_item_count": 0,
   "last_new_item": "2026-11-13T12:17:33Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 6
  },
  "iso": {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
+  "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss",
   "last_fetched": 1580,
   "last_item_count": 0,
-  "last_run": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
   "last_success": "2026-11-27T09:17:27Z",
   "total_items": 0
  },
@@ -515,8 +515,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T15:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 17
  },
  "mckinsey-insights": {
@@ -524,8 +524,8 @@
   "last_fetched": 50,
   "last_item_count": 0,
   "last_new_item": "2026-11-20T09:17:29Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 6
  },
  "microsoft-security": {
@@ -533,8 +533,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-10-25T16:25:32Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 1
  },
  "mit-tech-review": {
@@ -542,8 +542,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 12
  },
  "modern-data-101": {
@@ -551,8 +551,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T15:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 17
  },
  "monte-carlo": {
@@ -560,8 +560,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T11:10:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 43
  },
  "nist": {
@@ -569,8 +569,8 @@
   "last_fetched": 40,
   "last_item_count": 0,
   "last_new_item": "2026-11-02T15:18:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 1
  },
  "noyb": {
@@ -578,8 +578,8 @@
   "last_fetched": 294,
   "last_item_count": 0,
   "last_new_item": "2026-11-05T15:18:18Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 15
  },
  "oecd-ai": {
@@ -587,8 +587,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-23T15:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 4
  },
  "onetrust": {
@@ -596,8 +596,8 @@
   "last_fetched": 15,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T21:17:28Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 22
  },
  "palantir": {
@@ -605,8 +605,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T21:17:28Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 2
  },
  "partnership-on-ai": {
@@ -614,8 +614,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-10-24T14:07:14Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 3
  },
  "politico-eu-tech": {
@@ -623,8 +623,8 @@
   "last_fetched": 31,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T15:17:27Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 11
  },
  "precisely": {
@@ -632,8 +632,8 @@
   "last_fetched": 12,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 27
  },
  "privacy-world": {
@@ -641,8 +641,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-20T21:17:23Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 21
  },
  "profisee": {
@@ -650,8 +650,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-23T06:17:22Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  },
  "semarchy": {
@@ -659,8 +659,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-11-19T09:17:36Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 3
  },
  "sidley-data-matters": {
@@ -668,8 +668,8 @@
   "last_fetched": 10,
   "last_item_count": 0,
   "last_new_item": "2026-10-27T21:17:58Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 2
  },
  "siliconangle-data": {
@@ -677,8 +677,8 @@
   "last_fetched": 30,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T13:47:02Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 24
  },
  "snowflake": {
@@ -686,8 +686,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-11-24T18:17:25Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 10
  },
  "stibo-systems": {
@@ -695,8 +695,8 @@
   "last_fetched": 5,
   "last_item_count": 0,
   "last_new_item": "2026-11-26T11:47:51Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 11
  },
  "tech-policy-press": {
@@ -704,8 +704,8 @@
   "last_fetched": 4191,
   "last_item_count": 0,
   "last_new_item": "2026-11-13T18:17:29Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 10
  },
  "the-record": {
@@ -713,8 +713,8 @@
   "last_fetched": 5,
   "last_item_count": 0,
   "last_new_item": "2026-11-25T15:17:22Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 36
  },
  "uk-dsit": {
@@ -722,8 +722,8 @@
   "last_fetched": 20,
   "last_item_count": 0,
   "last_new_item": "2026-10-29T18:18:15Z",
-  "last_run": "2026-11-27T09:17:27Z",
-  "last_success": "2026-11-27T09:17:27Z",
+  "last_run": "2026-11-27T12:17:32Z",
+  "last_success": "2026-11-27T12:17:32Z",
   "total_items": 5
  }
 }

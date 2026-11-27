@@ -539,6 +539,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "0b53290750e5c28f": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "regulation"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Internal appointment of a Croatian agency official to a Council of Europe committee vice-chair role; no concrete obligation change.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "0bdc6ee9d8c2791a": {
    "at": "2026-11-19T20:41:02Z",
    "categories": [
@@ -6458,6 +6469,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "85e4c86ea0825b34": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "epic-urges-us-state-department-to-withdraw-plan-to-share-passport-reco",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/196",
+   "primary_found": true,
+   "reason": "Comment opposing State Department plan to share passport records for voter verification; concrete data-sharing governance issue.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "8613331f1c2c84c9": {
    "at": "2026-11-23T12:17:36Z",
    "categories": [
@@ -6532,6 +6560,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Interview with a vendor CEO; company profile without governance news.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "888962e1609e3657": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Event meeting promotion with a blog link; no concrete news consequence.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9071,6 +9110,19 @@
    "relevant": true,
    "same_story_as": null
   },
+  "c22b96f4cc7fc5f6": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "ai-governance",
+    "regulation"
+   ],
+   "decision": "failed",
+   "error": "source not readable: HTTP 403",
+   "importance": 3,
+   "reason": "Ombudswoman request to improve transparency of AI Act standards-writing after complaints about industry-led process; concrete governance implication for AI Act standards.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "c292043bc86ef8fd": {
    "at": "2026-11-02T22:44:52Z",
    "categories": [
@@ -10194,6 +10246,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d8472630dce0e889": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "privacy",
+    "regulation"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "netchoice-sues-to-block-vermont-age-appropriate-design-code-and-new-yo",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/194",
+   "primary_found": true,
+   "reason": "NetChoice lawsuits against Vermont age-appropriate design code and New York SAFE for Kids Act; litigation affecting children's data obligations, though the excerpt is advocacy commentary.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "d8662084df591a4e": {
    "at": "2026-11-03T00:18:23Z",
    "categories": [
@@ -10942,6 +11011,23 @@
    "relevant": true,
    "same_story_as": null
   },
+  "e74d81599b100912": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "privacy",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "epic-sues-odni-to-obtain-fisc-opinion-that-recertified-section-702-sur",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/195",
+   "primary_found": true,
+   "reason": "Lawsuit seeking FISC opinion on Section 702 compliance problems; government surveillance data access with governance relevance.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "e7aca04467871a7d": {
    "at": "2026-11-17T12:17:37Z",
    "categories": [
@@ -11362,6 +11448,17 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Executive panel commentary on context challenges; generic thought leadership without concrete guidance.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "f011ed6dff664eb3": {
+   "at": "2026-11-27T12:17:45Z",
+   "categories": [
+    "strategy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointment announcement; hiring/people news without governance substance.",
    "relevant": false,
    "same_story_as": null
   },
@@ -12262,8 +12359,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 779,
-   "usd": 37.279
+   "calls": 789,
+   "usd": 38.0237
   }
  }
 }
