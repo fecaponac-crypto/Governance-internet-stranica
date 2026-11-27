@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-26T21:17:28Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-27T00:17:47Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$37.08** of $45 budget (773 calls)
+AI spend this month: **$37.19** of $45 budget (776 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **Netskope-sponsored survey: only 31% of US federal IT leaders report high visibility into shadow AI** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/193
 
 ## Recently skipped by triage
 
+- (2) Department of War adopting AI-aided classification and declassification management touches information governance and AI use in handling sensitive data; modest practitioner interest.
 - (1) Vendor-style how-to piece on choosing a platform; generic vendor marketing with no concrete news and no new development.
 - (2) EDPB opinion on Belgian BCRs, a routine approval procedure with limited broad impact.
 - (2) Updated DSK short paper on third-country transfers, useful but routine update.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Vendor blog promoting analyst research takeaways; vendor marketing, not a genuine launch or research finding.
 - (1) Ceremony for new European Chief Prosecutor; no data governance angle.
 - (1) Award announcement for AEPD; excluded category.
-- (2) Swedish DPA report finding digitising ICU diaries is compatible with GDPR; concrete practical guidance for health data digitisation.

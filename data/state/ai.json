@@ -2914,6 +2914,23 @@
    "relevant": false,
    "same_story_as": null
   },
+  "3d46678fc5b6d361": {
+   "at": "2026-11-27T00:17:47Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "netskope-sponsored-survey-only-31-of-us-federal-it-leaders-report-high",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/193",
+   "primary_found": true,
+   "reason": "Survey finding that federal agencies lack visibility into AI use and data access is a governance-relevant research finding, though source is a trade outlet with an excerpt-free title.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3daf77dcacc52c32": {
    "at": "2026-11-13T11:03:03Z",
    "categories": [
@@ -9532,6 +9549,18 @@
    "relevant": false,
    "same_story_as": null
   },
+  "cd2d1c78bc2aa99e": {
+   "at": "2026-11-27T00:17:47Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Department of War adopting AI-aided classification and declassification management touches information governance and AI use in handling sensitive data; modest practitioner interest.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "cd4cc1b98df9dfc0": {
    "at": "2026-11-24T12:17:44Z",
    "categories": [
@@ -12209,8 +12238,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 773,
-   "usd": 37.0844
+   "calls": 776,
+   "usd": 37.1856
   }
  }
 }
