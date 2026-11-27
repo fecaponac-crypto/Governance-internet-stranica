@@ -11,7 +11,7 @@ type: "Regulation"
 region: "US"
 status:
   stage: "Consultation"
-  detail: "Comment period closed 23 November 2026, when the new routine uses were due to take effect unless revised"
+  detail: "Comments closed 23 Nov 2026; new routine uses due to take effect that day unless revised"
 sources:
   - name: "Federal Register"
     title: "Privacy Act of 1974; System of Records (Department of State, Passport Services Records, State-26), FR Doc. 2026-21695"
