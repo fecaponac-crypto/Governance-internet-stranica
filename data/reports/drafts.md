@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-27T12:27:06Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-27T12:29:28Z** · candidates 0 · scored 0 · selected 0 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$38.02** of $45 budget (789 calls)
+AI spend this month: **$38.12** of $45 budget (791 calls)
 
 ## This run
 
-_No drafts this run._
+- ℹ️ not fact-checked **CNIL and France's HAS publish joint guide on deploying and using AI systems in healthcare** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/197
 
 ## Recently skipped by triage
 

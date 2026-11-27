@@ -12338,6 +12338,20 @@
    "relevant": true,
    "same_story_as": null
   },
+  "inbox-9fe23cca0fddef4a": {
+   "at": "2026-11-27T12:29:28Z",
+   "categories": [],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "cnil-and-france-s-has-publish-joint-guide-on-deploying-and-using-ai-sy",
+   "flagged": 0,
+   "importance": 5,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/197",
+   "primary_found": false,
+   "reason": "Picked by the editor (data/inbox.yaml)",
+   "relevant": true,
+   "same_story_as": null
+  },
   "inbox-c3ab45be3c67f524": {
    "at": "2026-11-02T19:18:35Z",
    "categories": [],
@@ -12359,8 +12373,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 789,
-   "usd": 38.0237
+   "calls": 791,
+   "usd": 38.1156
   }
  }
 }
