@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-27T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 7
+Last run: **2026-11-27T18:17:19Z** · sources checked: 81 · failed: 1 · new items this run: 3
 
-## New items, last 48 hours (59)
+## New items, last 48 hours (62)
 
 ### High priority sources
 
@@ -52,9 +52,12 @@ Last run: **2026-11-27T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | DataHub Blog (open source metadata platform) | [dbt Data Lineage: From Your Project’s DAG to Your Entire Stack](https://datahub.com/blog/dbt-data-lineage/) |
 | 2026-11-27 | DataHub Blog (open source metadata platform) | [MCP for Data Lineage: What It Does and How to Test the Answers](https://datahub.com/blog/mcp-for-data-lineage/) |
 | 2026-11-27 | The Record (Recorded Future News) | [Software giant SAP confirms cyber incident amid reports of source code breach](https://therecord.media/sap-germany-cyberattack-github) |
 | 2026-11-27 | LfDI Baden-Württemberg (Germany) | [Referent*in in der „Stabsstelle für Deutsche und Europäische Zusammenarbeit“](https://www.baden-wuerttemberg.datenschutz.de/referentin-in-der-stabsstelle-fuer-deutsche-und-europaeische-zusammenarbeit/) |
+| 2026-11-27 | Computer Weekly — IT security | [Resilience takes centre stage as applications move to the edge](https://www.computerweekly.com/opinion/Resilience-takes-centre-stage-as-applications-move-to-the-edge) |
+| 2026-11-27 | Computer Weekly — IT security | [Young British men lose £11bn in the ‘Moneysphere’](https://www.computerweekly.com/news/366655520/Young-British-men-lose-11bn-in-the-Moneysphere) |
 | 2026-11-27 | Computer Weekly — IT security | [Investigation underway into DWP cyber security incident as services taken offline](https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline) |
 | 2026-11-27 | Autorité de protection des données (Belgium) | [Sous la loupe : communiquer des e-mails à titre de preuve](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/27/sous-la-loupe-communiquer-des-e-mails-a-titre-de-preuve) |
 | 2026-11-26 | DataGalaxy | [Which platforms show the real business value of a data program?](https://www.datagalaxy.com/en/blog/business-value-of-a-data-program/) |
@@ -80,7 +83,7 @@ Last run: **2026-11-27T15:17:25Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **ISO — News** — failed 4× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **ISO — News** — failed 5× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 

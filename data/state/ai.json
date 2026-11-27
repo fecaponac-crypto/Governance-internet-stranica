@@ -1726,6 +1726,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "22babe6444901b82": {
+   "at": "2026-11-27T18:17:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Investment scam survey; fraud news without a data governance, privacy or AI governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "230935f30e60e172": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -1795,6 +1804,17 @@
    "importance": 1,
    "reason": "Event promotion for a conference with speaker lineup; excluded as event promotion.",
    "relevant": false,
+   "same_story_as": null
+  },
+  "23b424674a824ec5": {
+   "at": "2026-11-27T18:17:28Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Practical lineage guidance on dbt data lineage at model and column level; vendor/open-source platform blog offering usable how-to content, rated modestly.",
+   "relevant": true,
    "same_story_as": null
   },
   "23f3a038a5cebcc5": {
@@ -10084,6 +10104,15 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d277bd1ce7f11c4b": {
+   "at": "2026-11-27T18:17:28Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic edge-resilience thought piece with no data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d286e801168ebd62": {
    "at": "2026-11-25T18:17:38Z",
    "categories": [
@@ -12452,8 +12481,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 801,
-   "usd": 38.58
+   "calls": 802,
+   "usd": 38.5808
   }
  }
 }
