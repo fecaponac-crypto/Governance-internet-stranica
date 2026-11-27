@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-27T18:17:19Z** · sources checked: 81 · failed: 1 · new items this run: 3
+Last run: **2026-11-27T21:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (62)
+## New items, last 48 hours (49)
 
 ### High priority sources
 
@@ -12,7 +12,6 @@ Last run: **2026-11-27T18:17:19Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Opinions of the Advocate General at the Court Laila Medina in Cases C-865/24 P Ordre néerlandais des avocats du barreau de Bruxelles and Others v Council and C-866/24 P Ordre des avocats à la cour de Paris and Others v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260173en.pdf) |
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Joined Cases C-535/25 Amazon Italia Logistica, C-536/25 Amazon Italia Services, and C-537/25 Amazon Italia Transport](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260172en.pdf) |
 | 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
-| 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
 
 ### Medium priority sources
@@ -43,9 +42,6 @@ Last run: **2026-11-27T18:17:19Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Aktualisiertes Kurzpapier: Datenübermittlung in Drittländer oder an internationale Organisationen](https://www.datenschutzkonferenz-online.de/kurzpapiere.html#datenuebermittlung-in-drittlaender-oder-an-internationale-organisationen) |
 | 2026-11-25 | CDO Magazine | [Artificial Intelligence SAP Survey Finds ERP Systems Are the Primary AI Platform for 63% of Surveyed Saudi IT Decision-Makers](https://www.cdomagazine.tech/aiml/sap-survey-finds-erp-systems-are-the-primary-ai-platform-for-63-of-surveyed-saudi-it-decision-makers) |
 | 2026-11-25 | CDO Magazine | [US Federal News Bureau FinCEN Takes Systems Offline After Cyber Incident Affects Limited Part of Agency Systems](https://www.cdomagazine.tech/us-federal-news-bureau/fincen-takes-systems-offline-after-cyber-incident-affects-limited-part-of-agency-systems) |
-| 2026-11-25 | CDO Magazine | [Leadership Measure What Matters: Moving Data Leadership From Service to Value With Cencora SVP Jig Patel](https://www.cdomagazine.tech/leadership/measure-what-matters-moving-data-leadership-from-service-to-value-with-cencora-svp-jig-patel) |
-| 2026-11-25 | CDO Magazine | [Artificial Intelligence Agentic AI in the Enterprise: What Leaders Need to Know Now](https://www.cdomagazine.tech/aiml/agentic-ai-in-the-enterprise-what-leaders-need-to-know-now) |
-| 2026-11-25 | Euractiv | [MEPs back an exposome moonshot, now national capitals must decide [Partner Content]](https://www.rapporteur.com/news/meps-back-an-exposome-moonshot-now-national-capitals-must-decide/) |
 | 2026-11-24 | European Data Protection Supervisor (EDPS) | ['Shaping the future of data protection: EDPS and DPOs meet in Amsterdam'](https://www.edps.europa.eu/press-publications/press-news/news/2026/shaping-future-data-protection-edps-and-dpos-meet-amsterdam) |
 
 ### Low priority sources
@@ -68,22 +64,13 @@ Last run: **2026-11-27T18:17:19Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | Computer Weekly — IT security | [Independent review into ICO amid claims of ‘toxic culture’ at data protection watchdog](https://www.computerweekly.com/news/366655461/Independent-review-into-ICO-amid-claims-of-toxic-culture-at-data-protection-watchdog) |
 | 2026-11-26 | Stibo Systems Blog | [Our three takeaways from the 2026 Gartner® Magic Quadrant™ for your PIM evaluation](https://www.stibosystems.com/blog/our-three-takeaways-from-the-2026-gartner-magic-quadrant-for-your-pim-evaluation) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [NetChoice Destined to Lose New Lawsuits Against Vermont Age-Appropriate Design Code, New York SAFE for Kids](https://epic.org/netchoice-destined-to-lose-new-lawsuits-against-vermont-age-appropriate-design-code-new-york-safe-for-kids/) |
-| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Ransomware Group n0n Claims it Hit Financial Industry with AI Agents](https://www.dataprivacyandsecurityinsider.com/2026/11/ransomware-group-n0n-claims-it-hit-financial-industry-with-ai-agents/) |
-| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [The Doctor Is In … and So Is the AI](https://www.dataprivacyandsecurityinsider.com/2026/11/the-doctor-is-in-and-so-is-the-ai/) |
-| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Indiana Social Media Law Faces First Amendment Challenge](https://www.dataprivacyandsecurityinsider.com/2026/11/indiana-social-media-law-faces-first-amendment-challenge/) |
-| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [AI Toys Face Growing Scrutiny Over Child Safety](https://www.dataprivacyandsecurityinsider.com/2026/11/ai-toys-face-growing-scrutiny-over-child-safety/) |
-| 2026-11-25 | Data Privacy + Cybersecurity Insider (Robinson+Cole) | [Privacy Tip #518 – Rhode Island Sues TikTok for Harm to Children](https://www.dataprivacyandsecurityinsider.com/2026/11/privacy-tip-518-rhode-island-sues-tiktok-for-harm-to-children/) |
-| 2026-11-25 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-583/) |
-| 2026-11-25 | LfDI Baden-Württemberg (Germany) | [Kaffee Glühwein und Informationsfreiheit (3) – Infofreiheit im Austausch: Rückblick auf ein turbulentes Informationsfreiheitsjahr 2026](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-3-infofreiheit-im-austausch-rueckblick-auf-ein-turbulentes-informationsfreiheitsjahr-2026/) |
-| 2026-11-25 | Stibo Systems Blog | [Why AI needs multidomain MDM to understand your business](https://www.stibosystems.com/blog/why-ai-needs-multidomain-mdm-to-understand-your-business) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Sues ODNI for FISC Opinion Describing “Major Compliance Problems” With Section 702](https://epic.org/epic-sues-odni-for-fisc-opinion-describing-major-compliance-problems-with-section-702/) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Calls on State Department to Abandon Plans to Repurpose Passport Data for Voter Verification](https://epic.org/epic-calls-on-state-department-to-abandon-plans-to-repurpose-passport-data-for-voter-verification/) |
-| 2026-11-25 | Computer Weekly — IT security | [Threat actor use of Artex hacking framework surges](https://www.computerweekly.com/news/366655399/Threat-actor-use-of-Artex-hacking-framework-surges) |
 | 2026-11-18 | McKinsey Insights | [What is cloud computing? -test1](https://www.mckinsey.com/our-people/what-is-cloud-computing1-for-product-testing-only---hidden-from-search) |
 
 ## Source problems
 
-- **ISO — News** — failed 5× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **ISO — News** — failed 6× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 

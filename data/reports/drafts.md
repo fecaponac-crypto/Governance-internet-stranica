@@ -1,6 +1,6 @@
 # Drafts report
 
-Last run: **2026-11-27T18:17:28Z** · candidates 3 · scored 3 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-27T21:17:41Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$38.58** of $45 budget (802 calls)
 
@@ -10,9 +10,9 @@ _No drafts this run._
 
 ## Recently skipped by triage
 
+- (1) Investment scam survey; fraud news without a data governance, privacy or AI governance angle.
 - (2) Practical lineage guidance on dbt data lineage at model and column level; vendor/open-source platform blog offering usable how-to content, rated modestly.
 - (1) Generic edge-resilience thought piece with no data governance angle.
-- (1) Investment scam survey; fraud news without a data governance, privacy or AI governance angle.
 - (1) Job advertisement; hiring news.
 - (1) Generic explainer on cloud computing; test page with no governance news.
 - (1) Executive appointments roundup; hiring/people news without a governance angle.
