@@ -659,6 +659,11 @@ class SameTopicDuplicateTest(unittest.TestCase):
         # Same topic long ago: only the strict title rule applies.
         old = {**dfa, "date": "2025-01-01"}
         self.assertIsNone(draft.already_covered(new_dfa, [old]))
+        # An editor's pick is stopped only by the strong signals, not by a shared topic.
+        self.assertIsNone(draft.already_covered(new_dfa, [dfa, edpb], editor_pick=True))
+        same_case = {"slug": "c", "title": "Unrelated", "case": "Fine|2026-11-01|cnil", "date": today}
+        pick = {"title": "Different words", "enforcement": {"action": "Fine", "date": "2026-11-01", "authority": "CNIL"}}
+        self.assertEqual(draft.already_covered(pick, [same_case], editor_pick=True)["slug"], "c")
 
 
 class KeyErrorTest(unittest.TestCase):

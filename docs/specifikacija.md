@@ -252,6 +252,7 @@ Okvirne skupine izvora:
 
 - Kad provjera činjenica označi tvrdnje (partly / unsupported), pisac jednom prepravlja nacrt prema dokazima iz provjere (doda ograničenje, ispravi pripisivanje ili izbaci tvrdnju), a ispravljeni nacrt se ponovno provjerava. Zadržava se ispravljena verzija samo ako ima manje označenih tvrdnji.
 - Ako nacrt prekrši pravilo duljine (npr. opis kartice dulji od 90 znakova ili broj na kartici dulji od 22), pisac ga jednom skraćuje umjesto da se nacrt odbaci (od 26. 11. 2026.); tek ako i ispravljena verzija krši pravilo, nacrt se bilježi kao neuspio.
+- Vijesti koje urednik doda u `data/inbox.yaml` zaustavlja samo stroga provjera duplikata (isti slučaj ili gotovo isti naslov), a ne pravilo „ista institucija ili zakon u zadnjih 21 dan” (od 27. 11. 2026.): urednik je već procijenio da je riječ o drugoj priči.
 - PR prikazuje što je ispravljeno (✏️, sklopivi popis) i samo preostale tvrdnje za urednika (⚠️). Trošak: ~2 dodatna poziva po označenom nacrtu.
 - Razlog: urednik često nema vremena čitati upozorenja; 3. 11. su dvije neprovjerene tvrdnje objavljene i naknadno ispravljene.
 

@@ -206,8 +206,11 @@ def already_covered_key(d: dict) -> str | None:
     return f"{e['action']}|{e['date']}|{e['authority'][:25].lower()}" if e else None
 
 
-def already_covered(d: dict, others: list[dict]) -> dict | None:
-    """A story we already published, opened as a draft or drafted in this run that this draft would repeat."""
+def already_covered(d: dict, others: list[dict], editor_pick: bool = False) -> dict | None:
+    """A story we already published, opened as a draft or drafted in this run that this draft would repeat.
+
+    An editor's pick (data/inbox.yaml) is only stopped by the strong signals (same case, near-identical
+    title): the editor has already judged that it is a different story from related coverage."""
     from ingest import jaccard, title_tokens
 
     mine = title_tokens(d["title"])
@@ -223,7 +226,7 @@ def already_covered(d: dict, others: list[dict]) -> dict | None:
             recent = abs((today - date.fromisoformat(str(o.get("date") or today.isoformat())[:10])).days) <= SAME_TOPIC_DAYS
         except ValueError:
             recent = True
-        if shared and recent and overlap >= SAME_TOPIC_TITLE:
+        if shared and recent and overlap >= SAME_TOPIC_TITLE and not editor_pick:
             return o
     return None
 
@@ -1470,7 +1473,7 @@ def run(args) -> dict:
                     problems = validate(d)
                 if problems:
                     raise ModelError("; ".join(problems))
-                covered = already_covered(d, existing + pending + drafted_now)
+                covered = already_covered(d, existing + pending + drafted_now, editor_pick=item.get("method") == "inbox")
                 if covered:
                     raise Covered(covered)
                 if d["importance"] >= FACT_CHECK_MIN_IMPORTANCE:

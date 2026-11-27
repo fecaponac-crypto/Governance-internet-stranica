@@ -10,3 +10,7 @@
   title: "Cloud industry pushes back on the sovereignty levels in the EU Cloud and AI Development Act"
   note: "European and US cloud providers object to parts of the proposed Cloud and AI Development Act (CADA/CAIDA) sovereignty requirements for public-sector cloud, as reported by Euractiv on 2 November 2026. DIGITALEUROPE's statement of 22 October 2026 asks lawmakers to limit the strictest levels to highly sensitive workloads. The Commission proposal is COM(2026) 502 (EUR-Lex)."
   via: {name: "Euractiv", url: "https://www.rapporteur.com/news/the-eu-sovereign-cloud-criteria-that-european-providers-dislike/"}
+- url: https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil
+  published: 2026-11-27
+  title: "CNIL and HAS publish joint guide on deploying and using AI systems in healthcare"
+  note: "Joint CNIL–HAS guide 'IA en contexte de soins : accompagner le bon usage' for deployers and users of AI systems in health care, built from a public consultation under their March 2026 partnership agreement. Eleven sheets cover the AI life cycle: governance, procurement and contracts, training and authorisation, patient information, consent and rights, organisation of care, human oversight, traceability of use and results, quality management and vigilance, and end of life. It also supports hospitals' certification criteria on AI. Full guide (PDF) and summary are linked from the page. This is a different story from the CNIL's 6 November guidance on internal research by health professionals."
