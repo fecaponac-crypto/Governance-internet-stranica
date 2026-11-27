@@ -17,14 +17,20 @@ sources:
     title: "IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS"
     url: "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil"
     primary: true
-related: []
+  - name: "HAS and CNIL"
+    title: "IA en contexte de soins : accompagner le bon usage – Synthèse"
+    url: "https://www.cnil.fr/sites/default/files/2026-11/synthese_ia_en_contexte_de_soin.pdf"
+    primary: true
+related: [cnil-sets-out-gdpr-duties-for-internal-research-by-health-professional]
 card:
   figure: "11 sheets"
   caption: "Guide covers the full life cycle of AI systems used in healthcare"
 ---
 
-France's data protection authority, the CNIL, and the Haute Autorité de santé (HAS) published a jointly prepared guide on 27 November 2026 on the use of AI systems in care settings. It is aimed at all deployers and users of AI in the health sector and is designed to adapt to organisations at different levels of maturity.
+France's data protection authority, the CNIL, and the Haute Autorité de santé (HAS) published a jointly prepared guide on 27 November 2026 on the use of AI systems in care settings. It is aimed at all deployers and users of AI in the health sector.
 
-The guide followed multidisciplinary work and a public consultation. It is structured in **eleven sheets covering the whole AI life cycle**, from internal governance, procurement and contracting, through user information, consent and patient rights, human oversight and **traceability of uses and results**, to quality management and end of life. Each sheet includes a summary, an analysis of the legal framework and principles to apply, some marked as priorities.
+Drawn up after a public consultation, it is structured in **eleven sheets covering the whole AI life cycle**, from internal governance, procurement and contracting, through user information, consent and patient rights, human oversight and **traceability of uses and results**, to quality management and end of life. Each sheet sets out legal obligations and principles, some marked as priorities.
+
+Under governance, deployers must keep a record of processing and carry out a DPIA and a fundamental rights impact assessment where required. Priority principles include setting up governance dedicated to AI, **mapping all AI systems in use** and involving patient representatives. For procurement, deployers must check CE marking and GDPR compliance and sign health-data hosting contracts where a third party stores data. The guide recommends contract clauses on traceability and **access to activity logs**, performance and incident handling.
 
 The guide also supports health establishments in certification for AI-related criteria. It stems from a CNIL–HAS partnership agreement concluded in March 2026.
