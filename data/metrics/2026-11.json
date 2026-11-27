@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "updated": "2026-11-27T21:17:42Z",
+ "updated": "2026-11-27T23:30:11Z",
  "portal": {
   "published_total": 174,
   "published_this_month": 131,
@@ -13,18 +13,18 @@
   "sample_articles": 0
  },
  "pipeline": {
-  "items_collected": 819,
-  "runs": 291,
-  "runs_with_failed_sources": 233,
+  "items_collected": 821,
+  "runs": 292,
+  "runs_with_failed_sources": 234,
   "triage_decisions": {
-   "drafted": 146,
-   "skipped": 646,
+   "drafted": 147,
+   "skipped": 647,
    "failed": 23,
    "duplicate": 6
   },
-  "ai_spend_usd": 38.5808,
+  "ai_spend_usd": 38.8719,
   "sources_active": 81,
-  "sources_failing_now": 1
+  "sources_failing_now": 2
  },
  "editor": {
   "drafts_published": 132,
@@ -34,8 +34,8 @@
   "confirmed_subscribers": 1
  },
  "web": {
-  "page_views": 990,
-  "visits": 890,
+  "page_views": 1000,
+  "visits": 900,
   "bots_excluded": true,
   "by_day": [
    {
@@ -137,15 +137,20 @@
     "date": "2026-11-26",
     "page_views": 20,
     "visits": 20
+   },
+   {
+    "date": "2026-11-27",
+    "page_views": 10,
+    "visits": 10
    }
   ],
   "top_pages": [
    {
-    "requestPath": "/",
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
     "page_views": 120
    },
    {
-    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/",
+    "requestPath": "/",
     "page_views": 120
    },
    {
@@ -153,11 +158,11 @@
     "page_views": 90
    },
    {
-    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
+    "requestPath": "/category/security/",
     "page_views": 60
    },
    {
-    "requestPath": "/category/security/",
+    "requestPath": "/news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/",
     "page_views": 60
    },
    {
@@ -169,15 +174,15 @@
     "page_views": 30
    },
    {
+    "requestPath": "/news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/)",
+    "page_views": 20
+   },
+   {
+    "requestPath": "/monday-signal/2026-11-16/",
+    "page_views": 20
+   },
+   {
     "requestPath": "/opinion/",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/",
-    "page_views": 20
-   },
-   {
-    "requestPath": "/institutions/edpb/",
     "page_views": 20
    }
   ],
@@ -195,15 +200,15 @@
     "page_views": 60
    },
    {
-    "countryName": "GB",
-    "page_views": 40
-   },
-   {
     "countryName": "SE",
     "page_views": 40
    },
    {
-    "countryName": "AU",
+    "countryName": "GB",
+    "page_views": 40
+   },
+   {
+    "countryName": "BR",
     "page_views": 20
    },
    {
@@ -219,14 +224,14 @@
     "page_views": 20
    },
    {
-    "countryName": "BR",
+    "countryName": "AR",
     "page_views": 20
    }
   ],
   "referrers": [
    {
     "refererHost": "(direct)",
-    "page_views": 830
+    "page_views": 840
    },
    {
     "refererHost": "datagovernancesignal.com",

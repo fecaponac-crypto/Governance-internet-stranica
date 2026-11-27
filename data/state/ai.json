@@ -7976,6 +7976,17 @@
    "relevant": false,
    "same_story_as": null
   },
+  "a9954b9044d6438f": {
+   "at": "2026-11-27T23:29:08Z",
+   "categories": [
+    "ai-industry"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "US Commerce export consortia pathway for SI (systems integrator) exports is trade policy without a data governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "a9ad0b05efd93436": {
    "at": "2026-11-03T17:06:07Z",
    "categories": [
@@ -8103,6 +8114,23 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Funding round for a data/AI accuracy vendor; a minor market item with some governance relevance but reported via a weaker source.",
+   "relevant": true,
+   "same_story_as": null
+  },
+  "ac5fb02e4bf4982b": {
+   "at": "2026-11-27T23:29:08Z",
+   "categories": [
+    "ai-governance",
+    "security"
+   ],
+   "claims": 16,
+   "decision": "drafted",
+   "draft": "google-requires-ai-agents-to-reach-workspace-data-through-governed-mcp",
+   "flagged": 1,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/200",
+   "primary_found": true,
+   "reason": "Google requiring AI agents to use governed access to workspace data is a concrete governance control for agents accessing enterprise data; title only, but angle is directly relevant.",
    "relevant": true,
    "same_story_as": null
   },
@@ -12481,8 +12509,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 802,
-   "usd": 38.5808
+   "calls": 809,
+   "usd": 38.8719
   }
  }
 }

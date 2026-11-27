@@ -1,8 +1,8 @@
 # Traffic — 2026-11
 
-Updated 2026-11-27T21:17:42Z · source: Cloudflare Web Analytics (browsers only, no cookies)
+Updated 2026-11-27T23:30:11Z · source: Cloudflare Web Analytics (browsers only, no cookies)
 
-**890 visits · 990 page views** this month (bots excluded)
+**900 visits · 1000 page views** this month (bots excluded)
 
 _Cloudflare samples page loads, so figures are estimates rounded to tens._
 
@@ -28,36 +28,37 @@ _Cloudflare samples page loads, so figures are estimates rounded to tens._
 | 2026-11-23 | 30 | 30 |
 | 2026-11-24 | 30 | 30 |
 | 2026-11-26 | 20 | 20 |
+| 2026-11-27 | 10 | 10 |
 
 ## Top pages
 
-- / — 120
 - /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/ — 120
+- / — 120
 - /category/privacy/ — 90
-- /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/ — 60
 - /category/security/ — 60
+- /news/global-privacy-assembly-adopts-resolution-setting-11-data-protection-p/ — 60
 - /review/2026-11/ — 50
 - /news/digitaleurope-urges-eu-to-limit-strict-cloud-sovereignty-rules-to-sens/ — 30
+- /news/noyb-files-five-gdpr-complaints-against-scale-ai-over-tracking-and-bio/) — 20
+- /monday-signal/2026-11-16/ — 20
 - /opinion/ — 20
-- /news/dutch-ap-advises-consumers-not-to-buy-ai-camera-glasses-after-testing/ — 20
-- /institutions/edpb/ — 20
 
 ## Countries
 
 - US — 530
 - CN — 70
 - HR — 60
-- GB — 40
 - SE — 40
-- AU — 20
+- GB — 40
+- BR — 20
 - CA — 20
 - HK — 20
 - CL — 20
-- BR — 20
+- AR — 20
 
 ## Referrers
 
-- (direct) — 830
+- (direct) — 840
 - datagovernancesignal.com — 100
 - www.google.com — 20
 - m.baidu.com — 10

@@ -1,15 +1,16 @@
 # Drafts report
 
-Last run: **2026-11-27T21:17:41Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
+Last run: **2026-11-27T23:29:08Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
 
-AI spend this month: **$38.58** of $45 budget (802 calls)
+AI spend this month: **$38.87** of $45 budget (809 calls)
 
 ## This run
 
-_No drafts this run._
+- ⚠️ 1 claims to check (✏️ 2 corrected automatically) **Google requires AI agents to reach Workspace data through governed MCP servers and CLI from February 2027** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/200
 
 ## Recently skipped by triage
 
+- (1) US Commerce export consortia pathway for SI (systems integrator) exports is trade policy without a data governance angle.
 - (1) Investment scam survey; fraud news without a data governance, privacy or AI governance angle.
 - (2) Practical lineage guidance on dbt data lineage at model and column level; vendor/open-source platform blog offering usable how-to content, rated modestly.
 - (1) Generic edge-resilience thought piece with no data governance angle.
@@ -24,4 +25,3 @@ _No drafts this run._
 - (1) Brief Belgian DPA explainer on using emails as evidence with no excerpt; too thin to judge as substantive news.
 - (2) Department of War adopting AI-aided classification and declassification management touches information governance and AI use in handling sensitive data; modest practitioner interest.
 - (1) Vendor-style how-to piece on choosing a platform; generic vendor marketing with no concrete news and no new development.
-- (2) EDPB opinion on Belgian BCRs, a routine approval procedure with limited broad impact.

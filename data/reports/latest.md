@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-27T21:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-27T23:28:53Z** · sources checked: 81 · failed: 2 · new items this run: 2
 
 ## New items, last 48 hours (49)
 
@@ -18,6 +18,8 @@ Last run: **2026-11-27T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | CDO Magazine | [Artificial Intelligence Google Requires AI Agents to Use Governed Access to Workspace Data](https://www.cdomagazine.tech/aiml/google-requires-ai-agents-to-use-governed-access-to-workspace-data) |
+| 2026-11-27 | CDO Magazine | [US Federal News Bureau US Commerce Department Establishes On-Demand Pathway for American SI Export Consortia](https://www.cdomagazine.tech/us-federal-news-bureau/us-commerce-department-establishes-on-demand-pathway-for-american-si-export-consortia) |
 | 2026-11-27 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Barclays, Philip Morris International U.S., and New Balance](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-barclays-philip-morris-international-u-s-and-new-balance) |
 | 2026-11-27 | Alation Blog | [November 27, 2026 What Is Conversational Analytics? A Complete Guide Conversational analytics promises answers to any question. Without governed definitions, it can deliver confident wrong… Read More](https://www.alation.com/blog/what-is-conversational-analytics/) |
 | 2026-11-27 | CDO Magazine | [Leadership Moves Schreiber Foods Names Blair Tritt Vice President of Data, AI & Venturing](https://www.cdomagazine.tech/leadership-moves/schreiber-foods-names-blair-tritt-vice-president-of-data-ai-venturing) |
@@ -40,8 +42,6 @@ Last run: **2026-11-27T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Orientierungshilfe: Krankenhausinformationssysteme (OH KIS)](https://www.datenschutzkonferenz-online.de/orientierungshilfen.html#26-november-2026-orientierungshilfe-krankenhausinformationssysteme-oh-kis) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Stellungnahme zum Referentenentwurf des Bundesministeriums für Forschung, Technologie und Raumfahrt: Gesetz zur verbesserten Nutzung von Daten zu Forschungszwecken und zur Änderung bestehender Rechtsvorschriften](https://www.datenschutzkonferenz-online.de/stellungnahmen.html#25112026-stellungnahme-der-unabhaengigen-datenschutzaufsichtsbehoerden-der-laender_stand-11112026) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Aktualisiertes Kurzpapier: Datenübermittlung in Drittländer oder an internationale Organisationen](https://www.datenschutzkonferenz-online.de/kurzpapiere.html#datenuebermittlung-in-drittlaender-oder-an-internationale-organisationen) |
-| 2026-11-25 | CDO Magazine | [Artificial Intelligence SAP Survey Finds ERP Systems Are the Primary AI Platform for 63% of Surveyed Saudi IT Decision-Makers](https://www.cdomagazine.tech/aiml/sap-survey-finds-erp-systems-are-the-primary-ai-platform-for-63-of-surveyed-saudi-it-decision-makers) |
-| 2026-11-25 | CDO Magazine | [US Federal News Bureau FinCEN Takes Systems Offline After Cyber Incident Affects Limited Part of Agency Systems](https://www.cdomagazine.tech/us-federal-news-bureau/fincen-takes-systems-offline-after-cyber-incident-affects-limited-part-of-agency-systems) |
 | 2026-11-24 | European Data Protection Supervisor (EDPS) | ['Shaping the future of data protection: EDPS and DPOs meet in Amsterdam'](https://www.edps.europa.eu/press-publications/press-news/news/2026/shaping-future-data-protection-edps-and-dpos-meet-amsterdam) |
 
 ### Low priority sources
@@ -70,7 +70,8 @@ Last run: **2026-11-27T21:17:27Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **ISO — News** — failed 6× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **ISO — News** — failed 7× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 
