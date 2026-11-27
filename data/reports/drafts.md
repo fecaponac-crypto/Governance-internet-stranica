@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-27T00:17:47Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-27T01:45:09Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$37.19** of $45 budget (776 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **Netskope-sponsored survey: only 31% of US federal IT leaders report high visibility into shadow AI** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/193
+_No drafts this run._
 
 ## Recently skipped by triage
 
