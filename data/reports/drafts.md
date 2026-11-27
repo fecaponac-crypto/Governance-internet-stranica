@@ -1,15 +1,21 @@
 # Drafts report
 
-Last run: **2026-11-27T12:29:28Z** · candidates 0 · scored 0 · selected 0 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-27T15:17:37Z** · candidates 7 · scored 7 · selected 2 · drafted 2 · failed 0 · queued for next run 0
 
-AI spend this month: **$38.12** of $45 budget (791 calls)
+AI spend this month: **$38.58** of $45 budget (801 calls)
 
 ## This run
 
-- ℹ️ not fact-checked **CNIL and France's HAS publish joint guide on deploying and using AI systems in healthcare** — importance 3 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/197
+- ✅ (✏️ 2 corrected automatically) **SAP confirms cyber incident after reports hackers accessed its GitHub development environment** — importance 4 · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/198
+- ℹ️ not fact-checked **DWP takes some online services offline after cyber incident as investigation continues** — importance 3 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/199
 
 ## Recently skipped by triage
 
+- (1) Executive appointments roundup; hiring/people news without a governance angle.
+- (1) Vendor blog explainer on conversational analytics; generic vendor marketing/how-to.
+- (2) Vendor blog on MCP lineage testing; largely product-oriented, though touches lineage accuracy for AI agents.
+- (1) Job advertisement; hiring news.
+- (1) Generic explainer on cloud computing; test page with no governance news.
 - (2) Internal appointment of a Croatian agency official to a Council of Europe committee vice-chair role; no concrete obligation change.
 - (1) Event meeting promotion with a blog link; no concrete news consequence.
 - (1) Executive appointment announcement; hiring/people news without governance substance.
@@ -20,8 +26,3 @@ AI spend this month: **$38.12** of $45 budget (791 calls)
 - (2) Updated DSK short paper on third-country transfers, useful but routine update.
 - (1) CNIL plenary agenda only, no decision content.
 - (2) Same Purview retirement story already covered; vendor marketing angle.
-- (1) Event-style report on a conference visit with no concrete governance consequence.
-- (1) Generic thought-leadership piece on agentic AI with no concrete news or guidance.
-- (2) Press release from German DSK conference on cybersecurity; limited detail in excerpt.
-- (1) Conceptual architecture opinion without concrete news.
-- (2) DSK conference press release on data protection for cybersecurity, mostly general statement.

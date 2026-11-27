@@ -2827,6 +2827,22 @@
    "relevant": false,
    "same_story_as": "item:121817cbaf7b234b"
   },
+  "3ac46dfae402c39c": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 0,
+   "decision": "drafted",
+   "draft": "dwp-takes-some-online-services-offline-after-cyber-incident-as-investi",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/199",
+   "primary_found": true,
+   "reason": "DWP cyber incident taking services offline; public-sector security incident with data handling implications, though details are limited.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "3b846c20f45a03f4": {
    "at": "2026-11-02T18:18:48Z",
    "categories": [
@@ -7253,6 +7269,22 @@
    "relevant": false,
    "same_story_as": null
   },
+  "9a79f6f175dbf801": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [
+    "security"
+   ],
+   "claims": 12,
+   "decision": "drafted",
+   "draft": "sap-confirms-cyber-incident-after-reports-hackers-accessed-its-github",
+   "flagged": 0,
+   "importance": 3,
+   "pr": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/198",
+   "primary_found": false,
+   "reason": "SAP confirms cyber incident with reports of source code breach; notable security event for enterprise software.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "9a94a53174789115": {
    "at": "2026-11-10T09:19:14Z",
    "categories": [
@@ -7555,6 +7587,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Explainer and promotional content accompanying the Ataccama launch; generic thought-leadership rather than news, and duplicates the same product announcement.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "a142125c26a19ae7": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Job advertisement; hiring news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -8497,6 +8538,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Cost optimisation story for Snowflake credits; no governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "b74c6f6f0cd6b0a7": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Generic explainer on cloud computing; test page with no governance news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -9580,6 +9630,15 @@
    "relevant": false,
    "same_story_as": null
   },
+  "cc3106d637883e59": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Executive appointments roundup; hiring/people news without a governance angle.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "cc7832c56b0e7f5b": {
    "at": "2026-11-11T12:17:55Z",
    "categories": [
@@ -10140,6 +10199,17 @@
    "relevant": true,
    "same_story_as": null
   },
+  "d4ada841d2b8716e": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [
+    "metadata"
+   ],
+   "decision": "skipped",
+   "importance": 2,
+   "reason": "Vendor blog on MCP lineage testing; largely product-oriented, though touches lineage accuracy for AI agents.",
+   "relevant": false,
+   "same_story_as": null
+  },
   "d4c022aa68ef2403": {
    "at": "2026-10-26T15:18:52Z",
    "categories": [
@@ -10588,6 +10658,15 @@
    "decision": "skipped",
    "importance": 1,
    "reason": "Explainer/thought-leadership from a vendor blog; not a launch or research.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "ddf2b6fa6da0e957": {
+   "at": "2026-11-27T15:17:37Z",
+   "categories": [],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Vendor blog explainer on conversational analytics; generic vendor marketing/how-to.",
    "relevant": false,
    "same_story_as": null
   },
@@ -12373,8 +12452,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 791,
-   "usd": 38.1156
+   "calls": 801,
+   "usd": 38.58
   }
  }
 }

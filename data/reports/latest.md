@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-27T12:29:16Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-27T15:17:25Z** · sources checked: 81 · failed: 1 · new items this run: 7
 
-## New items, last 48 hours (61)
+## New items, last 48 hours (59)
 
 ### High priority sources
 
@@ -11,10 +11,6 @@ Last run: **2026-11-27T12:29:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Solemn undertaking ceremony at the Court of Justice of the European Union](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260174en.pdf) |
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Opinions of the Advocate General at the Court Laila Medina in Cases C-865/24 P Ordre néerlandais des avocats du barreau de Bruxelles and Others v Council and C-866/24 P Ordre des avocats à la cour de Paris and Others v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260173en.pdf) |
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Joined Cases C-535/25 Amazon Italia Logistica, C-536/25 Amazon Italia Services, and C-537/25 Amazon Italia Transport](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260172en.pdf) |
-| 2026-11-25 | IAPP — International Association of Privacy Professionals | [When nobody checks the work: What recent system outages mean for AI governance](https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance) |
-| 2026-11-25 | IAPP — International Association of Privacy Professionals | [Closing the AI connector blind spot: A certification model for privacy teams](https://iapp.org/news/a/closing-the-ai-connector-blind-spot-a-certification-model-for-privacy-teams) |
-| 2026-11-25 | IAPP — International Association of Privacy Professionals | [Who is responsible when the AI is wrong? Why legal duty does not equal technical visibility](https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility) |
-| 2026-11-25 | IAPP — International Association of Privacy Professionals | [How to track AI use and meet GDPR obligations effectively](https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively) |
 | 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
 | 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
@@ -23,6 +19,8 @@ Last run: **2026-11-27T12:29:16Z** · sources checked: 81 · failed: 2 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | CDO Magazine | [Leadership Moves This Week’s Leadership Moves: Barclays, Philip Morris International U.S., and New Balance](https://www.cdomagazine.tech/leadership-moves/this-weeks-leadership-moves-barclays-philip-morris-international-u-s-and-new-balance) |
+| 2026-11-27 | Alation Blog | [November 27, 2026 What Is Conversational Analytics? A Complete Guide Conversational analytics promises answers to any question. Without governed definitions, it can deliver confident wrong… Read More](https://www.alation.com/blog/what-is-conversational-analytics/) |
 | 2026-11-27 | CDO Magazine | [Leadership Moves Schreiber Foods Names Blair Tritt Vice President of Data, AI & Venturing](https://www.cdomagazine.tech/leadership-moves/schreiber-foods-names-blair-tritt-vice-president-of-data-ai-venturing) |
 | 2026-11-27 | CNIL (France) | [IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS](https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil) |
 | 2026-11-27 | Euractiv | [Commission asked to improve transparency of bloc’s standards-writing](https://www.rapporteur.com/news/commission-asked-to-improve-transparency-of-blocs-standards-writing/) |
@@ -48,14 +46,16 @@ Last run: **2026-11-27T12:29:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-25 | CDO Magazine | [Leadership Measure What Matters: Moving Data Leadership From Service to Value With Cencora SVP Jig Patel](https://www.cdomagazine.tech/leadership/measure-what-matters-moving-data-leadership-from-service-to-value-with-cencora-svp-jig-patel) |
 | 2026-11-25 | CDO Magazine | [Artificial Intelligence Agentic AI in the Enterprise: What Leaders Need to Know Now](https://www.cdomagazine.tech/aiml/agentic-ai-in-the-enterprise-what-leaders-need-to-know-now) |
 | 2026-11-25 | Euractiv | [MEPs back an exposome moonshot, now national capitals must decide [Partner Content]](https://www.rapporteur.com/news/meps-back-an-exposome-moonshot-now-national-capitals-must-decide/) |
-| 2026-11-25 | CDO Magazine | [AI Governance Layer 0: The Missing Layer in AI Governance](https://www.cdomagazine.tech/ai-governance/layer-0-the-missing-layer-in-ai-governance) |
-| 2026-11-25 | Alation Blog | [November 25, 2026 Describe Once, Render Anywhere: How We Built Intelligent Feeds on A2UI and MCP Apps Learn how our engineers built Intelligent Feeds on A2UI, for engineers who want to do the same: the catalog, the… Read More](https://www.alation.com/blog/a2ui-mcp-apps-component-catalog/) |
 | 2026-11-24 | European Data Protection Supervisor (EDPS) | ['Shaping the future of data protection: EDPS and DPOs meet in Amsterdam'](https://www.edps.europa.eu/press-publications/press-news/news/2026/shaping-future-data-protection-edps-and-dpos-meet-amsterdam) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | DataHub Blog (open source metadata platform) | [MCP for Data Lineage: What It Does and How to Test the Answers](https://datahub.com/blog/mcp-for-data-lineage/) |
+| 2026-11-27 | The Record (Recorded Future News) | [Software giant SAP confirms cyber incident amid reports of source code breach](https://therecord.media/sap-germany-cyberattack-github) |
+| 2026-11-27 | LfDI Baden-Württemberg (Germany) | [Referent*in in der „Stabsstelle für Deutsche und Europäische Zusammenarbeit“](https://www.baden-wuerttemberg.datenschutz.de/referentin-in-der-stabsstelle-fuer-deutsche-und-europaeische-zusammenarbeit/) |
+| 2026-11-27 | Computer Weekly — IT security | [Investigation underway into DWP cyber security incident as services taken offline](https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline) |
 | 2026-11-27 | Autorité de protection des données (Belgium) | [Sous la loupe : communiquer des e-mails à titre de preuve](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/27/sous-la-loupe-communiquer-des-e-mails-a-titre-de-preuve) |
 | 2026-11-26 | DataGalaxy | [Which platforms show the real business value of a data program?](https://www.datagalaxy.com/en/blog/business-value-of-a-data-program/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Beschluss zur Bonitätsprüfung und Hilfestellung zum Umgang mit Patientendaten](https://www.baden-wuerttemberg.datenschutz.de/112dsk-bonitaet-scoring-krankenhaussysteme-pm/) |
@@ -73,17 +73,14 @@ Last run: **2026-11-27T12:29:16Z** · sources checked: 81 · failed: 2 · new it
 | 2026-11-25 | Center for Data Innovation | [10 Bits: The Data News Hotlist](https://datainnovation.org/2026/11/10-bits-the-data-news-hotlist-583/) |
 | 2026-11-25 | LfDI Baden-Württemberg (Germany) | [Kaffee Glühwein und Informationsfreiheit (3) – Infofreiheit im Austausch: Rückblick auf ein turbulentes Informationsfreiheitsjahr 2026](https://www.baden-wuerttemberg.datenschutz.de/kaffee-und-informationsfreiheit-3-infofreiheit-im-austausch-rueckblick-auf-ein-turbulentes-informationsfreiheitsjahr-2026/) |
 | 2026-11-25 | Stibo Systems Blog | [Why AI needs multidomain MDM to understand your business](https://www.stibosystems.com/blog/why-ai-needs-multidomain-mdm-to-understand-your-business) |
-| 2026-11-25 | Autorité de protection des données (Belgium) | [Données de 1,2 million de Flamands volées : soyez vigilants](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/25/donnees-de-12-million-de-flamands-volees-soyez-vigilants) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Sues ODNI for FISC Opinion Describing “Major Compliance Problems” With Section 702](https://epic.org/epic-sues-odni-for-fisc-opinion-describing-major-compliance-problems-with-section-702/) |
-| 2026-11-25 | DataHub Blog (open source metadata platform) | [Context Layer for Data Engineering Teams: What You Own and How to Run It](https://datahub.com/blog/context-layer-for-data-engineering-teams/) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Calls on State Department to Abandon Plans to Repurpose Passport Data for Voter Verification](https://epic.org/epic-calls-on-state-department-to-abandon-plans-to-repurpose-passport-data-for-voter-verification/) |
-| 2026-11-25 | The Record (Recorded Future News) | [Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital](https://therecord.media/guadeloupe-ransomware-hospital-cyber) |
 | 2026-11-25 | Computer Weekly — IT security | [Threat actor use of Artex hacking framework surges](https://www.computerweekly.com/news/366655399/Threat-actor-use-of-Artex-hacking-framework-surges) |
+| 2026-11-18 | McKinsey Insights | [What is cloud computing? -test1](https://www.mckinsey.com/our-people/what-is-cloud-computing1-for-product-testing-only---hidden-from-search) |
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 2× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **ISO — News** — failed 3× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **ISO — News** — failed 4× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 
