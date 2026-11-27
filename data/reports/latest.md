@@ -1,8 +1,8 @@
 # Inflow report
 
-Last run: **2026-11-27T06:17:26Z** · sources checked: 81 · failed: 0 · new items this run: 0
+Last run: **2026-11-27T09:17:27Z** · sources checked: 81 · failed: 1 · new items this run: 2
 
-## New items, last 48 hours (60)
+## New items, last 48 hours (58)
 
 ### High priority sources
 
@@ -17,7 +17,6 @@ Last run: **2026-11-27T06:17:26Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-25 | IAPP — International Association of Privacy Professionals | [How to track AI use and meet GDPR obligations effectively](https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively) |
 | 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
 | 2026-11-25 | Court of Justice of the EU — Press releases | [Judgment of the General Court in Case T-151/24 End the Cage Age v Commission](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf) |
-| 2026-11-25 | Autoriteit Persoonsgegevens (Netherlands) | [AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres](https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres) |
 | 2026-11-11 | Hunton Privacy & Information Security Law Blog | [CalPrivacy Fines FedEx $2.975 Million for CCPA Violations Involving Online Tracking](https://www.hunton.com/privacy-and-cybersecurity-law-blog/calprivacy-fines-fedex-2-975-million-for-ccpa-violations-involving-online-tracking) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
 
@@ -25,6 +24,7 @@ Last run: **2026-11-27T06:17:26Z** · sources checked: 81 · failed: 0 · new it
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | CNIL (France) | [IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS](https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil) |
 | 2026-11-27 | CDO Magazine | [US Federal News Bureau Department of War Adopts AI-Aided System for Classification and Declassification Management](https://www.cdomagazine.tech/us-federal-news-bureau/department-of-war-adopts-ai-aided-system-for-classification-and-declassification-management) |
 | 2026-11-27 | CDO Magazine | [Artificial Intelligence Survey Finds Federal Agencies Lack Visibility Into AI Use and Data Access](https://www.cdomagazine.tech/aiml/survey-finds-federal-agencies-lack-visibility-into-ai-use-and-data-access) |
 | 2026-11-26 | CDO Magazine | [AI Governance Why Enterprise Agentic AI Needs Evidence and Accountability](https://www.cdomagazine.tech/ai-governance/why-enterprise-agentic-ai-needs-evidence-and-accountability) |
@@ -50,14 +50,12 @@ Last run: **2026-11-27T06:17:26Z** · sources checked: 81 · failed: 0 · new it
 | 2026-11-25 | Alation Blog | [November 25, 2026 Describe Once, Render Anywhere: How We Built Intelligent Feeds on A2UI and MCP Apps Learn how our engineers built Intelligent Feeds on A2UI, for engineers who want to do the same: the catalog, the… Read More](https://www.alation.com/blog/a2ui-mcp-apps-component-catalog/) |
 | 2026-11-25 | CDO Magazine | [Leadership Moves Wawanesa Insurance Names Yelena Kropivnitskaya as VP of Data & Analytics](https://www.cdomagazine.tech/leadership-moves/wawanesa-insurance-names-yelena-kropivnitskaya-as-vp-of-data-analytics) |
 | 2026-11-25 | DATAVERSITY | [Eyes on Data: The Roadmap to AI Optimization – Why AI-Ready Data Must Come First](https://www.dataversity.net/articles/eyes-on-data-the-roadmap-to-ai-optimization-why-ai-ready-data-must-come-first/) |
-| 2026-11-25 | DATAVERSITY | [Data Speaks for Itself: Information Quality – The Foundation of Reliable Agentic AI](https://www.dataversity.net/articles/data-speaks-for-itself-information-quality-the-foundation-of-reliable-agentic-ai/) |
-| 2026-11-25 | AZOP — Croatian Personal Data Protection Agency | [48. Svjetska konferencija za zaštitu podataka](https://azop.hr/48-svjetska-konferencija-za-zastitu-podataka/) |
-| 2026-11-25 | Ataccama Blog | [TDWI Blueprint Report: Governing Emerging and Diverse Data in the Age of AI](https://www.ataccama.com/analyst-research/tdwi-blueprint-governing-emerging-and-diverse-data) |
 
 ### Low priority sources
 
 | Date | Source | Title |
 |---|---|---|
+| 2026-11-27 | Autorité de protection des données (Belgium) | [Sous la loupe : communiquer des e-mails à titre de preuve](https://www.autoriteprotectiondonnees.be/citoyen/actualites/2026/11/27/sous-la-loupe-communiquer-des-e-mails-a-titre-de-preuve) |
 | 2026-11-26 | DataGalaxy | [Which platforms show the real business value of a data program?](https://www.datagalaxy.com/en/blog/business-value-of-a-data-program/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Beschluss zur Bonitätsprüfung und Hilfestellung zum Umgang mit Patientendaten](https://www.baden-wuerttemberg.datenschutz.de/112dsk-bonitaet-scoring-krankenhaussysteme-pm/) |
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Deutsch-europäische Zusammenarbeit – Datenschutz einfach umsetzen und wirksam kontrollieren](https://www.baden-wuerttemberg.datenschutz.de/112dsk-edsa-austausch-pm/) |
@@ -81,7 +79,7 @@ Last run: **2026-11-27T06:17:26Z** · sources checked: 81 · failed: 0 · new it
 
 ## Source problems
 
-_None._
+- **AZOP — Croatian Personal Data Protection Agency** — failed 1× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
 
 ## Check manually (weekly)
 

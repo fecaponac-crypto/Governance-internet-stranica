@@ -10498,6 +10498,19 @@
    "relevant": true,
    "same_story_as": null
   },
+  "ddc2fca973656987": {
+   "at": "2026-11-27T09:17:41Z",
+   "categories": [
+    "ai-governance",
+    "privacy"
+   ],
+   "decision": "duplicate",
+   "importance": 3,
+   "of": "cnil-sets-out-gdpr-duties-for-internal-research-by-health-professional",
+   "reason": "Joint CNIL and HAS guide on responsible use of AI in healthcare settings gives practical guidance on data protection and AI use; official regulator source.",
+   "relevant": true,
+   "same_story_as": null
+  },
   "dde1eee8bbb72261": {
    "at": "2026-10-30T18:02:32Z",
    "categories": [
@@ -11024,6 +11037,17 @@
    "decision": "skipped",
    "importance": 2,
    "reason": "Security blog post on a threat actor's cloud access path; it is a technical incident write-up with limited data governance framing and no clear practitioner-relevant governance development in the excerpt.",
+   "relevant": false,
+   "same_story_as": null
+  },
+  "e940b6cf8921e56b": {
+   "at": "2026-11-27T09:17:41Z",
+   "categories": [
+    "privacy"
+   ],
+   "decision": "skipped",
+   "importance": 1,
+   "reason": "Brief Belgian DPA explainer on using emails as evidence with no excerpt; too thin to judge as substantive news.",
    "relevant": false,
    "same_story_as": null
   },
@@ -12238,8 +12262,8 @@
    "usd": 4.6571
   },
   "2026-11": {
-   "calls": 776,
-   "usd": 37.1856
+   "calls": 779,
+   "usd": 37.279
   }
  }
 }
