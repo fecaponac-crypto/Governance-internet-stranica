@@ -1,14 +1,13 @@
 # Inflow report
 
-Last run: **2026-11-28T09:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-28T12:17:24Z** · sources checked: 81 · failed: 2 · new items this run: 0
 
-## New items, last 48 hours (43)
+## New items, last 48 hours (40)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
-| 2026-11-26 | Court of Justice of the EU — Press releases | [Solemn undertaking ceremony at the Court of Justice of the European Union](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260174en.pdf) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
 
 ### Medium priority sources
@@ -30,7 +29,6 @@ Last run: **2026-11-28T09:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | Ataccama Blog | [Purview data governance is retiring. Don’t just replace the catalog, upgrade the stack](https://www.ataccama.com/blog/purview-data-governance-is-retiring-dont-just-replace-the-catalog-upgrade-the-stack) |
 | 2026-11-26 | CDO Magazine | [Leadership Moves New Balance Appoints Nava Cretu-Kessel Director of Global Data Products](https://www.cdomagazine.tech/leadership-moves/new-balance-appoints-nava-cretu-kessel-director-of-global-data-products) |
 | 2026-11-26 | CNIL (France) | [Ordre du jour de la séance plénière du 26 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-26-novembre-2026) |
-| 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-galardonada-con-premio-por-la-labor-en-ciberdefensa) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Pressemitteilung: 112. Datenschutzkonferenz vom 24.-26.11.2026: Mit Datenschutz zur besseren Cybersicherheit](https://www.datenschutzkonferenz-online.de/pressemitteilungen.html#112-datenschutzkonferenz-vom-2426112026-mit-datenschutz-zur-besseren-cybersicherheit) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Beschluss: Anwendungsbereich des neuen § 37a BDSG bei Scoring-Sachverhalten](https://www.datenschutzkonferenz-online.de/beschluesse-dsk.html#anwendungsbereich-des-neuen-37a-bdsg-bei-scoringsachverhalten) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Orientierungshilfe: Krankenhausinformationssysteme (OH KIS)](https://www.datenschutzkonferenz-online.de/orientierungshilfen.html#26-november-2026-orientierungshilfe-krankenhausinformationssysteme-oh-kis) |
@@ -56,7 +54,6 @@ Last run: **2026-11-28T09:17:26Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | LfDI Baden-Württemberg (Germany) | [Datenschutzkonferenz: Mit Datenschutz bessere Cybersicherheit erreichen](https://www.baden-wuerttemberg.datenschutz.de/112dsk-datenschutz-datensicherheit/) |
 | 2026-11-26 | Modern Data 101 | [Latent Harness Model: From Data Platform to Agent Harness](https://moderndata101.substack.com/p/the-latent-harness-model) |
 | 2026-11-26 | Computer Weekly — IT security | [Independent review into ICO amid claims of ‘toxic culture’ at data protection watchdog](https://www.computerweekly.com/news/366655461/Independent-review-into-ICO-amid-claims-of-toxic-culture-at-data-protection-watchdog) |
-| 2026-11-26 | Stibo Systems Blog | [Our three takeaways from the 2026 Gartner® Magic Quadrant™ for your PIM evaluation](https://www.stibosystems.com/blog/our-three-takeaways-from-the-2026-gartner-magic-quadrant-for-your-pim-evaluation) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [NetChoice Destined to Lose New Lawsuits Against Vermont Age-Appropriate Design Code, New York SAFE for Kids](https://epic.org/netchoice-destined-to-lose-new-lawsuits-against-vermont-age-appropriate-design-code-new-york-safe-for-kids/) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Sues ODNI for FISC Opinion Describing “Major Compliance Problems” With Section 702](https://epic.org/epic-sues-odni-for-fisc-opinion-describing-major-compliance-problems-with-section-702/) |
 | 2026-11-25 | EPIC — Electronic Privacy Information Center | [EPIC Calls on State Department to Abandon Plans to Repurpose Passport Data for Voter Verification](https://epic.org/epic-calls-on-state-department-to-abandon-plans-to-repurpose-passport-data-for-voter-verification/) |
@@ -64,7 +61,8 @@ Last run: **2026-11-28T09:17:26Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **ISO — News** — failed 12× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **ISO — News** — failed 13× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **Modern Data 101** — failed 1× in a row: `HTTPError: 502 Server Error: Bad Gateway for url: https://datagovernancesignal.com/feeds/modern-data-101`
 
 ## Check manually (weekly)
 
