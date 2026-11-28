@@ -1,6 +1,6 @@
 # Inflow report
 
-Last run: **2026-11-28T00:17:22Z** · sources checked: 81 · failed: 2 · new items this run: 0
+Last run: **2026-11-28T03:17:27Z** · sources checked: 81 · failed: 3 · new items this run: 0
 
 ## New items, last 48 hours (49)
 
@@ -70,8 +70,9 @@ Last run: **2026-11-28T00:17:22Z** · sources checked: 81 · failed: 2 · new it
 
 ## Source problems
 
-- **AZOP — Croatian Personal Data Protection Agency** — failed 2× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
-- **ISO — News** — failed 8× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **AZOP — Croatian Personal Data Protection Agency** — failed 3× in a row: `ValueError: unreadable feed https://azop.hr/feed/: <unknown>:94:2: mismatched tag`
+- **Center for Data Innovation** — failed 1× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.datainnovation.org/feed/`
+- **ISO — News** — failed 9× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 
