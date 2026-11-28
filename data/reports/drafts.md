@@ -1,12 +1,12 @@
 # Drafts report
 
-Last run: **2026-11-27T23:29:08Z** · candidates 2 · scored 2 · selected 1 · drafted 1 · failed 0 · queued for next run 0
+Last run: **2026-11-28T00:17:33Z** · candidates 0 · scored 0 · selected 0 · drafted 0 · failed 0 · queued for next run 0
 
 AI spend this month: **$38.87** of $45 budget (809 calls)
 
 ## This run
 
-- ⚠️ 1 claims to check (✏️ 2 corrected automatically) **Google requires AI agents to reach Workspace data through governed MCP servers and CLI from February 2027** — importance 4 · primary source found · https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/200
+_No drafts this run._
 
 ## Recently skipped by triage
 
