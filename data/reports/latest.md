@@ -1,17 +1,14 @@
 # Inflow report
 
-Last run: **2026-11-28T07:54:00Z** · sources checked: 81 · failed: 1 · new items this run: 0
+Last run: **2026-11-28T09:17:26Z** · sources checked: 81 · failed: 1 · new items this run: 0
 
-## New items, last 48 hours (49)
+## New items, last 48 hours (43)
 
 ### High priority sources
 
 | Date | Source | Title |
 |---|---|---|
 | 2026-11-26 | Court of Justice of the EU — Press releases | [Solemn undertaking ceremony at the Court of Justice of the European Union](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260174en.pdf) |
-| 2026-11-26 | Court of Justice of the EU — Press releases | [Opinions of the Advocate General at the Court Laila Medina in Cases C-865/24 P Ordre néerlandais des avocats du barreau de Bruxelles and Others v Council and C-866/24 P Ordre des avocats à la cour de Paris and Others v Council](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260173en.pdf) |
-| 2026-11-26 | Court of Justice of the EU — Press releases | [Judgment of the Court of Justice in Joined Cases C-535/25 Amazon Italia Logistica, C-536/25 Amazon Italia Services, and C-537/25 Amazon Italia Transport](https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260172en.pdf) |
-| 2026-11-25 | European Data Protection Board (EDPB) | [Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches](https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en) |
 | 2026-11-10 | European Data Protection Board (EDPB) | [Opinion 30/2026 on the draft decision of the Belgian Supervisory Authority regarding the Controller Binding Corporate Rules of the CCEP Group](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-302026-on-the-draft-decision-of-the-belgian_en) |
 
 ### Medium priority sources
@@ -34,9 +31,6 @@ Last run: **2026-11-28T07:54:00Z** · sources checked: 81 · failed: 1 · new it
 | 2026-11-26 | CDO Magazine | [Leadership Moves New Balance Appoints Nava Cretu-Kessel Director of Global Data Products](https://www.cdomagazine.tech/leadership-moves/new-balance-appoints-nava-cretu-kessel-director-of-global-data-products) |
 | 2026-11-26 | CNIL (France) | [Ordre du jour de la séance plénière du 26 novembre 2026](https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-26-novembre-2026) |
 | 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-galardonada-con-premio-por-la-labor-en-ciberdefensa) |
-| 2026-11-26 | European Data Protection Supervisor (EDPS) | [New EDPS Newsletter out now](https://www.edps.europa.eu/press-publications/press-news/news/2026/new-edps-newsletter-out-now) |
-| 2026-11-26 | AEPD — Spanish Data Protection Agency | [La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-y-su-red-de-grupos-de-investigacion-suscriben-declaracion-privacidad) |
-| 2026-11-26 | Integritetsskyddsmyndigheten — IMY (Sweden) | [Ny rapport: Digitalisering av IVA-dagbok har stöd i GDPR](https://www.imy.se/nyheter/ny-rapport-digitalisering-av-iva-dagbok/) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Pressemitteilung: 112. Datenschutzkonferenz vom 24.-26.11.2026: Mit Datenschutz zur besseren Cybersicherheit](https://www.datenschutzkonferenz-online.de/pressemitteilungen.html#112-datenschutzkonferenz-vom-2426112026-mit-datenschutz-zur-besseren-cybersicherheit) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Beschluss: Anwendungsbereich des neuen § 37a BDSG bei Scoring-Sachverhalten](https://www.datenschutzkonferenz-online.de/beschluesse-dsk.html#anwendungsbereich-des-neuen-37a-bdsg-bei-scoringsachverhalten) |
 | 2026-11-26 | Datenschutzkonferenz — German data protection authorities | [Orientierungshilfe: Krankenhausinformationssysteme (OH KIS)](https://www.datenschutzkonferenz-online.de/orientierungshilfen.html#26-november-2026-orientierungshilfe-krankenhausinformationssysteme-oh-kis) |
@@ -70,7 +64,7 @@ Last run: **2026-11-28T07:54:00Z** · sources checked: 81 · failed: 1 · new it
 
 ## Source problems
 
-- **ISO — News** — failed 11× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
+- **ISO — News** — failed 12× in a row: `HTTPError: 403 Client Error: Forbidden for url: https://www.iso.org/contents/news.rss`
 
 ## Check manually (weekly)
 
